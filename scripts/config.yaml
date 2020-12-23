@@ -1,0 +1,17 @@
+paw_colors:
+  outline: '#000000'
+  part_1:
+    horizontal:
+      - '#ff7f7f'
+      - '#994c4c'
+    vertical:
+      - '#994c4c'
+      - '#ff0000'
+  part_1:
+    horizontal:
+      - '#ff7f7f'
+      - '#994c4c'
+    vertical:
+      - '#994c4c'
+      - '#ff0000'
+    
