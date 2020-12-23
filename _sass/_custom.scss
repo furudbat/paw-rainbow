@@ -1,0 +1,126 @@
+
+ul.pagination {
+    a.page {
+        position: relative;
+        display: block;
+        padding: $pagination-padding-y $pagination-padding-x;
+        margin-left: -$pagination-border-width;
+        line-height: $pagination-line-height;
+        color: $pagination-color;
+        text-decoration: if($link-decoration==none, null, none);
+        background-color: $pagination-bg;
+        border: $pagination-border-width solid $pagination-border-color;
+
+        &:hover {
+            z-index: 2;
+            color: $pagination-hover-color;
+            text-decoration: none;
+            background-color: $pagination-hover-bg;
+            border-color: $pagination-hover-border-color;
+        }
+
+        &:focus {
+            z-index: 3;
+            outline: $pagination-focus-outline;
+            box-shadow: $pagination-focus-box-shadow;
+        }
+    }
+
+    li {
+        &:first-child {
+            a.page {
+                margin-left: 0;
+                @include border-left-radius($border-radius);
+            }
+        }
+
+        &:last-child {
+            a.page {
+                @include border-right-radius($border-radius);
+            }
+        }
+
+        &.active a.page {
+            z-index: 3;
+            color: $pagination-active-color;
+            background-color: $pagination-active-bg;
+            border-color: $pagination-active-border-color;
+        }
+
+        &.disabled a.page {
+            color: $pagination-disabled-color;
+            pointer-events: none;
+            // Opinionated: remove the "hand" cursor set previously for .page-link
+            cursor: auto;
+            background-color: $pagination-disabled-bg;
+            border-color: $pagination-disabled-border-color;
+        }
+    }
+}
+
+.nav-tabs {
+    background-color: $card-cap-bg;
+}
+
+.card-header {
+    .nav-tabs {
+        background-color: $nav-tabs-bg-color;
+        border: $border-width solid $white;
+        border-radius: $border-radius;
+
+        .nav-link,
+        .nav-link.active {
+            color: $body-color;
+            //text-shadow: -1px 0 $white, 0 1px $white, 1px 0 $white, 0 -1px $white;
+        }
+
+        .nav-link,
+        .nav-link.active,
+        .nav-link.active:focus,
+        .nav-link.active:hover,
+        .nav-item.open .nav-link,
+        .nav-item.open .nav-link:focus,
+        .nav-item.open .nav-link:hover,
+        .nav-pills .nav-link,
+        .nav-pills .nav-link.active,
+        .nav-pills .nav-link.active:focus,
+        .nav-pills .nav-link.active:hover,
+        .nav-pills .nav-item.open .nav-link,
+        .nav-pills .nav-item.open .nav-link:focus,
+        .nav-pills .nav-item.open .nav-link:hover {
+            color: $body-color !important;
+            //text-shadow: -1px 0 $white, 0 1px $white, 1px 0 $white, 0 -1px $white;
+        }
+    }
+}
+
+.card {
+    .card-header-nav-tabs {
+        padding: 7px 0 0 0;
+
+        .nav-tabs {
+            background-color: $card-cap-bg;
+            border: 0;
+        }
+    }
+}
+
+.rounded-circle {
+    border-radius: 50%;
+}
+
+.w-item-icon {
+    width: 32px;
+}
+.item-icon {
+    width: 32px;
+    height: 32px;
+}
+
+.table-danger { 
+    background-color: lighten($danger, 10%);
+}
+
+.card-header {
+    font-weight: bold;
+}

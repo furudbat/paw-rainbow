@@ -1,0 +1,28 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "outDir": "./assets/js/app",
+    "allowJs": true,
+    "removeComments": true,
+    "sourceMap": true,
+    "strict": true,
+    "alwaysStrict": true,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "strictNullChecks": true,
+    "preserveConstEnums": true,
+    "esModuleInterop": true,
+    "target": "es5",
+    "module": "commonjs",
+    "lib": [
+      "dom",
+      "es6"
+    ]
+  },
+
+  "include": [
+    "src/**/*",
+    "lib/**/*"
+  ],
+  "exclude": ["node_modules", "**/*.spec.ts"]
+}
