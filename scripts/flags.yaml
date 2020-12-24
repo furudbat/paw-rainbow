@@ -1,0 +1,34 @@
+- name: None
+  colors:
+    - '#ffffff'
+- name: Pride
+  colors:
+    - '#FF0018'
+    - '#FFA52C'
+    - '#FFFF41'
+    - '#008018'
+    - '#0000F9'
+    - '#86007D'
+- name: Agender
+  colors:
+    - '#000000'
+    - '#b9b9b9'
+    - '#FFFFFF'
+    - '#b8f483'
+    - '#FFFFFF'
+    - '#b9b9b9'
+    - '#000000'
+- name: Asexual
+  colors:
+    - '#000000'
+    - '#a3a3a3'
+    - '#ffffff'
+    - '#800080'
+    - '#000000'
+- name: Bisexual
+  colors:
+    - '#d60270'
+    - '#d60270'
+    - '#9b4f96'
+    - '#0038a8'
+    - '#0038a8'

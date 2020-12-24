@@ -1,17 +1,56 @@
+transparent_color: '#bfa88f'
 paw_colors:
   outline: '#000000'
-  part_1:
+  extra_outline: '#1a1a1a'
+  left_part_1:
     horizontal:
-      - '#ff7f7f'
-      - '#994c4c'
+      - '#bc7c7c'
+      - '#ec6c6c'
     vertical:
-      - '#994c4c'
-      - '#ff0000'
-  part_1:
+      - '#bc7c7c'
+      - '#c64646'
+  left_part_2:
     horizontal:
-      - '#ff7f7f'
-      - '#994c4c'
+      - '#73b373'
+      - '#66e666'
     vertical:
-      - '#994c4c'
-      - '#ff0000'
-    
+      - '#73b373'
+      - '#40c040'
+  right_part_1:
+    horizontal:
+      - '#69a9a9'
+      - '#5fdfdf'
+    vertical:
+      - '#69a9a9'
+      - '#39b9b9'
+  right_part_2:
+    horizontal:
+      - '#5f5fa0'
+      - '#5959d9'
+    vertical:
+      - '#5f5fa0'
+      - '#3333b3'
+  center:
+    horizontal:
+      - '#533953'
+      - '#965696'
+      - '#d353d3'
+    vertical:
+      - '#965696'
+      - '#533953'
+      - '#5c285c'
+      - '#991999'
+    line:
+      - '#828282'
+      - '#7b7b7b'
+      - '#737373'
+      - '#533953'
+      - '#5c285c'
+    triangle:
+      - '#828282'
+      - '#7b7b7b'
+  craws:
+    - '#ffff00'
+
+
+
