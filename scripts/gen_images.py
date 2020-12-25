@@ -15,7 +15,7 @@ def hex_to_rgb(hex):
   hex = hex.replace('#', '')
   return tuple(int(hex[i:i+2], 16) for i in (0, 2, 4))
 
-def scanImage(paw_img, parts_from_config, color_code_map, transparent_color, outline_color, part, orientation):
+def scanImage(paw_img, parts_from_config, color_code_map, transparent_colors, outline_color, part, orientation):
     assert (orientation == "horizontal" or orientation == "vertical"), 'orientation must be "horizontal" or "vertical"'
 
     for part_color in parts_from_config[part][orientation]:
@@ -76,8 +76,11 @@ def scanImage(paw_img, parts_from_config, color_code_map, transparent_color, out
                 if a > 0:
                     px_color = Color(rgb_to_hex(rgb))
 
-                    find_end = part != 'whole' and (px_color == outline_color or px_color == transparent_color)
-                    find_end = find_end or (part == 'whole' and px_color == transparent_color)
+                    find_end = part != 'whole' and px_color == outline_color
+                    for transparent_color in transparent_colors:
+                        find_end = find_end or (part != 'whole' and px_color == transparent_color)
+                    for transparent_color in transparent_colors:
+                        find_end = find_end or (part == 'whole' and px_color == transparent_color)
 
                     if find_end:
                         color_code_map[part]['end_' + orientation].append(coordinate)
@@ -92,8 +95,11 @@ def scanImage(paw_img, parts_from_config, color_code_map, transparent_color, out
                 if a > 0:
                     px_color = Color(rgb_to_hex(rgb))
                     
-                    find_end = part != 'whole' and (px_color == outline_color or px_color == transparent_color)
-                    find_end = find_end or (part == 'whole' and px_color == transparent_color)
+                    find_end = part != 'whole' and px_color == outline_color
+                    for transparent_color in transparent_colors:
+                        find_end = find_end or (part != 'whole' and px_color == transparent_color)
+                    for transparent_color in transparent_colors:
+                        find_end = find_end or (part == 'whole' and px_color == transparent_color)
 
                     if find_end:
                         color_code_map[part]['end_' + orientation].append(coordinate)
@@ -126,30 +132,42 @@ def getOutlineImage(paw_img, outline_color):
 
     return paw_outlines_img
 
-def generateColorCodeMap(config, parts, paw_img, transparent_color, outline_color):
+def generateColorCodeMap(colors_config, parts, paw_img, transparent_colors, outline_color):
     parts_from_config = dict()
     color_code_map = dict()
 
     parts_from_config['whole'] = dict()
+    parts_from_config['whole']['horizontal'] = []
+    parts_from_config['whole']['vertical'] = []
+    color_code_map['whole'] = { 'start_horizontal': [], 'start_vertical': [], 'end_horizontal': [], 'end_vertical': [] }
     for part in parts:
         parts_from_config[part] = dict()
-        parts_from_config[part]['horizontal'] = config['paw_colors'][part]['horizontal']
-        parts_from_config[part]['vertical'] = config['paw_colors'][part]['vertical']
+        parts_from_config[part]['horizontal'] = colors_config[part]['horizontal']
+        parts_from_config[part]['vertical'] = colors_config[part]['vertical']
+
+        parts_from_config['whole']['horizontal'].extend(parts_from_config[part]['horizontal'])
+        parts_from_config['whole']['vertical'].extend(parts_from_config[part]['vertical'])
 
         color_code_map[part] = { 'start_horizontal': [], 'start_vertical': [], 'end_horizontal': [], 'end_vertical': [] }
 
-        scanImage(paw_img, parts_from_config, color_code_map, transparent_color, outline_color, part, 'horizontal')
-        scanImage(paw_img, parts_from_config, color_code_map, transparent_color, outline_color, part, 'vertical')
+        scanImage(paw_img, parts_from_config, color_code_map, transparent_colors, outline_color, part, 'horizontal')
+        scanImage(paw_img, parts_from_config, color_code_map, transparent_colors, outline_color, part, 'vertical')
     
+    scanImage(paw_img, parts_from_config, color_code_map, transparent_colors, outline_color, 'whole', 'horizontal')
+    scanImage(paw_img, parts_from_config, color_code_map, transparent_colors, outline_color, 'whole', 'vertical')
+
     color_code_map['center']['line'] = { 'start_horizontal': [], 'start_vertical': [], 'end_horizontal': [], 'end_vertical': [] }
     color_code_map['center']['triangle'] = []
+    color_code_map['whole']['line'] = { 'start_horizontal': [], 'start_vertical': [], 'end_horizontal': [], 'end_vertical': [] }
+    color_code_map['whole']['triangle'] = []
     color_code_map['craws'] = []
     color_code_map['extra_outline'] = []
 
-    parts_from_config['line'] = config['paw_colors']['center']['line']
+    parts_from_config['line'] = colors_config['center']['line']
     color_code_map['line'] = { 'start_horizontal': [], 'start_vertical': [], 'end_horizontal': [], 'end_vertical': [] }
-    scanImage(paw_img, parts_from_config, color_code_map, transparent_color, outline_color, 'line', 'vertical')
+    scanImage(paw_img, parts_from_config, color_code_map, transparent_colors, outline_color, 'line', 'vertical')
     color_code_map['center']['line'] = color_code_map['line']
+    color_code_map['whole']['line'] = color_code_map['line']
     del color_code_map['line'] 
 
     paw_width = paw_img.size[0]
@@ -161,168 +179,187 @@ def generateColorCodeMap(config, parts, paw_img, transparent_color, outline_colo
             rgb = r, g, b
             px_color = Color(rgb_to_hex(rgb))
                     
-            for i in range(len(config['paw_colors']['center']['triangle'])):
-                part_color = config['paw_colors']['center']['triangle'][i]
+            for i in range(len(colors_config['center']['triangle'])):
+                part_color = colors_config['center']['triangle'][i]
                 if i >= len(color_code_map['center']['triangle']):
                     color_code_map['center']['triangle'].append([])
+                    color_code_map['whole']['triangle'].append([])
                 if px_color == Color(part_color):
                     color_code_map['center']['triangle'][i].append(coordinate)
+                    color_code_map['whole']['triangle'][i].append(coordinate)
                     
-            for part_color in config['paw_colors']['craws']:
+            if 'craws' in colors_config:
+                for part_color in colors_config['craws']:
+                    if px_color == Color(part_color):
+                        color_code_map['craws'].append(coordinate)
+                    
+            if 'extra_outline' in colors_config:
+                part_color = colors_config['extra_outline']
                 if px_color == Color(part_color):
-                    color_code_map['craws'].append(coordinate)
-                    
-            part_color = config['paw_colors']['extra_outline']
-            if px_color == Color(part_color):
-                color_code_map['extra_outline'].append(coordinate)
+                    color_code_map['extra_outline'].append(coordinate)
 
     return color_code_map
 
 def genStripesParts(small_start, small_end, stripes, flag_colors_size, orientation):
     rest_stripes = int(stripes - flag_colors_size)
-    rest_stripes_start_part = int(rest_stripes / 2) 
-    rest_stripes_end_part = int(rest_stripes / 2) 
-    rest_stripes_start_center = rest_stripes - rest_stripes_start_part - rest_stripes_end_part + 1
-    rest_stripes_middle_center = 1
-    rest_stripes_end_center = rest_stripes - rest_stripes_start_part - rest_stripes_end_part + 1
+    stripes_start_part = int(rest_stripes / 2) 
+    stripes_end_part = int(rest_stripes / 2) 
+
+    stripes_middle_center = 1
+    stripes_start_center = rest_stripes - stripes_start_part - stripes_end_part + stripes_middle_center
+    stripes_end_center = rest_stripes - stripes_start_part - stripes_end_part + stripes_middle_center
 
     if small_start:
-        rest_stripes_start_part = rest_stripes_start_part + 1
-        rest_stripes_start_center = rest_stripes_start_center - 1
+        stripes_start_part = stripes_start_part + 1
+        stripes_start_center = stripes_start_center - 1
 
     if small_end:
-        rest_stripes_end_part = rest_stripes_end_part + 1
-        rest_stripes_end_center = rest_stripes_end_center - 1
+        stripes_end_part = stripes_end_part + 1
+        stripes_end_center = stripes_end_center - 1
 
     if flag_colors_size % 2 != 0:
-        rest_stripes_middle_center = rest_stripes_middle_center + 1
-    if flag_colors_size == 2 and stripes % 2 == 0:
-        rest_stripes_start_center = 0
-        rest_stripes_middle_center = 0
-        rest_stripes_end_center = 0
-        rest_stripes_start_part = int(stripes / 2)
-        rest_stripes_end_part = int(stripes / 2)
-    if flag_colors_size == 2 and stripes % 2 != 0:
-        rest_stripes_start_center = 0
-        rest_stripes_end_center = 0
-        rest_stripes_start_part = int(stripes / 2)
-        rest_stripes_end_part = int(stripes / 2)
-        rest_stripes_middle_center = stripes - rest_stripes_start_part - rest_stripes_end_part
+        stripes_middle_center = stripes_middle_center + 1
+    elif flag_colors_size == 2 and stripes % 2 == 0:
+        stripes_start_center = 0
+        stripes_middle_center = 0
+        stripes_end_center = 0
+        stripes_start_part = int(stripes / 2)
+        stripes_end_part = int(stripes / 2)
+    elif flag_colors_size == 2 and stripes % 2 != 0:
+        stripes_start_center = 0
+        stripes_end_center = 0
+        stripes_start_part = int(stripes / 2)
+        stripes_end_part = int(stripes / 2)
+        if stripes >= flag_colors_size*4:
+            pprint((stripes, stripes_start_part, stripes_end_part))
+            if flag_colors_size % 2 != 0:
+                stripes_start_part = stripes_start_part - int(stripes / 4)
+                stripes_end_part = stripes_end_part - int(stripes / 4)
+                stripes_start_center = stripes_start_center + int(stripes / 4) - 2
+            else:
+                stripes_start_part = stripes_start_part - int(stripes / 4)
+                stripes_end_part = stripes_end_part - int(stripes / 4)
+                stripes_start_center = stripes_start_center + int(stripes / 4) - 2
+                stripes_end_center = stripes_end_center + int(stripes / 4) - 2
+
+            stripes_middle_center = stripes - stripes_start_part - stripes_end_part + 1
+        else:
+            stripes_middle_center = stripes - stripes_start_part - stripes_end_part
 
     loop_counter = 0
     while(True):
         has_stripes_start_center = False
         has_stripes_middle_center = False
         has_stripes_end_center = False
-        rest_strips = stripes - rest_stripes_start_part 
+        rest_strips = stripes - stripes_start_part 
         for i in range(1, flag_colors_size-1):
-            if i == int(flag_colors_size/2-1) and rest_stripes_start_center > 0:
-                rest_strips = rest_strips - rest_stripes_start_center
+            if i == int(flag_colors_size/2-1) and stripes_start_center > 0:
+                rest_strips = rest_strips - stripes_start_center
                 has_stripes_start_center = True
-            elif i == int(flag_colors_size/2) and (rest_stripes_middle_center > 0):
-                rest_strips = rest_strips - rest_stripes_middle_center
+            elif i == int(flag_colors_size/2) and (stripes_middle_center > 0):
+                rest_strips = rest_strips - stripes_middle_center
                 has_stripes_middle_center = True
-            elif i == int(flag_colors_size/2+1) and (rest_stripes_end_center > 0):
-                rest_strips = rest_strips - rest_stripes_end_center
+            elif i == int(flag_colors_size/2+1) and (stripes_end_center > 0):
+                rest_strips = rest_strips - stripes_end_center
                 has_stripes_end_center = True
             else:
                 rest_strips = rest_strips - 1
-        rest_strips = rest_strips - rest_stripes_end_part
+        rest_strips = rest_strips - stripes_end_part
         if rest_strips > 0 and loop_counter < stripes:
             if rest_strips == 1:
                 add_rest_stripes = rest_strips
                 if flag_colors_size == 2:
                     if orientation == 'horizontal':
-                        rest_stripes_start_part = rest_stripes_start_part + add_rest_stripes
+                        stripes_start_part = stripes_start_part + add_rest_stripes
                     elif orientation == 'vertical':
-                        rest_stripes_end_part = rest_stripes_end_part + add_rest_stripes
+                        stripes_end_part = stripes_end_part + add_rest_stripes
                 else:
                     if orientation == 'horizontal':
                         if has_stripes_start_center:
-                            rest_stripes_start_part = rest_stripes_start_part + add_rest_stripes
+                            stripes_start_part = stripes_start_part + add_rest_stripes
                         elif has_stripes_middle_center:
-                            rest_stripes_middle_center = rest_stripes_middle_center + add_rest_stripes
+                            stripes_middle_center = stripes_middle_center + add_rest_stripes
                     elif orientation == 'vertical':
                         if flag_colors_size % 2 == 0:
                             if has_stripes_start_center:
-                                rest_stripes_start_part = rest_stripes_start_part + add_rest_stripes
+                                stripes_start_part = stripes_start_part + add_rest_stripes
                             elif has_stripes_middle_center:
-                                rest_stripes_middle_center = rest_stripes_middle_center + add_rest_stripes
+                                stripes_middle_center = stripes_middle_center + add_rest_stripes
                         else:
                             if has_stripes_middle_center:
-                                rest_stripes_middle_center = rest_stripes_middle_center + add_rest_stripes
+                                stripes_middle_center = stripes_middle_center + add_rest_stripes
                             elif has_stripes_end_center:
-                                rest_stripes_end_center = rest_stripes_end_center + add_rest_stripes
+                                stripes_end_center = stripes_end_center + add_rest_stripes
             elif rest_strips % 2 == 0:
                 add_rest_stripes = int(rest_strips / 2)
                 if flag_colors_size == 2:
-                    rest_stripes_start_part = rest_stripes_start_part + add_rest_stripes
-                    rest_stripes_end_part = rest_stripes_end_part + add_rest_stripes
+                    stripes_start_part = stripes_start_part + add_rest_stripes
+                    stripes_end_part = stripes_end_part + add_rest_stripes
                 elif flag_colors_size % 2 == 0:
-                    rest_stripes_start_center = rest_stripes_start_center + add_rest_stripes
-                    rest_stripes_middle_center = rest_stripes_middle_center + add_rest_stripes
+                    stripes_start_center = stripes_start_center + add_rest_stripes
+                    stripes_middle_center = stripes_middle_center + add_rest_stripes
                 else:
-                    rest_stripes_middle_center = rest_stripes_middle_center + add_rest_stripes
-                    rest_stripes_end_center = rest_stripes_end_center + add_rest_stripes
+                    stripes_middle_center = stripes_middle_center + add_rest_stripes
+                    stripes_end_center = stripes_end_center + add_rest_stripes
             elif rest_strips % 3 == 0:
                 add_rest_stripes = int(rest_strips / 3)
-                rest_stripes_start_center = rest_stripes_start_center + add_rest_stripes
-                rest_stripes_middle_center = rest_stripes_middle_center + add_rest_stripes
-                rest_stripes_end_center = rest_stripes_end_center + add_rest_stripes
+                stripes_start_center = stripes_start_center + add_rest_stripes
+                stripes_middle_center = stripes_middle_center + add_rest_stripes
+                stripes_end_center = stripes_end_center + add_rest_stripes
             else:
                 add_rest_stripes = rest_strips
                 if flag_colors_size == 2:
                     if orientation == 'horizontal':
-                        rest_stripes_start_part = rest_stripes_start_part + add_rest_stripes
+                        stripes_start_part = stripes_start_part + add_rest_stripes
                     elif orientation == 'vertical':
-                        rest_stripes_end_part = rest_stripes_end_part + add_rest_stripes
+                        stripes_end_part = stripes_end_part + add_rest_stripes
                 elif flag_colors_size % 2 == 0:
                     if orientation == 'horizontal':
                         if has_stripes_start_center:
-                            rest_stripes_start_part = rest_stripes_start_part + add_rest_stripes
+                            stripes_start_part = stripes_start_part + add_rest_stripes
                         elif has_stripes_middle_center:
-                            rest_stripes_middle_center = rest_stripes_middle_center + add_rest_stripes
+                            stripes_middle_center = stripes_middle_center + add_rest_stripes
                     elif orientation == 'vertical':
-                        rest_stripes_end_center = rest_stripes_end_center + add_rest_stripes
+                        stripes_end_center = stripes_end_center + add_rest_stripes
                 else:
                     if orientation == 'horizontal':
-                        rest_stripes_middle_center = rest_stripes_middle_center + add_rest_stripes
+                        stripes_middle_center = stripes_middle_center + add_rest_stripes
                     elif orientation == 'vertical':
-                        rest_stripes_end_center = rest_stripes_end_center + add_rest_stripes
+                        stripes_end_center = stripes_end_center + add_rest_stripes
         else:
             if loop_counter >= stripes:
                 pprint(flag_colors_size)
-                pprint((rest_stripes_start_center, rest_stripes_middle_center, rest_stripes_end_center))
-                pprint((rest_stripes_start_part, rest_stripes_end_part))
+                pprint((stripes_start_center, stripes_middle_center, stripes_end_center))
+                pprint((stripes_start_part, stripes_end_part))
                 pprint(rest_strips)
                 pprint('genStripesParts: something went wrong, can elminate rest stripes')
             break
         loop_counter = loop_counter + 1
 
-    return rest_stripes_start_part, rest_stripes_start_center, rest_stripes_middle_center, rest_stripes_end_center, rest_stripes_end_part
+    return stripes_start_part, stripes_start_center, stripes_middle_center, stripes_end_center, stripes_end_part
 
-def getFlagColorsPalette(flag_colors, rest_stripes_start_part, rest_stripes_start_center, rest_stripes_middle_center, rest_stripes_end_center, rest_stripes_end_part):
+def getFlagColorsPalette(flag_colors, stripes_start_part, stripes_start_center, stripes_middle_center, stripes_end_center, stripes_end_part):
     flag_colors_size = len(flag_colors)
     flag_color_palette = []
-    for i in range(rest_stripes_start_part):
+    for i in range(stripes_start_part):
         flag_color = flag_colors[0]
         flag_color_palette.append(Color(flag_color))
 
     for i in range(1, flag_colors_size-1):
         flag_color = flag_colors[i]
-        if i == int(flag_colors_size/2-1) and rest_stripes_start_center > 0:
-            for j in range(rest_stripes_start_center):
+        if i == int(flag_colors_size/2-1) and stripes_start_center > 0:
+            for j in range(stripes_start_center):
                 flag_color_palette.append(Color(flag_color))
-        elif i == int(flag_colors_size/2) and (rest_stripes_middle_center > 0):
-            for j in range(rest_stripes_middle_center):
+        elif i == int(flag_colors_size/2) and (stripes_middle_center > 0):
+            for j in range(stripes_middle_center):
                 flag_color_palette.append(Color(flag_color))
-        elif i == int(flag_colors_size/2+1) and (rest_stripes_end_center > 0):
-            for j in range(rest_stripes_end_center):
+        elif i == int(flag_colors_size/2+1) and (stripes_end_center > 0):
+            for j in range(stripes_end_center):
                 flag_color_palette.append(Color(flag_color))
         else:
             flag_color_palette.append(Color(flag_color))
 
-    for i in range(rest_stripes_end_part):
+    for i in range(stripes_end_part):
         flag_color = flag_colors[-1]
         flag_color_palette.append(Color(flag_color))
 
@@ -412,8 +449,8 @@ def generateSpriteLine(output_map, paw_outlines_img, outline_color, flag, orient
                         flag_color = flag['colors'][i]
                         flag_color_palette.append(Color(flag_color))
                 else:
-                    rest_stripes_start_part, rest_stripes_start_center, rest_stripes_middle_center, rest_stripes_end_center, rest_stripes_end_part = genStripesParts(small_start, small_end, stripes, flag_colors_size, orientation)
-                    flag_color_palette = getFlagColorsPalette(flag['colors'], rest_stripes_start_part, rest_stripes_start_center, rest_stripes_middle_center, rest_stripes_end_center, rest_stripes_end_part)
+                    stripes_start_part, stripes_start_center, stripes_middle_center, stripes_end_center, stripes_end_part = genStripesParts(small_start, small_end, stripes, flag_colors_size, orientation)
+                    flag_color_palette = getFlagColorsPalette(flag['colors'], stripes_start_part, stripes_start_center, stripes_middle_center, stripes_end_center, stripes_end_part)
             else:
                 output_map[flag_name][key]['flags_fits'] = False
                 flag_color_palette = getFlagColorPaletteStriped(flag['colors'], stripes, orientation)
@@ -446,8 +483,8 @@ def generateSpriteLine(output_map, paw_outlines_img, outline_color, flag, orient
                                 output_flage_part_pixels[x ,y] = hex_to_rgb(flag_color_palette[i].hex_l)
 
             if orientation == 'vertical':
-                if part == 'center':
-                    if 'line' in flag:
+                if part == 'center' or part == 'whole':
+                    if 'line' in flag and 'line' in color_coords:
                         line_flag_color = Color(flag['line'])
                         for i in range(len(color_coords['line']['start_' + orientation])):
                             if 'line' in color_coords:
@@ -471,7 +508,7 @@ def generateSpriteLine(output_map, paw_outlines_img, outline_color, flag, orient
                                         for y in range(sy, ey):
                                             output_flage_part_pixels[x ,y] = hex_to_rgb(line_flag_color.hex_l)
                         
-                    if 'triangle' in flag:
+                    if 'triangle' in flag and 'triangle' in color_coords:
                         triangle_flag_colors = flag['triangle']
 
                         if len(triangle_flag_colors) == 1:
@@ -514,13 +551,13 @@ def generateSpriteLine(output_map, paw_outlines_img, outline_color, flag, orient
 
     return output_flage_frames_map
         
-def generatePaws(in_img_filename, parts, output_name, config, flags, transparent_color, outline_color):
+def generatePaws(in_img_filename, parts, output_name, colors_config, flags, transparent_colors, outline_color):
     color_code_map = dict()
 
     paw_outlines_img = Image.new(mode = "RGBA", size= (0, 0))
     with Image.open(in_img_filename) as paw_img:
         paw_outlines_img = getOutlineImage(paw_img, outline_color)
-        color_code_map = generateColorCodeMap(config, parts, paw_img, transparent_color, outline_color)
+        color_code_map = generateColorCodeMap(colors_config, parts, paw_img, transparent_colors, outline_color)
 
     with open('color_code_map.json', 'w') as f:
         json.dump(color_code_map, f, indent=4)
@@ -578,7 +615,9 @@ def main():
         gender_flags = yaml.load(f, Loader=yaml.FullLoader)
 
 
-    transparent_color = Color(config['transparent_color'])
+    transparent_colors = []
+    for transparent_color in config['transparent_colors']:
+        transparent_colors.append(Color(transparent_color))
     outline_color = Color(config['paw_colors']['outline'])
 
     parts = [
@@ -589,8 +628,8 @@ def main():
         'center'
     ]
 
-    generatePaws('./paw.png', parts, 'pride_paws', config, pride_flags, transparent_color, outline_color)
-    generatePaws('./paw.png', parts, 'gender_paws', config, gender_flags, transparent_color, outline_color)
+    generatePaws('./paw.png', parts, 'pride_paws', config['paw_colors'], pride_flags, transparent_colors, outline_color)
+    generatePaws('./paw.png', parts, 'gender_paws', config['paw_colors'], gender_flags, transparent_colors, outline_color)
 
 
 if __name__ == "__main__":

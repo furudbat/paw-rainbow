@@ -1,4 +1,6 @@
-transparent_color: '#bfa88f'
+transparent_colors: 
+  - '#bfa88f'
+  - '#ffff00'
 paw_colors:
   outline: '#000000'
   extra_outline: '#1a1a1a'
