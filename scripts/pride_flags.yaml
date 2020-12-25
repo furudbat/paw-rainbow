@@ -1,6 +1,7 @@
 - name: None
   colors:
     - '#1c1c1c'
+  default: true
 - name: Rainbow Pride Flag
   colors:
     - '#f00000'
@@ -19,22 +20,12 @@
     - '#3a7f30'
     - '#1c50f6'
     - '#6b1783'
-- name: Agender
-  colors:
-    - '#000000'
-    - '#b9b9b9'
-    - '#FFFFFF'
-    - '#b8f483'
-    - '#FFFFFF'
-    - '#b9b9b9'
-    - '#000000'
 - name: Asexual
   colors:
     - '#000000'
     - '#a3a3a3'
     - '#ffffff'
     - '#800080'
-    - '#000000'
 - name: Bisexual
   colors:
     - '#d60270'
@@ -56,31 +47,6 @@
     - '#c269a2'
     - '#a85c8e'
     - '#951f60'
-- name: Transgender 
-  colors:
-    - '#7ccdf6'
-    - '#eaaeba'
-    - '#ffffff'
-    - '#eaaeba'
-    - '#7ccdf6'
-- name: Genderqueer 
-  colors:
-    - '#b39bd9'
-    - '#ffffff'
-    - '#738d46'
-- name: Genderfluid  
-  colors:
-    - '#ed7ea3'
-    - '#ffffff'
-    - '#af30d0'
-    - '#000000'
-    - '#313fb8'
-- name: Non-Binary  
-  colors:
-    - '#fdf35e'
-    - '#ffffff'
-    - '#915fc9'
-    - '#2d2d2d'
 - name: Progress
   colors:
     - '#c32b1f'
@@ -90,5 +56,28 @@
     - '#051f92'
     - '#6b1785'
   triangle:
-    - '#000000'
     - '#ffffff'
+    - '#f498c0'
+    - '#7cc0ea'
+    - '#603917'
+    - '#000000'
+- name: Demisexual
+  colors:
+    - '#ffffff'
+    - '#d2d2d2'
+  triangle:
+    - '#000000'
+  line: '#67236d'
+- name: Polyamory
+  colors:
+    - '#204d9b'
+    - '#e52322'
+    - '#000000'
+- name: Polysexual
+  colors:
+    - '#c84793'
+    - '#4bb166'
+    - '#4288c8'
+- name: Intersex
+  colors:
+    - '#fed800'

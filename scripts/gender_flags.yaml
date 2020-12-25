@@ -1,0 +1,78 @@
+- name: Agender
+  colors:
+    - '#000000'
+    - '#b9b9b9'
+    - '#FFFFFF'
+    - '#b8f483'
+    - '#FFFFFF'
+    - '#b9b9b9'
+    - '#000000'
+- name: Transgender 
+  colors:
+    - '#7ccdf6'
+    - '#eaaeba'
+    - '#ffffff'
+    - '#eaaeba'
+    - '#7ccdf6'
+- name: Genderqueer 
+  colors:
+    - '#b39bd9'
+    - '#ffffff'
+    - '#738d46'
+- name: Genderfluid  
+  colors:
+    - '#ed7ea3'
+    - '#ffffff'
+    - '#af30d0'
+    - '#000000'
+    - '#313fb8'
+- name: Non-Binary  
+  colors:
+    - '#fdf35e'
+    - '#ffffff'
+    - '#915fc9'
+    - '#2d2d2d'
+- name: Demiboy
+  colors:
+    - '#7e7f7f'
+    - '#c5c3c4'
+    - '#9bd5e6'
+    - '#ffffff'
+    - '#9bd5e6'
+    - '#c5c3c4'
+    - '#7e7f7f'
+- name: Demigirl
+  colors:
+    - '#7e7f7f'
+    - '#c5c3c4'
+    - '#f4aec9'
+    - '#ffffff'
+    - '#f4aec9'
+    - '#c5c3c4'
+    - '#7e7f7f'
+- name: Neutrio
+  colors:
+    - '#ffffff'
+    - '#36ab4f'
+    - '#000000'
+- name: Ingender
+  colors:
+    - '#ffffff'
+- name: Pangender
+  colors:
+    - '#fff798'
+    - '#ffddcd'
+    - '#ffebfb'
+    - '#ffffff'
+    - '#ffebfb'
+    - '#ffddcd'
+    - '#fff798'
+- name: Bigender
+  colors:
+    - '#c479a0'
+    - '#eda5cb'
+    - '#d6c7e7'
+    - '#ffffff'
+    - '#d6c7e7'
+    - '#eda5cb'
+    - '#c479a0'
