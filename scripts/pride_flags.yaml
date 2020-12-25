@@ -1,6 +1,6 @@
 - name: None
   colors:
-    - '#1c1c1c'
+    - '#595959'
   default: true
 - name: Rainbow Pride Flag
   colors:

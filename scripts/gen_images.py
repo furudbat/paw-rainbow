@@ -15,116 +15,123 @@ def hex_to_rgb(hex):
   hex = hex.replace('#', '')
   return tuple(int(hex[i:i+2], 16) for i in (0, 2, 4))
 
-def scanImage(paw_img, parts_from_config, color_code_map, transparent_colors, outline_color, part, orientation):
+def scanImage(img, parts_from_config, color_code_map, transparent_colors, outline_color, part, orientation):
     assert (orientation == "horizontal" or orientation == "vertical"), 'orientation must be "horizontal" or "vertical"'
+    if not part in parts_from_config:
+        return
 
-    for part_color in parts_from_config[part][orientation]:
-        paw_width = paw_img.size[0]
-        paw_height = paw_img.size[1]
-        for y in range(paw_height):
-            for x in range(paw_width):
-                coordinate = x, y
-                rgba = r, g ,b, a = paw_img.getpixel(coordinate)
-                rgb = r, g, b
+    if not part in color_code_map:
+        color_code_map[part] = { 'start_horizontal': [], 'start_vertical': [], 'end_horizontal': [], 'end_vertical': [] }
 
-                if a > 0:
-                    px_color = Color(rgb_to_hex(rgb))
-                    if px_color == Color(part_color):
-                        find_exist_coord = False
-                        replace_coord_index = None
+    if part in parts_from_config and orientation in parts_from_config[part] and ('start_' + orientation) in color_code_map[part]:
+        for part_color in parts_from_config[part][orientation]:
+            paw_width = img.size[0]
+            paw_height = img.size[1]
+            for y in range(paw_height):
+                for x in range(paw_width):
+                    coordinate = x, y
+                    rgba = r, g ,b, a = img.getpixel(coordinate)
+                    rgb = r, g, b
 
-                        if part == 'whole':
-                            for i in range(len(color_code_map[part]['start_' + orientation])):
-                                if orientation == "horizontal":
-                                    if color_code_map[part]['start_' + orientation][i][1] == y and x < color_code_map[part]['start_' + orientation][i][0]:
-                                        replace_coord_index = i
-                                        find_exist_coord = True
-                                    elif color_code_map[part]['start_' + orientation][i][1] == y and color_code_map[part]['start_' + orientation][i][0] <= x:
-                                        find_exist_coord = True
-                                elif orientation == "vertical":
-                                    if color_code_map[part]['start_' + orientation][i][0] == x and y < color_code_map[part]['start_' + orientation][i][1]:
-                                        replace_coord_index = i
-                                        find_exist_coord = True
-                                    elif color_code_map[part]['start_' + orientation][i][0] == x and color_code_map[part]['start_' + orientation][i][1] <= y:
-                                        find_exist_coord = True
-                                if find_exist_coord:
-                                    break
-                        
-                        if replace_coord_index is not None and replace_coord_index >= 0:
-                            color_code_map[part]['start_' + orientation][replace_coord_index] = coordinate
-                        elif not find_exist_coord:
-                            color_code_map[part]['start_' + orientation].append(coordinate)
+                    if a > 0:
+                        px_color = Color(rgb_to_hex(rgb))
+                        if px_color == Color(part_color):
+                            find_exist_coord = False
+                            replace_coord_index = None
+
+                            if part == 'whole':
+                                for i in range(len(color_code_map[part]['start_' + orientation])):
+                                    if orientation == "horizontal":
+                                        if color_code_map[part]['start_' + orientation][i][1] == y and x < color_code_map[part]['start_' + orientation][i][0]:
+                                            replace_coord_index = i
+                                            find_exist_coord = True
+                                        elif color_code_map[part]['start_' + orientation][i][1] == y and color_code_map[part]['start_' + orientation][i][0] <= x:
+                                            find_exist_coord = True
+                                    elif orientation == "vertical":
+                                        if color_code_map[part]['start_' + orientation][i][0] == x and y < color_code_map[part]['start_' + orientation][i][1]:
+                                            replace_coord_index = i
+                                            find_exist_coord = True
+                                        elif color_code_map[part]['start_' + orientation][i][0] == x and color_code_map[part]['start_' + orientation][i][1] <= y:
+                                            find_exist_coord = True
+                                    if find_exist_coord:
+                                        break
+                            
+                            if replace_coord_index is not None and replace_coord_index >= 0:
+                                color_code_map[part]['start_' + orientation][replace_coord_index] = coordinate
+                            elif not find_exist_coord:
+                                color_code_map[part]['start_' + orientation].append(coordinate)
 
 
-    if orientation == "horizontal":
-        color_code_map[part]['start_' + orientation].sort(key=lambda coord: coord[1])
-    elif orientation == "vertical":
-        color_code_map[part]['start_' + orientation].sort(key=lambda coord: coord[0])
-
-    for start_coord in color_code_map[part]['start_' + orientation]:
-        x = sx = start_coord[0]
-        y = sy = start_coord[1]
-        prev_coord = x, y
-        find_end = False
-
-        # TODO: optimize, was lazy, copy&paste code x.x
         if orientation == "horizontal":
-            for x in range(sx, paw_width):
-                coordinate = x, y
-                rgba = r, g ,b, a = paw_img.getpixel(coordinate)
-                rgb= r, g, b
-                if a > 0:
-                    px_color = Color(rgb_to_hex(rgb))
-
-                    find_end = part != 'whole' and px_color == outline_color
-                    for transparent_color in transparent_colors:
-                        find_end = find_end or (part != 'whole' and px_color == transparent_color)
-                    for transparent_color in transparent_colors:
-                        find_end = find_end or (part == 'whole' and px_color == transparent_color)
-
-                    if find_end:
-                        color_code_map[part]['end_' + orientation].append(coordinate)
-                prev_coord = coordinate
-                if find_end:
-                    break
+            color_code_map[part]['start_' + orientation].sort(key=lambda coord: coord[1])
         elif orientation == "vertical":
-            for y in range(sy, paw_height):
-                coordinate = x, y
-                rgba = r, g ,b, a = paw_img.getpixel(coordinate)
-                rgb= r, g, b
-                if a > 0:
-                    px_color = Color(rgb_to_hex(rgb))
-                    
-                    find_end = part != 'whole' and px_color == outline_color
-                    for transparent_color in transparent_colors:
-                        find_end = find_end or (part != 'whole' and px_color == transparent_color)
-                    for transparent_color in transparent_colors:
-                        find_end = find_end or (part == 'whole' and px_color == transparent_color)
+            color_code_map[part]['start_' + orientation].sort(key=lambda coord: coord[0])
 
+    if part in color_code_map and 'start_' + orientation in color_code_map[part] and color_code_map[part]['start_' + orientation]:
+        for start_coord in color_code_map[part]['start_' + orientation]:
+            x = sx = start_coord[0]
+            y = sy = start_coord[1]
+            prev_coord = x, y
+            find_end = False
+
+            # TODO: optimize, was lazy, copy&paste code x.x
+            if orientation == "horizontal":
+                for x in range(sx, paw_width):
+                    coordinate = x, y
+                    rgba = r, g ,b, a = img.getpixel(coordinate)
+                    rgb= r, g, b
+                    if a > 0:
+                        px_color = Color(rgb_to_hex(rgb))
+
+                        find_end = part != 'whole' and px_color == outline_color
+                        for transparent_color in transparent_colors:
+                            find_end = find_end or (part != 'whole' and px_color == transparent_color)
+                        for transparent_color in transparent_colors:
+                            find_end = find_end or (part == 'whole' and px_color == transparent_color)
+
+                        if find_end:
+                            color_code_map[part]['end_' + orientation].append(coordinate)
+                    prev_coord = coordinate
                     if find_end:
-                        color_code_map[part]['end_' + orientation].append(coordinate)
-                        find_end = True
-                prev_coord = coordinate
-                if find_end:
-                    break
-        
-        if not find_end:
-            color_code_map[part]['end_' + orientation].append(prev_coord)
+                        break
+            elif orientation == "vertical":
+                for y in range(sy, paw_height):
+                    coordinate = x, y
+                    rgba = r, g ,b, a = img.getpixel(coordinate)
+                    rgb= r, g, b
+                    if a > 0:
+                        px_color = Color(rgb_to_hex(rgb))
+                        
+                        find_end = part != 'whole' and px_color == outline_color
+                        for transparent_color in transparent_colors:
+                            find_end = find_end or (part != 'whole' and px_color == transparent_color)
+                        for transparent_color in transparent_colors:
+                            find_end = find_end or (part == 'whole' and px_color == transparent_color)
+
+                        if find_end:
+                            color_code_map[part]['end_' + orientation].append(coordinate)
+                            find_end = True
+                    prev_coord = coordinate
+                    if find_end:
+                        break
             
+            if not find_end:
+                color_code_map[part]['end_' + orientation].append(prev_coord)
+    
     if len(color_code_map[part]['start_' + orientation]) != len(color_code_map[part]['end_' + orientation]) or len(color_code_map[part]['start_' + orientation]) != len(color_code_map[part]['end_' + orientation]):
         pprint(color_code_map[part])
         print('start_{} length different from end_{} length: {} {}'.format(orientation, orientation, len(color_code_map[part]['start_' + orientation]), len(color_code_map[part]['end_' + orientation])))
         exit()
 
-def getOutlineImage(paw_img, outline_color):
-    paw_width = paw_img.size[0]
-    paw_height = paw_img.size[1]
+def getOutlineImage(img, outline_color):
+    paw_width = img.size[0]
+    paw_height = img.size[1]
     paw_outlines_img = Image.new( mode = "RGBA", size = (paw_width, paw_height) )
     paw_outlines_pixels = paw_outlines_img.load()
     for y in range(paw_height):
         for x in range(paw_width):
             coordinate = x, y
-            rgba = r, g ,b, a = paw_img.getpixel(coordinate)
+            rgba = r, g ,b, a = img.getpixel(coordinate)
             rgb = r, g, b
             px_color = Color(rgb_to_hex(rgb))
             if px_color == outline_color:
@@ -132,68 +139,103 @@ def getOutlineImage(paw_img, outline_color):
 
     return paw_outlines_img
 
-def generateColorCodeMap(colors_config, parts, paw_img, transparent_colors, outline_color):
+def generateColorCodeMap(colors_config, parts, img, transparent_colors, outline_color):
     parts_from_config = dict()
     color_code_map = dict()
 
     parts_from_config['whole'] = dict()
     parts_from_config['whole']['horizontal'] = []
     parts_from_config['whole']['vertical'] = []
-    color_code_map['whole'] = { 'start_horizontal': [], 'start_vertical': [], 'end_horizontal': [], 'end_vertical': [] }
+    parts_from_config['whole']['triangle'] = []
     for part in parts:
         parts_from_config[part] = dict()
-        parts_from_config[part]['horizontal'] = colors_config[part]['horizontal']
-        parts_from_config[part]['vertical'] = colors_config[part]['vertical']
+        parts_from_config[part]['horizontal'] = colors_config[part]['horizontal'] if 'horizontal' in colors_config[part] else []
+        parts_from_config[part]['vertical'] = colors_config[part]['vertical'] if 'vertical' in colors_config[part] else []
 
         parts_from_config['whole']['horizontal'].extend(parts_from_config[part]['horizontal'])
         parts_from_config['whole']['vertical'].extend(parts_from_config[part]['vertical'])
 
-        color_code_map[part] = { 'start_horizontal': [], 'start_vertical': [], 'end_horizontal': [], 'end_vertical': [] }
+        scanImage(img, parts_from_config, color_code_map, transparent_colors, outline_color, part, 'horizontal')
+        scanImage(img, parts_from_config, color_code_map, transparent_colors, outline_color, part, 'vertical')
 
-        scanImage(paw_img, parts_from_config, color_code_map, transparent_colors, outline_color, part, 'horizontal')
-        scanImage(paw_img, parts_from_config, color_code_map, transparent_colors, outline_color, part, 'vertical')
-    
-    scanImage(paw_img, parts_from_config, color_code_map, transparent_colors, outline_color, 'whole', 'horizontal')
-    scanImage(paw_img, parts_from_config, color_code_map, transparent_colors, outline_color, 'whole', 'vertical')
+    scanImage(img, parts_from_config, color_code_map, transparent_colors, outline_color, 'whole', 'horizontal')
+    scanImage(img, parts_from_config, color_code_map, transparent_colors, outline_color, 'whole', 'vertical')
 
-    color_code_map['center']['line'] = { 'start_horizontal': [], 'start_vertical': [], 'end_horizontal': [], 'end_vertical': [] }
-    color_code_map['center']['triangle'] = []
-    color_code_map['whole']['line'] = { 'start_horizontal': [], 'start_vertical': [], 'end_horizontal': [], 'end_vertical': [] }
-    color_code_map['whole']['triangle'] = []
-    color_code_map['craws'] = []
-    color_code_map['extra_outline'] = []
+    if 'center' in colors_config:
+        if 'line' in colors_config['center']:
+            parts_from_config['horizontal_line'] = colors_config['center']['line']
+            parts_from_config['vertical_line'] = colors_config['center']['line']
+    if 'main' in colors_config:
+        if 'line' in colors_config['main']:
+            parts_from_config['horizontal_line'] = colors_config['main']['line']
+            parts_from_config['vertical_line'] = colors_config['main']['line']
 
-    parts_from_config['line'] = colors_config['center']['line']
-    color_code_map['line'] = { 'start_horizontal': [], 'start_vertical': [], 'end_horizontal': [], 'end_vertical': [] }
-    scanImage(paw_img, parts_from_config, color_code_map, transparent_colors, outline_color, 'line', 'vertical')
-    color_code_map['center']['line'] = color_code_map['line']
-    color_code_map['whole']['line'] = color_code_map['line']
-    del color_code_map['line'] 
+    scanImage(img, parts_from_config, color_code_map, transparent_colors, outline_color, 'horizontal_line', 'horizontal')
+    scanImage(img, parts_from_config, color_code_map, transparent_colors, outline_color, 'vertical_line', 'vertical')
 
-    paw_width = paw_img.size[0]
-    paw_height = paw_img.size[1]
+    if 'center' in colors_config:
+        color_code_map['center']['horizontal_line'] = color_code_map['horizontal_line'] if 'horizontal_line' in color_code_map else []
+        color_code_map['center']['vertical_line'] = color_code_map['vertical_line'] if 'vertical_line' in color_code_map else []
+    if 'main' in colors_config:
+        color_code_map['main']['horizontal_line'] = color_code_map['horizontal_line'] if 'horizontal_line' in color_code_map else []
+        color_code_map['main']['vertical_line'] = color_code_map['vertical_line'] if 'vertical_line' in color_code_map else []
+    color_code_map['whole']['horizontal_line'] = color_code_map['horizontal_line'] if 'horizontal_line' in color_code_map else []
+    color_code_map['whole']['vertical_line'] = color_code_map['vertical_line'] if 'vertical_line' in color_code_map else []
+
+    if 'horizontal_line' in color_code_map:
+        del color_code_map['horizontal_line']
+    if 'horizontal_line' in color_code_map:
+        del color_code_map['horizontal_line']
+    if 'line' in color_code_map:
+        del color_code_map['line']
+
+    paw_width = img.size[0]
+    paw_height = img.size[1]
     for y in range(paw_height):
         for x in range(paw_width):
             coordinate = x, y
-            rgba = r, g ,b, a = paw_img.getpixel(coordinate)
+            rgba = r, g ,b, a = img.getpixel(coordinate)
             rgb = r, g, b
             px_color = Color(rgb_to_hex(rgb))
                     
-            for i in range(len(colors_config['center']['triangle'])):
-                part_color = colors_config['center']['triangle'][i]
-                if i >= len(color_code_map['center']['triangle']):
-                    color_code_map['center']['triangle'].append([])
-                    color_code_map['whole']['triangle'].append([])
-                if px_color == Color(part_color):
-                    color_code_map['center']['triangle'][i].append(coordinate)
-                    color_code_map['whole']['triangle'][i].append(coordinate)
+            if 'center' in colors_config and 'triangle' in colors_config['center']:
+                if not 'triangle' in color_code_map['center']:
+                    color_code_map['center']['triangle'] = []
+                if not 'triangle' in color_code_map['whole']:
+                    color_code_map['whole']['triangle'] = []
+                for i in range(len(colors_config['center']['triangle'])):
+                    part_color = colors_config['center']['triangle'][i]
+                    if i >= len(color_code_map['center']['triangle']):
+                        color_code_map['center']['triangle'].append([])
+                        color_code_map['whole']['triangle'].append([])
+                    if px_color == Color(part_color):
+                        color_code_map['center']['triangle'][i].append(coordinate)
+                        color_code_map['whole']['triangle'][i].append(coordinate)
                     
+            if 'main' in colors_config and 'triangle' in colors_config['main']:
+                if not 'triangle' in color_code_map['main']:
+                    color_code_map['main']['triangle'] = []
+                if not 'triangle' in color_code_map['whole']:
+                    color_code_map['whole']['triangle'] = []
+                for i in range(len(colors_config['main']['triangle'])):
+                    part_color = colors_config['main']['triangle'][i]
+                    if i >= len(color_code_map['main']['triangle']):
+                        color_code_map['main']['triangle'].append([])
+                        color_code_map['whole']['triangle'].append([])
+                    if px_color == Color(part_color):
+                        color_code_map['main']['triangle'][i].append(coordinate)
+                        color_code_map['whole']['triangle'][i].append(coordinate)
+
             if 'craws' in colors_config:
+                if not 'craws' in color_code_map:
+                    color_code_map['craws'] = []
                 for part_color in colors_config['craws']:
                     if px_color == Color(part_color):
                         color_code_map['craws'].append(coordinate)
                     
             if 'extra_outline' in colors_config:
+                if not 'extra_outline' in color_code_map:
+                    color_code_map['extra_outline'] = []
                 part_color = colors_config['extra_outline']
                 if px_color == Color(part_color):
                     color_code_map['extra_outline'].append(coordinate)
@@ -395,31 +437,31 @@ def generateSpriteLine(output_map, paw_outlines_img, outline_color, flag, orient
         output_flage_part_pixels = output_flage_part.load()
 
         key = orientation + '_' + part
+        flag_colors_size = len(flag['colors'])
+        flag_name = flag['name']
 
-        if 'start_' + orientation in color_coords and 'end_' + orientation in color_coords:
+        flag_color_palette = []
+        if 'start_' + orientation in color_coords and 'end_' + orientation in color_coords and color_coords['start_' + orientation] and color_coords['end_' + orientation]:
             stripes = len(color_coords['start_' + orientation])
-            flag_colors_size = len(flag['colors'])
-            flag_name = flag['name']
 
             if not flag_name in output_map:
-                output_map[flag_name] = {}
+                output_map[flag_name] = dict()
             if not key in output_map[flag_name]:
                 output_map[flag_name][key] = { 'flag_name': flag_name, 'part': part, 'orientation': orientation }
 
-            flag_color_palette = []
-
             small_start = False
             small_end = False
-            if orientation == "horizontal":
-                start_line_size = color_coords['end_' + orientation][0][0] - color_coords['start_' + orientation][0][0]
-                end_line_size = color_coords['end_' + orientation][-1][0] - color_coords['start_' + orientation][-1][0]
-                small_start = start_line_size <= 1
-                small_end = end_line_size <= 1
-            elif orientation == "vertical":
-                start_line_size = color_coords['end_' + orientation][0][1] - color_coords['start_' + orientation][0][1]
-                end_line_size = color_coords['end_' + orientation][-1][1] - color_coords['start_' + orientation][-1][1]
-                small_start = start_line_size <= 1
-                small_end = end_line_size <= 1
+            if color_coords['start_' + orientation] and color_coords['end_' + orientation]:
+                if orientation == "horizontal":
+                    start_line_size = color_coords['end_' + orientation][0][0] - color_coords['start_' + orientation][0][0]
+                    end_line_size = color_coords['end_' + orientation][-1][0] - color_coords['start_' + orientation][-1][0]
+                    small_start = start_line_size <= 1
+                    small_end = end_line_size <= 1
+                elif orientation == "vertical":
+                    start_line_size = color_coords['end_' + orientation][0][1] - color_coords['start_' + orientation][0][1]
+                    end_line_size = color_coords['end_' + orientation][-1][1] - color_coords['start_' + orientation][-1][1]
+                    small_start = start_line_size <= 1
+                    small_end = end_line_size <= 1
 
             if flag_colors_size == 1:
                 output_map[flag_name][key]['flags_fits'] = True
@@ -459,38 +501,41 @@ def generateSpriteLine(output_map, paw_outlines_img, outline_color, flag, orient
                 pprint(flag_color_palette)
                 print('generateSpriteLine: flag_color_palette size < stripes: {} < {}'.format(len(flag_color_palette), stripes))
 
-            for i in range(stripes):
-                x = sx = color_coords['start_' + orientation][i][0]
-                y = sy = color_coords['start_' + orientation][i][1]
-                ex = color_coords['end_' + orientation][i][0]
-                ey = color_coords['end_' + orientation][i][1]
-                #line_width = ex - sx - 2
-                #line_height = ey - sy - 2
+            if color_coords['start_' + orientation] and color_coords['end_' + orientation]:
+                for i in range(stripes):
+                    x = sx = color_coords['start_' + orientation][i][0]
+                    y = sy = color_coords['start_' + orientation][i][1]
+                    ex = color_coords['end_' + orientation][i][0]
+                    ey = color_coords['end_' + orientation][i][1]
+                    #line_width = ex - sx - 2
+                    #line_height = ey - sy - 2
 
-                if i < len(flag_color_palette):
-                    if orientation == 'horizontal':
-                        if sx == ex:
-                            output_flage_part_pixels[x ,y] = hex_to_rgb(flag_color_palette[i].hex_l)
-                        else:
-                            for x in range(sx, ex):
+                    if i < len(flag_color_palette):
+                        if orientation == 'horizontal':
+                            if sx == ex:
                                 output_flage_part_pixels[x ,y] = hex_to_rgb(flag_color_palette[i].hex_l)
-                    elif orientation == 'vertical':
-                        if sy == ey:
-                            output_flage_part_pixels[x ,y] = hex_to_rgb(flag_color_palette[i].hex_l)
-                        else:
-                            for y in range(sy, ey):
+                            else:
+                                for x in range(sx, ex):
+                                    output_flage_part_pixels[x ,y] = hex_to_rgb(flag_color_palette[i].hex_l)
+                        elif orientation == 'vertical':
+                            if sy == ey:
                                 output_flage_part_pixels[x ,y] = hex_to_rgb(flag_color_palette[i].hex_l)
+                            else:
+                                for y in range(sy, ey):
+                                    output_flage_part_pixels[x ,y] = hex_to_rgb(flag_color_palette[i].hex_l)
 
-            if orientation == 'vertical':
-                if part == 'center' or part == 'whole':
-                    if 'line' in flag and 'line' in color_coords:
+                if part == 'center' or part == 'whole' or part == 'main':
+                    line_name = "{}_line".format(orientation)
+                    if not line_name in color_coords and 'line' in color_coords:
+                        line_name = 'line'
+                    if 'line' in flag and line_name in color_coords:
                         line_flag_color = Color(flag['line'])
-                        for i in range(len(color_coords['line']['start_' + orientation])):
-                            if 'line' in color_coords:
-                                x = sx = color_coords['line']['start_' + orientation][i][0]
-                                y = sy = color_coords['line']['start_' + orientation][i][1]
-                                ex = color_coords['line']['end_' + orientation][i][0]
-                                ey = color_coords['line']['end_' + orientation][i][1]
+                        if ('start_' + orientation) in color_coords[line_name] and ('end_' + orientation) in color_coords[line_name]:
+                            for i in range(len(color_coords[line_name]['start_' + orientation])):
+                                x = sx = color_coords[line_name]['start_' + orientation][i][0]
+                                y = sy = color_coords[line_name]['start_' + orientation][i][1]
+                                ex = color_coords[line_name]['end_' + orientation][i][0]
+                                ey = color_coords[line_name]['end_' + orientation][i][1]
                                 #line_width = ex - sx - 2
                                 #line_height = ey - sy - 2
 
@@ -506,57 +551,69 @@ def generateSpriteLine(output_map, paw_outlines_img, outline_color, flag, orient
                                     else:
                                         for y in range(sy, ey):
                                             output_flage_part_pixels[x ,y] = hex_to_rgb(line_flag_color.hex_l)
-                        
+                    
                     if 'triangle' in flag and 'triangle' in color_coords:
                         triangle_flag_colors = flag['triangle']
+                        color_coords_triangle = color_coords['triangle']
+                        color_coords_triangle_size = len(color_coords_triangle)
+                        triangle_flag_colors_size = len(triangle_flag_colors) 
 
-                        if len(triangle_flag_colors) == 1:
+                        if triangle_flag_colors_size == 1:
                             triangle_flag_color = Color(triangle_flag_colors[0])
-                            for i in range(len(color_coords['triangle'])-1):
-                                for color_cooord in color_coords['triangle'][i]:
-                                    x, y = color_cooord
+                            for i in range(color_coords_triangle_size-1):
+                                for color_coord in color_coords_triangle[i]:
+                                    x, y = color_coord
                                     output_flage_part_pixels[x ,y] = hex_to_rgb(triangle_flag_color.hex_l)
-                        elif color_coords == 2 and len(triangle_flag_colors) >= 2:
+                        elif color_coords_triangle_size == triangle_flag_colors_size:
+                            for i in range(color_coords_triangle_size):
+                                for color_coord in color_coords_triangle[i]:
+                                    x, y = color_coord
+                                    output_flage_part_pixels[x ,y] = hex_to_rgb(Color(triangle_flag_colors[i]).hex_l)
+                        elif color_coords_triangle_size == 2 and triangle_flag_colors_size >= 2:
                             start_triangle_flag_color = Color(triangle_flag_colors[0])
-                            end_triangle_flag_color = Color(triangle_flag_colors[1])
-                            for color_cooord in color_coords['triangle'][0]:
-                                x, y = color_cooord
+                            end_triangle_flag_color = Color(triangle_flag_colors[-1])
+                            for color_coord in color_coords_triangle[0]:
+                                x, y = color_coord
                                 output_flage_part_pixels[x ,y] = hex_to_rgb(start_triangle_flag_color.hex_l)
-                            for color_cooord in color_coords['triangle'][-1]:
-                                x, y = color_cooord
+                            for color_coord in color_coords_triangle[-1]:
+                                x, y = color_coord
                                 output_flage_part_pixels[x ,y] = hex_to_rgb(end_triangle_flag_color.hex_l)
                         else:
                             start_triangle_flag_color = Color(triangle_flag_colors[0])
                             end_triangle_flag_color = Color(triangle_flag_colors[-1])
-                            for color_cooord in color_coords['triangle'][0]:
+                            for color_cooord in color_coords_triangle[0]:
                                 x, y = color_cooord
                                 output_flage_part_pixels[x ,y] = hex_to_rgb(start_triangle_flag_color.hex_l)
-                            for i in range(1, len(color_coords['triangle'])-1):
-                                for color_cooord in color_coords['triangle'][i]:
+                            for i in range(1, color_coords_triangle-1):
+                                for color_cooord in color_coords_triangle[i]:
                                     x, y = color_cooord
                                     output_flage_part_pixels[x ,y] = hex_to_rgb(start_triangle_flag_color.hex_l)
-                            for color_cooord in color_coords['triangle'][-1]:
+                            for color_cooord in color_coords_triangle[-1]:
                                 x, y = color_cooord
                                 output_flage_part_pixels[x ,y] = hex_to_rgb(end_triangle_flag_color.hex_l)
+        else:
+            if flag_name in output_map and key in output_map[flag_name]:
+                output_map[flag_name][key]['empty'] = True
 
-            output_flage_part.paste(paw_outlines_img, (0, 0), paw_outlines_img)
+        output_flage_part.paste(paw_outlines_img, (0, 0), paw_outlines_img)
 
-            if 'extra_outline' in color_code_map:
-                for coord in color_code_map['extra_outline']:
-                    x, y = coord
-                    output_flage_part_pixels[x ,y] = hex_to_rgb(outline_color.hex_l)
+        if 'extra_outline' in color_code_map:
+            for coord in color_code_map['extra_outline']:
+                x, y = coord
+                output_flage_part_pixels[x ,y] = hex_to_rgb(outline_color.hex_l)
 
-            output_flage_frames_map[key] = output_flage_part
+        output_flage_frames_map[key] = output_flage_part
 
     return output_flage_frames_map
-        
-def generatePaws(in_img_filename, parts, output_name, colors_config, flags, transparent_colors, outline_color):
+    
+def generateSprite(in_img_filename, parts, output_name, colors_config, flags, transparent_colors):
+    outline_color = Color(colors_config['outline']) if 'outline' in colors_config else None
     color_code_map = dict()
 
     paw_outlines_img = Image.new(mode = "RGBA", size= (0, 0))
-    with Image.open(in_img_filename) as paw_img:
-        paw_outlines_img = getOutlineImage(paw_img, outline_color)
-        color_code_map = generateColorCodeMap(colors_config, parts, paw_img, transparent_colors, outline_color)
+    with Image.open(in_img_filename) as img:
+        paw_outlines_img = getOutlineImage(img, outline_color)
+        color_code_map = generateColorCodeMap(colors_config, parts, img, transparent_colors, outline_color)
 
     with open('color_code_map.json', 'w') as f:
         json.dump(color_code_map, f, indent=4)
@@ -617,18 +674,26 @@ def main():
     transparent_colors = []
     for transparent_color in config['transparent_colors']:
         transparent_colors.append(Color(transparent_color))
-    outline_color = Color(config['paw_colors']['outline'])
+    
+    # if 'paw' in config:
+    #     parts = [
+    #         'left_part_1',
+    #         'left_part_2',
+    #         'right_part_1',
+    #         'right_part_2',
+    #         'center'
+    #     ]
 
-    parts = [
-        'left_part_1',
-        'left_part_2',
-        'right_part_1',
-        'right_part_2',
-        'center'
-    ]
+    #     generateSprite('./paw.png', parts, 'pride_paws', config['paw'], pride_flags, transparent_colors)
+    #     generateSprite('./paw.png', parts, 'gender_paws', config['paw'], gender_flags, transparent_colors)
+        
+    if 'flag_horizontal' in config:
+        parts = [
+            'main'
+        ]
 
-    generatePaws('./paw.png', parts, 'pride_paws', config['paw_colors'], pride_flags, transparent_colors, outline_color)
-    generatePaws('./paw.png', parts, 'gender_paws', config['paw_colors'], gender_flags, transparent_colors, outline_color)
+        generateSprite('./flag_horizontal.png', parts, 'pride_flags', config['flag_horizontal'], pride_flags, transparent_colors)
+        generateSprite('./flag_horizontal.png', parts, 'gender_flags', config['flag_horizontal'], gender_flags, transparent_colors)
 
 
 if __name__ == "__main__":

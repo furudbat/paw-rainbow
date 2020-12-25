@@ -1,7 +1,7 @@
 Asexual:
   horizontal_center:
     coord:
-    - 242
+    - 286
     - 66
     - 22
     - 22
@@ -9,9 +9,25 @@ Asexual:
     flags_fits: true
     orientation: horizontal
     part: center
+  horizontal_craws:
+    coord:
+    - 308
+    - 66
+    - 22
+    - 22
+    flag_name: Asexual
+    part: horizontal_craws
+  horizontal_extra_outline:
+    coord:
+    - 330
+    - 66
+    - 22
+    - 22
+    flag_name: Asexual
+    part: horizontal_extra_outline
   horizontal_left_part_1:
     coord:
-    - 154
+    - 198
     - 66
     - 22
     - 22
@@ -21,7 +37,7 @@ Asexual:
     part: left_part_1
   horizontal_left_part_2:
     coord:
-    - 176
+    - 220
     - 66
     - 22
     - 22
@@ -31,7 +47,7 @@ Asexual:
     part: left_part_2
   horizontal_right_part_1:
     coord:
-    - 198
+    - 242
     - 66
     - 22
     - 22
@@ -41,7 +57,7 @@ Asexual:
     part: right_part_1
   horizontal_right_part_2:
     coord:
-    - 220
+    - 264
     - 66
     - 22
     - 22
@@ -51,7 +67,7 @@ Asexual:
     part: right_part_2
   horizontal_whole:
     coord:
-    - 132
+    - 176
     - 66
     - 22
     - 22
@@ -69,6 +85,22 @@ Asexual:
     flags_fits: true
     orientation: vertical
     part: center
+  vertical_craws:
+    coord:
+    - 132
+    - 66
+    - 22
+    - 22
+    flag_name: Asexual
+    part: vertical_craws
+  vertical_extra_outline:
+    coord:
+    - 154
+    - 66
+    - 22
+    - 22
+    flag_name: Asexual
+    part: vertical_extra_outline
   vertical_left_part_1:
     coord:
     - 22
@@ -126,7 +158,7 @@ Asexual:
 Bisexual:
   horizontal_center:
     coord:
-    - 242
+    - 286
     - 88
     - 22
     - 22
@@ -134,9 +166,25 @@ Bisexual:
     flags_fits: true
     orientation: horizontal
     part: center
+  horizontal_craws:
+    coord:
+    - 308
+    - 88
+    - 22
+    - 22
+    flag_name: Bisexual
+    part: horizontal_craws
+  horizontal_extra_outline:
+    coord:
+    - 330
+    - 88
+    - 22
+    - 22
+    flag_name: Bisexual
+    part: horizontal_extra_outline
   horizontal_left_part_1:
     coord:
-    - 154
+    - 198
     - 88
     - 22
     - 22
@@ -147,7 +195,7 @@ Bisexual:
     part: left_part_1
   horizontal_left_part_2:
     coord:
-    - 176
+    - 220
     - 88
     - 22
     - 22
@@ -157,7 +205,7 @@ Bisexual:
     part: left_part_2
   horizontal_right_part_1:
     coord:
-    - 198
+    - 242
     - 88
     - 22
     - 22
@@ -167,7 +215,7 @@ Bisexual:
     part: right_part_1
   horizontal_right_part_2:
     coord:
-    - 220
+    - 264
     - 88
     - 22
     - 22
@@ -178,7 +226,7 @@ Bisexual:
     part: right_part_2
   horizontal_whole:
     coord:
-    - 132
+    - 176
     - 88
     - 22
     - 22
@@ -196,6 +244,22 @@ Bisexual:
     flags_fits: true
     orientation: vertical
     part: center
+  vertical_craws:
+    coord:
+    - 132
+    - 88
+    - 22
+    - 22
+    flag_name: Bisexual
+    part: vertical_craws
+  vertical_extra_outline:
+    coord:
+    - 154
+    - 88
+    - 22
+    - 22
+    flag_name: Bisexual
+    part: vertical_extra_outline
   vertical_left_part_1:
     coord:
     - 22
@@ -249,7 +313,7 @@ Bisexual:
 Demisexual:
   horizontal_center:
     coord:
-    - 242
+    - 286
     - 176
     - 22
     - 22
@@ -257,9 +321,25 @@ Demisexual:
     flags_fits: true
     orientation: horizontal
     part: center
+  horizontal_craws:
+    coord:
+    - 308
+    - 176
+    - 22
+    - 22
+    flag_name: Demisexual
+    part: horizontal_craws
+  horizontal_extra_outline:
+    coord:
+    - 330
+    - 176
+    - 22
+    - 22
+    flag_name: Demisexual
+    part: horizontal_extra_outline
   horizontal_left_part_1:
     coord:
-    - 154
+    - 198
     - 176
     - 22
     - 22
@@ -269,7 +349,7 @@ Demisexual:
     part: left_part_1
   horizontal_left_part_2:
     coord:
-    - 176
+    - 220
     - 176
     - 22
     - 22
@@ -279,7 +359,7 @@ Demisexual:
     part: left_part_2
   horizontal_right_part_1:
     coord:
-    - 198
+    - 242
     - 176
     - 22
     - 22
@@ -289,7 +369,7 @@ Demisexual:
     part: right_part_1
   horizontal_right_part_2:
     coord:
-    - 220
+    - 264
     - 176
     - 22
     - 22
@@ -299,7 +379,7 @@ Demisexual:
     part: right_part_2
   horizontal_whole:
     coord:
-    - 132
+    - 176
     - 176
     - 22
     - 22
@@ -317,6 +397,22 @@ Demisexual:
     flags_fits: true
     orientation: vertical
     part: center
+  vertical_craws:
+    coord:
+    - 132
+    - 176
+    - 22
+    - 22
+    flag_name: Demisexual
+    part: vertical_craws
+  vertical_extra_outline:
+    coord:
+    - 154
+    - 176
+    - 22
+    - 22
+    flag_name: Demisexual
+    part: vertical_extra_outline
   vertical_left_part_1:
     coord:
     - 22
@@ -370,7 +466,7 @@ Demisexual:
 Intersex:
   horizontal_center:
     coord:
-    - 242
+    - 286
     - 242
     - 22
     - 22
@@ -378,9 +474,25 @@ Intersex:
     flags_fits: true
     orientation: horizontal
     part: center
+  horizontal_craws:
+    coord:
+    - 308
+    - 242
+    - 22
+    - 22
+    flag_name: Intersex
+    part: horizontal_craws
+  horizontal_extra_outline:
+    coord:
+    - 330
+    - 242
+    - 22
+    - 22
+    flag_name: Intersex
+    part: horizontal_extra_outline
   horizontal_left_part_1:
     coord:
-    - 154
+    - 198
     - 242
     - 22
     - 22
@@ -390,7 +502,7 @@ Intersex:
     part: left_part_1
   horizontal_left_part_2:
     coord:
-    - 176
+    - 220
     - 242
     - 22
     - 22
@@ -400,7 +512,7 @@ Intersex:
     part: left_part_2
   horizontal_right_part_1:
     coord:
-    - 198
+    - 242
     - 242
     - 22
     - 22
@@ -410,7 +522,7 @@ Intersex:
     part: right_part_1
   horizontal_right_part_2:
     coord:
-    - 220
+    - 264
     - 242
     - 22
     - 22
@@ -420,7 +532,7 @@ Intersex:
     part: right_part_2
   horizontal_whole:
     coord:
-    - 132
+    - 176
     - 242
     - 22
     - 22
@@ -438,6 +550,22 @@ Intersex:
     flags_fits: true
     orientation: vertical
     part: center
+  vertical_craws:
+    coord:
+    - 132
+    - 242
+    - 22
+    - 22
+    flag_name: Intersex
+    part: vertical_craws
+  vertical_extra_outline:
+    coord:
+    - 154
+    - 242
+    - 22
+    - 22
+    flag_name: Intersex
+    part: vertical_extra_outline
   vertical_left_part_1:
     coord:
     - 22
@@ -491,7 +619,7 @@ Intersex:
 Lesbian:
   horizontal_center:
     coord:
-    - 242
+    - 286
     - 132
     - 22
     - 22
@@ -500,9 +628,25 @@ Lesbian:
     flags_fits_perfect: true
     orientation: horizontal
     part: center
+  horizontal_craws:
+    coord:
+    - 308
+    - 132
+    - 22
+    - 22
+    flag_name: Lesbian
+    part: horizontal_craws
+  horizontal_extra_outline:
+    coord:
+    - 330
+    - 132
+    - 22
+    - 22
+    flag_name: Lesbian
+    part: horizontal_extra_outline
   horizontal_left_part_1:
     coord:
-    - 154
+    - 198
     - 132
     - 22
     - 22
@@ -512,7 +656,7 @@ Lesbian:
     part: left_part_1
   horizontal_left_part_2:
     coord:
-    - 176
+    - 220
     - 132
     - 22
     - 22
@@ -522,7 +666,7 @@ Lesbian:
     part: left_part_2
   horizontal_right_part_1:
     coord:
-    - 198
+    - 242
     - 132
     - 22
     - 22
@@ -532,7 +676,7 @@ Lesbian:
     part: right_part_1
   horizontal_right_part_2:
     coord:
-    - 220
+    - 264
     - 132
     - 22
     - 22
@@ -542,7 +686,7 @@ Lesbian:
     part: right_part_2
   horizontal_whole:
     coord:
-    - 132
+    - 176
     - 132
     - 22
     - 22
@@ -560,6 +704,22 @@ Lesbian:
     flags_fits: true
     orientation: vertical
     part: center
+  vertical_craws:
+    coord:
+    - 132
+    - 132
+    - 22
+    - 22
+    flag_name: Lesbian
+    part: vertical_craws
+  vertical_extra_outline:
+    coord:
+    - 154
+    - 132
+    - 22
+    - 22
+    flag_name: Lesbian
+    part: vertical_extra_outline
   vertical_left_part_1:
     coord:
     - 22
@@ -613,7 +773,7 @@ Lesbian:
 None:
   horizontal_center:
     coord:
-    - 242
+    - 286
     - 0
     - 22
     - 22
@@ -621,9 +781,25 @@ None:
     flags_fits: true
     orientation: horizontal
     part: center
+  horizontal_craws:
+    coord:
+    - 308
+    - 0
+    - 22
+    - 22
+    flag_name: None
+    part: horizontal_craws
+  horizontal_extra_outline:
+    coord:
+    - 330
+    - 0
+    - 22
+    - 22
+    flag_name: None
+    part: horizontal_extra_outline
   horizontal_left_part_1:
     coord:
-    - 154
+    - 198
     - 0
     - 22
     - 22
@@ -633,7 +809,7 @@ None:
     part: left_part_1
   horizontal_left_part_2:
     coord:
-    - 176
+    - 220
     - 0
     - 22
     - 22
@@ -643,7 +819,7 @@ None:
     part: left_part_2
   horizontal_right_part_1:
     coord:
-    - 198
+    - 242
     - 0
     - 22
     - 22
@@ -653,7 +829,7 @@ None:
     part: right_part_1
   horizontal_right_part_2:
     coord:
-    - 220
+    - 264
     - 0
     - 22
     - 22
@@ -663,7 +839,7 @@ None:
     part: right_part_2
   horizontal_whole:
     coord:
-    - 132
+    - 176
     - 0
     - 22
     - 22
@@ -681,6 +857,22 @@ None:
     flags_fits: true
     orientation: vertical
     part: center
+  vertical_craws:
+    coord:
+    - 132
+    - 0
+    - 22
+    - 22
+    flag_name: None
+    part: vertical_craws
+  vertical_extra_outline:
+    coord:
+    - 154
+    - 0
+    - 22
+    - 22
+    flag_name: None
+    part: vertical_extra_outline
   vertical_left_part_1:
     coord:
     - 22
@@ -734,7 +926,7 @@ None:
 Pansexual:
   horizontal_center:
     coord:
-    - 242
+    - 286
     - 110
     - 22
     - 22
@@ -742,9 +934,25 @@ Pansexual:
     flags_fits: true
     orientation: horizontal
     part: center
+  horizontal_craws:
+    coord:
+    - 308
+    - 110
+    - 22
+    - 22
+    flag_name: Pansexual
+    part: horizontal_craws
+  horizontal_extra_outline:
+    coord:
+    - 330
+    - 110
+    - 22
+    - 22
+    flag_name: Pansexual
+    part: horizontal_extra_outline
   horizontal_left_part_1:
     coord:
-    - 154
+    - 198
     - 110
     - 22
     - 22
@@ -754,7 +962,7 @@ Pansexual:
     part: left_part_1
   horizontal_left_part_2:
     coord:
-    - 176
+    - 220
     - 110
     - 22
     - 22
@@ -764,7 +972,7 @@ Pansexual:
     part: left_part_2
   horizontal_right_part_1:
     coord:
-    - 198
+    - 242
     - 110
     - 22
     - 22
@@ -774,7 +982,7 @@ Pansexual:
     part: right_part_1
   horizontal_right_part_2:
     coord:
-    - 220
+    - 264
     - 110
     - 22
     - 22
@@ -784,7 +992,7 @@ Pansexual:
     part: right_part_2
   horizontal_whole:
     coord:
-    - 132
+    - 176
     - 110
     - 22
     - 22
@@ -802,6 +1010,22 @@ Pansexual:
     flags_fits: true
     orientation: vertical
     part: center
+  vertical_craws:
+    coord:
+    - 132
+    - 110
+    - 22
+    - 22
+    flag_name: Pansexual
+    part: vertical_craws
+  vertical_extra_outline:
+    coord:
+    - 154
+    - 110
+    - 22
+    - 22
+    flag_name: Pansexual
+    part: vertical_extra_outline
   vertical_left_part_1:
     coord:
     - 22
@@ -855,7 +1079,7 @@ Pansexual:
 Philadelphia's People of Color Inclusive Flag:
   horizontal_center:
     coord:
-    - 242
+    - 286
     - 44
     - 22
     - 22
@@ -863,9 +1087,25 @@ Philadelphia's People of Color Inclusive Flag:
     flags_fits: false
     orientation: horizontal
     part: center
+  horizontal_craws:
+    coord:
+    - 308
+    - 44
+    - 22
+    - 22
+    flag_name: Philadelphia's People of Color Inclusive Flag
+    part: horizontal_craws
+  horizontal_extra_outline:
+    coord:
+    - 330
+    - 44
+    - 22
+    - 22
+    flag_name: Philadelphia's People of Color Inclusive Flag
+    part: horizontal_extra_outline
   horizontal_left_part_1:
     coord:
-    - 154
+    - 198
     - 44
     - 22
     - 22
@@ -875,7 +1115,7 @@ Philadelphia's People of Color Inclusive Flag:
     part: left_part_1
   horizontal_left_part_2:
     coord:
-    - 176
+    - 220
     - 44
     - 22
     - 22
@@ -886,7 +1126,7 @@ Philadelphia's People of Color Inclusive Flag:
     part: left_part_2
   horizontal_right_part_1:
     coord:
-    - 198
+    - 242
     - 44
     - 22
     - 22
@@ -897,7 +1137,7 @@ Philadelphia's People of Color Inclusive Flag:
     part: right_part_1
   horizontal_right_part_2:
     coord:
-    - 220
+    - 264
     - 44
     - 22
     - 22
@@ -907,7 +1147,7 @@ Philadelphia's People of Color Inclusive Flag:
     part: right_part_2
   horizontal_whole:
     coord:
-    - 132
+    - 176
     - 44
     - 22
     - 22
@@ -925,6 +1165,22 @@ Philadelphia's People of Color Inclusive Flag:
     flags_fits: true
     orientation: vertical
     part: center
+  vertical_craws:
+    coord:
+    - 132
+    - 44
+    - 22
+    - 22
+    flag_name: Philadelphia's People of Color Inclusive Flag
+    part: vertical_craws
+  vertical_extra_outline:
+    coord:
+    - 154
+    - 44
+    - 22
+    - 22
+    flag_name: Philadelphia's People of Color Inclusive Flag
+    part: vertical_extra_outline
   vertical_left_part_1:
     coord:
     - 22
@@ -978,7 +1234,7 @@ Philadelphia's People of Color Inclusive Flag:
 Polyamory:
   horizontal_center:
     coord:
-    - 242
+    - 286
     - 198
     - 22
     - 22
@@ -986,9 +1242,25 @@ Polyamory:
     flags_fits: true
     orientation: horizontal
     part: center
+  horizontal_craws:
+    coord:
+    - 308
+    - 198
+    - 22
+    - 22
+    flag_name: Polyamory
+    part: horizontal_craws
+  horizontal_extra_outline:
+    coord:
+    - 330
+    - 198
+    - 22
+    - 22
+    flag_name: Polyamory
+    part: horizontal_extra_outline
   horizontal_left_part_1:
     coord:
-    - 154
+    - 198
     - 198
     - 22
     - 22
@@ -998,7 +1270,7 @@ Polyamory:
     part: left_part_1
   horizontal_left_part_2:
     coord:
-    - 176
+    - 220
     - 198
     - 22
     - 22
@@ -1008,7 +1280,7 @@ Polyamory:
     part: left_part_2
   horizontal_right_part_1:
     coord:
-    - 198
+    - 242
     - 198
     - 22
     - 22
@@ -1018,7 +1290,7 @@ Polyamory:
     part: right_part_1
   horizontal_right_part_2:
     coord:
-    - 220
+    - 264
     - 198
     - 22
     - 22
@@ -1028,7 +1300,7 @@ Polyamory:
     part: right_part_2
   horizontal_whole:
     coord:
-    - 132
+    - 176
     - 198
     - 22
     - 22
@@ -1046,6 +1318,22 @@ Polyamory:
     flags_fits: true
     orientation: vertical
     part: center
+  vertical_craws:
+    coord:
+    - 132
+    - 198
+    - 22
+    - 22
+    flag_name: Polyamory
+    part: vertical_craws
+  vertical_extra_outline:
+    coord:
+    - 154
+    - 198
+    - 22
+    - 22
+    flag_name: Polyamory
+    part: vertical_extra_outline
   vertical_left_part_1:
     coord:
     - 22
@@ -1099,7 +1387,7 @@ Polyamory:
 Polysexual:
   horizontal_center:
     coord:
-    - 242
+    - 286
     - 220
     - 22
     - 22
@@ -1107,9 +1395,25 @@ Polysexual:
     flags_fits: true
     orientation: horizontal
     part: center
+  horizontal_craws:
+    coord:
+    - 308
+    - 220
+    - 22
+    - 22
+    flag_name: Polysexual
+    part: horizontal_craws
+  horizontal_extra_outline:
+    coord:
+    - 330
+    - 220
+    - 22
+    - 22
+    flag_name: Polysexual
+    part: horizontal_extra_outline
   horizontal_left_part_1:
     coord:
-    - 154
+    - 198
     - 220
     - 22
     - 22
@@ -1119,7 +1423,7 @@ Polysexual:
     part: left_part_1
   horizontal_left_part_2:
     coord:
-    - 176
+    - 220
     - 220
     - 22
     - 22
@@ -1129,7 +1433,7 @@ Polysexual:
     part: left_part_2
   horizontal_right_part_1:
     coord:
-    - 198
+    - 242
     - 220
     - 22
     - 22
@@ -1139,7 +1443,7 @@ Polysexual:
     part: right_part_1
   horizontal_right_part_2:
     coord:
-    - 220
+    - 264
     - 220
     - 22
     - 22
@@ -1149,7 +1453,7 @@ Polysexual:
     part: right_part_2
   horizontal_whole:
     coord:
-    - 132
+    - 176
     - 220
     - 22
     - 22
@@ -1167,6 +1471,22 @@ Polysexual:
     flags_fits: true
     orientation: vertical
     part: center
+  vertical_craws:
+    coord:
+    - 132
+    - 220
+    - 22
+    - 22
+    flag_name: Polysexual
+    part: vertical_craws
+  vertical_extra_outline:
+    coord:
+    - 154
+    - 220
+    - 22
+    - 22
+    flag_name: Polysexual
+    part: vertical_extra_outline
   vertical_left_part_1:
     coord:
     - 22
@@ -1220,7 +1540,7 @@ Polysexual:
 Progress:
   horizontal_center:
     coord:
-    - 242
+    - 286
     - 154
     - 22
     - 22
@@ -1228,9 +1548,25 @@ Progress:
     flags_fits: true
     orientation: horizontal
     part: center
+  horizontal_craws:
+    coord:
+    - 308
+    - 154
+    - 22
+    - 22
+    flag_name: Progress
+    part: horizontal_craws
+  horizontal_extra_outline:
+    coord:
+    - 330
+    - 154
+    - 22
+    - 22
+    flag_name: Progress
+    part: horizontal_extra_outline
   horizontal_left_part_1:
     coord:
-    - 154
+    - 198
     - 154
     - 22
     - 22
@@ -1240,7 +1576,7 @@ Progress:
     part: left_part_1
   horizontal_left_part_2:
     coord:
-    - 176
+    - 220
     - 154
     - 22
     - 22
@@ -1250,7 +1586,7 @@ Progress:
     part: left_part_2
   horizontal_right_part_1:
     coord:
-    - 198
+    - 242
     - 154
     - 22
     - 22
@@ -1260,7 +1596,7 @@ Progress:
     part: right_part_1
   horizontal_right_part_2:
     coord:
-    - 220
+    - 264
     - 154
     - 22
     - 22
@@ -1270,7 +1606,7 @@ Progress:
     part: right_part_2
   horizontal_whole:
     coord:
-    - 132
+    - 176
     - 154
     - 22
     - 22
@@ -1288,6 +1624,22 @@ Progress:
     flags_fits: true
     orientation: vertical
     part: center
+  vertical_craws:
+    coord:
+    - 132
+    - 154
+    - 22
+    - 22
+    flag_name: Progress
+    part: vertical_craws
+  vertical_extra_outline:
+    coord:
+    - 154
+    - 154
+    - 22
+    - 22
+    flag_name: Progress
+    part: vertical_extra_outline
   vertical_left_part_1:
     coord:
     - 22
@@ -1341,7 +1693,7 @@ Progress:
 Rainbow Pride Flag:
   horizontal_center:
     coord:
-    - 242
+    - 286
     - 22
     - 22
     - 22
@@ -1349,9 +1701,25 @@ Rainbow Pride Flag:
     flags_fits: true
     orientation: horizontal
     part: center
+  horizontal_craws:
+    coord:
+    - 308
+    - 22
+    - 22
+    - 22
+    flag_name: Rainbow Pride Flag
+    part: horizontal_craws
+  horizontal_extra_outline:
+    coord:
+    - 330
+    - 22
+    - 22
+    - 22
+    flag_name: Rainbow Pride Flag
+    part: horizontal_extra_outline
   horizontal_left_part_1:
     coord:
-    - 154
+    - 198
     - 22
     - 22
     - 22
@@ -1361,7 +1729,7 @@ Rainbow Pride Flag:
     part: left_part_1
   horizontal_left_part_2:
     coord:
-    - 176
+    - 220
     - 22
     - 22
     - 22
@@ -1371,7 +1739,7 @@ Rainbow Pride Flag:
     part: left_part_2
   horizontal_right_part_1:
     coord:
-    - 198
+    - 242
     - 22
     - 22
     - 22
@@ -1381,7 +1749,7 @@ Rainbow Pride Flag:
     part: right_part_1
   horizontal_right_part_2:
     coord:
-    - 220
+    - 264
     - 22
     - 22
     - 22
@@ -1391,7 +1759,7 @@ Rainbow Pride Flag:
     part: right_part_2
   horizontal_whole:
     coord:
-    - 132
+    - 176
     - 22
     - 22
     - 22
@@ -1409,6 +1777,22 @@ Rainbow Pride Flag:
     flags_fits: true
     orientation: vertical
     part: center
+  vertical_craws:
+    coord:
+    - 132
+    - 22
+    - 22
+    - 22
+    flag_name: Rainbow Pride Flag
+    part: vertical_craws
+  vertical_extra_outline:
+    coord:
+    - 154
+    - 22
+    - 22
+    - 22
+    flag_name: Rainbow Pride Flag
+    part: vertical_extra_outline
   vertical_left_part_1:
     coord:
     - 22

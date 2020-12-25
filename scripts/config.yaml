@@ -1,7 +1,28 @@
 transparent_colors: 
   - '#bfa88f'
   - '#ffff00'
-paw_colors:
+flag_horizontal:
+  main:
+    horizontal:
+      - '#404040'
+      - '#4c4c4c'
+      - '#595959'
+      - '#666666'
+      - '#737373'
+      - '#666666'
+      - '#595959'
+      - '#4c4c4c'
+      - '#404040'
+    line:
+      horizontal:
+        - '#737373'
+    triangle:
+      - '#737373'
+      - '#666666'
+      - '#595959'
+      - '#4c4c4c'
+      - '#404040'
+paw:
   outline: '#000000'
   extra_outline: '#1a1a1a'
   left_part_1:

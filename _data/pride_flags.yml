@@ -1,0 +1,636 @@
+Asexual:
+  horizontal_main:
+    coord:
+    - 54
+    - 33
+    - 18
+    - 11
+    flag_name: Asexual
+    flags_fits: true
+    orientation: horizontal
+    part: main
+  horizontal_vertical_line:
+    coord:
+    - 90
+    - 33
+    - 18
+    - 11
+    flag_name: Asexual
+    part: horizontal_vertical_line
+  horizontal_whole:
+    coord:
+    - 72
+    - 33
+    - 18
+    - 11
+    flag_name: Asexual
+    flags_fits: true
+    orientation: horizontal
+    part: whole
+  vertical_main:
+    coord:
+    - 0
+    - 33
+    - 18
+    - 11
+    flag_name: Asexual
+    part: vertical_main
+  vertical_vertical_line:
+    coord:
+    - 36
+    - 33
+    - 18
+    - 11
+    flag_name: Asexual
+    part: vertical_vertical_line
+  vertical_whole:
+    coord:
+    - 18
+    - 33
+    - 18
+    - 11
+    flag_name: Asexual
+    part: vertical_whole
+Bisexual:
+  horizontal_main:
+    coord:
+    - 54
+    - 44
+    - 18
+    - 11
+    flag_name: Bisexual
+    flags_fits: true
+    orientation: horizontal
+    part: main
+  horizontal_vertical_line:
+    coord:
+    - 90
+    - 44
+    - 18
+    - 11
+    flag_name: Bisexual
+    part: horizontal_vertical_line
+  horizontal_whole:
+    coord:
+    - 72
+    - 44
+    - 18
+    - 11
+    flag_name: Bisexual
+    flags_fits: true
+    orientation: horizontal
+    part: whole
+  vertical_main:
+    coord:
+    - 0
+    - 44
+    - 18
+    - 11
+    flag_name: Bisexual
+    part: vertical_main
+  vertical_vertical_line:
+    coord:
+    - 36
+    - 44
+    - 18
+    - 11
+    flag_name: Bisexual
+    part: vertical_vertical_line
+  vertical_whole:
+    coord:
+    - 18
+    - 44
+    - 18
+    - 11
+    flag_name: Bisexual
+    part: vertical_whole
+Demisexual:
+  horizontal_main:
+    coord:
+    - 54
+    - 88
+    - 18
+    - 11
+    flag_name: Demisexual
+    flags_fits: true
+    orientation: horizontal
+    part: main
+  horizontal_vertical_line:
+    coord:
+    - 90
+    - 88
+    - 18
+    - 11
+    flag_name: Demisexual
+    part: horizontal_vertical_line
+  horizontal_whole:
+    coord:
+    - 72
+    - 88
+    - 18
+    - 11
+    flag_name: Demisexual
+    flags_fits: true
+    orientation: horizontal
+    part: whole
+  vertical_main:
+    coord:
+    - 0
+    - 88
+    - 18
+    - 11
+    flag_name: Demisexual
+    part: vertical_main
+  vertical_vertical_line:
+    coord:
+    - 36
+    - 88
+    - 18
+    - 11
+    flag_name: Demisexual
+    part: vertical_vertical_line
+  vertical_whole:
+    coord:
+    - 18
+    - 88
+    - 18
+    - 11
+    flag_name: Demisexual
+    part: vertical_whole
+Intersex:
+  horizontal_main:
+    coord:
+    - 54
+    - 121
+    - 18
+    - 11
+    flag_name: Intersex
+    flags_fits: true
+    orientation: horizontal
+    part: main
+  horizontal_vertical_line:
+    coord:
+    - 90
+    - 121
+    - 18
+    - 11
+    flag_name: Intersex
+    part: horizontal_vertical_line
+  horizontal_whole:
+    coord:
+    - 72
+    - 121
+    - 18
+    - 11
+    flag_name: Intersex
+    flags_fits: true
+    orientation: horizontal
+    part: whole
+  vertical_main:
+    coord:
+    - 0
+    - 121
+    - 18
+    - 11
+    flag_name: Intersex
+    part: vertical_main
+  vertical_vertical_line:
+    coord:
+    - 36
+    - 121
+    - 18
+    - 11
+    flag_name: Intersex
+    part: vertical_vertical_line
+  vertical_whole:
+    coord:
+    - 18
+    - 121
+    - 18
+    - 11
+    flag_name: Intersex
+    part: vertical_whole
+Lesbian:
+  horizontal_main:
+    coord:
+    - 54
+    - 66
+    - 18
+    - 11
+    flag_name: Lesbian
+    flags_fits: true
+    orientation: horizontal
+    part: main
+  horizontal_vertical_line:
+    coord:
+    - 90
+    - 66
+    - 18
+    - 11
+    flag_name: Lesbian
+    part: horizontal_vertical_line
+  horizontal_whole:
+    coord:
+    - 72
+    - 66
+    - 18
+    - 11
+    flag_name: Lesbian
+    flags_fits: true
+    orientation: horizontal
+    part: whole
+  vertical_main:
+    coord:
+    - 0
+    - 66
+    - 18
+    - 11
+    flag_name: Lesbian
+    part: vertical_main
+  vertical_vertical_line:
+    coord:
+    - 36
+    - 66
+    - 18
+    - 11
+    flag_name: Lesbian
+    part: vertical_vertical_line
+  vertical_whole:
+    coord:
+    - 18
+    - 66
+    - 18
+    - 11
+    flag_name: Lesbian
+    part: vertical_whole
+None:
+  horizontal_main:
+    coord:
+    - 54
+    - 0
+    - 18
+    - 11
+    flag_name: None
+    flags_fits: true
+    orientation: horizontal
+    part: main
+  horizontal_vertical_line:
+    coord:
+    - 90
+    - 0
+    - 18
+    - 11
+    flag_name: None
+    part: horizontal_vertical_line
+  horizontal_whole:
+    coord:
+    - 72
+    - 0
+    - 18
+    - 11
+    flag_name: None
+    flags_fits: true
+    orientation: horizontal
+    part: whole
+  vertical_main:
+    coord:
+    - 0
+    - 0
+    - 18
+    - 11
+    flag_name: None
+    part: vertical_main
+  vertical_vertical_line:
+    coord:
+    - 36
+    - 0
+    - 18
+    - 11
+    flag_name: None
+    part: vertical_vertical_line
+  vertical_whole:
+    coord:
+    - 18
+    - 0
+    - 18
+    - 11
+    flag_name: None
+    part: vertical_whole
+Pansexual:
+  horizontal_main:
+    coord:
+    - 54
+    - 55
+    - 18
+    - 11
+    flag_name: Pansexual
+    flags_fits: true
+    orientation: horizontal
+    part: main
+  horizontal_vertical_line:
+    coord:
+    - 90
+    - 55
+    - 18
+    - 11
+    flag_name: Pansexual
+    part: horizontal_vertical_line
+  horizontal_whole:
+    coord:
+    - 72
+    - 55
+    - 18
+    - 11
+    flag_name: Pansexual
+    flags_fits: true
+    orientation: horizontal
+    part: whole
+  vertical_main:
+    coord:
+    - 0
+    - 55
+    - 18
+    - 11
+    flag_name: Pansexual
+    part: vertical_main
+  vertical_vertical_line:
+    coord:
+    - 36
+    - 55
+    - 18
+    - 11
+    flag_name: Pansexual
+    part: vertical_vertical_line
+  vertical_whole:
+    coord:
+    - 18
+    - 55
+    - 18
+    - 11
+    flag_name: Pansexual
+    part: vertical_whole
+Philadelphia's People of Color Inclusive Flag:
+  horizontal_main:
+    coord:
+    - 54
+    - 22
+    - 18
+    - 11
+    flag_name: Philadelphia's People of Color Inclusive Flag
+    flags_fits: true
+    orientation: horizontal
+    part: main
+  horizontal_vertical_line:
+    coord:
+    - 90
+    - 22
+    - 18
+    - 11
+    flag_name: Philadelphia's People of Color Inclusive Flag
+    part: horizontal_vertical_line
+  horizontal_whole:
+    coord:
+    - 72
+    - 22
+    - 18
+    - 11
+    flag_name: Philadelphia's People of Color Inclusive Flag
+    flags_fits: true
+    orientation: horizontal
+    part: whole
+  vertical_main:
+    coord:
+    - 0
+    - 22
+    - 18
+    - 11
+    flag_name: Philadelphia's People of Color Inclusive Flag
+    part: vertical_main
+  vertical_vertical_line:
+    coord:
+    - 36
+    - 22
+    - 18
+    - 11
+    flag_name: Philadelphia's People of Color Inclusive Flag
+    part: vertical_vertical_line
+  vertical_whole:
+    coord:
+    - 18
+    - 22
+    - 18
+    - 11
+    flag_name: Philadelphia's People of Color Inclusive Flag
+    part: vertical_whole
+Polyamory:
+  horizontal_main:
+    coord:
+    - 54
+    - 99
+    - 18
+    - 11
+    flag_name: Polyamory
+    flags_fits: true
+    orientation: horizontal
+    part: main
+  horizontal_vertical_line:
+    coord:
+    - 90
+    - 99
+    - 18
+    - 11
+    flag_name: Polyamory
+    part: horizontal_vertical_line
+  horizontal_whole:
+    coord:
+    - 72
+    - 99
+    - 18
+    - 11
+    flag_name: Polyamory
+    flags_fits: true
+    orientation: horizontal
+    part: whole
+  vertical_main:
+    coord:
+    - 0
+    - 99
+    - 18
+    - 11
+    flag_name: Polyamory
+    part: vertical_main
+  vertical_vertical_line:
+    coord:
+    - 36
+    - 99
+    - 18
+    - 11
+    flag_name: Polyamory
+    part: vertical_vertical_line
+  vertical_whole:
+    coord:
+    - 18
+    - 99
+    - 18
+    - 11
+    flag_name: Polyamory
+    part: vertical_whole
+Polysexual:
+  horizontal_main:
+    coord:
+    - 54
+    - 110
+    - 18
+    - 11
+    flag_name: Polysexual
+    flags_fits: true
+    orientation: horizontal
+    part: main
+  horizontal_vertical_line:
+    coord:
+    - 90
+    - 110
+    - 18
+    - 11
+    flag_name: Polysexual
+    part: horizontal_vertical_line
+  horizontal_whole:
+    coord:
+    - 72
+    - 110
+    - 18
+    - 11
+    flag_name: Polysexual
+    flags_fits: true
+    orientation: horizontal
+    part: whole
+  vertical_main:
+    coord:
+    - 0
+    - 110
+    - 18
+    - 11
+    flag_name: Polysexual
+    part: vertical_main
+  vertical_vertical_line:
+    coord:
+    - 36
+    - 110
+    - 18
+    - 11
+    flag_name: Polysexual
+    part: vertical_vertical_line
+  vertical_whole:
+    coord:
+    - 18
+    - 110
+    - 18
+    - 11
+    flag_name: Polysexual
+    part: vertical_whole
+Progress:
+  horizontal_main:
+    coord:
+    - 54
+    - 77
+    - 18
+    - 11
+    flag_name: Progress
+    flags_fits: true
+    orientation: horizontal
+    part: main
+  horizontal_vertical_line:
+    coord:
+    - 90
+    - 77
+    - 18
+    - 11
+    flag_name: Progress
+    part: horizontal_vertical_line
+  horizontal_whole:
+    coord:
+    - 72
+    - 77
+    - 18
+    - 11
+    flag_name: Progress
+    flags_fits: true
+    orientation: horizontal
+    part: whole
+  vertical_main:
+    coord:
+    - 0
+    - 77
+    - 18
+    - 11
+    flag_name: Progress
+    part: vertical_main
+  vertical_vertical_line:
+    coord:
+    - 36
+    - 77
+    - 18
+    - 11
+    flag_name: Progress
+    part: vertical_vertical_line
+  vertical_whole:
+    coord:
+    - 18
+    - 77
+    - 18
+    - 11
+    flag_name: Progress
+    part: vertical_whole
+Rainbow Pride Flag:
+  horizontal_main:
+    coord:
+    - 54
+    - 11
+    - 18
+    - 11
+    flag_name: Rainbow Pride Flag
+    flags_fits: true
+    orientation: horizontal
+    part: main
+  horizontal_vertical_line:
+    coord:
+    - 90
+    - 11
+    - 18
+    - 11
+    flag_name: Rainbow Pride Flag
+    part: horizontal_vertical_line
+  horizontal_whole:
+    coord:
+    - 72
+    - 11
+    - 18
+    - 11
+    flag_name: Rainbow Pride Flag
+    flags_fits: true
+    orientation: horizontal
+    part: whole
+  vertical_main:
+    coord:
+    - 0
+    - 11
+    - 18
+    - 11
+    flag_name: Rainbow Pride Flag
+    part: vertical_main
+  vertical_vertical_line:
+    coord:
+    - 36
+    - 11
+    - 18
+    - 11
+    flag_name: Rainbow Pride Flag
+    part: vertical_vertical_line
+  vertical_whole:
+    coord:
+    - 18
+    - 11
+    - 18
+    - 11
+    flag_name: Rainbow Pride Flag
+    part: vertical_whole
