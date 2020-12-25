@@ -1,209 +1,99 @@
-Agender:
-  horizontal_main:
-    coord:
-    - 18
-    - 0
-    - 18
-    - 11
-    flag_name: Agender
-    flags_fits: true
-    orientation: horizontal
-    part: main
-  vertical_main:
-    coord:
-    - 0
-    - 0
-    - 18
-    - 11
-    flag_name: Agender
-    part: vertical_main
-Bigender:
-  horizontal_main:
-    coord:
-    - 18
-    - 110
-    - 18
-    - 11
-    flag_name: Bigender
-    flags_fits: true
-    orientation: horizontal
-    part: main
-  vertical_main:
-    coord:
-    - 0
-    - 110
-    - 18
-    - 11
-    flag_name: Bigender
-    part: vertical_main
-Demiboy:
-  horizontal_main:
-    coord:
-    - 18
-    - 55
-    - 18
-    - 11
-    flag_name: Demiboy
-    flags_fits: true
-    orientation: horizontal
-    part: main
-  vertical_main:
-    coord:
-    - 0
-    - 55
-    - 18
-    - 11
-    flag_name: Demiboy
-    part: vertical_main
-Demigirl:
-  horizontal_main:
-    coord:
-    - 18
-    - 66
-    - 18
-    - 11
-    flag_name: Demigirl
-    flags_fits: true
-    orientation: horizontal
-    part: main
-  vertical_main:
-    coord:
-    - 0
-    - 66
-    - 18
-    - 11
-    flag_name: Demigirl
-    part: vertical_main
-Genderfluid:
-  horizontal_main:
-    coord:
-    - 18
-    - 33
-    - 18
-    - 11
-    flag_name: Genderfluid
-    flags_fits: true
-    orientation: horizontal
-    part: main
-  vertical_main:
-    coord:
-    - 0
-    - 33
-    - 18
-    - 11
-    flag_name: Genderfluid
-    part: vertical_main
-Genderqueer:
-  horizontal_main:
-    coord:
-    - 18
-    - 22
-    - 18
-    - 11
-    flag_name: Genderqueer
-    flags_fits: true
-    orientation: horizontal
-    part: main
-  vertical_main:
-    coord:
-    - 0
-    - 22
-    - 18
-    - 11
-    flag_name: Genderqueer
-    part: vertical_main
-Ingender:
-  horizontal_main:
-    coord:
-    - 18
-    - 88
-    - 18
-    - 11
-    flag_name: Ingender
-    flags_fits: true
-    orientation: horizontal
-    part: main
-  vertical_main:
-    coord:
-    - 0
-    - 88
-    - 18
-    - 11
-    flag_name: Ingender
-    part: vertical_main
-Neutrio:
-  horizontal_main:
-    coord:
-    - 18
-    - 77
-    - 18
-    - 11
-    flag_name: Neutrio
-    flags_fits: true
-    orientation: horizontal
-    part: main
-  vertical_main:
-    coord:
-    - 0
-    - 77
-    - 18
-    - 11
-    flag_name: Neutrio
-    part: vertical_main
-Non-Binary:
-  horizontal_main:
-    coord:
-    - 18
-    - 44
-    - 18
-    - 11
-    flag_name: Non-Binary
-    flags_fits: true
-    orientation: horizontal
-    part: main
-  vertical_main:
-    coord:
-    - 0
-    - 44
-    - 18
-    - 11
-    flag_name: Non-Binary
-    part: vertical_main
-Pangender:
-  horizontal_main:
-    coord:
-    - 18
-    - 99
-    - 18
-    - 11
-    flag_name: Pangender
-    flags_fits: true
-    orientation: horizontal
-    part: main
-  vertical_main:
-    coord:
-    - 0
-    - 99
-    - 18
-    - 11
-    flag_name: Pangender
-    part: vertical_main
-Transgender:
-  horizontal_main:
-    coord:
-    - 18
-    - 11
-    - 18
-    - 11
-    flag_name: Transgender
-    flags_fits: true
-    orientation: horizontal
-    part: main
-  vertical_main:
-    coord:
-    - 0
-    - 11
-    - 18
-    - 11
-    flag_name: Transgender
-    part: vertical_main
+- coord:
+  - 18
+  - 0
+  - 18
+  - 11
+  flag_name: Agender
+  flags_fits: true
+  orientation: horizontal
+  part: main
+- coord:
+  - 18
+  - 11
+  - 18
+  - 11
+  flag_name: Transgender
+  flags_fits: true
+  orientation: horizontal
+  part: main
+- coord:
+  - 18
+  - 22
+  - 18
+  - 11
+  flag_name: Genderqueer
+  flags_fits: true
+  orientation: horizontal
+  part: main
+- coord:
+  - 18
+  - 33
+  - 18
+  - 11
+  flag_name: Genderfluid
+  flags_fits: true
+  orientation: horizontal
+  part: main
+- coord:
+  - 18
+  - 44
+  - 18
+  - 11
+  flag_name: Non-Binary
+  flags_fits: true
+  orientation: horizontal
+  part: main
+- coord:
+  - 18
+  - 55
+  - 18
+  - 11
+  flag_name: Demiboy
+  flags_fits: true
+  orientation: horizontal
+  part: main
+- coord:
+  - 18
+  - 66
+  - 18
+  - 11
+  flag_name: Demigirl
+  flags_fits: true
+  orientation: horizontal
+  part: main
+- coord:
+  - 18
+  - 77
+  - 18
+  - 11
+  flag_name: Neutrio
+  flags_fits: true
+  orientation: horizontal
+  part: main
+- coord:
+  - 18
+  - 88
+  - 18
+  - 11
+  flag_name: Ingender
+  flags_fits: true
+  orientation: horizontal
+  part: main
+- coord:
+  - 18
+  - 99
+  - 18
+  - 11
+  flag_name: Pangender
+  flags_fits: true
+  orientation: horizontal
+  part: main
+- coord:
+  - 18
+  - 110
+  - 18
+  - 11
+  flag_name: Bigender
+  flags_fits: true
+  orientation: horizontal
+  part: main

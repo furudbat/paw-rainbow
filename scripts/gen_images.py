@@ -645,21 +645,27 @@ def generateSprite(in_img_filename, parts, output_name, colors_config, flags, tr
             output_map[flag_name] = dict()
         for part, output_flage in output_flages.items():
             output.paste(output_flage, (x, y))
-            if not part in output_map[flag_name]:
-                output_map[flag_name][part] = { 'flag_name': flag_name, 'part': part }
-            output_map[flag_name][part]['coord'] = (x, y, paw_width, paw_height)
+            if part in output_map[flag_name]:
+                output_map[flag_name][part]['coord'] = (x, y, paw_width, paw_height)
             x += paw_width
         y += paw_height
 
-    output_map_filename = '{}_map.json'.format(output_name)
-    with open(output_map_filename, 'w') as f:
-        json.dump(output_map, f, indent=4)
-    with open(output_map_filename, 'r') as json_file:
-        with open("../_data/{}.yml".format(output_name), 'w') as yaml_file:
-            yaml.safe_dump(json.load(json_file), yaml_file, default_flow_style=False, allow_unicode=True)
+    output_arr = []
+    for omap in output_map.values():
+        for data in omap.values():
+            output_arr.append(data)
 
     #output.show()
     output.save("../assets/img/{}.png".format(output_name)) 
+
+    output_json_filename = '{}.json'.format(output_name)
+    with open(output_json_filename, 'w') as f:
+        json.dump(output_arr, f, indent=4)
+        
+    with open(output_json_filename, 'r') as json_file:
+        with open("../_data/{}.yml".format(output_name), 'w') as yaml_file:
+            yaml.safe_dump(json.load(json_file), yaml_file, default_flow_style=False, allow_unicode=True)
+
 
 def main():
     config = dict()
