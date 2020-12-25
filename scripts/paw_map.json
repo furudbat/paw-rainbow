@@ -1,0 +1,617 @@
+{
+    "None": {
+        "vertical_left_part_1": {
+            "flag_name": "None",
+            "part": "left_part_1",
+            "orientation": "vertical",
+            "flags_fits": true,
+            "coord": [
+                0,
+                0,
+                22,
+                22
+            ]
+        },
+        "vertical_left_part_2": {
+            "flag_name": "None",
+            "part": "left_part_2",
+            "orientation": "vertical",
+            "flags_fits": true,
+            "coord": [
+                22,
+                0,
+                22,
+                22
+            ]
+        },
+        "vertical_right_part_1": {
+            "flag_name": "None",
+            "part": "right_part_1",
+            "orientation": "vertical",
+            "flags_fits": true,
+            "coord": [
+                44,
+                0,
+                22,
+                22
+            ]
+        },
+        "vertical_right_part_2": {
+            "flag_name": "None",
+            "part": "right_part_2",
+            "orientation": "vertical",
+            "flags_fits": true,
+            "coord": [
+                66,
+                0,
+                22,
+                22
+            ]
+        },
+        "vertical_center": {
+            "flag_name": "None",
+            "part": "center",
+            "orientation": "vertical",
+            "flags_fits": true,
+            "coord": [
+                88,
+                0,
+                22,
+                22
+            ]
+        },
+        "horizontal_left_part_1": {
+            "flag_name": "None",
+            "part": "left_part_1",
+            "orientation": "horizontal",
+            "flags_fits": true,
+            "coord": [
+                110,
+                0,
+                22,
+                22
+            ]
+        },
+        "horizontal_left_part_2": {
+            "flag_name": "None",
+            "part": "left_part_2",
+            "orientation": "horizontal",
+            "flags_fits": true,
+            "coord": [
+                132,
+                0,
+                22,
+                22
+            ]
+        },
+        "horizontal_right_part_1": {
+            "flag_name": "None",
+            "part": "right_part_1",
+            "orientation": "horizontal",
+            "flags_fits": true,
+            "coord": [
+                154,
+                0,
+                22,
+                22
+            ]
+        },
+        "horizontal_right_part_2": {
+            "flag_name": "None",
+            "part": "right_part_2",
+            "orientation": "horizontal",
+            "flags_fits": true,
+            "coord": [
+                176,
+                0,
+                22,
+                22
+            ]
+        },
+        "horizontal_center": {
+            "flag_name": "None",
+            "part": "center",
+            "orientation": "horizontal",
+            "flags_fits": true,
+            "coord": [
+                198,
+                0,
+                22,
+                22
+            ]
+        }
+    },
+    "Pride": {
+        "vertical_left_part_1": {
+            "flag_name": "Pride",
+            "part": "left_part_1",
+            "orientation": "vertical",
+            "flags_fits": false,
+            "coord": [
+                0,
+                22,
+                22,
+                22
+            ]
+        },
+        "vertical_left_part_2": {
+            "flag_name": "Pride",
+            "part": "left_part_2",
+            "orientation": "vertical",
+            "flags_fits": false,
+            "coord": [
+                22,
+                22,
+                22,
+                22
+            ]
+        },
+        "vertical_right_part_1": {
+            "flag_name": "Pride",
+            "part": "right_part_1",
+            "orientation": "vertical",
+            "flags_fits": false,
+            "coord": [
+                44,
+                22,
+                22,
+                22
+            ]
+        },
+        "vertical_right_part_2": {
+            "flag_name": "Pride",
+            "part": "right_part_2",
+            "orientation": "vertical",
+            "flags_fits": false,
+            "coord": [
+                66,
+                22,
+                22,
+                22
+            ]
+        },
+        "vertical_center": {
+            "flag_name": "Pride",
+            "part": "center",
+            "orientation": "vertical",
+            "flags_fits": true,
+            "coord": [
+                88,
+                22,
+                22,
+                22
+            ]
+        },
+        "horizontal_left_part_1": {
+            "flag_name": "Pride",
+            "part": "left_part_1",
+            "orientation": "horizontal",
+            "flags_fits": false,
+            "coord": [
+                110,
+                22,
+                22,
+                22
+            ]
+        },
+        "horizontal_left_part_2": {
+            "flag_name": "Pride",
+            "part": "left_part_2",
+            "orientation": "horizontal",
+            "flags_fits": true,
+            "coord": [
+                132,
+                22,
+                22,
+                22
+            ]
+        },
+        "horizontal_right_part_1": {
+            "flag_name": "Pride",
+            "part": "right_part_1",
+            "orientation": "horizontal",
+            "flags_fits": true,
+            "coord": [
+                154,
+                22,
+                22,
+                22
+            ]
+        },
+        "horizontal_right_part_2": {
+            "flag_name": "Pride",
+            "part": "right_part_2",
+            "orientation": "horizontal",
+            "flags_fits": false,
+            "coord": [
+                176,
+                22,
+                22,
+                22
+            ]
+        },
+        "horizontal_center": {
+            "flag_name": "Pride",
+            "part": "center",
+            "orientation": "horizontal",
+            "flags_fits": true,
+            "coord": [
+                198,
+                22,
+                22,
+                22
+            ]
+        }
+    },
+    "Agender": {
+        "vertical_left_part_1": {
+            "flag_name": "Agender",
+            "part": "left_part_1",
+            "orientation": "vertical",
+            "flags_fits": false,
+            "coord": [
+                0,
+                44,
+                22,
+                22
+            ]
+        },
+        "vertical_left_part_2": {
+            "flag_name": "Agender",
+            "part": "left_part_2",
+            "orientation": "vertical",
+            "flags_fits": false,
+            "coord": [
+                22,
+                44,
+                22,
+                22
+            ]
+        },
+        "vertical_right_part_1": {
+            "flag_name": "Agender",
+            "part": "right_part_1",
+            "orientation": "vertical",
+            "flags_fits": false,
+            "coord": [
+                44,
+                44,
+                22,
+                22
+            ]
+        },
+        "vertical_right_part_2": {
+            "flag_name": "Agender",
+            "part": "right_part_2",
+            "orientation": "vertical",
+            "flags_fits": false,
+            "coord": [
+                66,
+                44,
+                22,
+                22
+            ]
+        },
+        "vertical_center": {
+            "flag_name": "Agender",
+            "part": "center",
+            "orientation": "vertical",
+            "flags_fits": true,
+            "coord": [
+                88,
+                44,
+                22,
+                22
+            ]
+        },
+        "horizontal_left_part_1": {
+            "flag_name": "Agender",
+            "part": "left_part_1",
+            "orientation": "horizontal",
+            "flags_fits": false,
+            "coord": [
+                110,
+                44,
+                22,
+                22
+            ]
+        },
+        "horizontal_left_part_2": {
+            "flag_name": "Agender",
+            "part": "left_part_2",
+            "orientation": "horizontal",
+            "flags_fits": true,
+            "coord": [
+                132,
+                44,
+                22,
+                22
+            ]
+        },
+        "horizontal_right_part_1": {
+            "flag_name": "Agender",
+            "part": "right_part_1",
+            "orientation": "horizontal",
+            "flags_fits": true,
+            "coord": [
+                154,
+                44,
+                22,
+                22
+            ]
+        },
+        "horizontal_right_part_2": {
+            "flag_name": "Agender",
+            "part": "right_part_2",
+            "orientation": "horizontal",
+            "flags_fits": false,
+            "coord": [
+                176,
+                44,
+                22,
+                22
+            ]
+        },
+        "horizontal_center": {
+            "flag_name": "Agender",
+            "part": "center",
+            "orientation": "horizontal",
+            "flags_fits": true,
+            "flags_fits_perfect": true,
+            "coord": [
+                198,
+                44,
+                22,
+                22
+            ]
+        }
+    },
+    "Asexual": {
+        "vertical_left_part_1": {
+            "flag_name": "Asexual",
+            "part": "left_part_1",
+            "orientation": "vertical",
+            "flags_fits": false,
+            "coord": [
+                0,
+                66,
+                22,
+                22
+            ]
+        },
+        "vertical_left_part_2": {
+            "flag_name": "Asexual",
+            "part": "left_part_2",
+            "orientation": "vertical",
+            "flags_fits": false,
+            "coord": [
+                22,
+                66,
+                22,
+                22
+            ]
+        },
+        "vertical_right_part_1": {
+            "flag_name": "Asexual",
+            "part": "right_part_1",
+            "orientation": "vertical",
+            "flags_fits": false,
+            "coord": [
+                44,
+                66,
+                22,
+                22
+            ]
+        },
+        "vertical_right_part_2": {
+            "flag_name": "Asexual",
+            "part": "right_part_2",
+            "orientation": "vertical",
+            "flags_fits": false,
+            "coord": [
+                66,
+                66,
+                22,
+                22
+            ]
+        },
+        "vertical_center": {
+            "flag_name": "Asexual",
+            "part": "center",
+            "orientation": "vertical",
+            "flags_fits": true,
+            "coord": [
+                88,
+                66,
+                22,
+                22
+            ]
+        },
+        "horizontal_left_part_1": {
+            "flag_name": "Asexual",
+            "part": "left_part_1",
+            "orientation": "horizontal",
+            "flags_fits": true,
+            "flags_fits_perfect": true,
+            "coord": [
+                110,
+                66,
+                22,
+                22
+            ]
+        },
+        "horizontal_left_part_2": {
+            "flag_name": "Asexual",
+            "part": "left_part_2",
+            "orientation": "horizontal",
+            "flags_fits": true,
+            "coord": [
+                132,
+                66,
+                22,
+                22
+            ]
+        },
+        "horizontal_right_part_1": {
+            "flag_name": "Asexual",
+            "part": "right_part_1",
+            "orientation": "horizontal",
+            "flags_fits": true,
+            "coord": [
+                154,
+                66,
+                22,
+                22
+            ]
+        },
+        "horizontal_right_part_2": {
+            "flag_name": "Asexual",
+            "part": "right_part_2",
+            "orientation": "horizontal",
+            "flags_fits": true,
+            "flags_fits_perfect": true,
+            "coord": [
+                176,
+                66,
+                22,
+                22
+            ]
+        },
+        "horizontal_center": {
+            "flag_name": "Asexual",
+            "part": "center",
+            "orientation": "horizontal",
+            "flags_fits": true,
+            "coord": [
+                198,
+                66,
+                22,
+                22
+            ]
+        }
+    },
+    "Bisexual": {
+        "vertical_left_part_1": {
+            "flag_name": "Bisexual",
+            "part": "left_part_1",
+            "orientation": "vertical",
+            "flags_fits": false,
+            "coord": [
+                0,
+                88,
+                22,
+                22
+            ]
+        },
+        "vertical_left_part_2": {
+            "flag_name": "Bisexual",
+            "part": "left_part_2",
+            "orientation": "vertical",
+            "flags_fits": false,
+            "coord": [
+                22,
+                88,
+                22,
+                22
+            ]
+        },
+        "vertical_right_part_1": {
+            "flag_name": "Bisexual",
+            "part": "right_part_1",
+            "orientation": "vertical",
+            "flags_fits": false,
+            "coord": [
+                44,
+                88,
+                22,
+                22
+            ]
+        },
+        "vertical_right_part_2": {
+            "flag_name": "Bisexual",
+            "part": "right_part_2",
+            "orientation": "vertical",
+            "flags_fits": false,
+            "coord": [
+                66,
+                88,
+                22,
+                22
+            ]
+        },
+        "vertical_center": {
+            "flag_name": "Bisexual",
+            "part": "center",
+            "orientation": "vertical",
+            "flags_fits": true,
+            "coord": [
+                88,
+                88,
+                22,
+                22
+            ]
+        },
+        "horizontal_left_part_1": {
+            "flag_name": "Bisexual",
+            "part": "left_part_1",
+            "orientation": "horizontal",
+            "flags_fits": true,
+            "flags_fits_perfect": true,
+            "coord": [
+                110,
+                88,
+                22,
+                22
+            ]
+        },
+        "horizontal_left_part_2": {
+            "flag_name": "Bisexual",
+            "part": "left_part_2",
+            "orientation": "horizontal",
+            "flags_fits": true,
+            "coord": [
+                132,
+                88,
+                22,
+                22
+            ]
+        },
+        "horizontal_right_part_1": {
+            "flag_name": "Bisexual",
+            "part": "right_part_1",
+            "orientation": "horizontal",
+            "flags_fits": true,
+            "coord": [
+                154,
+                88,
+                22,
+                22
+            ]
+        },
+        "horizontal_right_part_2": {
+            "flag_name": "Bisexual",
+            "part": "right_part_2",
+            "orientation": "horizontal",
+            "flags_fits": true,
+            "flags_fits_perfect": true,
+            "coord": [
+                176,
+                88,
+                22,
+                22
+            ]
+        },
+        "horizontal_center": {
+            "flag_name": "Bisexual",
+            "part": "center",
+            "orientation": "horizontal",
+            "flags_fits": true,
+            "coord": [
+                198,
+                88,
+                22,
+                22
+            ]
+        }
+    }
+}

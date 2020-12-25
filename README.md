@@ -2,6 +2,23 @@
 
 Description
 
+## Features
+
+* select different paws
+  * different sizes (?)
+  * different form/species ???
+* select flag for each paw-section
+  * selection with flag-icon (?) and name
+* select custom color for craws (1-4 colors for each craw ?)
+* select custom color for outlines
+* export as file (png)
+* canvas with preview
+  * flags previews with name and infos ???
+  * paw preview
+* show name with flags e.g. "Demi-Pansexual", "Aromantic-Gay", ... different combos
+* create custom flags ???
+  * max. 6 strips, select colors with color-picker
+  * triangle and line, select colors
 
 ## Requirements (for development)
 

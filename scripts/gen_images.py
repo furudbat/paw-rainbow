@@ -176,7 +176,7 @@ def generateColorCodeMap(config, parts, paw_img, transparent_color, outline_colo
 
     return color_code_map
 
-def generateSpriteLine(paw_outlines_img, outline_color, flag, orientation, color_code_map):
+def generateSpriteLine(output_map, paw_outlines_img, outline_color, flag, orientation, color_code_map):
     assert (orientation == "horizontal" or orientation == "vertical"), 'orientation must be "horizontal" or "vertical"'
 
     paw_width = paw_outlines_img.size[0]
@@ -187,10 +187,17 @@ def generateSpriteLine(paw_outlines_img, outline_color, flag, orientation, color
         output_flage_part = Image.new(mode = "RGBA", size= (paw_width, paw_height))
         output_flage_part_pixels = output_flage_part.load()
 
+        key = orientation + '_' + part
+
         if 'start_' + orientation in color_coords and 'end_' + orientation in color_coords:
             stripes = len(color_coords['start_' + orientation])
             flag_colors_size = len(flag['colors'])
             flag_name = flag['name']
+
+            if not flag_name in output_map:
+                output_map[flag_name] = {}
+            if not key in output_map[flag_name]:
+                output_map[flag_name][key] = { 'flag_name': flag_name, 'part': part, 'orientation': orientation }
 
             flag_color_palette = []
 
@@ -208,12 +215,16 @@ def generateSpriteLine(paw_outlines_img, outline_color, flag, orientation, color
                 small_end = end_line_size <= 1
 
             if flag_colors_size == 1:
+                output_map[flag_name][key]['flags_fits'] = True
                 for i in range(stripes):
                     flag_color_palette.append(Color(flag['colors'][0]))
             elif stripes == flag_colors_size:
+                output_map[flag_name][key]['flags_fits'] = True
+                output_map[flag_name][key]['flags_fits_perfect'] = True
                 for flag_color in flag['colors']:
                     flag_color_palette.append(Color(flag_color))
             elif stripes > flag_colors_size:
+                output_map[flag_name][key]['flags_fits'] = True
                 rest_stripes = int(stripes - flag_colors_size)
                 if rest_stripes == 1:
                     for i in range(0, int(flag_colors_size / 2)):
@@ -298,13 +309,15 @@ def generateSpriteLine(paw_outlines_img, outline_color, flag, orientation, color
                         flag_color = flag['colors'][-1]
                         flag_color_palette.append(Color(flag_color))
             else:
+                output_map[flag_name][key]['flags_fits'] = False
                 overflow_stripes = int(flag_colors_size - stripes)
                 for i in range(flag_colors_size):
                     flag_color = flag['colors'][i]
-                    if overflow_stripes == 1 and i == 0:
-                        continue
-                    if overflow_stripes == 1 and i == int(flag_colors_size/2):
-                        flag_color_palette.append(Color(flag_color))
+                    if orientation == 'vertical':
+                        if overflow_stripes == 1 and i == 0:
+                            continue
+                        if overflow_stripes == 1 and i == int(flag_colors_size/2):
+                            flag_color_palette.append(Color(flag_color))
                     if overflow_stripes == 2 and i == 0:
                         continue
                     if overflow_stripes == 2 and i == flag_colors_size-1:
@@ -362,11 +375,61 @@ def generateSpriteLine(paw_outlines_img, outline_color, flag, orientation, color
                     x, y = coord
                     output_flage_part_pixels[x ,y] = hex_to_rgb(outline_color.hex_l)
 
-            output_flage_frames_map[orientation + '_' + part] = output_flage_part
+            output_flage_frames_map[key] = output_flage_part
 
     return output_flage_frames_map
         
+def generatePaws(in_img_filename, parts, output_name, config, flags, transparent_color, outline_color):
+    color_code_map = dict()
 
+    paw_outlines_img = Image.new(mode = "RGBA", size= (0, 0))
+    with Image.open(in_img_filename) as paw_img:
+        paw_outlines_img = getOutlineImage(paw_img, outline_color)
+        color_code_map = generateColorCodeMap(config, parts, paw_img, transparent_color, outline_color)
+
+    #with open('color_code_map.json', 'w') as f:
+    #    json.dump(color_code_map, f, indent=4)
+
+    output_map = dict()
+
+    output_flages_map = dict()
+    frames_line_count = 0
+    for flag in flags:
+        output_flage_frames = dict()
+        for key, value in generateSpriteLine(output_map, paw_outlines_img, outline_color, flag, 'vertical', color_code_map).items():
+            output_flage_frames[key] = value
+        for key, value in generateSpriteLine(output_map, paw_outlines_img, outline_color, flag, 'horizontal', color_code_map).items():
+            output_flage_frames[key] = value
+        frames_line_count = len(output_flage_frames)
+        output_flages_map[flag['name']] = output_flage_frames
+
+
+    paw_width = paw_outlines_img.size[0]
+    paw_height = paw_outlines_img.size[1]
+    output = Image.new(mode = "RGBA", size=(paw_width * frames_line_count, paw_height * len(output_flages_map.values())))
+    y = 0
+    x = 0
+    for flag_name, output_flages in output_flages_map.items():
+        x = 0
+        if not flag_name in output_map:
+            output_map[flag_name] = dict()
+        for part, output_flage in output_flages.items():
+            output.paste(output_flage, (x, y))
+            if not part in output_map[flag_name]:
+                output_map[flag_name][part] = { 'flag_name': flag_name, 'part': part }
+            output_map[flag_name][part]['coord'] = (x, y, paw_width, paw_height)
+            x += paw_width
+        y += paw_height
+
+    output_map_filename = '{}_map.json'.format(output_name)
+    with open(output_map_filename, 'w') as f:
+        json.dump(output_map, f, indent=4)
+    with open(output_map_filename, 'r') as json_file:
+        with open("../_data/{}.yml".format(output_name), 'w') as yaml_file:
+            yaml.safe_dump(json.load(json_file), yaml_file, default_flow_style=False, allow_unicode=True)
+
+    #output.show()
+    output.save("../assets/img/{}.png".format(output_name)) 
 
 def main():
     config = dict()
@@ -388,50 +451,7 @@ def main():
         'center'
     ]
 
-    color_code_map = dict()
-    paw_outlines_img = Image.new(mode = "RGBA", size= (0, 0))
-
-    in_filename = './paw.png'
-    with Image.open(in_filename) as paw_img:
-        paw_outlines_img = getOutlineImage(paw_img, outline_color)
-        color_code_map = generateColorCodeMap(config, parts, paw_img, transparent_color, outline_color)
-
-    with open('color_code_map.json', 'w') as f:
-        json.dump(color_code_map, f, indent=4)
-
-    output_flages_map = dict()
-    frames_line_count = 0
-    for flag in flags:
-        output_flage_frames = dict()
-        for key, value in generateSpriteLine(paw_outlines_img, outline_color, flag, 'vertical', color_code_map).items():
-            output_flage_frames[key] = value
-        for key, value in generateSpriteLine(paw_outlines_img, outline_color, flag, 'horizontal', color_code_map).items():
-            output_flage_frames[key] = value
-        frames_line_count = len(output_flage_frames)
-        output_flages_map[flag['name']] = output_flage_frames
-
-
-    paw_width = paw_outlines_img.size[0]
-    paw_height = paw_outlines_img.size[1]
-    output = Image.new(mode = "RGBA", size=(paw_width * frames_line_count, paw_height * len(output_flages_map.values())))
-    output_map = dict()
-    y = 0
-    x = 0
-    for flag_name, output_flages in output_flages_map.items():
-        x = 0
-        output_map[flag_name] = dict()
-        for part, output_flage in output_flages.items():
-            output.paste(output_flage, (x, y))
-            output_map[flag_name][part] = {'flag_name': flag_name, 'part': part, 'coord': (x, y, paw_width, paw_height)}
-            x += paw_width
-        y += paw_height
-
-    with open('output_map.json', 'w') as f:
-        json.dump(output_map, f, indent=4)
-
-    #output.show()
-    output.save("output.png") 
-
+    generatePaws('./paw.png', parts, 'paw', config, flags, transparent_color, outline_color)
 
 
 if __name__ == "__main__":
