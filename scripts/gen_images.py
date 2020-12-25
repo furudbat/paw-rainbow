@@ -33,21 +33,22 @@ def scanImage(paw_img, parts_from_config, color_code_map, transparent_color, out
                         find_exist_coord = False
                         replace_coord_index = None
 
-                        for i in range(len(color_code_map[part]['start_' + orientation])):
-                            if orientation == "horizontal":
-                                if color_code_map[part]['start_' + orientation][i][1] == y and x < color_code_map[part]['start_' + orientation][i][0]:
-                                    replace_coord_index = i
-                                    find_exist_coord = True
-                                elif color_code_map[part]['start_' + orientation][i][1] == y and color_code_map[part]['start_' + orientation][i][0] <= x:
-                                    find_exist_coord = True
-                            elif orientation == "vertical":
-                                if color_code_map[part]['start_' + orientation][i][0] == x and y < color_code_map[part]['start_' + orientation][i][1]:
-                                    replace_coord_index = i
-                                    find_exist_coord = True
-                                elif color_code_map[part]['start_' + orientation][i][0] == x and color_code_map[part]['start_' + orientation][i][1] <= y:
-                                    find_exist_coord = True
-                            if find_exist_coord:
-                                break
+                        if part == 'whole':
+                            for i in range(len(color_code_map[part]['start_' + orientation])):
+                                if orientation == "horizontal":
+                                    if color_code_map[part]['start_' + orientation][i][1] == y and x < color_code_map[part]['start_' + orientation][i][0]:
+                                        replace_coord_index = i
+                                        find_exist_coord = True
+                                    elif color_code_map[part]['start_' + orientation][i][1] == y and color_code_map[part]['start_' + orientation][i][0] <= x:
+                                        find_exist_coord = True
+                                elif orientation == "vertical":
+                                    if color_code_map[part]['start_' + orientation][i][0] == x and y < color_code_map[part]['start_' + orientation][i][1]:
+                                        replace_coord_index = i
+                                        find_exist_coord = True
+                                    elif color_code_map[part]['start_' + orientation][i][0] == x and color_code_map[part]['start_' + orientation][i][1] <= y:
+                                        find_exist_coord = True
+                                if find_exist_coord:
+                                    break
                         
                         if replace_coord_index is not None and replace_coord_index >= 0:
                             color_code_map[part]['start_' + orientation][replace_coord_index] = coordinate
@@ -56,9 +57,9 @@ def scanImage(paw_img, parts_from_config, color_code_map, transparent_color, out
 
 
     if orientation == "horizontal":
-        color_code_map[part]['start_' + orientation].sort(key=lambda coord: coord[0])
-    elif orientation == "vertical":
         color_code_map[part]['start_' + orientation].sort(key=lambda coord: coord[1])
+    elif orientation == "vertical":
+        color_code_map[part]['start_' + orientation].sort(key=lambda coord: coord[0])
 
     for start_coord in color_code_map[part]['start_' + orientation]:
         x = sx = start_coord[0]
@@ -189,8 +190,22 @@ def generateSpriteLine(paw_outlines_img, outline_color, flag, orientation, color
         if 'start_' + orientation in color_coords and 'end_' + orientation in color_coords:
             stripes = len(color_coords['start_' + orientation])
             flag_colors_size = len(flag['colors'])
+            flag_name = flag['name']
 
             flag_color_palette = []
+
+            small_start = False
+            small_end = False
+            if orientation == "horizontal":
+                start_line_size = color_coords['end_' + orientation][0][0] - color_coords['start_' + orientation][0][0]
+                end_line_size = color_coords['end_' + orientation][-1][0] - color_coords['start_' + orientation][-1][0]
+                small_start = start_line_size <= 1
+                small_end = end_line_size <= 1
+            elif orientation == "vertical":
+                start_line_size = color_coords['end_' + orientation][0][1] - color_coords['start_' + orientation][0][1]
+                end_line_size = color_coords['end_' + orientation][-1][1] - color_coords['start_' + orientation][-1][1]
+                small_start = start_line_size <= 1
+                small_end = end_line_size <= 1
 
             if flag_colors_size == 1:
                 for i in range(stripes):
@@ -199,46 +214,145 @@ def generateSpriteLine(paw_outlines_img, outline_color, flag, orientation, color
                 for flag_color in flag['colors']:
                     flag_color_palette.append(Color(flag_color))
             elif stripes > flag_colors_size:
-                stripe_size = int((stripes - flag_colors_size) / 2)
-                if stripe_size > 0:
-                    first_half = int(flag_colors_size / 2) - 1
-                    second_half = int(flag_colors_size / 2) + 1
-
-                    pprint(first_half)
-                    pprint(second_half)
-
-                    for i in range(first_half):
-                        flag_color = flag['colors'][i]
-                        flag_color_palette.append(Color(flag_color))
-                    
-                    flag_color = flag['colors'][int(len(flag['colors']) / 2)]
-                    for j in range(stripe_size):
-                        flag_color_palette.append(Color(flag_color))
-
-                    for i in range(second_half, flag_colors_size):
+                rest_stripes = int(stripes - flag_colors_size)
+                if rest_stripes == 1:
+                    for i in range(0, int(flag_colors_size / 2)):
                         flag_color = flag['colors'][i]
                         flag_color_palette.append(Color(flag_color))
 
+                    i = int(flag_colors_size / 2)
+                    if i < flag_colors_size:
+                        flag_color = flag['colors'][i]
+                        for j in range(rest_stripes+1):
+                            flag_color_palette.append(Color(flag_color))
 
-            if len(flag_color_palette) < stripes:
-                pprint(flag['colors'])
-                pprint(flag_color_palette)
-                print('generateSpriteLine: flag_color_palette size < stripes: {} < {}'.format(len(flag_color_palette), stripes))
+                    for i in range(int(flag_colors_size / 2) + 1, flag_colors_size):
+                        flag_color = flag['colors'][i]
+                        flag_color_palette.append(Color(flag_color))
+                elif stripes % 2 == 0 or flag_colors_size % 2 == 0:
+                    rest_stripes_start_part = int(rest_stripes / 2) 
+                    rest_stripes_end_part = int(rest_stripes / 2) 
+                    rest_stripes_start_center = rest_stripes - rest_stripes_start_part - rest_stripes_end_part + 1
+                    rest_stripes_middle_center = 1
+                    rest_stripes_end_center = rest_stripes - rest_stripes_start_part - rest_stripes_end_part + 1
 
+                    if small_start:
+                        rest_stripes_start_part = rest_stripes_start_part + 1
+                        rest_stripes_start_center = rest_stripes_start_center - 1
+
+                    if small_end:
+                        rest_stripes_end_part = rest_stripes_end_part + 1
+                        rest_stripes_end_center = rest_stripes_end_center - 1
+
+                    if flag_colors_size % 2 != 0:
+                        rest_stripes_middle_center = rest_stripes_middle_center + 1
+
+                    rest_strips = stripes - rest_stripes_start_part 
+                    for i in range(1, flag_colors_size-1):
+                        if i == int(flag_colors_size/2-1) and rest_stripes_start_center > 0:
+                            rest_strips = rest_strips - rest_stripes_start_center
+                        elif i == int(flag_colors_size/2) and (rest_stripes_middle_center > 0):
+                            rest_strips = rest_strips - rest_stripes_middle_center
+                        elif i == int(flag_colors_size/2+1) and (rest_stripes_end_center > 0):
+                            rest_strips = rest_strips - rest_stripes_end_center
+                        else:
+                            rest_strips = rest_strips - 1
+                    rest_strips = rest_strips - rest_stripes_end_part
+                    if rest_strips > 0:
+                        pprint(flag_name)
+                        pprint(part)
+                        pprint((rest_strips))
+                        if rest_strips == 1:
+                            add_rest_stripes = rest_strips
+                            rest_stripes_middle_center = rest_stripes_middle_center + 1
+                        elif rest_strips % 2 == 0:
+                            add_rest_stripes = int(rest_strips / 2)
+                            rest_stripes_start_center = rest_stripes_start_center + add_rest_stripes
+                            rest_stripes_middle_center = rest_stripes_middle_center + add_rest_stripes
+                        else:
+                            add_rest_stripes = int(rest_strips / 3)
+                            rest_stripes_start_center = rest_stripes_start_center + add_rest_stripes
+                            rest_stripes_middle_center = rest_stripes_middle_center + add_rest_stripes
+                            rest_stripes_end_center = rest_stripes_end_center + add_rest_stripes
+
+
+                    for i in range(rest_stripes_start_part):
+                        flag_color = flag['colors'][0]
+                        flag_color_palette.append(Color(flag_color))
+
+                    for i in range(1, flag_colors_size-1):
+                        flag_color = flag['colors'][i]
+                        if i == int(flag_colors_size/2-1) and rest_stripes_start_center > 0:
+                            for j in range(rest_stripes_start_center):
+                                flag_color_palette.append(Color(flag_color))
+                        elif i == int(flag_colors_size/2) and (rest_stripes_middle_center > 0):
+                            for j in range(rest_stripes_middle_center):
+                                flag_color_palette.append(Color(flag_color))
+                        elif i == int(flag_colors_size/2+1) and (rest_stripes_end_center > 0):
+                            for j in range(rest_stripes_end_center):
+                                flag_color_palette.append(Color(flag_color))
+                        else:
+                            flag_color_palette.append(Color(flag_color))
+
+                    for i in range(rest_stripes_end_part):
+                        flag_color = flag['colors'][-1]
+                        flag_color_palette.append(Color(flag_color))
+                else:
+                    rest_stripes_start_part = int(rest_stripes / 2)
+                    rest_stripes_end_part = int(rest_stripes / 2)
+                    if small_start:
+                        rest_stripes_start_part = int(rest_stripes / 2) + 1
+                    if small_end:
+                        rest_stripes_end_part = int(rest_stripes / 2) + 1
+                    rest_stripes_center = rest_stripes - rest_stripes_start_part - rest_stripes_end_part + 1
+
+                    for i in range(rest_stripes_start_part):
+                        flag_color = flag['colors'][0]
+                        flag_color_palette.append(Color(flag_color))
+
+                    for i in range(1, flag_colors_size-1):
+                        flag_color = flag['colors'][i]
+                        if (not small_start and i == int(flag_colors_size/2-1)) or (not small_end and i == int(flag_colors_size/2)) and rest_stripes_center > 0:
+                            for j in range(rest_stripes_center):
+                                flag_color_palette.append(Color(flag_color))
+                        else:
+                            flag_color_palette.append(Color(flag_color))
+
+                    for i in range(rest_stripes_end_part):
+                        flag_color = flag['colors'][-1]
+                        flag_color_palette.append(Color(flag_color))
+            elif flag_colors_size < stripes:
+                for i in range(flag_colors_size):
+                    flag_color = flag['colors'][i]
+                    flag_color_palette.append(Color(flag_color))
+
+
+            #if len(flag_color_palette) < stripes:
+            #    pprint(flag['colors'])
+            #    pprint(flag_color_palette)
+            #    print('generateSpriteLine: flag_color_palette size < stripes: {} < {}'.format(len(flag_color_palette), stripes))
 
             for i in range(stripes):
                 x = sx = color_coords['start_' + orientation][i][0]
                 y = sy = color_coords['start_' + orientation][i][1]
                 ex = color_coords['end_' + orientation][i][0]
                 ey = color_coords['end_' + orientation][i][1]
+                #line_width = ex - sx - 2
+                #line_height = ey - sy - 2
 
                 if i < len(flag_color_palette):
                     if orientation == 'horizontal':
-                        for x in range(sx, ex):
+                        if sx == ex:
                             output_flage_part_pixels[x ,y] = hex_to_rgb(flag_color_palette[i].hex_l)
+                        else:
+                            for x in range(sx, ex):
+                                output_flage_part_pixels[x ,y] = hex_to_rgb(flag_color_palette[i].hex_l)
                     elif orientation == 'vertical':
-                        for y in range(sy, ey):
+                        if sy == ey:
                             output_flage_part_pixels[x ,y] = hex_to_rgb(flag_color_palette[i].hex_l)
+                        else:
+                            for y in range(sy, ey):
+                                output_flage_part_pixels[x ,y] = hex_to_rgb(flag_color_palette[i].hex_l)
 
             if orientation == 'vertical':
                 if part == 'center':
