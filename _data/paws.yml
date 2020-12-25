@@ -1,0 +1,1329 @@
+Agender:
+  horizontal_center:
+    coord:
+    - 198
+    - 66
+    - 22
+    - 22
+    flag_name: Agender
+    flags_fits: true
+    flags_fits_perfect: true
+    orientation: horizontal
+    part: center
+  horizontal_left_part_1:
+    coord:
+    - 110
+    - 66
+    - 22
+    - 22
+    flag_name: Agender
+    flags_fits: false
+    orientation: horizontal
+    part: left_part_1
+  horizontal_left_part_2:
+    coord:
+    - 132
+    - 66
+    - 22
+    - 22
+    flag_name: Agender
+    flags_fits: true
+    orientation: horizontal
+    part: left_part_2
+  horizontal_right_part_1:
+    coord:
+    - 154
+    - 66
+    - 22
+    - 22
+    flag_name: Agender
+    flags_fits: true
+    orientation: horizontal
+    part: right_part_1
+  horizontal_right_part_2:
+    coord:
+    - 176
+    - 66
+    - 22
+    - 22
+    flag_name: Agender
+    flags_fits: false
+    orientation: horizontal
+    part: right_part_2
+  vertical_center:
+    coord:
+    - 88
+    - 66
+    - 22
+    - 22
+    flag_name: Agender
+    flags_fits: true
+    orientation: vertical
+    part: center
+  vertical_left_part_1:
+    coord:
+    - 0
+    - 66
+    - 22
+    - 22
+    flag_name: Agender
+    flags_fits: false
+    orientation: vertical
+    part: left_part_1
+  vertical_left_part_2:
+    coord:
+    - 22
+    - 66
+    - 22
+    - 22
+    flag_name: Agender
+    flags_fits: false
+    orientation: vertical
+    part: left_part_2
+  vertical_right_part_1:
+    coord:
+    - 44
+    - 66
+    - 22
+    - 22
+    flag_name: Agender
+    flags_fits: false
+    orientation: vertical
+    part: right_part_1
+  vertical_right_part_2:
+    coord:
+    - 66
+    - 66
+    - 22
+    - 22
+    flag_name: Agender
+    flags_fits: false
+    orientation: vertical
+    part: right_part_2
+Asexual:
+  horizontal_center:
+    coord:
+    - 198
+    - 88
+    - 22
+    - 22
+    flag_name: Asexual
+    flags_fits: true
+    orientation: horizontal
+    part: center
+  horizontal_left_part_1:
+    coord:
+    - 110
+    - 88
+    - 22
+    - 22
+    flag_name: Asexual
+    flags_fits: true
+    flags_fits_perfect: true
+    orientation: horizontal
+    part: left_part_1
+  horizontal_left_part_2:
+    coord:
+    - 132
+    - 88
+    - 22
+    - 22
+    flag_name: Asexual
+    flags_fits: true
+    orientation: horizontal
+    part: left_part_2
+  horizontal_right_part_1:
+    coord:
+    - 154
+    - 88
+    - 22
+    - 22
+    flag_name: Asexual
+    flags_fits: true
+    orientation: horizontal
+    part: right_part_1
+  horizontal_right_part_2:
+    coord:
+    - 176
+    - 88
+    - 22
+    - 22
+    flag_name: Asexual
+    flags_fits: true
+    flags_fits_perfect: true
+    orientation: horizontal
+    part: right_part_2
+  vertical_center:
+    coord:
+    - 88
+    - 88
+    - 22
+    - 22
+    flag_name: Asexual
+    flags_fits: true
+    orientation: vertical
+    part: center
+  vertical_left_part_1:
+    coord:
+    - 0
+    - 88
+    - 22
+    - 22
+    flag_name: Asexual
+    flags_fits: false
+    orientation: vertical
+    part: left_part_1
+  vertical_left_part_2:
+    coord:
+    - 22
+    - 88
+    - 22
+    - 22
+    flag_name: Asexual
+    flags_fits: false
+    orientation: vertical
+    part: left_part_2
+  vertical_right_part_1:
+    coord:
+    - 44
+    - 88
+    - 22
+    - 22
+    flag_name: Asexual
+    flags_fits: false
+    orientation: vertical
+    part: right_part_1
+  vertical_right_part_2:
+    coord:
+    - 66
+    - 88
+    - 22
+    - 22
+    flag_name: Asexual
+    flags_fits: false
+    orientation: vertical
+    part: right_part_2
+Bisexual:
+  horizontal_center:
+    coord:
+    - 198
+    - 110
+    - 22
+    - 22
+    flag_name: Bisexual
+    flags_fits: true
+    orientation: horizontal
+    part: center
+  horizontal_left_part_1:
+    coord:
+    - 110
+    - 110
+    - 22
+    - 22
+    flag_name: Bisexual
+    flags_fits: true
+    flags_fits_perfect: true
+    orientation: horizontal
+    part: left_part_1
+  horizontal_left_part_2:
+    coord:
+    - 132
+    - 110
+    - 22
+    - 22
+    flag_name: Bisexual
+    flags_fits: true
+    orientation: horizontal
+    part: left_part_2
+  horizontal_right_part_1:
+    coord:
+    - 154
+    - 110
+    - 22
+    - 22
+    flag_name: Bisexual
+    flags_fits: true
+    orientation: horizontal
+    part: right_part_1
+  horizontal_right_part_2:
+    coord:
+    - 176
+    - 110
+    - 22
+    - 22
+    flag_name: Bisexual
+    flags_fits: true
+    flags_fits_perfect: true
+    orientation: horizontal
+    part: right_part_2
+  vertical_center:
+    coord:
+    - 88
+    - 110
+    - 22
+    - 22
+    flag_name: Bisexual
+    flags_fits: true
+    orientation: vertical
+    part: center
+  vertical_left_part_1:
+    coord:
+    - 0
+    - 110
+    - 22
+    - 22
+    flag_name: Bisexual
+    flags_fits: false
+    orientation: vertical
+    part: left_part_1
+  vertical_left_part_2:
+    coord:
+    - 22
+    - 110
+    - 22
+    - 22
+    flag_name: Bisexual
+    flags_fits: false
+    orientation: vertical
+    part: left_part_2
+  vertical_right_part_1:
+    coord:
+    - 44
+    - 110
+    - 22
+    - 22
+    flag_name: Bisexual
+    flags_fits: false
+    orientation: vertical
+    part: right_part_1
+  vertical_right_part_2:
+    coord:
+    - 66
+    - 110
+    - 22
+    - 22
+    flag_name: Bisexual
+    flags_fits: false
+    orientation: vertical
+    part: right_part_2
+Genderfluid:
+  horizontal_center:
+    coord:
+    - 198
+    - 220
+    - 22
+    - 22
+    flag_name: Genderfluid
+    flags_fits: true
+    orientation: horizontal
+    part: center
+  horizontal_left_part_1:
+    coord:
+    - 110
+    - 220
+    - 22
+    - 22
+    flag_name: Genderfluid
+    flags_fits: true
+    flags_fits_perfect: true
+    orientation: horizontal
+    part: left_part_1
+  horizontal_left_part_2:
+    coord:
+    - 132
+    - 220
+    - 22
+    - 22
+    flag_name: Genderfluid
+    flags_fits: true
+    orientation: horizontal
+    part: left_part_2
+  horizontal_right_part_1:
+    coord:
+    - 154
+    - 220
+    - 22
+    - 22
+    flag_name: Genderfluid
+    flags_fits: true
+    orientation: horizontal
+    part: right_part_1
+  horizontal_right_part_2:
+    coord:
+    - 176
+    - 220
+    - 22
+    - 22
+    flag_name: Genderfluid
+    flags_fits: true
+    flags_fits_perfect: true
+    orientation: horizontal
+    part: right_part_2
+  vertical_center:
+    coord:
+    - 88
+    - 220
+    - 22
+    - 22
+    flag_name: Genderfluid
+    flags_fits: true
+    orientation: vertical
+    part: center
+  vertical_left_part_1:
+    coord:
+    - 0
+    - 220
+    - 22
+    - 22
+    flag_name: Genderfluid
+    flags_fits: false
+    orientation: vertical
+    part: left_part_1
+  vertical_left_part_2:
+    coord:
+    - 22
+    - 220
+    - 22
+    - 22
+    flag_name: Genderfluid
+    flags_fits: false
+    orientation: vertical
+    part: left_part_2
+  vertical_right_part_1:
+    coord:
+    - 44
+    - 220
+    - 22
+    - 22
+    flag_name: Genderfluid
+    flags_fits: false
+    orientation: vertical
+    part: right_part_1
+  vertical_right_part_2:
+    coord:
+    - 66
+    - 220
+    - 22
+    - 22
+    flag_name: Genderfluid
+    flags_fits: false
+    orientation: vertical
+    part: right_part_2
+Genderqueer:
+  horizontal_center:
+    coord:
+    - 198
+    - 198
+    - 22
+    - 22
+    flag_name: Genderqueer
+    flags_fits: true
+    orientation: horizontal
+    part: center
+  horizontal_left_part_1:
+    coord:
+    - 110
+    - 198
+    - 22
+    - 22
+    flag_name: Genderqueer
+    flags_fits: true
+    orientation: horizontal
+    part: left_part_1
+  horizontal_left_part_2:
+    coord:
+    - 132
+    - 198
+    - 22
+    - 22
+    flag_name: Genderqueer
+    flags_fits: true
+    orientation: horizontal
+    part: left_part_2
+  horizontal_right_part_1:
+    coord:
+    - 154
+    - 198
+    - 22
+    - 22
+    flag_name: Genderqueer
+    flags_fits: true
+    orientation: horizontal
+    part: right_part_1
+  horizontal_right_part_2:
+    coord:
+    - 176
+    - 198
+    - 22
+    - 22
+    flag_name: Genderqueer
+    flags_fits: true
+    orientation: horizontal
+    part: right_part_2
+  vertical_center:
+    coord:
+    - 88
+    - 198
+    - 22
+    - 22
+    flag_name: Genderqueer
+    flags_fits: true
+    orientation: vertical
+    part: center
+  vertical_left_part_1:
+    coord:
+    - 0
+    - 198
+    - 22
+    - 22
+    flag_name: Genderqueer
+    flags_fits: true
+    orientation: vertical
+    part: left_part_1
+  vertical_left_part_2:
+    coord:
+    - 22
+    - 198
+    - 22
+    - 22
+    flag_name: Genderqueer
+    flags_fits: true
+    orientation: vertical
+    part: left_part_2
+  vertical_right_part_1:
+    coord:
+    - 44
+    - 198
+    - 22
+    - 22
+    flag_name: Genderqueer
+    flags_fits: true
+    orientation: vertical
+    part: right_part_1
+  vertical_right_part_2:
+    coord:
+    - 66
+    - 198
+    - 22
+    - 22
+    flag_name: Genderqueer
+    flags_fits: true
+    orientation: vertical
+    part: right_part_2
+Lesbian:
+  horizontal_center:
+    coord:
+    - 198
+    - 154
+    - 22
+    - 22
+    flag_name: Lesbian
+    flags_fits: true
+    flags_fits_perfect: true
+    orientation: horizontal
+    part: center
+  horizontal_left_part_1:
+    coord:
+    - 110
+    - 154
+    - 22
+    - 22
+    flag_name: Lesbian
+    flags_fits: false
+    orientation: horizontal
+    part: left_part_1
+  horizontal_left_part_2:
+    coord:
+    - 132
+    - 154
+    - 22
+    - 22
+    flag_name: Lesbian
+    flags_fits: true
+    orientation: horizontal
+    part: left_part_2
+  horizontal_right_part_1:
+    coord:
+    - 154
+    - 154
+    - 22
+    - 22
+    flag_name: Lesbian
+    flags_fits: true
+    orientation: horizontal
+    part: right_part_1
+  horizontal_right_part_2:
+    coord:
+    - 176
+    - 154
+    - 22
+    - 22
+    flag_name: Lesbian
+    flags_fits: false
+    orientation: horizontal
+    part: right_part_2
+  vertical_center:
+    coord:
+    - 88
+    - 154
+    - 22
+    - 22
+    flag_name: Lesbian
+    flags_fits: true
+    orientation: vertical
+    part: center
+  vertical_left_part_1:
+    coord:
+    - 0
+    - 154
+    - 22
+    - 22
+    flag_name: Lesbian
+    flags_fits: false
+    orientation: vertical
+    part: left_part_1
+  vertical_left_part_2:
+    coord:
+    - 22
+    - 154
+    - 22
+    - 22
+    flag_name: Lesbian
+    flags_fits: false
+    orientation: vertical
+    part: left_part_2
+  vertical_right_part_1:
+    coord:
+    - 44
+    - 154
+    - 22
+    - 22
+    flag_name: Lesbian
+    flags_fits: false
+    orientation: vertical
+    part: right_part_1
+  vertical_right_part_2:
+    coord:
+    - 66
+    - 154
+    - 22
+    - 22
+    flag_name: Lesbian
+    flags_fits: false
+    orientation: vertical
+    part: right_part_2
+Non-Binary:
+  horizontal_center:
+    coord:
+    - 198
+    - 242
+    - 22
+    - 22
+    flag_name: Non-Binary
+    flags_fits: true
+    orientation: horizontal
+    part: center
+  horizontal_left_part_1:
+    coord:
+    - 110
+    - 242
+    - 22
+    - 22
+    flag_name: Non-Binary
+    flags_fits: true
+    orientation: horizontal
+    part: left_part_1
+  horizontal_left_part_2:
+    coord:
+    - 132
+    - 242
+    - 22
+    - 22
+    flag_name: Non-Binary
+    flags_fits: true
+    orientation: horizontal
+    part: left_part_2
+  horizontal_right_part_1:
+    coord:
+    - 154
+    - 242
+    - 22
+    - 22
+    flag_name: Non-Binary
+    flags_fits: true
+    orientation: horizontal
+    part: right_part_1
+  horizontal_right_part_2:
+    coord:
+    - 176
+    - 242
+    - 22
+    - 22
+    flag_name: Non-Binary
+    flags_fits: true
+    orientation: horizontal
+    part: right_part_2
+  vertical_center:
+    coord:
+    - 88
+    - 242
+    - 22
+    - 22
+    flag_name: Non-Binary
+    flags_fits: true
+    orientation: vertical
+    part: center
+  vertical_left_part_1:
+    coord:
+    - 0
+    - 242
+    - 22
+    - 22
+    flag_name: Non-Binary
+    flags_fits: true
+    flags_fits_perfect: true
+    orientation: vertical
+    part: left_part_1
+  vertical_left_part_2:
+    coord:
+    - 22
+    - 242
+    - 22
+    - 22
+    flag_name: Non-Binary
+    flags_fits: true
+    flags_fits_perfect: true
+    orientation: vertical
+    part: left_part_2
+  vertical_right_part_1:
+    coord:
+    - 44
+    - 242
+    - 22
+    - 22
+    flag_name: Non-Binary
+    flags_fits: true
+    flags_fits_perfect: true
+    orientation: vertical
+    part: right_part_1
+  vertical_right_part_2:
+    coord:
+    - 66
+    - 242
+    - 22
+    - 22
+    flag_name: Non-Binary
+    flags_fits: true
+    flags_fits_perfect: true
+    orientation: vertical
+    part: right_part_2
+None:
+  horizontal_center:
+    coord:
+    - 198
+    - 0
+    - 22
+    - 22
+    flag_name: None
+    flags_fits: true
+    orientation: horizontal
+    part: center
+  horizontal_left_part_1:
+    coord:
+    - 110
+    - 0
+    - 22
+    - 22
+    flag_name: None
+    flags_fits: true
+    orientation: horizontal
+    part: left_part_1
+  horizontal_left_part_2:
+    coord:
+    - 132
+    - 0
+    - 22
+    - 22
+    flag_name: None
+    flags_fits: true
+    orientation: horizontal
+    part: left_part_2
+  horizontal_right_part_1:
+    coord:
+    - 154
+    - 0
+    - 22
+    - 22
+    flag_name: None
+    flags_fits: true
+    orientation: horizontal
+    part: right_part_1
+  horizontal_right_part_2:
+    coord:
+    - 176
+    - 0
+    - 22
+    - 22
+    flag_name: None
+    flags_fits: true
+    orientation: horizontal
+    part: right_part_2
+  vertical_center:
+    coord:
+    - 88
+    - 0
+    - 22
+    - 22
+    flag_name: None
+    flags_fits: true
+    orientation: vertical
+    part: center
+  vertical_left_part_1:
+    coord:
+    - 0
+    - 0
+    - 22
+    - 22
+    flag_name: None
+    flags_fits: true
+    orientation: vertical
+    part: left_part_1
+  vertical_left_part_2:
+    coord:
+    - 22
+    - 0
+    - 22
+    - 22
+    flag_name: None
+    flags_fits: true
+    orientation: vertical
+    part: left_part_2
+  vertical_right_part_1:
+    coord:
+    - 44
+    - 0
+    - 22
+    - 22
+    flag_name: None
+    flags_fits: true
+    orientation: vertical
+    part: right_part_1
+  vertical_right_part_2:
+    coord:
+    - 66
+    - 0
+    - 22
+    - 22
+    flag_name: None
+    flags_fits: true
+    orientation: vertical
+    part: right_part_2
+Pansexual:
+  horizontal_center:
+    coord:
+    - 198
+    - 132
+    - 22
+    - 22
+    flag_name: Pansexual
+    flags_fits: true
+    orientation: horizontal
+    part: center
+  horizontal_left_part_1:
+    coord:
+    - 110
+    - 132
+    - 22
+    - 22
+    flag_name: Pansexual
+    flags_fits: true
+    orientation: horizontal
+    part: left_part_1
+  horizontal_left_part_2:
+    coord:
+    - 132
+    - 132
+    - 22
+    - 22
+    flag_name: Pansexual
+    flags_fits: true
+    orientation: horizontal
+    part: left_part_2
+  horizontal_right_part_1:
+    coord:
+    - 154
+    - 132
+    - 22
+    - 22
+    flag_name: Pansexual
+    flags_fits: true
+    orientation: horizontal
+    part: right_part_1
+  horizontal_right_part_2:
+    coord:
+    - 176
+    - 132
+    - 22
+    - 22
+    flag_name: Pansexual
+    flags_fits: true
+    orientation: horizontal
+    part: right_part_2
+  vertical_center:
+    coord:
+    - 88
+    - 132
+    - 22
+    - 22
+    flag_name: Pansexual
+    flags_fits: true
+    orientation: vertical
+    part: center
+  vertical_left_part_1:
+    coord:
+    - 0
+    - 132
+    - 22
+    - 22
+    flag_name: Pansexual
+    flags_fits: true
+    orientation: vertical
+    part: left_part_1
+  vertical_left_part_2:
+    coord:
+    - 22
+    - 132
+    - 22
+    - 22
+    flag_name: Pansexual
+    flags_fits: true
+    orientation: vertical
+    part: left_part_2
+  vertical_right_part_1:
+    coord:
+    - 44
+    - 132
+    - 22
+    - 22
+    flag_name: Pansexual
+    flags_fits: true
+    orientation: vertical
+    part: right_part_1
+  vertical_right_part_2:
+    coord:
+    - 66
+    - 132
+    - 22
+    - 22
+    flag_name: Pansexual
+    flags_fits: true
+    orientation: vertical
+    part: right_part_2
+Philadelphia's People of Color Inclusive Flag:
+  horizontal_center:
+    coord:
+    - 198
+    - 44
+    - 22
+    - 22
+    flag_name: Philadelphia's People of Color Inclusive Flag
+    flags_fits: false
+    orientation: horizontal
+    part: center
+  horizontal_left_part_1:
+    coord:
+    - 110
+    - 44
+    - 22
+    - 22
+    flag_name: Philadelphia's People of Color Inclusive Flag
+    flags_fits: false
+    orientation: horizontal
+    part: left_part_1
+  horizontal_left_part_2:
+    coord:
+    - 132
+    - 44
+    - 22
+    - 22
+    flag_name: Philadelphia's People of Color Inclusive Flag
+    flags_fits: true
+    flags_fits_perfect: true
+    orientation: horizontal
+    part: left_part_2
+  horizontal_right_part_1:
+    coord:
+    - 154
+    - 44
+    - 22
+    - 22
+    flag_name: Philadelphia's People of Color Inclusive Flag
+    flags_fits: true
+    flags_fits_perfect: true
+    orientation: horizontal
+    part: right_part_1
+  horizontal_right_part_2:
+    coord:
+    - 176
+    - 44
+    - 22
+    - 22
+    flag_name: Philadelphia's People of Color Inclusive Flag
+    flags_fits: false
+    orientation: horizontal
+    part: right_part_2
+  vertical_center:
+    coord:
+    - 88
+    - 44
+    - 22
+    - 22
+    flag_name: Philadelphia's People of Color Inclusive Flag
+    flags_fits: true
+    orientation: vertical
+    part: center
+  vertical_left_part_1:
+    coord:
+    - 0
+    - 44
+    - 22
+    - 22
+    flag_name: Philadelphia's People of Color Inclusive Flag
+    flags_fits: false
+    orientation: vertical
+    part: left_part_1
+  vertical_left_part_2:
+    coord:
+    - 22
+    - 44
+    - 22
+    - 22
+    flag_name: Philadelphia's People of Color Inclusive Flag
+    flags_fits: false
+    orientation: vertical
+    part: left_part_2
+  vertical_right_part_1:
+    coord:
+    - 44
+    - 44
+    - 22
+    - 22
+    flag_name: Philadelphia's People of Color Inclusive Flag
+    flags_fits: false
+    orientation: vertical
+    part: right_part_1
+  vertical_right_part_2:
+    coord:
+    - 66
+    - 44
+    - 22
+    - 22
+    flag_name: Philadelphia's People of Color Inclusive Flag
+    flags_fits: false
+    orientation: vertical
+    part: right_part_2
+Progress:
+  horizontal_center:
+    coord:
+    - 198
+    - 264
+    - 22
+    - 22
+    flag_name: Progress
+    flags_fits: true
+    orientation: horizontal
+    part: center
+  horizontal_left_part_1:
+    coord:
+    - 110
+    - 264
+    - 22
+    - 22
+    flag_name: Progress
+    flags_fits: false
+    orientation: horizontal
+    part: left_part_1
+  horizontal_left_part_2:
+    coord:
+    - 132
+    - 264
+    - 22
+    - 22
+    flag_name: Progress
+    flags_fits: true
+    orientation: horizontal
+    part: left_part_2
+  horizontal_right_part_1:
+    coord:
+    - 154
+    - 264
+    - 22
+    - 22
+    flag_name: Progress
+    flags_fits: true
+    orientation: horizontal
+    part: right_part_1
+  horizontal_right_part_2:
+    coord:
+    - 176
+    - 264
+    - 22
+    - 22
+    flag_name: Progress
+    flags_fits: false
+    orientation: horizontal
+    part: right_part_2
+  vertical_center:
+    coord:
+    - 88
+    - 264
+    - 22
+    - 22
+    flag_name: Progress
+    flags_fits: true
+    orientation: vertical
+    part: center
+  vertical_left_part_1:
+    coord:
+    - 0
+    - 264
+    - 22
+    - 22
+    flag_name: Progress
+    flags_fits: false
+    orientation: vertical
+    part: left_part_1
+  vertical_left_part_2:
+    coord:
+    - 22
+    - 264
+    - 22
+    - 22
+    flag_name: Progress
+    flags_fits: false
+    orientation: vertical
+    part: left_part_2
+  vertical_right_part_1:
+    coord:
+    - 44
+    - 264
+    - 22
+    - 22
+    flag_name: Progress
+    flags_fits: false
+    orientation: vertical
+    part: right_part_1
+  vertical_right_part_2:
+    coord:
+    - 66
+    - 264
+    - 22
+    - 22
+    flag_name: Progress
+    flags_fits: false
+    orientation: vertical
+    part: right_part_2
+Rainbow Pride Flag:
+  horizontal_center:
+    coord:
+    - 198
+    - 22
+    - 22
+    - 22
+    flag_name: Rainbow Pride Flag
+    flags_fits: true
+    orientation: horizontal
+    part: center
+  horizontal_left_part_1:
+    coord:
+    - 110
+    - 22
+    - 22
+    - 22
+    flag_name: Rainbow Pride Flag
+    flags_fits: false
+    orientation: horizontal
+    part: left_part_1
+  horizontal_left_part_2:
+    coord:
+    - 132
+    - 22
+    - 22
+    - 22
+    flag_name: Rainbow Pride Flag
+    flags_fits: true
+    orientation: horizontal
+    part: left_part_2
+  horizontal_right_part_1:
+    coord:
+    - 154
+    - 22
+    - 22
+    - 22
+    flag_name: Rainbow Pride Flag
+    flags_fits: true
+    orientation: horizontal
+    part: right_part_1
+  horizontal_right_part_2:
+    coord:
+    - 176
+    - 22
+    - 22
+    - 22
+    flag_name: Rainbow Pride Flag
+    flags_fits: false
+    orientation: horizontal
+    part: right_part_2
+  vertical_center:
+    coord:
+    - 88
+    - 22
+    - 22
+    - 22
+    flag_name: Rainbow Pride Flag
+    flags_fits: true
+    orientation: vertical
+    part: center
+  vertical_left_part_1:
+    coord:
+    - 0
+    - 22
+    - 22
+    - 22
+    flag_name: Rainbow Pride Flag
+    flags_fits: false
+    orientation: vertical
+    part: left_part_1
+  vertical_left_part_2:
+    coord:
+    - 22
+    - 22
+    - 22
+    - 22
+    flag_name: Rainbow Pride Flag
+    flags_fits: false
+    orientation: vertical
+    part: left_part_2
+  vertical_right_part_1:
+    coord:
+    - 44
+    - 22
+    - 22
+    - 22
+    flag_name: Rainbow Pride Flag
+    flags_fits: false
+    orientation: vertical
+    part: right_part_1
+  vertical_right_part_2:
+    coord:
+    - 66
+    - 22
+    - 22
+    - 22
+    flag_name: Rainbow Pride Flag
+    flags_fits: false
+    orientation: vertical
+    part: right_part_2
+Transgender:
+  horizontal_center:
+    coord:
+    - 198
+    - 176
+    - 22
+    - 22
+    flag_name: Transgender
+    flags_fits: true
+    orientation: horizontal
+    part: center
+  horizontal_left_part_1:
+    coord:
+    - 110
+    - 176
+    - 22
+    - 22
+    flag_name: Transgender
+    flags_fits: true
+    flags_fits_perfect: true
+    orientation: horizontal
+    part: left_part_1
+  horizontal_left_part_2:
+    coord:
+    - 132
+    - 176
+    - 22
+    - 22
+    flag_name: Transgender
+    flags_fits: true
+    orientation: horizontal
+    part: left_part_2
+  horizontal_right_part_1:
+    coord:
+    - 154
+    - 176
+    - 22
+    - 22
+    flag_name: Transgender
+    flags_fits: true
+    orientation: horizontal
+    part: right_part_1
+  horizontal_right_part_2:
+    coord:
+    - 176
+    - 176
+    - 22
+    - 22
+    flag_name: Transgender
+    flags_fits: true
+    flags_fits_perfect: true
+    orientation: horizontal
+    part: right_part_2
+  vertical_center:
+    coord:
+    - 88
+    - 176
+    - 22
+    - 22
+    flag_name: Transgender
+    flags_fits: true
+    orientation: vertical
+    part: center
+  vertical_left_part_1:
+    coord:
+    - 0
+    - 176
+    - 22
+    - 22
+    flag_name: Transgender
+    flags_fits: false
+    orientation: vertical
+    part: left_part_1
+  vertical_left_part_2:
+    coord:
+    - 22
+    - 176
+    - 22
+    - 22
+    flag_name: Transgender
+    flags_fits: false
+    orientation: vertical
+    part: left_part_2
+  vertical_right_part_1:
+    coord:
+    - 44
+    - 176
+    - 22
+    - 22
+    flag_name: Transgender
+    flags_fits: false
+    orientation: vertical
+    part: right_part_1
+  vertical_right_part_2:
+    coord:
+    - 66
+    - 176
+    - 22
+    - 22
+    flag_name: Transgender
+    flags_fits: false
+    orientation: vertical
+    part: right_part_2

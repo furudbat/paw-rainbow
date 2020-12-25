@@ -258,33 +258,68 @@ def generateSpriteLine(output_map, paw_outlines_img, outline_color, flag, orient
                     if flag_colors_size % 2 != 0:
                         rest_stripes_middle_center = rest_stripes_middle_center + 1
 
-                    rest_strips = stripes - rest_stripes_start_part 
-                    for i in range(1, flag_colors_size-1):
-                        if i == int(flag_colors_size/2-1) and rest_stripes_start_center > 0:
-                            rest_strips = rest_strips - rest_stripes_start_center
-                        elif i == int(flag_colors_size/2) and (rest_stripes_middle_center > 0):
-                            rest_strips = rest_strips - rest_stripes_middle_center
-                        elif i == int(flag_colors_size/2+1) and (rest_stripes_end_center > 0):
-                            rest_strips = rest_strips - rest_stripes_end_center
-                        else:
-                            rest_strips = rest_strips - 1
-                    rest_strips = rest_strips - rest_stripes_end_part
-                    if rest_strips > 0:
-                        if rest_strips == 1:
-                            add_rest_stripes = rest_strips
-                            if orientation == 'horizontal':
-                                rest_stripes_start_part = rest_stripes_start_part + add_rest_stripes
-                            elif orientation == 'vertical':
+                    if rest_stripes_end_part < 0:
+                        pprint(rest_stripes_end_part)
+                        exit()
+
+                    while(True):
+                        rest_strips = stripes - rest_stripes_start_part 
+                        for i in range(1, flag_colors_size-1):
+                            if i == int(flag_colors_size/2-1) and rest_stripes_start_center > 0:
+                                rest_strips = rest_strips - rest_stripes_start_center
+                            elif i == int(flag_colors_size/2) and (rest_stripes_middle_center > 0):
+                                rest_strips = rest_strips - rest_stripes_middle_center
+                            elif i == int(flag_colors_size/2+1) and (rest_stripes_end_center > 0):
+                                rest_strips = rest_strips - rest_stripes_end_center
+                            else:
+                                rest_strips = rest_strips - 1
+                        rest_strips = rest_strips - rest_stripes_end_part
+                        if rest_strips > 0 and rest_strips <= stripes:
+                            if rest_strips == 1:
+                                add_rest_stripes = rest_strips
+                                if orientation == 'horizontal':
+                                    rest_stripes_start_part = rest_stripes_start_part + add_rest_stripes
+                                elif orientation == 'vertical':
+                                    if flag_colors_size % 2 == 0:
+                                    	rest_stripes_start_center = rest_stripes_start_center + add_rest_stripes
+                                    else:
+                                        rest_stripes_middle_center = rest_stripes_middle_center + add_rest_stripes
+                            elif rest_strips % 2 == 0:
+                                add_rest_stripes = int(rest_strips / 2)
+                                if flag_colors_size % 2 == 0:
+                                    rest_stripes_start_center = rest_stripes_start_center + add_rest_stripes
+                                    rest_stripes_middle_center = rest_stripes_middle_center + add_rest_stripes
+                                else:
+                                    rest_stripes_middle_center = rest_stripes_middle_center + add_rest_stripes
+                                    rest_stripes_end_center = rest_stripes_end_center + add_rest_stripes
+                            elif rest_strips % 3 == 0:
+                                add_rest_stripes = int(rest_strips / 3)
                                 rest_stripes_start_center = rest_stripes_start_center + add_rest_stripes
-                        elif rest_strips % 2 == 0:
-                            add_rest_stripes = int(rest_strips / 2)
-                            rest_stripes_start_center = rest_stripes_start_center + add_rest_stripes
-                            rest_stripes_middle_center = rest_stripes_middle_center + add_rest_stripes
+                                rest_stripes_middle_center = rest_stripes_middle_center + add_rest_stripes
+                                rest_stripes_end_center = rest_stripes_end_center + add_rest_stripes
+                            else:
+                                add_rest_stripes = rest_strips
+                                if flag_colors_size % 2 == 0:
+                                    if orientation == 'horizontal':
+                                        rest_stripes_start_center = rest_stripes_start_center + add_rest_stripes
+                                    elif orientation == 'vertical':
+                                        rest_stripes_end_center = rest_stripes_end_center + add_rest_stripes
+                                else:
+                                    if orientation == 'horizontal':
+                                        rest_stripes_middle_center = rest_stripes_middle_center + add_rest_stripes
+                                    elif orientation == 'vertical':
+                                        rest_stripes_end_center = rest_stripes_end_center + add_rest_stripes
                         else:
-                            add_rest_stripes = int(rest_strips / 3)
-                            rest_stripes_start_center = rest_stripes_start_center + add_rest_stripes
-                            rest_stripes_middle_center = rest_stripes_middle_center + add_rest_stripes
-                            rest_stripes_end_center = rest_stripes_end_center + add_rest_stripes
+                            if rest_strips >= stripes:
+                                pprint(flag_name)
+                                pprint(part)
+                                pprint(flag_colors_size)
+                                pprint((rest_stripes_start_center, rest_stripes_middle_center, rest_stripes_end_center))
+                                pprint((rest_stripes_start_part, rest_stripes_end_part))
+                                pprint(rest_strips)
+                                pprint('generateSpriteLine: some thing want wrong, can elminate rest stripes')
+                                exit()
+                            break
 
 
                     for i in range(rest_stripes_start_part):
@@ -362,11 +397,12 @@ def generateSpriteLine(output_map, paw_outlines_img, outline_color, flag, orient
                         
                     if 'triangle' in flag:
                         triangle_flag_colors = flag['triangle']
-                        for i in len(triangle_flag_colors):
+                        for i in range(len(triangle_flag_colors)):
                             triangle_flag_color = Color(triangle_flag_colors[i])
                             if i < len(color_coords['triangle']):
-                                x, y = color_coords['triangle'][i]
-                                output_flage_part_pixels[x ,y] = hex_to_rgb(triangle_flag_color.hex_l)
+                                for color_cooord in color_coords['triangle'][i]:
+                                    x, y = color_cooord
+                                    output_flage_part_pixels[x ,y] = hex_to_rgb(triangle_flag_color.hex_l)
 
             output_flage_part.paste(paw_outlines_img, (0, 0), paw_outlines_img)
 
@@ -451,7 +487,7 @@ def main():
         'center'
     ]
 
-    generatePaws('./paw.png', parts, 'paw', config, flags, transparent_color, outline_color)
+    generatePaws('./paw.png', parts, 'paws', config, flags, transparent_color, outline_color)
 
 
 if __name__ == "__main__":

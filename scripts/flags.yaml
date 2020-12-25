@@ -1,14 +1,24 @@
 - name: None
   colors:
-    - '#7f5428'
-- name: Pride
+    - '#1c1c1c'
+- name: Rainbow Pride Flag
   colors:
-    - '#FF0018'
-    - '#FFA52C'
-    - '#FFFF41'
-    - '#008018'
-    - '#0000F9'
-    - '#86007D'
+    - '#f00000'
+    - '#ff8000'
+    - '#ffff00'
+    - '#007940'
+    - '#4040ff'
+    - '#a000c0'
+- name: "Philadelphia's People of Color Inclusive Flag"
+  colors:
+    - '#000000'
+    - '#72501e'
+    - '#d12d1f'
+    - '#ef9236'
+    - '#fced4f'
+    - '#3a7f30'
+    - '#1c50f6'
+    - '#6b1783'
 - name: Agender
   colors:
     - '#000000'
@@ -32,3 +42,53 @@
     - '#9b4f96'
     - '#0038a8'
     - '#0038a8'
+- name: Pansexual
+  colors:
+    - '#e93d8c'
+    - '#f9da49'
+    - '#55b1f9'
+- name: Lesbian
+  colors:
+    - '#c33d1e'
+    - '#df7c3d'
+    - '#f19e63'
+    - '#ffffff'
+    - '#c269a2'
+    - '#a85c8e'
+    - '#951f60'
+- name: Transgender 
+  colors:
+    - '#7ccdf6'
+    - '#eaaeba'
+    - '#ffffff'
+    - '#eaaeba'
+    - '#7ccdf6'
+- name: Genderqueer 
+  colors:
+    - '#b39bd9'
+    - '#ffffff'
+    - '#738d46'
+- name: Genderfluid  
+  colors:
+    - '#ed7ea3'
+    - '#ffffff'
+    - '#af30d0'
+    - '#000000'
+    - '#313fb8'
+- name: Non-Binary  
+  colors:
+    - '#fdf35e'
+    - '#ffffff'
+    - '#915fc9'
+    - '#2d2d2d'
+- name: Progress
+  colors:
+    - '#c32b1f'
+    - '#e2a037'
+    - '#e9fd52'
+    - '#5abd37'
+    - '#051f92'
+    - '#6b1785'
+  triangle:
+    - '#000000'
+    - '#ffffff'
