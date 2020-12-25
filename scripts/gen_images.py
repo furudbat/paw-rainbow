@@ -231,7 +231,6 @@ def genStripesParts(small_start, small_end, stripes, flag_colors_size, orientati
         stripes_start_part = int(stripes / 2)
         stripes_end_part = int(stripes / 2)
         if stripes >= flag_colors_size*4:
-            pprint((stripes, stripes_start_part, stripes_end_part))
             if flag_colors_size % 2 != 0:
                 stripes_start_part = stripes_start_part - int(stripes / 4)
                 stripes_end_part = stripes_end_part - int(stripes / 4)
