@@ -39,22 +39,21 @@ def scanImage(img, parts_from_config, color_code_map, transparent_colors, outlin
                             find_exist_coord = False
                             replace_coord_index = None
 
-                            if part == 'whole':
-                                for i in range(len(color_code_map[part]['start_' + orientation])):
-                                    if orientation == "horizontal":
-                                        if color_code_map[part]['start_' + orientation][i][1] == y and x < color_code_map[part]['start_' + orientation][i][0]:
-                                            replace_coord_index = i
-                                            find_exist_coord = True
-                                        elif color_code_map[part]['start_' + orientation][i][1] == y and color_code_map[part]['start_' + orientation][i][0] <= x:
-                                            find_exist_coord = True
-                                    elif orientation == "vertical":
-                                        if color_code_map[part]['start_' + orientation][i][0] == x and y < color_code_map[part]['start_' + orientation][i][1]:
-                                            replace_coord_index = i
-                                            find_exist_coord = True
-                                        elif color_code_map[part]['start_' + orientation][i][0] == x and color_code_map[part]['start_' + orientation][i][1] <= y:
-                                            find_exist_coord = True
-                                    if find_exist_coord:
-                                        break
+                            for i in range(len(color_code_map[part]['start_' + orientation])):
+                                if orientation == "horizontal":
+                                    if color_code_map[part]['start_' + orientation][i][1] == y and x < color_code_map[part]['start_' + orientation][i][0]:
+                                        replace_coord_index = i
+                                        find_exist_coord = True
+                                    elif color_code_map[part]['start_' + orientation][i][1] == y and color_code_map[part]['start_' + orientation][i][0] <= x:
+                                        find_exist_coord = True
+                                elif orientation == "vertical":
+                                    if color_code_map[part]['start_' + orientation][i][0] == x and y < color_code_map[part]['start_' + orientation][i][1]:
+                                        replace_coord_index = i
+                                        find_exist_coord = True
+                                    elif color_code_map[part]['start_' + orientation][i][0] == x and color_code_map[part]['start_' + orientation][i][1] <= y:
+                                        find_exist_coord = True
+                                if find_exist_coord:
+                                    break
                             
                             if replace_coord_index is not None and replace_coord_index >= 0:
                                 color_code_map[part]['start_' + orientation][replace_coord_index] = coordinate
@@ -63,8 +62,10 @@ def scanImage(img, parts_from_config, color_code_map, transparent_colors, outlin
 
 
         if orientation == "horizontal":
+            color_code_map[part]['start_' + orientation] = list(dict.fromkeys(color_code_map[part]['start_' + orientation]))
             color_code_map[part]['start_' + orientation].sort(key=lambda coord: coord[1])
         elif orientation == "vertical":
+            color_code_map[part]['start_' + orientation] = list(dict.fromkeys(color_code_map[part]['start_' + orientation]))
             color_code_map[part]['start_' + orientation].sort(key=lambda coord: coord[0])
 
     if part in color_code_map and 'start_' + orientation in color_code_map[part] and color_code_map[part]['start_' + orientation]:
@@ -144,16 +145,20 @@ def generateColorCodeMap(colors_config, parts, img, transparent_colors, outline_
     color_code_map = dict()
 
     parts_from_config['whole'] = dict()
-    parts_from_config['whole']['horizontal'] = []
-    parts_from_config['whole']['vertical'] = []
-    parts_from_config['whole']['triangle'] = []
     for part in parts:
         parts_from_config[part] = dict()
         parts_from_config[part]['horizontal'] = colors_config[part]['horizontal'] if 'horizontal' in colors_config[part] else []
         parts_from_config[part]['vertical'] = colors_config[part]['vertical'] if 'vertical' in colors_config[part] else []
 
-        parts_from_config['whole']['horizontal'].extend(parts_from_config[part]['horizontal'])
-        parts_from_config['whole']['vertical'].extend(parts_from_config[part]['vertical'])
+        if parts_from_config[part]['horizontal']:
+            if not 'horizontal' in parts_from_config['whole']:
+                parts_from_config['whole']['horizontal'] = []
+            parts_from_config['whole']['horizontal'].extend(parts_from_config[part]['horizontal'])
+
+        if parts_from_config[part]['vertical']:
+            if not 'vertical' in parts_from_config['whole']:
+                parts_from_config['whole']['vertical'] = []
+            parts_from_config['whole']['vertical'].extend(parts_from_config[part]['vertical'])
 
         scanImage(img, parts_from_config, color_code_map, transparent_colors, outline_color, part, 'horizontal')
         scanImage(img, parts_from_config, color_code_map, transparent_colors, outline_color, part, 'vertical')
@@ -179,13 +184,14 @@ def generateColorCodeMap(colors_config, parts, img, transparent_colors, outline_
     if 'main' in colors_config:
         color_code_map['main']['horizontal_line'] = color_code_map['horizontal_line'] if 'horizontal_line' in color_code_map else []
         color_code_map['main']['vertical_line'] = color_code_map['vertical_line'] if 'vertical_line' in color_code_map else []
+    
     color_code_map['whole']['horizontal_line'] = color_code_map['horizontal_line'] if 'horizontal_line' in color_code_map else []
     color_code_map['whole']['vertical_line'] = color_code_map['vertical_line'] if 'vertical_line' in color_code_map else []
 
     if 'horizontal_line' in color_code_map:
         del color_code_map['horizontal_line']
-    if 'horizontal_line' in color_code_map:
-        del color_code_map['horizontal_line']
+    if 'vertical_line' in color_code_map:
+        del color_code_map['vertical_line']
     if 'line' in color_code_map:
         del color_code_map['line']
 
@@ -198,33 +204,25 @@ def generateColorCodeMap(colors_config, parts, img, transparent_colors, outline_
             rgb = r, g, b
             px_color = Color(rgb_to_hex(rgb))
                     
-            if 'center' in colors_config and 'triangle' in colors_config['center']:
-                if not 'triangle' in color_code_map['center']:
-                    color_code_map['center']['triangle'] = []
-                if not 'triangle' in color_code_map['whole']:
-                    color_code_map['whole']['triangle'] = []
-                for i in range(len(colors_config['center']['triangle'])):
-                    part_color = colors_config['center']['triangle'][i]
-                    if i >= len(color_code_map['center']['triangle']):
-                        color_code_map['center']['triangle'].append([])
-                        color_code_map['whole']['triangle'].append([])
-                    if px_color == Color(part_color):
-                        color_code_map['center']['triangle'][i].append(coordinate)
-                        color_code_map['whole']['triangle'][i].append(coordinate)
-                    
-            if 'main' in colors_config and 'triangle' in colors_config['main']:
-                if not 'triangle' in color_code_map['main']:
-                    color_code_map['main']['triangle'] = []
-                if not 'triangle' in color_code_map['whole']:
-                    color_code_map['whole']['triangle'] = []
-                for i in range(len(colors_config['main']['triangle'])):
-                    part_color = colors_config['main']['triangle'][i]
-                    if i >= len(color_code_map['main']['triangle']):
-                        color_code_map['main']['triangle'].append([])
-                        color_code_map['whole']['triangle'].append([])
-                    if px_color == Color(part_color):
-                        color_code_map['main']['triangle'][i].append(coordinate)
-                        color_code_map['whole']['triangle'][i].append(coordinate)
+            for conf in ['center', 'main']:
+                if conf in colors_config and 'triangle' in colors_config[conf]:
+                    for orientation in ['horizontal', 'vertical']:
+                        if orientation in colors_config[conf]['triangle']:
+                            triangle_name = "{}_triangle".format(orientation)
+
+                            if not triangle_name in color_code_map[conf]:
+                                color_code_map[conf][triangle_name] = []
+                            if not triangle_name in color_code_map['whole']:
+                                color_code_map['whole'][triangle_name] = []
+                            
+                            for i in range(len(colors_config[conf]['triangle'][orientation])):
+                                part_color = colors_config[conf]['triangle'][orientation][i]
+                                if i >= len(color_code_map[conf][triangle_name]):
+                                    color_code_map[conf][triangle_name].append([])
+                                    color_code_map['whole'][triangle_name].append([])
+                                if px_color == Color(part_color):
+                                    color_code_map[conf][triangle_name][i].append(coordinate)
+                                    color_code_map['whole'][triangle_name][i].append(coordinate)
 
             if 'craws' in colors_config:
                 if not 'craws' in color_code_map:
@@ -425,14 +423,15 @@ def getFlagColorPaletteStriped(flag_colors, stripes, orientation):
 
     return flag_color_palette
 
-def generateSpriteLine(output_map, paw_outlines_img, outline_color, flag, orientation, color_code_map):
+def generateSpriteLine(output_map, paw_outlines_img, outline_color, flag, parts, orientation, color_code_map):
     assert (orientation == "horizontal" or orientation == "vertical"), 'orientation must be "horizontal" or "vertical"'
 
     paw_width = paw_outlines_img.size[0]
     paw_height = paw_outlines_img.size[1]
 
     output_flage_frames_map = dict()
-    for part, color_coords in color_code_map.items():
+    for part in parts:
+        color_coords = color_code_map[part]
         output_flage_part = Image.new(mode = "RGBA", size= (paw_width, paw_height))
         output_flage_part_pixels = output_flage_part.load()
 
@@ -552,9 +551,12 @@ def generateSpriteLine(output_map, paw_outlines_img, outline_color, flag, orient
                                         for y in range(sy, ey):
                                             output_flage_part_pixels[x ,y] = hex_to_rgb(line_flag_color.hex_l)
                     
-                    if 'triangle' in flag and 'triangle' in color_coords:
+                    triangle_name = "{}_triangle".format(orientation)
+                    if not line_name in color_coords and 'triangle' in color_coords:
+                        line_name = 'line'
+                    if 'triangle' in flag and triangle_name in color_coords:
                         triangle_flag_colors = flag['triangle']
-                        color_coords_triangle = color_coords['triangle']
+                        color_coords_triangle = color_coords[triangle_name]
                         color_coords_triangle_size = len(color_coords_triangle)
                         triangle_flag_colors_size = len(triangle_flag_colors) 
 
@@ -624,9 +626,9 @@ def generateSprite(in_img_filename, parts, output_name, colors_config, flags, tr
     frames_line_count = 0
     for flag in flags:
         output_flage_frames = dict()
-        for key, value in generateSpriteLine(output_map, paw_outlines_img, outline_color, flag, 'vertical', color_code_map).items():
+        for key, value in generateSpriteLine(output_map, paw_outlines_img, outline_color, flag, parts, 'vertical', color_code_map).items():
             output_flage_frames[key] = value
-        for key, value in generateSpriteLine(output_map, paw_outlines_img, outline_color, flag, 'horizontal', color_code_map).items():
+        for key, value in generateSpriteLine(output_map, paw_outlines_img, outline_color, flag, parts, 'horizontal', color_code_map).items():
             output_flage_frames[key] = value
         frames_line_count = len(output_flage_frames)
         output_flages_map[flag['name']] = output_flage_frames
@@ -675,26 +677,33 @@ def main():
     for transparent_color in config['transparent_colors']:
         transparent_colors.append(Color(transparent_color))
     
-    # if 'paw' in config:
-    #     parts = [
-    #         'left_part_1',
-    #         'left_part_2',
-    #         'right_part_1',
-    #         'right_part_2',
-    #         'center'
-    #     ]
+    if 'paw' in config:
+        parts = [
+            'left_part_1',
+            'left_part_2',
+            'right_part_1',
+            'right_part_2',
+            'center'
+        ]
 
-    #     generateSprite('./paw.png', parts, 'pride_paws', config['paw'], pride_flags, transparent_colors)
-    #     generateSprite('./paw.png', parts, 'gender_paws', config['paw'], gender_flags, transparent_colors)
+        generateSprite('./paw.png', parts, 'pride_paws', config['paw'], pride_flags, transparent_colors)
+        generateSprite('./paw.png', parts, 'gender_paws', config['paw'], gender_flags, transparent_colors)
         
     if 'flag_horizontal' in config:
         parts = [
             'main'
         ]
 
-        generateSprite('./flag_horizontal.png', parts, 'pride_flags', config['flag_horizontal'], pride_flags, transparent_colors)
-        generateSprite('./flag_horizontal.png', parts, 'gender_flags', config['flag_horizontal'], gender_flags, transparent_colors)
+        generateSprite('./flag_horizontal.png', parts, 'pride_horizontal_flags', config['flag_horizontal'], pride_flags, transparent_colors)
+        generateSprite('./flag_horizontal.png', parts, 'gender_horizontal_flags', config['flag_horizontal'], gender_flags, transparent_colors)
 
+    if 'flag_vertical' in config:
+        parts = [
+            'main'
+        ]
+
+        generateSprite('./flag_vertical.png', parts, 'pride_vertical_flags', config['flag_vertical'], pride_flags, transparent_colors)
+        generateSprite('./flag_vertical.png', parts, 'gender_vertical_flags', config['flag_vertical'], gender_flags, transparent_colors)
 
 if __name__ == "__main__":
     main()

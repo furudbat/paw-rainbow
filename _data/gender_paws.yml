@@ -1,7 +1,7 @@
 Agender:
   horizontal_center:
     coord:
-    - 286
+    - 198
     - 0
     - 22
     - 22
@@ -10,25 +10,9 @@ Agender:
     flags_fits_perfect: true
     orientation: horizontal
     part: center
-  horizontal_craws:
-    coord:
-    - 308
-    - 0
-    - 22
-    - 22
-    flag_name: Agender
-    part: horizontal_craws
-  horizontal_extra_outline:
-    coord:
-    - 330
-    - 0
-    - 22
-    - 22
-    flag_name: Agender
-    part: horizontal_extra_outline
   horizontal_left_part_1:
     coord:
-    - 198
+    - 110
     - 0
     - 22
     - 22
@@ -38,7 +22,7 @@ Agender:
     part: left_part_1
   horizontal_left_part_2:
     coord:
-    - 220
+    - 132
     - 0
     - 22
     - 22
@@ -48,7 +32,7 @@ Agender:
     part: left_part_2
   horizontal_right_part_1:
     coord:
-    - 242
+    - 154
     - 0
     - 22
     - 22
@@ -58,7 +42,7 @@ Agender:
     part: right_part_1
   horizontal_right_part_2:
     coord:
-    - 264
+    - 176
     - 0
     - 22
     - 22
@@ -66,19 +50,9 @@ Agender:
     flags_fits: false
     orientation: horizontal
     part: right_part_2
-  horizontal_whole:
-    coord:
-    - 176
-    - 0
-    - 22
-    - 22
-    flag_name: Agender
-    flags_fits: true
-    orientation: horizontal
-    part: whole
   vertical_center:
     coord:
-    - 110
+    - 88
     - 0
     - 22
     - 22
@@ -86,25 +60,9 @@ Agender:
     flags_fits: true
     orientation: vertical
     part: center
-  vertical_craws:
-    coord:
-    - 132
-    - 0
-    - 22
-    - 22
-    flag_name: Agender
-    part: vertical_craws
-  vertical_extra_outline:
-    coord:
-    - 154
-    - 0
-    - 22
-    - 22
-    flag_name: Agender
-    part: vertical_extra_outline
   vertical_left_part_1:
     coord:
-    - 22
+    - 0
     - 0
     - 22
     - 22
@@ -114,7 +72,7 @@ Agender:
     part: left_part_1
   vertical_left_part_2:
     coord:
-    - 44
+    - 22
     - 0
     - 22
     - 22
@@ -124,7 +82,7 @@ Agender:
     part: left_part_2
   vertical_right_part_1:
     coord:
-    - 66
+    - 44
     - 0
     - 22
     - 22
@@ -134,7 +92,7 @@ Agender:
     part: right_part_1
   vertical_right_part_2:
     coord:
-    - 88
+    - 66
     - 0
     - 22
     - 22
@@ -142,20 +100,10 @@ Agender:
     flags_fits: false
     orientation: vertical
     part: right_part_2
-  vertical_whole:
-    coord:
-    - 0
-    - 0
-    - 22
-    - 22
-    flag_name: Agender
-    flags_fits: true
-    orientation: vertical
-    part: whole
 Bigender:
   horizontal_center:
     coord:
-    - 286
+    - 198
     - 220
     - 22
     - 22
@@ -164,25 +112,9 @@ Bigender:
     flags_fits_perfect: true
     orientation: horizontal
     part: center
-  horizontal_craws:
-    coord:
-    - 308
-    - 220
-    - 22
-    - 22
-    flag_name: Bigender
-    part: horizontal_craws
-  horizontal_extra_outline:
-    coord:
-    - 330
-    - 220
-    - 22
-    - 22
-    flag_name: Bigender
-    part: horizontal_extra_outline
   horizontal_left_part_1:
     coord:
-    - 198
+    - 110
     - 220
     - 22
     - 22
@@ -192,7 +124,7 @@ Bigender:
     part: left_part_1
   horizontal_left_part_2:
     coord:
-    - 220
+    - 132
     - 220
     - 22
     - 22
@@ -202,7 +134,7 @@ Bigender:
     part: left_part_2
   horizontal_right_part_1:
     coord:
-    - 242
+    - 154
     - 220
     - 22
     - 22
@@ -212,7 +144,7 @@ Bigender:
     part: right_part_1
   horizontal_right_part_2:
     coord:
-    - 264
+    - 176
     - 220
     - 22
     - 22
@@ -220,19 +152,9 @@ Bigender:
     flags_fits: false
     orientation: horizontal
     part: right_part_2
-  horizontal_whole:
-    coord:
-    - 176
-    - 220
-    - 22
-    - 22
-    flag_name: Bigender
-    flags_fits: true
-    orientation: horizontal
-    part: whole
   vertical_center:
     coord:
-    - 110
+    - 88
     - 220
     - 22
     - 22
@@ -240,25 +162,9 @@ Bigender:
     flags_fits: true
     orientation: vertical
     part: center
-  vertical_craws:
-    coord:
-    - 132
-    - 220
-    - 22
-    - 22
-    flag_name: Bigender
-    part: vertical_craws
-  vertical_extra_outline:
-    coord:
-    - 154
-    - 220
-    - 22
-    - 22
-    flag_name: Bigender
-    part: vertical_extra_outline
   vertical_left_part_1:
     coord:
-    - 22
+    - 0
     - 220
     - 22
     - 22
@@ -268,7 +174,7 @@ Bigender:
     part: left_part_1
   vertical_left_part_2:
     coord:
-    - 44
+    - 22
     - 220
     - 22
     - 22
@@ -278,7 +184,7 @@ Bigender:
     part: left_part_2
   vertical_right_part_1:
     coord:
-    - 66
+    - 44
     - 220
     - 22
     - 22
@@ -288,7 +194,7 @@ Bigender:
     part: right_part_1
   vertical_right_part_2:
     coord:
-    - 88
+    - 66
     - 220
     - 22
     - 22
@@ -296,20 +202,10 @@ Bigender:
     flags_fits: false
     orientation: vertical
     part: right_part_2
-  vertical_whole:
-    coord:
-    - 0
-    - 220
-    - 22
-    - 22
-    flag_name: Bigender
-    flags_fits: true
-    orientation: vertical
-    part: whole
 Demiboy:
   horizontal_center:
     coord:
-    - 286
+    - 198
     - 110
     - 22
     - 22
@@ -318,25 +214,9 @@ Demiboy:
     flags_fits_perfect: true
     orientation: horizontal
     part: center
-  horizontal_craws:
-    coord:
-    - 308
-    - 110
-    - 22
-    - 22
-    flag_name: Demiboy
-    part: horizontal_craws
-  horizontal_extra_outline:
-    coord:
-    - 330
-    - 110
-    - 22
-    - 22
-    flag_name: Demiboy
-    part: horizontal_extra_outline
   horizontal_left_part_1:
     coord:
-    - 198
+    - 110
     - 110
     - 22
     - 22
@@ -346,7 +226,7 @@ Demiboy:
     part: left_part_1
   horizontal_left_part_2:
     coord:
-    - 220
+    - 132
     - 110
     - 22
     - 22
@@ -356,7 +236,7 @@ Demiboy:
     part: left_part_2
   horizontal_right_part_1:
     coord:
-    - 242
+    - 154
     - 110
     - 22
     - 22
@@ -366,7 +246,7 @@ Demiboy:
     part: right_part_1
   horizontal_right_part_2:
     coord:
-    - 264
+    - 176
     - 110
     - 22
     - 22
@@ -374,19 +254,9 @@ Demiboy:
     flags_fits: false
     orientation: horizontal
     part: right_part_2
-  horizontal_whole:
-    coord:
-    - 176
-    - 110
-    - 22
-    - 22
-    flag_name: Demiboy
-    flags_fits: true
-    orientation: horizontal
-    part: whole
   vertical_center:
     coord:
-    - 110
+    - 88
     - 110
     - 22
     - 22
@@ -394,25 +264,9 @@ Demiboy:
     flags_fits: true
     orientation: vertical
     part: center
-  vertical_craws:
-    coord:
-    - 132
-    - 110
-    - 22
-    - 22
-    flag_name: Demiboy
-    part: vertical_craws
-  vertical_extra_outline:
-    coord:
-    - 154
-    - 110
-    - 22
-    - 22
-    flag_name: Demiboy
-    part: vertical_extra_outline
   vertical_left_part_1:
     coord:
-    - 22
+    - 0
     - 110
     - 22
     - 22
@@ -422,7 +276,7 @@ Demiboy:
     part: left_part_1
   vertical_left_part_2:
     coord:
-    - 44
+    - 22
     - 110
     - 22
     - 22
@@ -432,7 +286,7 @@ Demiboy:
     part: left_part_2
   vertical_right_part_1:
     coord:
-    - 66
+    - 44
     - 110
     - 22
     - 22
@@ -442,7 +296,7 @@ Demiboy:
     part: right_part_1
   vertical_right_part_2:
     coord:
-    - 88
+    - 66
     - 110
     - 22
     - 22
@@ -450,20 +304,10 @@ Demiboy:
     flags_fits: false
     orientation: vertical
     part: right_part_2
-  vertical_whole:
-    coord:
-    - 0
-    - 110
-    - 22
-    - 22
-    flag_name: Demiboy
-    flags_fits: true
-    orientation: vertical
-    part: whole
 Demigirl:
   horizontal_center:
     coord:
-    - 286
+    - 198
     - 132
     - 22
     - 22
@@ -472,25 +316,9 @@ Demigirl:
     flags_fits_perfect: true
     orientation: horizontal
     part: center
-  horizontal_craws:
-    coord:
-    - 308
-    - 132
-    - 22
-    - 22
-    flag_name: Demigirl
-    part: horizontal_craws
-  horizontal_extra_outline:
-    coord:
-    - 330
-    - 132
-    - 22
-    - 22
-    flag_name: Demigirl
-    part: horizontal_extra_outline
   horizontal_left_part_1:
     coord:
-    - 198
+    - 110
     - 132
     - 22
     - 22
@@ -500,7 +328,7 @@ Demigirl:
     part: left_part_1
   horizontal_left_part_2:
     coord:
-    - 220
+    - 132
     - 132
     - 22
     - 22
@@ -510,7 +338,7 @@ Demigirl:
     part: left_part_2
   horizontal_right_part_1:
     coord:
-    - 242
+    - 154
     - 132
     - 22
     - 22
@@ -520,7 +348,7 @@ Demigirl:
     part: right_part_1
   horizontal_right_part_2:
     coord:
-    - 264
+    - 176
     - 132
     - 22
     - 22
@@ -528,19 +356,9 @@ Demigirl:
     flags_fits: false
     orientation: horizontal
     part: right_part_2
-  horizontal_whole:
-    coord:
-    - 176
-    - 132
-    - 22
-    - 22
-    flag_name: Demigirl
-    flags_fits: true
-    orientation: horizontal
-    part: whole
   vertical_center:
     coord:
-    - 110
+    - 88
     - 132
     - 22
     - 22
@@ -548,25 +366,9 @@ Demigirl:
     flags_fits: true
     orientation: vertical
     part: center
-  vertical_craws:
-    coord:
-    - 132
-    - 132
-    - 22
-    - 22
-    flag_name: Demigirl
-    part: vertical_craws
-  vertical_extra_outline:
-    coord:
-    - 154
-    - 132
-    - 22
-    - 22
-    flag_name: Demigirl
-    part: vertical_extra_outline
   vertical_left_part_1:
     coord:
-    - 22
+    - 0
     - 132
     - 22
     - 22
@@ -576,7 +378,7 @@ Demigirl:
     part: left_part_1
   vertical_left_part_2:
     coord:
-    - 44
+    - 22
     - 132
     - 22
     - 22
@@ -586,7 +388,7 @@ Demigirl:
     part: left_part_2
   vertical_right_part_1:
     coord:
-    - 66
+    - 44
     - 132
     - 22
     - 22
@@ -596,7 +398,7 @@ Demigirl:
     part: right_part_1
   vertical_right_part_2:
     coord:
-    - 88
+    - 66
     - 132
     - 22
     - 22
@@ -604,20 +406,10 @@ Demigirl:
     flags_fits: false
     orientation: vertical
     part: right_part_2
-  vertical_whole:
-    coord:
-    - 0
-    - 132
-    - 22
-    - 22
-    flag_name: Demigirl
-    flags_fits: true
-    orientation: vertical
-    part: whole
 Genderfluid:
   horizontal_center:
     coord:
-    - 286
+    - 198
     - 66
     - 22
     - 22
@@ -625,25 +417,9 @@ Genderfluid:
     flags_fits: true
     orientation: horizontal
     part: center
-  horizontal_craws:
-    coord:
-    - 308
-    - 66
-    - 22
-    - 22
-    flag_name: Genderfluid
-    part: horizontal_craws
-  horizontal_extra_outline:
-    coord:
-    - 330
-    - 66
-    - 22
-    - 22
-    flag_name: Genderfluid
-    part: horizontal_extra_outline
   horizontal_left_part_1:
     coord:
-    - 198
+    - 110
     - 66
     - 22
     - 22
@@ -654,7 +430,7 @@ Genderfluid:
     part: left_part_1
   horizontal_left_part_2:
     coord:
-    - 220
+    - 132
     - 66
     - 22
     - 22
@@ -664,7 +440,7 @@ Genderfluid:
     part: left_part_2
   horizontal_right_part_1:
     coord:
-    - 242
+    - 154
     - 66
     - 22
     - 22
@@ -674,7 +450,7 @@ Genderfluid:
     part: right_part_1
   horizontal_right_part_2:
     coord:
-    - 264
+    - 176
     - 66
     - 22
     - 22
@@ -683,19 +459,9 @@ Genderfluid:
     flags_fits_perfect: true
     orientation: horizontal
     part: right_part_2
-  horizontal_whole:
-    coord:
-    - 176
-    - 66
-    - 22
-    - 22
-    flag_name: Genderfluid
-    flags_fits: true
-    orientation: horizontal
-    part: whole
   vertical_center:
     coord:
-    - 110
+    - 88
     - 66
     - 22
     - 22
@@ -703,25 +469,9 @@ Genderfluid:
     flags_fits: true
     orientation: vertical
     part: center
-  vertical_craws:
-    coord:
-    - 132
-    - 66
-    - 22
-    - 22
-    flag_name: Genderfluid
-    part: vertical_craws
-  vertical_extra_outline:
-    coord:
-    - 154
-    - 66
-    - 22
-    - 22
-    flag_name: Genderfluid
-    part: vertical_extra_outline
   vertical_left_part_1:
     coord:
-    - 22
+    - 0
     - 66
     - 22
     - 22
@@ -731,7 +481,7 @@ Genderfluid:
     part: left_part_1
   vertical_left_part_2:
     coord:
-    - 44
+    - 22
     - 66
     - 22
     - 22
@@ -741,7 +491,7 @@ Genderfluid:
     part: left_part_2
   vertical_right_part_1:
     coord:
-    - 66
+    - 44
     - 66
     - 22
     - 22
@@ -751,7 +501,7 @@ Genderfluid:
     part: right_part_1
   vertical_right_part_2:
     coord:
-    - 88
+    - 66
     - 66
     - 22
     - 22
@@ -759,20 +509,10 @@ Genderfluid:
     flags_fits: false
     orientation: vertical
     part: right_part_2
-  vertical_whole:
-    coord:
-    - 0
-    - 66
-    - 22
-    - 22
-    flag_name: Genderfluid
-    flags_fits: true
-    orientation: vertical
-    part: whole
 Genderqueer:
   horizontal_center:
     coord:
-    - 286
+    - 198
     - 44
     - 22
     - 22
@@ -780,25 +520,9 @@ Genderqueer:
     flags_fits: true
     orientation: horizontal
     part: center
-  horizontal_craws:
-    coord:
-    - 308
-    - 44
-    - 22
-    - 22
-    flag_name: Genderqueer
-    part: horizontal_craws
-  horizontal_extra_outline:
-    coord:
-    - 330
-    - 44
-    - 22
-    - 22
-    flag_name: Genderqueer
-    part: horizontal_extra_outline
   horizontal_left_part_1:
     coord:
-    - 198
+    - 110
     - 44
     - 22
     - 22
@@ -808,7 +532,7 @@ Genderqueer:
     part: left_part_1
   horizontal_left_part_2:
     coord:
-    - 220
+    - 132
     - 44
     - 22
     - 22
@@ -818,7 +542,7 @@ Genderqueer:
     part: left_part_2
   horizontal_right_part_1:
     coord:
-    - 242
+    - 154
     - 44
     - 22
     - 22
@@ -828,16 +552,6 @@ Genderqueer:
     part: right_part_1
   horizontal_right_part_2:
     coord:
-    - 264
-    - 44
-    - 22
-    - 22
-    flag_name: Genderqueer
-    flags_fits: true
-    orientation: horizontal
-    part: right_part_2
-  horizontal_whole:
-    coord:
     - 176
     - 44
     - 22
@@ -845,10 +559,10 @@ Genderqueer:
     flag_name: Genderqueer
     flags_fits: true
     orientation: horizontal
-    part: whole
+    part: right_part_2
   vertical_center:
     coord:
-    - 110
+    - 88
     - 44
     - 22
     - 22
@@ -856,25 +570,9 @@ Genderqueer:
     flags_fits: true
     orientation: vertical
     part: center
-  vertical_craws:
-    coord:
-    - 132
-    - 44
-    - 22
-    - 22
-    flag_name: Genderqueer
-    part: vertical_craws
-  vertical_extra_outline:
-    coord:
-    - 154
-    - 44
-    - 22
-    - 22
-    flag_name: Genderqueer
-    part: vertical_extra_outline
   vertical_left_part_1:
     coord:
-    - 22
+    - 0
     - 44
     - 22
     - 22
@@ -884,7 +582,7 @@ Genderqueer:
     part: left_part_1
   vertical_left_part_2:
     coord:
-    - 44
+    - 22
     - 44
     - 22
     - 22
@@ -894,7 +592,7 @@ Genderqueer:
     part: left_part_2
   vertical_right_part_1:
     coord:
-    - 66
+    - 44
     - 44
     - 22
     - 22
@@ -904,7 +602,7 @@ Genderqueer:
     part: right_part_1
   vertical_right_part_2:
     coord:
-    - 88
+    - 66
     - 44
     - 22
     - 22
@@ -912,20 +610,10 @@ Genderqueer:
     flags_fits: true
     orientation: vertical
     part: right_part_2
-  vertical_whole:
-    coord:
-    - 0
-    - 44
-    - 22
-    - 22
-    flag_name: Genderqueer
-    flags_fits: true
-    orientation: vertical
-    part: whole
 Ingender:
   horizontal_center:
     coord:
-    - 286
+    - 198
     - 176
     - 22
     - 22
@@ -933,25 +621,9 @@ Ingender:
     flags_fits: true
     orientation: horizontal
     part: center
-  horizontal_craws:
-    coord:
-    - 308
-    - 176
-    - 22
-    - 22
-    flag_name: Ingender
-    part: horizontal_craws
-  horizontal_extra_outline:
-    coord:
-    - 330
-    - 176
-    - 22
-    - 22
-    flag_name: Ingender
-    part: horizontal_extra_outline
   horizontal_left_part_1:
     coord:
-    - 198
+    - 110
     - 176
     - 22
     - 22
@@ -961,7 +633,7 @@ Ingender:
     part: left_part_1
   horizontal_left_part_2:
     coord:
-    - 220
+    - 132
     - 176
     - 22
     - 22
@@ -971,7 +643,7 @@ Ingender:
     part: left_part_2
   horizontal_right_part_1:
     coord:
-    - 242
+    - 154
     - 176
     - 22
     - 22
@@ -981,7 +653,7 @@ Ingender:
     part: right_part_1
   horizontal_right_part_2:
     coord:
-    - 264
+    - 176
     - 176
     - 22
     - 22
@@ -989,19 +661,9 @@ Ingender:
     flags_fits: true
     orientation: horizontal
     part: right_part_2
-  horizontal_whole:
-    coord:
-    - 176
-    - 176
-    - 22
-    - 22
-    flag_name: Ingender
-    flags_fits: true
-    orientation: horizontal
-    part: whole
   vertical_center:
     coord:
-    - 110
+    - 88
     - 176
     - 22
     - 22
@@ -1009,25 +671,9 @@ Ingender:
     flags_fits: true
     orientation: vertical
     part: center
-  vertical_craws:
-    coord:
-    - 132
-    - 176
-    - 22
-    - 22
-    flag_name: Ingender
-    part: vertical_craws
-  vertical_extra_outline:
-    coord:
-    - 154
-    - 176
-    - 22
-    - 22
-    flag_name: Ingender
-    part: vertical_extra_outline
   vertical_left_part_1:
     coord:
-    - 22
+    - 0
     - 176
     - 22
     - 22
@@ -1037,7 +683,7 @@ Ingender:
     part: left_part_1
   vertical_left_part_2:
     coord:
-    - 44
+    - 22
     - 176
     - 22
     - 22
@@ -1047,7 +693,7 @@ Ingender:
     part: left_part_2
   vertical_right_part_1:
     coord:
-    - 66
+    - 44
     - 176
     - 22
     - 22
@@ -1057,7 +703,7 @@ Ingender:
     part: right_part_1
   vertical_right_part_2:
     coord:
-    - 88
+    - 66
     - 176
     - 22
     - 22
@@ -1065,20 +711,10 @@ Ingender:
     flags_fits: true
     orientation: vertical
     part: right_part_2
-  vertical_whole:
-    coord:
-    - 0
-    - 176
-    - 22
-    - 22
-    flag_name: Ingender
-    flags_fits: true
-    orientation: vertical
-    part: whole
 Neutrio:
   horizontal_center:
     coord:
-    - 286
+    - 198
     - 154
     - 22
     - 22
@@ -1086,25 +722,9 @@ Neutrio:
     flags_fits: true
     orientation: horizontal
     part: center
-  horizontal_craws:
-    coord:
-    - 308
-    - 154
-    - 22
-    - 22
-    flag_name: Neutrio
-    part: horizontal_craws
-  horizontal_extra_outline:
-    coord:
-    - 330
-    - 154
-    - 22
-    - 22
-    flag_name: Neutrio
-    part: horizontal_extra_outline
   horizontal_left_part_1:
     coord:
-    - 198
+    - 110
     - 154
     - 22
     - 22
@@ -1114,7 +734,7 @@ Neutrio:
     part: left_part_1
   horizontal_left_part_2:
     coord:
-    - 220
+    - 132
     - 154
     - 22
     - 22
@@ -1124,7 +744,7 @@ Neutrio:
     part: left_part_2
   horizontal_right_part_1:
     coord:
-    - 242
+    - 154
     - 154
     - 22
     - 22
@@ -1134,16 +754,6 @@ Neutrio:
     part: right_part_1
   horizontal_right_part_2:
     coord:
-    - 264
-    - 154
-    - 22
-    - 22
-    flag_name: Neutrio
-    flags_fits: true
-    orientation: horizontal
-    part: right_part_2
-  horizontal_whole:
-    coord:
     - 176
     - 154
     - 22
@@ -1151,10 +761,10 @@ Neutrio:
     flag_name: Neutrio
     flags_fits: true
     orientation: horizontal
-    part: whole
+    part: right_part_2
   vertical_center:
     coord:
-    - 110
+    - 88
     - 154
     - 22
     - 22
@@ -1162,25 +772,9 @@ Neutrio:
     flags_fits: true
     orientation: vertical
     part: center
-  vertical_craws:
-    coord:
-    - 132
-    - 154
-    - 22
-    - 22
-    flag_name: Neutrio
-    part: vertical_craws
-  vertical_extra_outline:
-    coord:
-    - 154
-    - 154
-    - 22
-    - 22
-    flag_name: Neutrio
-    part: vertical_extra_outline
   vertical_left_part_1:
     coord:
-    - 22
+    - 0
     - 154
     - 22
     - 22
@@ -1190,7 +784,7 @@ Neutrio:
     part: left_part_1
   vertical_left_part_2:
     coord:
-    - 44
+    - 22
     - 154
     - 22
     - 22
@@ -1200,7 +794,7 @@ Neutrio:
     part: left_part_2
   vertical_right_part_1:
     coord:
-    - 66
+    - 44
     - 154
     - 22
     - 22
@@ -1210,7 +804,7 @@ Neutrio:
     part: right_part_1
   vertical_right_part_2:
     coord:
-    - 88
+    - 66
     - 154
     - 22
     - 22
@@ -1218,20 +812,10 @@ Neutrio:
     flags_fits: true
     orientation: vertical
     part: right_part_2
-  vertical_whole:
-    coord:
-    - 0
-    - 154
-    - 22
-    - 22
-    flag_name: Neutrio
-    flags_fits: true
-    orientation: vertical
-    part: whole
 Non-Binary:
   horizontal_center:
     coord:
-    - 286
+    - 198
     - 88
     - 22
     - 22
@@ -1239,25 +823,9 @@ Non-Binary:
     flags_fits: true
     orientation: horizontal
     part: center
-  horizontal_craws:
-    coord:
-    - 308
-    - 88
-    - 22
-    - 22
-    flag_name: Non-Binary
-    part: horizontal_craws
-  horizontal_extra_outline:
-    coord:
-    - 330
-    - 88
-    - 22
-    - 22
-    flag_name: Non-Binary
-    part: horizontal_extra_outline
   horizontal_left_part_1:
     coord:
-    - 198
+    - 110
     - 88
     - 22
     - 22
@@ -1267,7 +835,7 @@ Non-Binary:
     part: left_part_1
   horizontal_left_part_2:
     coord:
-    - 220
+    - 132
     - 88
     - 22
     - 22
@@ -1277,7 +845,7 @@ Non-Binary:
     part: left_part_2
   horizontal_right_part_1:
     coord:
-    - 242
+    - 154
     - 88
     - 22
     - 22
@@ -1287,16 +855,6 @@ Non-Binary:
     part: right_part_1
   horizontal_right_part_2:
     coord:
-    - 264
-    - 88
-    - 22
-    - 22
-    flag_name: Non-Binary
-    flags_fits: true
-    orientation: horizontal
-    part: right_part_2
-  horizontal_whole:
-    coord:
     - 176
     - 88
     - 22
@@ -1304,10 +862,10 @@ Non-Binary:
     flag_name: Non-Binary
     flags_fits: true
     orientation: horizontal
-    part: whole
+    part: right_part_2
   vertical_center:
     coord:
-    - 110
+    - 88
     - 88
     - 22
     - 22
@@ -1315,25 +873,9 @@ Non-Binary:
     flags_fits: true
     orientation: vertical
     part: center
-  vertical_craws:
-    coord:
-    - 132
-    - 88
-    - 22
-    - 22
-    flag_name: Non-Binary
-    part: vertical_craws
-  vertical_extra_outline:
-    coord:
-    - 154
-    - 88
-    - 22
-    - 22
-    flag_name: Non-Binary
-    part: vertical_extra_outline
   vertical_left_part_1:
     coord:
-    - 22
+    - 0
     - 88
     - 22
     - 22
@@ -1344,7 +886,7 @@ Non-Binary:
     part: left_part_1
   vertical_left_part_2:
     coord:
-    - 44
+    - 22
     - 88
     - 22
     - 22
@@ -1355,7 +897,7 @@ Non-Binary:
     part: left_part_2
   vertical_right_part_1:
     coord:
-    - 66
+    - 44
     - 88
     - 22
     - 22
@@ -1366,7 +908,7 @@ Non-Binary:
     part: right_part_1
   vertical_right_part_2:
     coord:
-    - 88
+    - 66
     - 88
     - 22
     - 22
@@ -1375,20 +917,10 @@ Non-Binary:
     flags_fits_perfect: true
     orientation: vertical
     part: right_part_2
-  vertical_whole:
-    coord:
-    - 0
-    - 88
-    - 22
-    - 22
-    flag_name: Non-Binary
-    flags_fits: true
-    orientation: vertical
-    part: whole
 Pangender:
   horizontal_center:
     coord:
-    - 286
+    - 198
     - 198
     - 22
     - 22
@@ -1397,25 +929,9 @@ Pangender:
     flags_fits_perfect: true
     orientation: horizontal
     part: center
-  horizontal_craws:
-    coord:
-    - 308
-    - 198
-    - 22
-    - 22
-    flag_name: Pangender
-    part: horizontal_craws
-  horizontal_extra_outline:
-    coord:
-    - 330
-    - 198
-    - 22
-    - 22
-    flag_name: Pangender
-    part: horizontal_extra_outline
   horizontal_left_part_1:
     coord:
-    - 198
+    - 110
     - 198
     - 22
     - 22
@@ -1425,7 +941,7 @@ Pangender:
     part: left_part_1
   horizontal_left_part_2:
     coord:
-    - 220
+    - 132
     - 198
     - 22
     - 22
@@ -1435,7 +951,7 @@ Pangender:
     part: left_part_2
   horizontal_right_part_1:
     coord:
-    - 242
+    - 154
     - 198
     - 22
     - 22
@@ -1445,7 +961,7 @@ Pangender:
     part: right_part_1
   horizontal_right_part_2:
     coord:
-    - 264
+    - 176
     - 198
     - 22
     - 22
@@ -1453,19 +969,9 @@ Pangender:
     flags_fits: false
     orientation: horizontal
     part: right_part_2
-  horizontal_whole:
-    coord:
-    - 176
-    - 198
-    - 22
-    - 22
-    flag_name: Pangender
-    flags_fits: true
-    orientation: horizontal
-    part: whole
   vertical_center:
     coord:
-    - 110
+    - 88
     - 198
     - 22
     - 22
@@ -1473,25 +979,9 @@ Pangender:
     flags_fits: true
     orientation: vertical
     part: center
-  vertical_craws:
-    coord:
-    - 132
-    - 198
-    - 22
-    - 22
-    flag_name: Pangender
-    part: vertical_craws
-  vertical_extra_outline:
-    coord:
-    - 154
-    - 198
-    - 22
-    - 22
-    flag_name: Pangender
-    part: vertical_extra_outline
   vertical_left_part_1:
     coord:
-    - 22
+    - 0
     - 198
     - 22
     - 22
@@ -1501,7 +991,7 @@ Pangender:
     part: left_part_1
   vertical_left_part_2:
     coord:
-    - 44
+    - 22
     - 198
     - 22
     - 22
@@ -1511,7 +1001,7 @@ Pangender:
     part: left_part_2
   vertical_right_part_1:
     coord:
-    - 66
+    - 44
     - 198
     - 22
     - 22
@@ -1521,7 +1011,7 @@ Pangender:
     part: right_part_1
   vertical_right_part_2:
     coord:
-    - 88
+    - 66
     - 198
     - 22
     - 22
@@ -1529,20 +1019,10 @@ Pangender:
     flags_fits: false
     orientation: vertical
     part: right_part_2
-  vertical_whole:
-    coord:
-    - 0
-    - 198
-    - 22
-    - 22
-    flag_name: Pangender
-    flags_fits: true
-    orientation: vertical
-    part: whole
 Transgender:
   horizontal_center:
     coord:
-    - 286
+    - 198
     - 22
     - 22
     - 22
@@ -1550,25 +1030,9 @@ Transgender:
     flags_fits: true
     orientation: horizontal
     part: center
-  horizontal_craws:
-    coord:
-    - 308
-    - 22
-    - 22
-    - 22
-    flag_name: Transgender
-    part: horizontal_craws
-  horizontal_extra_outline:
-    coord:
-    - 330
-    - 22
-    - 22
-    - 22
-    flag_name: Transgender
-    part: horizontal_extra_outline
   horizontal_left_part_1:
     coord:
-    - 198
+    - 110
     - 22
     - 22
     - 22
@@ -1579,7 +1043,7 @@ Transgender:
     part: left_part_1
   horizontal_left_part_2:
     coord:
-    - 220
+    - 132
     - 22
     - 22
     - 22
@@ -1589,7 +1053,7 @@ Transgender:
     part: left_part_2
   horizontal_right_part_1:
     coord:
-    - 242
+    - 154
     - 22
     - 22
     - 22
@@ -1599,7 +1063,7 @@ Transgender:
     part: right_part_1
   horizontal_right_part_2:
     coord:
-    - 264
+    - 176
     - 22
     - 22
     - 22
@@ -1608,19 +1072,9 @@ Transgender:
     flags_fits_perfect: true
     orientation: horizontal
     part: right_part_2
-  horizontal_whole:
-    coord:
-    - 176
-    - 22
-    - 22
-    - 22
-    flag_name: Transgender
-    flags_fits: true
-    orientation: horizontal
-    part: whole
   vertical_center:
     coord:
-    - 110
+    - 88
     - 22
     - 22
     - 22
@@ -1628,25 +1082,9 @@ Transgender:
     flags_fits: true
     orientation: vertical
     part: center
-  vertical_craws:
-    coord:
-    - 132
-    - 22
-    - 22
-    - 22
-    flag_name: Transgender
-    part: vertical_craws
-  vertical_extra_outline:
-    coord:
-    - 154
-    - 22
-    - 22
-    - 22
-    flag_name: Transgender
-    part: vertical_extra_outline
   vertical_left_part_1:
     coord:
-    - 22
+    - 0
     - 22
     - 22
     - 22
@@ -1656,7 +1094,7 @@ Transgender:
     part: left_part_1
   vertical_left_part_2:
     coord:
-    - 44
+    - 22
     - 22
     - 22
     - 22
@@ -1666,7 +1104,7 @@ Transgender:
     part: left_part_2
   vertical_right_part_1:
     coord:
-    - 66
+    - 44
     - 22
     - 22
     - 22
@@ -1676,7 +1114,7 @@ Transgender:
     part: right_part_1
   vertical_right_part_2:
     coord:
-    - 88
+    - 66
     - 22
     - 22
     - 22
@@ -1684,13 +1122,3 @@ Transgender:
     flags_fits: false
     orientation: vertical
     part: right_part_2
-  vertical_whole:
-    coord:
-    - 0
-    - 22
-    - 22
-    - 22
-    flag_name: Transgender
-    flags_fits: true
-    orientation: vertical
-    part: whole

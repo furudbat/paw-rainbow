@@ -1,0 +1,266 @@
+{
+    "Agender": {
+        "horizontal_main": {
+            "flag_name": "Agender",
+            "part": "main",
+            "orientation": "horizontal",
+            "flags_fits": true,
+            "coord": [
+                18,
+                0,
+                18,
+                11
+            ]
+        },
+        "vertical_main": {
+            "flag_name": "Agender",
+            "part": "vertical_main",
+            "coord": [
+                0,
+                0,
+                18,
+                11
+            ]
+        }
+    },
+    "Transgender": {
+        "horizontal_main": {
+            "flag_name": "Transgender",
+            "part": "main",
+            "orientation": "horizontal",
+            "flags_fits": true,
+            "coord": [
+                18,
+                11,
+                18,
+                11
+            ]
+        },
+        "vertical_main": {
+            "flag_name": "Transgender",
+            "part": "vertical_main",
+            "coord": [
+                0,
+                11,
+                18,
+                11
+            ]
+        }
+    },
+    "Genderqueer": {
+        "horizontal_main": {
+            "flag_name": "Genderqueer",
+            "part": "main",
+            "orientation": "horizontal",
+            "flags_fits": true,
+            "coord": [
+                18,
+                22,
+                18,
+                11
+            ]
+        },
+        "vertical_main": {
+            "flag_name": "Genderqueer",
+            "part": "vertical_main",
+            "coord": [
+                0,
+                22,
+                18,
+                11
+            ]
+        }
+    },
+    "Genderfluid": {
+        "horizontal_main": {
+            "flag_name": "Genderfluid",
+            "part": "main",
+            "orientation": "horizontal",
+            "flags_fits": true,
+            "coord": [
+                18,
+                33,
+                18,
+                11
+            ]
+        },
+        "vertical_main": {
+            "flag_name": "Genderfluid",
+            "part": "vertical_main",
+            "coord": [
+                0,
+                33,
+                18,
+                11
+            ]
+        }
+    },
+    "Non-Binary": {
+        "horizontal_main": {
+            "flag_name": "Non-Binary",
+            "part": "main",
+            "orientation": "horizontal",
+            "flags_fits": true,
+            "coord": [
+                18,
+                44,
+                18,
+                11
+            ]
+        },
+        "vertical_main": {
+            "flag_name": "Non-Binary",
+            "part": "vertical_main",
+            "coord": [
+                0,
+                44,
+                18,
+                11
+            ]
+        }
+    },
+    "Demiboy": {
+        "horizontal_main": {
+            "flag_name": "Demiboy",
+            "part": "main",
+            "orientation": "horizontal",
+            "flags_fits": true,
+            "coord": [
+                18,
+                55,
+                18,
+                11
+            ]
+        },
+        "vertical_main": {
+            "flag_name": "Demiboy",
+            "part": "vertical_main",
+            "coord": [
+                0,
+                55,
+                18,
+                11
+            ]
+        }
+    },
+    "Demigirl": {
+        "horizontal_main": {
+            "flag_name": "Demigirl",
+            "part": "main",
+            "orientation": "horizontal",
+            "flags_fits": true,
+            "coord": [
+                18,
+                66,
+                18,
+                11
+            ]
+        },
+        "vertical_main": {
+            "flag_name": "Demigirl",
+            "part": "vertical_main",
+            "coord": [
+                0,
+                66,
+                18,
+                11
+            ]
+        }
+    },
+    "Neutrio": {
+        "horizontal_main": {
+            "flag_name": "Neutrio",
+            "part": "main",
+            "orientation": "horizontal",
+            "flags_fits": true,
+            "coord": [
+                18,
+                77,
+                18,
+                11
+            ]
+        },
+        "vertical_main": {
+            "flag_name": "Neutrio",
+            "part": "vertical_main",
+            "coord": [
+                0,
+                77,
+                18,
+                11
+            ]
+        }
+    },
+    "Ingender": {
+        "horizontal_main": {
+            "flag_name": "Ingender",
+            "part": "main",
+            "orientation": "horizontal",
+            "flags_fits": true,
+            "coord": [
+                18,
+                88,
+                18,
+                11
+            ]
+        },
+        "vertical_main": {
+            "flag_name": "Ingender",
+            "part": "vertical_main",
+            "coord": [
+                0,
+                88,
+                18,
+                11
+            ]
+        }
+    },
+    "Pangender": {
+        "horizontal_main": {
+            "flag_name": "Pangender",
+            "part": "main",
+            "orientation": "horizontal",
+            "flags_fits": true,
+            "coord": [
+                18,
+                99,
+                18,
+                11
+            ]
+        },
+        "vertical_main": {
+            "flag_name": "Pangender",
+            "part": "vertical_main",
+            "coord": [
+                0,
+                99,
+                18,
+                11
+            ]
+        }
+    },
+    "Bigender": {
+        "horizontal_main": {
+            "flag_name": "Bigender",
+            "part": "main",
+            "orientation": "horizontal",
+            "flags_fits": true,
+            "coord": [
+                18,
+                110,
+                18,
+                11
+            ]
+        },
+        "vertical_main": {
+            "flag_name": "Bigender",
+            "part": "vertical_main",
+            "coord": [
+                0,
+                110,
+                18,
+                11
+            ]
+        }
+    }
+}

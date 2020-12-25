@@ -17,11 +17,12 @@ flag_horizontal:
       horizontal:
         - '#737373'
     triangle:
-      - '#737373'
-      - '#666666'
-      - '#595959'
-      - '#4c4c4c'
-      - '#404040'
+      horizontal:
+        - '#737373'
+        - '#666666'
+        - '#595959'
+        - '#4c4c4c'
+        - '#404040'
 paw:
   outline: '#000000'
   extra_outline: '#1a1a1a'
@@ -68,8 +69,9 @@ paw:
         - '#533953'
         - '#5c285c'
     triangle:
-      - '#828282'
-      - '#7b7b7b'
+      vertical:
+        - '#828282'
+        - '#7b7b7b'
   craws:
     - '#ffff00'
 
