@@ -5,7 +5,7 @@ import json
 from pprint import pprint
 import re
 import yaml
-from PIL import Image
+from PIL import Image, ImageDraw
 from colour import Color
 
 def rgb_to_hex(rgb):
@@ -444,11 +444,12 @@ def generateSpriteLine(output_map, paw_outlines_img, outline_color, flag, parts,
 
         flag_colors_size = len(flag['colors'])
         flag_name = flag['name']
+        flag_filename = flag['filename']
 
         key_name = flag_name.lower().replace(' ', '_').replace("'", '')
         key = key_name + '_' + orientation + '_' + str(frame_counter)
         if not key in output_map:
-            output_map[key] = { 'flag_name': flag_name, 'part': part, 'orientation': orientation, 'flag_filename': flag['filename'] }
+            output_map[key] = { 'flag_name': flag_name, 'part': part, 'orientation': orientation, 'flag_filename': flag_filename }
 
         flag_color_palette = []
         if 'start_' + orientation in color_coords and 'end_' + orientation in color_coords and color_coords['start_' + orientation] and color_coords['end_' + orientation]:
@@ -727,6 +728,9 @@ def genFlags(flags):
             strip_size = 3
         elif len(flag['colors']) >= 5:
             strip_size = 1
+            if len(flag['colors']) % 2 == 0:
+                if 'triangle' in flag:
+                    strip_size = strip_size + 1
 
         if 'line' in flag:
             line_size = int(max(strip_size/2, 1))
@@ -736,26 +740,39 @@ def genFlags(flags):
         width = 2 * height
         output_img = Image.new(mode="RGBA", size=(width, height))
         sy = 0
+        offset = 0
+        if len(flag['colors']) % 2 == 0:
+            offset = 1
         for j in range(len(flag['colors'])):
             flag_color = Color(flag['colors'][j])
             for y in range(strip_size):
                 for x in range(width):
                     output_img.putpixel((x, sy + y), hex_to_rgb(flag_color.hex_l))
             sy = sy + strip_size
-            if j == int(strip_size/2)-1 and line_size > 0:
+            if j == int(strip_size/2)-offset and line_size > 0:
                 for y in range(line_size):
                     for x in range(width):
                         output_img.putpixel((x, sy + y), hex_to_rgb(flag_line_color.hex_l))       
                 sy = sy + line_size
 
         if 'triangle' in flag:
-            draw = ImageDraw.Draw(im)
-            for i in range(len(flag['triangle'])):
-                triangle = flag['triangle'][i]
-                triangle_size = i * int(max(strip_size/2, 1))
+            draw = ImageDraw.Draw(output_img)
+            shrink_triangle_size = 0
+            for j in range(len(flag['triangle'])):
+                triangle = flag['triangle'][j]
+                triangle_size = (len(flag['triangle']) - j) * int(max(strip_size/2, 1))
+                offset = 0
+                if len(flag['colors']) % 2 == 0:
+                    offset = 1
+
+                point_1 = (0, height/2 - offset - triangle_size)
+                point_2 = (triangle_size + offset, height/2)
+                point_3 = (0, height/2 + offset + triangle_size)
+
                 triangle_color = Color(triangle)
-                draw.polygon((0,0), (triangle_size, height/2), (0,height-1), fill=hex_to_rgb(triangle_color.hex_l)))
-            
+                draw.polygon((point_1, point_2, point_3), fill=hex_to_rgb(triangle_color.hex_l))
+
+                shrink_triangle_size = shrink_triangle_size + 1
 
 
         output_filename = "assets/img/flags/{}.png".format(flag_name.lower().replace(' ', '_').replace("'", ''))
