@@ -1,6 +1,7 @@
 - colors:
   - '#595959'
   default: true
+  filename: assets/img/flags/none.png
   name: None
 - colors:
   - '#f00000'
@@ -9,6 +10,7 @@
   - '#007940'
   - '#4040ff'
   - '#a000c0'
+  filename: assets/img/flags/rainbow_pride_flag.png
   name: Rainbow Pride Flag
 - colors:
   - '#000000'
@@ -19,12 +21,14 @@
   - '#3a7f30'
   - '#1c50f6'
   - '#6b1783'
+  filename: assets/img/flags/philadelphias_people_of_color_inclusive_flag.png
   name: Philadelphia's People of Color Inclusive Flag
 - colors:
   - '#000000'
   - '#a3a3a3'
   - '#ffffff'
   - '#800080'
+  filename: assets/img/flags/asexual.png
   name: Asexual
 - colors:
   - '#d60270'
@@ -32,11 +36,13 @@
   - '#9b4f96'
   - '#0038a8'
   - '#0038a8'
+  filename: assets/img/flags/bisexual.png
   name: Bisexual
 - colors:
   - '#e93d8c'
   - '#f9da49'
   - '#55b1f9'
+  filename: assets/img/flags/pansexual.png
   name: Pansexual
 - colors:
   - '#c33d1e'
@@ -46,6 +52,7 @@
   - '#c269a2'
   - '#a85c8e'
   - '#951f60'
+  filename: assets/img/flags/lesbian.png
   name: Lesbian
 - colors:
   - '#c32b1f'
@@ -54,6 +61,7 @@
   - '#5abd37'
   - '#051f92'
   - '#6b1785'
+  filename: assets/img/flags/progress.png
   name: Progress
   triangle:
   - '#ffffff'
@@ -64,6 +72,7 @@
 - colors:
   - '#ffffff'
   - '#d2d2d2'
+  filename: assets/img/flags/demisexual.png
   line: '#67236d'
   name: Demisexual
   triangle:
@@ -72,14 +81,17 @@
   - '#204d9b'
   - '#e52322'
   - '#000000'
+  filename: assets/img/flags/polyamory.png
   name: Polyamory
 - colors:
   - '#c84793'
   - '#4bb166'
   - '#4288c8'
+  filename: assets/img/flags/polysexual.png
   name: Polysexual
 - colors:
   - '#fed800'
+  filename: assets/img/flags/intersex.png
   name: Intersex
 - colors:
   - '#000000'
@@ -89,6 +101,7 @@
   - '#FFFFFF'
   - '#b9b9b9'
   - '#000000'
+  filename: assets/img/flags/agender.png
   name: Agender
 - colors:
   - '#7ccdf6'
@@ -96,11 +109,13 @@
   - '#ffffff'
   - '#eaaeba'
   - '#7ccdf6'
+  filename: assets/img/flags/transgender.png
   name: Transgender
 - colors:
   - '#b39bd9'
   - '#ffffff'
   - '#738d46'
+  filename: assets/img/flags/genderqueer.png
   name: Genderqueer
 - colors:
   - '#ed7ea3'
@@ -108,12 +123,14 @@
   - '#af30d0'
   - '#000000'
   - '#313fb8'
+  filename: assets/img/flags/genderfluid.png
   name: Genderfluid
 - colors:
   - '#fdf35e'
   - '#ffffff'
   - '#915fc9'
   - '#2d2d2d'
+  filename: assets/img/flags/non-binary.png
   name: Non-Binary
 - colors:
   - '#7e7f7f'
@@ -123,6 +140,7 @@
   - '#9bd5e6'
   - '#c5c3c4'
   - '#7e7f7f'
+  filename: assets/img/flags/demiboy.png
   name: Demiboy
 - colors:
   - '#7e7f7f'
@@ -132,14 +150,17 @@
   - '#f4aec9'
   - '#c5c3c4'
   - '#7e7f7f'
+  filename: assets/img/flags/demigirl.png
   name: Demigirl
 - colors:
   - '#ffffff'
   - '#36ab4f'
   - '#000000'
+  filename: assets/img/flags/neutrio.png
   name: Neutrio
 - colors:
   - '#ffffff'
+  filename: assets/img/flags/ingender.png
   name: Ingender
 - colors:
   - '#fff798'
@@ -149,6 +170,7 @@
   - '#ffebfb'
   - '#ffddcd'
   - '#fff798'
+  filename: assets/img/flags/pangender.png
   name: Pangender
 - colors:
   - '#c479a0'
@@ -158,4 +180,5 @@
   - '#d6c7e7'
   - '#eda5cb'
   - '#c479a0'
+  filename: assets/img/flags/bigender.png
   name: Bigender

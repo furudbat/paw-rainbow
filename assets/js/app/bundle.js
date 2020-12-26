@@ -45685,7 +45685,7 @@ var ApplicationData = (function () {
     return ApplicationData;
 }());
 exports.ApplicationData = ApplicationData;
-},{"./observer":62,"./site":63,"localforage":40}],60:[function(require,module,exports){
+},{"./observer":63,"./site":64,"localforage":40}],60:[function(require,module,exports){
 "use strict";
 var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
     function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
@@ -45729,6 +45729,7 @@ var application_data_1 = require("./application.data");
 var typescript_logger_1 = require("typescript-logger");
 var pixi_js_1 = require("pixi.js");
 var site_1 = require("./site");
+var sprite_adapter_1 = require("./sprite.adapter");
 var Application = (function () {
     function Application() {
         this._appData = new application_data_1.ApplicationData();
@@ -45744,9 +45745,12 @@ var Application = (function () {
     };
     Application.prototype.initSite = function () {
         return __awaiter(this, void 0, void 0, function () {
+            var paw_sprites;
             return __generator(this, function (_a) {
                 this.initTheme();
                 this.initSettings();
+                paw_sprites = site_1.site.data.sprites.filter(function (it) { return it.form == 'pride_paws' || it.form == 'gender_paws'; });
+                this._spriteAdapter = new sprite_adapter_1.SpritePawPartsAdapter(this._pixiApp, paw_sprites);
                 this.initCanvas();
                 this.initObservers();
                 return [2];
@@ -45793,29 +45797,46 @@ var Application = (function () {
     Application.prototype.initObservers = function () {
     };
     Application.prototype.initCanvas = function () {
+        var that = this;
         this._pixiApp = new pixi_js_1.Application({
-            width: 512,
-            height: 512,
+            width: 520,
+            height: 520,
             antialias: false,
             transparent: true,
-            resolution: 1
+            resizeTo: $('#spriteViewContainer')[0]
         });
-        var selectable_sprites_flags = site_1.site.data.sprites.filter(function (it) { return it.form == 'pride_paws' || it.form == 'gender_paws'; });
-        var selectable_flags_filenames = selectable_sprites_flags.map(function (it) { return it.filename; });
-        selectable_flags_filenames = selectable_flags_filenames.filter(function (filename, index) {
-            return selectable_flags_filenames.indexOf(filename) === index;
-        });
-        this.log.debug('PIXI', PIXI);
-        this.log.debug('selectable_flags_filenames', { selectable_flags_filenames: selectable_flags_filenames });
-        this._loader.add(selectable_flags_filenames.map(function (filename) { return site_1.site.data.base_url + filename; })).load(this.setupSprites);
         $('#spriteViewContainer').html(this._pixiApp.view);
+        var sprite_sheet_filenames = site_1.site.data.sprites.map(function (it) { return it.sheet; });
+        sprite_sheet_filenames = sprite_sheet_filenames.filter(function (filename, index) {
+            return sprite_sheet_filenames.indexOf(filename) === index;
+        });
+        this._loader.baseUrl = site_1.site.data.base_url;
+        this._loader.onProgress.add(function () {
+            that.loadProgressHandler();
+        });
+        this._loader.add(sprite_sheet_filenames).load(function (loader, resources) {
+            that.setupAdapters(loader, resources);
+        });
     };
-    Application.prototype.setupSprites = function () {
+    Application.prototype.setupAdapters = function (loader, resources) {
+        var _a;
+        (_a = this._spriteAdapter) === null || _a === void 0 ? void 0 : _a.init(resources);
+    };
+    Application.prototype.loadProgressHandler = function () {
     };
     return Application;
 }());
 exports.Application = Application;
-},{"./application.data":59,"./site":63,"pixi.js":44,"typescript-logger":53}],61:[function(require,module,exports){
+},{"./application.data":59,"./site":64,"./sprite.adapter":65,"pixi.js":44,"typescript-logger":53}],61:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.Orienration = void 0;
+var Orienration;
+(function (Orienration) {
+    Orienration["Horizontal"] = "horizontal";
+    Orienration["Vertical"] = "vertical";
+})(Orienration = exports.Orienration || (exports.Orienration = {}));
+},{}],62:[function(require,module,exports){
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 require("./site");
@@ -45828,7 +45849,7 @@ $(function () {
     var app = new application_1.Application();
     app.init();
 });
-},{"./application":60,"./site":63,"typescript-logger":53}],62:[function(require,module,exports){
+},{"./application":60,"./site":64,"typescript-logger":53}],63:[function(require,module,exports){
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.DataListSubject = exports.DataSubject = void 0;
@@ -46015,7 +46036,7 @@ var DataListSubject = (function () {
     return DataListSubject;
 }());
 exports.DataListSubject = DataListSubject;
-},{"typescript-logger":53}],63:[function(require,module,exports){
+},{"typescript-logger":53}],64:[function(require,module,exports){
 'use strict';
 String.prototype.format = function () {
     var args = arguments;
@@ -46098,5 +46119,103 @@ module.exports = {
     makeDoubleClick: makeDoubleClick,
     clamp: clamp
 };
-},{}]},{},[61])
+},{}],65:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.SpritePawPartsAdapter = void 0;
+var pixi_js_1 = require("pixi.js");
+var typescript_logger_1 = require("typescript-logger");
+var flags_data_1 = require("./flags.data");
+var SpritePawPartsAdapter = (function () {
+    function SpritePawPartsAdapter(pixiApp, spritesMetaData) {
+        this._spritesMetaData = [];
+        this._sprites = {
+            left_part_1: new pixi_js_1.Sprite(),
+            left_part_2: new pixi_js_1.Sprite(),
+            right_part_1: new pixi_js_1.Sprite(),
+            right_part_2: new pixi_js_1.Sprite(),
+            center: new pixi_js_1.Sprite(),
+        };
+        this._parts_container = new pixi_js_1.Container();
+        this.log = typescript_logger_1.LoggerManager.create('SpritePawPartsAdapter');
+        this._pixiApp = pixiApp;
+        this._spritesMetaData = spritesMetaData;
+    }
+    SpritePawPartsAdapter.prototype.init = function (resources) {
+        this._resources = resources;
+        var parts = function (name) { return name; };
+        for (var _i = 0, _a = ['left_part_1', 'left_part_2', 'right_part_1', 'right_part_2', 'center']; _i < _a.length; _i++) {
+            var part = _a[_i];
+            this.setPart('None', part, flags_data_1.Orienration.Vertical, false);
+        }
+        this._parts_container.addChild(this._sprites.left_part_1);
+        this._parts_container.addChild(this._sprites.left_part_2);
+        this._parts_container.addChild(this._sprites.right_part_1);
+        this._parts_container.addChild(this._sprites.right_part_2);
+        this._parts_container.addChild(this._sprites.center);
+        this.updateSprite();
+        this._pixiApp.stage.addChild(this._sprites.left_part_1);
+        var that = this;
+        window.addEventListener('resize', function () {
+            that.log.debug('resize');
+            that.updateSprite();
+        });
+    };
+    SpritePawPartsAdapter.prototype.setPart = function (flag_name, part, orienration, update_sprite) {
+        if (update_sprite === void 0) { update_sprite = true; }
+        if (this._resources !== undefined) {
+            var meta = this._spritesMetaData.find(function (it) { return it.flag_name == flag_name && it.orientation == orienration && it.part == part; });
+            if (meta !== undefined) {
+                var ress = this._resources[meta.sheet];
+                if (ress != undefined && ress.textures !== undefined) {
+                    var texture = ress.textures[meta.id];
+                    switch (part) {
+                        case 'left_part_1':
+                            this._sprites.left_part_1.texture = texture;
+                            break;
+                        case 'left_part_2':
+                            this._sprites.left_part_2.texture = texture;
+                            break;
+                        case 'right_part_1':
+                            this._sprites.right_part_1.texture = texture;
+                            break;
+                        case 'right_part_2':
+                            this._sprites.right_part_2.texture = texture;
+                            break;
+                        case 'center':
+                            this._sprites.center.texture = texture;
+                            break;
+                    }
+                    if (update_sprite) {
+                        this.updateSprite();
+                    }
+                    this.log.debug('setPart', flag_name + " " + part + " " + orienration, meta, texture);
+                    return true;
+                }
+                else {
+                    this.log.warn('setPart', meta.sheet + " not found or no textures", this._resources[meta.sheet]);
+                }
+            }
+            else {
+                this.log.warn('setPart', flag_name + " " + part + " " + orienration + " not found in meta", this._spritesMetaData);
+            }
+        }
+        return false;
+    };
+    SpritePawPartsAdapter.prototype.updateSprite = function () {
+        var offset_x = (this._pixiApp.screen.width >= 32) ? 8 : 0;
+        var offset_y = (this._pixiApp.screen.height >= 32) ? 8 : 0;
+        var display_width = this._pixiApp.screen.width - offset_x;
+        var display_height = this._pixiApp.screen.height - offset_y;
+        this._parts_container.width = display_width;
+        this._parts_container.height = display_height;
+        this._parts_container.position.set((this._pixiApp.screen.width / 2 - this._parts_container.width / 2) + offset_x, (this._pixiApp.screen.height / 2 - this._parts_container.height / 2) + offset_y);
+        this._pixiApp.render();
+        this.log.debug('updateSprite: window', display_width, display_height);
+        this.log.debug('updateSprite: sprites', this._parts_container.x, this._parts_container.y, this._parts_container.width, this._parts_container.height, this._parts_container);
+    };
+    return SpritePawPartsAdapter;
+}());
+exports.SpritePawPartsAdapter = SpritePawPartsAdapter;
+},{"./flags.data":61,"pixi.js":44,"typescript-logger":53}]},{},[62])
 //# sourceMappingURL=bundle.js.map

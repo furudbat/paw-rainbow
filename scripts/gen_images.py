@@ -445,9 +445,10 @@ def generateSpriteLine(output_map, paw_outlines_img, outline_color, flag, parts,
         flag_colors_size = len(flag['colors'])
         flag_name = flag['name']
 
-        key = flag_name.lower().replace(' ', '_').replace("'", '') + '_' + orientation + '_' + str(frame_counter)
+        key_name = flag_name.lower().replace(' ', '_').replace("'", '')
+        key = key_name + '_' + orientation + '_' + str(frame_counter)
         if not key in output_map:
-            output_map[key] = { 'flag_name': flag_name, 'part': part, 'orientation': orientation }
+            output_map[key] = { 'flag_name': flag_name, 'part': part, 'orientation': orientation, 'flag_filename': flag['filename'] }
 
         flag_color_palette = []
         if 'start_' + orientation in color_coords and 'end_' + orientation in color_coords and color_coords['start_' + orientation] and color_coords['end_' + orientation]:
@@ -682,14 +683,12 @@ def generateSprite(in_img_filename, parts, output_name, colors_config, flags, tr
         if name in output_map:
             if (not 'empty' in output_map[name] or ('empty' in output_map[name] and not output_map[name]['empty'])):
                 dir_name = 'assets/img/sprites/{}'.format(output_name)
-                sprite_filename = os.path.normpath(os.path.join(dir_name, "{}.png".format(name))).replace("\\", "/")
+                sprite_filename = os.path.normpath(os.path.join(dir_name, "{}_{}.png".format(output_name, name))).replace("\\", "/")
                 os.makedirs(os.path.join('..', dir_name), exist_ok=True)
                 img.save(os.path.join('..', sprite_filename))
 
-                new_name = "{}.png".format(name)
-                output_map[name]['filename'] = sprite_filename
-                output_map[name]['id'] = new_name
-                new_output_frames[new_name] = output_map[name]
+                output_map[name]['id'] = sprite_filename
+                new_output_frames[sprite_filename] = output_map[name]
 
             if name in output_map and 'frame' in output_map[name]:
                 output_img.paste(img, (output_map[name]['frame']['x'], output_map[name]['frame']['y']))
@@ -714,6 +713,56 @@ def generateSprite(in_img_filename, parts, output_name, colors_config, flags, tr
 
     return output_arr
 
+def genFlags(flags):
+    for i in range(len(flags)):
+        flag = flags[i]
+        flag_name = flag['name']
+
+        strip_size = 2
+        line_size = 0
+        flag_line_color = None
+        if len(flag['colors']) == 1:
+            strip_size = 4
+        elif len(flag['colors']) == 2:
+            strip_size = 3
+        elif len(flag['colors']) >= 5:
+            strip_size = 1
+
+        if 'line' in flag:
+            line_size = int(max(strip_size/2, 1))
+            flag_line_color = Color(flag['line'])
+        
+        height = len(flag['colors']) * strip_size + line_size
+        width = 2 * height
+        output_img = Image.new(mode="RGBA", size=(width, height))
+        sy = 0
+        for j in range(len(flag['colors'])):
+            flag_color = Color(flag['colors'][j])
+            for y in range(strip_size):
+                for x in range(width):
+                    output_img.putpixel((x, sy + y), hex_to_rgb(flag_color.hex_l))
+            sy = sy + strip_size
+            if j == int(strip_size/2)-1 and line_size > 0:
+                for y in range(line_size):
+                    for x in range(width):
+                        output_img.putpixel((x, sy + y), hex_to_rgb(flag_line_color.hex_l))       
+                sy = sy + line_size
+
+        if 'triangle' in flag:
+            draw = ImageDraw.Draw(im)
+            for i in range(len(flag['triangle'])):
+                triangle = flag['triangle'][i]
+                triangle_size = i * int(max(strip_size/2, 1))
+                triangle_color = Color(triangle)
+                draw.polygon((0,0), (triangle_size, height/2), (0,height-1), fill=hex_to_rgb(triangle_color.hex_l)))
+            
+
+
+        output_filename = "assets/img/flags/{}.png".format(flag_name.lower().replace(' ', '_').replace("'", ''))
+        output_img.save(os.path.join('../', output_filename))
+        flags[i]['filename'] = output_filename
+
+    return flags
 
 def main():
     config = dict()
@@ -726,6 +775,8 @@ def main():
     with open('gender_flags.yaml') as f:
         gender_flags = yaml.load(f, Loader=yaml.FullLoader)
 
+    pride_flags = genFlags(pride_flags)
+    gender_flags = genFlags(gender_flags)
 
     transparent_colors = []
     for transparent_color in config['transparent_colors']:
@@ -777,6 +828,7 @@ def main():
     with open(r'sprites.json', 'r') as json_file:
         with open(r'../_data/sprites.yml', 'w') as yaml_file:
             yaml.safe_dump(json.load(json_file), yaml_file, default_flow_style=False, allow_unicode=True)
+
 
 if __name__ == "__main__":
     main()

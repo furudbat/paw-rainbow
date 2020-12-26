@@ -1,13 +1,15 @@
 import { ApplicationData, Theme } from './application.data'
 import { LoggerManager } from 'typescript-logger';
-import { Loader, Application as PixiApplication } from 'pixi.js';
+import { Loader, Application as PixiApplication, LoaderResource } from 'pixi.js';
 import { site } from './site';
+import { SpritePawPartsAdapter } from './sprite.adapter';
 
 export class Application {
 
     private _appData: ApplicationData = new ApplicationData();
     private _pixiApp: PixiApplication = new PixiApplication();
-    private _loader = new Loader();
+    private _loader: Loader = new Loader();
+    private _spriteAdapter?: SpritePawPartsAdapter;
 
     private log = LoggerManager.create('Application');
 
@@ -24,6 +26,8 @@ export class Application {
         this.initTheme();
         this.initSettings();
 
+        const paw_sprites = site.data.sprites.filter(it => it.form == 'pride_paws' || it.form == 'gender_paws');
+        this._spriteAdapter = new SpritePawPartsAdapter(this._pixiApp, paw_sprites);
         this.initCanvas();
 
         this.initObservers();
@@ -67,27 +71,35 @@ export class Application {
     }
 
     private initCanvas() {
-        this._pixiApp = new PixiApplication({ 
-            width: 512, 
-            height: 512,                       
-            antialias: false, 
-            transparent: true, 
-            resolution: 1
+        var that = this;
+        this._pixiApp = new PixiApplication({
+            width: 520,
+            height: 520,
+            antialias: false,
+            transparent: true,
+            resizeTo: $('#spriteViewContainer')[0]
         });
-
-        const selectable_sprites_flags = site.data.sprites.filter(it => it.form == 'pride_paws' || it.form == 'gender_paws')
-        let selectable_flags_filenames = selectable_sprites_flags.map(it => it.filename);
-        selectable_flags_filenames = selectable_flags_filenames.filter((filename: string, index: number) => {
-            return selectable_flags_filenames.indexOf(filename) === index;
-        });
-
-        this._loader.baseUrl = site.data.base_url
-        this._loader.add(selectable_flags_filenames).load(this.setupSprites);
-
         $('#spriteViewContainer').html(this._pixiApp.view);
+
+        let sprite_sheet_filenames = site.data.sprites.map(it => it.sheet);
+        sprite_sheet_filenames = sprite_sheet_filenames.filter((filename: string, index: number) => {
+            return sprite_sheet_filenames.indexOf(filename) === index;
+        });
+
+        this._loader.baseUrl = site.data.base_url;
+        this._loader.onProgress.add(function () {
+            that.loadProgressHandler();
+        })
+        this._loader.add(sprite_sheet_filenames).load(function (loader, resources) {
+            that.setupAdapters(loader, resources)
+        });
     }
 
-    private setupSprites() {
+    private setupAdapters(loader: Loader, resources: Partial<Record<string, LoaderResource>>) {
+        this._spriteAdapter?.init(resources);
+    }
+
+    private loadProgressHandler() {
 
     }
 }
