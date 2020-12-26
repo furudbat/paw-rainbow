@@ -23,6 +23,28 @@ flag_horizontal:
         - '#595959'
         - '#4c4c4c'
         - '#404040'
+flag_vertical:
+  main:
+    vertical:
+      - '#404040'
+      - '#4c4c4c'
+      - '#595959'
+      - '#666666'
+      - '#737373'
+      - '#666666'
+      - '#595959'
+      - '#4c4c4c'
+      - '#404040'
+    line:
+      vertical:
+        - '#737373'
+    triangle:
+      vertical:
+        - '#737373'
+        - '#666666'
+        - '#595959'
+        - '#4c4c4c'
+        - '#404040'
 paw:
   outline: '#000000'
   extra_outline: '#1a1a1a'

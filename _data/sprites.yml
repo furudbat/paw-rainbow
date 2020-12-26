@@ -1,2805 +1,6370 @@
-- coord:
-  - 0
-  - 0
-  - 22
-  - 22
-  filename: /assets/img/pride_paws.png
+- filename: assets/img/sprites/pride_paws/none_horizontal_0.png
   flag_name: None
   flags_fits: true
   form: pride_paws
-  orientation: vertical
-  part: left_part_1
-- coord:
-  - 22
-  - 0
-  - 22
-  - 22
-  filename: /assets/img/pride_paws.png
-  flag_name: None
-  flags_fits: true
-  form: pride_paws
-  orientation: vertical
-  part: left_part_2
-- coord:
-  - 44
-  - 0
-  - 22
-  - 22
-  filename: /assets/img/pride_paws.png
-  flag_name: None
-  flags_fits: true
-  form: pride_paws
-  orientation: vertical
-  part: right_part_1
-- coord:
-  - 66
-  - 0
-  - 22
-  - 22
-  filename: /assets/img/pride_paws.png
-  flag_name: None
-  flags_fits: true
-  form: pride_paws
-  orientation: vertical
-  part: right_part_2
-- coord:
-  - 88
-  - 0
-  - 22
-  - 22
-  filename: /assets/img/pride_paws.png
-  flag_name: None
-  flags_fits: true
-  form: pride_paws
-  orientation: vertical
-  part: center
-- coord:
-  - 110
-  - 0
-  - 22
-  - 22
-  filename: /assets/img/pride_paws.png
-  flag_name: None
-  flags_fits: true
-  form: pride_paws
+  frame:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  id: none_horizontal_0.png
   orientation: horizontal
   part: left_part_1
-- coord:
-  - 132
-  - 0
-  - 22
-  - 22
-  filename: /assets/img/pride_paws.png
+  rotated: false
+  sheet: assets/img/sprites/pride_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/pride_paws/none_horizontal_1.png
   flag_name: None
   flags_fits: true
   form: pride_paws
+  frame:
+    h: 22
+    w: 22
+    x: 22
+    y: 0
+  id: none_horizontal_1.png
   orientation: horizontal
   part: left_part_2
-- coord:
-  - 154
-  - 0
-  - 22
-  - 22
-  filename: /assets/img/pride_paws.png
+  rotated: false
+  sheet: assets/img/sprites/pride_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/pride_paws/none_horizontal_2.png
   flag_name: None
   flags_fits: true
   form: pride_paws
+  frame:
+    h: 22
+    w: 22
+    x: 44
+    y: 0
+  id: none_horizontal_2.png
   orientation: horizontal
   part: right_part_1
-- coord:
-  - 176
-  - 0
-  - 22
-  - 22
-  filename: /assets/img/pride_paws.png
+  rotated: false
+  sheet: assets/img/sprites/pride_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/pride_paws/none_horizontal_3.png
   flag_name: None
   flags_fits: true
   form: pride_paws
+  frame:
+    h: 22
+    w: 22
+    x: 66
+    y: 0
+  id: none_horizontal_3.png
   orientation: horizontal
   part: right_part_2
-- coord:
-  - 198
-  - 0
-  - 22
-  - 22
-  filename: /assets/img/pride_paws.png
+  rotated: false
+  sheet: assets/img/sprites/pride_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/pride_paws/none_horizontal_4.png
   flag_name: None
   flags_fits: true
   form: pride_paws
+  frame:
+    h: 22
+    w: 22
+    x: 88
+    y: 0
+  id: none_horizontal_4.png
   orientation: horizontal
   part: center
-- coord:
-  - 0
-  - 22
-  - 22
-  - 22
-  filename: /assets/img/pride_paws.png
-  flag_name: Rainbow Pride Flag
-  flags_fits: false
+  rotated: false
+  sheet: assets/img/sprites/pride_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/pride_paws/none_vertical_0.png
+  flag_name: None
+  flags_fits: true
   form: pride_paws
+  frame:
+    h: 22
+    w: 22
+    x: 110
+    y: 0
+  id: none_vertical_0.png
   orientation: vertical
   part: left_part_1
-- coord:
-  - 22
-  - 22
-  - 22
-  - 22
-  filename: /assets/img/pride_paws.png
-  flag_name: Rainbow Pride Flag
-  flags_fits: false
+  rotated: false
+  sheet: assets/img/sprites/pride_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/pride_paws/none_vertical_1.png
+  flag_name: None
+  flags_fits: true
   form: pride_paws
+  frame:
+    h: 22
+    w: 22
+    x: 132
+    y: 0
+  id: none_vertical_1.png
   orientation: vertical
   part: left_part_2
-- coord:
-  - 44
-  - 22
-  - 22
-  - 22
-  filename: /assets/img/pride_paws.png
-  flag_name: Rainbow Pride Flag
-  flags_fits: false
+  rotated: false
+  sheet: assets/img/sprites/pride_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/pride_paws/none_vertical_2.png
+  flag_name: None
+  flags_fits: true
   form: pride_paws
+  frame:
+    h: 22
+    w: 22
+    x: 154
+    y: 0
+  id: none_vertical_2.png
   orientation: vertical
   part: right_part_1
-- coord:
-  - 66
-  - 22
-  - 22
-  - 22
-  filename: /assets/img/pride_paws.png
-  flag_name: Rainbow Pride Flag
-  flags_fits: false
+  rotated: false
+  sheet: assets/img/sprites/pride_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/pride_paws/none_vertical_3.png
+  flag_name: None
+  flags_fits: true
   form: pride_paws
+  frame:
+    h: 22
+    w: 22
+    x: 176
+    y: 0
+  id: none_vertical_3.png
   orientation: vertical
   part: right_part_2
-- coord:
-  - 88
-  - 22
-  - 22
-  - 22
-  filename: /assets/img/pride_paws.png
-  flag_name: Rainbow Pride Flag
+  rotated: false
+  sheet: assets/img/sprites/pride_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/pride_paws/none_vertical_4.png
+  flag_name: None
   flags_fits: true
   form: pride_paws
+  frame:
+    h: 22
+    w: 22
+    x: 198
+    y: 0
+  id: none_vertical_4.png
   orientation: vertical
   part: center
-- coord:
-  - 110
-  - 22
-  - 22
-  - 22
-  filename: /assets/img/pride_paws.png
+  rotated: false
+  sheet: assets/img/sprites/pride_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/pride_paws/rainbow_pride_flag_horizontal_0.png
   flag_name: Rainbow Pride Flag
   flags_fits: false
   form: pride_paws
+  frame:
+    h: 22
+    w: 22
+    x: 0
+    y: 22
+  id: rainbow_pride_flag_horizontal_0.png
   orientation: horizontal
   part: left_part_1
-- coord:
-  - 132
-  - 22
-  - 22
-  - 22
-  filename: /assets/img/pride_paws.png
+  rotated: false
+  sheet: assets/img/sprites/pride_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/pride_paws/rainbow_pride_flag_horizontal_1.png
   flag_name: Rainbow Pride Flag
   flags_fits: true
   form: pride_paws
+  frame:
+    h: 22
+    w: 22
+    x: 22
+    y: 22
+  id: rainbow_pride_flag_horizontal_1.png
   orientation: horizontal
   part: left_part_2
-- coord:
-  - 154
-  - 22
-  - 22
-  - 22
-  filename: /assets/img/pride_paws.png
+  rotated: false
+  sheet: assets/img/sprites/pride_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/pride_paws/rainbow_pride_flag_horizontal_2.png
   flag_name: Rainbow Pride Flag
   flags_fits: true
   form: pride_paws
+  frame:
+    h: 22
+    w: 22
+    x: 44
+    y: 22
+  id: rainbow_pride_flag_horizontal_2.png
   orientation: horizontal
   part: right_part_1
-- coord:
-  - 176
-  - 22
-  - 22
-  - 22
-  filename: /assets/img/pride_paws.png
+  rotated: false
+  sheet: assets/img/sprites/pride_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/pride_paws/rainbow_pride_flag_horizontal_3.png
   flag_name: Rainbow Pride Flag
   flags_fits: false
   form: pride_paws
+  frame:
+    h: 22
+    w: 22
+    x: 66
+    y: 22
+  id: rainbow_pride_flag_horizontal_3.png
   orientation: horizontal
   part: right_part_2
-- coord:
-  - 198
-  - 22
-  - 22
-  - 22
-  filename: /assets/img/pride_paws.png
+  rotated: false
+  sheet: assets/img/sprites/pride_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/pride_paws/rainbow_pride_flag_horizontal_4.png
   flag_name: Rainbow Pride Flag
   flags_fits: true
   form: pride_paws
+  frame:
+    h: 22
+    w: 22
+    x: 88
+    y: 22
+  id: rainbow_pride_flag_horizontal_4.png
   orientation: horizontal
   part: center
-- coord:
-  - 0
-  - 44
-  - 22
-  - 22
-  filename: /assets/img/pride_paws.png
-  flag_name: Philadelphia's People of Color Inclusive Flag
+  rotated: false
+  sheet: assets/img/sprites/pride_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/pride_paws/rainbow_pride_flag_vertical_0.png
+  flag_name: Rainbow Pride Flag
   flags_fits: false
   form: pride_paws
+  frame:
+    h: 22
+    w: 22
+    x: 110
+    y: 22
+  id: rainbow_pride_flag_vertical_0.png
   orientation: vertical
   part: left_part_1
-- coord:
-  - 22
-  - 44
-  - 22
-  - 22
-  filename: /assets/img/pride_paws.png
-  flag_name: Philadelphia's People of Color Inclusive Flag
+  rotated: false
+  sheet: assets/img/sprites/pride_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/pride_paws/rainbow_pride_flag_vertical_1.png
+  flag_name: Rainbow Pride Flag
   flags_fits: false
   form: pride_paws
+  frame:
+    h: 22
+    w: 22
+    x: 132
+    y: 22
+  id: rainbow_pride_flag_vertical_1.png
   orientation: vertical
   part: left_part_2
-- coord:
-  - 44
-  - 44
-  - 22
-  - 22
-  filename: /assets/img/pride_paws.png
-  flag_name: Philadelphia's People of Color Inclusive Flag
+  rotated: false
+  sheet: assets/img/sprites/pride_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/pride_paws/rainbow_pride_flag_vertical_2.png
+  flag_name: Rainbow Pride Flag
   flags_fits: false
   form: pride_paws
+  frame:
+    h: 22
+    w: 22
+    x: 154
+    y: 22
+  id: rainbow_pride_flag_vertical_2.png
   orientation: vertical
   part: right_part_1
-- coord:
-  - 66
-  - 44
-  - 22
-  - 22
-  filename: /assets/img/pride_paws.png
-  flag_name: Philadelphia's People of Color Inclusive Flag
+  rotated: false
+  sheet: assets/img/sprites/pride_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/pride_paws/rainbow_pride_flag_vertical_3.png
+  flag_name: Rainbow Pride Flag
   flags_fits: false
   form: pride_paws
+  frame:
+    h: 22
+    w: 22
+    x: 176
+    y: 22
+  id: rainbow_pride_flag_vertical_3.png
   orientation: vertical
   part: right_part_2
-- coord:
-  - 88
-  - 44
-  - 22
-  - 22
-  filename: /assets/img/pride_paws.png
-  flag_name: Philadelphia's People of Color Inclusive Flag
+  rotated: false
+  sheet: assets/img/sprites/pride_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/pride_paws/rainbow_pride_flag_vertical_4.png
+  flag_name: Rainbow Pride Flag
   flags_fits: true
   form: pride_paws
+  frame:
+    h: 22
+    w: 22
+    x: 198
+    y: 22
+  id: rainbow_pride_flag_vertical_4.png
   orientation: vertical
   part: center
-- coord:
-  - 110
-  - 44
-  - 22
-  - 22
-  filename: /assets/img/pride_paws.png
+  rotated: false
+  sheet: assets/img/sprites/pride_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/pride_paws/philadelphias_people_of_color_inclusive_flag_horizontal_0.png
   flag_name: Philadelphia's People of Color Inclusive Flag
   flags_fits: false
   form: pride_paws
+  frame:
+    h: 22
+    w: 22
+    x: 0
+    y: 44
+  id: philadelphias_people_of_color_inclusive_flag_horizontal_0.png
   orientation: horizontal
   part: left_part_1
-- coord:
-  - 132
-  - 44
-  - 22
-  - 22
-  filename: /assets/img/pride_paws.png
+  rotated: false
+  sheet: assets/img/sprites/pride_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/pride_paws/philadelphias_people_of_color_inclusive_flag_horizontal_1.png
   flag_name: Philadelphia's People of Color Inclusive Flag
   flags_fits: true
   flags_fits_perfect: true
   form: pride_paws
+  frame:
+    h: 22
+    w: 22
+    x: 22
+    y: 44
+  id: philadelphias_people_of_color_inclusive_flag_horizontal_1.png
   orientation: horizontal
   part: left_part_2
-- coord:
-  - 154
-  - 44
-  - 22
-  - 22
-  filename: /assets/img/pride_paws.png
+  rotated: false
+  sheet: assets/img/sprites/pride_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/pride_paws/philadelphias_people_of_color_inclusive_flag_horizontal_2.png
   flag_name: Philadelphia's People of Color Inclusive Flag
   flags_fits: true
   flags_fits_perfect: true
   form: pride_paws
+  frame:
+    h: 22
+    w: 22
+    x: 44
+    y: 44
+  id: philadelphias_people_of_color_inclusive_flag_horizontal_2.png
   orientation: horizontal
   part: right_part_1
-- coord:
-  - 176
-  - 44
-  - 22
-  - 22
-  filename: /assets/img/pride_paws.png
+  rotated: false
+  sheet: assets/img/sprites/pride_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/pride_paws/philadelphias_people_of_color_inclusive_flag_horizontal_3.png
   flag_name: Philadelphia's People of Color Inclusive Flag
   flags_fits: false
   form: pride_paws
+  frame:
+    h: 22
+    w: 22
+    x: 66
+    y: 44
+  id: philadelphias_people_of_color_inclusive_flag_horizontal_3.png
   orientation: horizontal
   part: right_part_2
-- coord:
-  - 198
-  - 44
-  - 22
-  - 22
-  filename: /assets/img/pride_paws.png
+  rotated: false
+  sheet: assets/img/sprites/pride_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/pride_paws/philadelphias_people_of_color_inclusive_flag_horizontal_4.png
   flag_name: Philadelphia's People of Color Inclusive Flag
   flags_fits: false
   form: pride_paws
+  frame:
+    h: 22
+    w: 22
+    x: 88
+    y: 44
+  id: philadelphias_people_of_color_inclusive_flag_horizontal_4.png
   orientation: horizontal
   part: center
-- coord:
-  - 0
-  - 66
-  - 22
-  - 22
-  filename: /assets/img/pride_paws.png
+  rotated: false
+  sheet: assets/img/sprites/pride_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/pride_paws/philadelphias_people_of_color_inclusive_flag_vertical_0.png
+  flag_name: Philadelphia's People of Color Inclusive Flag
+  flags_fits: false
+  form: pride_paws
+  frame:
+    h: 22
+    w: 22
+    x: 110
+    y: 44
+  id: philadelphias_people_of_color_inclusive_flag_vertical_0.png
+  orientation: vertical
+  part: left_part_1
+  rotated: false
+  sheet: assets/img/sprites/pride_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/pride_paws/philadelphias_people_of_color_inclusive_flag_vertical_1.png
+  flag_name: Philadelphia's People of Color Inclusive Flag
+  flags_fits: false
+  form: pride_paws
+  frame:
+    h: 22
+    w: 22
+    x: 132
+    y: 44
+  id: philadelphias_people_of_color_inclusive_flag_vertical_1.png
+  orientation: vertical
+  part: left_part_2
+  rotated: false
+  sheet: assets/img/sprites/pride_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/pride_paws/philadelphias_people_of_color_inclusive_flag_vertical_2.png
+  flag_name: Philadelphia's People of Color Inclusive Flag
+  flags_fits: false
+  form: pride_paws
+  frame:
+    h: 22
+    w: 22
+    x: 154
+    y: 44
+  id: philadelphias_people_of_color_inclusive_flag_vertical_2.png
+  orientation: vertical
+  part: right_part_1
+  rotated: false
+  sheet: assets/img/sprites/pride_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/pride_paws/philadelphias_people_of_color_inclusive_flag_vertical_3.png
+  flag_name: Philadelphia's People of Color Inclusive Flag
+  flags_fits: false
+  form: pride_paws
+  frame:
+    h: 22
+    w: 22
+    x: 176
+    y: 44
+  id: philadelphias_people_of_color_inclusive_flag_vertical_3.png
+  orientation: vertical
+  part: right_part_2
+  rotated: false
+  sheet: assets/img/sprites/pride_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/pride_paws/philadelphias_people_of_color_inclusive_flag_vertical_4.png
+  flag_name: Philadelphia's People of Color Inclusive Flag
+  flags_fits: true
+  form: pride_paws
+  frame:
+    h: 22
+    w: 22
+    x: 198
+    y: 44
+  id: philadelphias_people_of_color_inclusive_flag_vertical_4.png
+  orientation: vertical
+  part: center
+  rotated: false
+  sheet: assets/img/sprites/pride_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/pride_paws/asexual_horizontal_0.png
+  flag_name: Asexual
+  flags_fits: true
+  form: pride_paws
+  frame:
+    h: 22
+    w: 22
+    x: 0
+    y: 66
+  id: asexual_horizontal_0.png
+  orientation: horizontal
+  part: left_part_1
+  rotated: false
+  sheet: assets/img/sprites/pride_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/pride_paws/asexual_horizontal_1.png
+  flag_name: Asexual
+  flags_fits: true
+  form: pride_paws
+  frame:
+    h: 22
+    w: 22
+    x: 22
+    y: 66
+  id: asexual_horizontal_1.png
+  orientation: horizontal
+  part: left_part_2
+  rotated: false
+  sheet: assets/img/sprites/pride_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/pride_paws/asexual_horizontal_2.png
+  flag_name: Asexual
+  flags_fits: true
+  form: pride_paws
+  frame:
+    h: 22
+    w: 22
+    x: 44
+    y: 66
+  id: asexual_horizontal_2.png
+  orientation: horizontal
+  part: right_part_1
+  rotated: false
+  sheet: assets/img/sprites/pride_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/pride_paws/asexual_horizontal_3.png
+  flag_name: Asexual
+  flags_fits: true
+  form: pride_paws
+  frame:
+    h: 22
+    w: 22
+    x: 66
+    y: 66
+  id: asexual_horizontal_3.png
+  orientation: horizontal
+  part: right_part_2
+  rotated: false
+  sheet: assets/img/sprites/pride_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/pride_paws/asexual_horizontal_4.png
+  flag_name: Asexual
+  flags_fits: true
+  form: pride_paws
+  frame:
+    h: 22
+    w: 22
+    x: 88
+    y: 66
+  id: asexual_horizontal_4.png
+  orientation: horizontal
+  part: center
+  rotated: false
+  sheet: assets/img/sprites/pride_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/pride_paws/asexual_vertical_0.png
   flag_name: Asexual
   flags_fits: true
   flags_fits_perfect: true
   form: pride_paws
+  frame:
+    h: 22
+    w: 22
+    x: 110
+    y: 66
+  id: asexual_vertical_0.png
   orientation: vertical
   part: left_part_1
-- coord:
-  - 22
-  - 66
-  - 22
-  - 22
-  filename: /assets/img/pride_paws.png
+  rotated: false
+  sheet: assets/img/sprites/pride_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/pride_paws/asexual_vertical_1.png
   flag_name: Asexual
   flags_fits: true
   flags_fits_perfect: true
   form: pride_paws
+  frame:
+    h: 22
+    w: 22
+    x: 132
+    y: 66
+  id: asexual_vertical_1.png
   orientation: vertical
   part: left_part_2
-- coord:
-  - 44
-  - 66
-  - 22
-  - 22
-  filename: /assets/img/pride_paws.png
+  rotated: false
+  sheet: assets/img/sprites/pride_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/pride_paws/asexual_vertical_2.png
   flag_name: Asexual
   flags_fits: true
   flags_fits_perfect: true
   form: pride_paws
+  frame:
+    h: 22
+    w: 22
+    x: 154
+    y: 66
+  id: asexual_vertical_2.png
   orientation: vertical
   part: right_part_1
-- coord:
-  - 66
-  - 66
-  - 22
-  - 22
-  filename: /assets/img/pride_paws.png
+  rotated: false
+  sheet: assets/img/sprites/pride_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/pride_paws/asexual_vertical_3.png
   flag_name: Asexual
   flags_fits: true
   flags_fits_perfect: true
   form: pride_paws
+  frame:
+    h: 22
+    w: 22
+    x: 176
+    y: 66
+  id: asexual_vertical_3.png
   orientation: vertical
   part: right_part_2
-- coord:
-  - 88
-  - 66
-  - 22
-  - 22
-  filename: /assets/img/pride_paws.png
+  rotated: false
+  sheet: assets/img/sprites/pride_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/pride_paws/asexual_vertical_4.png
   flag_name: Asexual
   flags_fits: true
   form: pride_paws
+  frame:
+    h: 22
+    w: 22
+    x: 198
+    y: 66
+  id: asexual_vertical_4.png
   orientation: vertical
   part: center
-- coord:
-  - 110
-  - 66
-  - 22
-  - 22
-  filename: /assets/img/pride_paws.png
-  flag_name: Asexual
-  flags_fits: true
-  form: pride_paws
-  orientation: horizontal
-  part: left_part_1
-- coord:
-  - 132
-  - 66
-  - 22
-  - 22
-  filename: /assets/img/pride_paws.png
-  flag_name: Asexual
-  flags_fits: true
-  form: pride_paws
-  orientation: horizontal
-  part: left_part_2
-- coord:
-  - 154
-  - 66
-  - 22
-  - 22
-  filename: /assets/img/pride_paws.png
-  flag_name: Asexual
-  flags_fits: true
-  form: pride_paws
-  orientation: horizontal
-  part: right_part_1
-- coord:
-  - 176
-  - 66
-  - 22
-  - 22
-  filename: /assets/img/pride_paws.png
-  flag_name: Asexual
-  flags_fits: true
-  form: pride_paws
-  orientation: horizontal
-  part: right_part_2
-- coord:
-  - 198
-  - 66
-  - 22
-  - 22
-  filename: /assets/img/pride_paws.png
-  flag_name: Asexual
-  flags_fits: true
-  form: pride_paws
-  orientation: horizontal
-  part: center
-- coord:
-  - 0
-  - 88
-  - 22
-  - 22
-  filename: /assets/img/pride_paws.png
-  flag_name: Bisexual
-  flags_fits: false
-  form: pride_paws
-  orientation: vertical
-  part: left_part_1
-- coord:
-  - 22
-  - 88
-  - 22
-  - 22
-  filename: /assets/img/pride_paws.png
-  flag_name: Bisexual
-  flags_fits: false
-  form: pride_paws
-  orientation: vertical
-  part: left_part_2
-- coord:
-  - 44
-  - 88
-  - 22
-  - 22
-  filename: /assets/img/pride_paws.png
-  flag_name: Bisexual
-  flags_fits: false
-  form: pride_paws
-  orientation: vertical
-  part: right_part_1
-- coord:
-  - 66
-  - 88
-  - 22
-  - 22
-  filename: /assets/img/pride_paws.png
-  flag_name: Bisexual
-  flags_fits: false
-  form: pride_paws
-  orientation: vertical
-  part: right_part_2
-- coord:
-  - 88
-  - 88
-  - 22
-  - 22
-  filename: /assets/img/pride_paws.png
-  flag_name: Bisexual
-  flags_fits: true
-  form: pride_paws
-  orientation: vertical
-  part: center
-- coord:
-  - 110
-  - 88
-  - 22
-  - 22
-  filename: /assets/img/pride_paws.png
+  rotated: false
+  sheet: assets/img/sprites/pride_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/pride_paws/bisexual_horizontal_0.png
   flag_name: Bisexual
   flags_fits: true
   flags_fits_perfect: true
   form: pride_paws
+  frame:
+    h: 22
+    w: 22
+    x: 0
+    y: 88
+  id: bisexual_horizontal_0.png
   orientation: horizontal
   part: left_part_1
-- coord:
-  - 132
-  - 88
-  - 22
-  - 22
-  filename: /assets/img/pride_paws.png
+  rotated: false
+  sheet: assets/img/sprites/pride_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/pride_paws/bisexual_horizontal_1.png
   flag_name: Bisexual
   flags_fits: true
   form: pride_paws
+  frame:
+    h: 22
+    w: 22
+    x: 22
+    y: 88
+  id: bisexual_horizontal_1.png
   orientation: horizontal
   part: left_part_2
-- coord:
-  - 154
-  - 88
-  - 22
-  - 22
-  filename: /assets/img/pride_paws.png
+  rotated: false
+  sheet: assets/img/sprites/pride_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/pride_paws/bisexual_horizontal_2.png
   flag_name: Bisexual
   flags_fits: true
   form: pride_paws
+  frame:
+    h: 22
+    w: 22
+    x: 44
+    y: 88
+  id: bisexual_horizontal_2.png
   orientation: horizontal
   part: right_part_1
-- coord:
-  - 176
-  - 88
-  - 22
-  - 22
-  filename: /assets/img/pride_paws.png
+  rotated: false
+  sheet: assets/img/sprites/pride_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/pride_paws/bisexual_horizontal_3.png
   flag_name: Bisexual
   flags_fits: true
   flags_fits_perfect: true
   form: pride_paws
+  frame:
+    h: 22
+    w: 22
+    x: 66
+    y: 88
+  id: bisexual_horizontal_3.png
   orientation: horizontal
   part: right_part_2
-- coord:
-  - 198
-  - 88
-  - 22
-  - 22
-  filename: /assets/img/pride_paws.png
+  rotated: false
+  sheet: assets/img/sprites/pride_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/pride_paws/bisexual_horizontal_4.png
   flag_name: Bisexual
   flags_fits: true
   form: pride_paws
+  frame:
+    h: 22
+    w: 22
+    x: 88
+    y: 88
+  id: bisexual_horizontal_4.png
   orientation: horizontal
   part: center
-- coord:
-  - 0
-  - 110
-  - 22
-  - 22
-  filename: /assets/img/pride_paws.png
-  flag_name: Pansexual
-  flags_fits: true
+  rotated: false
+  sheet: assets/img/sprites/pride_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/pride_paws/bisexual_vertical_0.png
+  flag_name: Bisexual
+  flags_fits: false
   form: pride_paws
+  frame:
+    h: 22
+    w: 22
+    x: 110
+    y: 88
+  id: bisexual_vertical_0.png
   orientation: vertical
   part: left_part_1
-- coord:
-  - 22
-  - 110
-  - 22
-  - 22
-  filename: /assets/img/pride_paws.png
-  flag_name: Pansexual
-  flags_fits: true
+  rotated: false
+  sheet: assets/img/sprites/pride_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/pride_paws/bisexual_vertical_1.png
+  flag_name: Bisexual
+  flags_fits: false
   form: pride_paws
+  frame:
+    h: 22
+    w: 22
+    x: 132
+    y: 88
+  id: bisexual_vertical_1.png
   orientation: vertical
   part: left_part_2
-- coord:
-  - 44
-  - 110
-  - 22
-  - 22
-  filename: /assets/img/pride_paws.png
-  flag_name: Pansexual
-  flags_fits: true
+  rotated: false
+  sheet: assets/img/sprites/pride_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/pride_paws/bisexual_vertical_2.png
+  flag_name: Bisexual
+  flags_fits: false
   form: pride_paws
+  frame:
+    h: 22
+    w: 22
+    x: 154
+    y: 88
+  id: bisexual_vertical_2.png
   orientation: vertical
   part: right_part_1
-- coord:
-  - 66
-  - 110
-  - 22
-  - 22
-  filename: /assets/img/pride_paws.png
-  flag_name: Pansexual
-  flags_fits: true
+  rotated: false
+  sheet: assets/img/sprites/pride_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/pride_paws/bisexual_vertical_3.png
+  flag_name: Bisexual
+  flags_fits: false
   form: pride_paws
+  frame:
+    h: 22
+    w: 22
+    x: 176
+    y: 88
+  id: bisexual_vertical_3.png
   orientation: vertical
   part: right_part_2
-- coord:
-  - 88
-  - 110
-  - 22
-  - 22
-  filename: /assets/img/pride_paws.png
-  flag_name: Pansexual
+  rotated: false
+  sheet: assets/img/sprites/pride_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/pride_paws/bisexual_vertical_4.png
+  flag_name: Bisexual
   flags_fits: true
   form: pride_paws
+  frame:
+    h: 22
+    w: 22
+    x: 198
+    y: 88
+  id: bisexual_vertical_4.png
   orientation: vertical
   part: center
-- coord:
-  - 110
-  - 110
-  - 22
-  - 22
-  filename: /assets/img/pride_paws.png
+  rotated: false
+  sheet: assets/img/sprites/pride_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/pride_paws/pansexual_horizontal_0.png
   flag_name: Pansexual
   flags_fits: true
   form: pride_paws
+  frame:
+    h: 22
+    w: 22
+    x: 0
+    y: 110
+  id: pansexual_horizontal_0.png
   orientation: horizontal
   part: left_part_1
-- coord:
-  - 132
-  - 110
-  - 22
-  - 22
-  filename: /assets/img/pride_paws.png
+  rotated: false
+  sheet: assets/img/sprites/pride_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/pride_paws/pansexual_horizontal_1.png
   flag_name: Pansexual
   flags_fits: true
   form: pride_paws
+  frame:
+    h: 22
+    w: 22
+    x: 22
+    y: 110
+  id: pansexual_horizontal_1.png
   orientation: horizontal
   part: left_part_2
-- coord:
-  - 154
-  - 110
-  - 22
-  - 22
-  filename: /assets/img/pride_paws.png
+  rotated: false
+  sheet: assets/img/sprites/pride_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/pride_paws/pansexual_horizontal_2.png
   flag_name: Pansexual
   flags_fits: true
   form: pride_paws
+  frame:
+    h: 22
+    w: 22
+    x: 44
+    y: 110
+  id: pansexual_horizontal_2.png
   orientation: horizontal
   part: right_part_1
-- coord:
-  - 176
-  - 110
-  - 22
-  - 22
-  filename: /assets/img/pride_paws.png
+  rotated: false
+  sheet: assets/img/sprites/pride_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/pride_paws/pansexual_horizontal_3.png
   flag_name: Pansexual
   flags_fits: true
   form: pride_paws
+  frame:
+    h: 22
+    w: 22
+    x: 66
+    y: 110
+  id: pansexual_horizontal_3.png
   orientation: horizontal
   part: right_part_2
-- coord:
-  - 198
-  - 110
-  - 22
-  - 22
-  filename: /assets/img/pride_paws.png
+  rotated: false
+  sheet: assets/img/sprites/pride_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/pride_paws/pansexual_horizontal_4.png
   flag_name: Pansexual
   flags_fits: true
   form: pride_paws
+  frame:
+    h: 22
+    w: 22
+    x: 88
+    y: 110
+  id: pansexual_horizontal_4.png
   orientation: horizontal
   part: center
-- coord:
-  - 0
-  - 132
-  - 22
-  - 22
-  filename: /assets/img/pride_paws.png
-  flag_name: Lesbian
-  flags_fits: false
-  form: pride_paws
-  orientation: vertical
-  part: left_part_1
-- coord:
-  - 22
-  - 132
-  - 22
-  - 22
-  filename: /assets/img/pride_paws.png
-  flag_name: Lesbian
-  flags_fits: false
-  form: pride_paws
-  orientation: vertical
-  part: left_part_2
-- coord:
-  - 44
-  - 132
-  - 22
-  - 22
-  filename: /assets/img/pride_paws.png
-  flag_name: Lesbian
-  flags_fits: false
-  form: pride_paws
-  orientation: vertical
-  part: right_part_1
-- coord:
-  - 66
-  - 132
-  - 22
-  - 22
-  filename: /assets/img/pride_paws.png
-  flag_name: Lesbian
-  flags_fits: false
-  form: pride_paws
-  orientation: vertical
-  part: right_part_2
-- coord:
-  - 88
-  - 132
-  - 22
-  - 22
-  filename: /assets/img/pride_paws.png
-  flag_name: Lesbian
+  rotated: false
+  sheet: assets/img/sprites/pride_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/pride_paws/pansexual_vertical_0.png
+  flag_name: Pansexual
   flags_fits: true
   form: pride_paws
+  frame:
+    h: 22
+    w: 22
+    x: 110
+    y: 110
+  id: pansexual_vertical_0.png
+  orientation: vertical
+  part: left_part_1
+  rotated: false
+  sheet: assets/img/sprites/pride_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/pride_paws/pansexual_vertical_1.png
+  flag_name: Pansexual
+  flags_fits: true
+  form: pride_paws
+  frame:
+    h: 22
+    w: 22
+    x: 132
+    y: 110
+  id: pansexual_vertical_1.png
+  orientation: vertical
+  part: left_part_2
+  rotated: false
+  sheet: assets/img/sprites/pride_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/pride_paws/pansexual_vertical_2.png
+  flag_name: Pansexual
+  flags_fits: true
+  form: pride_paws
+  frame:
+    h: 22
+    w: 22
+    x: 154
+    y: 110
+  id: pansexual_vertical_2.png
+  orientation: vertical
+  part: right_part_1
+  rotated: false
+  sheet: assets/img/sprites/pride_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/pride_paws/pansexual_vertical_3.png
+  flag_name: Pansexual
+  flags_fits: true
+  form: pride_paws
+  frame:
+    h: 22
+    w: 22
+    x: 176
+    y: 110
+  id: pansexual_vertical_3.png
+  orientation: vertical
+  part: right_part_2
+  rotated: false
+  sheet: assets/img/sprites/pride_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/pride_paws/pansexual_vertical_4.png
+  flag_name: Pansexual
+  flags_fits: true
+  form: pride_paws
+  frame:
+    h: 22
+    w: 22
+    x: 198
+    y: 110
+  id: pansexual_vertical_4.png
   orientation: vertical
   part: center
-- coord:
-  - 110
-  - 132
-  - 22
-  - 22
-  filename: /assets/img/pride_paws.png
+  rotated: false
+  sheet: assets/img/sprites/pride_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/pride_paws/lesbian_horizontal_0.png
   flag_name: Lesbian
   flags_fits: false
   form: pride_paws
+  frame:
+    h: 22
+    w: 22
+    x: 0
+    y: 132
+  id: lesbian_horizontal_0.png
   orientation: horizontal
   part: left_part_1
-- coord:
-  - 132
-  - 132
-  - 22
-  - 22
-  filename: /assets/img/pride_paws.png
+  rotated: false
+  sheet: assets/img/sprites/pride_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/pride_paws/lesbian_horizontal_1.png
   flag_name: Lesbian
   flags_fits: true
   form: pride_paws
+  frame:
+    h: 22
+    w: 22
+    x: 22
+    y: 132
+  id: lesbian_horizontal_1.png
   orientation: horizontal
   part: left_part_2
-- coord:
-  - 154
-  - 132
-  - 22
-  - 22
-  filename: /assets/img/pride_paws.png
+  rotated: false
+  sheet: assets/img/sprites/pride_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/pride_paws/lesbian_horizontal_2.png
   flag_name: Lesbian
   flags_fits: true
   form: pride_paws
+  frame:
+    h: 22
+    w: 22
+    x: 44
+    y: 132
+  id: lesbian_horizontal_2.png
   orientation: horizontal
   part: right_part_1
-- coord:
-  - 176
-  - 132
-  - 22
-  - 22
-  filename: /assets/img/pride_paws.png
+  rotated: false
+  sheet: assets/img/sprites/pride_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/pride_paws/lesbian_horizontal_3.png
   flag_name: Lesbian
   flags_fits: false
   form: pride_paws
+  frame:
+    h: 22
+    w: 22
+    x: 66
+    y: 132
+  id: lesbian_horizontal_3.png
   orientation: horizontal
   part: right_part_2
-- coord:
-  - 198
-  - 132
-  - 22
-  - 22
-  filename: /assets/img/pride_paws.png
+  rotated: false
+  sheet: assets/img/sprites/pride_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/pride_paws/lesbian_horizontal_4.png
   flag_name: Lesbian
   flags_fits: true
   flags_fits_perfect: true
   form: pride_paws
+  frame:
+    h: 22
+    w: 22
+    x: 88
+    y: 132
+  id: lesbian_horizontal_4.png
   orientation: horizontal
   part: center
-- coord:
-  - 0
-  - 154
-  - 22
-  - 22
-  filename: /assets/img/pride_paws.png
+  rotated: false
+  sheet: assets/img/sprites/pride_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/pride_paws/lesbian_vertical_0.png
+  flag_name: Lesbian
+  flags_fits: false
+  form: pride_paws
+  frame:
+    h: 22
+    w: 22
+    x: 110
+    y: 132
+  id: lesbian_vertical_0.png
+  orientation: vertical
+  part: left_part_1
+  rotated: false
+  sheet: assets/img/sprites/pride_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/pride_paws/lesbian_vertical_1.png
+  flag_name: Lesbian
+  flags_fits: false
+  form: pride_paws
+  frame:
+    h: 22
+    w: 22
+    x: 132
+    y: 132
+  id: lesbian_vertical_1.png
+  orientation: vertical
+  part: left_part_2
+  rotated: false
+  sheet: assets/img/sprites/pride_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/pride_paws/lesbian_vertical_2.png
+  flag_name: Lesbian
+  flags_fits: false
+  form: pride_paws
+  frame:
+    h: 22
+    w: 22
+    x: 154
+    y: 132
+  id: lesbian_vertical_2.png
+  orientation: vertical
+  part: right_part_1
+  rotated: false
+  sheet: assets/img/sprites/pride_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/pride_paws/lesbian_vertical_3.png
+  flag_name: Lesbian
+  flags_fits: false
+  form: pride_paws
+  frame:
+    h: 22
+    w: 22
+    x: 176
+    y: 132
+  id: lesbian_vertical_3.png
+  orientation: vertical
+  part: right_part_2
+  rotated: false
+  sheet: assets/img/sprites/pride_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/pride_paws/lesbian_vertical_4.png
+  flag_name: Lesbian
+  flags_fits: true
+  form: pride_paws
+  frame:
+    h: 22
+    w: 22
+    x: 198
+    y: 132
+  id: lesbian_vertical_4.png
+  orientation: vertical
+  part: center
+  rotated: false
+  sheet: assets/img/sprites/pride_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/pride_paws/progress_horizontal_0.png
   flag_name: Progress
   flags_fits: false
   form: pride_paws
-  orientation: vertical
+  frame:
+    h: 22
+    w: 22
+    x: 0
+    y: 154
+  id: progress_horizontal_0.png
+  orientation: horizontal
   part: left_part_1
-- coord:
-  - 22
-  - 154
-  - 22
-  - 22
-  filename: /assets/img/pride_paws.png
+  rotated: false
+  sheet: assets/img/sprites/pride_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/pride_paws/progress_horizontal_1.png
+  flag_name: Progress
+  flags_fits: true
+  form: pride_paws
+  frame:
+    h: 22
+    w: 22
+    x: 22
+    y: 154
+  id: progress_horizontal_1.png
+  orientation: horizontal
+  part: left_part_2
+  rotated: false
+  sheet: assets/img/sprites/pride_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/pride_paws/progress_horizontal_2.png
+  flag_name: Progress
+  flags_fits: true
+  form: pride_paws
+  frame:
+    h: 22
+    w: 22
+    x: 44
+    y: 154
+  id: progress_horizontal_2.png
+  orientation: horizontal
+  part: right_part_1
+  rotated: false
+  sheet: assets/img/sprites/pride_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/pride_paws/progress_horizontal_3.png
   flag_name: Progress
   flags_fits: false
   form: pride_paws
-  orientation: vertical
-  part: left_part_2
-- coord:
-  - 44
-  - 154
-  - 22
-  - 22
-  filename: /assets/img/pride_paws.png
+  frame:
+    h: 22
+    w: 22
+    x: 66
+    y: 154
+  id: progress_horizontal_3.png
+  orientation: horizontal
+  part: right_part_2
+  rotated: false
+  sheet: assets/img/sprites/pride_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/pride_paws/progress_horizontal_4.png
+  flag_name: Progress
+  flags_fits: true
+  form: pride_paws
+  frame:
+    h: 22
+    w: 22
+    x: 88
+    y: 154
+  id: progress_horizontal_4.png
+  orientation: horizontal
+  part: center
+  rotated: false
+  sheet: assets/img/sprites/pride_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/pride_paws/progress_vertical_0.png
   flag_name: Progress
   flags_fits: false
   form: pride_paws
+  frame:
+    h: 22
+    w: 22
+    x: 110
+    y: 154
+  id: progress_vertical_0.png
   orientation: vertical
-  part: right_part_1
-- coord:
-  - 66
-  - 154
-  - 22
-  - 22
-  filename: /assets/img/pride_paws.png
+  part: left_part_1
+  rotated: false
+  sheet: assets/img/sprites/pride_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/pride_paws/progress_vertical_1.png
   flag_name: Progress
   flags_fits: false
   form: pride_paws
+  frame:
+    h: 22
+    w: 22
+    x: 132
+    y: 154
+  id: progress_vertical_1.png
   orientation: vertical
-  part: right_part_2
-- coord:
-  - 88
-  - 154
-  - 22
-  - 22
-  filename: /assets/img/pride_paws.png
-  flag_name: Progress
-  flags_fits: true
-  form: pride_paws
-  orientation: vertical
-  part: center
-- coord:
-  - 110
-  - 154
-  - 22
-  - 22
-  filename: /assets/img/pride_paws.png
-  flag_name: Progress
-  flags_fits: false
-  form: pride_paws
-  orientation: horizontal
-  part: left_part_1
-- coord:
-  - 132
-  - 154
-  - 22
-  - 22
-  filename: /assets/img/pride_paws.png
-  flag_name: Progress
-  flags_fits: true
-  form: pride_paws
-  orientation: horizontal
   part: left_part_2
-- coord:
-  - 154
-  - 154
-  - 22
-  - 22
-  filename: /assets/img/pride_paws.png
-  flag_name: Progress
-  flags_fits: true
-  form: pride_paws
-  orientation: horizontal
-  part: right_part_1
-- coord:
-  - 176
-  - 154
-  - 22
-  - 22
-  filename: /assets/img/pride_paws.png
+  rotated: false
+  sheet: assets/img/sprites/pride_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/pride_paws/progress_vertical_2.png
   flag_name: Progress
   flags_fits: false
   form: pride_paws
-  orientation: horizontal
+  frame:
+    h: 22
+    w: 22
+    x: 154
+    y: 154
+  id: progress_vertical_2.png
+  orientation: vertical
+  part: right_part_1
+  rotated: false
+  sheet: assets/img/sprites/pride_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/pride_paws/progress_vertical_3.png
+  flag_name: Progress
+  flags_fits: false
+  form: pride_paws
+  frame:
+    h: 22
+    w: 22
+    x: 176
+    y: 154
+  id: progress_vertical_3.png
+  orientation: vertical
   part: right_part_2
-- coord:
-  - 198
-  - 154
-  - 22
-  - 22
-  filename: /assets/img/pride_paws.png
+  rotated: false
+  sheet: assets/img/sprites/pride_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/pride_paws/progress_vertical_4.png
   flag_name: Progress
   flags_fits: true
   form: pride_paws
-  orientation: horizontal
-  part: center
-- coord:
-  - 0
-  - 176
-  - 22
-  - 22
-  filename: /assets/img/pride_paws.png
-  flag_name: Demisexual
-  flags_fits: true
-  form: pride_paws
-  orientation: vertical
-  part: left_part_1
-- coord:
-  - 22
-  - 176
-  - 22
-  - 22
-  filename: /assets/img/pride_paws.png
-  flag_name: Demisexual
-  flags_fits: true
-  form: pride_paws
-  orientation: vertical
-  part: left_part_2
-- coord:
-  - 44
-  - 176
-  - 22
-  - 22
-  filename: /assets/img/pride_paws.png
-  flag_name: Demisexual
-  flags_fits: true
-  form: pride_paws
-  orientation: vertical
-  part: right_part_1
-- coord:
-  - 66
-  - 176
-  - 22
-  - 22
-  filename: /assets/img/pride_paws.png
-  flag_name: Demisexual
-  flags_fits: true
-  form: pride_paws
-  orientation: vertical
-  part: right_part_2
-- coord:
-  - 88
-  - 176
-  - 22
-  - 22
-  filename: /assets/img/pride_paws.png
-  flag_name: Demisexual
-  flags_fits: true
-  form: pride_paws
+  frame:
+    h: 22
+    w: 22
+    x: 198
+    y: 154
+  id: progress_vertical_4.png
   orientation: vertical
   part: center
-- coord:
-  - 110
-  - 176
-  - 22
-  - 22
-  filename: /assets/img/pride_paws.png
+  rotated: false
+  sheet: assets/img/sprites/pride_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/pride_paws/demisexual_horizontal_0.png
   flag_name: Demisexual
   flags_fits: true
   form: pride_paws
+  frame:
+    h: 22
+    w: 22
+    x: 0
+    y: 176
+  id: demisexual_horizontal_0.png
   orientation: horizontal
   part: left_part_1
-- coord:
-  - 132
-  - 176
-  - 22
-  - 22
-  filename: /assets/img/pride_paws.png
+  rotated: false
+  sheet: assets/img/sprites/pride_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/pride_paws/demisexual_horizontal_1.png
   flag_name: Demisexual
   flags_fits: true
   form: pride_paws
+  frame:
+    h: 22
+    w: 22
+    x: 22
+    y: 176
+  id: demisexual_horizontal_1.png
   orientation: horizontal
   part: left_part_2
-- coord:
-  - 154
-  - 176
-  - 22
-  - 22
-  filename: /assets/img/pride_paws.png
+  rotated: false
+  sheet: assets/img/sprites/pride_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/pride_paws/demisexual_horizontal_2.png
   flag_name: Demisexual
   flags_fits: true
   form: pride_paws
+  frame:
+    h: 22
+    w: 22
+    x: 44
+    y: 176
+  id: demisexual_horizontal_2.png
   orientation: horizontal
   part: right_part_1
-- coord:
-  - 176
-  - 176
-  - 22
-  - 22
-  filename: /assets/img/pride_paws.png
+  rotated: false
+  sheet: assets/img/sprites/pride_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/pride_paws/demisexual_horizontal_3.png
   flag_name: Demisexual
   flags_fits: true
   form: pride_paws
+  frame:
+    h: 22
+    w: 22
+    x: 66
+    y: 176
+  id: demisexual_horizontal_3.png
   orientation: horizontal
   part: right_part_2
-- coord:
-  - 198
-  - 176
-  - 22
-  - 22
-  filename: /assets/img/pride_paws.png
+  rotated: false
+  sheet: assets/img/sprites/pride_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/pride_paws/demisexual_horizontal_4.png
   flag_name: Demisexual
   flags_fits: true
   form: pride_paws
+  frame:
+    h: 22
+    w: 22
+    x: 88
+    y: 176
+  id: demisexual_horizontal_4.png
   orientation: horizontal
   part: center
-- coord:
-  - 0
-  - 198
-  - 22
-  - 22
-  filename: /assets/img/pride_paws.png
-  flag_name: Polyamory
+  rotated: false
+  sheet: assets/img/sprites/pride_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/pride_paws/demisexual_vertical_0.png
+  flag_name: Demisexual
   flags_fits: true
   form: pride_paws
+  frame:
+    h: 22
+    w: 22
+    x: 110
+    y: 176
+  id: demisexual_vertical_0.png
   orientation: vertical
   part: left_part_1
-- coord:
-  - 22
-  - 198
-  - 22
-  - 22
-  filename: /assets/img/pride_paws.png
-  flag_name: Polyamory
+  rotated: false
+  sheet: assets/img/sprites/pride_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/pride_paws/demisexual_vertical_1.png
+  flag_name: Demisexual
   flags_fits: true
   form: pride_paws
+  frame:
+    h: 22
+    w: 22
+    x: 132
+    y: 176
+  id: demisexual_vertical_1.png
   orientation: vertical
   part: left_part_2
-- coord:
-  - 44
-  - 198
-  - 22
-  - 22
-  filename: /assets/img/pride_paws.png
-  flag_name: Polyamory
+  rotated: false
+  sheet: assets/img/sprites/pride_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/pride_paws/demisexual_vertical_2.png
+  flag_name: Demisexual
   flags_fits: true
   form: pride_paws
+  frame:
+    h: 22
+    w: 22
+    x: 154
+    y: 176
+  id: demisexual_vertical_2.png
   orientation: vertical
   part: right_part_1
-- coord:
-  - 66
-  - 198
-  - 22
-  - 22
-  filename: /assets/img/pride_paws.png
-  flag_name: Polyamory
+  rotated: false
+  sheet: assets/img/sprites/pride_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/pride_paws/demisexual_vertical_3.png
+  flag_name: Demisexual
   flags_fits: true
   form: pride_paws
+  frame:
+    h: 22
+    w: 22
+    x: 176
+    y: 176
+  id: demisexual_vertical_3.png
   orientation: vertical
   part: right_part_2
-- coord:
-  - 88
-  - 198
-  - 22
-  - 22
-  filename: /assets/img/pride_paws.png
-  flag_name: Polyamory
+  rotated: false
+  sheet: assets/img/sprites/pride_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/pride_paws/demisexual_vertical_4.png
+  flag_name: Demisexual
   flags_fits: true
   form: pride_paws
+  frame:
+    h: 22
+    w: 22
+    x: 198
+    y: 176
+  id: demisexual_vertical_4.png
   orientation: vertical
   part: center
-- coord:
-  - 110
-  - 198
-  - 22
-  - 22
-  filename: /assets/img/pride_paws.png
+  rotated: false
+  sheet: assets/img/sprites/pride_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/pride_paws/polyamory_horizontal_0.png
   flag_name: Polyamory
   flags_fits: true
   form: pride_paws
+  frame:
+    h: 22
+    w: 22
+    x: 0
+    y: 198
+  id: polyamory_horizontal_0.png
   orientation: horizontal
   part: left_part_1
-- coord:
-  - 132
-  - 198
-  - 22
-  - 22
-  filename: /assets/img/pride_paws.png
+  rotated: false
+  sheet: assets/img/sprites/pride_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/pride_paws/polyamory_horizontal_1.png
   flag_name: Polyamory
   flags_fits: true
   form: pride_paws
+  frame:
+    h: 22
+    w: 22
+    x: 22
+    y: 198
+  id: polyamory_horizontal_1.png
   orientation: horizontal
   part: left_part_2
-- coord:
-  - 154
-  - 198
-  - 22
-  - 22
-  filename: /assets/img/pride_paws.png
+  rotated: false
+  sheet: assets/img/sprites/pride_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/pride_paws/polyamory_horizontal_2.png
   flag_name: Polyamory
   flags_fits: true
   form: pride_paws
+  frame:
+    h: 22
+    w: 22
+    x: 44
+    y: 198
+  id: polyamory_horizontal_2.png
   orientation: horizontal
   part: right_part_1
-- coord:
-  - 176
-  - 198
-  - 22
-  - 22
-  filename: /assets/img/pride_paws.png
+  rotated: false
+  sheet: assets/img/sprites/pride_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/pride_paws/polyamory_horizontal_3.png
   flag_name: Polyamory
   flags_fits: true
   form: pride_paws
+  frame:
+    h: 22
+    w: 22
+    x: 66
+    y: 198
+  id: polyamory_horizontal_3.png
   orientation: horizontal
   part: right_part_2
-- coord:
-  - 198
-  - 198
-  - 22
-  - 22
-  filename: /assets/img/pride_paws.png
+  rotated: false
+  sheet: assets/img/sprites/pride_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/pride_paws/polyamory_horizontal_4.png
   flag_name: Polyamory
   flags_fits: true
   form: pride_paws
+  frame:
+    h: 22
+    w: 22
+    x: 88
+    y: 198
+  id: polyamory_horizontal_4.png
   orientation: horizontal
   part: center
-- coord:
-  - 0
-  - 220
-  - 22
-  - 22
-  filename: /assets/img/pride_paws.png
-  flag_name: Polysexual
+  rotated: false
+  sheet: assets/img/sprites/pride_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/pride_paws/polyamory_vertical_0.png
+  flag_name: Polyamory
   flags_fits: true
   form: pride_paws
+  frame:
+    h: 22
+    w: 22
+    x: 110
+    y: 198
+  id: polyamory_vertical_0.png
   orientation: vertical
   part: left_part_1
-- coord:
-  - 22
-  - 220
-  - 22
-  - 22
-  filename: /assets/img/pride_paws.png
-  flag_name: Polysexual
+  rotated: false
+  sheet: assets/img/sprites/pride_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/pride_paws/polyamory_vertical_1.png
+  flag_name: Polyamory
   flags_fits: true
   form: pride_paws
+  frame:
+    h: 22
+    w: 22
+    x: 132
+    y: 198
+  id: polyamory_vertical_1.png
   orientation: vertical
   part: left_part_2
-- coord:
-  - 44
-  - 220
-  - 22
-  - 22
-  filename: /assets/img/pride_paws.png
-  flag_name: Polysexual
+  rotated: false
+  sheet: assets/img/sprites/pride_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/pride_paws/polyamory_vertical_2.png
+  flag_name: Polyamory
   flags_fits: true
   form: pride_paws
+  frame:
+    h: 22
+    w: 22
+    x: 154
+    y: 198
+  id: polyamory_vertical_2.png
   orientation: vertical
   part: right_part_1
-- coord:
-  - 66
-  - 220
-  - 22
-  - 22
-  filename: /assets/img/pride_paws.png
-  flag_name: Polysexual
+  rotated: false
+  sheet: assets/img/sprites/pride_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/pride_paws/polyamory_vertical_3.png
+  flag_name: Polyamory
   flags_fits: true
   form: pride_paws
+  frame:
+    h: 22
+    w: 22
+    x: 176
+    y: 198
+  id: polyamory_vertical_3.png
   orientation: vertical
   part: right_part_2
-- coord:
-  - 88
-  - 220
-  - 22
-  - 22
-  filename: /assets/img/pride_paws.png
-  flag_name: Polysexual
+  rotated: false
+  sheet: assets/img/sprites/pride_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/pride_paws/polyamory_vertical_4.png
+  flag_name: Polyamory
   flags_fits: true
   form: pride_paws
+  frame:
+    h: 22
+    w: 22
+    x: 198
+    y: 198
+  id: polyamory_vertical_4.png
   orientation: vertical
   part: center
-- coord:
-  - 110
-  - 220
-  - 22
-  - 22
-  filename: /assets/img/pride_paws.png
+  rotated: false
+  sheet: assets/img/sprites/pride_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/pride_paws/polysexual_horizontal_0.png
   flag_name: Polysexual
   flags_fits: true
   form: pride_paws
+  frame:
+    h: 22
+    w: 22
+    x: 0
+    y: 220
+  id: polysexual_horizontal_0.png
   orientation: horizontal
   part: left_part_1
-- coord:
-  - 132
-  - 220
-  - 22
-  - 22
-  filename: /assets/img/pride_paws.png
+  rotated: false
+  sheet: assets/img/sprites/pride_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/pride_paws/polysexual_horizontal_1.png
   flag_name: Polysexual
   flags_fits: true
   form: pride_paws
+  frame:
+    h: 22
+    w: 22
+    x: 22
+    y: 220
+  id: polysexual_horizontal_1.png
   orientation: horizontal
   part: left_part_2
-- coord:
-  - 154
-  - 220
-  - 22
-  - 22
-  filename: /assets/img/pride_paws.png
+  rotated: false
+  sheet: assets/img/sprites/pride_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/pride_paws/polysexual_horizontal_2.png
   flag_name: Polysexual
   flags_fits: true
   form: pride_paws
+  frame:
+    h: 22
+    w: 22
+    x: 44
+    y: 220
+  id: polysexual_horizontal_2.png
   orientation: horizontal
   part: right_part_1
-- coord:
-  - 176
-  - 220
-  - 22
-  - 22
-  filename: /assets/img/pride_paws.png
+  rotated: false
+  sheet: assets/img/sprites/pride_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/pride_paws/polysexual_horizontal_3.png
   flag_name: Polysexual
   flags_fits: true
   form: pride_paws
+  frame:
+    h: 22
+    w: 22
+    x: 66
+    y: 220
+  id: polysexual_horizontal_3.png
   orientation: horizontal
   part: right_part_2
-- coord:
-  - 198
-  - 220
-  - 22
-  - 22
-  filename: /assets/img/pride_paws.png
+  rotated: false
+  sheet: assets/img/sprites/pride_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/pride_paws/polysexual_horizontal_4.png
   flag_name: Polysexual
   flags_fits: true
   form: pride_paws
+  frame:
+    h: 22
+    w: 22
+    x: 88
+    y: 220
+  id: polysexual_horizontal_4.png
   orientation: horizontal
   part: center
-- coord:
-  - 0
-  - 242
-  - 22
-  - 22
-  filename: /assets/img/pride_paws.png
-  flag_name: Intersex
+  rotated: false
+  sheet: assets/img/sprites/pride_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/pride_paws/polysexual_vertical_0.png
+  flag_name: Polysexual
   flags_fits: true
   form: pride_paws
+  frame:
+    h: 22
+    w: 22
+    x: 110
+    y: 220
+  id: polysexual_vertical_0.png
   orientation: vertical
   part: left_part_1
-- coord:
-  - 22
-  - 242
-  - 22
-  - 22
-  filename: /assets/img/pride_paws.png
-  flag_name: Intersex
+  rotated: false
+  sheet: assets/img/sprites/pride_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/pride_paws/polysexual_vertical_1.png
+  flag_name: Polysexual
   flags_fits: true
   form: pride_paws
+  frame:
+    h: 22
+    w: 22
+    x: 132
+    y: 220
+  id: polysexual_vertical_1.png
   orientation: vertical
   part: left_part_2
-- coord:
-  - 44
-  - 242
-  - 22
-  - 22
-  filename: /assets/img/pride_paws.png
-  flag_name: Intersex
+  rotated: false
+  sheet: assets/img/sprites/pride_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/pride_paws/polysexual_vertical_2.png
+  flag_name: Polysexual
   flags_fits: true
   form: pride_paws
+  frame:
+    h: 22
+    w: 22
+    x: 154
+    y: 220
+  id: polysexual_vertical_2.png
   orientation: vertical
   part: right_part_1
-- coord:
-  - 66
-  - 242
-  - 22
-  - 22
-  filename: /assets/img/pride_paws.png
-  flag_name: Intersex
+  rotated: false
+  sheet: assets/img/sprites/pride_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/pride_paws/polysexual_vertical_3.png
+  flag_name: Polysexual
   flags_fits: true
   form: pride_paws
+  frame:
+    h: 22
+    w: 22
+    x: 176
+    y: 220
+  id: polysexual_vertical_3.png
   orientation: vertical
   part: right_part_2
-- coord:
-  - 88
-  - 242
-  - 22
-  - 22
-  filename: /assets/img/pride_paws.png
-  flag_name: Intersex
+  rotated: false
+  sheet: assets/img/sprites/pride_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/pride_paws/polysexual_vertical_4.png
+  flag_name: Polysexual
   flags_fits: true
   form: pride_paws
+  frame:
+    h: 22
+    w: 22
+    x: 198
+    y: 220
+  id: polysexual_vertical_4.png
   orientation: vertical
   part: center
-- coord:
-  - 110
-  - 242
-  - 22
-  - 22
-  filename: /assets/img/pride_paws.png
+  rotated: false
+  sheet: assets/img/sprites/pride_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/pride_paws/intersex_horizontal_0.png
   flag_name: Intersex
   flags_fits: true
   form: pride_paws
+  frame:
+    h: 22
+    w: 22
+    x: 0
+    y: 242
+  id: intersex_horizontal_0.png
   orientation: horizontal
   part: left_part_1
-- coord:
-  - 132
-  - 242
-  - 22
-  - 22
-  filename: /assets/img/pride_paws.png
+  rotated: false
+  sheet: assets/img/sprites/pride_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/pride_paws/intersex_horizontal_1.png
   flag_name: Intersex
   flags_fits: true
   form: pride_paws
+  frame:
+    h: 22
+    w: 22
+    x: 22
+    y: 242
+  id: intersex_horizontal_1.png
   orientation: horizontal
   part: left_part_2
-- coord:
-  - 154
-  - 242
-  - 22
-  - 22
-  filename: /assets/img/pride_paws.png
+  rotated: false
+  sheet: assets/img/sprites/pride_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/pride_paws/intersex_horizontal_2.png
   flag_name: Intersex
   flags_fits: true
   form: pride_paws
+  frame:
+    h: 22
+    w: 22
+    x: 44
+    y: 242
+  id: intersex_horizontal_2.png
   orientation: horizontal
   part: right_part_1
-- coord:
-  - 176
-  - 242
-  - 22
-  - 22
-  filename: /assets/img/pride_paws.png
+  rotated: false
+  sheet: assets/img/sprites/pride_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/pride_paws/intersex_horizontal_3.png
   flag_name: Intersex
   flags_fits: true
   form: pride_paws
+  frame:
+    h: 22
+    w: 22
+    x: 66
+    y: 242
+  id: intersex_horizontal_3.png
   orientation: horizontal
   part: right_part_2
-- coord:
-  - 198
-  - 242
-  - 22
-  - 22
-  filename: /assets/img/pride_paws.png
+  rotated: false
+  sheet: assets/img/sprites/pride_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/pride_paws/intersex_horizontal_4.png
   flag_name: Intersex
   flags_fits: true
   form: pride_paws
+  frame:
+    h: 22
+    w: 22
+    x: 88
+    y: 242
+  id: intersex_horizontal_4.png
   orientation: horizontal
   part: center
-- coord:
-  - 0
-  - 0
-  - 22
-  - 22
-  filename: /assets/img/gender_paws.png
+  rotated: false
+  sheet: assets/img/sprites/pride_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/pride_paws/intersex_vertical_0.png
+  flag_name: Intersex
+  flags_fits: true
+  form: pride_paws
+  frame:
+    h: 22
+    w: 22
+    x: 110
+    y: 242
+  id: intersex_vertical_0.png
+  orientation: vertical
+  part: left_part_1
+  rotated: false
+  sheet: assets/img/sprites/pride_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/pride_paws/intersex_vertical_1.png
+  flag_name: Intersex
+  flags_fits: true
+  form: pride_paws
+  frame:
+    h: 22
+    w: 22
+    x: 132
+    y: 242
+  id: intersex_vertical_1.png
+  orientation: vertical
+  part: left_part_2
+  rotated: false
+  sheet: assets/img/sprites/pride_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/pride_paws/intersex_vertical_2.png
+  flag_name: Intersex
+  flags_fits: true
+  form: pride_paws
+  frame:
+    h: 22
+    w: 22
+    x: 154
+    y: 242
+  id: intersex_vertical_2.png
+  orientation: vertical
+  part: right_part_1
+  rotated: false
+  sheet: assets/img/sprites/pride_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/pride_paws/intersex_vertical_3.png
+  flag_name: Intersex
+  flags_fits: true
+  form: pride_paws
+  frame:
+    h: 22
+    w: 22
+    x: 176
+    y: 242
+  id: intersex_vertical_3.png
+  orientation: vertical
+  part: right_part_2
+  rotated: false
+  sheet: assets/img/sprites/pride_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/pride_paws/intersex_vertical_4.png
+  flag_name: Intersex
+  flags_fits: true
+  form: pride_paws
+  frame:
+    h: 22
+    w: 22
+    x: 198
+    y: 242
+  id: intersex_vertical_4.png
+  orientation: vertical
+  part: center
+  rotated: false
+  sheet: assets/img/sprites/pride_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/gender_paws/agender_horizontal_0.png
   flag_name: Agender
   flags_fits: false
   form: gender_paws
-  orientation: vertical
-  part: left_part_1
-- coord:
-  - 22
-  - 0
-  - 22
-  - 22
-  filename: /assets/img/gender_paws.png
-  flag_name: Agender
-  flags_fits: false
-  form: gender_paws
-  orientation: vertical
-  part: left_part_2
-- coord:
-  - 44
-  - 0
-  - 22
-  - 22
-  filename: /assets/img/gender_paws.png
-  flag_name: Agender
-  flags_fits: false
-  form: gender_paws
-  orientation: vertical
-  part: right_part_1
-- coord:
-  - 66
-  - 0
-  - 22
-  - 22
-  filename: /assets/img/gender_paws.png
-  flag_name: Agender
-  flags_fits: false
-  form: gender_paws
-  orientation: vertical
-  part: right_part_2
-- coord:
-  - 88
-  - 0
-  - 22
-  - 22
-  filename: /assets/img/gender_paws.png
-  flag_name: Agender
-  flags_fits: true
-  form: gender_paws
-  orientation: vertical
-  part: center
-- coord:
-  - 110
-  - 0
-  - 22
-  - 22
-  filename: /assets/img/gender_paws.png
-  flag_name: Agender
-  flags_fits: false
-  form: gender_paws
+  frame:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  id: agender_horizontal_0.png
   orientation: horizontal
   part: left_part_1
-- coord:
-  - 132
-  - 0
-  - 22
-  - 22
-  filename: /assets/img/gender_paws.png
+  rotated: false
+  sheet: assets/img/sprites/gender_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/gender_paws/agender_horizontal_1.png
   flag_name: Agender
   flags_fits: true
   form: gender_paws
+  frame:
+    h: 22
+    w: 22
+    x: 22
+    y: 0
+  id: agender_horizontal_1.png
   orientation: horizontal
   part: left_part_2
-- coord:
-  - 154
-  - 0
-  - 22
-  - 22
-  filename: /assets/img/gender_paws.png
+  rotated: false
+  sheet: assets/img/sprites/gender_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/gender_paws/agender_horizontal_2.png
   flag_name: Agender
   flags_fits: true
   form: gender_paws
+  frame:
+    h: 22
+    w: 22
+    x: 44
+    y: 0
+  id: agender_horizontal_2.png
   orientation: horizontal
   part: right_part_1
-- coord:
-  - 176
-  - 0
-  - 22
-  - 22
-  filename: /assets/img/gender_paws.png
+  rotated: false
+  sheet: assets/img/sprites/gender_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/gender_paws/agender_horizontal_3.png
   flag_name: Agender
   flags_fits: false
   form: gender_paws
+  frame:
+    h: 22
+    w: 22
+    x: 66
+    y: 0
+  id: agender_horizontal_3.png
   orientation: horizontal
   part: right_part_2
-- coord:
-  - 198
-  - 0
-  - 22
-  - 22
-  filename: /assets/img/gender_paws.png
+  rotated: false
+  sheet: assets/img/sprites/gender_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/gender_paws/agender_horizontal_4.png
   flag_name: Agender
   flags_fits: true
   flags_fits_perfect: true
   form: gender_paws
+  frame:
+    h: 22
+    w: 22
+    x: 88
+    y: 0
+  id: agender_horizontal_4.png
   orientation: horizontal
   part: center
-- coord:
-  - 0
-  - 22
-  - 22
-  - 22
-  filename: /assets/img/gender_paws.png
-  flag_name: Transgender
+  rotated: false
+  sheet: assets/img/sprites/gender_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/gender_paws/agender_vertical_0.png
+  flag_name: Agender
   flags_fits: false
   form: gender_paws
+  frame:
+    h: 22
+    w: 22
+    x: 110
+    y: 0
+  id: agender_vertical_0.png
   orientation: vertical
   part: left_part_1
-- coord:
-  - 22
-  - 22
-  - 22
-  - 22
-  filename: /assets/img/gender_paws.png
-  flag_name: Transgender
+  rotated: false
+  sheet: assets/img/sprites/gender_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/gender_paws/agender_vertical_1.png
+  flag_name: Agender
   flags_fits: false
   form: gender_paws
+  frame:
+    h: 22
+    w: 22
+    x: 132
+    y: 0
+  id: agender_vertical_1.png
   orientation: vertical
   part: left_part_2
-- coord:
-  - 44
-  - 22
-  - 22
-  - 22
-  filename: /assets/img/gender_paws.png
-  flag_name: Transgender
+  rotated: false
+  sheet: assets/img/sprites/gender_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/gender_paws/agender_vertical_2.png
+  flag_name: Agender
   flags_fits: false
   form: gender_paws
+  frame:
+    h: 22
+    w: 22
+    x: 154
+    y: 0
+  id: agender_vertical_2.png
   orientation: vertical
   part: right_part_1
-- coord:
-  - 66
-  - 22
-  - 22
-  - 22
-  filename: /assets/img/gender_paws.png
-  flag_name: Transgender
+  rotated: false
+  sheet: assets/img/sprites/gender_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/gender_paws/agender_vertical_3.png
+  flag_name: Agender
   flags_fits: false
   form: gender_paws
+  frame:
+    h: 22
+    w: 22
+    x: 176
+    y: 0
+  id: agender_vertical_3.png
   orientation: vertical
   part: right_part_2
-- coord:
-  - 88
-  - 22
-  - 22
-  - 22
-  filename: /assets/img/gender_paws.png
-  flag_name: Transgender
+  rotated: false
+  sheet: assets/img/sprites/gender_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/gender_paws/agender_vertical_4.png
+  flag_name: Agender
   flags_fits: true
   form: gender_paws
+  frame:
+    h: 22
+    w: 22
+    x: 198
+    y: 0
+  id: agender_vertical_4.png
   orientation: vertical
   part: center
-- coord:
-  - 110
-  - 22
-  - 22
-  - 22
-  filename: /assets/img/gender_paws.png
+  rotated: false
+  sheet: assets/img/sprites/gender_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/gender_paws/transgender_horizontal_0.png
   flag_name: Transgender
   flags_fits: true
   flags_fits_perfect: true
   form: gender_paws
+  frame:
+    h: 22
+    w: 22
+    x: 0
+    y: 22
+  id: transgender_horizontal_0.png
   orientation: horizontal
   part: left_part_1
-- coord:
-  - 132
-  - 22
-  - 22
-  - 22
-  filename: /assets/img/gender_paws.png
+  rotated: false
+  sheet: assets/img/sprites/gender_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/gender_paws/transgender_horizontal_1.png
   flag_name: Transgender
   flags_fits: true
   form: gender_paws
+  frame:
+    h: 22
+    w: 22
+    x: 22
+    y: 22
+  id: transgender_horizontal_1.png
   orientation: horizontal
   part: left_part_2
-- coord:
-  - 154
-  - 22
-  - 22
-  - 22
-  filename: /assets/img/gender_paws.png
+  rotated: false
+  sheet: assets/img/sprites/gender_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/gender_paws/transgender_horizontal_2.png
   flag_name: Transgender
   flags_fits: true
   form: gender_paws
+  frame:
+    h: 22
+    w: 22
+    x: 44
+    y: 22
+  id: transgender_horizontal_2.png
   orientation: horizontal
   part: right_part_1
-- coord:
-  - 176
-  - 22
-  - 22
-  - 22
-  filename: /assets/img/gender_paws.png
+  rotated: false
+  sheet: assets/img/sprites/gender_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/gender_paws/transgender_horizontal_3.png
   flag_name: Transgender
   flags_fits: true
   flags_fits_perfect: true
   form: gender_paws
+  frame:
+    h: 22
+    w: 22
+    x: 66
+    y: 22
+  id: transgender_horizontal_3.png
   orientation: horizontal
   part: right_part_2
-- coord:
-  - 198
-  - 22
-  - 22
-  - 22
-  filename: /assets/img/gender_paws.png
+  rotated: false
+  sheet: assets/img/sprites/gender_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/gender_paws/transgender_horizontal_4.png
   flag_name: Transgender
   flags_fits: true
   form: gender_paws
+  frame:
+    h: 22
+    w: 22
+    x: 88
+    y: 22
+  id: transgender_horizontal_4.png
   orientation: horizontal
   part: center
-- coord:
-  - 0
-  - 44
-  - 22
-  - 22
-  filename: /assets/img/gender_paws.png
-  flag_name: Genderqueer
-  flags_fits: true
+  rotated: false
+  sheet: assets/img/sprites/gender_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/gender_paws/transgender_vertical_0.png
+  flag_name: Transgender
+  flags_fits: false
   form: gender_paws
+  frame:
+    h: 22
+    w: 22
+    x: 110
+    y: 22
+  id: transgender_vertical_0.png
   orientation: vertical
   part: left_part_1
-- coord:
-  - 22
-  - 44
-  - 22
-  - 22
-  filename: /assets/img/gender_paws.png
-  flag_name: Genderqueer
-  flags_fits: true
+  rotated: false
+  sheet: assets/img/sprites/gender_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/gender_paws/transgender_vertical_1.png
+  flag_name: Transgender
+  flags_fits: false
   form: gender_paws
+  frame:
+    h: 22
+    w: 22
+    x: 132
+    y: 22
+  id: transgender_vertical_1.png
   orientation: vertical
   part: left_part_2
-- coord:
-  - 44
-  - 44
-  - 22
-  - 22
-  filename: /assets/img/gender_paws.png
-  flag_name: Genderqueer
-  flags_fits: true
+  rotated: false
+  sheet: assets/img/sprites/gender_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/gender_paws/transgender_vertical_2.png
+  flag_name: Transgender
+  flags_fits: false
   form: gender_paws
+  frame:
+    h: 22
+    w: 22
+    x: 154
+    y: 22
+  id: transgender_vertical_2.png
   orientation: vertical
   part: right_part_1
-- coord:
-  - 66
-  - 44
-  - 22
-  - 22
-  filename: /assets/img/gender_paws.png
-  flag_name: Genderqueer
-  flags_fits: true
+  rotated: false
+  sheet: assets/img/sprites/gender_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/gender_paws/transgender_vertical_3.png
+  flag_name: Transgender
+  flags_fits: false
   form: gender_paws
+  frame:
+    h: 22
+    w: 22
+    x: 176
+    y: 22
+  id: transgender_vertical_3.png
   orientation: vertical
   part: right_part_2
-- coord:
-  - 88
-  - 44
-  - 22
-  - 22
-  filename: /assets/img/gender_paws.png
-  flag_name: Genderqueer
+  rotated: false
+  sheet: assets/img/sprites/gender_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/gender_paws/transgender_vertical_4.png
+  flag_name: Transgender
   flags_fits: true
   form: gender_paws
+  frame:
+    h: 22
+    w: 22
+    x: 198
+    y: 22
+  id: transgender_vertical_4.png
   orientation: vertical
   part: center
-- coord:
-  - 110
-  - 44
-  - 22
-  - 22
-  filename: /assets/img/gender_paws.png
+  rotated: false
+  sheet: assets/img/sprites/gender_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/gender_paws/genderqueer_horizontal_0.png
   flag_name: Genderqueer
   flags_fits: true
   form: gender_paws
+  frame:
+    h: 22
+    w: 22
+    x: 0
+    y: 44
+  id: genderqueer_horizontal_0.png
   orientation: horizontal
   part: left_part_1
-- coord:
-  - 132
-  - 44
-  - 22
-  - 22
-  filename: /assets/img/gender_paws.png
+  rotated: false
+  sheet: assets/img/sprites/gender_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/gender_paws/genderqueer_horizontal_1.png
   flag_name: Genderqueer
   flags_fits: true
   form: gender_paws
+  frame:
+    h: 22
+    w: 22
+    x: 22
+    y: 44
+  id: genderqueer_horizontal_1.png
   orientation: horizontal
   part: left_part_2
-- coord:
-  - 154
-  - 44
-  - 22
-  - 22
-  filename: /assets/img/gender_paws.png
+  rotated: false
+  sheet: assets/img/sprites/gender_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/gender_paws/genderqueer_horizontal_2.png
   flag_name: Genderqueer
   flags_fits: true
   form: gender_paws
+  frame:
+    h: 22
+    w: 22
+    x: 44
+    y: 44
+  id: genderqueer_horizontal_2.png
   orientation: horizontal
   part: right_part_1
-- coord:
-  - 176
-  - 44
-  - 22
-  - 22
-  filename: /assets/img/gender_paws.png
+  rotated: false
+  sheet: assets/img/sprites/gender_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/gender_paws/genderqueer_horizontal_3.png
   flag_name: Genderqueer
   flags_fits: true
   form: gender_paws
+  frame:
+    h: 22
+    w: 22
+    x: 66
+    y: 44
+  id: genderqueer_horizontal_3.png
   orientation: horizontal
   part: right_part_2
-- coord:
-  - 198
-  - 44
-  - 22
-  - 22
-  filename: /assets/img/gender_paws.png
+  rotated: false
+  sheet: assets/img/sprites/gender_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/gender_paws/genderqueer_horizontal_4.png
   flag_name: Genderqueer
   flags_fits: true
   form: gender_paws
+  frame:
+    h: 22
+    w: 22
+    x: 88
+    y: 44
+  id: genderqueer_horizontal_4.png
   orientation: horizontal
   part: center
-- coord:
-  - 0
-  - 66
-  - 22
-  - 22
-  filename: /assets/img/gender_paws.png
-  flag_name: Genderfluid
-  flags_fits: false
+  rotated: false
+  sheet: assets/img/sprites/gender_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/gender_paws/genderqueer_vertical_0.png
+  flag_name: Genderqueer
+  flags_fits: true
   form: gender_paws
+  frame:
+    h: 22
+    w: 22
+    x: 110
+    y: 44
+  id: genderqueer_vertical_0.png
   orientation: vertical
   part: left_part_1
-- coord:
-  - 22
-  - 66
-  - 22
-  - 22
-  filename: /assets/img/gender_paws.png
-  flag_name: Genderfluid
-  flags_fits: false
-  form: gender_paws
-  orientation: vertical
-  part: left_part_2
-- coord:
-  - 44
-  - 66
-  - 22
-  - 22
-  filename: /assets/img/gender_paws.png
-  flag_name: Genderfluid
-  flags_fits: false
-  form: gender_paws
-  orientation: vertical
-  part: right_part_1
-- coord:
-  - 66
-  - 66
-  - 22
-  - 22
-  filename: /assets/img/gender_paws.png
-  flag_name: Genderfluid
-  flags_fits: false
-  form: gender_paws
-  orientation: vertical
-  part: right_part_2
-- coord:
-  - 88
-  - 66
-  - 22
-  - 22
-  filename: /assets/img/gender_paws.png
-  flag_name: Genderfluid
+  rotated: false
+  sheet: assets/img/sprites/gender_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/gender_paws/genderqueer_vertical_1.png
+  flag_name: Genderqueer
   flags_fits: true
   form: gender_paws
+  frame:
+    h: 22
+    w: 22
+    x: 132
+    y: 44
+  id: genderqueer_vertical_1.png
+  orientation: vertical
+  part: left_part_2
+  rotated: false
+  sheet: assets/img/sprites/gender_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/gender_paws/genderqueer_vertical_2.png
+  flag_name: Genderqueer
+  flags_fits: true
+  form: gender_paws
+  frame:
+    h: 22
+    w: 22
+    x: 154
+    y: 44
+  id: genderqueer_vertical_2.png
+  orientation: vertical
+  part: right_part_1
+  rotated: false
+  sheet: assets/img/sprites/gender_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/gender_paws/genderqueer_vertical_3.png
+  flag_name: Genderqueer
+  flags_fits: true
+  form: gender_paws
+  frame:
+    h: 22
+    w: 22
+    x: 176
+    y: 44
+  id: genderqueer_vertical_3.png
+  orientation: vertical
+  part: right_part_2
+  rotated: false
+  sheet: assets/img/sprites/gender_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/gender_paws/genderqueer_vertical_4.png
+  flag_name: Genderqueer
+  flags_fits: true
+  form: gender_paws
+  frame:
+    h: 22
+    w: 22
+    x: 198
+    y: 44
+  id: genderqueer_vertical_4.png
   orientation: vertical
   part: center
-- coord:
-  - 110
-  - 66
-  - 22
-  - 22
-  filename: /assets/img/gender_paws.png
+  rotated: false
+  sheet: assets/img/sprites/gender_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/gender_paws/genderfluid_horizontal_0.png
   flag_name: Genderfluid
   flags_fits: true
   flags_fits_perfect: true
   form: gender_paws
+  frame:
+    h: 22
+    w: 22
+    x: 0
+    y: 66
+  id: genderfluid_horizontal_0.png
   orientation: horizontal
   part: left_part_1
-- coord:
-  - 132
-  - 66
-  - 22
-  - 22
-  filename: /assets/img/gender_paws.png
+  rotated: false
+  sheet: assets/img/sprites/gender_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/gender_paws/genderfluid_horizontal_1.png
   flag_name: Genderfluid
   flags_fits: true
   form: gender_paws
+  frame:
+    h: 22
+    w: 22
+    x: 22
+    y: 66
+  id: genderfluid_horizontal_1.png
   orientation: horizontal
   part: left_part_2
-- coord:
-  - 154
-  - 66
-  - 22
-  - 22
-  filename: /assets/img/gender_paws.png
+  rotated: false
+  sheet: assets/img/sprites/gender_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/gender_paws/genderfluid_horizontal_2.png
   flag_name: Genderfluid
   flags_fits: true
   form: gender_paws
+  frame:
+    h: 22
+    w: 22
+    x: 44
+    y: 66
+  id: genderfluid_horizontal_2.png
   orientation: horizontal
   part: right_part_1
-- coord:
-  - 176
-  - 66
-  - 22
-  - 22
-  filename: /assets/img/gender_paws.png
+  rotated: false
+  sheet: assets/img/sprites/gender_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/gender_paws/genderfluid_horizontal_3.png
   flag_name: Genderfluid
   flags_fits: true
   flags_fits_perfect: true
   form: gender_paws
+  frame:
+    h: 22
+    w: 22
+    x: 66
+    y: 66
+  id: genderfluid_horizontal_3.png
   orientation: horizontal
   part: right_part_2
-- coord:
-  - 198
-  - 66
-  - 22
-  - 22
-  filename: /assets/img/gender_paws.png
+  rotated: false
+  sheet: assets/img/sprites/gender_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/gender_paws/genderfluid_horizontal_4.png
   flag_name: Genderfluid
   flags_fits: true
   form: gender_paws
+  frame:
+    h: 22
+    w: 22
+    x: 88
+    y: 66
+  id: genderfluid_horizontal_4.png
   orientation: horizontal
   part: center
-- coord:
-  - 0
-  - 88
-  - 22
-  - 22
-  filename: /assets/img/gender_paws.png
+  rotated: false
+  sheet: assets/img/sprites/gender_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/gender_paws/genderfluid_vertical_0.png
+  flag_name: Genderfluid
+  flags_fits: false
+  form: gender_paws
+  frame:
+    h: 22
+    w: 22
+    x: 110
+    y: 66
+  id: genderfluid_vertical_0.png
+  orientation: vertical
+  part: left_part_1
+  rotated: false
+  sheet: assets/img/sprites/gender_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/gender_paws/genderfluid_vertical_1.png
+  flag_name: Genderfluid
+  flags_fits: false
+  form: gender_paws
+  frame:
+    h: 22
+    w: 22
+    x: 132
+    y: 66
+  id: genderfluid_vertical_1.png
+  orientation: vertical
+  part: left_part_2
+  rotated: false
+  sheet: assets/img/sprites/gender_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/gender_paws/genderfluid_vertical_2.png
+  flag_name: Genderfluid
+  flags_fits: false
+  form: gender_paws
+  frame:
+    h: 22
+    w: 22
+    x: 154
+    y: 66
+  id: genderfluid_vertical_2.png
+  orientation: vertical
+  part: right_part_1
+  rotated: false
+  sheet: assets/img/sprites/gender_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/gender_paws/genderfluid_vertical_3.png
+  flag_name: Genderfluid
+  flags_fits: false
+  form: gender_paws
+  frame:
+    h: 22
+    w: 22
+    x: 176
+    y: 66
+  id: genderfluid_vertical_3.png
+  orientation: vertical
+  part: right_part_2
+  rotated: false
+  sheet: assets/img/sprites/gender_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/gender_paws/genderfluid_vertical_4.png
+  flag_name: Genderfluid
+  flags_fits: true
+  form: gender_paws
+  frame:
+    h: 22
+    w: 22
+    x: 198
+    y: 66
+  id: genderfluid_vertical_4.png
+  orientation: vertical
+  part: center
+  rotated: false
+  sheet: assets/img/sprites/gender_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/gender_paws/non-binary_horizontal_0.png
+  flag_name: Non-Binary
+  flags_fits: true
+  form: gender_paws
+  frame:
+    h: 22
+    w: 22
+    x: 0
+    y: 88
+  id: non-binary_horizontal_0.png
+  orientation: horizontal
+  part: left_part_1
+  rotated: false
+  sheet: assets/img/sprites/gender_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/gender_paws/non-binary_horizontal_1.png
+  flag_name: Non-Binary
+  flags_fits: true
+  form: gender_paws
+  frame:
+    h: 22
+    w: 22
+    x: 22
+    y: 88
+  id: non-binary_horizontal_1.png
+  orientation: horizontal
+  part: left_part_2
+  rotated: false
+  sheet: assets/img/sprites/gender_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/gender_paws/non-binary_horizontal_2.png
+  flag_name: Non-Binary
+  flags_fits: true
+  form: gender_paws
+  frame:
+    h: 22
+    w: 22
+    x: 44
+    y: 88
+  id: non-binary_horizontal_2.png
+  orientation: horizontal
+  part: right_part_1
+  rotated: false
+  sheet: assets/img/sprites/gender_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/gender_paws/non-binary_horizontal_3.png
+  flag_name: Non-Binary
+  flags_fits: true
+  form: gender_paws
+  frame:
+    h: 22
+    w: 22
+    x: 66
+    y: 88
+  id: non-binary_horizontal_3.png
+  orientation: horizontal
+  part: right_part_2
+  rotated: false
+  sheet: assets/img/sprites/gender_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/gender_paws/non-binary_horizontal_4.png
+  flag_name: Non-Binary
+  flags_fits: true
+  form: gender_paws
+  frame:
+    h: 22
+    w: 22
+    x: 88
+    y: 88
+  id: non-binary_horizontal_4.png
+  orientation: horizontal
+  part: center
+  rotated: false
+  sheet: assets/img/sprites/gender_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/gender_paws/non-binary_vertical_0.png
   flag_name: Non-Binary
   flags_fits: true
   flags_fits_perfect: true
   form: gender_paws
+  frame:
+    h: 22
+    w: 22
+    x: 110
+    y: 88
+  id: non-binary_vertical_0.png
   orientation: vertical
   part: left_part_1
-- coord:
-  - 22
-  - 88
-  - 22
-  - 22
-  filename: /assets/img/gender_paws.png
+  rotated: false
+  sheet: assets/img/sprites/gender_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/gender_paws/non-binary_vertical_1.png
   flag_name: Non-Binary
   flags_fits: true
   flags_fits_perfect: true
   form: gender_paws
+  frame:
+    h: 22
+    w: 22
+    x: 132
+    y: 88
+  id: non-binary_vertical_1.png
   orientation: vertical
   part: left_part_2
-- coord:
-  - 44
-  - 88
-  - 22
-  - 22
-  filename: /assets/img/gender_paws.png
+  rotated: false
+  sheet: assets/img/sprites/gender_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/gender_paws/non-binary_vertical_2.png
   flag_name: Non-Binary
   flags_fits: true
   flags_fits_perfect: true
   form: gender_paws
+  frame:
+    h: 22
+    w: 22
+    x: 154
+    y: 88
+  id: non-binary_vertical_2.png
   orientation: vertical
   part: right_part_1
-- coord:
-  - 66
-  - 88
-  - 22
-  - 22
-  filename: /assets/img/gender_paws.png
+  rotated: false
+  sheet: assets/img/sprites/gender_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/gender_paws/non-binary_vertical_3.png
   flag_name: Non-Binary
   flags_fits: true
   flags_fits_perfect: true
   form: gender_paws
+  frame:
+    h: 22
+    w: 22
+    x: 176
+    y: 88
+  id: non-binary_vertical_3.png
   orientation: vertical
   part: right_part_2
-- coord:
-  - 88
-  - 88
-  - 22
-  - 22
-  filename: /assets/img/gender_paws.png
+  rotated: false
+  sheet: assets/img/sprites/gender_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/gender_paws/non-binary_vertical_4.png
   flag_name: Non-Binary
   flags_fits: true
   form: gender_paws
+  frame:
+    h: 22
+    w: 22
+    x: 198
+    y: 88
+  id: non-binary_vertical_4.png
   orientation: vertical
   part: center
-- coord:
-  - 110
-  - 88
-  - 22
-  - 22
-  filename: /assets/img/gender_paws.png
-  flag_name: Non-Binary
-  flags_fits: true
+  rotated: false
+  sheet: assets/img/sprites/gender_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/gender_paws/demiboy_horizontal_0.png
+  flag_name: Demiboy
+  flags_fits: false
   form: gender_paws
+  frame:
+    h: 22
+    w: 22
+    x: 0
+    y: 110
+  id: demiboy_horizontal_0.png
   orientation: horizontal
   part: left_part_1
-- coord:
-  - 132
-  - 88
-  - 22
-  - 22
-  filename: /assets/img/gender_paws.png
-  flag_name: Non-Binary
+  rotated: false
+  sheet: assets/img/sprites/gender_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/gender_paws/demiboy_horizontal_1.png
+  flag_name: Demiboy
   flags_fits: true
   form: gender_paws
+  frame:
+    h: 22
+    w: 22
+    x: 22
+    y: 110
+  id: demiboy_horizontal_1.png
   orientation: horizontal
   part: left_part_2
-- coord:
-  - 154
-  - 88
-  - 22
-  - 22
-  filename: /assets/img/gender_paws.png
-  flag_name: Non-Binary
+  rotated: false
+  sheet: assets/img/sprites/gender_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/gender_paws/demiboy_horizontal_2.png
+  flag_name: Demiboy
   flags_fits: true
   form: gender_paws
+  frame:
+    h: 22
+    w: 22
+    x: 44
+    y: 110
+  id: demiboy_horizontal_2.png
   orientation: horizontal
   part: right_part_1
-- coord:
-  - 176
-  - 88
-  - 22
-  - 22
-  filename: /assets/img/gender_paws.png
-  flag_name: Non-Binary
-  flags_fits: true
+  rotated: false
+  sheet: assets/img/sprites/gender_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/gender_paws/demiboy_horizontal_3.png
+  flag_name: Demiboy
+  flags_fits: false
   form: gender_paws
+  frame:
+    h: 22
+    w: 22
+    x: 66
+    y: 110
+  id: demiboy_horizontal_3.png
   orientation: horizontal
   part: right_part_2
-- coord:
-  - 198
-  - 88
-  - 22
-  - 22
-  filename: /assets/img/gender_paws.png
-  flag_name: Non-Binary
-  flags_fits: true
-  form: gender_paws
-  orientation: horizontal
-  part: center
-- coord:
-  - 0
-  - 110
-  - 22
-  - 22
-  filename: /assets/img/gender_paws.png
-  flag_name: Demiboy
-  flags_fits: false
-  form: gender_paws
-  orientation: vertical
-  part: left_part_1
-- coord:
-  - 22
-  - 110
-  - 22
-  - 22
-  filename: /assets/img/gender_paws.png
-  flag_name: Demiboy
-  flags_fits: false
-  form: gender_paws
-  orientation: vertical
-  part: left_part_2
-- coord:
-  - 44
-  - 110
-  - 22
-  - 22
-  filename: /assets/img/gender_paws.png
-  flag_name: Demiboy
-  flags_fits: false
-  form: gender_paws
-  orientation: vertical
-  part: right_part_1
-- coord:
-  - 66
-  - 110
-  - 22
-  - 22
-  filename: /assets/img/gender_paws.png
-  flag_name: Demiboy
-  flags_fits: false
-  form: gender_paws
-  orientation: vertical
-  part: right_part_2
-- coord:
-  - 88
-  - 110
-  - 22
-  - 22
-  filename: /assets/img/gender_paws.png
-  flag_name: Demiboy
-  flags_fits: true
-  form: gender_paws
-  orientation: vertical
-  part: center
-- coord:
-  - 110
-  - 110
-  - 22
-  - 22
-  filename: /assets/img/gender_paws.png
-  flag_name: Demiboy
-  flags_fits: false
-  form: gender_paws
-  orientation: horizontal
-  part: left_part_1
-- coord:
-  - 132
-  - 110
-  - 22
-  - 22
-  filename: /assets/img/gender_paws.png
-  flag_name: Demiboy
-  flags_fits: true
-  form: gender_paws
-  orientation: horizontal
-  part: left_part_2
-- coord:
-  - 154
-  - 110
-  - 22
-  - 22
-  filename: /assets/img/gender_paws.png
-  flag_name: Demiboy
-  flags_fits: true
-  form: gender_paws
-  orientation: horizontal
-  part: right_part_1
-- coord:
-  - 176
-  - 110
-  - 22
-  - 22
-  filename: /assets/img/gender_paws.png
-  flag_name: Demiboy
-  flags_fits: false
-  form: gender_paws
-  orientation: horizontal
-  part: right_part_2
-- coord:
-  - 198
-  - 110
-  - 22
-  - 22
-  filename: /assets/img/gender_paws.png
+  rotated: false
+  sheet: assets/img/sprites/gender_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/gender_paws/demiboy_horizontal_4.png
   flag_name: Demiboy
   flags_fits: true
   flags_fits_perfect: true
   form: gender_paws
+  frame:
+    h: 22
+    w: 22
+    x: 88
+    y: 110
+  id: demiboy_horizontal_4.png
   orientation: horizontal
   part: center
-- coord:
-  - 0
-  - 132
-  - 22
-  - 22
-  filename: /assets/img/gender_paws.png
-  flag_name: Demigirl
+  rotated: false
+  sheet: assets/img/sprites/gender_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/gender_paws/demiboy_vertical_0.png
+  flag_name: Demiboy
   flags_fits: false
   form: gender_paws
+  frame:
+    h: 22
+    w: 22
+    x: 110
+    y: 110
+  id: demiboy_vertical_0.png
   orientation: vertical
   part: left_part_1
-- coord:
-  - 22
-  - 132
-  - 22
-  - 22
-  filename: /assets/img/gender_paws.png
-  flag_name: Demigirl
+  rotated: false
+  sheet: assets/img/sprites/gender_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/gender_paws/demiboy_vertical_1.png
+  flag_name: Demiboy
   flags_fits: false
   form: gender_paws
+  frame:
+    h: 22
+    w: 22
+    x: 132
+    y: 110
+  id: demiboy_vertical_1.png
   orientation: vertical
   part: left_part_2
-- coord:
-  - 44
-  - 132
-  - 22
-  - 22
-  filename: /assets/img/gender_paws.png
-  flag_name: Demigirl
+  rotated: false
+  sheet: assets/img/sprites/gender_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/gender_paws/demiboy_vertical_2.png
+  flag_name: Demiboy
   flags_fits: false
   form: gender_paws
+  frame:
+    h: 22
+    w: 22
+    x: 154
+    y: 110
+  id: demiboy_vertical_2.png
   orientation: vertical
   part: right_part_1
-- coord:
-  - 66
-  - 132
-  - 22
-  - 22
-  filename: /assets/img/gender_paws.png
-  flag_name: Demigirl
+  rotated: false
+  sheet: assets/img/sprites/gender_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/gender_paws/demiboy_vertical_3.png
+  flag_name: Demiboy
   flags_fits: false
   form: gender_paws
+  frame:
+    h: 22
+    w: 22
+    x: 176
+    y: 110
+  id: demiboy_vertical_3.png
   orientation: vertical
   part: right_part_2
-- coord:
-  - 88
-  - 132
-  - 22
-  - 22
-  filename: /assets/img/gender_paws.png
-  flag_name: Demigirl
+  rotated: false
+  sheet: assets/img/sprites/gender_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/gender_paws/demiboy_vertical_4.png
+  flag_name: Demiboy
   flags_fits: true
   form: gender_paws
+  frame:
+    h: 22
+    w: 22
+    x: 198
+    y: 110
+  id: demiboy_vertical_4.png
   orientation: vertical
   part: center
-- coord:
-  - 110
-  - 132
-  - 22
-  - 22
-  filename: /assets/img/gender_paws.png
+  rotated: false
+  sheet: assets/img/sprites/gender_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/gender_paws/demigirl_horizontal_0.png
   flag_name: Demigirl
   flags_fits: false
   form: gender_paws
+  frame:
+    h: 22
+    w: 22
+    x: 0
+    y: 132
+  id: demigirl_horizontal_0.png
   orientation: horizontal
   part: left_part_1
-- coord:
-  - 132
-  - 132
-  - 22
-  - 22
-  filename: /assets/img/gender_paws.png
+  rotated: false
+  sheet: assets/img/sprites/gender_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/gender_paws/demigirl_horizontal_1.png
   flag_name: Demigirl
   flags_fits: true
   form: gender_paws
+  frame:
+    h: 22
+    w: 22
+    x: 22
+    y: 132
+  id: demigirl_horizontal_1.png
   orientation: horizontal
   part: left_part_2
-- coord:
-  - 154
-  - 132
-  - 22
-  - 22
-  filename: /assets/img/gender_paws.png
+  rotated: false
+  sheet: assets/img/sprites/gender_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/gender_paws/demigirl_horizontal_2.png
   flag_name: Demigirl
   flags_fits: true
   form: gender_paws
+  frame:
+    h: 22
+    w: 22
+    x: 44
+    y: 132
+  id: demigirl_horizontal_2.png
   orientation: horizontal
   part: right_part_1
-- coord:
-  - 176
-  - 132
-  - 22
-  - 22
-  filename: /assets/img/gender_paws.png
+  rotated: false
+  sheet: assets/img/sprites/gender_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/gender_paws/demigirl_horizontal_3.png
   flag_name: Demigirl
   flags_fits: false
   form: gender_paws
+  frame:
+    h: 22
+    w: 22
+    x: 66
+    y: 132
+  id: demigirl_horizontal_3.png
   orientation: horizontal
   part: right_part_2
-- coord:
-  - 198
-  - 132
-  - 22
-  - 22
-  filename: /assets/img/gender_paws.png
+  rotated: false
+  sheet: assets/img/sprites/gender_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/gender_paws/demigirl_horizontal_4.png
   flag_name: Demigirl
   flags_fits: true
   flags_fits_perfect: true
   form: gender_paws
+  frame:
+    h: 22
+    w: 22
+    x: 88
+    y: 132
+  id: demigirl_horizontal_4.png
   orientation: horizontal
   part: center
-- coord:
-  - 0
-  - 154
-  - 22
-  - 22
-  filename: /assets/img/gender_paws.png
-  flag_name: Neutrio
-  flags_fits: true
+  rotated: false
+  sheet: assets/img/sprites/gender_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/gender_paws/demigirl_vertical_0.png
+  flag_name: Demigirl
+  flags_fits: false
   form: gender_paws
+  frame:
+    h: 22
+    w: 22
+    x: 110
+    y: 132
+  id: demigirl_vertical_0.png
   orientation: vertical
   part: left_part_1
-- coord:
-  - 22
-  - 154
-  - 22
-  - 22
-  filename: /assets/img/gender_paws.png
-  flag_name: Neutrio
-  flags_fits: true
+  rotated: false
+  sheet: assets/img/sprites/gender_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/gender_paws/demigirl_vertical_1.png
+  flag_name: Demigirl
+  flags_fits: false
   form: gender_paws
+  frame:
+    h: 22
+    w: 22
+    x: 132
+    y: 132
+  id: demigirl_vertical_1.png
   orientation: vertical
   part: left_part_2
-- coord:
-  - 44
-  - 154
-  - 22
-  - 22
-  filename: /assets/img/gender_paws.png
-  flag_name: Neutrio
-  flags_fits: true
+  rotated: false
+  sheet: assets/img/sprites/gender_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/gender_paws/demigirl_vertical_2.png
+  flag_name: Demigirl
+  flags_fits: false
   form: gender_paws
+  frame:
+    h: 22
+    w: 22
+    x: 154
+    y: 132
+  id: demigirl_vertical_2.png
   orientation: vertical
   part: right_part_1
-- coord:
-  - 66
-  - 154
-  - 22
-  - 22
-  filename: /assets/img/gender_paws.png
-  flag_name: Neutrio
-  flags_fits: true
+  rotated: false
+  sheet: assets/img/sprites/gender_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/gender_paws/demigirl_vertical_3.png
+  flag_name: Demigirl
+  flags_fits: false
   form: gender_paws
+  frame:
+    h: 22
+    w: 22
+    x: 176
+    y: 132
+  id: demigirl_vertical_3.png
   orientation: vertical
   part: right_part_2
-- coord:
-  - 88
-  - 154
-  - 22
-  - 22
-  filename: /assets/img/gender_paws.png
-  flag_name: Neutrio
+  rotated: false
+  sheet: assets/img/sprites/gender_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/gender_paws/demigirl_vertical_4.png
+  flag_name: Demigirl
   flags_fits: true
   form: gender_paws
+  frame:
+    h: 22
+    w: 22
+    x: 198
+    y: 132
+  id: demigirl_vertical_4.png
   orientation: vertical
   part: center
-- coord:
-  - 110
-  - 154
-  - 22
-  - 22
-  filename: /assets/img/gender_paws.png
+  rotated: false
+  sheet: assets/img/sprites/gender_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/gender_paws/neutrio_horizontal_0.png
   flag_name: Neutrio
   flags_fits: true
   form: gender_paws
+  frame:
+    h: 22
+    w: 22
+    x: 0
+    y: 154
+  id: neutrio_horizontal_0.png
   orientation: horizontal
   part: left_part_1
-- coord:
-  - 132
-  - 154
-  - 22
-  - 22
-  filename: /assets/img/gender_paws.png
+  rotated: false
+  sheet: assets/img/sprites/gender_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/gender_paws/neutrio_horizontal_1.png
   flag_name: Neutrio
   flags_fits: true
   form: gender_paws
+  frame:
+    h: 22
+    w: 22
+    x: 22
+    y: 154
+  id: neutrio_horizontal_1.png
   orientation: horizontal
   part: left_part_2
-- coord:
-  - 154
-  - 154
-  - 22
-  - 22
-  filename: /assets/img/gender_paws.png
+  rotated: false
+  sheet: assets/img/sprites/gender_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/gender_paws/neutrio_horizontal_2.png
   flag_name: Neutrio
   flags_fits: true
   form: gender_paws
+  frame:
+    h: 22
+    w: 22
+    x: 44
+    y: 154
+  id: neutrio_horizontal_2.png
   orientation: horizontal
   part: right_part_1
-- coord:
-  - 176
-  - 154
-  - 22
-  - 22
-  filename: /assets/img/gender_paws.png
+  rotated: false
+  sheet: assets/img/sprites/gender_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/gender_paws/neutrio_horizontal_3.png
   flag_name: Neutrio
   flags_fits: true
   form: gender_paws
+  frame:
+    h: 22
+    w: 22
+    x: 66
+    y: 154
+  id: neutrio_horizontal_3.png
   orientation: horizontal
   part: right_part_2
-- coord:
-  - 198
-  - 154
-  - 22
-  - 22
-  filename: /assets/img/gender_paws.png
+  rotated: false
+  sheet: assets/img/sprites/gender_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/gender_paws/neutrio_horizontal_4.png
   flag_name: Neutrio
   flags_fits: true
   form: gender_paws
+  frame:
+    h: 22
+    w: 22
+    x: 88
+    y: 154
+  id: neutrio_horizontal_4.png
   orientation: horizontal
   part: center
-- coord:
-  - 0
-  - 176
-  - 22
-  - 22
-  filename: /assets/img/gender_paws.png
-  flag_name: Ingender
+  rotated: false
+  sheet: assets/img/sprites/gender_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/gender_paws/neutrio_vertical_0.png
+  flag_name: Neutrio
   flags_fits: true
   form: gender_paws
+  frame:
+    h: 22
+    w: 22
+    x: 110
+    y: 154
+  id: neutrio_vertical_0.png
   orientation: vertical
   part: left_part_1
-- coord:
-  - 22
-  - 176
-  - 22
-  - 22
-  filename: /assets/img/gender_paws.png
-  flag_name: Ingender
+  rotated: false
+  sheet: assets/img/sprites/gender_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/gender_paws/neutrio_vertical_1.png
+  flag_name: Neutrio
   flags_fits: true
   form: gender_paws
+  frame:
+    h: 22
+    w: 22
+    x: 132
+    y: 154
+  id: neutrio_vertical_1.png
   orientation: vertical
   part: left_part_2
-- coord:
-  - 44
-  - 176
-  - 22
-  - 22
-  filename: /assets/img/gender_paws.png
-  flag_name: Ingender
+  rotated: false
+  sheet: assets/img/sprites/gender_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/gender_paws/neutrio_vertical_2.png
+  flag_name: Neutrio
   flags_fits: true
   form: gender_paws
+  frame:
+    h: 22
+    w: 22
+    x: 154
+    y: 154
+  id: neutrio_vertical_2.png
   orientation: vertical
   part: right_part_1
-- coord:
-  - 66
-  - 176
-  - 22
-  - 22
-  filename: /assets/img/gender_paws.png
-  flag_name: Ingender
+  rotated: false
+  sheet: assets/img/sprites/gender_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/gender_paws/neutrio_vertical_3.png
+  flag_name: Neutrio
   flags_fits: true
   form: gender_paws
+  frame:
+    h: 22
+    w: 22
+    x: 176
+    y: 154
+  id: neutrio_vertical_3.png
   orientation: vertical
   part: right_part_2
-- coord:
-  - 88
-  - 176
-  - 22
-  - 22
-  filename: /assets/img/gender_paws.png
-  flag_name: Ingender
+  rotated: false
+  sheet: assets/img/sprites/gender_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/gender_paws/neutrio_vertical_4.png
+  flag_name: Neutrio
   flags_fits: true
   form: gender_paws
+  frame:
+    h: 22
+    w: 22
+    x: 198
+    y: 154
+  id: neutrio_vertical_4.png
   orientation: vertical
   part: center
-- coord:
-  - 110
-  - 176
-  - 22
-  - 22
-  filename: /assets/img/gender_paws.png
+  rotated: false
+  sheet: assets/img/sprites/gender_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/gender_paws/ingender_horizontal_0.png
   flag_name: Ingender
   flags_fits: true
   form: gender_paws
+  frame:
+    h: 22
+    w: 22
+    x: 0
+    y: 176
+  id: ingender_horizontal_0.png
   orientation: horizontal
   part: left_part_1
-- coord:
-  - 132
-  - 176
-  - 22
-  - 22
-  filename: /assets/img/gender_paws.png
+  rotated: false
+  sheet: assets/img/sprites/gender_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/gender_paws/ingender_horizontal_1.png
   flag_name: Ingender
   flags_fits: true
   form: gender_paws
+  frame:
+    h: 22
+    w: 22
+    x: 22
+    y: 176
+  id: ingender_horizontal_1.png
   orientation: horizontal
   part: left_part_2
-- coord:
-  - 154
-  - 176
-  - 22
-  - 22
-  filename: /assets/img/gender_paws.png
+  rotated: false
+  sheet: assets/img/sprites/gender_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/gender_paws/ingender_horizontal_2.png
   flag_name: Ingender
   flags_fits: true
   form: gender_paws
+  frame:
+    h: 22
+    w: 22
+    x: 44
+    y: 176
+  id: ingender_horizontal_2.png
   orientation: horizontal
   part: right_part_1
-- coord:
-  - 176
-  - 176
-  - 22
-  - 22
-  filename: /assets/img/gender_paws.png
+  rotated: false
+  sheet: assets/img/sprites/gender_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/gender_paws/ingender_horizontal_3.png
   flag_name: Ingender
   flags_fits: true
   form: gender_paws
+  frame:
+    h: 22
+    w: 22
+    x: 66
+    y: 176
+  id: ingender_horizontal_3.png
   orientation: horizontal
   part: right_part_2
-- coord:
-  - 198
-  - 176
-  - 22
-  - 22
-  filename: /assets/img/gender_paws.png
+  rotated: false
+  sheet: assets/img/sprites/gender_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/gender_paws/ingender_horizontal_4.png
   flag_name: Ingender
   flags_fits: true
   form: gender_paws
+  frame:
+    h: 22
+    w: 22
+    x: 88
+    y: 176
+  id: ingender_horizontal_4.png
   orientation: horizontal
   part: center
-- coord:
-  - 0
-  - 198
-  - 22
-  - 22
-  filename: /assets/img/gender_paws.png
+  rotated: false
+  sheet: assets/img/sprites/gender_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/gender_paws/ingender_vertical_0.png
+  flag_name: Ingender
+  flags_fits: true
+  form: gender_paws
+  frame:
+    h: 22
+    w: 22
+    x: 110
+    y: 176
+  id: ingender_vertical_0.png
+  orientation: vertical
+  part: left_part_1
+  rotated: false
+  sheet: assets/img/sprites/gender_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/gender_paws/ingender_vertical_1.png
+  flag_name: Ingender
+  flags_fits: true
+  form: gender_paws
+  frame:
+    h: 22
+    w: 22
+    x: 132
+    y: 176
+  id: ingender_vertical_1.png
+  orientation: vertical
+  part: left_part_2
+  rotated: false
+  sheet: assets/img/sprites/gender_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/gender_paws/ingender_vertical_2.png
+  flag_name: Ingender
+  flags_fits: true
+  form: gender_paws
+  frame:
+    h: 22
+    w: 22
+    x: 154
+    y: 176
+  id: ingender_vertical_2.png
+  orientation: vertical
+  part: right_part_1
+  rotated: false
+  sheet: assets/img/sprites/gender_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/gender_paws/ingender_vertical_3.png
+  flag_name: Ingender
+  flags_fits: true
+  form: gender_paws
+  frame:
+    h: 22
+    w: 22
+    x: 176
+    y: 176
+  id: ingender_vertical_3.png
+  orientation: vertical
+  part: right_part_2
+  rotated: false
+  sheet: assets/img/sprites/gender_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/gender_paws/ingender_vertical_4.png
+  flag_name: Ingender
+  flags_fits: true
+  form: gender_paws
+  frame:
+    h: 22
+    w: 22
+    x: 198
+    y: 176
+  id: ingender_vertical_4.png
+  orientation: vertical
+  part: center
+  rotated: false
+  sheet: assets/img/sprites/gender_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/gender_paws/pangender_horizontal_0.png
   flag_name: Pangender
   flags_fits: false
   form: gender_paws
-  orientation: vertical
-  part: left_part_1
-- coord:
-  - 22
-  - 198
-  - 22
-  - 22
-  filename: /assets/img/gender_paws.png
-  flag_name: Pangender
-  flags_fits: false
-  form: gender_paws
-  orientation: vertical
-  part: left_part_2
-- coord:
-  - 44
-  - 198
-  - 22
-  - 22
-  filename: /assets/img/gender_paws.png
-  flag_name: Pangender
-  flags_fits: false
-  form: gender_paws
-  orientation: vertical
-  part: right_part_1
-- coord:
-  - 66
-  - 198
-  - 22
-  - 22
-  filename: /assets/img/gender_paws.png
-  flag_name: Pangender
-  flags_fits: false
-  form: gender_paws
-  orientation: vertical
-  part: right_part_2
-- coord:
-  - 88
-  - 198
-  - 22
-  - 22
-  filename: /assets/img/gender_paws.png
-  flag_name: Pangender
-  flags_fits: true
-  form: gender_paws
-  orientation: vertical
-  part: center
-- coord:
-  - 110
-  - 198
-  - 22
-  - 22
-  filename: /assets/img/gender_paws.png
-  flag_name: Pangender
-  flags_fits: false
-  form: gender_paws
+  frame:
+    h: 22
+    w: 22
+    x: 0
+    y: 198
+  id: pangender_horizontal_0.png
   orientation: horizontal
   part: left_part_1
-- coord:
-  - 132
-  - 198
-  - 22
-  - 22
-  filename: /assets/img/gender_paws.png
+  rotated: false
+  sheet: assets/img/sprites/gender_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/gender_paws/pangender_horizontal_1.png
   flag_name: Pangender
   flags_fits: true
   form: gender_paws
+  frame:
+    h: 22
+    w: 22
+    x: 22
+    y: 198
+  id: pangender_horizontal_1.png
   orientation: horizontal
   part: left_part_2
-- coord:
-  - 154
-  - 198
-  - 22
-  - 22
-  filename: /assets/img/gender_paws.png
+  rotated: false
+  sheet: assets/img/sprites/gender_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/gender_paws/pangender_horizontal_2.png
   flag_name: Pangender
   flags_fits: true
   form: gender_paws
+  frame:
+    h: 22
+    w: 22
+    x: 44
+    y: 198
+  id: pangender_horizontal_2.png
   orientation: horizontal
   part: right_part_1
-- coord:
-  - 176
-  - 198
-  - 22
-  - 22
-  filename: /assets/img/gender_paws.png
+  rotated: false
+  sheet: assets/img/sprites/gender_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/gender_paws/pangender_horizontal_3.png
   flag_name: Pangender
   flags_fits: false
   form: gender_paws
+  frame:
+    h: 22
+    w: 22
+    x: 66
+    y: 198
+  id: pangender_horizontal_3.png
   orientation: horizontal
   part: right_part_2
-- coord:
-  - 198
-  - 198
-  - 22
-  - 22
-  filename: /assets/img/gender_paws.png
+  rotated: false
+  sheet: assets/img/sprites/gender_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/gender_paws/pangender_horizontal_4.png
   flag_name: Pangender
   flags_fits: true
   flags_fits_perfect: true
   form: gender_paws
+  frame:
+    h: 22
+    w: 22
+    x: 88
+    y: 198
+  id: pangender_horizontal_4.png
   orientation: horizontal
   part: center
-- coord:
-  - 0
-  - 220
-  - 22
-  - 22
-  filename: /assets/img/gender_paws.png
-  flag_name: Bigender
+  rotated: false
+  sheet: assets/img/sprites/gender_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/gender_paws/pangender_vertical_0.png
+  flag_name: Pangender
   flags_fits: false
   form: gender_paws
+  frame:
+    h: 22
+    w: 22
+    x: 110
+    y: 198
+  id: pangender_vertical_0.png
   orientation: vertical
   part: left_part_1
-- coord:
-  - 22
-  - 220
-  - 22
-  - 22
-  filename: /assets/img/gender_paws.png
-  flag_name: Bigender
+  rotated: false
+  sheet: assets/img/sprites/gender_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/gender_paws/pangender_vertical_1.png
+  flag_name: Pangender
   flags_fits: false
   form: gender_paws
+  frame:
+    h: 22
+    w: 22
+    x: 132
+    y: 198
+  id: pangender_vertical_1.png
   orientation: vertical
   part: left_part_2
-- coord:
-  - 44
-  - 220
-  - 22
-  - 22
-  filename: /assets/img/gender_paws.png
-  flag_name: Bigender
+  rotated: false
+  sheet: assets/img/sprites/gender_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/gender_paws/pangender_vertical_2.png
+  flag_name: Pangender
   flags_fits: false
   form: gender_paws
+  frame:
+    h: 22
+    w: 22
+    x: 154
+    y: 198
+  id: pangender_vertical_2.png
   orientation: vertical
   part: right_part_1
-- coord:
-  - 66
-  - 220
-  - 22
-  - 22
-  filename: /assets/img/gender_paws.png
-  flag_name: Bigender
+  rotated: false
+  sheet: assets/img/sprites/gender_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/gender_paws/pangender_vertical_3.png
+  flag_name: Pangender
   flags_fits: false
   form: gender_paws
+  frame:
+    h: 22
+    w: 22
+    x: 176
+    y: 198
+  id: pangender_vertical_3.png
   orientation: vertical
   part: right_part_2
-- coord:
-  - 88
-  - 220
-  - 22
-  - 22
-  filename: /assets/img/gender_paws.png
-  flag_name: Bigender
+  rotated: false
+  sheet: assets/img/sprites/gender_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/gender_paws/pangender_vertical_4.png
+  flag_name: Pangender
   flags_fits: true
   form: gender_paws
+  frame:
+    h: 22
+    w: 22
+    x: 198
+    y: 198
+  id: pangender_vertical_4.png
   orientation: vertical
   part: center
-- coord:
-  - 110
-  - 220
-  - 22
-  - 22
-  filename: /assets/img/gender_paws.png
+  rotated: false
+  sheet: assets/img/sprites/gender_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/gender_paws/bigender_horizontal_0.png
   flag_name: Bigender
   flags_fits: false
   form: gender_paws
+  frame:
+    h: 22
+    w: 22
+    x: 0
+    y: 220
+  id: bigender_horizontal_0.png
   orientation: horizontal
   part: left_part_1
-- coord:
-  - 132
-  - 220
-  - 22
-  - 22
-  filename: /assets/img/gender_paws.png
+  rotated: false
+  sheet: assets/img/sprites/gender_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/gender_paws/bigender_horizontal_1.png
   flag_name: Bigender
   flags_fits: true
   form: gender_paws
+  frame:
+    h: 22
+    w: 22
+    x: 22
+    y: 220
+  id: bigender_horizontal_1.png
   orientation: horizontal
   part: left_part_2
-- coord:
-  - 154
-  - 220
-  - 22
-  - 22
-  filename: /assets/img/gender_paws.png
+  rotated: false
+  sheet: assets/img/sprites/gender_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/gender_paws/bigender_horizontal_2.png
   flag_name: Bigender
   flags_fits: true
   form: gender_paws
+  frame:
+    h: 22
+    w: 22
+    x: 44
+    y: 220
+  id: bigender_horizontal_2.png
   orientation: horizontal
   part: right_part_1
-- coord:
-  - 176
-  - 220
-  - 22
-  - 22
-  filename: /assets/img/gender_paws.png
+  rotated: false
+  sheet: assets/img/sprites/gender_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/gender_paws/bigender_horizontal_3.png
   flag_name: Bigender
   flags_fits: false
   form: gender_paws
+  frame:
+    h: 22
+    w: 22
+    x: 66
+    y: 220
+  id: bigender_horizontal_3.png
   orientation: horizontal
   part: right_part_2
-- coord:
-  - 198
-  - 220
-  - 22
-  - 22
-  filename: /assets/img/gender_paws.png
+  rotated: false
+  sheet: assets/img/sprites/gender_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/gender_paws/bigender_horizontal_4.png
   flag_name: Bigender
   flags_fits: true
   flags_fits_perfect: true
   form: gender_paws
+  frame:
+    h: 22
+    w: 22
+    x: 88
+    y: 220
+  id: bigender_horizontal_4.png
   orientation: horizontal
   part: center
-- coord:
-  - 18
-  - 0
-  - 18
-  - 11
-  filename: /assets/img/pride_horizontal_flags.png
+  rotated: false
+  sheet: assets/img/sprites/gender_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/gender_paws/bigender_vertical_0.png
+  flag_name: Bigender
+  flags_fits: false
+  form: gender_paws
+  frame:
+    h: 22
+    w: 22
+    x: 110
+    y: 220
+  id: bigender_vertical_0.png
+  orientation: vertical
+  part: left_part_1
+  rotated: false
+  sheet: assets/img/sprites/gender_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/gender_paws/bigender_vertical_1.png
+  flag_name: Bigender
+  flags_fits: false
+  form: gender_paws
+  frame:
+    h: 22
+    w: 22
+    x: 132
+    y: 220
+  id: bigender_vertical_1.png
+  orientation: vertical
+  part: left_part_2
+  rotated: false
+  sheet: assets/img/sprites/gender_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/gender_paws/bigender_vertical_2.png
+  flag_name: Bigender
+  flags_fits: false
+  form: gender_paws
+  frame:
+    h: 22
+    w: 22
+    x: 154
+    y: 220
+  id: bigender_vertical_2.png
+  orientation: vertical
+  part: right_part_1
+  rotated: false
+  sheet: assets/img/sprites/gender_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/gender_paws/bigender_vertical_3.png
+  flag_name: Bigender
+  flags_fits: false
+  form: gender_paws
+  frame:
+    h: 22
+    w: 22
+    x: 176
+    y: 220
+  id: bigender_vertical_3.png
+  orientation: vertical
+  part: right_part_2
+  rotated: false
+  sheet: assets/img/sprites/gender_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/gender_paws/bigender_vertical_4.png
+  flag_name: Bigender
+  flags_fits: true
+  form: gender_paws
+  frame:
+    h: 22
+    w: 22
+    x: 198
+    y: 220
+  id: bigender_vertical_4.png
+  orientation: vertical
+  part: center
+  rotated: false
+  sheet: assets/img/sprites/gender_paws.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/pride_horizontal_flags/none_horizontal_0.png
   flag_name: None
   flags_fits: true
   form: pride_horizontal_flags
+  frame:
+    h: 11
+    w: 18
+    x: 0
+    y: 0
+  id: none_horizontal_0.png
   orientation: horizontal
   part: main
-- coord:
-  - 18
-  - 11
-  - 18
-  - 11
-  filename: /assets/img/pride_horizontal_flags.png
+  rotated: false
+  sheet: assets/img/sprites/pride_horizontal_flags.json
+  sourceSize:
+    h: 11
+    w: 18
+  spriteSourceSize:
+    h: 11
+    w: 18
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/pride_horizontal_flags/rainbow_pride_flag_horizontal_0.png
   flag_name: Rainbow Pride Flag
   flags_fits: true
   form: pride_horizontal_flags
+  frame:
+    h: 11
+    w: 18
+    x: 0
+    y: 11
+  id: rainbow_pride_flag_horizontal_0.png
   orientation: horizontal
   part: main
-- coord:
-  - 18
-  - 22
-  - 18
-  - 11
-  filename: /assets/img/pride_horizontal_flags.png
+  rotated: false
+  sheet: assets/img/sprites/pride_horizontal_flags.json
+  sourceSize:
+    h: 11
+    w: 18
+  spriteSourceSize:
+    h: 11
+    w: 18
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/pride_horizontal_flags/philadelphias_people_of_color_inclusive_flag_horizontal_0.png
   flag_name: Philadelphia's People of Color Inclusive Flag
   flags_fits: true
   form: pride_horizontal_flags
+  frame:
+    h: 11
+    w: 18
+    x: 0
+    y: 22
+  id: philadelphias_people_of_color_inclusive_flag_horizontal_0.png
   orientation: horizontal
   part: main
-- coord:
-  - 18
-  - 33
-  - 18
-  - 11
-  filename: /assets/img/pride_horizontal_flags.png
+  rotated: false
+  sheet: assets/img/sprites/pride_horizontal_flags.json
+  sourceSize:
+    h: 11
+    w: 18
+  spriteSourceSize:
+    h: 11
+    w: 18
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/pride_horizontal_flags/asexual_horizontal_0.png
   flag_name: Asexual
   flags_fits: true
   form: pride_horizontal_flags
+  frame:
+    h: 11
+    w: 18
+    x: 0
+    y: 33
+  id: asexual_horizontal_0.png
   orientation: horizontal
   part: main
-- coord:
-  - 18
-  - 44
-  - 18
-  - 11
-  filename: /assets/img/pride_horizontal_flags.png
+  rotated: false
+  sheet: assets/img/sprites/pride_horizontal_flags.json
+  sourceSize:
+    h: 11
+    w: 18
+  spriteSourceSize:
+    h: 11
+    w: 18
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/pride_horizontal_flags/bisexual_horizontal_0.png
   flag_name: Bisexual
   flags_fits: true
   form: pride_horizontal_flags
+  frame:
+    h: 11
+    w: 18
+    x: 0
+    y: 44
+  id: bisexual_horizontal_0.png
   orientation: horizontal
   part: main
-- coord:
-  - 18
-  - 55
-  - 18
-  - 11
-  filename: /assets/img/pride_horizontal_flags.png
+  rotated: false
+  sheet: assets/img/sprites/pride_horizontal_flags.json
+  sourceSize:
+    h: 11
+    w: 18
+  spriteSourceSize:
+    h: 11
+    w: 18
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/pride_horizontal_flags/pansexual_horizontal_0.png
   flag_name: Pansexual
   flags_fits: true
   form: pride_horizontal_flags
+  frame:
+    h: 11
+    w: 18
+    x: 0
+    y: 55
+  id: pansexual_horizontal_0.png
   orientation: horizontal
   part: main
-- coord:
-  - 18
-  - 66
-  - 18
-  - 11
-  filename: /assets/img/pride_horizontal_flags.png
+  rotated: false
+  sheet: assets/img/sprites/pride_horizontal_flags.json
+  sourceSize:
+    h: 11
+    w: 18
+  spriteSourceSize:
+    h: 11
+    w: 18
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/pride_horizontal_flags/lesbian_horizontal_0.png
   flag_name: Lesbian
   flags_fits: true
   form: pride_horizontal_flags
+  frame:
+    h: 11
+    w: 18
+    x: 0
+    y: 66
+  id: lesbian_horizontal_0.png
   orientation: horizontal
   part: main
-- coord:
-  - 18
-  - 77
-  - 18
-  - 11
-  filename: /assets/img/pride_horizontal_flags.png
+  rotated: false
+  sheet: assets/img/sprites/pride_horizontal_flags.json
+  sourceSize:
+    h: 11
+    w: 18
+  spriteSourceSize:
+    h: 11
+    w: 18
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/pride_horizontal_flags/progress_horizontal_0.png
   flag_name: Progress
   flags_fits: true
   form: pride_horizontal_flags
+  frame:
+    h: 11
+    w: 18
+    x: 0
+    y: 77
+  id: progress_horizontal_0.png
   orientation: horizontal
   part: main
-- coord:
-  - 18
-  - 88
-  - 18
-  - 11
-  filename: /assets/img/pride_horizontal_flags.png
+  rotated: false
+  sheet: assets/img/sprites/pride_horizontal_flags.json
+  sourceSize:
+    h: 11
+    w: 18
+  spriteSourceSize:
+    h: 11
+    w: 18
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/pride_horizontal_flags/demisexual_horizontal_0.png
   flag_name: Demisexual
   flags_fits: true
   form: pride_horizontal_flags
+  frame:
+    h: 11
+    w: 18
+    x: 0
+    y: 88
+  id: demisexual_horizontal_0.png
   orientation: horizontal
   part: main
-- coord:
-  - 18
-  - 99
-  - 18
-  - 11
-  filename: /assets/img/pride_horizontal_flags.png
+  rotated: false
+  sheet: assets/img/sprites/pride_horizontal_flags.json
+  sourceSize:
+    h: 11
+    w: 18
+  spriteSourceSize:
+    h: 11
+    w: 18
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/pride_horizontal_flags/polyamory_horizontal_0.png
   flag_name: Polyamory
   flags_fits: true
   form: pride_horizontal_flags
+  frame:
+    h: 11
+    w: 18
+    x: 0
+    y: 99
+  id: polyamory_horizontal_0.png
   orientation: horizontal
   part: main
-- coord:
-  - 18
-  - 110
-  - 18
-  - 11
-  filename: /assets/img/pride_horizontal_flags.png
+  rotated: false
+  sheet: assets/img/sprites/pride_horizontal_flags.json
+  sourceSize:
+    h: 11
+    w: 18
+  spriteSourceSize:
+    h: 11
+    w: 18
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/pride_horizontal_flags/polysexual_horizontal_0.png
   flag_name: Polysexual
   flags_fits: true
   form: pride_horizontal_flags
+  frame:
+    h: 11
+    w: 18
+    x: 0
+    y: 110
+  id: polysexual_horizontal_0.png
   orientation: horizontal
   part: main
-- coord:
-  - 18
-  - 121
-  - 18
-  - 11
-  filename: /assets/img/pride_horizontal_flags.png
+  rotated: false
+  sheet: assets/img/sprites/pride_horizontal_flags.json
+  sourceSize:
+    h: 11
+    w: 18
+  spriteSourceSize:
+    h: 11
+    w: 18
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/pride_horizontal_flags/intersex_horizontal_0.png
   flag_name: Intersex
   flags_fits: true
   form: pride_horizontal_flags
+  frame:
+    h: 11
+    w: 18
+    x: 0
+    y: 121
+  id: intersex_horizontal_0.png
   orientation: horizontal
   part: main
-- coord:
-  - 18
-  - 0
-  - 18
-  - 11
-  filename: /assets/img/gender_horizontal_flags.png
+  rotated: false
+  sheet: assets/img/sprites/pride_horizontal_flags.json
+  sourceSize:
+    h: 11
+    w: 18
+  spriteSourceSize:
+    h: 11
+    w: 18
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/gender_horizontal_flags/agender_horizontal_0.png
   flag_name: Agender
   flags_fits: true
   form: gender_horizontal_flags
+  frame:
+    h: 11
+    w: 18
+    x: 0
+    y: 0
+  id: agender_horizontal_0.png
   orientation: horizontal
   part: main
-- coord:
-  - 18
-  - 11
-  - 18
-  - 11
-  filename: /assets/img/gender_horizontal_flags.png
+  rotated: false
+  sheet: assets/img/sprites/gender_horizontal_flags.json
+  sourceSize:
+    h: 11
+    w: 18
+  spriteSourceSize:
+    h: 11
+    w: 18
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/gender_horizontal_flags/transgender_horizontal_0.png
   flag_name: Transgender
   flags_fits: true
   form: gender_horizontal_flags
+  frame:
+    h: 11
+    w: 18
+    x: 0
+    y: 11
+  id: transgender_horizontal_0.png
   orientation: horizontal
   part: main
-- coord:
-  - 18
-  - 22
-  - 18
-  - 11
-  filename: /assets/img/gender_horizontal_flags.png
+  rotated: false
+  sheet: assets/img/sprites/gender_horizontal_flags.json
+  sourceSize:
+    h: 11
+    w: 18
+  spriteSourceSize:
+    h: 11
+    w: 18
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/gender_horizontal_flags/genderqueer_horizontal_0.png
   flag_name: Genderqueer
   flags_fits: true
   form: gender_horizontal_flags
+  frame:
+    h: 11
+    w: 18
+    x: 0
+    y: 22
+  id: genderqueer_horizontal_0.png
   orientation: horizontal
   part: main
-- coord:
-  - 18
-  - 33
-  - 18
-  - 11
-  filename: /assets/img/gender_horizontal_flags.png
+  rotated: false
+  sheet: assets/img/sprites/gender_horizontal_flags.json
+  sourceSize:
+    h: 11
+    w: 18
+  spriteSourceSize:
+    h: 11
+    w: 18
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/gender_horizontal_flags/genderfluid_horizontal_0.png
   flag_name: Genderfluid
   flags_fits: true
   form: gender_horizontal_flags
+  frame:
+    h: 11
+    w: 18
+    x: 0
+    y: 33
+  id: genderfluid_horizontal_0.png
   orientation: horizontal
   part: main
-- coord:
-  - 18
-  - 44
-  - 18
-  - 11
-  filename: /assets/img/gender_horizontal_flags.png
+  rotated: false
+  sheet: assets/img/sprites/gender_horizontal_flags.json
+  sourceSize:
+    h: 11
+    w: 18
+  spriteSourceSize:
+    h: 11
+    w: 18
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/gender_horizontal_flags/non-binary_horizontal_0.png
   flag_name: Non-Binary
   flags_fits: true
   form: gender_horizontal_flags
+  frame:
+    h: 11
+    w: 18
+    x: 0
+    y: 44
+  id: non-binary_horizontal_0.png
   orientation: horizontal
   part: main
-- coord:
-  - 18
-  - 55
-  - 18
-  - 11
-  filename: /assets/img/gender_horizontal_flags.png
+  rotated: false
+  sheet: assets/img/sprites/gender_horizontal_flags.json
+  sourceSize:
+    h: 11
+    w: 18
+  spriteSourceSize:
+    h: 11
+    w: 18
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/gender_horizontal_flags/demiboy_horizontal_0.png
   flag_name: Demiboy
   flags_fits: true
   form: gender_horizontal_flags
+  frame:
+    h: 11
+    w: 18
+    x: 0
+    y: 55
+  id: demiboy_horizontal_0.png
   orientation: horizontal
   part: main
-- coord:
-  - 18
-  - 66
-  - 18
-  - 11
-  filename: /assets/img/gender_horizontal_flags.png
+  rotated: false
+  sheet: assets/img/sprites/gender_horizontal_flags.json
+  sourceSize:
+    h: 11
+    w: 18
+  spriteSourceSize:
+    h: 11
+    w: 18
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/gender_horizontal_flags/demigirl_horizontal_0.png
   flag_name: Demigirl
   flags_fits: true
   form: gender_horizontal_flags
+  frame:
+    h: 11
+    w: 18
+    x: 0
+    y: 66
+  id: demigirl_horizontal_0.png
   orientation: horizontal
   part: main
-- coord:
-  - 18
-  - 77
-  - 18
-  - 11
-  filename: /assets/img/gender_horizontal_flags.png
+  rotated: false
+  sheet: assets/img/sprites/gender_horizontal_flags.json
+  sourceSize:
+    h: 11
+    w: 18
+  spriteSourceSize:
+    h: 11
+    w: 18
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/gender_horizontal_flags/neutrio_horizontal_0.png
   flag_name: Neutrio
   flags_fits: true
   form: gender_horizontal_flags
+  frame:
+    h: 11
+    w: 18
+    x: 0
+    y: 77
+  id: neutrio_horizontal_0.png
   orientation: horizontal
   part: main
-- coord:
-  - 18
-  - 88
-  - 18
-  - 11
-  filename: /assets/img/gender_horizontal_flags.png
+  rotated: false
+  sheet: assets/img/sprites/gender_horizontal_flags.json
+  sourceSize:
+    h: 11
+    w: 18
+  spriteSourceSize:
+    h: 11
+    w: 18
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/gender_horizontal_flags/ingender_horizontal_0.png
   flag_name: Ingender
   flags_fits: true
   form: gender_horizontal_flags
+  frame:
+    h: 11
+    w: 18
+    x: 0
+    y: 88
+  id: ingender_horizontal_0.png
   orientation: horizontal
   part: main
-- coord:
-  - 18
-  - 99
-  - 18
-  - 11
-  filename: /assets/img/gender_horizontal_flags.png
+  rotated: false
+  sheet: assets/img/sprites/gender_horizontal_flags.json
+  sourceSize:
+    h: 11
+    w: 18
+  spriteSourceSize:
+    h: 11
+    w: 18
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/gender_horizontal_flags/pangender_horizontal_0.png
   flag_name: Pangender
   flags_fits: true
   form: gender_horizontal_flags
+  frame:
+    h: 11
+    w: 18
+    x: 0
+    y: 99
+  id: pangender_horizontal_0.png
   orientation: horizontal
   part: main
-- coord:
-  - 18
-  - 110
-  - 18
-  - 11
-  filename: /assets/img/gender_horizontal_flags.png
+  rotated: false
+  sheet: assets/img/sprites/gender_horizontal_flags.json
+  sourceSize:
+    h: 11
+    w: 18
+  spriteSourceSize:
+    h: 11
+    w: 18
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/gender_horizontal_flags/bigender_horizontal_0.png
   flag_name: Bigender
   flags_fits: true
   form: gender_horizontal_flags
+  frame:
+    h: 11
+    w: 18
+    x: 0
+    y: 110
+  id: bigender_horizontal_0.png
   orientation: horizontal
   part: main
+  rotated: false
+  sheet: assets/img/sprites/gender_horizontal_flags.json
+  sourceSize:
+    h: 11
+    w: 18
+  spriteSourceSize:
+    h: 11
+    w: 18
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/pride_vertical_flags/none_vertical_0.png
+  flag_name: None
+  flags_fits: true
+  form: pride_vertical_flags
+  frame:
+    h: 18
+    w: 11
+    x: 11
+    y: 0
+  id: none_vertical_0.png
+  orientation: vertical
+  part: main
+  rotated: false
+  sheet: assets/img/sprites/pride_vertical_flags.json
+  sourceSize:
+    h: 18
+    w: 11
+  spriteSourceSize:
+    h: 18
+    w: 11
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/pride_vertical_flags/rainbow_pride_flag_vertical_0.png
+  flag_name: Rainbow Pride Flag
+  flags_fits: true
+  form: pride_vertical_flags
+  frame:
+    h: 18
+    w: 11
+    x: 11
+    y: 18
+  id: rainbow_pride_flag_vertical_0.png
+  orientation: vertical
+  part: main
+  rotated: false
+  sheet: assets/img/sprites/pride_vertical_flags.json
+  sourceSize:
+    h: 18
+    w: 11
+  spriteSourceSize:
+    h: 18
+    w: 11
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/pride_vertical_flags/philadelphias_people_of_color_inclusive_flag_vertical_0.png
+  flag_name: Philadelphia's People of Color Inclusive Flag
+  flags_fits: true
+  form: pride_vertical_flags
+  frame:
+    h: 18
+    w: 11
+    x: 11
+    y: 36
+  id: philadelphias_people_of_color_inclusive_flag_vertical_0.png
+  orientation: vertical
+  part: main
+  rotated: false
+  sheet: assets/img/sprites/pride_vertical_flags.json
+  sourceSize:
+    h: 18
+    w: 11
+  spriteSourceSize:
+    h: 18
+    w: 11
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/pride_vertical_flags/asexual_vertical_0.png
+  flag_name: Asexual
+  flags_fits: true
+  form: pride_vertical_flags
+  frame:
+    h: 18
+    w: 11
+    x: 11
+    y: 54
+  id: asexual_vertical_0.png
+  orientation: vertical
+  part: main
+  rotated: false
+  sheet: assets/img/sprites/pride_vertical_flags.json
+  sourceSize:
+    h: 18
+    w: 11
+  spriteSourceSize:
+    h: 18
+    w: 11
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/pride_vertical_flags/bisexual_vertical_0.png
+  flag_name: Bisexual
+  flags_fits: true
+  form: pride_vertical_flags
+  frame:
+    h: 18
+    w: 11
+    x: 11
+    y: 72
+  id: bisexual_vertical_0.png
+  orientation: vertical
+  part: main
+  rotated: false
+  sheet: assets/img/sprites/pride_vertical_flags.json
+  sourceSize:
+    h: 18
+    w: 11
+  spriteSourceSize:
+    h: 18
+    w: 11
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/pride_vertical_flags/pansexual_vertical_0.png
+  flag_name: Pansexual
+  flags_fits: true
+  form: pride_vertical_flags
+  frame:
+    h: 18
+    w: 11
+    x: 11
+    y: 90
+  id: pansexual_vertical_0.png
+  orientation: vertical
+  part: main
+  rotated: false
+  sheet: assets/img/sprites/pride_vertical_flags.json
+  sourceSize:
+    h: 18
+    w: 11
+  spriteSourceSize:
+    h: 18
+    w: 11
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/pride_vertical_flags/lesbian_vertical_0.png
+  flag_name: Lesbian
+  flags_fits: true
+  form: pride_vertical_flags
+  frame:
+    h: 18
+    w: 11
+    x: 11
+    y: 108
+  id: lesbian_vertical_0.png
+  orientation: vertical
+  part: main
+  rotated: false
+  sheet: assets/img/sprites/pride_vertical_flags.json
+  sourceSize:
+    h: 18
+    w: 11
+  spriteSourceSize:
+    h: 18
+    w: 11
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/pride_vertical_flags/progress_vertical_0.png
+  flag_name: Progress
+  flags_fits: true
+  form: pride_vertical_flags
+  frame:
+    h: 18
+    w: 11
+    x: 11
+    y: 126
+  id: progress_vertical_0.png
+  orientation: vertical
+  part: main
+  rotated: false
+  sheet: assets/img/sprites/pride_vertical_flags.json
+  sourceSize:
+    h: 18
+    w: 11
+  spriteSourceSize:
+    h: 18
+    w: 11
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/pride_vertical_flags/demisexual_vertical_0.png
+  flag_name: Demisexual
+  flags_fits: true
+  form: pride_vertical_flags
+  frame:
+    h: 18
+    w: 11
+    x: 11
+    y: 144
+  id: demisexual_vertical_0.png
+  orientation: vertical
+  part: main
+  rotated: false
+  sheet: assets/img/sprites/pride_vertical_flags.json
+  sourceSize:
+    h: 18
+    w: 11
+  spriteSourceSize:
+    h: 18
+    w: 11
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/pride_vertical_flags/polyamory_vertical_0.png
+  flag_name: Polyamory
+  flags_fits: true
+  form: pride_vertical_flags
+  frame:
+    h: 18
+    w: 11
+    x: 11
+    y: 162
+  id: polyamory_vertical_0.png
+  orientation: vertical
+  part: main
+  rotated: false
+  sheet: assets/img/sprites/pride_vertical_flags.json
+  sourceSize:
+    h: 18
+    w: 11
+  spriteSourceSize:
+    h: 18
+    w: 11
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/pride_vertical_flags/polysexual_vertical_0.png
+  flag_name: Polysexual
+  flags_fits: true
+  form: pride_vertical_flags
+  frame:
+    h: 18
+    w: 11
+    x: 11
+    y: 180
+  id: polysexual_vertical_0.png
+  orientation: vertical
+  part: main
+  rotated: false
+  sheet: assets/img/sprites/pride_vertical_flags.json
+  sourceSize:
+    h: 18
+    w: 11
+  spriteSourceSize:
+    h: 18
+    w: 11
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/pride_vertical_flags/intersex_vertical_0.png
+  flag_name: Intersex
+  flags_fits: true
+  form: pride_vertical_flags
+  frame:
+    h: 18
+    w: 11
+    x: 11
+    y: 198
+  id: intersex_vertical_0.png
+  orientation: vertical
+  part: main
+  rotated: false
+  sheet: assets/img/sprites/pride_vertical_flags.json
+  sourceSize:
+    h: 18
+    w: 11
+  spriteSourceSize:
+    h: 18
+    w: 11
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/gender_vertical_flags/agender_vertical_0.png
+  flag_name: Agender
+  flags_fits: true
+  form: gender_vertical_flags
+  frame:
+    h: 18
+    w: 11
+    x: 11
+    y: 0
+  id: agender_vertical_0.png
+  orientation: vertical
+  part: main
+  rotated: false
+  sheet: assets/img/sprites/gender_vertical_flags.json
+  sourceSize:
+    h: 18
+    w: 11
+  spriteSourceSize:
+    h: 18
+    w: 11
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/gender_vertical_flags/transgender_vertical_0.png
+  flag_name: Transgender
+  flags_fits: true
+  form: gender_vertical_flags
+  frame:
+    h: 18
+    w: 11
+    x: 11
+    y: 18
+  id: transgender_vertical_0.png
+  orientation: vertical
+  part: main
+  rotated: false
+  sheet: assets/img/sprites/gender_vertical_flags.json
+  sourceSize:
+    h: 18
+    w: 11
+  spriteSourceSize:
+    h: 18
+    w: 11
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/gender_vertical_flags/genderqueer_vertical_0.png
+  flag_name: Genderqueer
+  flags_fits: true
+  form: gender_vertical_flags
+  frame:
+    h: 18
+    w: 11
+    x: 11
+    y: 36
+  id: genderqueer_vertical_0.png
+  orientation: vertical
+  part: main
+  rotated: false
+  sheet: assets/img/sprites/gender_vertical_flags.json
+  sourceSize:
+    h: 18
+    w: 11
+  spriteSourceSize:
+    h: 18
+    w: 11
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/gender_vertical_flags/genderfluid_vertical_0.png
+  flag_name: Genderfluid
+  flags_fits: true
+  form: gender_vertical_flags
+  frame:
+    h: 18
+    w: 11
+    x: 11
+    y: 54
+  id: genderfluid_vertical_0.png
+  orientation: vertical
+  part: main
+  rotated: false
+  sheet: assets/img/sprites/gender_vertical_flags.json
+  sourceSize:
+    h: 18
+    w: 11
+  spriteSourceSize:
+    h: 18
+    w: 11
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/gender_vertical_flags/non-binary_vertical_0.png
+  flag_name: Non-Binary
+  flags_fits: true
+  form: gender_vertical_flags
+  frame:
+    h: 18
+    w: 11
+    x: 11
+    y: 72
+  id: non-binary_vertical_0.png
+  orientation: vertical
+  part: main
+  rotated: false
+  sheet: assets/img/sprites/gender_vertical_flags.json
+  sourceSize:
+    h: 18
+    w: 11
+  spriteSourceSize:
+    h: 18
+    w: 11
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/gender_vertical_flags/demiboy_vertical_0.png
+  flag_name: Demiboy
+  flags_fits: true
+  form: gender_vertical_flags
+  frame:
+    h: 18
+    w: 11
+    x: 11
+    y: 90
+  id: demiboy_vertical_0.png
+  orientation: vertical
+  part: main
+  rotated: false
+  sheet: assets/img/sprites/gender_vertical_flags.json
+  sourceSize:
+    h: 18
+    w: 11
+  spriteSourceSize:
+    h: 18
+    w: 11
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/gender_vertical_flags/demigirl_vertical_0.png
+  flag_name: Demigirl
+  flags_fits: true
+  form: gender_vertical_flags
+  frame:
+    h: 18
+    w: 11
+    x: 11
+    y: 108
+  id: demigirl_vertical_0.png
+  orientation: vertical
+  part: main
+  rotated: false
+  sheet: assets/img/sprites/gender_vertical_flags.json
+  sourceSize:
+    h: 18
+    w: 11
+  spriteSourceSize:
+    h: 18
+    w: 11
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/gender_vertical_flags/neutrio_vertical_0.png
+  flag_name: Neutrio
+  flags_fits: true
+  form: gender_vertical_flags
+  frame:
+    h: 18
+    w: 11
+    x: 11
+    y: 126
+  id: neutrio_vertical_0.png
+  orientation: vertical
+  part: main
+  rotated: false
+  sheet: assets/img/sprites/gender_vertical_flags.json
+  sourceSize:
+    h: 18
+    w: 11
+  spriteSourceSize:
+    h: 18
+    w: 11
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/gender_vertical_flags/ingender_vertical_0.png
+  flag_name: Ingender
+  flags_fits: true
+  form: gender_vertical_flags
+  frame:
+    h: 18
+    w: 11
+    x: 11
+    y: 144
+  id: ingender_vertical_0.png
+  orientation: vertical
+  part: main
+  rotated: false
+  sheet: assets/img/sprites/gender_vertical_flags.json
+  sourceSize:
+    h: 18
+    w: 11
+  spriteSourceSize:
+    h: 18
+    w: 11
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/gender_vertical_flags/pangender_vertical_0.png
+  flag_name: Pangender
+  flags_fits: true
+  form: gender_vertical_flags
+  frame:
+    h: 18
+    w: 11
+    x: 11
+    y: 162
+  id: pangender_vertical_0.png
+  orientation: vertical
+  part: main
+  rotated: false
+  sheet: assets/img/sprites/gender_vertical_flags.json
+  sourceSize:
+    h: 18
+    w: 11
+  spriteSourceSize:
+    h: 18
+    w: 11
+    x: 0
+    y: 0
+  trimmed: false
+- filename: assets/img/sprites/gender_vertical_flags/bigender_vertical_0.png
+  flag_name: Bigender
+  flags_fits: true
+  form: gender_vertical_flags
+  frame:
+    h: 18
+    w: 11
+    x: 11
+    y: 180
+  id: bigender_vertical_0.png
+  orientation: vertical
+  part: main
+  rotated: false
+  sheet: assets/img/sprites/gender_vertical_flags.json
+  sourceSize:
+    h: 18
+    w: 11
+  spriteSourceSize:
+    h: 18
+    w: 11
+    x: 0
+    y: 0
+  trimmed: false

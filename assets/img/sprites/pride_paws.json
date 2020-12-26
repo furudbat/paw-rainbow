@@ -1,0 +1,3142 @@
+{
+    "frames": {
+        "none_horizontal_0.png": {
+            "flag_name": "None",
+            "part": "left_part_1",
+            "orientation": "horizontal",
+            "flags_fits": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "filename": "assets/img/sprites/pride_paws/none_horizontal_0.png",
+            "id": "none_horizontal_0.png"
+        },
+        "none_horizontal_1.png": {
+            "flag_name": "None",
+            "part": "left_part_2",
+            "orientation": "horizontal",
+            "flags_fits": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 22,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "filename": "assets/img/sprites/pride_paws/none_horizontal_1.png",
+            "id": "none_horizontal_1.png"
+        },
+        "none_horizontal_2.png": {
+            "flag_name": "None",
+            "part": "right_part_1",
+            "orientation": "horizontal",
+            "flags_fits": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 44,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "filename": "assets/img/sprites/pride_paws/none_horizontal_2.png",
+            "id": "none_horizontal_2.png"
+        },
+        "none_horizontal_3.png": {
+            "flag_name": "None",
+            "part": "right_part_2",
+            "orientation": "horizontal",
+            "flags_fits": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 66,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "filename": "assets/img/sprites/pride_paws/none_horizontal_3.png",
+            "id": "none_horizontal_3.png"
+        },
+        "none_horizontal_4.png": {
+            "flag_name": "None",
+            "part": "center",
+            "orientation": "horizontal",
+            "flags_fits": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 88,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "filename": "assets/img/sprites/pride_paws/none_horizontal_4.png",
+            "id": "none_horizontal_4.png"
+        },
+        "none_vertical_0.png": {
+            "flag_name": "None",
+            "part": "left_part_1",
+            "orientation": "vertical",
+            "flags_fits": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 110,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "filename": "assets/img/sprites/pride_paws/none_vertical_0.png",
+            "id": "none_vertical_0.png"
+        },
+        "none_vertical_1.png": {
+            "flag_name": "None",
+            "part": "left_part_2",
+            "orientation": "vertical",
+            "flags_fits": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 132,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "filename": "assets/img/sprites/pride_paws/none_vertical_1.png",
+            "id": "none_vertical_1.png"
+        },
+        "none_vertical_2.png": {
+            "flag_name": "None",
+            "part": "right_part_1",
+            "orientation": "vertical",
+            "flags_fits": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 154,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "filename": "assets/img/sprites/pride_paws/none_vertical_2.png",
+            "id": "none_vertical_2.png"
+        },
+        "none_vertical_3.png": {
+            "flag_name": "None",
+            "part": "right_part_2",
+            "orientation": "vertical",
+            "flags_fits": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 176,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "filename": "assets/img/sprites/pride_paws/none_vertical_3.png",
+            "id": "none_vertical_3.png"
+        },
+        "none_vertical_4.png": {
+            "flag_name": "None",
+            "part": "center",
+            "orientation": "vertical",
+            "flags_fits": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 198,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "filename": "assets/img/sprites/pride_paws/none_vertical_4.png",
+            "id": "none_vertical_4.png"
+        },
+        "rainbow_pride_flag_horizontal_0.png": {
+            "flag_name": "Rainbow Pride Flag",
+            "part": "left_part_1",
+            "orientation": "horizontal",
+            "flags_fits": false,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 0,
+                "y": 22,
+                "w": 22,
+                "h": 22
+            },
+            "filename": "assets/img/sprites/pride_paws/rainbow_pride_flag_horizontal_0.png",
+            "id": "rainbow_pride_flag_horizontal_0.png"
+        },
+        "rainbow_pride_flag_horizontal_1.png": {
+            "flag_name": "Rainbow Pride Flag",
+            "part": "left_part_2",
+            "orientation": "horizontal",
+            "flags_fits": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 22,
+                "y": 22,
+                "w": 22,
+                "h": 22
+            },
+            "filename": "assets/img/sprites/pride_paws/rainbow_pride_flag_horizontal_1.png",
+            "id": "rainbow_pride_flag_horizontal_1.png"
+        },
+        "rainbow_pride_flag_horizontal_2.png": {
+            "flag_name": "Rainbow Pride Flag",
+            "part": "right_part_1",
+            "orientation": "horizontal",
+            "flags_fits": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 44,
+                "y": 22,
+                "w": 22,
+                "h": 22
+            },
+            "filename": "assets/img/sprites/pride_paws/rainbow_pride_flag_horizontal_2.png",
+            "id": "rainbow_pride_flag_horizontal_2.png"
+        },
+        "rainbow_pride_flag_horizontal_3.png": {
+            "flag_name": "Rainbow Pride Flag",
+            "part": "right_part_2",
+            "orientation": "horizontal",
+            "flags_fits": false,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 66,
+                "y": 22,
+                "w": 22,
+                "h": 22
+            },
+            "filename": "assets/img/sprites/pride_paws/rainbow_pride_flag_horizontal_3.png",
+            "id": "rainbow_pride_flag_horizontal_3.png"
+        },
+        "rainbow_pride_flag_horizontal_4.png": {
+            "flag_name": "Rainbow Pride Flag",
+            "part": "center",
+            "orientation": "horizontal",
+            "flags_fits": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 88,
+                "y": 22,
+                "w": 22,
+                "h": 22
+            },
+            "filename": "assets/img/sprites/pride_paws/rainbow_pride_flag_horizontal_4.png",
+            "id": "rainbow_pride_flag_horizontal_4.png"
+        },
+        "rainbow_pride_flag_vertical_0.png": {
+            "flag_name": "Rainbow Pride Flag",
+            "part": "left_part_1",
+            "orientation": "vertical",
+            "flags_fits": false,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 110,
+                "y": 22,
+                "w": 22,
+                "h": 22
+            },
+            "filename": "assets/img/sprites/pride_paws/rainbow_pride_flag_vertical_0.png",
+            "id": "rainbow_pride_flag_vertical_0.png"
+        },
+        "rainbow_pride_flag_vertical_1.png": {
+            "flag_name": "Rainbow Pride Flag",
+            "part": "left_part_2",
+            "orientation": "vertical",
+            "flags_fits": false,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 132,
+                "y": 22,
+                "w": 22,
+                "h": 22
+            },
+            "filename": "assets/img/sprites/pride_paws/rainbow_pride_flag_vertical_1.png",
+            "id": "rainbow_pride_flag_vertical_1.png"
+        },
+        "rainbow_pride_flag_vertical_2.png": {
+            "flag_name": "Rainbow Pride Flag",
+            "part": "right_part_1",
+            "orientation": "vertical",
+            "flags_fits": false,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 154,
+                "y": 22,
+                "w": 22,
+                "h": 22
+            },
+            "filename": "assets/img/sprites/pride_paws/rainbow_pride_flag_vertical_2.png",
+            "id": "rainbow_pride_flag_vertical_2.png"
+        },
+        "rainbow_pride_flag_vertical_3.png": {
+            "flag_name": "Rainbow Pride Flag",
+            "part": "right_part_2",
+            "orientation": "vertical",
+            "flags_fits": false,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 176,
+                "y": 22,
+                "w": 22,
+                "h": 22
+            },
+            "filename": "assets/img/sprites/pride_paws/rainbow_pride_flag_vertical_3.png",
+            "id": "rainbow_pride_flag_vertical_3.png"
+        },
+        "rainbow_pride_flag_vertical_4.png": {
+            "flag_name": "Rainbow Pride Flag",
+            "part": "center",
+            "orientation": "vertical",
+            "flags_fits": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 198,
+                "y": 22,
+                "w": 22,
+                "h": 22
+            },
+            "filename": "assets/img/sprites/pride_paws/rainbow_pride_flag_vertical_4.png",
+            "id": "rainbow_pride_flag_vertical_4.png"
+        },
+        "philadelphias_people_of_color_inclusive_flag_horizontal_0.png": {
+            "flag_name": "Philadelphia's People of Color Inclusive Flag",
+            "part": "left_part_1",
+            "orientation": "horizontal",
+            "flags_fits": false,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 0,
+                "y": 44,
+                "w": 22,
+                "h": 22
+            },
+            "filename": "assets/img/sprites/pride_paws/philadelphias_people_of_color_inclusive_flag_horizontal_0.png",
+            "id": "philadelphias_people_of_color_inclusive_flag_horizontal_0.png"
+        },
+        "philadelphias_people_of_color_inclusive_flag_horizontal_1.png": {
+            "flag_name": "Philadelphia's People of Color Inclusive Flag",
+            "part": "left_part_2",
+            "orientation": "horizontal",
+            "flags_fits": true,
+            "flags_fits_perfect": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 22,
+                "y": 44,
+                "w": 22,
+                "h": 22
+            },
+            "filename": "assets/img/sprites/pride_paws/philadelphias_people_of_color_inclusive_flag_horizontal_1.png",
+            "id": "philadelphias_people_of_color_inclusive_flag_horizontal_1.png"
+        },
+        "philadelphias_people_of_color_inclusive_flag_horizontal_2.png": {
+            "flag_name": "Philadelphia's People of Color Inclusive Flag",
+            "part": "right_part_1",
+            "orientation": "horizontal",
+            "flags_fits": true,
+            "flags_fits_perfect": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 44,
+                "y": 44,
+                "w": 22,
+                "h": 22
+            },
+            "filename": "assets/img/sprites/pride_paws/philadelphias_people_of_color_inclusive_flag_horizontal_2.png",
+            "id": "philadelphias_people_of_color_inclusive_flag_horizontal_2.png"
+        },
+        "philadelphias_people_of_color_inclusive_flag_horizontal_3.png": {
+            "flag_name": "Philadelphia's People of Color Inclusive Flag",
+            "part": "right_part_2",
+            "orientation": "horizontal",
+            "flags_fits": false,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 66,
+                "y": 44,
+                "w": 22,
+                "h": 22
+            },
+            "filename": "assets/img/sprites/pride_paws/philadelphias_people_of_color_inclusive_flag_horizontal_3.png",
+            "id": "philadelphias_people_of_color_inclusive_flag_horizontal_3.png"
+        },
+        "philadelphias_people_of_color_inclusive_flag_horizontal_4.png": {
+            "flag_name": "Philadelphia's People of Color Inclusive Flag",
+            "part": "center",
+            "orientation": "horizontal",
+            "flags_fits": false,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 88,
+                "y": 44,
+                "w": 22,
+                "h": 22
+            },
+            "filename": "assets/img/sprites/pride_paws/philadelphias_people_of_color_inclusive_flag_horizontal_4.png",
+            "id": "philadelphias_people_of_color_inclusive_flag_horizontal_4.png"
+        },
+        "philadelphias_people_of_color_inclusive_flag_vertical_0.png": {
+            "flag_name": "Philadelphia's People of Color Inclusive Flag",
+            "part": "left_part_1",
+            "orientation": "vertical",
+            "flags_fits": false,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 110,
+                "y": 44,
+                "w": 22,
+                "h": 22
+            },
+            "filename": "assets/img/sprites/pride_paws/philadelphias_people_of_color_inclusive_flag_vertical_0.png",
+            "id": "philadelphias_people_of_color_inclusive_flag_vertical_0.png"
+        },
+        "philadelphias_people_of_color_inclusive_flag_vertical_1.png": {
+            "flag_name": "Philadelphia's People of Color Inclusive Flag",
+            "part": "left_part_2",
+            "orientation": "vertical",
+            "flags_fits": false,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 132,
+                "y": 44,
+                "w": 22,
+                "h": 22
+            },
+            "filename": "assets/img/sprites/pride_paws/philadelphias_people_of_color_inclusive_flag_vertical_1.png",
+            "id": "philadelphias_people_of_color_inclusive_flag_vertical_1.png"
+        },
+        "philadelphias_people_of_color_inclusive_flag_vertical_2.png": {
+            "flag_name": "Philadelphia's People of Color Inclusive Flag",
+            "part": "right_part_1",
+            "orientation": "vertical",
+            "flags_fits": false,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 154,
+                "y": 44,
+                "w": 22,
+                "h": 22
+            },
+            "filename": "assets/img/sprites/pride_paws/philadelphias_people_of_color_inclusive_flag_vertical_2.png",
+            "id": "philadelphias_people_of_color_inclusive_flag_vertical_2.png"
+        },
+        "philadelphias_people_of_color_inclusive_flag_vertical_3.png": {
+            "flag_name": "Philadelphia's People of Color Inclusive Flag",
+            "part": "right_part_2",
+            "orientation": "vertical",
+            "flags_fits": false,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 176,
+                "y": 44,
+                "w": 22,
+                "h": 22
+            },
+            "filename": "assets/img/sprites/pride_paws/philadelphias_people_of_color_inclusive_flag_vertical_3.png",
+            "id": "philadelphias_people_of_color_inclusive_flag_vertical_3.png"
+        },
+        "philadelphias_people_of_color_inclusive_flag_vertical_4.png": {
+            "flag_name": "Philadelphia's People of Color Inclusive Flag",
+            "part": "center",
+            "orientation": "vertical",
+            "flags_fits": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 198,
+                "y": 44,
+                "w": 22,
+                "h": 22
+            },
+            "filename": "assets/img/sprites/pride_paws/philadelphias_people_of_color_inclusive_flag_vertical_4.png",
+            "id": "philadelphias_people_of_color_inclusive_flag_vertical_4.png"
+        },
+        "asexual_horizontal_0.png": {
+            "flag_name": "Asexual",
+            "part": "left_part_1",
+            "orientation": "horizontal",
+            "flags_fits": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 0,
+                "y": 66,
+                "w": 22,
+                "h": 22
+            },
+            "filename": "assets/img/sprites/pride_paws/asexual_horizontal_0.png",
+            "id": "asexual_horizontal_0.png"
+        },
+        "asexual_horizontal_1.png": {
+            "flag_name": "Asexual",
+            "part": "left_part_2",
+            "orientation": "horizontal",
+            "flags_fits": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 22,
+                "y": 66,
+                "w": 22,
+                "h": 22
+            },
+            "filename": "assets/img/sprites/pride_paws/asexual_horizontal_1.png",
+            "id": "asexual_horizontal_1.png"
+        },
+        "asexual_horizontal_2.png": {
+            "flag_name": "Asexual",
+            "part": "right_part_1",
+            "orientation": "horizontal",
+            "flags_fits": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 44,
+                "y": 66,
+                "w": 22,
+                "h": 22
+            },
+            "filename": "assets/img/sprites/pride_paws/asexual_horizontal_2.png",
+            "id": "asexual_horizontal_2.png"
+        },
+        "asexual_horizontal_3.png": {
+            "flag_name": "Asexual",
+            "part": "right_part_2",
+            "orientation": "horizontal",
+            "flags_fits": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 66,
+                "y": 66,
+                "w": 22,
+                "h": 22
+            },
+            "filename": "assets/img/sprites/pride_paws/asexual_horizontal_3.png",
+            "id": "asexual_horizontal_3.png"
+        },
+        "asexual_horizontal_4.png": {
+            "flag_name": "Asexual",
+            "part": "center",
+            "orientation": "horizontal",
+            "flags_fits": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 88,
+                "y": 66,
+                "w": 22,
+                "h": 22
+            },
+            "filename": "assets/img/sprites/pride_paws/asexual_horizontal_4.png",
+            "id": "asexual_horizontal_4.png"
+        },
+        "asexual_vertical_0.png": {
+            "flag_name": "Asexual",
+            "part": "left_part_1",
+            "orientation": "vertical",
+            "flags_fits": true,
+            "flags_fits_perfect": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 110,
+                "y": 66,
+                "w": 22,
+                "h": 22
+            },
+            "filename": "assets/img/sprites/pride_paws/asexual_vertical_0.png",
+            "id": "asexual_vertical_0.png"
+        },
+        "asexual_vertical_1.png": {
+            "flag_name": "Asexual",
+            "part": "left_part_2",
+            "orientation": "vertical",
+            "flags_fits": true,
+            "flags_fits_perfect": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 132,
+                "y": 66,
+                "w": 22,
+                "h": 22
+            },
+            "filename": "assets/img/sprites/pride_paws/asexual_vertical_1.png",
+            "id": "asexual_vertical_1.png"
+        },
+        "asexual_vertical_2.png": {
+            "flag_name": "Asexual",
+            "part": "right_part_1",
+            "orientation": "vertical",
+            "flags_fits": true,
+            "flags_fits_perfect": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 154,
+                "y": 66,
+                "w": 22,
+                "h": 22
+            },
+            "filename": "assets/img/sprites/pride_paws/asexual_vertical_2.png",
+            "id": "asexual_vertical_2.png"
+        },
+        "asexual_vertical_3.png": {
+            "flag_name": "Asexual",
+            "part": "right_part_2",
+            "orientation": "vertical",
+            "flags_fits": true,
+            "flags_fits_perfect": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 176,
+                "y": 66,
+                "w": 22,
+                "h": 22
+            },
+            "filename": "assets/img/sprites/pride_paws/asexual_vertical_3.png",
+            "id": "asexual_vertical_3.png"
+        },
+        "asexual_vertical_4.png": {
+            "flag_name": "Asexual",
+            "part": "center",
+            "orientation": "vertical",
+            "flags_fits": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 198,
+                "y": 66,
+                "w": 22,
+                "h": 22
+            },
+            "filename": "assets/img/sprites/pride_paws/asexual_vertical_4.png",
+            "id": "asexual_vertical_4.png"
+        },
+        "bisexual_horizontal_0.png": {
+            "flag_name": "Bisexual",
+            "part": "left_part_1",
+            "orientation": "horizontal",
+            "flags_fits": true,
+            "flags_fits_perfect": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 0,
+                "y": 88,
+                "w": 22,
+                "h": 22
+            },
+            "filename": "assets/img/sprites/pride_paws/bisexual_horizontal_0.png",
+            "id": "bisexual_horizontal_0.png"
+        },
+        "bisexual_horizontal_1.png": {
+            "flag_name": "Bisexual",
+            "part": "left_part_2",
+            "orientation": "horizontal",
+            "flags_fits": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 22,
+                "y": 88,
+                "w": 22,
+                "h": 22
+            },
+            "filename": "assets/img/sprites/pride_paws/bisexual_horizontal_1.png",
+            "id": "bisexual_horizontal_1.png"
+        },
+        "bisexual_horizontal_2.png": {
+            "flag_name": "Bisexual",
+            "part": "right_part_1",
+            "orientation": "horizontal",
+            "flags_fits": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 44,
+                "y": 88,
+                "w": 22,
+                "h": 22
+            },
+            "filename": "assets/img/sprites/pride_paws/bisexual_horizontal_2.png",
+            "id": "bisexual_horizontal_2.png"
+        },
+        "bisexual_horizontal_3.png": {
+            "flag_name": "Bisexual",
+            "part": "right_part_2",
+            "orientation": "horizontal",
+            "flags_fits": true,
+            "flags_fits_perfect": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 66,
+                "y": 88,
+                "w": 22,
+                "h": 22
+            },
+            "filename": "assets/img/sprites/pride_paws/bisexual_horizontal_3.png",
+            "id": "bisexual_horizontal_3.png"
+        },
+        "bisexual_horizontal_4.png": {
+            "flag_name": "Bisexual",
+            "part": "center",
+            "orientation": "horizontal",
+            "flags_fits": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 88,
+                "y": 88,
+                "w": 22,
+                "h": 22
+            },
+            "filename": "assets/img/sprites/pride_paws/bisexual_horizontal_4.png",
+            "id": "bisexual_horizontal_4.png"
+        },
+        "bisexual_vertical_0.png": {
+            "flag_name": "Bisexual",
+            "part": "left_part_1",
+            "orientation": "vertical",
+            "flags_fits": false,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 110,
+                "y": 88,
+                "w": 22,
+                "h": 22
+            },
+            "filename": "assets/img/sprites/pride_paws/bisexual_vertical_0.png",
+            "id": "bisexual_vertical_0.png"
+        },
+        "bisexual_vertical_1.png": {
+            "flag_name": "Bisexual",
+            "part": "left_part_2",
+            "orientation": "vertical",
+            "flags_fits": false,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 132,
+                "y": 88,
+                "w": 22,
+                "h": 22
+            },
+            "filename": "assets/img/sprites/pride_paws/bisexual_vertical_1.png",
+            "id": "bisexual_vertical_1.png"
+        },
+        "bisexual_vertical_2.png": {
+            "flag_name": "Bisexual",
+            "part": "right_part_1",
+            "orientation": "vertical",
+            "flags_fits": false,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 154,
+                "y": 88,
+                "w": 22,
+                "h": 22
+            },
+            "filename": "assets/img/sprites/pride_paws/bisexual_vertical_2.png",
+            "id": "bisexual_vertical_2.png"
+        },
+        "bisexual_vertical_3.png": {
+            "flag_name": "Bisexual",
+            "part": "right_part_2",
+            "orientation": "vertical",
+            "flags_fits": false,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 176,
+                "y": 88,
+                "w": 22,
+                "h": 22
+            },
+            "filename": "assets/img/sprites/pride_paws/bisexual_vertical_3.png",
+            "id": "bisexual_vertical_3.png"
+        },
+        "bisexual_vertical_4.png": {
+            "flag_name": "Bisexual",
+            "part": "center",
+            "orientation": "vertical",
+            "flags_fits": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 198,
+                "y": 88,
+                "w": 22,
+                "h": 22
+            },
+            "filename": "assets/img/sprites/pride_paws/bisexual_vertical_4.png",
+            "id": "bisexual_vertical_4.png"
+        },
+        "pansexual_horizontal_0.png": {
+            "flag_name": "Pansexual",
+            "part": "left_part_1",
+            "orientation": "horizontal",
+            "flags_fits": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 0,
+                "y": 110,
+                "w": 22,
+                "h": 22
+            },
+            "filename": "assets/img/sprites/pride_paws/pansexual_horizontal_0.png",
+            "id": "pansexual_horizontal_0.png"
+        },
+        "pansexual_horizontal_1.png": {
+            "flag_name": "Pansexual",
+            "part": "left_part_2",
+            "orientation": "horizontal",
+            "flags_fits": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 22,
+                "y": 110,
+                "w": 22,
+                "h": 22
+            },
+            "filename": "assets/img/sprites/pride_paws/pansexual_horizontal_1.png",
+            "id": "pansexual_horizontal_1.png"
+        },
+        "pansexual_horizontal_2.png": {
+            "flag_name": "Pansexual",
+            "part": "right_part_1",
+            "orientation": "horizontal",
+            "flags_fits": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 44,
+                "y": 110,
+                "w": 22,
+                "h": 22
+            },
+            "filename": "assets/img/sprites/pride_paws/pansexual_horizontal_2.png",
+            "id": "pansexual_horizontal_2.png"
+        },
+        "pansexual_horizontal_3.png": {
+            "flag_name": "Pansexual",
+            "part": "right_part_2",
+            "orientation": "horizontal",
+            "flags_fits": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 66,
+                "y": 110,
+                "w": 22,
+                "h": 22
+            },
+            "filename": "assets/img/sprites/pride_paws/pansexual_horizontal_3.png",
+            "id": "pansexual_horizontal_3.png"
+        },
+        "pansexual_horizontal_4.png": {
+            "flag_name": "Pansexual",
+            "part": "center",
+            "orientation": "horizontal",
+            "flags_fits": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 88,
+                "y": 110,
+                "w": 22,
+                "h": 22
+            },
+            "filename": "assets/img/sprites/pride_paws/pansexual_horizontal_4.png",
+            "id": "pansexual_horizontal_4.png"
+        },
+        "pansexual_vertical_0.png": {
+            "flag_name": "Pansexual",
+            "part": "left_part_1",
+            "orientation": "vertical",
+            "flags_fits": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 110,
+                "y": 110,
+                "w": 22,
+                "h": 22
+            },
+            "filename": "assets/img/sprites/pride_paws/pansexual_vertical_0.png",
+            "id": "pansexual_vertical_0.png"
+        },
+        "pansexual_vertical_1.png": {
+            "flag_name": "Pansexual",
+            "part": "left_part_2",
+            "orientation": "vertical",
+            "flags_fits": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 132,
+                "y": 110,
+                "w": 22,
+                "h": 22
+            },
+            "filename": "assets/img/sprites/pride_paws/pansexual_vertical_1.png",
+            "id": "pansexual_vertical_1.png"
+        },
+        "pansexual_vertical_2.png": {
+            "flag_name": "Pansexual",
+            "part": "right_part_1",
+            "orientation": "vertical",
+            "flags_fits": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 154,
+                "y": 110,
+                "w": 22,
+                "h": 22
+            },
+            "filename": "assets/img/sprites/pride_paws/pansexual_vertical_2.png",
+            "id": "pansexual_vertical_2.png"
+        },
+        "pansexual_vertical_3.png": {
+            "flag_name": "Pansexual",
+            "part": "right_part_2",
+            "orientation": "vertical",
+            "flags_fits": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 176,
+                "y": 110,
+                "w": 22,
+                "h": 22
+            },
+            "filename": "assets/img/sprites/pride_paws/pansexual_vertical_3.png",
+            "id": "pansexual_vertical_3.png"
+        },
+        "pansexual_vertical_4.png": {
+            "flag_name": "Pansexual",
+            "part": "center",
+            "orientation": "vertical",
+            "flags_fits": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 198,
+                "y": 110,
+                "w": 22,
+                "h": 22
+            },
+            "filename": "assets/img/sprites/pride_paws/pansexual_vertical_4.png",
+            "id": "pansexual_vertical_4.png"
+        },
+        "lesbian_horizontal_0.png": {
+            "flag_name": "Lesbian",
+            "part": "left_part_1",
+            "orientation": "horizontal",
+            "flags_fits": false,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 0,
+                "y": 132,
+                "w": 22,
+                "h": 22
+            },
+            "filename": "assets/img/sprites/pride_paws/lesbian_horizontal_0.png",
+            "id": "lesbian_horizontal_0.png"
+        },
+        "lesbian_horizontal_1.png": {
+            "flag_name": "Lesbian",
+            "part": "left_part_2",
+            "orientation": "horizontal",
+            "flags_fits": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 22,
+                "y": 132,
+                "w": 22,
+                "h": 22
+            },
+            "filename": "assets/img/sprites/pride_paws/lesbian_horizontal_1.png",
+            "id": "lesbian_horizontal_1.png"
+        },
+        "lesbian_horizontal_2.png": {
+            "flag_name": "Lesbian",
+            "part": "right_part_1",
+            "orientation": "horizontal",
+            "flags_fits": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 44,
+                "y": 132,
+                "w": 22,
+                "h": 22
+            },
+            "filename": "assets/img/sprites/pride_paws/lesbian_horizontal_2.png",
+            "id": "lesbian_horizontal_2.png"
+        },
+        "lesbian_horizontal_3.png": {
+            "flag_name": "Lesbian",
+            "part": "right_part_2",
+            "orientation": "horizontal",
+            "flags_fits": false,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 66,
+                "y": 132,
+                "w": 22,
+                "h": 22
+            },
+            "filename": "assets/img/sprites/pride_paws/lesbian_horizontal_3.png",
+            "id": "lesbian_horizontal_3.png"
+        },
+        "lesbian_horizontal_4.png": {
+            "flag_name": "Lesbian",
+            "part": "center",
+            "orientation": "horizontal",
+            "flags_fits": true,
+            "flags_fits_perfect": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 88,
+                "y": 132,
+                "w": 22,
+                "h": 22
+            },
+            "filename": "assets/img/sprites/pride_paws/lesbian_horizontal_4.png",
+            "id": "lesbian_horizontal_4.png"
+        },
+        "lesbian_vertical_0.png": {
+            "flag_name": "Lesbian",
+            "part": "left_part_1",
+            "orientation": "vertical",
+            "flags_fits": false,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 110,
+                "y": 132,
+                "w": 22,
+                "h": 22
+            },
+            "filename": "assets/img/sprites/pride_paws/lesbian_vertical_0.png",
+            "id": "lesbian_vertical_0.png"
+        },
+        "lesbian_vertical_1.png": {
+            "flag_name": "Lesbian",
+            "part": "left_part_2",
+            "orientation": "vertical",
+            "flags_fits": false,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 132,
+                "y": 132,
+                "w": 22,
+                "h": 22
+            },
+            "filename": "assets/img/sprites/pride_paws/lesbian_vertical_1.png",
+            "id": "lesbian_vertical_1.png"
+        },
+        "lesbian_vertical_2.png": {
+            "flag_name": "Lesbian",
+            "part": "right_part_1",
+            "orientation": "vertical",
+            "flags_fits": false,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 154,
+                "y": 132,
+                "w": 22,
+                "h": 22
+            },
+            "filename": "assets/img/sprites/pride_paws/lesbian_vertical_2.png",
+            "id": "lesbian_vertical_2.png"
+        },
+        "lesbian_vertical_3.png": {
+            "flag_name": "Lesbian",
+            "part": "right_part_2",
+            "orientation": "vertical",
+            "flags_fits": false,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 176,
+                "y": 132,
+                "w": 22,
+                "h": 22
+            },
+            "filename": "assets/img/sprites/pride_paws/lesbian_vertical_3.png",
+            "id": "lesbian_vertical_3.png"
+        },
+        "lesbian_vertical_4.png": {
+            "flag_name": "Lesbian",
+            "part": "center",
+            "orientation": "vertical",
+            "flags_fits": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 198,
+                "y": 132,
+                "w": 22,
+                "h": 22
+            },
+            "filename": "assets/img/sprites/pride_paws/lesbian_vertical_4.png",
+            "id": "lesbian_vertical_4.png"
+        },
+        "progress_horizontal_0.png": {
+            "flag_name": "Progress",
+            "part": "left_part_1",
+            "orientation": "horizontal",
+            "flags_fits": false,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 0,
+                "y": 154,
+                "w": 22,
+                "h": 22
+            },
+            "filename": "assets/img/sprites/pride_paws/progress_horizontal_0.png",
+            "id": "progress_horizontal_0.png"
+        },
+        "progress_horizontal_1.png": {
+            "flag_name": "Progress",
+            "part": "left_part_2",
+            "orientation": "horizontal",
+            "flags_fits": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 22,
+                "y": 154,
+                "w": 22,
+                "h": 22
+            },
+            "filename": "assets/img/sprites/pride_paws/progress_horizontal_1.png",
+            "id": "progress_horizontal_1.png"
+        },
+        "progress_horizontal_2.png": {
+            "flag_name": "Progress",
+            "part": "right_part_1",
+            "orientation": "horizontal",
+            "flags_fits": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 44,
+                "y": 154,
+                "w": 22,
+                "h": 22
+            },
+            "filename": "assets/img/sprites/pride_paws/progress_horizontal_2.png",
+            "id": "progress_horizontal_2.png"
+        },
+        "progress_horizontal_3.png": {
+            "flag_name": "Progress",
+            "part": "right_part_2",
+            "orientation": "horizontal",
+            "flags_fits": false,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 66,
+                "y": 154,
+                "w": 22,
+                "h": 22
+            },
+            "filename": "assets/img/sprites/pride_paws/progress_horizontal_3.png",
+            "id": "progress_horizontal_3.png"
+        },
+        "progress_horizontal_4.png": {
+            "flag_name": "Progress",
+            "part": "center",
+            "orientation": "horizontal",
+            "flags_fits": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 88,
+                "y": 154,
+                "w": 22,
+                "h": 22
+            },
+            "filename": "assets/img/sprites/pride_paws/progress_horizontal_4.png",
+            "id": "progress_horizontal_4.png"
+        },
+        "progress_vertical_0.png": {
+            "flag_name": "Progress",
+            "part": "left_part_1",
+            "orientation": "vertical",
+            "flags_fits": false,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 110,
+                "y": 154,
+                "w": 22,
+                "h": 22
+            },
+            "filename": "assets/img/sprites/pride_paws/progress_vertical_0.png",
+            "id": "progress_vertical_0.png"
+        },
+        "progress_vertical_1.png": {
+            "flag_name": "Progress",
+            "part": "left_part_2",
+            "orientation": "vertical",
+            "flags_fits": false,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 132,
+                "y": 154,
+                "w": 22,
+                "h": 22
+            },
+            "filename": "assets/img/sprites/pride_paws/progress_vertical_1.png",
+            "id": "progress_vertical_1.png"
+        },
+        "progress_vertical_2.png": {
+            "flag_name": "Progress",
+            "part": "right_part_1",
+            "orientation": "vertical",
+            "flags_fits": false,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 154,
+                "y": 154,
+                "w": 22,
+                "h": 22
+            },
+            "filename": "assets/img/sprites/pride_paws/progress_vertical_2.png",
+            "id": "progress_vertical_2.png"
+        },
+        "progress_vertical_3.png": {
+            "flag_name": "Progress",
+            "part": "right_part_2",
+            "orientation": "vertical",
+            "flags_fits": false,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 176,
+                "y": 154,
+                "w": 22,
+                "h": 22
+            },
+            "filename": "assets/img/sprites/pride_paws/progress_vertical_3.png",
+            "id": "progress_vertical_3.png"
+        },
+        "progress_vertical_4.png": {
+            "flag_name": "Progress",
+            "part": "center",
+            "orientation": "vertical",
+            "flags_fits": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 198,
+                "y": 154,
+                "w": 22,
+                "h": 22
+            },
+            "filename": "assets/img/sprites/pride_paws/progress_vertical_4.png",
+            "id": "progress_vertical_4.png"
+        },
+        "demisexual_horizontal_0.png": {
+            "flag_name": "Demisexual",
+            "part": "left_part_1",
+            "orientation": "horizontal",
+            "flags_fits": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 0,
+                "y": 176,
+                "w": 22,
+                "h": 22
+            },
+            "filename": "assets/img/sprites/pride_paws/demisexual_horizontal_0.png",
+            "id": "demisexual_horizontal_0.png"
+        },
+        "demisexual_horizontal_1.png": {
+            "flag_name": "Demisexual",
+            "part": "left_part_2",
+            "orientation": "horizontal",
+            "flags_fits": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 22,
+                "y": 176,
+                "w": 22,
+                "h": 22
+            },
+            "filename": "assets/img/sprites/pride_paws/demisexual_horizontal_1.png",
+            "id": "demisexual_horizontal_1.png"
+        },
+        "demisexual_horizontal_2.png": {
+            "flag_name": "Demisexual",
+            "part": "right_part_1",
+            "orientation": "horizontal",
+            "flags_fits": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 44,
+                "y": 176,
+                "w": 22,
+                "h": 22
+            },
+            "filename": "assets/img/sprites/pride_paws/demisexual_horizontal_2.png",
+            "id": "demisexual_horizontal_2.png"
+        },
+        "demisexual_horizontal_3.png": {
+            "flag_name": "Demisexual",
+            "part": "right_part_2",
+            "orientation": "horizontal",
+            "flags_fits": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 66,
+                "y": 176,
+                "w": 22,
+                "h": 22
+            },
+            "filename": "assets/img/sprites/pride_paws/demisexual_horizontal_3.png",
+            "id": "demisexual_horizontal_3.png"
+        },
+        "demisexual_horizontal_4.png": {
+            "flag_name": "Demisexual",
+            "part": "center",
+            "orientation": "horizontal",
+            "flags_fits": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 88,
+                "y": 176,
+                "w": 22,
+                "h": 22
+            },
+            "filename": "assets/img/sprites/pride_paws/demisexual_horizontal_4.png",
+            "id": "demisexual_horizontal_4.png"
+        },
+        "demisexual_vertical_0.png": {
+            "flag_name": "Demisexual",
+            "part": "left_part_1",
+            "orientation": "vertical",
+            "flags_fits": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 110,
+                "y": 176,
+                "w": 22,
+                "h": 22
+            },
+            "filename": "assets/img/sprites/pride_paws/demisexual_vertical_0.png",
+            "id": "demisexual_vertical_0.png"
+        },
+        "demisexual_vertical_1.png": {
+            "flag_name": "Demisexual",
+            "part": "left_part_2",
+            "orientation": "vertical",
+            "flags_fits": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 132,
+                "y": 176,
+                "w": 22,
+                "h": 22
+            },
+            "filename": "assets/img/sprites/pride_paws/demisexual_vertical_1.png",
+            "id": "demisexual_vertical_1.png"
+        },
+        "demisexual_vertical_2.png": {
+            "flag_name": "Demisexual",
+            "part": "right_part_1",
+            "orientation": "vertical",
+            "flags_fits": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 154,
+                "y": 176,
+                "w": 22,
+                "h": 22
+            },
+            "filename": "assets/img/sprites/pride_paws/demisexual_vertical_2.png",
+            "id": "demisexual_vertical_2.png"
+        },
+        "demisexual_vertical_3.png": {
+            "flag_name": "Demisexual",
+            "part": "right_part_2",
+            "orientation": "vertical",
+            "flags_fits": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 176,
+                "y": 176,
+                "w": 22,
+                "h": 22
+            },
+            "filename": "assets/img/sprites/pride_paws/demisexual_vertical_3.png",
+            "id": "demisexual_vertical_3.png"
+        },
+        "demisexual_vertical_4.png": {
+            "flag_name": "Demisexual",
+            "part": "center",
+            "orientation": "vertical",
+            "flags_fits": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 198,
+                "y": 176,
+                "w": 22,
+                "h": 22
+            },
+            "filename": "assets/img/sprites/pride_paws/demisexual_vertical_4.png",
+            "id": "demisexual_vertical_4.png"
+        },
+        "polyamory_horizontal_0.png": {
+            "flag_name": "Polyamory",
+            "part": "left_part_1",
+            "orientation": "horizontal",
+            "flags_fits": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 0,
+                "y": 198,
+                "w": 22,
+                "h": 22
+            },
+            "filename": "assets/img/sprites/pride_paws/polyamory_horizontal_0.png",
+            "id": "polyamory_horizontal_0.png"
+        },
+        "polyamory_horizontal_1.png": {
+            "flag_name": "Polyamory",
+            "part": "left_part_2",
+            "orientation": "horizontal",
+            "flags_fits": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 22,
+                "y": 198,
+                "w": 22,
+                "h": 22
+            },
+            "filename": "assets/img/sprites/pride_paws/polyamory_horizontal_1.png",
+            "id": "polyamory_horizontal_1.png"
+        },
+        "polyamory_horizontal_2.png": {
+            "flag_name": "Polyamory",
+            "part": "right_part_1",
+            "orientation": "horizontal",
+            "flags_fits": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 44,
+                "y": 198,
+                "w": 22,
+                "h": 22
+            },
+            "filename": "assets/img/sprites/pride_paws/polyamory_horizontal_2.png",
+            "id": "polyamory_horizontal_2.png"
+        },
+        "polyamory_horizontal_3.png": {
+            "flag_name": "Polyamory",
+            "part": "right_part_2",
+            "orientation": "horizontal",
+            "flags_fits": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 66,
+                "y": 198,
+                "w": 22,
+                "h": 22
+            },
+            "filename": "assets/img/sprites/pride_paws/polyamory_horizontal_3.png",
+            "id": "polyamory_horizontal_3.png"
+        },
+        "polyamory_horizontal_4.png": {
+            "flag_name": "Polyamory",
+            "part": "center",
+            "orientation": "horizontal",
+            "flags_fits": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 88,
+                "y": 198,
+                "w": 22,
+                "h": 22
+            },
+            "filename": "assets/img/sprites/pride_paws/polyamory_horizontal_4.png",
+            "id": "polyamory_horizontal_4.png"
+        },
+        "polyamory_vertical_0.png": {
+            "flag_name": "Polyamory",
+            "part": "left_part_1",
+            "orientation": "vertical",
+            "flags_fits": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 110,
+                "y": 198,
+                "w": 22,
+                "h": 22
+            },
+            "filename": "assets/img/sprites/pride_paws/polyamory_vertical_0.png",
+            "id": "polyamory_vertical_0.png"
+        },
+        "polyamory_vertical_1.png": {
+            "flag_name": "Polyamory",
+            "part": "left_part_2",
+            "orientation": "vertical",
+            "flags_fits": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 132,
+                "y": 198,
+                "w": 22,
+                "h": 22
+            },
+            "filename": "assets/img/sprites/pride_paws/polyamory_vertical_1.png",
+            "id": "polyamory_vertical_1.png"
+        },
+        "polyamory_vertical_2.png": {
+            "flag_name": "Polyamory",
+            "part": "right_part_1",
+            "orientation": "vertical",
+            "flags_fits": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 154,
+                "y": 198,
+                "w": 22,
+                "h": 22
+            },
+            "filename": "assets/img/sprites/pride_paws/polyamory_vertical_2.png",
+            "id": "polyamory_vertical_2.png"
+        },
+        "polyamory_vertical_3.png": {
+            "flag_name": "Polyamory",
+            "part": "right_part_2",
+            "orientation": "vertical",
+            "flags_fits": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 176,
+                "y": 198,
+                "w": 22,
+                "h": 22
+            },
+            "filename": "assets/img/sprites/pride_paws/polyamory_vertical_3.png",
+            "id": "polyamory_vertical_3.png"
+        },
+        "polyamory_vertical_4.png": {
+            "flag_name": "Polyamory",
+            "part": "center",
+            "orientation": "vertical",
+            "flags_fits": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 198,
+                "y": 198,
+                "w": 22,
+                "h": 22
+            },
+            "filename": "assets/img/sprites/pride_paws/polyamory_vertical_4.png",
+            "id": "polyamory_vertical_4.png"
+        },
+        "polysexual_horizontal_0.png": {
+            "flag_name": "Polysexual",
+            "part": "left_part_1",
+            "orientation": "horizontal",
+            "flags_fits": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 0,
+                "y": 220,
+                "w": 22,
+                "h": 22
+            },
+            "filename": "assets/img/sprites/pride_paws/polysexual_horizontal_0.png",
+            "id": "polysexual_horizontal_0.png"
+        },
+        "polysexual_horizontal_1.png": {
+            "flag_name": "Polysexual",
+            "part": "left_part_2",
+            "orientation": "horizontal",
+            "flags_fits": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 22,
+                "y": 220,
+                "w": 22,
+                "h": 22
+            },
+            "filename": "assets/img/sprites/pride_paws/polysexual_horizontal_1.png",
+            "id": "polysexual_horizontal_1.png"
+        },
+        "polysexual_horizontal_2.png": {
+            "flag_name": "Polysexual",
+            "part": "right_part_1",
+            "orientation": "horizontal",
+            "flags_fits": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 44,
+                "y": 220,
+                "w": 22,
+                "h": 22
+            },
+            "filename": "assets/img/sprites/pride_paws/polysexual_horizontal_2.png",
+            "id": "polysexual_horizontal_2.png"
+        },
+        "polysexual_horizontal_3.png": {
+            "flag_name": "Polysexual",
+            "part": "right_part_2",
+            "orientation": "horizontal",
+            "flags_fits": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 66,
+                "y": 220,
+                "w": 22,
+                "h": 22
+            },
+            "filename": "assets/img/sprites/pride_paws/polysexual_horizontal_3.png",
+            "id": "polysexual_horizontal_3.png"
+        },
+        "polysexual_horizontal_4.png": {
+            "flag_name": "Polysexual",
+            "part": "center",
+            "orientation": "horizontal",
+            "flags_fits": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 88,
+                "y": 220,
+                "w": 22,
+                "h": 22
+            },
+            "filename": "assets/img/sprites/pride_paws/polysexual_horizontal_4.png",
+            "id": "polysexual_horizontal_4.png"
+        },
+        "polysexual_vertical_0.png": {
+            "flag_name": "Polysexual",
+            "part": "left_part_1",
+            "orientation": "vertical",
+            "flags_fits": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 110,
+                "y": 220,
+                "w": 22,
+                "h": 22
+            },
+            "filename": "assets/img/sprites/pride_paws/polysexual_vertical_0.png",
+            "id": "polysexual_vertical_0.png"
+        },
+        "polysexual_vertical_1.png": {
+            "flag_name": "Polysexual",
+            "part": "left_part_2",
+            "orientation": "vertical",
+            "flags_fits": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 132,
+                "y": 220,
+                "w": 22,
+                "h": 22
+            },
+            "filename": "assets/img/sprites/pride_paws/polysexual_vertical_1.png",
+            "id": "polysexual_vertical_1.png"
+        },
+        "polysexual_vertical_2.png": {
+            "flag_name": "Polysexual",
+            "part": "right_part_1",
+            "orientation": "vertical",
+            "flags_fits": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 154,
+                "y": 220,
+                "w": 22,
+                "h": 22
+            },
+            "filename": "assets/img/sprites/pride_paws/polysexual_vertical_2.png",
+            "id": "polysexual_vertical_2.png"
+        },
+        "polysexual_vertical_3.png": {
+            "flag_name": "Polysexual",
+            "part": "right_part_2",
+            "orientation": "vertical",
+            "flags_fits": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 176,
+                "y": 220,
+                "w": 22,
+                "h": 22
+            },
+            "filename": "assets/img/sprites/pride_paws/polysexual_vertical_3.png",
+            "id": "polysexual_vertical_3.png"
+        },
+        "polysexual_vertical_4.png": {
+            "flag_name": "Polysexual",
+            "part": "center",
+            "orientation": "vertical",
+            "flags_fits": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 198,
+                "y": 220,
+                "w": 22,
+                "h": 22
+            },
+            "filename": "assets/img/sprites/pride_paws/polysexual_vertical_4.png",
+            "id": "polysexual_vertical_4.png"
+        },
+        "intersex_horizontal_0.png": {
+            "flag_name": "Intersex",
+            "part": "left_part_1",
+            "orientation": "horizontal",
+            "flags_fits": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 0,
+                "y": 242,
+                "w": 22,
+                "h": 22
+            },
+            "filename": "assets/img/sprites/pride_paws/intersex_horizontal_0.png",
+            "id": "intersex_horizontal_0.png"
+        },
+        "intersex_horizontal_1.png": {
+            "flag_name": "Intersex",
+            "part": "left_part_2",
+            "orientation": "horizontal",
+            "flags_fits": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 22,
+                "y": 242,
+                "w": 22,
+                "h": 22
+            },
+            "filename": "assets/img/sprites/pride_paws/intersex_horizontal_1.png",
+            "id": "intersex_horizontal_1.png"
+        },
+        "intersex_horizontal_2.png": {
+            "flag_name": "Intersex",
+            "part": "right_part_1",
+            "orientation": "horizontal",
+            "flags_fits": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 44,
+                "y": 242,
+                "w": 22,
+                "h": 22
+            },
+            "filename": "assets/img/sprites/pride_paws/intersex_horizontal_2.png",
+            "id": "intersex_horizontal_2.png"
+        },
+        "intersex_horizontal_3.png": {
+            "flag_name": "Intersex",
+            "part": "right_part_2",
+            "orientation": "horizontal",
+            "flags_fits": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 66,
+                "y": 242,
+                "w": 22,
+                "h": 22
+            },
+            "filename": "assets/img/sprites/pride_paws/intersex_horizontal_3.png",
+            "id": "intersex_horizontal_3.png"
+        },
+        "intersex_horizontal_4.png": {
+            "flag_name": "Intersex",
+            "part": "center",
+            "orientation": "horizontal",
+            "flags_fits": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 88,
+                "y": 242,
+                "w": 22,
+                "h": 22
+            },
+            "filename": "assets/img/sprites/pride_paws/intersex_horizontal_4.png",
+            "id": "intersex_horizontal_4.png"
+        },
+        "intersex_vertical_0.png": {
+            "flag_name": "Intersex",
+            "part": "left_part_1",
+            "orientation": "vertical",
+            "flags_fits": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 110,
+                "y": 242,
+                "w": 22,
+                "h": 22
+            },
+            "filename": "assets/img/sprites/pride_paws/intersex_vertical_0.png",
+            "id": "intersex_vertical_0.png"
+        },
+        "intersex_vertical_1.png": {
+            "flag_name": "Intersex",
+            "part": "left_part_2",
+            "orientation": "vertical",
+            "flags_fits": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 132,
+                "y": 242,
+                "w": 22,
+                "h": 22
+            },
+            "filename": "assets/img/sprites/pride_paws/intersex_vertical_1.png",
+            "id": "intersex_vertical_1.png"
+        },
+        "intersex_vertical_2.png": {
+            "flag_name": "Intersex",
+            "part": "right_part_1",
+            "orientation": "vertical",
+            "flags_fits": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 154,
+                "y": 242,
+                "w": 22,
+                "h": 22
+            },
+            "filename": "assets/img/sprites/pride_paws/intersex_vertical_2.png",
+            "id": "intersex_vertical_2.png"
+        },
+        "intersex_vertical_3.png": {
+            "flag_name": "Intersex",
+            "part": "right_part_2",
+            "orientation": "vertical",
+            "flags_fits": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 176,
+                "y": 242,
+                "w": 22,
+                "h": 22
+            },
+            "filename": "assets/img/sprites/pride_paws/intersex_vertical_3.png",
+            "id": "intersex_vertical_3.png"
+        },
+        "intersex_vertical_4.png": {
+            "flag_name": "Intersex",
+            "part": "center",
+            "orientation": "vertical",
+            "flags_fits": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 198,
+                "y": 242,
+                "w": 22,
+                "h": 22
+            },
+            "filename": "assets/img/sprites/pride_paws/intersex_vertical_4.png",
+            "id": "intersex_vertical_4.png"
+        }
+    },
+    "meta": {
+        "size": {
+            "w": 220,
+            "h": 264
+        },
+        "image": "pride_paws.png",
+        "format": "RGBA8888",
+        "scale": 1
+    }
+}

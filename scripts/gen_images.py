@@ -281,7 +281,8 @@ def genStripesParts(small_start, small_end, stripes, flag_colors_size, orientati
                 stripes_start_center = stripes_start_center + int(stripes / 4) - 2
                 stripes_end_center = stripes_end_center + int(stripes / 4) - 2
 
-            stripes_middle_center = stripes - stripes_start_part - stripes_end_part + 1
+            stripes_end_part = stripes_end_part + 1
+            stripes_middle_center = stripes - stripes_start_part - stripes_end_part 
         else:
             stripes_middle_center = stripes - stripes_start_part - stripes_end_part
 
@@ -308,9 +309,9 @@ def genStripesParts(small_start, small_end, stripes, flag_colors_size, orientati
             if rest_strips == 1:
                 add_rest_stripes = rest_strips
                 if flag_colors_size == 2:
-                    if orientation == 'horizontal':
+                    if orientation == 'vertical':
                         stripes_start_part = stripes_start_part + add_rest_stripes
-                    elif orientation == 'vertical':
+                    elif orientation == 'horizontal':
                         stripes_end_part = stripes_end_part + add_rest_stripes
                 else:
                     if orientation == 'horizontal':
@@ -348,9 +349,9 @@ def genStripesParts(small_start, small_end, stripes, flag_colors_size, orientati
             else:
                 add_rest_stripes = rest_strips
                 if flag_colors_size == 2:
-                    if orientation == 'horizontal':
+                    if orientation == 'vertical':
                         stripes_start_part = stripes_start_part + add_rest_stripes
-                    elif orientation == 'vertical':
+                    elif orientation == 'horizontal':
                         stripes_end_part = stripes_end_part + add_rest_stripes
                 elif flag_colors_size % 2 == 0:
                     if orientation == 'horizontal':
@@ -377,30 +378,35 @@ def genStripesParts(small_start, small_end, stripes, flag_colors_size, orientati
 
     return stripes_start_part, stripes_start_center, stripes_middle_center, stripes_end_center, stripes_end_part
 
-def getFlagColorsPalette(flag_colors, stripes_start_part, stripes_start_center, stripes_middle_center, stripes_end_center, stripes_end_part):
+def getFlagColorsPalette(stripes, flag_colors, stripes_start_part, stripes_start_center, stripes_middle_center, stripes_end_center, stripes_end_part):
     flag_colors_size = len(flag_colors)
     flag_color_palette = []
-    for i in range(stripes_start_part):
-        flag_color = flag_colors[0]
-        flag_color_palette.append(Color(flag_color))
 
-    for i in range(1, flag_colors_size-1):
-        flag_color = flag_colors[i]
-        if i == int(flag_colors_size/2-1) and stripes_start_center > 0:
-            for j in range(stripes_start_center):
+    if stripes >= flag_colors_size and stripes % 2 == 0 and flag_colors_size % 2 == 0 and stripes % flag_colors_size == 0:
+        for i in range(flag_colors_size):
+            flag_color = flag_colors[i]
+            for j in range(int(stripes/flag_colors_size)):
                 flag_color_palette.append(Color(flag_color))
-        elif i == int(flag_colors_size/2) and (stripes_middle_center > 0):
-            for j in range(stripes_middle_center):
-                flag_color_palette.append(Color(flag_color))
-        elif i == int(flag_colors_size/2+1) and (stripes_end_center > 0):
-            for j in range(stripes_end_center):
-                flag_color_palette.append(Color(flag_color))
-        else:
+    else:
+        for i in range(stripes_start_part):
+            flag_color = flag_colors[0]
             flag_color_palette.append(Color(flag_color))
-
-    for i in range(stripes_end_part):
-        flag_color = flag_colors[-1]
-        flag_color_palette.append(Color(flag_color))
+        for i in range(1, flag_colors_size-1):
+            flag_color = flag_colors[i]
+            if i == int(flag_colors_size/2-1) and stripes_start_center > 0:
+                for j in range(stripes_start_center):
+                    flag_color_palette.append(Color(flag_color))
+            elif i == int(flag_colors_size/2) and (stripes_middle_center > 0):
+                for j in range(stripes_middle_center):
+                    flag_color_palette.append(Color(flag_color))
+            elif i == int(flag_colors_size/2+1) and (stripes_end_center > 0):
+                for j in range(stripes_end_center):
+                    flag_color_palette.append(Color(flag_color))
+            else:
+                flag_color_palette.append(Color(flag_color))
+        for i in range(stripes_end_part):
+            flag_color = flag_colors[-1]
+            flag_color_palette.append(Color(flag_color))
 
     return flag_color_palette
 
@@ -429,24 +435,23 @@ def generateSpriteLine(output_map, paw_outlines_img, outline_color, flag, parts,
     paw_width = paw_outlines_img.size[0]
     paw_height = paw_outlines_img.size[1]
 
-    output_flage_frames_map = dict()
+    output_flage_frames = dict()
+    frame_counter = 0
     for part in parts:
         color_coords = color_code_map[part]
         output_flage_part = Image.new(mode = "RGBA", size= (paw_width, paw_height))
         output_flage_part_pixels = output_flage_part.load()
 
-        key = orientation + '_' + part
         flag_colors_size = len(flag['colors'])
         flag_name = flag['name']
+
+        key = flag_name.lower().replace(' ', '_').replace("'", '') + '_' + orientation + '_' + str(frame_counter)
+        if not key in output_map:
+            output_map[key] = { 'flag_name': flag_name, 'part': part, 'orientation': orientation }
 
         flag_color_palette = []
         if 'start_' + orientation in color_coords and 'end_' + orientation in color_coords and color_coords['start_' + orientation] and color_coords['end_' + orientation]:
             stripes = len(color_coords['start_' + orientation])
-
-            if not flag_name in output_map:
-                output_map[flag_name] = dict()
-            if not key in output_map[flag_name]:
-                output_map[flag_name][key] = { 'flag_name': flag_name, 'part': part, 'orientation': orientation }
 
             small_start = False
             small_end = False
@@ -463,16 +468,16 @@ def generateSpriteLine(output_map, paw_outlines_img, outline_color, flag, parts,
                     small_end = end_line_size <= 1
 
             if flag_colors_size == 1:
-                output_map[flag_name][key]['flags_fits'] = True
+                output_map[key]['flags_fits'] = True
                 for i in range(stripes):
                     flag_color_palette.append(Color(flag['colors'][0]))
             elif stripes == flag_colors_size:
-                output_map[flag_name][key]['flags_fits'] = True
-                output_map[flag_name][key]['flags_fits_perfect'] = True
+                output_map[key]['flags_fits'] = True
+                output_map[key]['flags_fits_perfect'] = True
                 for flag_color in flag['colors']:
                     flag_color_palette.append(Color(flag_color))
             elif stripes > flag_colors_size:
-                output_map[flag_name][key]['flags_fits'] = True
+                output_map[key]['flags_fits'] = True
                 rest_stripes = int(stripes - flag_colors_size)
                 if rest_stripes == 1:
                     for i in range(0, int(flag_colors_size / 2)):
@@ -490,9 +495,9 @@ def generateSpriteLine(output_map, paw_outlines_img, outline_color, flag, parts,
                         flag_color_palette.append(Color(flag_color))
                 else:
                     stripes_start_part, stripes_start_center, stripes_middle_center, stripes_end_center, stripes_end_part = genStripesParts(small_start, small_end, stripes, flag_colors_size, orientation)
-                    flag_color_palette = getFlagColorsPalette(flag['colors'], stripes_start_part, stripes_start_center, stripes_middle_center, stripes_end_center, stripes_end_part)
+                    flag_color_palette = getFlagColorsPalette(stripes, flag['colors'], stripes_start_part, stripes_start_center, stripes_middle_center, stripes_end_center, stripes_end_part)
             else:
-                output_map[flag_name][key]['flags_fits'] = False
+                output_map[key]['flags_fits'] = False
                 flag_color_palette = getFlagColorPaletteStriped(flag['colors'], stripes, orientation)
 
             if len(flag_color_palette) < stripes:
@@ -594,8 +599,8 @@ def generateSpriteLine(output_map, paw_outlines_img, outline_color, flag, parts,
                                 x, y = color_cooord
                                 output_flage_part_pixels[x ,y] = hex_to_rgb(end_triangle_flag_color.hex_l)
         else:
-            if flag_name in output_map and key in output_map[flag_name]:
-                output_map[flag_name][key]['empty'] = True
+            if key in output_map:
+                output_map[key]['empty'] = True
 
         output_flage_part.paste(paw_outlines_img, (0, 0), paw_outlines_img)
 
@@ -604,9 +609,18 @@ def generateSpriteLine(output_map, paw_outlines_img, outline_color, flag, parts,
                 x, y = coord
                 output_flage_part_pixels[x ,y] = hex_to_rgb(outline_color.hex_l)
 
-        output_flage_frames_map[key] = output_flage_part
+        frame_width = output_flage_part.size[0]
+        frame_height = output_flage_part.size[1]
 
-    return output_flage_frames_map
+        output_flage_frames[key] = output_flage_part
+        output_map[key]['rotated'] = False
+        output_map[key]['trimmed'] = False
+        output_map[key]['spriteSourceSize'] = { 'x': 0, 'y': 0, 'w': frame_width, 'h': frame_height }
+        output_map[key]['sourceSize'] = { 'w': frame_width,'h': frame_height }
+
+        frame_counter = frame_counter + 1
+
+    return output_flage_frames
     
 def generateSprite(in_img_filename, parts, output_name, colors_config, flags, transparent_colors):
     outline_color = Color(colors_config['outline']) if 'outline' in colors_config else None
@@ -623,48 +637,81 @@ def generateSprite(in_img_filename, parts, output_name, colors_config, flags, tr
     output_map = dict()
 
     output_flages_map = dict()
-    frames_line_count = 0
-    for flag in flags:
-        output_flage_frames = dict()
-        for key, value in generateSpriteLine(output_map, paw_outlines_img, outline_color, flag, parts, 'vertical', color_code_map).items():
-            output_flage_frames[key] = value
-        for key, value in generateSpriteLine(output_map, paw_outlines_img, outline_color, flag, parts, 'horizontal', color_code_map).items():
-            output_flage_frames[key] = value
-        frames_line_count = len(output_flage_frames)
-        output_flages_map[flag['name']] = output_flage_frames
-
-    output_filename = "/assets/img/{}.png".format(output_name)
-
-    paw_width = paw_outlines_img.size[0]
-    paw_height = paw_outlines_img.size[1]
-    output = Image.new(mode = "RGBA", size=(paw_width * frames_line_count, paw_height * len(output_flages_map.values())))
-    y = 0
     x = 0
-    for flag_name, output_flages in output_flages_map.items():
+    y = 0
+    width = 0
+    height = 0
+    for flag in flags:
         x = 0
-        if not flag_name in output_map:
-            output_map[flag_name] = dict()
-        for part, output_flage in output_flages.items():
-            output.paste(output_flage, (x, y))
-            if part in output_map[flag_name]:
-                output_map[flag_name][part]['form'] = output_name
-                output_map[flag_name][part]['filename'] = output_filename
-                output_map[flag_name][part]['coord'] = (x, y, paw_width, paw_height)
-            x += paw_width
-        y += paw_height
+        frames_width = 0
 
+        frame_width = 0
+        frame_height = 0
+        for key, value in generateSpriteLine(output_map, paw_outlines_img, outline_color, flag, parts, 'horizontal', color_code_map).items():
+            output_flages_map[key] = value
+            frame_width = value.size[0]
+            frame_height = value.size[1]
+
+            if key in output_map:
+                output_map[key]['frame'] = { 'x': x, 'y': y, 'w': frame_width, 'h': frame_height }
+
+            x = x + frame_width
+            frames_width = frames_width + frame_width
+            width = max(width, frames_width)
+
+        frame_width = 0
+        frame_height = 0
+        for key, value in generateSpriteLine(output_map, paw_outlines_img, outline_color, flag, parts, 'vertical', color_code_map).items():
+            output_flages_map[key] = value
+            frame_width = value.size[0]
+            frame_height = value.size[1]
+
+            if key in output_map:
+                output_map[key]['frame'] = { 'x': x, 'y': y, 'w': frame_width,'h': frame_height }
+            
+            x = x + frame_width
+            frames_width = frames_width + frame_width
+            width = max(width, frames_width)
+        
+        y = y + frame_height
+        height = height + frame_height
+
+    output_img = Image.new(mode="RGBA", size=(width, height))
+    new_output_frames = dict()
+    for name, img in output_flages_map.items():
+        if name in output_map:
+            if (not 'empty' in output_map[name] or ('empty' in output_map[name] and not output_map[name]['empty'])):
+                dir_name = 'assets/img/sprites/{}'.format(output_name)
+                sprite_filename = os.path.normpath(os.path.join(dir_name, "{}.png".format(name))).replace("\\", "/")
+                os.makedirs(os.path.join('..', dir_name), exist_ok=True)
+                img.save(os.path.join('..', sprite_filename))
+
+                new_name = "{}.png".format(name)
+                output_map[name]['filename'] = sprite_filename
+                output_map[name]['id'] = new_name
+                new_output_frames[new_name] = output_map[name]
+
+            if name in output_map and 'frame' in output_map[name]:
+                output_img.paste(img, (output_map[name]['frame']['x'], output_map[name]['frame']['y']))
+        else:
+            print("{} not in output_map".format(name))
+
+    output_sprite_filename = "{}.png".format(output_name)
+    output_img.save(os.path.join('../assets/img/sprites', output_sprite_filename))
+    new_output_map = { 'frames': new_output_frames, 'meta': { 'size': {'w': width, 'h': height}, 'image': output_sprite_filename, 'format': 'RGBA8888', 'scale': 1 } }
+
+    sheet_filename = 'assets/img/sprites/{}.json'.format(output_name)
+    output_json_filename = os.path.join('..', sheet_filename)
+    with open(output_json_filename, 'w') as f:
+        json.dump(new_output_map, f, indent=4)
+        
     output_arr = []
-    for omap in output_map.values():
-        for data in omap.values():
+    for name, data in output_map.items():
+        data['form'] = output_name
+        data['sheet'] =sheet_filename
+        if name in output_map and (not 'empty' in output_map[name] or ('empty' in output_map[name] and not output_map[name]['empty'])):
             output_arr.append(data)
 
-    #output.show()
-    output.save("..{}".format(output_filename)) 
-
-    output_json_filename = '{}.json'.format(output_name)
-    with open(output_json_filename, 'w') as f:
-        json.dump(output_arr, f, indent=4)
-        
     return output_arr
 
 

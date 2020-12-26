@@ -1,0 +1,299 @@
+{
+    "frames": {
+        "agender_horizontal_0.png": {
+            "flag_name": "Agender",
+            "part": "main",
+            "orientation": "horizontal",
+            "flags_fits": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 18,
+                "h": 11
+            },
+            "sourceSize": {
+                "w": 18,
+                "h": 11
+            },
+            "frame": {
+                "x": 0,
+                "y": 0,
+                "w": 18,
+                "h": 11
+            },
+            "filename": "assets/img/sprites/gender_horizontal_flags/agender_horizontal_0.png",
+            "id": "agender_horizontal_0.png"
+        },
+        "transgender_horizontal_0.png": {
+            "flag_name": "Transgender",
+            "part": "main",
+            "orientation": "horizontal",
+            "flags_fits": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 18,
+                "h": 11
+            },
+            "sourceSize": {
+                "w": 18,
+                "h": 11
+            },
+            "frame": {
+                "x": 0,
+                "y": 11,
+                "w": 18,
+                "h": 11
+            },
+            "filename": "assets/img/sprites/gender_horizontal_flags/transgender_horizontal_0.png",
+            "id": "transgender_horizontal_0.png"
+        },
+        "genderqueer_horizontal_0.png": {
+            "flag_name": "Genderqueer",
+            "part": "main",
+            "orientation": "horizontal",
+            "flags_fits": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 18,
+                "h": 11
+            },
+            "sourceSize": {
+                "w": 18,
+                "h": 11
+            },
+            "frame": {
+                "x": 0,
+                "y": 22,
+                "w": 18,
+                "h": 11
+            },
+            "filename": "assets/img/sprites/gender_horizontal_flags/genderqueer_horizontal_0.png",
+            "id": "genderqueer_horizontal_0.png"
+        },
+        "genderfluid_horizontal_0.png": {
+            "flag_name": "Genderfluid",
+            "part": "main",
+            "orientation": "horizontal",
+            "flags_fits": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 18,
+                "h": 11
+            },
+            "sourceSize": {
+                "w": 18,
+                "h": 11
+            },
+            "frame": {
+                "x": 0,
+                "y": 33,
+                "w": 18,
+                "h": 11
+            },
+            "filename": "assets/img/sprites/gender_horizontal_flags/genderfluid_horizontal_0.png",
+            "id": "genderfluid_horizontal_0.png"
+        },
+        "non-binary_horizontal_0.png": {
+            "flag_name": "Non-Binary",
+            "part": "main",
+            "orientation": "horizontal",
+            "flags_fits": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 18,
+                "h": 11
+            },
+            "sourceSize": {
+                "w": 18,
+                "h": 11
+            },
+            "frame": {
+                "x": 0,
+                "y": 44,
+                "w": 18,
+                "h": 11
+            },
+            "filename": "assets/img/sprites/gender_horizontal_flags/non-binary_horizontal_0.png",
+            "id": "non-binary_horizontal_0.png"
+        },
+        "demiboy_horizontal_0.png": {
+            "flag_name": "Demiboy",
+            "part": "main",
+            "orientation": "horizontal",
+            "flags_fits": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 18,
+                "h": 11
+            },
+            "sourceSize": {
+                "w": 18,
+                "h": 11
+            },
+            "frame": {
+                "x": 0,
+                "y": 55,
+                "w": 18,
+                "h": 11
+            },
+            "filename": "assets/img/sprites/gender_horizontal_flags/demiboy_horizontal_0.png",
+            "id": "demiboy_horizontal_0.png"
+        },
+        "demigirl_horizontal_0.png": {
+            "flag_name": "Demigirl",
+            "part": "main",
+            "orientation": "horizontal",
+            "flags_fits": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 18,
+                "h": 11
+            },
+            "sourceSize": {
+                "w": 18,
+                "h": 11
+            },
+            "frame": {
+                "x": 0,
+                "y": 66,
+                "w": 18,
+                "h": 11
+            },
+            "filename": "assets/img/sprites/gender_horizontal_flags/demigirl_horizontal_0.png",
+            "id": "demigirl_horizontal_0.png"
+        },
+        "neutrio_horizontal_0.png": {
+            "flag_name": "Neutrio",
+            "part": "main",
+            "orientation": "horizontal",
+            "flags_fits": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 18,
+                "h": 11
+            },
+            "sourceSize": {
+                "w": 18,
+                "h": 11
+            },
+            "frame": {
+                "x": 0,
+                "y": 77,
+                "w": 18,
+                "h": 11
+            },
+            "filename": "assets/img/sprites/gender_horizontal_flags/neutrio_horizontal_0.png",
+            "id": "neutrio_horizontal_0.png"
+        },
+        "ingender_horizontal_0.png": {
+            "flag_name": "Ingender",
+            "part": "main",
+            "orientation": "horizontal",
+            "flags_fits": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 18,
+                "h": 11
+            },
+            "sourceSize": {
+                "w": 18,
+                "h": 11
+            },
+            "frame": {
+                "x": 0,
+                "y": 88,
+                "w": 18,
+                "h": 11
+            },
+            "filename": "assets/img/sprites/gender_horizontal_flags/ingender_horizontal_0.png",
+            "id": "ingender_horizontal_0.png"
+        },
+        "pangender_horizontal_0.png": {
+            "flag_name": "Pangender",
+            "part": "main",
+            "orientation": "horizontal",
+            "flags_fits": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 18,
+                "h": 11
+            },
+            "sourceSize": {
+                "w": 18,
+                "h": 11
+            },
+            "frame": {
+                "x": 0,
+                "y": 99,
+                "w": 18,
+                "h": 11
+            },
+            "filename": "assets/img/sprites/gender_horizontal_flags/pangender_horizontal_0.png",
+            "id": "pangender_horizontal_0.png"
+        },
+        "bigender_horizontal_0.png": {
+            "flag_name": "Bigender",
+            "part": "main",
+            "orientation": "horizontal",
+            "flags_fits": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 18,
+                "h": 11
+            },
+            "sourceSize": {
+                "w": 18,
+                "h": 11
+            },
+            "frame": {
+                "x": 0,
+                "y": 110,
+                "w": 18,
+                "h": 11
+            },
+            "filename": "assets/img/sprites/gender_horizontal_flags/bigender_horizontal_0.png",
+            "id": "bigender_horizontal_0.png"
+        }
+    },
+    "meta": {
+        "size": {
+            "w": 36,
+            "h": 121
+        },
+        "image": "gender_horizontal_flags.png",
+        "format": "RGBA8888",
+        "scale": 1
+    }
+}

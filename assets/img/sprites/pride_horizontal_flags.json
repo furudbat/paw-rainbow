@@ -1,0 +1,325 @@
+{
+    "frames": {
+        "none_horizontal_0.png": {
+            "flag_name": "None",
+            "part": "main",
+            "orientation": "horizontal",
+            "flags_fits": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 18,
+                "h": 11
+            },
+            "sourceSize": {
+                "w": 18,
+                "h": 11
+            },
+            "frame": {
+                "x": 0,
+                "y": 0,
+                "w": 18,
+                "h": 11
+            },
+            "filename": "assets/img/sprites/pride_horizontal_flags/none_horizontal_0.png",
+            "id": "none_horizontal_0.png"
+        },
+        "rainbow_pride_flag_horizontal_0.png": {
+            "flag_name": "Rainbow Pride Flag",
+            "part": "main",
+            "orientation": "horizontal",
+            "flags_fits": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 18,
+                "h": 11
+            },
+            "sourceSize": {
+                "w": 18,
+                "h": 11
+            },
+            "frame": {
+                "x": 0,
+                "y": 11,
+                "w": 18,
+                "h": 11
+            },
+            "filename": "assets/img/sprites/pride_horizontal_flags/rainbow_pride_flag_horizontal_0.png",
+            "id": "rainbow_pride_flag_horizontal_0.png"
+        },
+        "philadelphias_people_of_color_inclusive_flag_horizontal_0.png": {
+            "flag_name": "Philadelphia's People of Color Inclusive Flag",
+            "part": "main",
+            "orientation": "horizontal",
+            "flags_fits": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 18,
+                "h": 11
+            },
+            "sourceSize": {
+                "w": 18,
+                "h": 11
+            },
+            "frame": {
+                "x": 0,
+                "y": 22,
+                "w": 18,
+                "h": 11
+            },
+            "filename": "assets/img/sprites/pride_horizontal_flags/philadelphias_people_of_color_inclusive_flag_horizontal_0.png",
+            "id": "philadelphias_people_of_color_inclusive_flag_horizontal_0.png"
+        },
+        "asexual_horizontal_0.png": {
+            "flag_name": "Asexual",
+            "part": "main",
+            "orientation": "horizontal",
+            "flags_fits": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 18,
+                "h": 11
+            },
+            "sourceSize": {
+                "w": 18,
+                "h": 11
+            },
+            "frame": {
+                "x": 0,
+                "y": 33,
+                "w": 18,
+                "h": 11
+            },
+            "filename": "assets/img/sprites/pride_horizontal_flags/asexual_horizontal_0.png",
+            "id": "asexual_horizontal_0.png"
+        },
+        "bisexual_horizontal_0.png": {
+            "flag_name": "Bisexual",
+            "part": "main",
+            "orientation": "horizontal",
+            "flags_fits": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 18,
+                "h": 11
+            },
+            "sourceSize": {
+                "w": 18,
+                "h": 11
+            },
+            "frame": {
+                "x": 0,
+                "y": 44,
+                "w": 18,
+                "h": 11
+            },
+            "filename": "assets/img/sprites/pride_horizontal_flags/bisexual_horizontal_0.png",
+            "id": "bisexual_horizontal_0.png"
+        },
+        "pansexual_horizontal_0.png": {
+            "flag_name": "Pansexual",
+            "part": "main",
+            "orientation": "horizontal",
+            "flags_fits": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 18,
+                "h": 11
+            },
+            "sourceSize": {
+                "w": 18,
+                "h": 11
+            },
+            "frame": {
+                "x": 0,
+                "y": 55,
+                "w": 18,
+                "h": 11
+            },
+            "filename": "assets/img/sprites/pride_horizontal_flags/pansexual_horizontal_0.png",
+            "id": "pansexual_horizontal_0.png"
+        },
+        "lesbian_horizontal_0.png": {
+            "flag_name": "Lesbian",
+            "part": "main",
+            "orientation": "horizontal",
+            "flags_fits": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 18,
+                "h": 11
+            },
+            "sourceSize": {
+                "w": 18,
+                "h": 11
+            },
+            "frame": {
+                "x": 0,
+                "y": 66,
+                "w": 18,
+                "h": 11
+            },
+            "filename": "assets/img/sprites/pride_horizontal_flags/lesbian_horizontal_0.png",
+            "id": "lesbian_horizontal_0.png"
+        },
+        "progress_horizontal_0.png": {
+            "flag_name": "Progress",
+            "part": "main",
+            "orientation": "horizontal",
+            "flags_fits": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 18,
+                "h": 11
+            },
+            "sourceSize": {
+                "w": 18,
+                "h": 11
+            },
+            "frame": {
+                "x": 0,
+                "y": 77,
+                "w": 18,
+                "h": 11
+            },
+            "filename": "assets/img/sprites/pride_horizontal_flags/progress_horizontal_0.png",
+            "id": "progress_horizontal_0.png"
+        },
+        "demisexual_horizontal_0.png": {
+            "flag_name": "Demisexual",
+            "part": "main",
+            "orientation": "horizontal",
+            "flags_fits": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 18,
+                "h": 11
+            },
+            "sourceSize": {
+                "w": 18,
+                "h": 11
+            },
+            "frame": {
+                "x": 0,
+                "y": 88,
+                "w": 18,
+                "h": 11
+            },
+            "filename": "assets/img/sprites/pride_horizontal_flags/demisexual_horizontal_0.png",
+            "id": "demisexual_horizontal_0.png"
+        },
+        "polyamory_horizontal_0.png": {
+            "flag_name": "Polyamory",
+            "part": "main",
+            "orientation": "horizontal",
+            "flags_fits": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 18,
+                "h": 11
+            },
+            "sourceSize": {
+                "w": 18,
+                "h": 11
+            },
+            "frame": {
+                "x": 0,
+                "y": 99,
+                "w": 18,
+                "h": 11
+            },
+            "filename": "assets/img/sprites/pride_horizontal_flags/polyamory_horizontal_0.png",
+            "id": "polyamory_horizontal_0.png"
+        },
+        "polysexual_horizontal_0.png": {
+            "flag_name": "Polysexual",
+            "part": "main",
+            "orientation": "horizontal",
+            "flags_fits": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 18,
+                "h": 11
+            },
+            "sourceSize": {
+                "w": 18,
+                "h": 11
+            },
+            "frame": {
+                "x": 0,
+                "y": 110,
+                "w": 18,
+                "h": 11
+            },
+            "filename": "assets/img/sprites/pride_horizontal_flags/polysexual_horizontal_0.png",
+            "id": "polysexual_horizontal_0.png"
+        },
+        "intersex_horizontal_0.png": {
+            "flag_name": "Intersex",
+            "part": "main",
+            "orientation": "horizontal",
+            "flags_fits": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 18,
+                "h": 11
+            },
+            "sourceSize": {
+                "w": 18,
+                "h": 11
+            },
+            "frame": {
+                "x": 0,
+                "y": 121,
+                "w": 18,
+                "h": 11
+            },
+            "filename": "assets/img/sprites/pride_horizontal_flags/intersex_horizontal_0.png",
+            "id": "intersex_horizontal_0.png"
+        }
+    },
+    "meta": {
+        "size": {
+            "w": 36,
+            "h": 132
+        },
+        "image": "pride_horizontal_flags.png",
+        "format": "RGBA8888",
+        "scale": 1
+    }
+}
