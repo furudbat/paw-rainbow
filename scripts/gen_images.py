@@ -764,6 +764,8 @@ def genFlags(flags):
                 offset = 0
                 if len(flag['colors']) % 2 == 0:
                     offset = 1
+                if len(flag['colors']) >= 5:
+                    offset = 2
 
                 point_1 = (0, height/2 - offset - triangle_size)
                 point_2 = (triangle_size + offset, height/2)
