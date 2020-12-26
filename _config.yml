@@ -13,18 +13,18 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Title
+title: Rainbow Paw Pads
 email: "hircreacc@gmail.com"
 description: >- 
-  Description
+  LGBT+ Pixel-Paws
 short_description: >- # this means to ignore newlines until "baseurl:"
-  Descr.
-baseurl: "/bootstrap-4-github-pages" # the subpath of your site, e.g. /blog
+  LGBT+ Pixel-Paws
+baseurl: "/rainbow-paw-pads" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: furudbat
 github_username:  furudbat
 author: FurudBat
-github_link: "https://github.com/furudbat/bootstrap-4-github-pages"
+github_link: "https://github.com/furudbat/paw-rainbow"
 theme: jekyll-theme-midnight
 
 # Build settings

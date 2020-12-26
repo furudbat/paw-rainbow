@@ -633,6 +633,7 @@ def generateSprite(in_img_filename, parts, output_name, colors_config, flags, tr
         frames_line_count = len(output_flage_frames)
         output_flages_map[flag['name']] = output_flage_frames
 
+    output_filename = "/assets/img/{}.png".format(output_name)
 
     paw_width = paw_outlines_img.size[0]
     paw_height = paw_outlines_img.size[1]
@@ -646,6 +647,8 @@ def generateSprite(in_img_filename, parts, output_name, colors_config, flags, tr
         for part, output_flage in output_flages.items():
             output.paste(output_flage, (x, y))
             if part in output_map[flag_name]:
+                output_map[flag_name][part]['form'] = output_name
+                output_map[flag_name][part]['filename'] = output_filename
                 output_map[flag_name][part]['coord'] = (x, y, paw_width, paw_height)
             x += paw_width
         y += paw_height
@@ -656,15 +659,13 @@ def generateSprite(in_img_filename, parts, output_name, colors_config, flags, tr
             output_arr.append(data)
 
     #output.show()
-    output.save("../assets/img/{}.png".format(output_name)) 
+    output.save("..{}".format(output_filename)) 
 
     output_json_filename = '{}.json'.format(output_name)
     with open(output_json_filename, 'w') as f:
         json.dump(output_arr, f, indent=4)
         
-    with open(output_json_filename, 'r') as json_file:
-        with open("../_data/{}.yml".format(output_name), 'w') as yaml_file:
-            yaml.safe_dump(json.load(json_file), yaml_file, default_flow_style=False, allow_unicode=True)
+    return output_arr
 
 
 def main():
@@ -682,6 +683,8 @@ def main():
     transparent_colors = []
     for transparent_color in config['transparent_colors']:
         transparent_colors.append(Color(transparent_color))
+
+    output = []
     
     if 'paw' in config:
         parts = [
@@ -692,24 +695,41 @@ def main():
             'center'
         ]
 
-        generateSprite('./paw.png', parts, 'pride_paws', config['paw'], pride_flags, transparent_colors)
-        generateSprite('./paw.png', parts, 'gender_paws', config['paw'], gender_flags, transparent_colors)
+        output.extend(generateSprite('./paw.png', parts, 'pride_paws', config['paw'], pride_flags, transparent_colors))
+        output.extend(generateSprite('./paw.png', parts, 'gender_paws', config['paw'], gender_flags, transparent_colors))
         
     if 'flag_horizontal' in config:
         parts = [
             'main'
         ]
 
-        generateSprite('./flag_horizontal.png', parts, 'pride_horizontal_flags', config['flag_horizontal'], pride_flags, transparent_colors)
-        generateSprite('./flag_horizontal.png', parts, 'gender_horizontal_flags', config['flag_horizontal'], gender_flags, transparent_colors)
+        output.extend(generateSprite('./flag_horizontal.png', parts, 'pride_horizontal_flags', config['flag_horizontal'], pride_flags, transparent_colors))
+        output.extend(generateSprite('./flag_horizontal.png', parts, 'gender_horizontal_flags', config['flag_horizontal'], gender_flags, transparent_colors))
 
     if 'flag_vertical' in config:
         parts = [
             'main'
         ]
 
-        generateSprite('./flag_vertical.png', parts, 'pride_vertical_flags', config['flag_vertical'], pride_flags, transparent_colors)
-        generateSprite('./flag_vertical.png', parts, 'gender_vertical_flags', config['flag_vertical'], gender_flags, transparent_colors)
+        output.extend(generateSprite('./flag_vertical.png', parts, 'pride_vertical_flags', config['flag_vertical'], pride_flags, transparent_colors))
+        output.extend(generateSprite('./flag_vertical.png', parts, 'gender_vertical_flags', config['flag_vertical'], gender_flags, transparent_colors))
+
+    all_flags = []
+    all_flags.extend(pride_flags)
+    all_flags.extend(gender_flags)
+
+    with open(r'flags.json', 'w') as file:
+        json.dump(all_flags, file, indent=4)
+    with open(r'sprites.json', 'w') as file:
+        json.dump(output, file, indent=4)
+
+    with open(r'flags.json', 'r') as json_file:
+        with open(r'../_data/flags.yml', 'w') as yaml_file:
+            yaml.safe_dump(json.load(json_file), yaml_file, default_flow_style=False, allow_unicode=True)
+    
+    with open(r'sprites.json', 'r') as json_file:
+        with open(r'../_data/sprites.yml', 'w') as yaml_file:
+            yaml.safe_dump(json.load(json_file), yaml_file, default_flow_style=False, allow_unicode=True)
 
 if __name__ == "__main__":
     main()

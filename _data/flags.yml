@@ -1,0 +1,161 @@
+- colors:
+  - '#595959'
+  default: true
+  name: None
+- colors:
+  - '#f00000'
+  - '#ff8000'
+  - '#ffff00'
+  - '#007940'
+  - '#4040ff'
+  - '#a000c0'
+  name: Rainbow Pride Flag
+- colors:
+  - '#000000'
+  - '#72501e'
+  - '#d12d1f'
+  - '#ef9236'
+  - '#fced4f'
+  - '#3a7f30'
+  - '#1c50f6'
+  - '#6b1783'
+  name: Philadelphia's People of Color Inclusive Flag
+- colors:
+  - '#000000'
+  - '#a3a3a3'
+  - '#ffffff'
+  - '#800080'
+  name: Asexual
+- colors:
+  - '#d60270'
+  - '#d60270'
+  - '#9b4f96'
+  - '#0038a8'
+  - '#0038a8'
+  name: Bisexual
+- colors:
+  - '#e93d8c'
+  - '#f9da49'
+  - '#55b1f9'
+  name: Pansexual
+- colors:
+  - '#c33d1e'
+  - '#df7c3d'
+  - '#f19e63'
+  - '#ffffff'
+  - '#c269a2'
+  - '#a85c8e'
+  - '#951f60'
+  name: Lesbian
+- colors:
+  - '#c32b1f'
+  - '#e2a037'
+  - '#e9fd52'
+  - '#5abd37'
+  - '#051f92'
+  - '#6b1785'
+  name: Progress
+  triangle:
+  - '#ffffff'
+  - '#f498c0'
+  - '#7cc0ea'
+  - '#603917'
+  - '#000000'
+- colors:
+  - '#ffffff'
+  - '#d2d2d2'
+  line: '#67236d'
+  name: Demisexual
+  triangle:
+  - '#000000'
+- colors:
+  - '#204d9b'
+  - '#e52322'
+  - '#000000'
+  name: Polyamory
+- colors:
+  - '#c84793'
+  - '#4bb166'
+  - '#4288c8'
+  name: Polysexual
+- colors:
+  - '#fed800'
+  name: Intersex
+- colors:
+  - '#000000'
+  - '#b9b9b9'
+  - '#FFFFFF'
+  - '#b8f483'
+  - '#FFFFFF'
+  - '#b9b9b9'
+  - '#000000'
+  name: Agender
+- colors:
+  - '#7ccdf6'
+  - '#eaaeba'
+  - '#ffffff'
+  - '#eaaeba'
+  - '#7ccdf6'
+  name: Transgender
+- colors:
+  - '#b39bd9'
+  - '#ffffff'
+  - '#738d46'
+  name: Genderqueer
+- colors:
+  - '#ed7ea3'
+  - '#ffffff'
+  - '#af30d0'
+  - '#000000'
+  - '#313fb8'
+  name: Genderfluid
+- colors:
+  - '#fdf35e'
+  - '#ffffff'
+  - '#915fc9'
+  - '#2d2d2d'
+  name: Non-Binary
+- colors:
+  - '#7e7f7f'
+  - '#c5c3c4'
+  - '#9bd5e6'
+  - '#ffffff'
+  - '#9bd5e6'
+  - '#c5c3c4'
+  - '#7e7f7f'
+  name: Demiboy
+- colors:
+  - '#7e7f7f'
+  - '#c5c3c4'
+  - '#f4aec9'
+  - '#ffffff'
+  - '#f4aec9'
+  - '#c5c3c4'
+  - '#7e7f7f'
+  name: Demigirl
+- colors:
+  - '#ffffff'
+  - '#36ab4f'
+  - '#000000'
+  name: Neutrio
+- colors:
+  - '#ffffff'
+  name: Ingender
+- colors:
+  - '#fff798'
+  - '#ffddcd'
+  - '#ffebfb'
+  - '#ffffff'
+  - '#ffebfb'
+  - '#ffddcd'
+  - '#fff798'
+  name: Pangender
+- colors:
+  - '#c479a0'
+  - '#eda5cb'
+  - '#d6c7e7'
+  - '#ffffff'
+  - '#d6c7e7'
+  - '#eda5cb'
+  - '#c479a0'
+  name: Bigender

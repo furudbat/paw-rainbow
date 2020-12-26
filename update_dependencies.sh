@@ -28,8 +28,6 @@ cp node_modules/@fortawesome/fontawesome-free/webfonts/*.* assets/css/webfonts
 
 
 ## add more JAVASCRIPT dependencies here
-#mkdir assets/js/datatables.net
-#mkdir assets/css/datatables.net-bs4
-#cp node_modules/datatables.net/js/*.min.js assets/js/datatables.net
-#cp node_modules/datatables.net-bs4/js/*.min.js assets/js/datatables.net
-#cp node_modules/datatables.net-bs4/css/*.min.css assets/css/datatables.net
+mkdir assets/js/pixi
+cp node_modules/pixi.js/dist/*.min.js assets/js/pixi
+cp node_modules/pixi.js/dist/*.min.js.map assets/js/pixi
