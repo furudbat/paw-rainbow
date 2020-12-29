@@ -1,7 +1,14 @@
 transparent_colors: 
   - '#bfa88f'
   - '#ffff00'
+forms:
+  - flag_horizontal
+  - flag_vertical
+  - paw
 flag_horizontal:
+  base_filename: './flag_horizontal.png'
+  parts:
+    - main
   main:
     horizontal:
       - '#404040'
@@ -24,6 +31,9 @@ flag_horizontal:
         - '#4c4c4c'
         - '#404040'
 flag_vertical:
+  base_filename: './flag_vertical.png'
+  parts:
+    - main
   main:
     vertical:
       - '#404040'
@@ -46,8 +56,15 @@ flag_vertical:
         - '#4c4c4c'
         - '#404040'
 paw:
+  base_filename: './paw.png'
   outline: '#000000'
   extra_outline: '#1a1a1a'
+  parts:
+    - 'left_part_1'
+    - 'left_part_2'
+    - 'right_part_1'
+    - 'right_part_2'
+    - 'center'
   left_part_1:
     horizontal:
       - '#bc7c7c'
