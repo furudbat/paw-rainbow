@@ -1,12 +1,21 @@
 - name: Agender
   colors:
-    - '#000000'
+    - '#010001'
     - '#b9b9b9'
     - '#FFFFFF'
     - '#b8f483'
     - '#FFFFFF'
     - '#b9b9b9'
-    - '#000000'
+    - '#010001'
+- name: Androgynous 
+  colors:
+    - '#9b979e'
+    - '#9b979e'
+    - '#6f74c4'
+    - '#999a96'
+    - '#cd74c7'
+    - '#9b979e'
+    - '#9b979e'
 - name: Transgender 
   colors:
     - '#7ccdf6'
@@ -19,19 +28,28 @@
     - '#b39bd9'
     - '#ffffff'
     - '#738d46'
-- name: Genderfluid  
+- name: Genderfluid 
   colors:
     - '#ed7ea3'
     - '#ffffff'
     - '#af30d0'
-    - '#000000'
+    - '#010001'
     - '#313fb8'
-- name: Non-Binary  
+- name: Non-Binary 
   colors:
     - '#fdf35e'
     - '#ffffff'
     - '#915fc9'
     - '#2d2d2d'
+- name: Demigender
+  colors:
+    - '#7e7f7f'
+    - '#c5c3c4'
+    - '#fdff75'
+    - '#ffffff'
+    - '#fdff75'
+    - '#c5c3c4'
+    - '#7e7f7f'
 - name: Demiboy
   colors:
     - '#7e7f7f'
@@ -50,23 +68,33 @@
     - '#f4aec9'
     - '#c5c3c4'
     - '#7e7f7f'
+- name: Demiflux
+  colors:
+    - '#7e7f7f'
+    - '#c5c3c4'
+    - '#f4aec9'
+    - '#fdff75'
+    - '#9bd5e6'
+    - '#c5c3c4'
+    - '#7e7f7f'
 - name: Neutrio
   colors:
     - '#ffffff'
     - '#36ab4f'
-    - '#000000'
+    - '#010001'
 - name: Ingender
   colors:
     - '#ffffff'
 - name: Pangender
   colors:
-    - '#fff798'
-    - '#ffddcd'
-    - '#ffebfb'
+    - '#f43a61'
+    - '#5e9dfb'
+    - '#c95efc'
+    - '#fed624'
     - '#ffffff'
-    - '#ffebfb'
-    - '#ffddcd'
-    - '#fff798'
+    - '#fdcfff'
+    - '#ffc3a9'
+    - '#fff484'
 - name: Bigender
   colors:
     - '#c479a0'
@@ -76,3 +104,53 @@
     - '#d6c7e7'
     - '#eda5cb'
     - '#c479a0'
+- name: Polygender
+  colors:
+    - '#010001'
+    - '#949294'
+    - '#ed93c6'
+    - '#f6ec82'
+    - '#64bae7'
+- name: Alexigender
+  colors:
+    - '#7d04ec'
+    - '#01eedd'
+    - '#5400d3'
+    - '#010001'
+- name: Genderfluid
+  colors:
+    - '#f3759c'
+    - '#ffffff'
+    - '#8b4e9f'
+    - '#010001'
+    - '#3b50a5'
+- name: Gender Questioning
+  colors:
+    - '#ff98bd'
+    - '#ff98bd'
+    - '#f96493'
+    - '#e2b6e3'
+    - '#bef58d'
+    - '#deddde'
+    - '#deddde'
+    - '#fdf592'
+    - '#91dffe'
+    - '#03adf0'
+    - '#6ad1d4'
+    - '#6ad1d4'
+- name: Intersex
+  colors:
+    - '#fed800'
+  circle: '#7902ac'
+- name: Maverique
+  colors:
+    - '#fef333'
+    - '#ffffff'
+    - '#f39622'
+- name: Trigender
+  colors:
+    - '#ff94c5'
+    - '#9680ff'
+    - '#68d867'
+    - '#9680ff'
+    - '#ff94c5'

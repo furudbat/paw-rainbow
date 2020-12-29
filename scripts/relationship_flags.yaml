@@ -1,0 +1,89 @@
+- name: Polyamory
+  colors:
+    - '#204d9b'
+    - '#e52322'
+    - '#010001'
+- name: Open Relationship
+  colors:
+    - '#71ee72'
+    - '#c4c4c4'
+    - '#ffbc51'
+- name: Triad
+  colors:
+    - '#acacac'
+    - '#ac6bb9'
+    - '#ee444c'
+    - '#acacac'
+    - '#ac6bb9'
+- name: Quad
+  colors:
+    - '#010180'
+    - '#00dbd3'
+    - '#ff966e'
+    - '#ff4a35'
+- name: N Polyamory
+  colors:
+    - '#ff9670'
+    - '#ff4a35'
+    - '#010180'
+    - '#00dbd3'
+- name: Geographically Non-Monogamy
+  colors:
+    - '#41fefe'
+    - '#010001'
+    - '#6466ff'
+- name: V Polyamory
+  colors:
+    - '#ee444c'
+    - '#acacac'
+    - '#ac6bb9'
+    - '#acacac'
+    - '#ee444c'
+- name: T Polyamory
+  colors:
+    - '#ac6bb9'
+    - '#ee444c'
+    - '#acacac'
+    - '#ac6bb9'
+    - '#ee444c'
+- name: Polyfidelity
+  colors:
+    - '#e4e459'
+    - '#c79461'
+    - '#962fdb'
+- name: Monogamy
+  colors:
+    - '#ffffff'
+    - '#ec1b24'
+    - '#ff3999'
+    - '#c4c4c4'
+- name: Pluriad
+  colors:
+    - '#010001'
+    - '#ac6bb9'
+    - '#acacac'
+    - '#91e4dd'
+    - '#6362ff'
+    - '#fe98c4'
+    - '#ffffff'
+    - '#ff9670'
+    - '#ee444c'
+- name: Nonamorous
+  colors:
+    - '#794da3'
+    - '#ee89d2'
+    - '#f4cc75'
+- name: Biamorous
+  colors:
+    - '#f3001b'
+    - '#d42adc'
+    - '#63459a'
+    - '#3d2bdc'
+    - '#010001'
+- name: Plurian
+  colors:
+    - '#0d75e8'
+    - '#0bde69'
+    - '#e8e831'
+    - '#ef59a9'
+    - '#4a0c8e'

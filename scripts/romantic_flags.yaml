@@ -1,0 +1,14 @@
+- name: Aromantic
+  colors:
+    - '#08360a'
+    - '#2f9f39'
+    - '#ffffff'
+    - '#b3b2b3'
+    - '#010001'
+- name: Demiromantic
+  colors:
+    - '#ffffff'
+    - '#d2d2d2'
+  triangle:
+    - '#010001'
+  line: '#3ea544'
