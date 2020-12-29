@@ -137,3 +137,21 @@
     - '#f0dff2'
     - '#a595a7'
     - '#6a0c80'
+- name: Autosexual
+  colors:
+    - '#9adbec'
+    - '#7b7e7b'
+- name: Androsexual
+  colors:
+    - '#01ccff'
+    - '#603524'
+    - '#b799de'
+- name: Myrsexual
+  colors:
+    - '#801ca4'
+    - '#8040a5'
+    - '#7e4db4'
+    - '#7f5fb5'
+    - '#ffffff'
+    - '#666666'
+    - '#010001'

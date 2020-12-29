@@ -15,7 +15,7 @@
   - '#007940'
   - '#4040ff'
   - '#a000c0'
-  filename: assets/img/flags/lgbt+_pride.png
+  filename: assets/img/flags/lgbt_pride.png
   name: LGBT+ Pride
 - colors:
   - '#010001'
@@ -159,6 +159,27 @@
   filename: assets/img/flags/greysexual.png
   name: Greysexual
 - colors:
+  - '#9adbec'
+  - '#7b7e7b'
+  filename: assets/img/flags/autosexual.png
+  name: Autosexual
+- colors:
+  - '#01ccff'
+  - '#603524'
+  - '#b799de'
+  filename: assets/img/flags/androsexual.png
+  name: Androsexual
+- colors:
+  - '#801ca4'
+  - '#8040a5'
+  - '#7e4db4'
+  - '#7f5fb5'
+  - '#ffffff'
+  - '#666666'
+  - '#010001'
+  filename: assets/img/flags/myrsexual.png
+  name: Myrsexual
+- colors:
   - '#010001'
   - '#b9b9b9'
   - '#FFFFFF'
@@ -205,7 +226,7 @@
   - '#ffffff'
   - '#915fc9'
   - '#2d2d2d'
-  filename: assets/img/flags/non-binary.png
+  filename: assets/img/flags/non_binary.png
   name: Non-Binary
 - colors:
   - '#7e7f7f'
@@ -373,7 +394,7 @@
   - '#41fefe'
   - '#010001'
   - '#6466ff'
-  filename: assets/img/flags/geographically_non-monogamy.png
+  filename: assets/img/flags/geographically_non_monogamy.png
   name: Geographically Non-Monogamy
 - colors:
   - '#ee444c'
@@ -454,3 +475,27 @@
   name: Demiromantic
   triangle:
   - '#010001'
+- colors:
+  - '#93d2e4'
+  - '#3ea442'
+  - '#7b7b7b'
+  filename: assets/img/flags/autoromantic.png
+  name: Autoromantic
+- colors:
+  - '#ffffff'
+  - '#80cfe1'
+  - '#81b2e1'
+  - '#8085e3'
+  - '#b480e1'
+  filename: assets/img/flags/andromantic.png
+  name: Andromantic
+- colors:
+  - '#69ff76'
+  - '#69c576'
+  - '#6aab75'
+  - '#699075'
+  - '#ffffff'
+  - '#666666'
+  - '#010001'
+  filename: assets/img/flags/myrromantic.png
+  name: Myrromantic
