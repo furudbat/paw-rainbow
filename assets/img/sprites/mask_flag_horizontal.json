@@ -1,0 +1,40 @@
+{
+    "frames": {
+        "assets/img/sprites/mask_flag_horizontal/mask_flag_horizontal_mask_horizontal_0.png": {
+            "flag_name": "Mask",
+            "part": "main",
+            "orientation": "horizontal",
+            "flag_filename": "assets/img/flags/mask.png",
+            "flags_fits": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 18,
+                "h": 11
+            },
+            "sourceSize": {
+                "w": 18,
+                "h": 11
+            },
+            "frame": {
+                "x": 0,
+                "y": 0,
+                "w": 18,
+                "h": 11
+            },
+            "id": "assets/img/sprites/mask_flag_horizontal/mask_flag_horizontal_mask_horizontal_0.png",
+            "filename": "assets/img/sprites/mask_flag_horizontal/mask_flag_horizontal_mask_horizontal_0.png"
+        }
+    },
+    "meta": {
+        "size": {
+            "w": 36,
+            "h": 11
+        },
+        "image": "mask_flag_horizontal.png",
+        "format": "RGBA8888",
+        "scale": 1
+    }
+}

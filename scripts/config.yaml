@@ -2,59 +2,7 @@ transparent_colors:
   - '#bfa88f'
   - '#ffff00'
 forms:
-  - flag_horizontal
-  - flag_vertical
   - paw
-flag_horizontal:
-  base_filename: './flag_horizontal.png'
-  parts:
-    - main
-  main:
-    horizontal:
-      - '#404040'
-      - '#4c4c4c'
-      - '#595959'
-      - '#666666'
-      - '#737373'
-      - '#666666'
-      - '#595959'
-      - '#4c4c4c'
-      - '#404040'
-    line:
-      horizontal:
-        - '#737373'
-    triangle:
-      horizontal:
-        - '#737373'
-        - '#666666'
-        - '#595959'
-        - '#4c4c4c'
-        - '#404040'
-flag_vertical:
-  base_filename: './flag_vertical.png'
-  parts:
-    - main
-  main:
-    vertical:
-      - '#404040'
-      - '#4c4c4c'
-      - '#595959'
-      - '#666666'
-      - '#737373'
-      - '#666666'
-      - '#595959'
-      - '#4c4c4c'
-      - '#404040'
-    line:
-      vertical:
-        - '#737373'
-    triangle:
-      vertical:
-        - '#737373'
-        - '#666666'
-        - '#595959'
-        - '#4c4c4c'
-        - '#404040'
 paw:
   base_filename: './paw.png'
   outline: '#000000'
@@ -69,23 +17,50 @@ paw:
     horizontal:
       - '#bc7c7c'
       - '#ec6c6c'
+      - '#5d3939'
+      - '#ec6c6c'
     vertical:
       - '#bc7c7c'
       - '#c64646'
+    circle:
+      horizontal:
+        - '#5d3939'
+        - '#626262'
+      vertical:
+        - '#5d3939'
+        - '#626262'
   left_part_2:
     horizontal:
       - '#73b373'
       - '#66e666'
+      - '#385b38'
+      - '#66e666'
     vertical:
       - '#73b373'
       - '#40c040'
+    circle:
+      horizontal:
+        - '#385b38'
+        - '#626262'
+      vertical:
+        - '#385b38'
+        - '#626262'
   right_part_1:
     horizontal:
       - '#69a9a9'
       - '#5fdfdf'
+      - '#365a5a'
+      - '#5fdfdf'
     vertical:
       - '#69a9a9'
       - '#39b9b9'
+    circle:
+      horizontal:
+        - '#365a5a'
+        - '#626262'
+      vertical:
+        - '#365a5a'
+        - '#626262'
   right_part_2:
     horizontal:
       - '#5f5fa0'
@@ -93,6 +68,11 @@ paw:
     vertical:
       - '#5f5fa0'
       - '#3333b3'
+    circle:
+      horizontal:
+        - '#626262'
+      vertical:
+        - '#626262'
   center:
     horizontal:
       - '#533953'
@@ -111,8 +91,16 @@ paw:
       vertical:
         - '#828282'
         - '#7b7b7b'
+    circle:
+      horizontal:
+        - '#626262'
+        - '#424242'
+      vertical:
+        - '#626262'
+        - '#424242'
   craws:
     - '#ffff00'
+
 
 
 

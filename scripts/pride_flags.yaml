@@ -2,6 +2,10 @@
   colors:
     - '#595959'
   default: true
+- name: Mask
+  colors:
+    - '#010101'
+  mask: true
 - name: LGBT+ Pride
   colors:
     - '#f00000'

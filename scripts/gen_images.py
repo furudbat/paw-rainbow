@@ -450,7 +450,7 @@ def getFlagColorPaletteStriped(flag_colors, stripes, orientation):
 
     return flag_color_palette
 
-def generateSpriteLine(output_map, paw_outlines_img, outline_color, flag, parts, orientation, color_code_map):
+def generateSpriteLine(output_map, paw_outlines_img, outline_color, flag, parts, orientation, color_code_map, mask_output):
     assert (orientation == "horizontal" or orientation == "vertical"), 'orientation must be "horizontal" or "vertical"'
 
     paw_width = paw_outlines_img.size[0]
@@ -622,12 +622,12 @@ def generateSpriteLine(output_map, paw_outlines_img, outline_color, flag, parts,
                                 x, y = color_cooord
                                 output_flage_part_pixels[x ,y] = hex_to_rgb(end_triangle_flag_color.hex_l)
                     elif 'circle' in flag and circle_name in color_coords:
-                        circle_flag_color = Color(flag['circle'])
+                        circle_flag_colors = Color(flag['circle'])
                         color_coords_circle = color_coords[circle_name]
-
-                        for color_coord in color_coords_circle:
-                            x, y = color_coord
-                            output_flage_part_pixels[x ,y] = hex_to_rgb(circle_flag_color.hex_l)
+                        for circle_flag_color in circle_flag_colors:
+                            for color_coord in color_coords_circle:
+                                x, y = color_coord
+                                output_flage_part_pixels[x ,y] = hex_to_rgb(circle_flag_color.hex_l)
         else:
             if key in output_map:
                 output_map[key]['empty'] = True
@@ -652,7 +652,7 @@ def generateSpriteLine(output_map, paw_outlines_img, outline_color, flag, parts,
 
     return output_flage_frames
     
-def generateSprite(in_img_filename, parts, output_name, colors_config, flags, transparent_colors):
+def generateSprite(in_img_filename, parts, output_name, colors_config, flags, transparent_colors, mask_output):
     outline_color = Color(colors_config['outline']) if 'outline' in colors_config else None
     color_code_map = dict()
 
@@ -661,8 +661,8 @@ def generateSprite(in_img_filename, parts, output_name, colors_config, flags, tr
         paw_outlines_img = getOutlineImage(img, outline_color)
         color_code_map = generateColorCodeMap(colors_config, parts, img, transparent_colors, outline_color)
 
-    with open('color_code_map.json', 'w') as f:
-        json.dump(color_code_map, f, indent=4)
+    #with open("{}_map.json".format(output_name), 'w') as f:
+    #    json.dump(color_code_map, f, indent=4)
 
     output_map = dict()
 
@@ -677,7 +677,7 @@ def generateSprite(in_img_filename, parts, output_name, colors_config, flags, tr
 
         frame_width = 0
         frame_height = 0
-        for key, value in generateSpriteLine(output_map, paw_outlines_img, outline_color, flag, parts, 'horizontal', color_code_map).items():
+        for key, value in generateSpriteLine(output_map, paw_outlines_img, outline_color, flag, parts, 'horizontal', color_code_map, mask_output).items():
             output_flages_map[key] = value
             frame_width = value.size[0]
             frame_height = value.size[1]
@@ -691,7 +691,7 @@ def generateSprite(in_img_filename, parts, output_name, colors_config, flags, tr
 
         frame_width = 0
         frame_height = 0
-        for key, value in generateSpriteLine(output_map, paw_outlines_img, outline_color, flag, parts, 'vertical', color_code_map).items():
+        for key, value in generateSpriteLine(output_map, paw_outlines_img, outline_color, flag, parts, 'vertical', color_code_map, mask_output).items():
             output_flages_map[key] = value
             frame_width = value.size[0]
             frame_height = value.size[1]
@@ -717,6 +717,7 @@ def generateSprite(in_img_filename, parts, output_name, colors_config, flags, tr
                 img.save(os.path.join('..', sprite_filename))
 
                 output_map[name]['id'] = sprite_filename
+                output_map[name]['filename'] = sprite_filename
                 new_output_frames[sprite_filename] = output_map[name]
 
             if name in output_map and 'frame' in output_map[name]:
@@ -736,7 +737,7 @@ def generateSprite(in_img_filename, parts, output_name, colors_config, flags, tr
     output_arr = []
     for name, data in output_map.items():
         data['form'] = output_name
-        data['sheet'] =sheet_filename
+        data['sheet'] = sheet_filename
         if name in output_map and (not 'empty' in output_map[name] or ('empty' in output_map[name] and not output_map[name]['empty'])):
             output_arr.append(data)
 
@@ -815,32 +816,69 @@ def main():
     config = dict()
     pride_flags = dict()
     gender_flags = dict()
+    relationship_flags = dict()
+    romantic_flags = dict()
     with open('config.yaml') as f:
         config = yaml.load(f, Loader=yaml.FullLoader)
     with open('pride_flags.yaml') as f:
         pride_flags = yaml.load(f, Loader=yaml.FullLoader)
     with open('gender_flags.yaml') as f:
         gender_flags = yaml.load(f, Loader=yaml.FullLoader)
+    with open('relationship_flags.yaml') as f:
+        relationship_flags = yaml.load(f, Loader=yaml.FullLoader)
+    with open('romantic_flags.yaml') as f:
+        romantic_flags = yaml.load(f, Loader=yaml.FullLoader)
 
     pride_flags = genFlags(pride_flags)
     gender_flags = genFlags(gender_flags)
+    relationship_flags = genFlags(relationship_flags)
+    romantic_flags = genFlags(romantic_flags)
 
     transparent_colors = []
     for transparent_color in config['transparent_colors']:
         transparent_colors.append(Color(transparent_color))
 
-    output = []
-
     forms = config['forms']
+
+    mask_flag = dict()
+    for flag in pride_flags:
+        if 'mask' in flag and flag['mask']:
+            mask_flag = flag
+    mask_output = []
     for form in forms:
         if form in config:
             parts = config[form]['parts']
-            output.extend(generateSprite(config[form]['base_filename'], parts, 'pride_' + form, config[form], pride_flags, transparent_colors))
-            output.extend(generateSprite(config[form]['base_filename'], parts, 'gender_' + form, config[form], gender_flags, transparent_colors))
+            mask_output.extend(generateSprite(config[form]['base_filename'], parts, 'mask_' + form, config[form], [mask_flag], transparent_colors))
+
+    for mask in mask_output:
+        img = Image.open(os.path.join('../', mask['filename']))
+        img = img.convert("RGBA")
+        datas = img.getdata()
+
+        newData = []
+        for pixel in datas:
+            if pixel[3] >= 255:
+                newData.append((255, 255, 255, 0))
+            else:
+                newData.append((0, 0, 0, 0))
+
+        img.putdata(newData)
+        img.save(os.path.join('../', mask['filename']))
+
+    output = []
+    for form in forms:
+        if form in config:
+            parts = config[form]['parts']
+            output.extend(generateSprite(config[form]['base_filename'], parts, 'pride_' + form, config[form], pride_flags, transparent_colors, mask_output))
+            output.extend(generateSprite(config[form]['base_filename'], parts, 'gender_' + form, config[form], gender_flags, transparent_colors, mask_output))
+            output.extend(generateSprite(config[form]['base_filename'], parts, 'gender_' + form, config[form], gender_flags, transparent_colors, mask_output))
+            output.extend(generateSprite(config[form]['base_filename'], parts, 'gender_' + form, config[form], gender_flags, transparent_colors, mask_output))
 
     all_flags = []
     all_flags.extend(pride_flags)
     all_flags.extend(gender_flags)
+    all_flags.extend(relationship_flags)
+    all_flags.extend(romantic_flags)
 
     with open(r'flags.json', 'w') as file:
         json.dump(all_flags, file, indent=4)
