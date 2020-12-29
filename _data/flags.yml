@@ -4,27 +4,21 @@
   filename: assets/img/flags/none.png
   name: None
 - colors:
+  - '#010101'
+  filename: assets/img/flags/mask.png
+  mask: true
+  name: Mask
+- colors:
   - '#f00000'
   - '#ff8000'
   - '#ffff00'
   - '#007940'
   - '#4040ff'
   - '#a000c0'
-  filename: assets/img/flags/rainbow_pride_flag.png
-  name: Rainbow Pride Flag
+  filename: assets/img/flags/lgbt+_pride.png
+  name: LGBT+ Pride
 - colors:
-  - '#000000'
-  - '#72501e'
-  - '#d12d1f'
-  - '#ef9236'
-  - '#fced4f'
-  - '#3a7f30'
-  - '#1c50f6'
-  - '#6b1783'
-  filename: assets/img/flags/philadelphias_people_of_color_inclusive_flag.png
-  name: Philadelphia's People of Color Inclusive Flag
-- colors:
-  - '#000000'
+  - '#010001'
   - '#a3a3a3'
   - '#ffffff'
   - '#800080'
@@ -45,15 +39,35 @@
   filename: assets/img/flags/pansexual.png
   name: Pansexual
 - colors:
-  - '#c33d1e'
-  - '#df7c3d'
-  - '#f19e63'
+  - '#fe8ba8'
+  - '#fbf1ff'
+  - '#fe8ba8'
+  filename: assets/img/flags/sapphic.png
+  name: Sapphic
+- colors:
+  - '#7f39eb'
+  - '#fbf1ff'
+  - '#7f39eb'
+  filename: assets/img/flags/pluralian.png
+  name: Pluralian
+- colors:
+  - '#d72d01'
+  - '#ff9957'
   - '#ffffff'
-  - '#c269a2'
-  - '#a85c8e'
-  - '#951f60'
+  - '#d462a6'
+  - '#a40163'
   filename: assets/img/flags/lesbian.png
   name: Lesbian
+- colors:
+  - '#007071'
+  - '#01c192'
+  - '#74fe9b'
+  - '#ffffff'
+  - '#91fcf0'
+  - '#1878ff'
+  - '#0e184d'
+  filename: assets/img/flags/gay_men.png
+  name: Gay Men
 - colors:
   - '#c32b1f'
   - '#e2a037'
@@ -68,7 +82,7 @@
   - '#f498c0'
   - '#7cc0ea'
   - '#603917'
-  - '#000000'
+  - '#010001'
 - colors:
   - '#ffffff'
   - '#d2d2d2'
@@ -76,13 +90,27 @@
   line: '#67236d'
   name: Demisexual
   triangle:
-  - '#000000'
+  - '#010001'
 - colors:
-  - '#204d9b'
-  - '#e52322'
-  - '#000000'
-  filename: assets/img/flags/polyamory.png
-  name: Polyamory
+  - '#9ac5ec'
+  - '#ffffff'
+  - '#9ac5ec'
+  filename: assets/img/flags/achillean.png
+  name: Achillean
+- colors:
+  - '#010001'
+  - '#ffffff'
+  - '#ffffff'
+  - '#007f01'
+  filename: assets/img/flags/androphillia.png
+  name: Androphillia
+- colors:
+  - '#010001'
+  - '#ffffff'
+  - '#ffffff'
+  - '#ff0077'
+  filename: assets/img/flags/gynephilia.png
+  name: Gynephilia
 - colors:
   - '#c84793'
   - '#4bb166'
@@ -90,19 +118,66 @@
   filename: assets/img/flags/polysexual.png
   name: Polysexual
 - colors:
-  - '#fed800'
-  filename: assets/img/flags/intersex.png
-  name: Intersex
+  - '#ff9ace'
+  - '#ff52bf'
+  - '#270047'
+  - '#675dff'
+  - '#8da5ff'
+  filename: assets/img/flags/omni.png
+  name: Omni
 - colors:
-  - '#000000'
+  - '#010001'
+  - '#9cd8ec'
+  - '#02a3ea'
+  - '#b6e51f'
+  - '#ffffff'
+  - '#ffc90e'
+  - '#fd6667'
+  - '#ffaecb'
+  - '#010001'
+  filename: assets/img/flags/queer.png
+  name: Queer
+- colors:
+  - '#ee7331'
+  - '#f5ea26'
+  - '#55b048'
+  - '#4b63ae'
+  filename: assets/img/flags/questioning.png
+  name: Questioning
+- colors:
+  - '#91f292'
+  - '#ffffff'
+  - '#91f292'
+  filename: assets/img/flags/diamoric.png
+  name: Diamoric
+- colors:
+  - '#6a0c80'
+  - '#a595a7'
+  - '#f0dff2'
+  - '#a595a7'
+  - '#6a0c80'
+  filename: assets/img/flags/greysexual.png
+  name: Greysexual
+- colors:
+  - '#010001'
   - '#b9b9b9'
   - '#FFFFFF'
   - '#b8f483'
   - '#FFFFFF'
   - '#b9b9b9'
-  - '#000000'
+  - '#010001'
   filename: assets/img/flags/agender.png
   name: Agender
+- colors:
+  - '#9b979e'
+  - '#9b979e'
+  - '#6f74c4'
+  - '#999a96'
+  - '#cd74c7'
+  - '#9b979e'
+  - '#9b979e'
+  filename: assets/img/flags/androgynous.png
+  name: Androgynous
 - colors:
   - '#7ccdf6'
   - '#eaaeba'
@@ -121,7 +196,7 @@
   - '#ed7ea3'
   - '#ffffff'
   - '#af30d0'
-  - '#000000'
+  - '#010001'
   - '#313fb8'
   filename: assets/img/flags/genderfluid.png
   name: Genderfluid
@@ -132,6 +207,16 @@
   - '#2d2d2d'
   filename: assets/img/flags/non-binary.png
   name: Non-Binary
+- colors:
+  - '#7e7f7f'
+  - '#c5c3c4'
+  - '#fdff75'
+  - '#ffffff'
+  - '#fdff75'
+  - '#c5c3c4'
+  - '#7e7f7f'
+  filename: assets/img/flags/demigender.png
+  name: Demigender
 - colors:
   - '#7e7f7f'
   - '#c5c3c4'
@@ -153,9 +238,19 @@
   filename: assets/img/flags/demigirl.png
   name: Demigirl
 - colors:
+  - '#7e7f7f'
+  - '#c5c3c4'
+  - '#f4aec9'
+  - '#fdff75'
+  - '#9bd5e6'
+  - '#c5c3c4'
+  - '#7e7f7f'
+  filename: assets/img/flags/demiflux.png
+  name: Demiflux
+- colors:
   - '#ffffff'
   - '#36ab4f'
-  - '#000000'
+  - '#010001'
   filename: assets/img/flags/neutrio.png
   name: Neutrio
 - colors:
@@ -163,13 +258,14 @@
   filename: assets/img/flags/ingender.png
   name: Ingender
 - colors:
-  - '#fff798'
-  - '#ffddcd'
-  - '#ffebfb'
+  - '#f43a61'
+  - '#5e9dfb'
+  - '#c95efc'
+  - '#fed624'
   - '#ffffff'
-  - '#ffebfb'
-  - '#ffddcd'
-  - '#fff798'
+  - '#fdcfff'
+  - '#ffc3a9'
+  - '#fff484'
   filename: assets/img/flags/pangender.png
   name: Pangender
 - colors:
@@ -182,3 +278,179 @@
   - '#c479a0'
   filename: assets/img/flags/bigender.png
   name: Bigender
+- colors:
+  - '#010001'
+  - '#949294'
+  - '#ed93c6'
+  - '#f6ec82'
+  - '#64bae7'
+  filename: assets/img/flags/polygender.png
+  name: Polygender
+- colors:
+  - '#7d04ec'
+  - '#01eedd'
+  - '#5400d3'
+  - '#010001'
+  filename: assets/img/flags/alexigender.png
+  name: Alexigender
+- colors:
+  - '#f3759c'
+  - '#ffffff'
+  - '#8b4e9f'
+  - '#010001'
+  - '#3b50a5'
+  filename: assets/img/flags/genderfluid.png
+  name: Genderfluid
+- colors:
+  - '#ff98bd'
+  - '#ff98bd'
+  - '#f96493'
+  - '#e2b6e3'
+  - '#bef58d'
+  - '#deddde'
+  - '#deddde'
+  - '#fdf592'
+  - '#91dffe'
+  - '#03adf0'
+  - '#6ad1d4'
+  - '#6ad1d4'
+  filename: assets/img/flags/gender_questioning.png
+  name: Gender Questioning
+- circle: '#7902ac'
+  colors:
+  - '#fed800'
+  filename: assets/img/flags/intersex.png
+  name: Intersex
+- colors:
+  - '#fef333'
+  - '#ffffff'
+  - '#f39622'
+  filename: assets/img/flags/maverique.png
+  name: Maverique
+- colors:
+  - '#ff94c5'
+  - '#9680ff'
+  - '#68d867'
+  - '#9680ff'
+  - '#ff94c5'
+  filename: assets/img/flags/trigender.png
+  name: Trigender
+- colors:
+  - '#204d9b'
+  - '#e52322'
+  - '#010001'
+  filename: assets/img/flags/polyamory.png
+  name: Polyamory
+- colors:
+  - '#71ee72'
+  - '#c4c4c4'
+  - '#ffbc51'
+  filename: assets/img/flags/open_relationship.png
+  name: Open Relationship
+- colors:
+  - '#acacac'
+  - '#ac6bb9'
+  - '#ee444c'
+  - '#acacac'
+  - '#ac6bb9'
+  filename: assets/img/flags/triad.png
+  name: Triad
+- colors:
+  - '#010180'
+  - '#00dbd3'
+  - '#ff966e'
+  - '#ff4a35'
+  filename: assets/img/flags/quad.png
+  name: Quad
+- colors:
+  - '#ff9670'
+  - '#ff4a35'
+  - '#010180'
+  - '#00dbd3'
+  filename: assets/img/flags/n_polyamory.png
+  name: N Polyamory
+- colors:
+  - '#41fefe'
+  - '#010001'
+  - '#6466ff'
+  filename: assets/img/flags/geographically_non-monogamy.png
+  name: Geographically Non-Monogamy
+- colors:
+  - '#ee444c'
+  - '#acacac'
+  - '#ac6bb9'
+  - '#acacac'
+  - '#ee444c'
+  filename: assets/img/flags/v_polyamory.png
+  name: V Polyamory
+- colors:
+  - '#ac6bb9'
+  - '#ee444c'
+  - '#acacac'
+  - '#ac6bb9'
+  - '#ee444c'
+  filename: assets/img/flags/t_polyamory.png
+  name: T Polyamory
+- colors:
+  - '#e4e459'
+  - '#c79461'
+  - '#962fdb'
+  filename: assets/img/flags/polyfidelity.png
+  name: Polyfidelity
+- colors:
+  - '#ffffff'
+  - '#ec1b24'
+  - '#ff3999'
+  - '#c4c4c4'
+  filename: assets/img/flags/monogamy.png
+  name: Monogamy
+- colors:
+  - '#010001'
+  - '#ac6bb9'
+  - '#acacac'
+  - '#91e4dd'
+  - '#6362ff'
+  - '#fe98c4'
+  - '#ffffff'
+  - '#ff9670'
+  - '#ee444c'
+  filename: assets/img/flags/pluriad.png
+  name: Pluriad
+- colors:
+  - '#794da3'
+  - '#ee89d2'
+  - '#f4cc75'
+  filename: assets/img/flags/nonamorous.png
+  name: Nonamorous
+- colors:
+  - '#f3001b'
+  - '#d42adc'
+  - '#63459a'
+  - '#3d2bdc'
+  - '#010001'
+  filename: assets/img/flags/biamorous.png
+  name: Biamorous
+- colors:
+  - '#0d75e8'
+  - '#0bde69'
+  - '#e8e831'
+  - '#ef59a9'
+  - '#4a0c8e'
+  filename: assets/img/flags/plurian.png
+  name: Plurian
+- colors:
+  - '#08360a'
+  - '#2f9f39'
+  - '#ffffff'
+  - '#b3b2b3'
+  - '#010001'
+  filename: assets/img/flags/aromantic.png
+  name: Aromantic
+- colors:
+  - '#ffffff'
+  - '#d2d2d2'
+  filename: assets/img/flags/demiromantic.png
+  line: '#3ea544'
+  name: Demiromantic
+  triangle:
+  - '#010001'

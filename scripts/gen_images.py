@@ -231,7 +231,7 @@ def generateColorCodeMap(colors_config, parts, img, transparent_colors, outline_
                                     opp_extra_name = ''
                                     if extra == 'triangle':
                                         opp_extra_name = 'circle'
-                                    if extra == 'circle':
+                                    elif extra == 'circle':
                                         opp_extra_name = 'triangle'
 
                                     if i >= len(color_code_map[part][extra_name]):
@@ -239,11 +239,15 @@ def generateColorCodeMap(colors_config, parts, img, transparent_colors, outline_
                                         color_code_map['whole'][extra_name].append([])
                                     
                                     if px_color == Color(part_color):
-                                        if opp_extra_name in color_code_map[part] and i < len(color_code_map[part][opp_extra_name]) and not coordinate in color_code_map[part][opp_extra_name][i]:
+                                        if not opp_extra_name in color_code_map[part] or (opp_extra_name in color_code_map[part] and len(color_code_map[part][opp_extra_name]) == 0 or i < len(color_code_map[part][opp_extra_name]) and not coordinate in color_code_map[part][opp_extra_name][i]):
                                             color_code_map[part][extra_name][i].append(coordinate)
-                                        if opp_extra_name in color_code_map['whole'] and i < len(color_code_map['whole'][opp_extra_name]) and not coordinate in color_code_map['whole'][opp_extra_name][i]:
+                                        if not opp_extra_name in color_code_map['whole'] or (opp_extra_name in color_code_map['whole'] and len(color_code_map['whole'][opp_extra_name]) == 0 or i < len(color_code_map['whole'][opp_extra_name]) and not coordinate in color_code_map['whole'][opp_extra_name][i]):
                                             color_code_map['whole'][extra_name][i].append(coordinate)
 
+                                    #if len(color_code_map[part][extra_name]) == 0:
+                                    #    del color_code_map[part][extra_name]
+                                    #if len(color_code_map['whole'][extra_name]) == 0:
+                                    #    del color_code_map['whole'][extra_name]
             
             if 'craws' in colors_config:
                 if not 'craws' in color_code_map:
@@ -460,17 +464,18 @@ def generateSpriteLine(output_map, paw_outlines_img, outline_color, flag, parts,
     frame_counter = 0
     for part in parts:
         color_coords = color_code_map[part]
-        output_flage_part = Image.new(mode = "RGBA", size= (paw_width, paw_height))
+        output_flage_part = Image.new(mode = "RGBA", size = (paw_width, paw_height))
         output_flage_part_pixels = output_flage_part.load()
 
         flag_colors_size = len(flag['colors'])
         flag_name = flag['name']
         flag_filename = flag['filename']
 
-        key_name = flag_name.lower().replace(' ', '_').replace("'", '')
-        key = key_name + '_' + orientation + '_' + str(frame_counter)
+        key_name = flag_name.lower().replace(' ', '_').replace("'", '').replace('+', '').replace('-', '_')
+        mask_key = '_' + orientation + '_' + str(frame_counter)
+        key = key_name + mask_key
         if not key in output_map:
-            output_map[key] = { 'flag_name': flag_name, 'part': part, 'orientation': orientation, 'flag_filename': flag_filename }
+            output_map[key] = { 'flag_name': flag_name, 'part': part, 'orientation': orientation, 'flag_filename': flag_filename, 'mask_key': mask_key }
 
         flag_color_palette = []
         if 'start_' + orientation in color_coords and 'end_' + orientation in color_coords and color_coords['start_' + orientation] and color_coords['end_' + orientation]:
@@ -551,83 +556,84 @@ def generateSpriteLine(output_map, paw_outlines_img, outline_color, flag, parts,
                                 for y in range(sy, ey):
                                     output_flage_part_pixels[x ,y] = hex_to_rgb(flag_color_palette[i].hex_l)
 
-                if part == 'center' or part == 'whole' or part == 'main':
-                    line_name = "{}_line".format(orientation)
-                    if not line_name in color_coords and 'line' in color_coords:
-                        line_name = 'line'
-                    if 'line' in flag and line_name in color_coords:
-                        line_flag_color = Color(flag['line'])
-                        if ('start_' + orientation) in color_coords[line_name] and ('end_' + orientation) in color_coords[line_name]:
-                            for i in range(len(color_coords[line_name]['start_' + orientation])):
-                                x = sx = color_coords[line_name]['start_' + orientation][i][0]
-                                y = sy = color_coords[line_name]['start_' + orientation][i][1]
-                                ex = color_coords[line_name]['end_' + orientation][i][0]
-                                ey = color_coords[line_name]['end_' + orientation][i][1]
-                                #line_width = ex - sx - 2
-                                #line_height = ey - sy - 2
+                line_name = "{}_line".format(orientation)
+                if not line_name in color_coords and 'line' in color_coords:
+                    line_name = 'line'
+                if 'line' in flag and line_name in color_coords:
+                    line_flag_color = Color(flag['line'])
+                    if ('start_' + orientation) in color_coords[line_name] and ('end_' + orientation) in color_coords[line_name]:
+                        for i in range(len(color_coords[line_name]['start_' + orientation])):
+                            x = sx = color_coords[line_name]['start_' + orientation][i][0]
+                            y = sy = color_coords[line_name]['start_' + orientation][i][1]
+                            ex = color_coords[line_name]['end_' + orientation][i][0]
+                            ey = color_coords[line_name]['end_' + orientation][i][1]
+                            #line_width = ex - sx - 2
+                            #line_height = ey - sy - 2
 
-                                if orientation == 'horizontal':
-                                    if sx == ex:
+                            if orientation == 'horizontal':
+                                if sx == ex:
+                                    output_flage_part_pixels[x ,y] = hex_to_rgb(line_flag_color.hex_l)
+                                else:
+                                    for x in range(sx, ex):
                                         output_flage_part_pixels[x ,y] = hex_to_rgb(line_flag_color.hex_l)
-                                    else:
-                                        for x in range(sx, ex):
-                                            output_flage_part_pixels[x ,y] = hex_to_rgb(line_flag_color.hex_l)
-                                elif orientation == 'vertical':
-                                    if sy == ey:
+                            elif orientation == 'vertical':
+                                if sy == ey:
+                                    output_flage_part_pixels[x ,y] = hex_to_rgb(line_flag_color.hex_l)
+                                else:
+                                    for y in range(sy, ey):
                                         output_flage_part_pixels[x ,y] = hex_to_rgb(line_flag_color.hex_l)
-                                    else:
-                                        for y in range(sy, ey):
-                                            output_flage_part_pixels[x ,y] = hex_to_rgb(line_flag_color.hex_l)
-                    
-                    triangle_name = "{}_triangle".format(orientation)
-                    circle_name = "{}_circle".format(orientation)
+                
+                triangle_name = "{}_triangle".format(orientation)
+                circle_name = "{}_circle".format(orientation)
 
-                    if 'triangle' in flag and triangle_name in color_coords:
-                        triangle_flag_colors = flag['triangle']
-                        color_coords_triangle = color_coords[triangle_name]
-                        color_coords_triangle_size = len(color_coords_triangle)
-                        triangle_flag_colors_size = len(triangle_flag_colors) 
+                if 'triangle' in flag and triangle_name in color_coords:
+                    triangle_flag_colors = flag['triangle']
+                    color_coords_triangle = color_coords[triangle_name]
+                    color_coords_triangle_size = len(color_coords_triangle)
+                    triangle_flag_colors_size = len(triangle_flag_colors) 
 
-                        if triangle_flag_colors_size == 1:
-                            triangle_flag_color = Color(triangle_flag_colors[0])
-                            for i in range(color_coords_triangle_size-1):
-                                for color_coord in color_coords_triangle[i]:
-                                    x, y = color_coord
-                                    output_flage_part_pixels[x ,y] = hex_to_rgb(triangle_flag_color.hex_l)
-                        elif color_coords_triangle_size == triangle_flag_colors_size:
-                            for i in range(color_coords_triangle_size):
-                                for color_coord in color_coords_triangle[i]:
-                                    x, y = color_coord
-                                    output_flage_part_pixels[x ,y] = hex_to_rgb(Color(triangle_flag_colors[i]).hex_l)
-                        elif color_coords_triangle_size == 2 and triangle_flag_colors_size >= 2:
-                            start_triangle_flag_color = Color(triangle_flag_colors[0])
-                            end_triangle_flag_color = Color(triangle_flag_colors[-1])
-                            for color_coord in color_coords_triangle[0]:
+                    if triangle_flag_colors_size == 1:
+                        triangle_flag_color = Color(triangle_flag_colors[0])
+                        for i in range(color_coords_triangle_size-1):
+                            for color_coord in color_coords_triangle[i]:
                                 x, y = color_coord
-                                output_flage_part_pixels[x ,y] = hex_to_rgb(start_triangle_flag_color.hex_l)
-                            for color_coord in color_coords_triangle[-1]:
+                                output_flage_part_pixels[x ,y] = hex_to_rgb(triangle_flag_color.hex_l)
+                    elif color_coords_triangle_size == triangle_flag_colors_size:
+                        for i in range(color_coords_triangle_size):
+                            for color_coord in color_coords_triangle[i]:
                                 x, y = color_coord
-                                output_flage_part_pixels[x ,y] = hex_to_rgb(end_triangle_flag_color.hex_l)
-                        else:
-                            start_triangle_flag_color = Color(triangle_flag_colors[0])
-                            end_triangle_flag_color = Color(triangle_flag_colors[-1])
-                            for color_cooord in color_coords_triangle[0]:
+                                output_flage_part_pixels[x ,y] = hex_to_rgb(Color(triangle_flag_colors[i]).hex_l)
+                    elif color_coords_triangle_size == 2 and triangle_flag_colors_size >= 2:
+                        start_triangle_flag_color = Color(triangle_flag_colors[0])
+                        end_triangle_flag_color = Color(triangle_flag_colors[-1])
+                        for color_coord in color_coords_triangle[0]:
+                            x, y = color_coord
+                            output_flage_part_pixels[x ,y] = hex_to_rgb(start_triangle_flag_color.hex_l)
+                        for color_coord in color_coords_triangle[-1]:
+                            x, y = color_coord
+                            output_flage_part_pixels[x ,y] = hex_to_rgb(end_triangle_flag_color.hex_l)
+                    else:
+                        start_triangle_flag_color = Color(triangle_flag_colors[0])
+                        end_triangle_flag_color = Color(triangle_flag_colors[-1])
+                        for color_cooord in color_coords_triangle[0]:
+                            x, y = color_cooord
+                            output_flage_part_pixels[x ,y] = hex_to_rgb(start_triangle_flag_color.hex_l)
+                        for i in range(1, color_coords_triangle-1):
+                            for color_cooord in color_coords_triangle[i]:
                                 x, y = color_cooord
                                 output_flage_part_pixels[x ,y] = hex_to_rgb(start_triangle_flag_color.hex_l)
-                            for i in range(1, color_coords_triangle-1):
-                                for color_cooord in color_coords_triangle[i]:
-                                    x, y = color_cooord
-                                    output_flage_part_pixels[x ,y] = hex_to_rgb(start_triangle_flag_color.hex_l)
-                            for color_cooord in color_coords_triangle[-1]:
-                                x, y = color_cooord
-                                output_flage_part_pixels[x ,y] = hex_to_rgb(end_triangle_flag_color.hex_l)
-                    elif 'circle' in flag and circle_name in color_coords:
-                        circle_flag_colors = Color(flag['circle'])
-                        color_coords_circle = color_coords[circle_name]
-                        for circle_flag_color in circle_flag_colors:
-                            for color_coord in color_coords_circle:
-                                x, y = color_coord
-                                output_flage_part_pixels[x ,y] = hex_to_rgb(circle_flag_color.hex_l)
+                        for color_cooord in color_coords_triangle[-1]:
+                            x, y = color_cooord
+                            output_flage_part_pixels[x ,y] = hex_to_rgb(end_triangle_flag_color.hex_l)
+                elif 'circle' in flag and circle_name in color_coords:
+                    circle_flag_color = Color(flag['circle'])
+                    color_coords_circle = color_coords[circle_name]
+                    color_coords_circle_size = len(color_coords_circle)
+
+                    for i in range(color_coords_circle_size):
+                        for color_coord in color_coords_circle[i]:
+                            x, y = color_coord
+                            output_flage_part_pixels[x ,y] = hex_to_rgb(circle_flag_color.hex_l)
         else:
             if key in output_map:
                 output_map[key]['empty'] = True
@@ -642,7 +648,22 @@ def generateSpriteLine(output_map, paw_outlines_img, outline_color, flag, parts,
         frame_width = output_flage_part.size[0]
         frame_height = output_flage_part.size[1]
 
-        output_flage_frames[key] = output_flage_part
+        mask = None
+        for m in mask_output:
+            if m['mask_key'] == mask_key:
+                mask_filename = os.path.join('..', m['filename'])
+                with open(mask_filename, 'rb') as f:
+                    mask = Image.open(f)
+                    mask.load()
+        
+        new_output_flage_part = Image.new(mode = "RGBA", size = (paw_width, paw_height))
+        if mask:
+            new_output_flage_part.paste(output_flage_part, (0, 0), mask)
+        else:
+            new_output_flage_part = output_flage_part
+        
+
+        output_flage_frames[key] = new_output_flage_part
         output_map[key]['rotated'] = False
         output_map[key]['trimmed'] = False
         output_map[key]['spriteSourceSize'] = { 'x': 0, 'y': 0, 'w': frame_width, 'h': frame_height }
@@ -848,22 +869,7 @@ def main():
     for form in forms:
         if form in config:
             parts = config[form]['parts']
-            mask_output.extend(generateSprite(config[form]['base_filename'], parts, 'mask_' + form, config[form], [mask_flag], transparent_colors))
-
-    for mask in mask_output:
-        img = Image.open(os.path.join('../', mask['filename']))
-        img = img.convert("RGBA")
-        datas = img.getdata()
-
-        newData = []
-        for pixel in datas:
-            if pixel[3] >= 255:
-                newData.append((255, 255, 255, 0))
-            else:
-                newData.append((0, 0, 0, 0))
-
-        img.putdata(newData)
-        img.save(os.path.join('../', mask['filename']))
+            mask_output.extend(generateSprite(config[form]['base_filename'], parts, 'mask_' + form, config[form], [mask_flag], transparent_colors, mask_output))
 
     output = []
     for form in forms:
