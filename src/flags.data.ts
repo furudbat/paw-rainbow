@@ -80,6 +80,7 @@ export interface PawFlagConfig extends BaseFlagConfig, Record<PawParts, FlagConf
 }
 
 export interface FlagsConfig {
+    categories: string[];
     forms: string[];
     transparent_colors: string[];
     paw: PawFlagConfig;

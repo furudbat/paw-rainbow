@@ -45619,6 +45619,7 @@ var Settings = (function () {
 exports.Settings = Settings;
 var CurrentSelectionPart = (function () {
     function CurrentSelectionPart() {
+        this.filter = "All";
         this.flag_name = "None";
         this.orientation = flags_data_1.Orientation.Vertical;
     }
@@ -45961,6 +45962,14 @@ var FormPartsAdapter = (function () {
         enumerable: false,
         configurable: true
     });
+    Object.defineProperty(FormPartsAdapter.prototype, "filter_list", {
+        get: function () {
+            var filters = ['All'];
+            return filters.concat(site_1.site.data.flags_config.categories);
+        },
+        enumerable: false,
+        configurable: true
+    });
     FormPartsAdapter.prototype.updateUI = function () {
         $('#btnSelectForm').empty();
         for (var _i = 0, _a = site_1.site.data.flags_config.forms; _i < _a.length; _i++) {
@@ -46004,9 +46013,10 @@ var FormPartsAdapter = (function () {
     };
     FormPartsAdapter.prototype.getSelectElement = function (form, part) {
         var part_name = part;
-        var lstId = "lstSelect" + part;
+        var lstId = "lstSelect" + form + part;
         var btnSelectOrientationHorizontalId = "btnSelectOrientationHorizontal" + part;
         var btnSelectOrientationVerticalId = "btnSelectOrientationVertical" + part;
+        var selected_part_filter = (part in this._appData.currentSelection.parts) ? this._appData.currentSelection.parts[part].filter : 'All';
         var selected_part_orientation = (part in this._appData.currentSelection.parts) ? this._appData.currentSelection.parts[part].orientation : flags_data_1.Orientation.Vertical;
         var selected_part_flag_name = (part in this._appData.currentSelection.parts) ? this._appData.currentSelection.parts[part].flag_name : this.default_flag_name;
         var selected_part = this.getSelectedPart(part);
@@ -46020,13 +46030,20 @@ var FormPartsAdapter = (function () {
         var selectable_parts_flag_names = selectable_parts.map(function (it) { return it.flag_name; });
         selectable_parts_flag_names = selectable_parts_flag_names.filter(function (element, i) { return i === selectable_parts_flag_names.indexOf(element); });
         var selects = '';
-        for (var _i = 0, selectable_parts_flag_names_1 = selectable_parts_flag_names; _i < selectable_parts_flag_names_1.length; _i++) {
-            var selectable_flag_name = selectable_parts_flag_names_1[_i];
+        for (var i = 0; i < selectable_parts_flag_names.length; i++) {
+            var selectable_flag_name = selectable_parts_flag_names[i];
             var selected = (selectable_flag_name === selected_part_flag_name) ? 'selected' : '';
-            selects += "<option class=\"select-part\" value=\"" + selectable_flag_name + "\" data-form=\"" + form + "\" data-part=\"" + part + "\" " + selected + ">\n                " + selectable_flag_name + "\n            </option>\n";
+            selects += "<option class=\"select-part\" value=\"" + selectable_flag_name + "\" data-form=\"" + form + "\" data-part=\"" + part + "\" data-index=\"" + i + "\" " + selected + ">\n                " + selectable_flag_name + "\n            </option>\n";
+        }
+        var filters = '';
+        for (var _i = 0, _a = this.filter_list; _i < _a.length; _i++) {
+            var filter = _a[_i];
+            var filter_name = filter;
+            var selected = (selected_part_filter === filter) ? 'selected' : '';
+            filters += "<option class=\"select-part\" value=\"" + filter + "\" data-form=\"" + form + "\" data-part=\"" + part + "\" " + selected + ">\n                " + filter_name + "\n            </option>\n";
         }
         var icon_filename = site_1.site.data.base_url + (selected_part === null || selected_part === void 0 ? void 0 : selected_part.flag_filename);
-        return "<div class=\"form-group\">\n            <label for=\"" + lstId + "\">" + part_name + "</label>\n            <div class=\"input-group\">\n                <div class=\"input-group-prepend text-center\">\n                    <img src=\"" + icon_filename + "\" class=\"img-fluid clickable-flag select-part-icon\" data-form=\"" + form + "\" data-part=\"" + part + "\" data-flag-name=\"" + (selected_part === null || selected_part === void 0 ? void 0 : selected_part.flag_name) + "\" alt=\"Selected Icon " + (selected_part === null || selected_part === void 0 ? void 0 : selected_part.flag_name) + "\">\n                </div>\n                <select id=\"" + lstId + "\" class=\"custom-select select-parts\" data-form=\"" + form + "\" data-part=\"" + part + "\">\n                    " + selects + "\n                </select>\n                <div class=\"input-group-append\">\n                    <button class=\"btn " + select_orientation_vertical_class + " select-orientation select-orientation-vertical\" type=\"button\" data-form=\"" + form + "\" data-part=\"" + part + "\" data-orientation=\"" + flags_data_1.Orientation.Vertical + "\" id=\"" + btnSelectOrientationVerticalId + "\" " + select_orientation_vertical_disabled + ">\n                        <i class=\"fas fa-image\"></i>\n                        <span class=\"sr-only\">Select Vertical</span>\n                    </button>\n                    <button class=\"btn " + select_orientation_horizontal_class + " select-orientation select-orientation-horizontal\" type=\"button\" data-form=\"" + form + "\" data-part=\"" + part + "\" data-orientation=\"" + flags_data_1.Orientation.Horizontal + "\" id=\"" + btnSelectOrientationHorizontalId + "\" " + select_orientation_horizontal_disabled + ">\n                        <i class=\"fas fa-image\" data-fa-transform=\"rotate-90\"></i>\n                        <span class=\"sr-only\">Select Horizontal</span>\n                    </button>\n                </div>\n            </div>\n        </div>";
+        return "<div class=\"form-group\">\n            <label for=\"" + lstId + "\">" + part_name + "</label>\n            <div class=\"input-group\">\n                <div class=\"input-group-prepend text-center\">\n                    <img src=\"" + icon_filename + "\" class=\"img-fluid clickable-flag select-part-icon flag-item-icon\" data-form=\"" + form + "\" data-part=\"" + part + "\" data-flag-name=\"" + (selected_part === null || selected_part === void 0 ? void 0 : selected_part.flag_name) + "\" alt=\"Selected Icon " + (selected_part === null || selected_part === void 0 ? void 0 : selected_part.flag_name) + "\">\n                </div>\n                <select id=\"" + lstId + "Filter\" class=\"custom-select select-parts-filter\" data-form=\"" + form + "\" data-part=\"" + part + "\" data-list-id=\"" + lstId + "\">\n                    " + filters + "\n                </select>\n                <select id=\"" + lstId + "\" class=\"custom-select select-parts\" data-form=\"" + form + "\" data-part=\"" + part + "\" data-list-id=\"" + lstId + "\">\n                    " + selects + "\n                </select>\n                <div class=\"input-group-append\">\n                    <button class=\"btn " + select_orientation_vertical_class + " select-orientation select-orientation-vertical\" type=\"button\" data-form=\"" + form + "\" data-part=\"" + part + "\" data-orientation=\"" + flags_data_1.Orientation.Vertical + "\" data-list-id=\"" + lstId + "\" id=\"" + btnSelectOrientationVerticalId + "\" " + select_orientation_vertical_disabled + ">\n                        <i class=\"fas fa-image\"></i>\n                        <span class=\"sr-only\">Select Vertical</span>\n                    </button>\n                    <button class=\"btn " + select_orientation_horizontal_class + " select-orientation select-orientation-horizontal\" type=\"button\" data-form=\"" + form + "\" data-part=\"" + part + "\" data-orientation=\"" + flags_data_1.Orientation.Horizontal + "\" data-list-id=\"" + lstId + "\" id=\"" + btnSelectOrientationHorizontalId + "\" " + select_orientation_horizontal_disabled + ">\n                        <i class=\"fas fa-image\" data-fa-transform=\"rotate-90\"></i>\n                        <span class=\"sr-only\">Select Horizontal</span>\n                    </button>\n                </div>\n            </div>\n        </div>";
     };
     FormPartsAdapter.prototype.initEvents = function () {
         var that = this;
@@ -46034,23 +46051,8 @@ var FormPartsAdapter = (function () {
             var form = $(this).data('form');
             that.setForm(form);
         });
-        $('.select-parts').off('change').on('change', function () {
-            var selected_flag_name = $(this).val();
-            var form = $(this).data('form');
-            var part = $(this).data('part');
-            that.log.debug('initEvents select-parts change', that._appData.currentSelection);
-            that._appData.setPartFlagName(part, selected_flag_name);
+        var updateOrientation = function (selected_flag_name, form, part) {
             var selected_part = that.getSelectedPart(part);
-            var icon_filename = site_1.site.data.base_url + (selected_part === null || selected_part === void 0 ? void 0 : selected_part.flag_filename);
-            $('.select-part-icon').each(function () {
-                var _a;
-                var icon_form = $(this).data('form');
-                var icon_part = $(this).data('part');
-                if (icon_form == form && icon_part == part) {
-                    $(this).data('flag-name', (_a = selected_part === null || selected_part === void 0 ? void 0 : selected_part.flag_name) !== null && _a !== void 0 ? _a : '');
-                    $(this).attr('src', icon_filename);
-                }
-            });
             var selectable_parts = that.getSelectableParts(part);
             $('.select-orientation').each(function () {
                 var btn_form = $(this).data('form');
@@ -46074,6 +46076,25 @@ var FormPartsAdapter = (function () {
                     }
                 }
             });
+        };
+        $('.select-parts').off('change').on('change', function () {
+            var selected_flag_name = $(this).val();
+            var form = $(this).data('form');
+            var part = $(this).data('part');
+            that.log.debug('initEvents select-parts change', that._appData.currentSelection);
+            that._appData.setPartFlagName(part, selected_flag_name);
+            var selected_part = that.getSelectedPart(part);
+            var icon_filename = site_1.site.data.base_url + (selected_part === null || selected_part === void 0 ? void 0 : selected_part.flag_filename);
+            $('.select-part-icon').each(function () {
+                var _a;
+                var icon_form = $(this).data('form');
+                var icon_part = $(this).data('part');
+                if (icon_form == form && icon_part == part) {
+                    $(this).data('flag-name', (_a = selected_part === null || selected_part === void 0 ? void 0 : selected_part.flag_name) !== null && _a !== void 0 ? _a : '');
+                    $(this).attr('src', icon_filename);
+                }
+            });
+            updateOrientation(selected_flag_name, form, part);
         });
         $('.select-orientation').off('click').on('click', function () {
             var form = $(this).data('form');

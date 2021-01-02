@@ -1,0 +1,3313 @@
+{
+    "frames": {
+        "assets/img/sprites/tribe_paw/tribe_paw_people_of_color_pride_horizontal_0.png": {
+            "flag_name": "People of Color Pride",
+            "part": "left_part_1",
+            "orientation": "horizontal",
+            "flag_filename": "assets/img/flags/people_of_color_pride.png",
+            "mask_key": "_horizontal_0",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/tribe_paw/tribe_paw_people_of_color_pride_horizontal_0.png",
+            "filename": "assets/img/sprites/tribe_paw/tribe_paw_people_of_color_pride_horizontal_0.png"
+        },
+        "assets/img/sprites/tribe_paw/tribe_paw_people_of_color_pride_horizontal_1.png": {
+            "flag_name": "People of Color Pride",
+            "part": "left_part_2",
+            "orientation": "horizontal",
+            "flag_filename": "assets/img/flags/people_of_color_pride.png",
+            "mask_key": "_horizontal_1",
+            "flags_fits": true,
+            "flags_fits_perfect": true,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 22,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/tribe_paw/tribe_paw_people_of_color_pride_horizontal_1.png",
+            "filename": "assets/img/sprites/tribe_paw/tribe_paw_people_of_color_pride_horizontal_1.png"
+        },
+        "assets/img/sprites/tribe_paw/tribe_paw_people_of_color_pride_horizontal_2.png": {
+            "flag_name": "People of Color Pride",
+            "part": "right_part_1",
+            "orientation": "horizontal",
+            "flag_filename": "assets/img/flags/people_of_color_pride.png",
+            "mask_key": "_horizontal_2",
+            "flags_fits": true,
+            "flags_fits_perfect": true,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 44,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/tribe_paw/tribe_paw_people_of_color_pride_horizontal_2.png",
+            "filename": "assets/img/sprites/tribe_paw/tribe_paw_people_of_color_pride_horizontal_2.png"
+        },
+        "assets/img/sprites/tribe_paw/tribe_paw_people_of_color_pride_horizontal_3.png": {
+            "flag_name": "People of Color Pride",
+            "part": "right_part_2",
+            "orientation": "horizontal",
+            "flag_filename": "assets/img/flags/people_of_color_pride.png",
+            "mask_key": "_horizontal_3",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 66,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/tribe_paw/tribe_paw_people_of_color_pride_horizontal_3.png",
+            "filename": "assets/img/sprites/tribe_paw/tribe_paw_people_of_color_pride_horizontal_3.png"
+        },
+        "assets/img/sprites/tribe_paw/tribe_paw_people_of_color_pride_horizontal_4.png": {
+            "flag_name": "People of Color Pride",
+            "part": "center",
+            "orientation": "horizontal",
+            "flag_filename": "assets/img/flags/people_of_color_pride.png",
+            "mask_key": "_horizontal_4",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 88,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/tribe_paw/tribe_paw_people_of_color_pride_horizontal_4.png",
+            "filename": "assets/img/sprites/tribe_paw/tribe_paw_people_of_color_pride_horizontal_4.png"
+        },
+        "assets/img/sprites/tribe_paw/tribe_paw_people_of_color_pride_vertical_0.png": {
+            "flag_name": "People of Color Pride",
+            "part": "left_part_1",
+            "orientation": "vertical",
+            "flag_filename": "assets/img/flags/people_of_color_pride.png",
+            "mask_key": "_vertical_0",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 110,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/tribe_paw/tribe_paw_people_of_color_pride_vertical_0.png",
+            "filename": "assets/img/sprites/tribe_paw/tribe_paw_people_of_color_pride_vertical_0.png"
+        },
+        "assets/img/sprites/tribe_paw/tribe_paw_people_of_color_pride_vertical_1.png": {
+            "flag_name": "People of Color Pride",
+            "part": "left_part_2",
+            "orientation": "vertical",
+            "flag_filename": "assets/img/flags/people_of_color_pride.png",
+            "mask_key": "_vertical_1",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 132,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/tribe_paw/tribe_paw_people_of_color_pride_vertical_1.png",
+            "filename": "assets/img/sprites/tribe_paw/tribe_paw_people_of_color_pride_vertical_1.png"
+        },
+        "assets/img/sprites/tribe_paw/tribe_paw_people_of_color_pride_vertical_2.png": {
+            "flag_name": "People of Color Pride",
+            "part": "right_part_1",
+            "orientation": "vertical",
+            "flag_filename": "assets/img/flags/people_of_color_pride.png",
+            "mask_key": "_vertical_2",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 154,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/tribe_paw/tribe_paw_people_of_color_pride_vertical_2.png",
+            "filename": "assets/img/sprites/tribe_paw/tribe_paw_people_of_color_pride_vertical_2.png"
+        },
+        "assets/img/sprites/tribe_paw/tribe_paw_people_of_color_pride_vertical_3.png": {
+            "flag_name": "People of Color Pride",
+            "part": "right_part_2",
+            "orientation": "vertical",
+            "flag_filename": "assets/img/flags/people_of_color_pride.png",
+            "mask_key": "_vertical_3",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 176,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/tribe_paw/tribe_paw_people_of_color_pride_vertical_3.png",
+            "filename": "assets/img/sprites/tribe_paw/tribe_paw_people_of_color_pride_vertical_3.png"
+        },
+        "assets/img/sprites/tribe_paw/tribe_paw_people_of_color_pride_vertical_4.png": {
+            "flag_name": "People of Color Pride",
+            "part": "center",
+            "orientation": "vertical",
+            "flag_filename": "assets/img/flags/people_of_color_pride.png",
+            "mask_key": "_vertical_4",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 198,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/tribe_paw/tribe_paw_people_of_color_pride_vertical_4.png",
+            "filename": "assets/img/sprites/tribe_paw/tribe_paw_people_of_color_pride_vertical_4.png"
+        },
+        "assets/img/sprites/tribe_paw/tribe_paw_lipstick_lesbian_horizontal_0.png": {
+            "flag_name": "Lipstick Lesbian",
+            "part": "left_part_1",
+            "orientation": "horizontal",
+            "flag_filename": "assets/img/flags/lipstick_lesbian.png",
+            "mask_key": "_horizontal_0",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 0,
+                "y": 22,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/tribe_paw/tribe_paw_lipstick_lesbian_horizontal_0.png",
+            "filename": "assets/img/sprites/tribe_paw/tribe_paw_lipstick_lesbian_horizontal_0.png"
+        },
+        "assets/img/sprites/tribe_paw/tribe_paw_lipstick_lesbian_horizontal_1.png": {
+            "flag_name": "Lipstick Lesbian",
+            "part": "left_part_2",
+            "orientation": "horizontal",
+            "flag_filename": "assets/img/flags/lipstick_lesbian.png",
+            "mask_key": "_horizontal_1",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 22,
+                "y": 22,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/tribe_paw/tribe_paw_lipstick_lesbian_horizontal_1.png",
+            "filename": "assets/img/sprites/tribe_paw/tribe_paw_lipstick_lesbian_horizontal_1.png"
+        },
+        "assets/img/sprites/tribe_paw/tribe_paw_lipstick_lesbian_horizontal_2.png": {
+            "flag_name": "Lipstick Lesbian",
+            "part": "right_part_1",
+            "orientation": "horizontal",
+            "flag_filename": "assets/img/flags/lipstick_lesbian.png",
+            "mask_key": "_horizontal_2",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 44,
+                "y": 22,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/tribe_paw/tribe_paw_lipstick_lesbian_horizontal_2.png",
+            "filename": "assets/img/sprites/tribe_paw/tribe_paw_lipstick_lesbian_horizontal_2.png"
+        },
+        "assets/img/sprites/tribe_paw/tribe_paw_lipstick_lesbian_horizontal_3.png": {
+            "flag_name": "Lipstick Lesbian",
+            "part": "right_part_2",
+            "orientation": "horizontal",
+            "flag_filename": "assets/img/flags/lipstick_lesbian.png",
+            "mask_key": "_horizontal_3",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 66,
+                "y": 22,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/tribe_paw/tribe_paw_lipstick_lesbian_horizontal_3.png",
+            "filename": "assets/img/sprites/tribe_paw/tribe_paw_lipstick_lesbian_horizontal_3.png"
+        },
+        "assets/img/sprites/tribe_paw/tribe_paw_lipstick_lesbian_horizontal_4.png": {
+            "flag_name": "Lipstick Lesbian",
+            "part": "center",
+            "orientation": "horizontal",
+            "flag_filename": "assets/img/flags/lipstick_lesbian.png",
+            "mask_key": "_horizontal_4",
+            "flags_fits": true,
+            "flags_fits_perfect": true,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 88,
+                "y": 22,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/tribe_paw/tribe_paw_lipstick_lesbian_horizontal_4.png",
+            "filename": "assets/img/sprites/tribe_paw/tribe_paw_lipstick_lesbian_horizontal_4.png"
+        },
+        "assets/img/sprites/tribe_paw/tribe_paw_lipstick_lesbian_vertical_0.png": {
+            "flag_name": "Lipstick Lesbian",
+            "part": "left_part_1",
+            "orientation": "vertical",
+            "flag_filename": "assets/img/flags/lipstick_lesbian.png",
+            "mask_key": "_vertical_0",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 110,
+                "y": 22,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/tribe_paw/tribe_paw_lipstick_lesbian_vertical_0.png",
+            "filename": "assets/img/sprites/tribe_paw/tribe_paw_lipstick_lesbian_vertical_0.png"
+        },
+        "assets/img/sprites/tribe_paw/tribe_paw_lipstick_lesbian_vertical_1.png": {
+            "flag_name": "Lipstick Lesbian",
+            "part": "left_part_2",
+            "orientation": "vertical",
+            "flag_filename": "assets/img/flags/lipstick_lesbian.png",
+            "mask_key": "_vertical_1",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 132,
+                "y": 22,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/tribe_paw/tribe_paw_lipstick_lesbian_vertical_1.png",
+            "filename": "assets/img/sprites/tribe_paw/tribe_paw_lipstick_lesbian_vertical_1.png"
+        },
+        "assets/img/sprites/tribe_paw/tribe_paw_lipstick_lesbian_vertical_2.png": {
+            "flag_name": "Lipstick Lesbian",
+            "part": "right_part_1",
+            "orientation": "vertical",
+            "flag_filename": "assets/img/flags/lipstick_lesbian.png",
+            "mask_key": "_vertical_2",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 154,
+                "y": 22,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/tribe_paw/tribe_paw_lipstick_lesbian_vertical_2.png",
+            "filename": "assets/img/sprites/tribe_paw/tribe_paw_lipstick_lesbian_vertical_2.png"
+        },
+        "assets/img/sprites/tribe_paw/tribe_paw_lipstick_lesbian_vertical_3.png": {
+            "flag_name": "Lipstick Lesbian",
+            "part": "right_part_2",
+            "orientation": "vertical",
+            "flag_filename": "assets/img/flags/lipstick_lesbian.png",
+            "mask_key": "_vertical_3",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 176,
+                "y": 22,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/tribe_paw/tribe_paw_lipstick_lesbian_vertical_3.png",
+            "filename": "assets/img/sprites/tribe_paw/tribe_paw_lipstick_lesbian_vertical_3.png"
+        },
+        "assets/img/sprites/tribe_paw/tribe_paw_lipstick_lesbian_vertical_4.png": {
+            "flag_name": "Lipstick Lesbian",
+            "part": "center",
+            "orientation": "vertical",
+            "flag_filename": "assets/img/flags/lipstick_lesbian.png",
+            "mask_key": "_vertical_4",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 198,
+                "y": 22,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/tribe_paw/tribe_paw_lipstick_lesbian_vertical_4.png",
+            "filename": "assets/img/sprites/tribe_paw/tribe_paw_lipstick_lesbian_vertical_4.png"
+        },
+        "assets/img/sprites/tribe_paw/tribe_paw_butch_lesbian_horizontal_0.png": {
+            "flag_name": "Butch Lesbian",
+            "part": "left_part_1",
+            "orientation": "horizontal",
+            "flag_filename": "assets/img/flags/butch_lesbian.png",
+            "mask_key": "_horizontal_0",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 0,
+                "y": 44,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/tribe_paw/tribe_paw_butch_lesbian_horizontal_0.png",
+            "filename": "assets/img/sprites/tribe_paw/tribe_paw_butch_lesbian_horizontal_0.png"
+        },
+        "assets/img/sprites/tribe_paw/tribe_paw_butch_lesbian_horizontal_1.png": {
+            "flag_name": "Butch Lesbian",
+            "part": "left_part_2",
+            "orientation": "horizontal",
+            "flag_filename": "assets/img/flags/butch_lesbian.png",
+            "mask_key": "_horizontal_1",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 22,
+                "y": 44,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/tribe_paw/tribe_paw_butch_lesbian_horizontal_1.png",
+            "filename": "assets/img/sprites/tribe_paw/tribe_paw_butch_lesbian_horizontal_1.png"
+        },
+        "assets/img/sprites/tribe_paw/tribe_paw_butch_lesbian_horizontal_2.png": {
+            "flag_name": "Butch Lesbian",
+            "part": "right_part_1",
+            "orientation": "horizontal",
+            "flag_filename": "assets/img/flags/butch_lesbian.png",
+            "mask_key": "_horizontal_2",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 44,
+                "y": 44,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/tribe_paw/tribe_paw_butch_lesbian_horizontal_2.png",
+            "filename": "assets/img/sprites/tribe_paw/tribe_paw_butch_lesbian_horizontal_2.png"
+        },
+        "assets/img/sprites/tribe_paw/tribe_paw_butch_lesbian_horizontal_3.png": {
+            "flag_name": "Butch Lesbian",
+            "part": "right_part_2",
+            "orientation": "horizontal",
+            "flag_filename": "assets/img/flags/butch_lesbian.png",
+            "mask_key": "_horizontal_3",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 66,
+                "y": 44,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/tribe_paw/tribe_paw_butch_lesbian_horizontal_3.png",
+            "filename": "assets/img/sprites/tribe_paw/tribe_paw_butch_lesbian_horizontal_3.png"
+        },
+        "assets/img/sprites/tribe_paw/tribe_paw_butch_lesbian_horizontal_4.png": {
+            "flag_name": "Butch Lesbian",
+            "part": "center",
+            "orientation": "horizontal",
+            "flag_filename": "assets/img/flags/butch_lesbian.png",
+            "mask_key": "_horizontal_4",
+            "flags_fits": true,
+            "flags_fits_perfect": true,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 88,
+                "y": 44,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/tribe_paw/tribe_paw_butch_lesbian_horizontal_4.png",
+            "filename": "assets/img/sprites/tribe_paw/tribe_paw_butch_lesbian_horizontal_4.png"
+        },
+        "assets/img/sprites/tribe_paw/tribe_paw_butch_lesbian_vertical_0.png": {
+            "flag_name": "Butch Lesbian",
+            "part": "left_part_1",
+            "orientation": "vertical",
+            "flag_filename": "assets/img/flags/butch_lesbian.png",
+            "mask_key": "_vertical_0",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 110,
+                "y": 44,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/tribe_paw/tribe_paw_butch_lesbian_vertical_0.png",
+            "filename": "assets/img/sprites/tribe_paw/tribe_paw_butch_lesbian_vertical_0.png"
+        },
+        "assets/img/sprites/tribe_paw/tribe_paw_butch_lesbian_vertical_1.png": {
+            "flag_name": "Butch Lesbian",
+            "part": "left_part_2",
+            "orientation": "vertical",
+            "flag_filename": "assets/img/flags/butch_lesbian.png",
+            "mask_key": "_vertical_1",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 132,
+                "y": 44,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/tribe_paw/tribe_paw_butch_lesbian_vertical_1.png",
+            "filename": "assets/img/sprites/tribe_paw/tribe_paw_butch_lesbian_vertical_1.png"
+        },
+        "assets/img/sprites/tribe_paw/tribe_paw_butch_lesbian_vertical_2.png": {
+            "flag_name": "Butch Lesbian",
+            "part": "right_part_1",
+            "orientation": "vertical",
+            "flag_filename": "assets/img/flags/butch_lesbian.png",
+            "mask_key": "_vertical_2",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 154,
+                "y": 44,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/tribe_paw/tribe_paw_butch_lesbian_vertical_2.png",
+            "filename": "assets/img/sprites/tribe_paw/tribe_paw_butch_lesbian_vertical_2.png"
+        },
+        "assets/img/sprites/tribe_paw/tribe_paw_butch_lesbian_vertical_3.png": {
+            "flag_name": "Butch Lesbian",
+            "part": "right_part_2",
+            "orientation": "vertical",
+            "flag_filename": "assets/img/flags/butch_lesbian.png",
+            "mask_key": "_vertical_3",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 176,
+                "y": 44,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/tribe_paw/tribe_paw_butch_lesbian_vertical_3.png",
+            "filename": "assets/img/sprites/tribe_paw/tribe_paw_butch_lesbian_vertical_3.png"
+        },
+        "assets/img/sprites/tribe_paw/tribe_paw_butch_lesbian_vertical_4.png": {
+            "flag_name": "Butch Lesbian",
+            "part": "center",
+            "orientation": "vertical",
+            "flag_filename": "assets/img/flags/butch_lesbian.png",
+            "mask_key": "_vertical_4",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 198,
+                "y": 44,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/tribe_paw/tribe_paw_butch_lesbian_vertical_4.png",
+            "filename": "assets/img/sprites/tribe_paw/tribe_paw_butch_lesbian_vertical_4.png"
+        },
+        "assets/img/sprites/tribe_paw/tribe_paw_bears_horizontal_0.png": {
+            "flag_name": "Bears",
+            "part": "left_part_1",
+            "orientation": "horizontal",
+            "flag_filename": "assets/img/flags/bears.png",
+            "mask_key": "_horizontal_0",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 0,
+                "y": 66,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/tribe_paw/tribe_paw_bears_horizontal_0.png",
+            "filename": "assets/img/sprites/tribe_paw/tribe_paw_bears_horizontal_0.png"
+        },
+        "assets/img/sprites/tribe_paw/tribe_paw_bears_horizontal_1.png": {
+            "flag_name": "Bears",
+            "part": "left_part_2",
+            "orientation": "horizontal",
+            "flag_filename": "assets/img/flags/bears.png",
+            "mask_key": "_horizontal_1",
+            "flags_fits": true,
+            "flags_fits_perfect": true,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 22,
+                "y": 66,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/tribe_paw/tribe_paw_bears_horizontal_1.png",
+            "filename": "assets/img/sprites/tribe_paw/tribe_paw_bears_horizontal_1.png"
+        },
+        "assets/img/sprites/tribe_paw/tribe_paw_bears_horizontal_2.png": {
+            "flag_name": "Bears",
+            "part": "right_part_1",
+            "orientation": "horizontal",
+            "flag_filename": "assets/img/flags/bears.png",
+            "mask_key": "_horizontal_2",
+            "flags_fits": true,
+            "flags_fits_perfect": true,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 44,
+                "y": 66,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/tribe_paw/tribe_paw_bears_horizontal_2.png",
+            "filename": "assets/img/sprites/tribe_paw/tribe_paw_bears_horizontal_2.png"
+        },
+        "assets/img/sprites/tribe_paw/tribe_paw_bears_horizontal_3.png": {
+            "flag_name": "Bears",
+            "part": "right_part_2",
+            "orientation": "horizontal",
+            "flag_filename": "assets/img/flags/bears.png",
+            "mask_key": "_horizontal_3",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 66,
+                "y": 66,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/tribe_paw/tribe_paw_bears_horizontal_3.png",
+            "filename": "assets/img/sprites/tribe_paw/tribe_paw_bears_horizontal_3.png"
+        },
+        "assets/img/sprites/tribe_paw/tribe_paw_bears_horizontal_4.png": {
+            "flag_name": "Bears",
+            "part": "center",
+            "orientation": "horizontal",
+            "flag_filename": "assets/img/flags/bears.png",
+            "mask_key": "_horizontal_4",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 88,
+                "y": 66,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/tribe_paw/tribe_paw_bears_horizontal_4.png",
+            "filename": "assets/img/sprites/tribe_paw/tribe_paw_bears_horizontal_4.png"
+        },
+        "assets/img/sprites/tribe_paw/tribe_paw_bears_vertical_0.png": {
+            "flag_name": "Bears",
+            "part": "left_part_1",
+            "orientation": "vertical",
+            "flag_filename": "assets/img/flags/bears.png",
+            "mask_key": "_vertical_0",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 110,
+                "y": 66,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/tribe_paw/tribe_paw_bears_vertical_0.png",
+            "filename": "assets/img/sprites/tribe_paw/tribe_paw_bears_vertical_0.png"
+        },
+        "assets/img/sprites/tribe_paw/tribe_paw_bears_vertical_1.png": {
+            "flag_name": "Bears",
+            "part": "left_part_2",
+            "orientation": "vertical",
+            "flag_filename": "assets/img/flags/bears.png",
+            "mask_key": "_vertical_1",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 132,
+                "y": 66,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/tribe_paw/tribe_paw_bears_vertical_1.png",
+            "filename": "assets/img/sprites/tribe_paw/tribe_paw_bears_vertical_1.png"
+        },
+        "assets/img/sprites/tribe_paw/tribe_paw_bears_vertical_2.png": {
+            "flag_name": "Bears",
+            "part": "right_part_1",
+            "orientation": "vertical",
+            "flag_filename": "assets/img/flags/bears.png",
+            "mask_key": "_vertical_2",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 154,
+                "y": 66,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/tribe_paw/tribe_paw_bears_vertical_2.png",
+            "filename": "assets/img/sprites/tribe_paw/tribe_paw_bears_vertical_2.png"
+        },
+        "assets/img/sprites/tribe_paw/tribe_paw_bears_vertical_3.png": {
+            "flag_name": "Bears",
+            "part": "right_part_2",
+            "orientation": "vertical",
+            "flag_filename": "assets/img/flags/bears.png",
+            "mask_key": "_vertical_3",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 176,
+                "y": 66,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/tribe_paw/tribe_paw_bears_vertical_3.png",
+            "filename": "assets/img/sprites/tribe_paw/tribe_paw_bears_vertical_3.png"
+        },
+        "assets/img/sprites/tribe_paw/tribe_paw_bears_vertical_4.png": {
+            "flag_name": "Bears",
+            "part": "center",
+            "orientation": "vertical",
+            "flag_filename": "assets/img/flags/bears.png",
+            "mask_key": "_vertical_4",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 198,
+                "y": 66,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/tribe_paw/tribe_paw_bears_vertical_4.png",
+            "filename": "assets/img/sprites/tribe_paw/tribe_paw_bears_vertical_4.png"
+        },
+        "assets/img/sprites/tribe_paw/tribe_paw_otters_horizontal_0.png": {
+            "flag_name": "Otters",
+            "part": "left_part_1",
+            "orientation": "horizontal",
+            "flag_filename": "assets/img/flags/otters.png",
+            "mask_key": "_horizontal_0",
+            "flags_fits": true,
+            "flags_fits_perfect": true,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 0,
+                "y": 88,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/tribe_paw/tribe_paw_otters_horizontal_0.png",
+            "filename": "assets/img/sprites/tribe_paw/tribe_paw_otters_horizontal_0.png"
+        },
+        "assets/img/sprites/tribe_paw/tribe_paw_otters_horizontal_1.png": {
+            "flag_name": "Otters",
+            "part": "left_part_2",
+            "orientation": "horizontal",
+            "flag_filename": "assets/img/flags/otters.png",
+            "mask_key": "_horizontal_1",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 22,
+                "y": 88,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/tribe_paw/tribe_paw_otters_horizontal_1.png",
+            "filename": "assets/img/sprites/tribe_paw/tribe_paw_otters_horizontal_1.png"
+        },
+        "assets/img/sprites/tribe_paw/tribe_paw_otters_horizontal_2.png": {
+            "flag_name": "Otters",
+            "part": "right_part_1",
+            "orientation": "horizontal",
+            "flag_filename": "assets/img/flags/otters.png",
+            "mask_key": "_horizontal_2",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 44,
+                "y": 88,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/tribe_paw/tribe_paw_otters_horizontal_2.png",
+            "filename": "assets/img/sprites/tribe_paw/tribe_paw_otters_horizontal_2.png"
+        },
+        "assets/img/sprites/tribe_paw/tribe_paw_otters_horizontal_3.png": {
+            "flag_name": "Otters",
+            "part": "right_part_2",
+            "orientation": "horizontal",
+            "flag_filename": "assets/img/flags/otters.png",
+            "mask_key": "_horizontal_3",
+            "flags_fits": true,
+            "flags_fits_perfect": true,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 66,
+                "y": 88,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/tribe_paw/tribe_paw_otters_horizontal_3.png",
+            "filename": "assets/img/sprites/tribe_paw/tribe_paw_otters_horizontal_3.png"
+        },
+        "assets/img/sprites/tribe_paw/tribe_paw_otters_horizontal_4.png": {
+            "flag_name": "Otters",
+            "part": "center",
+            "orientation": "horizontal",
+            "flag_filename": "assets/img/flags/otters.png",
+            "mask_key": "_horizontal_4",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 88,
+                "y": 88,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/tribe_paw/tribe_paw_otters_horizontal_4.png",
+            "filename": "assets/img/sprites/tribe_paw/tribe_paw_otters_horizontal_4.png"
+        },
+        "assets/img/sprites/tribe_paw/tribe_paw_otters_vertical_0.png": {
+            "flag_name": "Otters",
+            "part": "left_part_1",
+            "orientation": "vertical",
+            "flag_filename": "assets/img/flags/otters.png",
+            "mask_key": "_vertical_0",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 110,
+                "y": 88,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/tribe_paw/tribe_paw_otters_vertical_0.png",
+            "filename": "assets/img/sprites/tribe_paw/tribe_paw_otters_vertical_0.png"
+        },
+        "assets/img/sprites/tribe_paw/tribe_paw_otters_vertical_1.png": {
+            "flag_name": "Otters",
+            "part": "left_part_2",
+            "orientation": "vertical",
+            "flag_filename": "assets/img/flags/otters.png",
+            "mask_key": "_vertical_1",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 132,
+                "y": 88,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/tribe_paw/tribe_paw_otters_vertical_1.png",
+            "filename": "assets/img/sprites/tribe_paw/tribe_paw_otters_vertical_1.png"
+        },
+        "assets/img/sprites/tribe_paw/tribe_paw_otters_vertical_2.png": {
+            "flag_name": "Otters",
+            "part": "right_part_1",
+            "orientation": "vertical",
+            "flag_filename": "assets/img/flags/otters.png",
+            "mask_key": "_vertical_2",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 154,
+                "y": 88,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/tribe_paw/tribe_paw_otters_vertical_2.png",
+            "filename": "assets/img/sprites/tribe_paw/tribe_paw_otters_vertical_2.png"
+        },
+        "assets/img/sprites/tribe_paw/tribe_paw_otters_vertical_3.png": {
+            "flag_name": "Otters",
+            "part": "right_part_2",
+            "orientation": "vertical",
+            "flag_filename": "assets/img/flags/otters.png",
+            "mask_key": "_vertical_3",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 176,
+                "y": 88,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/tribe_paw/tribe_paw_otters_vertical_3.png",
+            "filename": "assets/img/sprites/tribe_paw/tribe_paw_otters_vertical_3.png"
+        },
+        "assets/img/sprites/tribe_paw/tribe_paw_otters_vertical_4.png": {
+            "flag_name": "Otters",
+            "part": "center",
+            "orientation": "vertical",
+            "flag_filename": "assets/img/flags/otters.png",
+            "mask_key": "_vertical_4",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 198,
+                "y": 88,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/tribe_paw/tribe_paw_otters_vertical_4.png",
+            "filename": "assets/img/sprites/tribe_paw/tribe_paw_otters_vertical_4.png"
+        },
+        "assets/img/sprites/tribe_paw/tribe_paw_twinks_horizontal_0.png": {
+            "flag_name": "Twinks",
+            "part": "left_part_1",
+            "orientation": "horizontal",
+            "flag_filename": "assets/img/flags/twinks.png",
+            "mask_key": "_horizontal_0",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 0,
+                "y": 110,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/tribe_paw/tribe_paw_twinks_horizontal_0.png",
+            "filename": "assets/img/sprites/tribe_paw/tribe_paw_twinks_horizontal_0.png"
+        },
+        "assets/img/sprites/tribe_paw/tribe_paw_twinks_horizontal_1.png": {
+            "flag_name": "Twinks",
+            "part": "left_part_2",
+            "orientation": "horizontal",
+            "flag_filename": "assets/img/flags/twinks.png",
+            "mask_key": "_horizontal_1",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 22,
+                "y": 110,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/tribe_paw/tribe_paw_twinks_horizontal_1.png",
+            "filename": "assets/img/sprites/tribe_paw/tribe_paw_twinks_horizontal_1.png"
+        },
+        "assets/img/sprites/tribe_paw/tribe_paw_twinks_horizontal_2.png": {
+            "flag_name": "Twinks",
+            "part": "right_part_1",
+            "orientation": "horizontal",
+            "flag_filename": "assets/img/flags/twinks.png",
+            "mask_key": "_horizontal_2",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 44,
+                "y": 110,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/tribe_paw/tribe_paw_twinks_horizontal_2.png",
+            "filename": "assets/img/sprites/tribe_paw/tribe_paw_twinks_horizontal_2.png"
+        },
+        "assets/img/sprites/tribe_paw/tribe_paw_twinks_horizontal_3.png": {
+            "flag_name": "Twinks",
+            "part": "right_part_2",
+            "orientation": "horizontal",
+            "flag_filename": "assets/img/flags/twinks.png",
+            "mask_key": "_horizontal_3",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 66,
+                "y": 110,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/tribe_paw/tribe_paw_twinks_horizontal_3.png",
+            "filename": "assets/img/sprites/tribe_paw/tribe_paw_twinks_horizontal_3.png"
+        },
+        "assets/img/sprites/tribe_paw/tribe_paw_twinks_horizontal_4.png": {
+            "flag_name": "Twinks",
+            "part": "center",
+            "orientation": "horizontal",
+            "flag_filename": "assets/img/flags/twinks.png",
+            "mask_key": "_horizontal_4",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 88,
+                "y": 110,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/tribe_paw/tribe_paw_twinks_horizontal_4.png",
+            "filename": "assets/img/sprites/tribe_paw/tribe_paw_twinks_horizontal_4.png"
+        },
+        "assets/img/sprites/tribe_paw/tribe_paw_twinks_vertical_0.png": {
+            "flag_name": "Twinks",
+            "part": "left_part_1",
+            "orientation": "vertical",
+            "flag_filename": "assets/img/flags/twinks.png",
+            "mask_key": "_vertical_0",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 110,
+                "y": 110,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/tribe_paw/tribe_paw_twinks_vertical_0.png",
+            "filename": "assets/img/sprites/tribe_paw/tribe_paw_twinks_vertical_0.png"
+        },
+        "assets/img/sprites/tribe_paw/tribe_paw_twinks_vertical_1.png": {
+            "flag_name": "Twinks",
+            "part": "left_part_2",
+            "orientation": "vertical",
+            "flag_filename": "assets/img/flags/twinks.png",
+            "mask_key": "_vertical_1",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 132,
+                "y": 110,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/tribe_paw/tribe_paw_twinks_vertical_1.png",
+            "filename": "assets/img/sprites/tribe_paw/tribe_paw_twinks_vertical_1.png"
+        },
+        "assets/img/sprites/tribe_paw/tribe_paw_twinks_vertical_2.png": {
+            "flag_name": "Twinks",
+            "part": "right_part_1",
+            "orientation": "vertical",
+            "flag_filename": "assets/img/flags/twinks.png",
+            "mask_key": "_vertical_2",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 154,
+                "y": 110,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/tribe_paw/tribe_paw_twinks_vertical_2.png",
+            "filename": "assets/img/sprites/tribe_paw/tribe_paw_twinks_vertical_2.png"
+        },
+        "assets/img/sprites/tribe_paw/tribe_paw_twinks_vertical_3.png": {
+            "flag_name": "Twinks",
+            "part": "right_part_2",
+            "orientation": "vertical",
+            "flag_filename": "assets/img/flags/twinks.png",
+            "mask_key": "_vertical_3",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 176,
+                "y": 110,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/tribe_paw/tribe_paw_twinks_vertical_3.png",
+            "filename": "assets/img/sprites/tribe_paw/tribe_paw_twinks_vertical_3.png"
+        },
+        "assets/img/sprites/tribe_paw/tribe_paw_twinks_vertical_4.png": {
+            "flag_name": "Twinks",
+            "part": "center",
+            "orientation": "vertical",
+            "flag_filename": "assets/img/flags/twinks.png",
+            "mask_key": "_vertical_4",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 198,
+                "y": 110,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/tribe_paw/tribe_paw_twinks_vertical_4.png",
+            "filename": "assets/img/sprites/tribe_paw/tribe_paw_twinks_vertical_4.png"
+        },
+        "assets/img/sprites/tribe_paw/tribe_paw_military_horizontal_0.png": {
+            "flag_name": "Military",
+            "part": "left_part_1",
+            "orientation": "horizontal",
+            "flag_filename": "assets/img/flags/military.png",
+            "mask_key": "_horizontal_0",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 0,
+                "y": 132,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/tribe_paw/tribe_paw_military_horizontal_0.png",
+            "filename": "assets/img/sprites/tribe_paw/tribe_paw_military_horizontal_0.png"
+        },
+        "assets/img/sprites/tribe_paw/tribe_paw_military_horizontal_1.png": {
+            "flag_name": "Military",
+            "part": "left_part_2",
+            "orientation": "horizontal",
+            "flag_filename": "assets/img/flags/military.png",
+            "mask_key": "_horizontal_1",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 22,
+                "y": 132,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/tribe_paw/tribe_paw_military_horizontal_1.png",
+            "filename": "assets/img/sprites/tribe_paw/tribe_paw_military_horizontal_1.png"
+        },
+        "assets/img/sprites/tribe_paw/tribe_paw_military_horizontal_2.png": {
+            "flag_name": "Military",
+            "part": "right_part_1",
+            "orientation": "horizontal",
+            "flag_filename": "assets/img/flags/military.png",
+            "mask_key": "_horizontal_2",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 44,
+                "y": 132,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/tribe_paw/tribe_paw_military_horizontal_2.png",
+            "filename": "assets/img/sprites/tribe_paw/tribe_paw_military_horizontal_2.png"
+        },
+        "assets/img/sprites/tribe_paw/tribe_paw_military_horizontal_3.png": {
+            "flag_name": "Military",
+            "part": "right_part_2",
+            "orientation": "horizontal",
+            "flag_filename": "assets/img/flags/military.png",
+            "mask_key": "_horizontal_3",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 66,
+                "y": 132,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/tribe_paw/tribe_paw_military_horizontal_3.png",
+            "filename": "assets/img/sprites/tribe_paw/tribe_paw_military_horizontal_3.png"
+        },
+        "assets/img/sprites/tribe_paw/tribe_paw_military_horizontal_4.png": {
+            "flag_name": "Military",
+            "part": "center",
+            "orientation": "horizontal",
+            "flag_filename": "assets/img/flags/military.png",
+            "mask_key": "_horizontal_4",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 88,
+                "y": 132,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/tribe_paw/tribe_paw_military_horizontal_4.png",
+            "filename": "assets/img/sprites/tribe_paw/tribe_paw_military_horizontal_4.png"
+        },
+        "assets/img/sprites/tribe_paw/tribe_paw_military_vertical_0.png": {
+            "flag_name": "Military",
+            "part": "left_part_1",
+            "orientation": "vertical",
+            "flag_filename": "assets/img/flags/military.png",
+            "mask_key": "_vertical_0",
+            "flags_fits": true,
+            "flags_fits_perfect": true,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 110,
+                "y": 132,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/tribe_paw/tribe_paw_military_vertical_0.png",
+            "filename": "assets/img/sprites/tribe_paw/tribe_paw_military_vertical_0.png"
+        },
+        "assets/img/sprites/tribe_paw/tribe_paw_military_vertical_1.png": {
+            "flag_name": "Military",
+            "part": "left_part_2",
+            "orientation": "vertical",
+            "flag_filename": "assets/img/flags/military.png",
+            "mask_key": "_vertical_1",
+            "flags_fits": true,
+            "flags_fits_perfect": true,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 132,
+                "y": 132,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/tribe_paw/tribe_paw_military_vertical_1.png",
+            "filename": "assets/img/sprites/tribe_paw/tribe_paw_military_vertical_1.png"
+        },
+        "assets/img/sprites/tribe_paw/tribe_paw_military_vertical_2.png": {
+            "flag_name": "Military",
+            "part": "right_part_1",
+            "orientation": "vertical",
+            "flag_filename": "assets/img/flags/military.png",
+            "mask_key": "_vertical_2",
+            "flags_fits": true,
+            "flags_fits_perfect": true,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 154,
+                "y": 132,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/tribe_paw/tribe_paw_military_vertical_2.png",
+            "filename": "assets/img/sprites/tribe_paw/tribe_paw_military_vertical_2.png"
+        },
+        "assets/img/sprites/tribe_paw/tribe_paw_military_vertical_3.png": {
+            "flag_name": "Military",
+            "part": "right_part_2",
+            "orientation": "vertical",
+            "flag_filename": "assets/img/flags/military.png",
+            "mask_key": "_vertical_3",
+            "flags_fits": true,
+            "flags_fits_perfect": true,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 176,
+                "y": 132,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/tribe_paw/tribe_paw_military_vertical_3.png",
+            "filename": "assets/img/sprites/tribe_paw/tribe_paw_military_vertical_3.png"
+        },
+        "assets/img/sprites/tribe_paw/tribe_paw_military_vertical_4.png": {
+            "flag_name": "Military",
+            "part": "center",
+            "orientation": "vertical",
+            "flag_filename": "assets/img/flags/military.png",
+            "mask_key": "_vertical_4",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 198,
+                "y": 132,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/tribe_paw/tribe_paw_military_vertical_4.png",
+            "filename": "assets/img/sprites/tribe_paw/tribe_paw_military_vertical_4.png"
+        },
+        "assets/img/sprites/tribe_paw/tribe_paw_fat_chubby_horizontal_0.png": {
+            "flag_name": "Fat/Chubby",
+            "part": "left_part_1",
+            "orientation": "horizontal",
+            "flag_filename": "assets/img/flags/fat_chubby.png",
+            "mask_key": "_horizontal_0",
+            "flags_fits": true,
+            "flags_fits_perfect": true,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 0,
+                "y": 154,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/tribe_paw/tribe_paw_fat_chubby_horizontal_0.png",
+            "filename": "assets/img/sprites/tribe_paw/tribe_paw_fat_chubby_horizontal_0.png"
+        },
+        "assets/img/sprites/tribe_paw/tribe_paw_fat_chubby_horizontal_1.png": {
+            "flag_name": "Fat/Chubby",
+            "part": "left_part_2",
+            "orientation": "horizontal",
+            "flag_filename": "assets/img/flags/fat_chubby.png",
+            "mask_key": "_horizontal_1",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 22,
+                "y": 154,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/tribe_paw/tribe_paw_fat_chubby_horizontal_1.png",
+            "filename": "assets/img/sprites/tribe_paw/tribe_paw_fat_chubby_horizontal_1.png"
+        },
+        "assets/img/sprites/tribe_paw/tribe_paw_fat_chubby_horizontal_2.png": {
+            "flag_name": "Fat/Chubby",
+            "part": "right_part_1",
+            "orientation": "horizontal",
+            "flag_filename": "assets/img/flags/fat_chubby.png",
+            "mask_key": "_horizontal_2",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 44,
+                "y": 154,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/tribe_paw/tribe_paw_fat_chubby_horizontal_2.png",
+            "filename": "assets/img/sprites/tribe_paw/tribe_paw_fat_chubby_horizontal_2.png"
+        },
+        "assets/img/sprites/tribe_paw/tribe_paw_fat_chubby_horizontal_3.png": {
+            "flag_name": "Fat/Chubby",
+            "part": "right_part_2",
+            "orientation": "horizontal",
+            "flag_filename": "assets/img/flags/fat_chubby.png",
+            "mask_key": "_horizontal_3",
+            "flags_fits": true,
+            "flags_fits_perfect": true,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 66,
+                "y": 154,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/tribe_paw/tribe_paw_fat_chubby_horizontal_3.png",
+            "filename": "assets/img/sprites/tribe_paw/tribe_paw_fat_chubby_horizontal_3.png"
+        },
+        "assets/img/sprites/tribe_paw/tribe_paw_fat_chubby_horizontal_4.png": {
+            "flag_name": "Fat/Chubby",
+            "part": "center",
+            "orientation": "horizontal",
+            "flag_filename": "assets/img/flags/fat_chubby.png",
+            "mask_key": "_horizontal_4",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 88,
+                "y": 154,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/tribe_paw/tribe_paw_fat_chubby_horizontal_4.png",
+            "filename": "assets/img/sprites/tribe_paw/tribe_paw_fat_chubby_horizontal_4.png"
+        },
+        "assets/img/sprites/tribe_paw/tribe_paw_fat_chubby_vertical_0.png": {
+            "flag_name": "Fat/Chubby",
+            "part": "left_part_1",
+            "orientation": "vertical",
+            "flag_filename": "assets/img/flags/fat_chubby.png",
+            "mask_key": "_vertical_0",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 110,
+                "y": 154,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/tribe_paw/tribe_paw_fat_chubby_vertical_0.png",
+            "filename": "assets/img/sprites/tribe_paw/tribe_paw_fat_chubby_vertical_0.png"
+        },
+        "assets/img/sprites/tribe_paw/tribe_paw_fat_chubby_vertical_1.png": {
+            "flag_name": "Fat/Chubby",
+            "part": "left_part_2",
+            "orientation": "vertical",
+            "flag_filename": "assets/img/flags/fat_chubby.png",
+            "mask_key": "_vertical_1",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 132,
+                "y": 154,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/tribe_paw/tribe_paw_fat_chubby_vertical_1.png",
+            "filename": "assets/img/sprites/tribe_paw/tribe_paw_fat_chubby_vertical_1.png"
+        },
+        "assets/img/sprites/tribe_paw/tribe_paw_fat_chubby_vertical_2.png": {
+            "flag_name": "Fat/Chubby",
+            "part": "right_part_1",
+            "orientation": "vertical",
+            "flag_filename": "assets/img/flags/fat_chubby.png",
+            "mask_key": "_vertical_2",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 154,
+                "y": 154,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/tribe_paw/tribe_paw_fat_chubby_vertical_2.png",
+            "filename": "assets/img/sprites/tribe_paw/tribe_paw_fat_chubby_vertical_2.png"
+        },
+        "assets/img/sprites/tribe_paw/tribe_paw_fat_chubby_vertical_3.png": {
+            "flag_name": "Fat/Chubby",
+            "part": "right_part_2",
+            "orientation": "vertical",
+            "flag_filename": "assets/img/flags/fat_chubby.png",
+            "mask_key": "_vertical_3",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 176,
+                "y": 154,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/tribe_paw/tribe_paw_fat_chubby_vertical_3.png",
+            "filename": "assets/img/sprites/tribe_paw/tribe_paw_fat_chubby_vertical_3.png"
+        },
+        "assets/img/sprites/tribe_paw/tribe_paw_fat_chubby_vertical_4.png": {
+            "flag_name": "Fat/Chubby",
+            "part": "center",
+            "orientation": "vertical",
+            "flag_filename": "assets/img/flags/fat_chubby.png",
+            "mask_key": "_vertical_4",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 198,
+                "y": 154,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/tribe_paw/tribe_paw_fat_chubby_vertical_4.png",
+            "filename": "assets/img/sprites/tribe_paw/tribe_paw_fat_chubby_vertical_4.png"
+        },
+        "assets/img/sprites/tribe_paw/tribe_paw_poz_horizontal_0.png": {
+            "flag_name": "Poz",
+            "part": "left_part_1",
+            "orientation": "horizontal",
+            "flag_filename": "assets/img/flags/poz.png",
+            "mask_key": "_horizontal_0",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 0,
+                "y": 176,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/tribe_paw/tribe_paw_poz_horizontal_0.png",
+            "filename": "assets/img/sprites/tribe_paw/tribe_paw_poz_horizontal_0.png"
+        },
+        "assets/img/sprites/tribe_paw/tribe_paw_poz_horizontal_1.png": {
+            "flag_name": "Poz",
+            "part": "left_part_2",
+            "orientation": "horizontal",
+            "flag_filename": "assets/img/flags/poz.png",
+            "mask_key": "_horizontal_1",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 22,
+                "y": 176,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/tribe_paw/tribe_paw_poz_horizontal_1.png",
+            "filename": "assets/img/sprites/tribe_paw/tribe_paw_poz_horizontal_1.png"
+        },
+        "assets/img/sprites/tribe_paw/tribe_paw_poz_horizontal_2.png": {
+            "flag_name": "Poz",
+            "part": "right_part_1",
+            "orientation": "horizontal",
+            "flag_filename": "assets/img/flags/poz.png",
+            "mask_key": "_horizontal_2",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 44,
+                "y": 176,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/tribe_paw/tribe_paw_poz_horizontal_2.png",
+            "filename": "assets/img/sprites/tribe_paw/tribe_paw_poz_horizontal_2.png"
+        },
+        "assets/img/sprites/tribe_paw/tribe_paw_poz_horizontal_3.png": {
+            "flag_name": "Poz",
+            "part": "right_part_2",
+            "orientation": "horizontal",
+            "flag_filename": "assets/img/flags/poz.png",
+            "mask_key": "_horizontal_3",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 66,
+                "y": 176,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/tribe_paw/tribe_paw_poz_horizontal_3.png",
+            "filename": "assets/img/sprites/tribe_paw/tribe_paw_poz_horizontal_3.png"
+        },
+        "assets/img/sprites/tribe_paw/tribe_paw_poz_horizontal_4.png": {
+            "flag_name": "Poz",
+            "part": "center",
+            "orientation": "horizontal",
+            "flag_filename": "assets/img/flags/poz.png",
+            "mask_key": "_horizontal_4",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 88,
+                "y": 176,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/tribe_paw/tribe_paw_poz_horizontal_4.png",
+            "filename": "assets/img/sprites/tribe_paw/tribe_paw_poz_horizontal_4.png"
+        },
+        "assets/img/sprites/tribe_paw/tribe_paw_poz_vertical_0.png": {
+            "flag_name": "Poz",
+            "part": "left_part_1",
+            "orientation": "vertical",
+            "flag_filename": "assets/img/flags/poz.png",
+            "mask_key": "_vertical_0",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 110,
+                "y": 176,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/tribe_paw/tribe_paw_poz_vertical_0.png",
+            "filename": "assets/img/sprites/tribe_paw/tribe_paw_poz_vertical_0.png"
+        },
+        "assets/img/sprites/tribe_paw/tribe_paw_poz_vertical_1.png": {
+            "flag_name": "Poz",
+            "part": "left_part_2",
+            "orientation": "vertical",
+            "flag_filename": "assets/img/flags/poz.png",
+            "mask_key": "_vertical_1",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 132,
+                "y": 176,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/tribe_paw/tribe_paw_poz_vertical_1.png",
+            "filename": "assets/img/sprites/tribe_paw/tribe_paw_poz_vertical_1.png"
+        },
+        "assets/img/sprites/tribe_paw/tribe_paw_poz_vertical_2.png": {
+            "flag_name": "Poz",
+            "part": "right_part_1",
+            "orientation": "vertical",
+            "flag_filename": "assets/img/flags/poz.png",
+            "mask_key": "_vertical_2",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 154,
+                "y": 176,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/tribe_paw/tribe_paw_poz_vertical_2.png",
+            "filename": "assets/img/sprites/tribe_paw/tribe_paw_poz_vertical_2.png"
+        },
+        "assets/img/sprites/tribe_paw/tribe_paw_poz_vertical_3.png": {
+            "flag_name": "Poz",
+            "part": "right_part_2",
+            "orientation": "vertical",
+            "flag_filename": "assets/img/flags/poz.png",
+            "mask_key": "_vertical_3",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 176,
+                "y": 176,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/tribe_paw/tribe_paw_poz_vertical_3.png",
+            "filename": "assets/img/sprites/tribe_paw/tribe_paw_poz_vertical_3.png"
+        },
+        "assets/img/sprites/tribe_paw/tribe_paw_poz_vertical_4.png": {
+            "flag_name": "Poz",
+            "part": "center",
+            "orientation": "vertical",
+            "flag_filename": "assets/img/flags/poz.png",
+            "mask_key": "_vertical_4",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 198,
+                "y": 176,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/tribe_paw/tribe_paw_poz_vertical_4.png",
+            "filename": "assets/img/sprites/tribe_paw/tribe_paw_poz_vertical_4.png"
+        },
+        "assets/img/sprites/tribe_paw/tribe_paw_leather_fetish_horizontal_0.png": {
+            "flag_name": "Leather/Fetish",
+            "part": "left_part_1",
+            "orientation": "horizontal",
+            "flag_filename": "assets/img/flags/leather_fetish.png",
+            "mask_key": "_horizontal_0",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 0,
+                "y": 198,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/tribe_paw/tribe_paw_leather_fetish_horizontal_0.png",
+            "filename": "assets/img/sprites/tribe_paw/tribe_paw_leather_fetish_horizontal_0.png"
+        },
+        "assets/img/sprites/tribe_paw/tribe_paw_leather_fetish_horizontal_1.png": {
+            "flag_name": "Leather/Fetish",
+            "part": "left_part_2",
+            "orientation": "horizontal",
+            "flag_filename": "assets/img/flags/leather_fetish.png",
+            "mask_key": "_horizontal_1",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 22,
+                "y": 198,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/tribe_paw/tribe_paw_leather_fetish_horizontal_1.png",
+            "filename": "assets/img/sprites/tribe_paw/tribe_paw_leather_fetish_horizontal_1.png"
+        },
+        "assets/img/sprites/tribe_paw/tribe_paw_leather_fetish_horizontal_2.png": {
+            "flag_name": "Leather/Fetish",
+            "part": "right_part_1",
+            "orientation": "horizontal",
+            "flag_filename": "assets/img/flags/leather_fetish.png",
+            "mask_key": "_horizontal_2",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 44,
+                "y": 198,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/tribe_paw/tribe_paw_leather_fetish_horizontal_2.png",
+            "filename": "assets/img/sprites/tribe_paw/tribe_paw_leather_fetish_horizontal_2.png"
+        },
+        "assets/img/sprites/tribe_paw/tribe_paw_leather_fetish_horizontal_3.png": {
+            "flag_name": "Leather/Fetish",
+            "part": "right_part_2",
+            "orientation": "horizontal",
+            "flag_filename": "assets/img/flags/leather_fetish.png",
+            "mask_key": "_horizontal_3",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 66,
+                "y": 198,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/tribe_paw/tribe_paw_leather_fetish_horizontal_3.png",
+            "filename": "assets/img/sprites/tribe_paw/tribe_paw_leather_fetish_horizontal_3.png"
+        },
+        "assets/img/sprites/tribe_paw/tribe_paw_leather_fetish_horizontal_4.png": {
+            "flag_name": "Leather/Fetish",
+            "part": "center",
+            "orientation": "horizontal",
+            "flag_filename": "assets/img/flags/leather_fetish.png",
+            "mask_key": "_horizontal_4",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 88,
+                "y": 198,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/tribe_paw/tribe_paw_leather_fetish_horizontal_4.png",
+            "filename": "assets/img/sprites/tribe_paw/tribe_paw_leather_fetish_horizontal_4.png"
+        },
+        "assets/img/sprites/tribe_paw/tribe_paw_leather_fetish_vertical_0.png": {
+            "flag_name": "Leather/Fetish",
+            "part": "left_part_1",
+            "orientation": "vertical",
+            "flag_filename": "assets/img/flags/leather_fetish.png",
+            "mask_key": "_vertical_0",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 110,
+                "y": 198,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/tribe_paw/tribe_paw_leather_fetish_vertical_0.png",
+            "filename": "assets/img/sprites/tribe_paw/tribe_paw_leather_fetish_vertical_0.png"
+        },
+        "assets/img/sprites/tribe_paw/tribe_paw_leather_fetish_vertical_1.png": {
+            "flag_name": "Leather/Fetish",
+            "part": "left_part_2",
+            "orientation": "vertical",
+            "flag_filename": "assets/img/flags/leather_fetish.png",
+            "mask_key": "_vertical_1",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 132,
+                "y": 198,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/tribe_paw/tribe_paw_leather_fetish_vertical_1.png",
+            "filename": "assets/img/sprites/tribe_paw/tribe_paw_leather_fetish_vertical_1.png"
+        },
+        "assets/img/sprites/tribe_paw/tribe_paw_leather_fetish_vertical_2.png": {
+            "flag_name": "Leather/Fetish",
+            "part": "right_part_1",
+            "orientation": "vertical",
+            "flag_filename": "assets/img/flags/leather_fetish.png",
+            "mask_key": "_vertical_2",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 154,
+                "y": 198,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/tribe_paw/tribe_paw_leather_fetish_vertical_2.png",
+            "filename": "assets/img/sprites/tribe_paw/tribe_paw_leather_fetish_vertical_2.png"
+        },
+        "assets/img/sprites/tribe_paw/tribe_paw_leather_fetish_vertical_3.png": {
+            "flag_name": "Leather/Fetish",
+            "part": "right_part_2",
+            "orientation": "vertical",
+            "flag_filename": "assets/img/flags/leather_fetish.png",
+            "mask_key": "_vertical_3",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 176,
+                "y": 198,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/tribe_paw/tribe_paw_leather_fetish_vertical_3.png",
+            "filename": "assets/img/sprites/tribe_paw/tribe_paw_leather_fetish_vertical_3.png"
+        },
+        "assets/img/sprites/tribe_paw/tribe_paw_leather_fetish_vertical_4.png": {
+            "flag_name": "Leather/Fetish",
+            "part": "center",
+            "orientation": "vertical",
+            "flag_filename": "assets/img/flags/leather_fetish.png",
+            "mask_key": "_vertical_4",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 198,
+                "y": 198,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/tribe_paw/tribe_paw_leather_fetish_vertical_4.png",
+            "filename": "assets/img/sprites/tribe_paw/tribe_paw_leather_fetish_vertical_4.png"
+        },
+        "assets/img/sprites/tribe_paw/tribe_paw_vore_horizontal_0.png": {
+            "flag_name": "Vore",
+            "part": "left_part_1",
+            "orientation": "horizontal",
+            "flag_filename": "assets/img/flags/vore.png",
+            "mask_key": "_horizontal_0",
+            "flags_fits": true,
+            "flags_fits_perfect": true,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 0,
+                "y": 220,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/tribe_paw/tribe_paw_vore_horizontal_0.png",
+            "filename": "assets/img/sprites/tribe_paw/tribe_paw_vore_horizontal_0.png"
+        },
+        "assets/img/sprites/tribe_paw/tribe_paw_vore_horizontal_1.png": {
+            "flag_name": "Vore",
+            "part": "left_part_2",
+            "orientation": "horizontal",
+            "flag_filename": "assets/img/flags/vore.png",
+            "mask_key": "_horizontal_1",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 22,
+                "y": 220,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/tribe_paw/tribe_paw_vore_horizontal_1.png",
+            "filename": "assets/img/sprites/tribe_paw/tribe_paw_vore_horizontal_1.png"
+        },
+        "assets/img/sprites/tribe_paw/tribe_paw_vore_horizontal_2.png": {
+            "flag_name": "Vore",
+            "part": "right_part_1",
+            "orientation": "horizontal",
+            "flag_filename": "assets/img/flags/vore.png",
+            "mask_key": "_horizontal_2",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 44,
+                "y": 220,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/tribe_paw/tribe_paw_vore_horizontal_2.png",
+            "filename": "assets/img/sprites/tribe_paw/tribe_paw_vore_horizontal_2.png"
+        },
+        "assets/img/sprites/tribe_paw/tribe_paw_vore_horizontal_3.png": {
+            "flag_name": "Vore",
+            "part": "right_part_2",
+            "orientation": "horizontal",
+            "flag_filename": "assets/img/flags/vore.png",
+            "mask_key": "_horizontal_3",
+            "flags_fits": true,
+            "flags_fits_perfect": true,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 66,
+                "y": 220,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/tribe_paw/tribe_paw_vore_horizontal_3.png",
+            "filename": "assets/img/sprites/tribe_paw/tribe_paw_vore_horizontal_3.png"
+        },
+        "assets/img/sprites/tribe_paw/tribe_paw_vore_horizontal_4.png": {
+            "flag_name": "Vore",
+            "part": "center",
+            "orientation": "horizontal",
+            "flag_filename": "assets/img/flags/vore.png",
+            "mask_key": "_horizontal_4",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 88,
+                "y": 220,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/tribe_paw/tribe_paw_vore_horizontal_4.png",
+            "filename": "assets/img/sprites/tribe_paw/tribe_paw_vore_horizontal_4.png"
+        },
+        "assets/img/sprites/tribe_paw/tribe_paw_vore_vertical_0.png": {
+            "flag_name": "Vore",
+            "part": "left_part_1",
+            "orientation": "vertical",
+            "flag_filename": "assets/img/flags/vore.png",
+            "mask_key": "_vertical_0",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 110,
+                "y": 220,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/tribe_paw/tribe_paw_vore_vertical_0.png",
+            "filename": "assets/img/sprites/tribe_paw/tribe_paw_vore_vertical_0.png"
+        },
+        "assets/img/sprites/tribe_paw/tribe_paw_vore_vertical_1.png": {
+            "flag_name": "Vore",
+            "part": "left_part_2",
+            "orientation": "vertical",
+            "flag_filename": "assets/img/flags/vore.png",
+            "mask_key": "_vertical_1",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 132,
+                "y": 220,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/tribe_paw/tribe_paw_vore_vertical_1.png",
+            "filename": "assets/img/sprites/tribe_paw/tribe_paw_vore_vertical_1.png"
+        },
+        "assets/img/sprites/tribe_paw/tribe_paw_vore_vertical_2.png": {
+            "flag_name": "Vore",
+            "part": "right_part_1",
+            "orientation": "vertical",
+            "flag_filename": "assets/img/flags/vore.png",
+            "mask_key": "_vertical_2",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 154,
+                "y": 220,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/tribe_paw/tribe_paw_vore_vertical_2.png",
+            "filename": "assets/img/sprites/tribe_paw/tribe_paw_vore_vertical_2.png"
+        },
+        "assets/img/sprites/tribe_paw/tribe_paw_vore_vertical_3.png": {
+            "flag_name": "Vore",
+            "part": "right_part_2",
+            "orientation": "vertical",
+            "flag_filename": "assets/img/flags/vore.png",
+            "mask_key": "_vertical_3",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 176,
+                "y": 220,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/tribe_paw/tribe_paw_vore_vertical_3.png",
+            "filename": "assets/img/sprites/tribe_paw/tribe_paw_vore_vertical_3.png"
+        },
+        "assets/img/sprites/tribe_paw/tribe_paw_vore_vertical_4.png": {
+            "flag_name": "Vore",
+            "part": "center",
+            "orientation": "vertical",
+            "flag_filename": "assets/img/flags/vore.png",
+            "mask_key": "_vertical_4",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 198,
+                "y": 220,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/tribe_paw/tribe_paw_vore_vertical_4.png",
+            "filename": "assets/img/sprites/tribe_paw/tribe_paw_vore_vertical_4.png"
+        }
+    },
+    "meta": {
+        "size": {
+            "w": 220,
+            "h": 242
+        },
+        "image": "tribe_paw.png",
+        "format": "RGBA8888",
+        "scale": 1
+    }
+}

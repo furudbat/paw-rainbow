@@ -5,9 +5,11 @@ forms:
   - paw
 categories:
   - 'pride'
+  - 'sexual'
   - 'gender'
   - 'relationship'
   - 'romantic'
+  - 'tribe'
 paw:
   base_filename: './paw.png'
   outline: '#000000'

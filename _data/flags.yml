@@ -18,27 +18,6 @@
   filename: assets/img/flags/lgbt_pride.png
   name: LGBT+ Pride
 - colors:
-  - '#010001'
-  - '#a3a3a3'
-  - '#ffffff'
-  - '#800080'
-  filename: assets/img/flags/asexual.png
-  name: Asexual
-- colors:
-  - '#d60270'
-  - '#d60270'
-  - '#9b4f96'
-  - '#0038a8'
-  - '#0038a8'
-  filename: assets/img/flags/bisexual.png
-  name: Bisexual
-- colors:
-  - '#e93d8c'
-  - '#f9da49'
-  - '#55b1f9'
-  filename: assets/img/flags/pansexual.png
-  name: Pansexual
-- colors:
   - '#fe8ba8'
   - '#fbf1ff'
   - '#fe8ba8'
@@ -50,24 +29,6 @@
   - '#7f39eb'
   filename: assets/img/flags/pluralian.png
   name: Pluralian
-- colors:
-  - '#d72d01'
-  - '#ff9957'
-  - '#ffffff'
-  - '#d462a6'
-  - '#a40163'
-  filename: assets/img/flags/lesbian.png
-  name: Lesbian
-- colors:
-  - '#007071'
-  - '#01c192'
-  - '#74fe9b'
-  - '#ffffff'
-  - '#91fcf0'
-  - '#1878ff'
-  - '#0e184d'
-  filename: assets/img/flags/gay_men.png
-  name: Gay Men
 - colors:
   - '#c32b1f'
   - '#e2a037'
@@ -82,14 +43,6 @@
   - '#f498c0'
   - '#7cc0ea'
   - '#603917'
-  - '#010001'
-- colors:
-  - '#ffffff'
-  - '#d2d2d2'
-  filename: assets/img/flags/demisexual.png
-  line: '#67236d'
-  name: Demisexual
-  triangle:
   - '#010001'
 - colors:
   - '#9ac5ec'
@@ -111,20 +64,6 @@
   - '#ff0077'
   filename: assets/img/flags/gynephilia.png
   name: Gynephilia
-- colors:
-  - '#c84793'
-  - '#4bb166'
-  - '#4288c8'
-  filename: assets/img/flags/polysexual.png
-  name: Polysexual
-- colors:
-  - '#ff9ace'
-  - '#ff52bf'
-  - '#270047'
-  - '#675dff'
-  - '#8da5ff'
-  filename: assets/img/flags/omni.png
-  name: Omni
 - colors:
   - '#010001'
   - '#9cd8ec'
@@ -150,6 +89,59 @@
   - '#91f292'
   filename: assets/img/flags/diamoric.png
   name: Diamoric
+- colors:
+  - '#010001'
+  - '#a3a3a3'
+  - '#ffffff'
+  - '#800080'
+  filename: assets/img/flags/asexual.png
+  name: Asexual
+- colors:
+  - '#d60270'
+  - '#d60270'
+  - '#9b4f96'
+  - '#0038a8'
+  - '#0038a8'
+  filename: assets/img/flags/bisexual.png
+  name: Bisexual
+- colors:
+  - '#e93d8c'
+  - '#f9da49'
+  - '#55b1f9'
+  filename: assets/img/flags/pansexual.png
+  name: Pansexual
+- colors:
+  - '#d72d01'
+  - '#ff9957'
+  - '#ffffff'
+  - '#d462a6'
+  - '#a40163'
+  filename: assets/img/flags/lesbian.png
+  name: Lesbian
+- colors:
+  - '#007071'
+  - '#01c192'
+  - '#74fe9b'
+  - '#ffffff'
+  - '#91fcf0'
+  - '#1878ff'
+  - '#0e184d'
+  filename: assets/img/flags/gay_men.png
+  name: Gay Men
+- colors:
+  - '#ffffff'
+  - '#d2d2d2'
+  filename: assets/img/flags/demisexual.png
+  line: '#67236d'
+  name: Demisexual
+  triangle:
+  - '#010001'
+- colors:
+  - '#c84793'
+  - '#4bb166'
+  - '#4288c8'
+  filename: assets/img/flags/polysexual.png
+  name: Polysexual
 - colors:
   - '#6a0c80'
   - '#a595a7'
@@ -179,6 +171,14 @@
   - '#010001'
   filename: assets/img/flags/myrsexual.png
   name: Myrsexual
+- colors:
+  - '#ff9ace'
+  - '#ff52bf'
+  - '#270047'
+  - '#675dff'
+  - '#8da5ff'
+  filename: assets/img/flags/omnisexual.png
+  name: Omnisexual
 - colors:
   - '#010001'
   - '#b9b9b9'
@@ -499,3 +499,106 @@
   - '#010001'
   filename: assets/img/flags/myrromantic.png
   name: Myrromantic
+- colors:
+  - '#000000'
+  - '#72501e'
+  - '#d12d1f'
+  - '#ef9236'
+  - '#fced4f'
+  - '#3a7f30'
+  - '#1c50f6'
+  - '#6b1783'
+  filename: assets/img/flags/people_of_color_pride.png
+  name: People of Color Pride
+- colors:
+  - '#c33d1e'
+  - '#df7c3d'
+  - '#f19e63'
+  - '#ffffff'
+  - '#c269a2'
+  - '#a85c8e'
+  - '#951f60'
+  filename: assets/img/flags/lipstick_lesbian.png
+  name: Lipstick Lesbian
+- colors:
+  - '#364071'
+  - '#6c78a6'
+  - '#8b91a8'
+  - '#efe9e9'
+  - '#c1b3de'
+  - '#784cc7'
+  - '#52028a'
+  filename: assets/img/flags/butch_lesbian.png
+  name: Butch Lesbian
+- colors:
+  - '#643806'
+  - '#d66301'
+  - '#fedd64'
+  - '#fee6b8'
+  - '#ffffff'
+  - '#565556'
+  - '#951f60'
+  - '#010001'
+  filename: assets/img/flags/bears.png
+  name: Bears
+- colors:
+  - '#6ec5fe'
+  - '#9cd7fc'
+  - '#ffffff'
+  - '#b5b4b5'
+  - '#2b2a2b'
+  filename: assets/img/flags/otters.png
+  name: Otters
+- colors:
+  - '#ffb1ff'
+  - '#ffffff'
+  - '#ffff80'
+  filename: assets/img/flags/twinks.png
+  name: Twinks
+- colors:
+  - '#010001'
+  - '#246b3a'
+  - '#269025'
+  - '#5d5c27'
+  filename: assets/img/flags/military.png
+  name: Military
+- colors:
+  - '#050b08'
+  - '#e36482'
+  - '#faf6c2'
+  - '#66474d'
+  - '#0a090a'
+  filename: assets/img/flags/fat_chubby.png
+  name: Fat/Chubby
+- colors:
+  - '#010001'
+  - '#0a235c'
+  - '#010001'
+  - '#0a235c'
+  - '#ffffff'
+  - '#0a235c'
+  - '#010001'
+  - '#0a235c'
+  - '#010001'
+  filename: assets/img/flags/poz.png
+  name: Poz
+- colors:
+  - '#010001'
+  - '#2b297f'
+  - '#010001'
+  - '#2b297f'
+  - '#ffffff'
+  - '#2b297f'
+  - '#010001'
+  - '#2b297f'
+  - '#010001'
+  filename: assets/img/flags/leather_fetish.png
+  name: Leather/Fetish
+- colors:
+  - '#313e83'
+  - '#6c35a9'
+  - '#3fc5ec'
+  - '#6c35a9'
+  - '#313e83'
+  filename: assets/img/flags/vore.png
+  name: Vore

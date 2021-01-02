@@ -459,7 +459,7 @@ def generateSpriteLine(output_map, paw_outlines_img, outline_color, flag, parts,
         flag_name = flag['name']
         flag_filename = flag['filename']
 
-        key_name = flag_name.lower().replace(' ', '_').replace("'", '').replace('+', '').replace('-', '_')
+        key_name = flag_name.lower().replace(' ', '_').replace("'", '').replace('+', '').replace('-', '_').replace('/', '_').replace('\\', '_')
         mask_key = '_' + orientation + '_' + str(frame_counter)
         key = key_name + mask_key
         if not key in output_map:
@@ -696,7 +696,8 @@ def generateSpriteLine(output_map, paw_outlines_img, outline_color, flag, parts,
 
     return output_flage_frames
     
-def generateSprite(in_img_filename, parts, form, output_name, colors_config, flags, transparent_colors, mask_output):
+def generateSprite(in_img_filename, parts, category, form, colors_config, flags, transparent_colors, mask_output):
+    output_name = category + '_' + form
     outline_color = Color(colors_config['outline']) if 'outline' in colors_config else None
     color_code_map = dict()
 
@@ -780,6 +781,7 @@ def generateSprite(in_img_filename, parts, form, output_name, colors_config, fla
         
     output_arr = []
     for name, data in output_map.items():
+        data['category'] = category
         data['form'] = form
         data['sheet'] = sheet_filename
         if name in output_map and (not 'empty' in output_map[name] or ('empty' in output_map[name] and not output_map[name]['empty'])):
@@ -868,7 +870,7 @@ def genFlags(flags, strip_size_factor=1):
             draw.ellipse((point_1, point_4), fill=None, outline=hex_to_rgb(circle_color.hex_l))
 
 
-        output_filename = "assets/img/flags/{}.png".format(flag_name.lower().replace(' ', '_').replace("'", '').replace('+', '').replace('-', '_'))
+        output_filename = "assets/img/flags/{}.png".format(flag_name.lower().replace(' ', '_').replace("'", '').replace('+', '').replace('-', '_').replace('/', '_').replace('\\', '_'))
         output_img.save(os.path.join('../', output_filename))
         flags[i]['filename'] = output_filename
 
@@ -879,24 +881,34 @@ def genFlags(flags, strip_size_factor=1):
 def main():
     config = dict()
     pride_flags = dict()
+    sexual_flags = dict()
     gender_flags = dict()
     relationship_flags = dict()
     romantic_flags = dict()
+    tribe_flags = dict()
+    
     with open('config.yaml') as f:
         config = yaml.load(f, Loader=yaml.FullLoader)
+
     with open('pride_flags.yaml') as f:
         pride_flags = yaml.load(f, Loader=yaml.FullLoader)
+    with open('sexual_flags.yaml') as f:
+        sexual_flags = yaml.load(f, Loader=yaml.FullLoader)
     with open('gender_flags.yaml') as f:
         gender_flags = yaml.load(f, Loader=yaml.FullLoader)
     with open('relationship_flags.yaml') as f:
         relationship_flags = yaml.load(f, Loader=yaml.FullLoader)
     with open('romantic_flags.yaml') as f:
         romantic_flags = yaml.load(f, Loader=yaml.FullLoader)
+    with open('tribe_flags.yaml') as f:
+        tribe_flags = yaml.load(f, Loader=yaml.FullLoader)
 
     pride_flags = genFlags(pride_flags)
+    sexual_flags = genFlags(sexual_flags)
     gender_flags = genFlags(gender_flags)
     relationship_flags = genFlags(relationship_flags)
     romantic_flags = genFlags(romantic_flags)
+    tribe_flags = genFlags(tribe_flags)
 
     transparent_colors = []
     for transparent_color in config['transparent_colors']:
@@ -913,7 +925,7 @@ def main():
     for form in forms:
         if form in config:
             parts = config[form]['parts']
-            mask_output.extend(generateSprite(config[form]['base_filename'], parts, form, 'mask_' + form, config[form], [mask_flag], transparent_colors, mask_output))
+            mask_output.extend(generateSprite(config[form]['base_filename'], parts, 'mask', form, config[form], [mask_flag], transparent_colors, mask_output))
 
     output = []
     for form in forms:
@@ -923,20 +935,26 @@ def main():
                 flags = []
                 if category == 'pride':
                     flags = pride_flags
-                if category == 'gender':
+                elif category == 'sexual':
+                    flags = sexual_flags
+                elif category == 'gender':
                     flags = gender_flags
-                if category == 'relationship':
+                elif category == 'relationship':
                     flags = relationship_flags
-                if category == 'romantic':
+                elif category == 'romantic':
                     flags = romantic_flags
+                elif category == 'tribe':
+                    flags = tribe_flags
             
-                output.extend(generateSprite(config[form]['base_filename'], parts, form, category + '_' + form, config[form], flags, transparent_colors, mask_output))
+                output.extend(generateSprite(config[form]['base_filename'], parts, category, form, config[form], flags, transparent_colors, mask_output))
 
     all_flags = []
     all_flags.extend(pride_flags)
+    all_flags.extend(sexual_flags)
     all_flags.extend(gender_flags)
     all_flags.extend(relationship_flags)
     all_flags.extend(romantic_flags)
+    all_flags.extend(tribe_flags)
 
     print("Flags count: {}".format(len(all_flags)))
 

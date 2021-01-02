@@ -50,6 +50,11 @@ export class FormPartsAdapter {
         return FormPartsAdapter.getUnsafeProperty(site.data.flags_config, this.current_form).parts;
     }
 
+    get filter_list() {
+        let filters = ['All'];
+        return filters.concat(site.data.flags_config.categories);
+    }
+
     public updateUI() {
         $('#btnSelectForm').empty();
         for (let form of site.data.flags_config.forms) {
@@ -90,10 +95,11 @@ export class FormPartsAdapter {
     public getSelectElement(form: string, part: string) {
         /// @TODO: use string names
         const part_name = part;
-        const lstId = `lstSelect${part}`;
+        const lstId = `lstSelect${form}${part}`;
         const btnSelectOrientationHorizontalId = `btnSelectOrientationHorizontal${part}`;
         const btnSelectOrientationVerticalId = `btnSelectOrientationVertical${part}`;
 
+        const selected_part_filter = (part in this._appData.currentSelection.parts) ? this._appData.currentSelection.parts[part].filter : 'All';
         const selected_part_orientation = (part in this._appData.currentSelection.parts) ? this._appData.currentSelection.parts[part].orientation : Orientation.Vertical;
         const selected_part_flag_name = (part in this._appData.currentSelection.parts) ? this._appData.currentSelection.parts[part].flag_name : this.default_flag_name;
         const selected_part = this.getSelectedPart(part);
@@ -114,8 +120,18 @@ export class FormPartsAdapter {
         for (let i = 0;i < selectable_parts_flag_names.length;i++) {
             const selectable_flag_name = selectable_parts_flag_names[i];
             const selected = (selectable_flag_name === selected_part_flag_name) ? 'selected' : '';
-            selects += `<option class="select-part" value="${selectable_flag_name}" data-form="${form}" data-part="${part}" ${selected}>
+            selects += `<option class="select-part" value="${selectable_flag_name}" data-form="${form}" data-part="${part}" data-index="${i}" ${selected}>
                 ${selectable_flag_name}
+            </option>\n`;
+        }
+
+        let filters = '';
+        for (let filter of this.filter_list) {
+            /// @TODO: use string names
+            const filter_name = filter;
+            const selected = (selected_part_filter === filter) ? 'selected' : '';
+            filters += `<option class="select-part" value="${filter}" data-form="${form}" data-part="${part}" ${selected}>
+                ${filter_name}
             </option>\n`;
         }
 
@@ -126,17 +142,20 @@ export class FormPartsAdapter {
             <label for="${lstId}">${part_name}</label>
             <div class="input-group">
                 <div class="input-group-prepend text-center">
-                    <img src="${icon_filename}" class="img-fluid clickable-flag select-part-icon" data-form="${form}" data-part="${part}" data-flag-name="${selected_part?.flag_name}" alt="Selected Icon ${selected_part?.flag_name}">
+                    <img src="${icon_filename}" class="img-fluid clickable-flag select-part-icon flag-item-icon" data-form="${form}" data-part="${part}" data-flag-name="${selected_part?.flag_name}" alt="Selected Icon ${selected_part?.flag_name}">
                 </div>
-                <select id="${lstId}" class="custom-select select-parts" data-form="${form}" data-part="${part}">
+                <select id="${lstId}Filter" class="custom-select select-parts-filter" data-form="${form}" data-part="${part}" data-list-id="${lstId}">
+                    ${filters}
+                </select>
+                <select id="${lstId}" class="custom-select select-parts" data-form="${form}" data-part="${part}" data-list-id="${lstId}">
                     ${selects}
                 </select>
                 <div class="input-group-append">
-                    <button class="btn ${select_orientation_vertical_class} select-orientation select-orientation-vertical" type="button" data-form="${form}" data-part="${part}" data-orientation="${Orientation.Vertical}" id="${btnSelectOrientationVerticalId}" ${select_orientation_vertical_disabled}>
+                    <button class="btn ${select_orientation_vertical_class} select-orientation select-orientation-vertical" type="button" data-form="${form}" data-part="${part}" data-orientation="${Orientation.Vertical}" data-list-id="${lstId}" id="${btnSelectOrientationVerticalId}" ${select_orientation_vertical_disabled}>
                         <i class="fas fa-image"></i>
                         <span class="sr-only">Select Vertical</span>
                     </button>
-                    <button class="btn ${select_orientation_horizontal_class} select-orientation select-orientation-horizontal" type="button" data-form="${form}" data-part="${part}" data-orientation="${Orientation.Horizontal}" id="${btnSelectOrientationHorizontalId}" ${select_orientation_horizontal_disabled}>
+                    <button class="btn ${select_orientation_horizontal_class} select-orientation select-orientation-horizontal" type="button" data-form="${form}" data-part="${part}" data-orientation="${Orientation.Horizontal}" data-list-id="${lstId}" id="${btnSelectOrientationHorizontalId}" ${select_orientation_horizontal_disabled}>
                         <i class="fas fa-image" data-fa-transform="rotate-90"></i>
                         <span class="sr-only">Select Horizontal</span>
                     </button>

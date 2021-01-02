@@ -58,52 +58,6 @@ ul.pagination {
     }
 }
 
-.nav-tabs {
-    background-color: $card-cap-bg;
-}
-
-.card-header {
-    .nav-tabs {
-        background-color: $nav-tabs-bg-color;
-        border: $border-width solid $white;
-        border-radius: $border-radius;
-
-        .nav-link,
-        .nav-link.active {
-            color: $body-color;
-            //text-shadow: -1px 0 $white, 0 1px $white, 1px 0 $white, 0 -1px $white;
-        }
-
-        .nav-link,
-        .nav-link.active,
-        .nav-link.active:focus,
-        .nav-link.active:hover,
-        .nav-item.open .nav-link,
-        .nav-item.open .nav-link:focus,
-        .nav-item.open .nav-link:hover,
-        .nav-pills .nav-link,
-        .nav-pills .nav-link.active,
-        .nav-pills .nav-link.active:focus,
-        .nav-pills .nav-link.active:hover,
-        .nav-pills .nav-item.open .nav-link,
-        .nav-pills .nav-item.open .nav-link:focus,
-        .nav-pills .nav-item.open .nav-link:hover {
-            color: $body-color !important;
-            //text-shadow: -1px 0 $white, 0 1px $white, 1px 0 $white, 0 -1px $white;
-        }
-    }
-}
-
-.card {
-    .card-header-nav-tabs {
-        padding: 7px 0 0 0;
-
-        .nav-tabs {
-            background-color: $card-cap-bg;
-            border: 0;
-        }
-    }
-}
 
 .rounded-circle {
     border-radius: 50%;
@@ -117,10 +71,15 @@ ul.pagination {
     height: 32px;
 }
 
+
 .table-danger { 
     background-color: lighten($danger, 10%);
 }
 
 .card-header {
     font-weight: bold;
+}
+
+.flag-item-icon {
+    width: 32px;
 }

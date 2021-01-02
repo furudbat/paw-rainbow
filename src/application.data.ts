@@ -17,6 +17,7 @@ export class Settings {
 }
 
 export class CurrentSelectionPart {
+    filter: string = "All";
     flag_name: string = "None";
     orientation: Orientation = Orientation.Vertical;
 }
