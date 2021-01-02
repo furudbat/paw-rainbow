@@ -35,6 +35,7 @@ export interface SpriteFlagMetaData {
     mask_filename: string;
     mask_key: string;
     
+    category: string;
     form: string;
     flag_name: string;
     orientation: Orientation;

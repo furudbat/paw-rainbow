@@ -808,7 +808,7 @@ def genFlags(flags, strip_size_factor=1):
             strip_size = int(base_strip_size/2 * strip_size_factor)
             if len(flag['colors']) % 2 == 0:
                 if 'triangle' in flag:
-                    strip_size = strip_size + 1
+                    strip_size = strip_size + base_strip_size * strip_size_factor
 
         if 'line' in flag:
             line_size = int(max(strip_size/2, 1))
@@ -827,7 +827,7 @@ def genFlags(flags, strip_size_factor=1):
                 for x in range(width):
                     output_img.putpixel((x, sy + y), hex_to_rgb(flag_color.hex_l))
             sy = sy + strip_size
-            if j == int(strip_size/2)-offset and line_size > 0:
+            if j == int(len(flag['colors'])/2)-offset and line_size > 0:
                 for y in range(line_size):
                     for x in range(width):
                         output_img.putpixel((x, sy + y), hex_to_rgb(flag_line_color.hex_l))       

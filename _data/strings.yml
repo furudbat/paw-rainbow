@@ -1,3 +1,20 @@
+select_form:
+  label: Form
+  paw: Paw
+select_filter:
+  all: All
+  pride: Pride
+  sexual: Sexual
+  gender: Gender
+  relationship: Relationship
+  romantic: Romantic
+  tribe: Tribe
+select_parts:
+  left_part_1: Left Part 1
+  left_part_2: Left Part 1
+  right_part_1: Right Part 1
+  right_part_2: Right Part 2
+  center: Center
 misc:
   title: Misc
   clear_session: Clear Session

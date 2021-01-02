@@ -130,4 +130,14 @@ export class ApplicationData {
 
         this.currentSelection = this.currentSelection;
     }
+
+    public setPartFilter(part: string, filter: string) {
+        if (!(part in this._currentSelection.data.parts)) {
+            this._currentSelection.data.parts[part] = new CurrentSelectionPart();
+        }
+
+        this._currentSelection.data.parts[part].filter = filter;
+
+        this.currentSelection = this.currentSelection;
+    }
 }
