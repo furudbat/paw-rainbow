@@ -1,7 +1,7 @@
 
 import { Container, Sprite, Application as PixiApplication, LoaderResource } from 'pixi.js';
 import { LoggerManager } from 'typescript-logger';
-import { Orienration, SpriteFlagMetaData } from "./flags.data";
+import { Orientation, SpriteFlagMetaData } from "./flags.data";
 
 type SpritePawPart = 'left_part_1' | 'left_part_2' | 'right_part_1' | 'right_part_2' | 'center';
 
@@ -32,7 +32,7 @@ export class SpritePawPartsAdapter {
 
         const parts = <SpritePawParts>(name: keyof SpritePawParts) => name;
         for (let part of ['left_part_1', 'left_part_2', 'right_part_1', 'right_part_2', 'center']) {
-            this.setPart('None', part, Orienration.Vertical, false);
+            this.setPart('None', part, Orientation.Vertical, false);
         }
         this._parts_container.addChild(this._sprites.left_part_1);
         this._parts_container.addChild(this._sprites.left_part_2);
@@ -49,7 +49,7 @@ export class SpritePawPartsAdapter {
         });
     }
 
-    public setPart(flag_name: string, part: string, orienration: Orienration, update_sprite: boolean = true) {
+    public setPart(flag_name: string, part: string, orienration: Orientation, update_sprite: boolean = true) {
         if (this._resources !== undefined) {
             const meta = this._spritesMetaData.find(it => it.flag_name == flag_name && it.orientation == orienration && it.part == part);
             if (meta !== undefined) {

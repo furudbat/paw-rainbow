@@ -1,4 +1,14 @@
 (function(){function r(e,n,t){function o(i,f){if(!n[i]){if(!e[i]){var c="function"==typeof require&&require;if(!f&&c)return c(i,!0);if(u)return u(i,!0);var a=new Error("Cannot find module '"+i+"'");throw a.code="MODULE_NOT_FOUND",a}var p=n[i]={exports:{}};e[i][0].call(p.exports,function(r){var n=e[i][1][r];return o(n||r)},p,p.exports,r,e,n,t)}return n[i].exports}for(var u="function"==typeof require&&require,i=0;i<t.length;i++)o(t[i]);return o}return r})()({1:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.Orientation = void 0;
+var Orientation;
+(function (Orientation) {
+    Orientation["Horizontal"] = "horizontal";
+    Orientation["Vertical"] = "vertical";
+})(Orientation = exports.Orientation || (exports.Orientation = {}));
+
+},{}],2:[function(require,module,exports){
 /*!
  * @pixi/accessibility - v5.3.6
  * Compiled Mon, 21 Dec 2020 20:35:06 UTC
@@ -593,7 +603,7 @@ exports.AccessibilityManager = AccessibilityManager;
 exports.accessibleTarget = accessibleTarget;
 
 
-},{"@pixi/display":5,"@pixi/utils":34}],2:[function(require,module,exports){
+},{"@pixi/display":6,"@pixi/utils":35}],3:[function(require,module,exports){
 /*!
  * @pixi/app - v5.3.6
  * Compiled Mon, 21 Dec 2020 20:35:06 UTC
@@ -874,7 +884,7 @@ Application.registerPlugin(ResizePlugin);
 exports.Application = Application;
 
 
-},{"@pixi/core":4,"@pixi/display":5}],3:[function(require,module,exports){
+},{"@pixi/core":5,"@pixi/display":6}],4:[function(require,module,exports){
 /*!
  * @pixi/constants - v5.3.6
  * Compiled Mon, 21 Dec 2020 20:35:06 UTC
@@ -1038,7 +1048,7 @@ Object.defineProperty(exports, '__esModule', { value: true });
 })(exports.MSAA_QUALITY || (exports.MSAA_QUALITY = {}));
 
 
-},{}],4:[function(require,module,exports){
+},{}],5:[function(require,module,exports){
 /*!
  * @pixi/core - v5.3.6
  * Compiled Mon, 21 Dec 2020 20:35:06 UTC
@@ -12053,7 +12063,7 @@ exports.systems = systems;
 exports.uniformParsers = uniformParsers;
 
 
-},{"@pixi/constants":3,"@pixi/math":16,"@pixi/runner":25,"@pixi/settings":26,"@pixi/ticker":33,"@pixi/utils":34}],5:[function(require,module,exports){
+},{"@pixi/constants":4,"@pixi/math":17,"@pixi/runner":26,"@pixi/settings":27,"@pixi/ticker":34,"@pixi/utils":35}],6:[function(require,module,exports){
 /*!
  * @pixi/display - v5.3.6
  * Compiled Mon, 21 Dec 2020 20:35:06 UTC
@@ -13734,7 +13744,7 @@ exports.DisplayObject = DisplayObject;
 exports.TemporaryDisplayObject = TemporaryDisplayObject;
 
 
-},{"@pixi/math":16,"@pixi/settings":26,"@pixi/utils":34}],6:[function(require,module,exports){
+},{"@pixi/math":17,"@pixi/settings":27,"@pixi/utils":35}],7:[function(require,module,exports){
 /*!
  * @pixi/extract - v5.3.6
  * Compiled Mon, 21 Dec 2020 20:35:06 UTC
@@ -13962,7 +13972,7 @@ var Extract = /** @class */ (function () {
 exports.Extract = Extract;
 
 
-},{"@pixi/core":4,"@pixi/math":16,"@pixi/utils":34}],7:[function(require,module,exports){
+},{"@pixi/core":5,"@pixi/math":17,"@pixi/utils":35}],8:[function(require,module,exports){
 /*!
  * @pixi/filter-alpha - v5.3.6
  * Compiled Mon, 21 Dec 2020 20:35:06 UTC
@@ -14057,7 +14067,7 @@ var AlphaFilter = /** @class */ (function (_super) {
 exports.AlphaFilter = AlphaFilter;
 
 
-},{"@pixi/core":4}],8:[function(require,module,exports){
+},{"@pixi/core":5}],9:[function(require,module,exports){
 /*!
  * @pixi/filter-blur - v5.3.6
  * Compiled Mon, 21 Dec 2020 20:35:06 UTC
@@ -14892,7 +14902,7 @@ exports.BlurFilter = BlurFilter;
 exports.BlurFilterPass = BlurFilterPass;
 
 
-},{"@pixi/core":4,"@pixi/settings":26}],9:[function(require,module,exports){
+},{"@pixi/core":5,"@pixi/settings":27}],10:[function(require,module,exports){
 /*!
  * @pixi/filter-color-matrix - v5.3.6
  * Compiled Mon, 21 Dec 2020 20:35:06 UTC
@@ -15430,7 +15440,7 @@ ColorMatrixFilter.prototype.grayscale = ColorMatrixFilter.prototype.greyscale;
 exports.ColorMatrixFilter = ColorMatrixFilter;
 
 
-},{"@pixi/core":4}],10:[function(require,module,exports){
+},{"@pixi/core":5}],11:[function(require,module,exports){
 /*!
  * @pixi/filter-displacement - v5.3.6
  * Compiled Mon, 21 Dec 2020 20:35:06 UTC
@@ -15571,7 +15581,7 @@ var DisplacementFilter = /** @class */ (function (_super) {
 exports.DisplacementFilter = DisplacementFilter;
 
 
-},{"@pixi/core":4,"@pixi/math":16}],11:[function(require,module,exports){
+},{"@pixi/core":5,"@pixi/math":17}],12:[function(require,module,exports){
 /*!
  * @pixi/filter-fxaa - v5.3.6
  * Compiled Mon, 21 Dec 2020 20:35:06 UTC
@@ -15641,7 +15651,7 @@ var FXAAFilter = /** @class */ (function (_super) {
 exports.FXAAFilter = FXAAFilter;
 
 
-},{"@pixi/core":4}],12:[function(require,module,exports){
+},{"@pixi/core":5}],13:[function(require,module,exports){
 /*!
  * @pixi/filter-noise - v5.3.6
  * Compiled Mon, 21 Dec 2020 20:35:06 UTC
@@ -15751,7 +15761,7 @@ var NoiseFilter = /** @class */ (function (_super) {
 exports.NoiseFilter = NoiseFilter;
 
 
-},{"@pixi/core":4}],13:[function(require,module,exports){
+},{"@pixi/core":5}],14:[function(require,module,exports){
 /*!
  * @pixi/graphics - v5.3.6
  * Compiled Mon, 21 Dec 2020 20:35:06 UTC
@@ -19009,7 +19019,7 @@ exports.LineStyle = LineStyle;
 exports.graphicsUtils = index;
 
 
-},{"@pixi/constants":3,"@pixi/core":4,"@pixi/display":5,"@pixi/math":16,"@pixi/utils":34}],14:[function(require,module,exports){
+},{"@pixi/constants":4,"@pixi/core":5,"@pixi/display":6,"@pixi/math":17,"@pixi/utils":35}],15:[function(require,module,exports){
 /*!
  * @pixi/interaction - v5.3.6
  * Compiled Mon, 21 Dec 2020 20:35:06 UTC
@@ -21221,7 +21231,7 @@ exports.InteractionTrackingData = InteractionTrackingData;
 exports.interactiveTarget = interactiveTarget;
 
 
-},{"@pixi/display":5,"@pixi/math":16,"@pixi/ticker":33,"@pixi/utils":34}],15:[function(require,module,exports){
+},{"@pixi/display":6,"@pixi/math":17,"@pixi/ticker":34,"@pixi/utils":35}],16:[function(require,module,exports){
 /*!
  * @pixi/loaders - v5.3.6
  * Compiled Mon, 21 Dec 2020 20:35:06 UTC
@@ -21551,7 +21561,7 @@ exports.LoaderResource = LoaderResource;
 exports.TextureLoader = TextureLoader;
 
 
-},{"@pixi/core":4,"resource-loader":50}],16:[function(require,module,exports){
+},{"@pixi/core":5,"resource-loader":51}],17:[function(require,module,exports){
 /*!
  * @pixi/math - v5.3.6
  * Compiled Mon, 21 Dec 2020 20:35:06 UTC
@@ -23485,7 +23495,7 @@ exports.Transform = Transform;
 exports.groupD8 = groupD8;
 
 
-},{}],17:[function(require,module,exports){
+},{}],18:[function(require,module,exports){
 /*!
  * @pixi/mesh-extras - v5.3.6
  * Compiled Mon, 21 Dec 2020 20:35:06 UTC
@@ -24225,7 +24235,7 @@ exports.SimplePlane = SimplePlane;
 exports.SimpleRope = SimpleRope;
 
 
-},{"@pixi/constants":3,"@pixi/core":4,"@pixi/mesh":18}],18:[function(require,module,exports){
+},{"@pixi/constants":4,"@pixi/core":5,"@pixi/mesh":19}],19:[function(require,module,exports){
 /*!
  * @pixi/mesh - v5.3.6
  * Compiled Mon, 21 Dec 2020 20:35:06 UTC
@@ -24947,7 +24957,7 @@ exports.MeshGeometry = MeshGeometry;
 exports.MeshMaterial = MeshMaterial;
 
 
-},{"@pixi/constants":3,"@pixi/core":4,"@pixi/display":5,"@pixi/math":16,"@pixi/settings":26,"@pixi/utils":34}],19:[function(require,module,exports){
+},{"@pixi/constants":4,"@pixi/core":5,"@pixi/display":6,"@pixi/math":17,"@pixi/settings":27,"@pixi/utils":35}],20:[function(require,module,exports){
 /*!
  * @pixi/mixin-cache-as-bitmap - v5.3.6
  * Compiled Mon, 21 Dec 2020 20:35:06 UTC
@@ -25277,7 +25287,7 @@ display.DisplayObject.prototype._cacheAsBitmapDestroy = function _cacheAsBitmapD
 exports.CacheData = CacheData;
 
 
-},{"@pixi/core":4,"@pixi/display":5,"@pixi/math":16,"@pixi/settings":26,"@pixi/sprite":29,"@pixi/utils":34}],20:[function(require,module,exports){
+},{"@pixi/core":5,"@pixi/display":6,"@pixi/math":17,"@pixi/settings":27,"@pixi/sprite":30,"@pixi/utils":35}],21:[function(require,module,exports){
 /*!
  * @pixi/mixin-get-child-by-name - v5.3.6
  * Compiled Mon, 21 Dec 2020 20:35:06 UTC
@@ -25329,7 +25339,7 @@ display.Container.prototype.getChildByName = function getChildByName(name, deep)
 };
 
 
-},{"@pixi/display":5}],21:[function(require,module,exports){
+},{"@pixi/display":6}],22:[function(require,module,exports){
 /*!
  * @pixi/mixin-get-global-position - v5.3.6
  * Compiled Mon, 21 Dec 2020 20:35:06 UTC
@@ -25367,7 +25377,7 @@ display.DisplayObject.prototype.getGlobalPosition = function getGlobalPosition(p
 };
 
 
-},{"@pixi/display":5,"@pixi/math":16}],22:[function(require,module,exports){
+},{"@pixi/display":6,"@pixi/math":17}],23:[function(require,module,exports){
 /*!
  * @pixi/particles - v5.3.6
  * Compiled Mon, 21 Dec 2020 20:35:06 UTC
@@ -26184,7 +26194,7 @@ exports.ParticleContainer = ParticleContainer;
 exports.ParticleRenderer = ParticleRenderer;
 
 
-},{"@pixi/constants":3,"@pixi/core":4,"@pixi/display":5,"@pixi/math":16,"@pixi/utils":34}],23:[function(require,module,exports){
+},{"@pixi/constants":4,"@pixi/core":5,"@pixi/display":6,"@pixi/math":17,"@pixi/utils":35}],24:[function(require,module,exports){
 /*!
  * @pixi/polyfill - v5.3.6
  * Compiled Mon, 21 Dec 2020 20:35:06 UTC
@@ -26303,7 +26313,7 @@ if (!window.Int32Array) {
 }
 
 
-},{"es6-promise-polyfill":36,"object-assign":42}],24:[function(require,module,exports){
+},{"es6-promise-polyfill":37,"object-assign":43}],25:[function(require,module,exports){
 /*!
  * @pixi/prepare - v5.3.6
  * Compiled Mon, 21 Dec 2020 20:35:06 UTC
@@ -26946,7 +26956,7 @@ exports.Prepare = Prepare;
 exports.TimeLimiter = TimeLimiter;
 
 
-},{"@pixi/core":4,"@pixi/display":5,"@pixi/graphics":13,"@pixi/settings":26,"@pixi/text":32,"@pixi/ticker":33}],25:[function(require,module,exports){
+},{"@pixi/core":5,"@pixi/display":6,"@pixi/graphics":14,"@pixi/settings":27,"@pixi/text":33,"@pixi/ticker":34}],26:[function(require,module,exports){
 /*!
  * @pixi/runner - v5.3.6
  * Compiled Mon, 21 Dec 2020 20:35:06 UTC
@@ -27150,7 +27160,7 @@ Object.defineProperties(Runner.prototype, {
 exports.Runner = Runner;
 
 
-},{}],26:[function(require,module,exports){
+},{}],27:[function(require,module,exports){
 /*!
  * @pixi/settings - v5.3.6
  * Compiled Mon, 21 Dec 2020 20:35:06 UTC
@@ -27440,7 +27450,7 @@ exports.isMobile = isMobile;
 exports.settings = settings;
 
 
-},{"ismobilejs":38}],27:[function(require,module,exports){
+},{"ismobilejs":39}],28:[function(require,module,exports){
 /*!
  * @pixi/sprite-animated - v5.3.6
  * Compiled Mon, 21 Dec 2020 20:35:06 UTC
@@ -27914,7 +27924,7 @@ var AnimatedSprite = /** @class */ (function (_super) {
 exports.AnimatedSprite = AnimatedSprite;
 
 
-},{"@pixi/core":4,"@pixi/sprite":29,"@pixi/ticker":33}],28:[function(require,module,exports){
+},{"@pixi/core":5,"@pixi/sprite":30,"@pixi/ticker":34}],29:[function(require,module,exports){
 /*!
  * @pixi/sprite-tiling - v5.3.6
  * Compiled Mon, 21 Dec 2020 20:35:06 UTC
@@ -28329,7 +28339,7 @@ exports.TilingSprite = TilingSprite;
 exports.TilingSpriteRenderer = TilingSpriteRenderer;
 
 
-},{"@pixi/constants":3,"@pixi/core":4,"@pixi/math":16,"@pixi/sprite":29,"@pixi/utils":34}],29:[function(require,module,exports){
+},{"@pixi/constants":4,"@pixi/core":5,"@pixi/math":17,"@pixi/sprite":30,"@pixi/utils":35}],30:[function(require,module,exports){
 /*!
  * @pixi/sprite - v5.3.6
  * Compiled Mon, 21 Dec 2020 20:35:06 UTC
@@ -28924,7 +28934,7 @@ var Sprite = /** @class */ (function (_super) {
 exports.Sprite = Sprite;
 
 
-},{"@pixi/constants":3,"@pixi/core":4,"@pixi/display":5,"@pixi/math":16,"@pixi/settings":26,"@pixi/utils":34}],30:[function(require,module,exports){
+},{"@pixi/constants":4,"@pixi/core":5,"@pixi/display":6,"@pixi/math":17,"@pixi/settings":27,"@pixi/utils":35}],31:[function(require,module,exports){
 /*!
  * @pixi/spritesheet - v5.3.6
  * Compiled Mon, 21 Dec 2020 20:35:06 UTC
@@ -29268,7 +29278,7 @@ exports.Spritesheet = Spritesheet;
 exports.SpritesheetLoader = SpritesheetLoader;
 
 
-},{"@pixi/core":4,"@pixi/loaders":15,"@pixi/math":16,"@pixi/utils":34}],31:[function(require,module,exports){
+},{"@pixi/core":5,"@pixi/loaders":16,"@pixi/math":17,"@pixi/utils":35}],32:[function(require,module,exports){
 /*!
  * @pixi/text-bitmap - v5.3.6
  * Compiled Mon, 21 Dec 2020 20:35:06 UTC
@@ -31073,7 +31083,7 @@ exports.BitmapFontLoader = BitmapFontLoader;
 exports.BitmapText = BitmapText;
 
 
-},{"@pixi/core":4,"@pixi/display":5,"@pixi/loaders":15,"@pixi/math":16,"@pixi/mesh":18,"@pixi/settings":26,"@pixi/text":32,"@pixi/utils":34}],32:[function(require,module,exports){
+},{"@pixi/core":5,"@pixi/display":6,"@pixi/loaders":16,"@pixi/math":17,"@pixi/mesh":19,"@pixi/settings":27,"@pixi/text":33,"@pixi/utils":35}],33:[function(require,module,exports){
 /*!
  * @pixi/text - v5.3.6
  * Compiled Mon, 21 Dec 2020 20:35:06 UTC
@@ -33134,7 +33144,7 @@ exports.TextMetrics = TextMetrics;
 exports.TextStyle = TextStyle;
 
 
-},{"@pixi/core":4,"@pixi/math":16,"@pixi/settings":26,"@pixi/sprite":29,"@pixi/utils":34}],33:[function(require,module,exports){
+},{"@pixi/core":5,"@pixi/math":17,"@pixi/settings":27,"@pixi/sprite":30,"@pixi/utils":35}],34:[function(require,module,exports){
 /*!
  * @pixi/ticker - v5.3.6
  * Compiled Mon, 21 Dec 2020 20:35:06 UTC
@@ -33986,7 +33996,7 @@ exports.Ticker = Ticker;
 exports.TickerPlugin = TickerPlugin;
 
 
-},{"@pixi/settings":26}],34:[function(require,module,exports){
+},{"@pixi/settings":27}],35:[function(require,module,exports){
 /*!
  * @pixi/utils - v5.3.6
  * Compiled Mon, 21 Dec 2020 20:35:06 UTC
@@ -34923,7 +34933,7 @@ exports.trimCanvas = trimCanvas;
 exports.uid = uid;
 
 
-},{"@pixi/constants":3,"@pixi/settings":26,"earcut":35,"eventemitter3":37,"url":57}],35:[function(require,module,exports){
+},{"@pixi/constants":4,"@pixi/settings":27,"earcut":36,"eventemitter3":38,"url":58}],36:[function(require,module,exports){
 'use strict';
 
 module.exports = earcut;
@@ -35604,7 +35614,7 @@ earcut.flatten = function (data) {
     return result;
 };
 
-},{}],36:[function(require,module,exports){
+},{}],37:[function(require,module,exports){
 (function (global,setImmediate){(function (){
 (function(global){
 
@@ -35955,7 +35965,7 @@ Promise.reject = function(reason){
 
 }).call(this)}).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("timers").setImmediate)
 
-},{"timers":51}],37:[function(require,module,exports){
+},{"timers":52}],38:[function(require,module,exports){
 'use strict';
 
 var has = Object.prototype.hasOwnProperty
@@ -36293,7 +36303,7 @@ if ('undefined' !== typeof module) {
   module.exports = EventEmitter;
 }
 
-},{}],38:[function(require,module,exports){
+},{}],39:[function(require,module,exports){
 "use strict";
 function __export(m) {
     for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
@@ -36303,7 +36313,7 @@ __export(require("./isMobile"));
 var isMobile_1 = require("./isMobile");
 exports["default"] = isMobile_1["default"];
 
-},{"./isMobile":39}],39:[function(require,module,exports){
+},{"./isMobile":40}],40:[function(require,module,exports){
 "use strict";
 exports.__esModule = true;
 var appleIphone = /iPhone/i;
@@ -36432,7 +36442,7 @@ function isMobile(param) {
 }
 exports["default"] = isMobile;
 
-},{}],40:[function(require,module,exports){
+},{}],41:[function(require,module,exports){
 (function (global){(function (){
 /*!
     localForage -- Offline Storage, Improved
@@ -39238,7 +39248,7 @@ module.exports = localforage_js;
 
 }).call(this)}).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
 
-},{}],41:[function(require,module,exports){
+},{}],42:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, '__esModule', {
@@ -39405,7 +39415,7 @@ MiniSignal.MiniSignalBinding = MiniSignalBinding;
 exports['default'] = MiniSignal;
 module.exports = exports['default'];
 
-},{}],42:[function(require,module,exports){
+},{}],43:[function(require,module,exports){
 /*
 object-assign
 (c) Sindre Sorhus
@@ -39497,7 +39507,7 @@ module.exports = shouldUseNative() ? Object.assign : function (target, source) {
 	return to;
 };
 
-},{}],43:[function(require,module,exports){
+},{}],44:[function(require,module,exports){
 'use strict'
 
 function parseURI (str, opts) {
@@ -39548,7 +39558,7 @@ function parseURI (str, opts) {
 
 module.exports = parseURI
 
-},{}],44:[function(require,module,exports){
+},{}],45:[function(require,module,exports){
 /*!
  * pixi.js - v5.3.6
  * Compiled Mon, 21 Dec 2020 20:35:06 UTC
@@ -41114,7 +41124,7 @@ exports.filters = filters;
 exports.useDeprecated = useDeprecated;
 
 
-},{"@pixi/accessibility":1,"@pixi/app":2,"@pixi/constants":3,"@pixi/core":4,"@pixi/display":5,"@pixi/extract":6,"@pixi/filter-alpha":7,"@pixi/filter-blur":8,"@pixi/filter-color-matrix":9,"@pixi/filter-displacement":10,"@pixi/filter-fxaa":11,"@pixi/filter-noise":12,"@pixi/graphics":13,"@pixi/interaction":14,"@pixi/loaders":15,"@pixi/math":16,"@pixi/mesh":18,"@pixi/mesh-extras":17,"@pixi/mixin-cache-as-bitmap":19,"@pixi/mixin-get-child-by-name":20,"@pixi/mixin-get-global-position":21,"@pixi/particles":22,"@pixi/polyfill":23,"@pixi/prepare":24,"@pixi/runner":25,"@pixi/settings":26,"@pixi/sprite":29,"@pixi/sprite-animated":27,"@pixi/sprite-tiling":28,"@pixi/spritesheet":30,"@pixi/text":32,"@pixi/text-bitmap":31,"@pixi/ticker":33,"@pixi/utils":34}],45:[function(require,module,exports){
+},{"@pixi/accessibility":2,"@pixi/app":3,"@pixi/constants":4,"@pixi/core":5,"@pixi/display":6,"@pixi/extract":7,"@pixi/filter-alpha":8,"@pixi/filter-blur":9,"@pixi/filter-color-matrix":10,"@pixi/filter-displacement":11,"@pixi/filter-fxaa":12,"@pixi/filter-noise":13,"@pixi/graphics":14,"@pixi/interaction":15,"@pixi/loaders":16,"@pixi/math":17,"@pixi/mesh":19,"@pixi/mesh-extras":18,"@pixi/mixin-cache-as-bitmap":20,"@pixi/mixin-get-child-by-name":21,"@pixi/mixin-get-global-position":22,"@pixi/particles":23,"@pixi/polyfill":24,"@pixi/prepare":25,"@pixi/runner":26,"@pixi/settings":27,"@pixi/sprite":30,"@pixi/sprite-animated":28,"@pixi/sprite-tiling":29,"@pixi/spritesheet":31,"@pixi/text":33,"@pixi/text-bitmap":32,"@pixi/ticker":34,"@pixi/utils":35}],46:[function(require,module,exports){
 // shim for using process in browser
 var process = module.exports = {};
 
@@ -41300,7 +41310,7 @@ process.chdir = function (dir) {
 };
 process.umask = function() { return 0; };
 
-},{}],46:[function(require,module,exports){
+},{}],47:[function(require,module,exports){
 (function (global){(function (){
 /*! https://mths.be/punycode v1.3.2 by @mathias */
 ;(function(root) {
@@ -41835,7 +41845,7 @@ process.umask = function() { return 0; };
 
 }).call(this)}).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
 
-},{}],47:[function(require,module,exports){
+},{}],48:[function(require,module,exports){
 // Copyright Joyent, Inc. and other Node contributors.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a
@@ -41921,7 +41931,7 @@ var isArray = Array.isArray || function (xs) {
   return Object.prototype.toString.call(xs) === '[object Array]';
 };
 
-},{}],48:[function(require,module,exports){
+},{}],49:[function(require,module,exports){
 // Copyright Joyent, Inc. and other Node contributors.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a
@@ -42008,13 +42018,13 @@ var objectKeys = Object.keys || function (obj) {
   return res;
 };
 
-},{}],49:[function(require,module,exports){
+},{}],50:[function(require,module,exports){
 'use strict';
 
 exports.decode = exports.parse = require('./decode');
 exports.encode = exports.stringify = require('./encode');
 
-},{"./decode":47,"./encode":48}],50:[function(require,module,exports){
+},{"./decode":48,"./encode":49}],51:[function(require,module,exports){
 /*!
  * resource-loader - v3.0.1
  * https://github.com/pixijs/pixi-sound
@@ -44365,7 +44375,7 @@ exports.encodeBinary = encodeBinary;
 exports.middleware = index;
 
 
-},{"mini-signals":41,"parse-uri":43}],51:[function(require,module,exports){
+},{"mini-signals":42,"parse-uri":44}],52:[function(require,module,exports){
 (function (setImmediate,clearImmediate){(function (){
 var nextTick = require('process/browser.js').nextTick;
 var apply = Function.prototype.apply;
@@ -44445,7 +44455,7 @@ exports.clearImmediate = typeof clearImmediate === "function" ? clearImmediate :
 };
 }).call(this)}).call(this,require("timers").setImmediate,require("timers").clearImmediate)
 
-},{"process/browser.js":45,"timers":51}],52:[function(require,module,exports){
+},{"process/browser.js":46,"timers":52}],53:[function(require,module,exports){
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 var level_1 = require("./level");
@@ -44530,7 +44540,7 @@ var Display = /** @class */ (function () {
 }());
 exports.Display = Display;
 
-},{"./level":54,"./loggerManager":56}],53:[function(require,module,exports){
+},{"./level":55,"./loggerManager":57}],54:[function(require,module,exports){
 "use strict";
 /**
  * @file Automatically generated by barrelsby.
@@ -44544,7 +44554,7 @@ __export(require("./level"));
 __export(require("./logger"));
 __export(require("./loggerManager"));
 
-},{"./display":52,"./level":54,"./logger":55,"./loggerManager":56}],54:[function(require,module,exports){
+},{"./display":53,"./level":55,"./logger":56,"./loggerManager":57}],55:[function(require,module,exports){
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 /**
@@ -44574,7 +44584,7 @@ var Level;
     Level[Level["ERROR"] = 4] = "ERROR";
 })(Level = exports.Level || (exports.Level = {}));
 
-},{}],55:[function(require,module,exports){
+},{}],56:[function(require,module,exports){
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 var level_1 = require("./level");
@@ -44676,7 +44686,7 @@ var Logger = /** @class */ (function () {
 }());
 exports.Logger = Logger;
 
-},{"./display":52,"./level":54}],56:[function(require,module,exports){
+},{"./display":53,"./level":55}],57:[function(require,module,exports){
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 var logger_1 = require("./logger");
@@ -44793,7 +44803,7 @@ var LoggerManager = /** @class */ (function () {
 }());
 exports.LoggerManager = LoggerManager;
 
-},{"./logger":55}],57:[function(require,module,exports){
+},{"./logger":56}],58:[function(require,module,exports){
 // Copyright Joyent, Inc. and other Node contributors.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a
@@ -45527,7 +45537,7 @@ Url.prototype.parseHost = function() {
   if (host) this.hostname = host;
 };
 
-},{"./util":58,"punycode":46,"querystring":49}],58:[function(require,module,exports){
+},{"./util":59,"punycode":47,"querystring":50}],59:[function(require,module,exports){
 'use strict';
 
 module.exports = {
@@ -45545,7 +45555,7 @@ module.exports = {
   }
 };
 
-},{}],59:[function(require,module,exports){
+},{}],60:[function(require,module,exports){
 "use strict";
 var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
     function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
@@ -45587,13 +45597,15 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.ApplicationData = exports.Settings = exports.Theme = void 0;
+exports.ApplicationData = exports.CurrentSelection = exports.CurrentSelectionPart = exports.Settings = exports.Theme = void 0;
+var flags_data_1 = require("./../_site/src/flags.data");
 var localforage_1 = __importDefault(require("localforage"));
 var observer_1 = require("./observer");
 var site_1 = require("./site");
 var STORAGE_KEY_SETTINGS = 'settings';
 var STORAGE_KEY_THEME = 'theme';
 var STORAGE_KEY_VERSION = 'version';
+var STORAGE_KEY_CURRENT_SELECTION = 'settings';
 var Theme;
 (function (Theme) {
     Theme["Light"] = "light";
@@ -45605,45 +45617,66 @@ var Settings = (function () {
     return Settings;
 }());
 exports.Settings = Settings;
+var CurrentSelectionPart = (function () {
+    function CurrentSelectionPart() {
+        this.flag_name = "None";
+        this.orientation = flags_data_1.Orientation.Vertical;
+    }
+    return CurrentSelectionPart;
+}());
+exports.CurrentSelectionPart = CurrentSelectionPart;
+var CurrentSelection = (function () {
+    function CurrentSelection() {
+        this.form = "";
+        this.parts = {};
+    }
+    return CurrentSelection;
+}());
+exports.CurrentSelection = CurrentSelection;
 var ApplicationData = (function () {
     function ApplicationData() {
         this._settings = new observer_1.DataSubject(new Settings());
         this._theme = Theme.Dark;
         this._version = site_1.site.version;
+        this._currentSelection = new observer_1.DataSubject(new CurrentSelection());
         this._storeSession = localforage_1.default.createInstance({
             name: "session"
         });
     }
     ApplicationData.prototype.loadFromStorage = function () {
         return __awaiter(this, void 0, void 0, function () {
-            var _a, _b, _c, err_1;
-            return __generator(this, function (_d) {
-                switch (_d.label) {
+            var _a, _b, _c, _d, err_1;
+            return __generator(this, function (_e) {
+                switch (_e.label) {
                     case 0:
-                        _d.trys.push([0, 5, , 6]);
+                        _e.trys.push([0, 6, , 7]);
                         _a = this;
                         return [4, this._storeSession.getItem(STORAGE_KEY_VERSION)];
                     case 1:
-                        _a._version = (_d.sent()) || '';
+                        _a._version = (_e.sent()) || '';
                         if (!(this._version !== '')) return [3, 4];
                         _b = this._settings;
                         return [4, this._storeSession.getItem(STORAGE_KEY_SETTINGS)];
                     case 2:
-                        _b.data = (_d.sent()) || this._settings.data;
+                        _b.data = (_e.sent()) || this._settings.data;
                         _c = this;
                         return [4, this._storeSession.getItem(STORAGE_KEY_THEME)];
                     case 3:
-                        _c._theme = (_d.sent()) || this._theme;
-                        _d.label = 4;
+                        _c._theme = (_e.sent()) || this._theme;
+                        _e.label = 4;
                     case 4:
                         this._version = site_1.site.version;
                         this._storeSession.setItem(STORAGE_KEY_VERSION, this._version);
-                        return [3, 6];
+                        _d = this._currentSelection;
+                        return [4, this._storeSession.getItem(STORAGE_KEY_CURRENT_SELECTION)];
                     case 5:
-                        err_1 = _d.sent();
+                        _d.data = (_e.sent()) || this._currentSelection.data;
+                        return [3, 7];
+                    case 6:
+                        err_1 = _e.sent();
                         console.error('loadFromStorage', err_1);
-                        return [3, 6];
-                    case 6: return [2];
+                        return [3, 7];
+                    case 7: return [2];
                 }
             });
         });
@@ -45682,10 +45715,48 @@ var ApplicationData = (function () {
         enumerable: false,
         configurable: true
     });
+    Object.defineProperty(ApplicationData.prototype, "currentSelection", {
+        get: function () {
+            return this._currentSelection.data;
+        },
+        set: function (value) {
+            this._storeSession.setItem(STORAGE_KEY_CURRENT_SELECTION, value);
+            this._storeSession.setItem(STORAGE_KEY_VERSION, this._version);
+            this._currentSelection.data = value;
+        },
+        enumerable: false,
+        configurable: true
+    });
+    Object.defineProperty(ApplicationData.prototype, "currentSelectionObservable", {
+        get: function () {
+            return this._currentSelection;
+        },
+        enumerable: false,
+        configurable: true
+    });
+    ApplicationData.prototype.saveCurrentSelection = function () {
+        this._storeSession.setItem(STORAGE_KEY_CURRENT_SELECTION, this._currentSelection.data);
+        this._storeSession.setItem(STORAGE_KEY_VERSION, this._version);
+    };
+    ApplicationData.prototype.setPartFlagName = function (part, flag_name) {
+        if (!(part in this._currentSelection.data.parts)) {
+            this._currentSelection.data.parts[part] = new CurrentSelectionPart();
+        }
+        this._currentSelection.data.parts[part].flag_name = flag_name;
+        this.currentSelection = this.currentSelection;
+    };
+    ApplicationData.prototype.setPartOrientation = function (part, orientation) {
+        if (!(part in this._currentSelection.data.parts)) {
+            this._currentSelection.data.parts[part] = new CurrentSelectionPart();
+        }
+        this._currentSelection.data.parts[part].orientation = orientation;
+        this.currentSelection = this.currentSelection;
+    };
     return ApplicationData;
 }());
 exports.ApplicationData = ApplicationData;
-},{"./observer":63,"./site":64,"localforage":40}],60:[function(require,module,exports){
+
+},{"./../_site/src/flags.data":1,"./observer":65,"./site":66,"localforage":41}],61:[function(require,module,exports){
 "use strict";
 var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
     function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
@@ -45729,11 +45800,10 @@ var application_data_1 = require("./application.data");
 var typescript_logger_1 = require("typescript-logger");
 var pixi_js_1 = require("pixi.js");
 var site_1 = require("./site");
-var sprite_adapter_1 = require("./sprite.adapter");
+var form_parts_adapter_1 = require("./form-parts.adapter");
 var Application = (function () {
     function Application() {
         this._appData = new application_data_1.ApplicationData();
-        this._pixiApp = new pixi_js_1.Application();
         this._loader = new pixi_js_1.Loader();
         this.log = typescript_logger_1.LoggerManager.create('Application');
     }
@@ -45744,13 +45814,19 @@ var Application = (function () {
         });
     };
     Application.prototype.initSite = function () {
+        var _a, _b, _c;
         return __awaiter(this, void 0, void 0, function () {
-            var paw_sprites;
-            return __generator(this, function (_a) {
+            return __generator(this, function (_d) {
                 this.initTheme();
                 this.initSettings();
-                paw_sprites = site_1.site.data.sprites.filter(function (it) { return it.form == 'pride_paws' || it.form == 'gender_paws'; });
-                this._spriteAdapter = new sprite_adapter_1.SpritePawPartsAdapter(this._pixiApp, paw_sprites);
+                this._formPartsAdapter = new form_parts_adapter_1.FormPartsAdapter(this._appData);
+                (_a = this._formPartsAdapter) === null || _a === void 0 ? void 0 : _a.init();
+                if (!((_b = this._formPartsAdapter) === null || _b === void 0 ? void 0 : _b.current_form)) {
+                    (_c = this._formPartsAdapter) === null || _c === void 0 ? void 0 : _c.setForm(site_1.site.data.flags_config.forms[0]);
+                }
+                else {
+                    this._formPartsAdapter.updateUI();
+                }
                 this.initCanvas();
                 this.initObservers();
                 return [2];
@@ -45798,14 +45874,6 @@ var Application = (function () {
     };
     Application.prototype.initCanvas = function () {
         var that = this;
-        this._pixiApp = new pixi_js_1.Application({
-            width: 520,
-            height: 520,
-            antialias: false,
-            transparent: true,
-            resizeTo: $('#spriteViewContainer')[0]
-        });
-        $('#spriteViewContainer').html(this._pixiApp.view);
         var sprite_sheet_filenames = site_1.site.data.sprites.map(function (it) { return it.sheet; });
         sprite_sheet_filenames = sprite_sheet_filenames.filter(function (filename, index) {
             return sprite_sheet_filenames.indexOf(filename) === index;
@@ -45815,10 +45883,10 @@ var Application = (function () {
             that.loadProgressHandler();
         });
         this._loader.add(sprite_sheet_filenames).load(function (loader, resources) {
-            that.setupAdapters(loader, resources);
+            that.setupSpriteAdapters(loader, resources);
         });
     };
-    Application.prototype.setupAdapters = function (loader, resources) {
+    Application.prototype.setupSpriteAdapters = function (loader, resources) {
         var _a;
         (_a = this._spriteAdapter) === null || _a === void 0 ? void 0 : _a.init(resources);
     };
@@ -45827,16 +45895,207 @@ var Application = (function () {
     return Application;
 }());
 exports.Application = Application;
-},{"./application.data":59,"./site":64,"./sprite.adapter":65,"pixi.js":44,"typescript-logger":53}],61:[function(require,module,exports){
+
+},{"./application.data":60,"./form-parts.adapter":63,"./site":66,"pixi.js":45,"typescript-logger":54}],62:[function(require,module,exports){
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.Orienration = void 0;
-var Orienration;
-(function (Orienration) {
-    Orienration["Horizontal"] = "horizontal";
-    Orienration["Vertical"] = "vertical";
-})(Orienration = exports.Orienration || (exports.Orienration = {}));
-},{}],62:[function(require,module,exports){
+exports.Orientation = void 0;
+var Orientation;
+(function (Orientation) {
+    Orientation["Horizontal"] = "horizontal";
+    Orientation["Vertical"] = "vertical";
+})(Orientation = exports.Orientation || (exports.Orientation = {}));
+
+},{}],63:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.FormPartsAdapter = void 0;
+var application_data_1 = require("./application.data");
+var flags_data_1 = require("./flags.data");
+var site_1 = require("./site");
+var typescript_logger_1 = require("typescript-logger");
+var FormPartsAdapter = (function () {
+    function FormPartsAdapter(appData) {
+        this.log = typescript_logger_1.LoggerManager.create('FormPartsAdapter');
+        this._appData = appData;
+    }
+    FormPartsAdapter.prototype.init = function () {
+        this.initObservers();
+    };
+    FormPartsAdapter.prototype.initObservers = function () {
+        var that = this;
+        this._appData.currentSelectionObservable.attach(new (function () {
+            function class_1() {
+            }
+            class_1.prototype.update = function (subject) {
+            };
+            return class_1;
+        }()));
+    };
+    FormPartsAdapter.prototype.setForm = function (form) {
+        this._appData.currentSelection.form = form;
+        this.log.debug('setForm', form, this._appData.currentSelection.parts);
+        for (var _i = 0, _a = this.parts_list; _i < _a.length; _i++) {
+            var part = _a[_i];
+            if (this._appData.currentSelection.parts && !(part in this._appData.currentSelection.parts)) {
+                this._appData.currentSelection.parts[part] = new application_data_1.CurrentSelectionPart();
+                if (this.default_flag_name) {
+                    this._appData.currentSelection.parts[part].flag_name = this.default_flag_name;
+                }
+            }
+        }
+        this._appData.currentSelection = this._appData.currentSelection;
+        this.updateUI();
+    };
+    Object.defineProperty(FormPartsAdapter.prototype, "current_form", {
+        get: function () {
+            return this._appData.currentSelection.form;
+        },
+        enumerable: false,
+        configurable: true
+    });
+    Object.defineProperty(FormPartsAdapter.prototype, "parts_list", {
+        get: function () {
+            return FormPartsAdapter.getUnsafeProperty(site_1.site.data.flags_config, this.current_form).parts;
+        },
+        enumerable: false,
+        configurable: true
+    });
+    FormPartsAdapter.prototype.updateUI = function () {
+        $('#btnSelectForm').empty();
+        for (var _i = 0, _a = site_1.site.data.flags_config.forms; _i < _a.length; _i++) {
+            var form = _a[_i];
+            var form_name = form;
+            var btn_class = (this._appData.currentSelection.form == form) ? 'btn-primary' : 'btn-secondary';
+            var btn = "<button type=\"button\" class=\"btn " + btn_class + " btn-select-form\" data-form=\"" + form + "\">" + form_name + "</button>";
+            $('#btnSelectForm').append(btn);
+        }
+        $('#lstSelectContainer').empty();
+        for (var _b = 0, _c = this.parts_list; _b < _c.length; _b++) {
+            var part = _c[_b];
+            var form_group = this.getSelectElement(this.current_form, part);
+            $('#lstSelectContainer').append(form_group);
+        }
+        this.initEvents();
+    };
+    Object.defineProperty(FormPartsAdapter.prototype, "default_flag_name", {
+        get: function () {
+            var _a, _b;
+            return (_b = (_a = site_1.site.data.sprites.find(function (it) { return it.default; })) === null || _a === void 0 ? void 0 : _a.flag_name) !== null && _b !== void 0 ? _b : 'None';
+        },
+        enumerable: false,
+        configurable: true
+    });
+    Object.defineProperty(FormPartsAdapter.prototype, "selected_form_sprites", {
+        get: function () {
+            var _this = this;
+            return site_1.site.data.sprites.filter(function (it) { return it.form == _this.current_form && (it.mask === undefined || !it.mask); });
+        },
+        enumerable: false,
+        configurable: true
+    });
+    FormPartsAdapter.prototype.getSelectedPart = function (part) {
+        var selected_part_orientation = (part in this._appData.currentSelection.parts) ? this._appData.currentSelection.parts[part].orientation : flags_data_1.Orientation.Vertical;
+        var selected_part_flag_name = (part in this._appData.currentSelection.parts) ? this._appData.currentSelection.parts[part].flag_name : this.default_flag_name;
+        return this.selected_form_sprites.find(function (it) { return it.flag_name == selected_part_flag_name && it.orientation == selected_part_orientation; });
+    };
+    FormPartsAdapter.prototype.getSelectableParts = function (part) {
+        return this.selected_form_sprites.filter(function (it) { return it.part == part; });
+    };
+    FormPartsAdapter.prototype.getSelectElement = function (form, part) {
+        var part_name = part;
+        var lstId = "lstSelect" + part;
+        var btnSelectOrientationHorizontalId = "btnSelectOrientationHorizontal" + part;
+        var btnSelectOrientationVerticalId = "btnSelectOrientationVertical" + part;
+        var selected_part_orientation = (part in this._appData.currentSelection.parts) ? this._appData.currentSelection.parts[part].orientation : flags_data_1.Orientation.Vertical;
+        var selected_part_flag_name = (part in this._appData.currentSelection.parts) ? this._appData.currentSelection.parts[part].flag_name : this.default_flag_name;
+        var selected_part = this.getSelectedPart(part);
+        var selectable_parts = this.getSelectableParts(part);
+        var selectable_horizontal_parts = selectable_parts.filter(function (it) { return it.orientation == flags_data_1.Orientation.Horizontal; });
+        var selectable_vertical_parts = selectable_parts.filter(function (it) { return it.orientation == flags_data_1.Orientation.Vertical; });
+        var select_orientation_horizontal_class = (selected_part_orientation == flags_data_1.Orientation.Horizontal) ? 'btn-primary' : 'btn-outline-secondary';
+        var select_orientation_vertical_class = (selected_part_orientation == flags_data_1.Orientation.Vertical) ? 'btn-primary' : 'btn-outline-secondary';
+        var select_orientation_horizontal_disabled = (selectable_horizontal_parts.find(function (it) { return it.flag_name == selected_part_flag_name && it.orientation == flags_data_1.Orientation.Horizontal; })) ? '' : 'disabled';
+        var select_orientation_vertical_disabled = (selectable_vertical_parts.find(function (it) { return it.flag_name == selected_part_flag_name && it.orientation == flags_data_1.Orientation.Vertical; })) ? '' : 'disabled';
+        var selectable_parts_flag_names = selectable_parts.map(function (it) { return it.flag_name; });
+        selectable_parts_flag_names = selectable_parts_flag_names.filter(function (element, i) { return i === selectable_parts_flag_names.indexOf(element); });
+        var selects = '';
+        for (var _i = 0, selectable_parts_flag_names_1 = selectable_parts_flag_names; _i < selectable_parts_flag_names_1.length; _i++) {
+            var selectable_flag_name = selectable_parts_flag_names_1[_i];
+            var selected = (selectable_flag_name === selected_part_flag_name) ? 'selected' : '';
+            selects += "<option class=\"select-part\" value=\"" + selectable_flag_name + "\" data-form=\"" + form + "\" data-part=\"" + part + "\" " + selected + ">\n                " + selectable_flag_name + "\n            </option>\n";
+        }
+        var icon_filename = site_1.site.data.base_url + (selected_part === null || selected_part === void 0 ? void 0 : selected_part.flag_filename);
+        return "<div class=\"form-group\">\n            <label for=\"" + lstId + "\">" + part_name + "</label>\n            <div class=\"input-group\">\n                <div class=\"input-group-prepend text-center\">\n                    <img src=\"" + icon_filename + "\" class=\"img-fluid clickable-flag select-part-icon\" data-form=\"" + form + "\" data-part=\"" + part + "\" data-flag-name=\"" + (selected_part === null || selected_part === void 0 ? void 0 : selected_part.flag_name) + "\" alt=\"Selected Icon " + (selected_part === null || selected_part === void 0 ? void 0 : selected_part.flag_name) + "\">\n                </div>\n                <select id=\"" + lstId + "\" class=\"custom-select select-parts\" data-form=\"" + form + "\" data-part=\"" + part + "\">\n                    " + selects + "\n                </select>\n                <div class=\"input-group-append\">\n                    <button class=\"btn " + select_orientation_vertical_class + " select-orientation select-orientation-vertical\" type=\"button\" data-form=\"" + form + "\" data-part=\"" + part + "\" data-orientation=\"" + flags_data_1.Orientation.Vertical + "\" id=\"" + btnSelectOrientationVerticalId + "\" " + select_orientation_vertical_disabled + ">\n                        <i class=\"fas fa-image\"></i>\n                        <span class=\"sr-only\">Select Vertical</span>\n                    </button>\n                    <button class=\"btn " + select_orientation_horizontal_class + " select-orientation select-orientation-horizontal\" type=\"button\" data-form=\"" + form + "\" data-part=\"" + part + "\" data-orientation=\"" + flags_data_1.Orientation.Horizontal + "\" id=\"" + btnSelectOrientationHorizontalId + "\" " + select_orientation_horizontal_disabled + ">\n                        <i class=\"fas fa-image\" data-fa-transform=\"rotate-90\"></i>\n                        <span class=\"sr-only\">Select Horizontal</span>\n                    </button>\n                </div>\n            </div>\n        </div>";
+    };
+    FormPartsAdapter.prototype.initEvents = function () {
+        var that = this;
+        $('.btn-select-form').off('click').on('click', function () {
+            var form = $(this).data('form');
+            that.setForm(form);
+        });
+        $('.select-parts').off('change').on('change', function () {
+            var selected_flag_name = $(this).val();
+            var form = $(this).data('form');
+            var part = $(this).data('part');
+            that.log.debug('initEvents select-parts change', that._appData.currentSelection);
+            that._appData.setPartFlagName(part, selected_flag_name);
+            var selected_part = that.getSelectedPart(part);
+            var icon_filename = site_1.site.data.base_url + (selected_part === null || selected_part === void 0 ? void 0 : selected_part.flag_filename);
+            $('.select-part-icon').each(function () {
+                var _a;
+                var icon_form = $(this).data('form');
+                var icon_part = $(this).data('part');
+                if (icon_form == form && icon_part == part) {
+                    $(this).data('flag-name', (_a = selected_part === null || selected_part === void 0 ? void 0 : selected_part.flag_name) !== null && _a !== void 0 ? _a : '');
+                    $(this).attr('src', icon_filename);
+                }
+            });
+            var selectable_parts = that.getSelectableParts(part);
+            $('.select-orientation').each(function () {
+                var btn_form = $(this).data('form');
+                var btn_part = $(this).data('part');
+                var btn_orientation = $(this).data('orientation');
+                if (btn_form == form && btn_part == part) {
+                    var select_orientation_horizontal_class = ((selected_part === null || selected_part === void 0 ? void 0 : selected_part.orientation) == flags_data_1.Orientation.Horizontal) ? 'btn-primary' : 'btn-outline-secondary';
+                    var select_orientation_vertical_class = ((selected_part === null || selected_part === void 0 ? void 0 : selected_part.orientation) == flags_data_1.Orientation.Vertical) ? 'btn-primary' : 'btn-outline-secondary';
+                    var select_orientation_horizontal_disabled = selectable_parts.find(function (it) { return it.flag_name == selected_flag_name && it.orientation == flags_data_1.Orientation.Horizontal; }) === undefined;
+                    var select_orientation_vertical_disabled = selectable_parts.find(function (it) { return it.flag_name == selected_flag_name && it.orientation == flags_data_1.Orientation.Vertical; }) === undefined;
+                    $(this).removeClass('btn-primary').removeClass('btn-outline-secondary');
+                    switch (btn_orientation) {
+                        case flags_data_1.Orientation.Horizontal:
+                            $(this).addClass(select_orientation_horizontal_class);
+                            $(this).prop('disabled', select_orientation_horizontal_disabled);
+                            break;
+                        case flags_data_1.Orientation.Vertical:
+                            $(this).addClass(select_orientation_vertical_class);
+                            $(this).prop('disabled', select_orientation_vertical_disabled);
+                            break;
+                    }
+                }
+            });
+        });
+        $('.select-orientation').off('click').on('click', function () {
+            var form = $(this).data('form');
+            var part = $(this).data('part');
+            var orientation = $(this).data('orientation');
+            that._appData.setPartOrientation(part, orientation);
+        });
+    };
+    FormPartsAdapter.getUnsafeProperty = function (obj, key) {
+        return key in obj ? obj[key] : undefined;
+    };
+    FormPartsAdapter.getProperty = function (obj, key) {
+        return obj[key];
+    };
+    FormPartsAdapter.setProperty = function (obj, key, value) {
+        obj[key] = value;
+    };
+    return FormPartsAdapter;
+}());
+exports.FormPartsAdapter = FormPartsAdapter;
+
+},{"./application.data":60,"./flags.data":62,"./site":66,"typescript-logger":54}],64:[function(require,module,exports){
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 require("./site");
@@ -45849,7 +46108,8 @@ $(function () {
     var app = new application_1.Application();
     app.init();
 });
-},{"./application":60,"./site":64,"typescript-logger":53}],63:[function(require,module,exports){
+
+},{"./application":61,"./site":66,"typescript-logger":54}],65:[function(require,module,exports){
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.DataListSubject = exports.DataSubject = void 0;
@@ -46036,7 +46296,8 @@ var DataListSubject = (function () {
     return DataListSubject;
 }());
 exports.DataListSubject = DataListSubject;
-},{"typescript-logger":53}],64:[function(require,module,exports){
+
+},{"typescript-logger":54}],66:[function(require,module,exports){
 'use strict';
 String.prototype.format = function () {
     var args = arguments;
@@ -46119,103 +46380,6 @@ module.exports = {
     makeDoubleClick: makeDoubleClick,
     clamp: clamp
 };
-},{}],65:[function(require,module,exports){
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.SpritePawPartsAdapter = void 0;
-var pixi_js_1 = require("pixi.js");
-var typescript_logger_1 = require("typescript-logger");
-var flags_data_1 = require("./flags.data");
-var SpritePawPartsAdapter = (function () {
-    function SpritePawPartsAdapter(pixiApp, spritesMetaData) {
-        this._spritesMetaData = [];
-        this._sprites = {
-            left_part_1: new pixi_js_1.Sprite(),
-            left_part_2: new pixi_js_1.Sprite(),
-            right_part_1: new pixi_js_1.Sprite(),
-            right_part_2: new pixi_js_1.Sprite(),
-            center: new pixi_js_1.Sprite(),
-        };
-        this._parts_container = new pixi_js_1.Container();
-        this.log = typescript_logger_1.LoggerManager.create('SpritePawPartsAdapter');
-        this._pixiApp = pixiApp;
-        this._spritesMetaData = spritesMetaData;
-    }
-    SpritePawPartsAdapter.prototype.init = function (resources) {
-        this._resources = resources;
-        var parts = function (name) { return name; };
-        for (var _i = 0, _a = ['left_part_1', 'left_part_2', 'right_part_1', 'right_part_2', 'center']; _i < _a.length; _i++) {
-            var part = _a[_i];
-            this.setPart('None', part, flags_data_1.Orienration.Vertical, false);
-        }
-        this._parts_container.addChild(this._sprites.left_part_1);
-        this._parts_container.addChild(this._sprites.left_part_2);
-        this._parts_container.addChild(this._sprites.right_part_1);
-        this._parts_container.addChild(this._sprites.right_part_2);
-        this._parts_container.addChild(this._sprites.center);
-        this.updateSprite();
-        this._pixiApp.stage.addChild(this._sprites.left_part_1);
-        var that = this;
-        window.addEventListener('resize', function () {
-            that.log.debug('resize');
-            that.updateSprite();
-        });
-    };
-    SpritePawPartsAdapter.prototype.setPart = function (flag_name, part, orienration, update_sprite) {
-        if (update_sprite === void 0) { update_sprite = true; }
-        if (this._resources !== undefined) {
-            var meta = this._spritesMetaData.find(function (it) { return it.flag_name == flag_name && it.orientation == orienration && it.part == part; });
-            if (meta !== undefined) {
-                var ress = this._resources[meta.sheet];
-                if (ress != undefined && ress.textures !== undefined) {
-                    var texture = ress.textures[meta.id];
-                    switch (part) {
-                        case 'left_part_1':
-                            this._sprites.left_part_1.texture = texture;
-                            break;
-                        case 'left_part_2':
-                            this._sprites.left_part_2.texture = texture;
-                            break;
-                        case 'right_part_1':
-                            this._sprites.right_part_1.texture = texture;
-                            break;
-                        case 'right_part_2':
-                            this._sprites.right_part_2.texture = texture;
-                            break;
-                        case 'center':
-                            this._sprites.center.texture = texture;
-                            break;
-                    }
-                    if (update_sprite) {
-                        this.updateSprite();
-                    }
-                    this.log.debug('setPart', flag_name + " " + part + " " + orienration, meta, texture);
-                    return true;
-                }
-                else {
-                    this.log.warn('setPart', meta.sheet + " not found or no textures", this._resources[meta.sheet]);
-                }
-            }
-            else {
-                this.log.warn('setPart', flag_name + " " + part + " " + orienration + " not found in meta", this._spritesMetaData);
-            }
-        }
-        return false;
-    };
-    SpritePawPartsAdapter.prototype.updateSprite = function () {
-        var offset_x = (this._pixiApp.screen.width >= 32) ? 8 : 0;
-        var offset_y = (this._pixiApp.screen.height >= 32) ? 8 : 0;
-        var display_width = this._pixiApp.screen.width - offset_x;
-        var display_height = this._pixiApp.screen.height - offset_y;
-        this._parts_container.width = display_width;
-        this._parts_container.height = display_height;
-        this._parts_container.position.set((this._pixiApp.screen.width / 2 - this._parts_container.width / 2) + offset_x, (this._pixiApp.screen.height / 2 - this._parts_container.height / 2) + offset_y);
-        this._pixiApp.render();
-        this.log.debug('updateSprite: window', display_width, display_height);
-        this.log.debug('updateSprite: sprites', this._parts_container.x, this._parts_container.y, this._parts_container.width, this._parts_container.height, this._parts_container);
-    };
-    return SpritePawPartsAdapter;
-}());
-exports.SpritePawPartsAdapter = SpritePawPartsAdapter;
-},{"./flags.data":61,"pixi.js":44,"typescript-logger":53}]},{},[62])
+
+},{}]},{},[64])
 //# sourceMappingURL=bundle.js.map

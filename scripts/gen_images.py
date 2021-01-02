@@ -465,6 +465,9 @@ def generateSpriteLine(output_map, paw_outlines_img, outline_color, flag, parts,
         if not key in output_map:
             output_map[key] = { 'flag_name': flag_name, 'part': part, 'orientation': orientation, 'flag_filename': flag_filename, 'mask_key': mask_key }
 
+        flags_fits = False
+        flags_fits_perfect = False
+
         flag_color_palette = []
         if 'start_' + orientation in color_coords and 'end_' + orientation in color_coords and color_coords['start_' + orientation] and color_coords['end_' + orientation]:
             stripes = len(color_coords['start_' + orientation])
@@ -484,16 +487,16 @@ def generateSpriteLine(output_map, paw_outlines_img, outline_color, flag, parts,
                     small_end = end_line_size <= 1
 
             if flag_colors_size == 1:
-                output_map[key]['flags_fits'] = True
+                flags_fits = True
                 for i in range(stripes):
                     flag_color_palette.append(Color(flag['colors'][0]))
             elif stripes == flag_colors_size:
-                output_map[key]['flags_fits'] = True
-                output_map[key]['flags_fits_perfect'] = True
+                flags_fits = True
+                flags_fits_perfect = True
                 for flag_color in flag['colors']:
                     flag_color_palette.append(Color(flag_color))
             elif stripes > flag_colors_size:
-                output_map[key]['flags_fits'] = True
+                flags_fits = True
                 rest_stripes = int(stripes - flag_colors_size)
                 if rest_stripes == 1:
                     for i in range(0, int(flag_colors_size / 2)):
@@ -513,7 +516,7 @@ def generateSpriteLine(output_map, paw_outlines_img, outline_color, flag, parts,
                     stripes_start_part, stripes_start_center, stripes_middle_center, stripes_end_center, stripes_end_part = genStripesParts(small_start, small_end, stripes, flag_colors_size, orientation)
                     flag_color_palette = getFlagColorsPalette(stripes, flag['colors'], stripes_start_part, stripes_start_center, stripes_middle_center, stripes_end_center, stripes_end_part)
             else:
-                output_map[key]['flags_fits'] = False
+                flags_fits = False
                 flag_color_palette = getFlagColorPaletteStriped(flag['colors'], stripes, orientation)
 
             if len(flag_color_palette) < stripes:
@@ -574,6 +577,11 @@ def generateSpriteLine(output_map, paw_outlines_img, outline_color, flag, parts,
                 triangle_name = "{}_triangle".format(orientation)
                 circle_name = "{}_circle".format(orientation)
 
+                if 'triangle' in flag:
+                    flags_fits = triangle_name in color_coords and len(color_coords[triangle_name]) > 0
+                if 'circle' in flag:
+                    flags_fits = circle_name in color_coords and len(color_coords[circle_name]) > 0
+
                 if 'triangle' in flag and triangle_name in color_coords:
                     opp_extra_name = ''
                     if 'circle' in flag:
@@ -583,6 +591,8 @@ def generateSpriteLine(output_map, paw_outlines_img, outline_color, flag, parts,
                     color_coords_triangle = color_coords[triangle_name]
                     color_coords_triangle_size = len(color_coords_triangle)
                     triangle_flag_colors_size = len(triangle_flag_colors) 
+
+                    flags_fits_perfect = flags_fits_perfect and color_coords_triangle_size == triangle_flag_colors_size
 
                     if triangle_flag_colors_size == 1:
                         triangle_flag_color = Color(triangle_flag_colors[0])
@@ -639,6 +649,10 @@ def generateSpriteLine(output_map, paw_outlines_img, outline_color, flag, parts,
             if key in output_map:
                 output_map[key]['empty'] = True
 
+        if key in output_map:
+            output_map[key]['flags_fits'] = flags_fits
+            output_map[key]['flags_fits_perfect'] = flags_fits_perfect
+
         output_flage_part.paste(paw_outlines_img, (0, 0), paw_outlines_img)
 
         if 'extra_outline' in color_code_map:
@@ -650,12 +664,14 @@ def generateSpriteLine(output_map, paw_outlines_img, outline_color, flag, parts,
         frame_height = output_flage_part.size[1]
 
         mask = None
+        mask_filename = None
         for m in mask_output:
             if m['mask_key'] == mask_key:
                 mask_filename = os.path.join('..', m['filename'])
                 with open(mask_filename, 'rb') as f:
                     mask = Image.open(f)
                     mask.load()
+                    mask_filename = m['filename']
         
         new_output_flage_part = Image.new(mode = "RGBA", size = (paw_width, paw_height))
         if mask:
@@ -665,16 +681,22 @@ def generateSpriteLine(output_map, paw_outlines_img, outline_color, flag, parts,
         
 
         output_flage_frames[key] = new_output_flage_part
+        if mask_filename:
+            output_map[key]['mask_filename'] = mask_filename
+        if 'default' in flag:
+            output_map[key]['default'] = flag['default']
+        if 'mask' in flag:
+            output_map[key]['mask'] = flag['mask']
         output_map[key]['rotated'] = False
         output_map[key]['trimmed'] = False
         output_map[key]['spriteSourceSize'] = { 'x': 0, 'y': 0, 'w': frame_width, 'h': frame_height }
         output_map[key]['sourceSize'] = { 'w': frame_width,'h': frame_height }
-
+        
         frame_counter = frame_counter + 1
 
     return output_flage_frames
     
-def generateSprite(in_img_filename, parts, output_name, colors_config, flags, transparent_colors, mask_output):
+def generateSprite(in_img_filename, parts, form, output_name, colors_config, flags, transparent_colors, mask_output):
     outline_color = Color(colors_config['outline']) if 'outline' in colors_config else None
     color_code_map = dict()
 
@@ -758,7 +780,7 @@ def generateSprite(in_img_filename, parts, output_name, colors_config, flags, tr
         
     output_arr = []
     for name, data in output_map.items():
-        data['form'] = output_name
+        data['form'] = form
         data['sheet'] = sheet_filename
         if name in output_map and (not 'empty' in output_map[name] or ('empty' in output_map[name] and not output_map[name]['empty'])):
             output_arr.append(data)
@@ -767,20 +789,21 @@ def generateSprite(in_img_filename, parts, output_name, colors_config, flags, tr
 
     return output_arr
 
-def genFlags(flags):
+def genFlags(flags, strip_size_factor=1):
+    base_strip_size = 8
     for i in range(len(flags)):
         flag = flags[i]
         flag_name = flag['name']
 
-        strip_size = 2
+        strip_size = base_strip_size * strip_size_factor
         line_size = 0
         flag_line_color = None
         if len(flag['colors']) == 1:
-            strip_size = 4
+            strip_size = int(2*base_strip_size * strip_size_factor)
         elif len(flag['colors']) == 2:
-            strip_size = 3
+            strip_size = int(1.5*base_strip_size * strip_size_factor)
         elif len(flag['colors']) >= 5:
-            strip_size = 1
+            strip_size = int(base_strip_size/2 * strip_size_factor)
             if len(flag['colors']) % 2 == 0:
                 if 'triangle' in flag:
                     strip_size = strip_size + 1
@@ -880,6 +903,7 @@ def main():
         transparent_colors.append(Color(transparent_color))
 
     forms = config['forms']
+    categories = config['categories']
 
     mask_flag = dict()
     for flag in pride_flags:
@@ -889,16 +913,24 @@ def main():
     for form in forms:
         if form in config:
             parts = config[form]['parts']
-            mask_output.extend(generateSprite(config[form]['base_filename'], parts, 'mask_' + form, config[form], [mask_flag], transparent_colors, mask_output))
+            mask_output.extend(generateSprite(config[form]['base_filename'], parts, form, 'mask_' + form, config[form], [mask_flag], transparent_colors, mask_output))
 
     output = []
     for form in forms:
         if form in config:
             parts = config[form]['parts']
-            output.extend(generateSprite(config[form]['base_filename'], parts, 'pride_' + form, config[form], pride_flags, transparent_colors, mask_output))
-            output.extend(generateSprite(config[form]['base_filename'], parts, 'gender_' + form, config[form], gender_flags, transparent_colors, mask_output))
-            output.extend(generateSprite(config[form]['base_filename'], parts, 'relationship_' + form, config[form], relationship_flags, transparent_colors, mask_output))
-            output.extend(generateSprite(config[form]['base_filename'], parts, 'romantic_' + form, config[form], romantic_flags, transparent_colors, mask_output))
+            for category in categories:
+                flags = []
+                if category == 'pride':
+                    flags = pride_flags
+                if category == 'gender':
+                    flags = gender_flags
+                if category == 'relationship':
+                    flags = relationship_flags
+                if category == 'romantic':
+                    flags = romantic_flags
+            
+                output.extend(generateSprite(config[form]['base_filename'], parts, form, category + '_' + form, config[form], flags, transparent_colors, mask_output))
 
     all_flags = []
     all_flags.extend(pride_flags)
@@ -921,6 +953,8 @@ def main():
         with open(r'../_data/sprites.yml', 'w') as yaml_file:
             yaml.safe_dump(json.load(json_file), yaml_file, default_flow_style=False, allow_unicode=True)
 
+    with open(r'../_data/flags_config.yml', 'w') as yaml_file:
+        yaml.safe_dump(config, yaml_file, default_flow_style=False, allow_unicode=True)
 
 if __name__ == "__main__":
     main()

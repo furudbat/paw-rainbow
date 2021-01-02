@@ -1,0 +1,102 @@
+forms:
+- paw
+paw:
+  base_filename: ./paw.png
+  center:
+    circle:
+      horizontal:
+      - '#626262'
+      - '#424242'
+      vertical:
+      - '#626262'
+      - '#424242'
+    horizontal:
+    - '#533953'
+    - '#965696'
+    - '#d353d3'
+    line:
+      vertical:
+      - '#533953'
+      - '#5c285c'
+    triangle:
+      vertical:
+      - '#424242'
+      - '#858585'
+    vertical:
+    - '#965696'
+    - '#533953'
+    - '#5c285c'
+    - '#991999'
+  craws:
+  - '#ffff00'
+  extra_outline: '#1a1a1a'
+  left_part_1:
+    circle:
+      horizontal:
+      - '#5d3939'
+      - '#626262'
+      vertical:
+      - '#5d3939'
+      - '#626262'
+    horizontal:
+    - '#bc7c7c'
+    - '#ec6c6c'
+    - '#5d3939'
+    - '#ec6c6c'
+    vertical:
+    - '#bc7c7c'
+    - '#c64646'
+  left_part_2:
+    circle:
+      horizontal:
+      - '#385b38'
+      - '#626262'
+      vertical:
+      - '#385b38'
+      - '#626262'
+    horizontal:
+    - '#73b373'
+    - '#66e666'
+    - '#385b38'
+    - '#66e666'
+    vertical:
+    - '#73b373'
+    - '#40c040'
+  outline: '#000000'
+  parts:
+  - left_part_1
+  - left_part_2
+  - right_part_1
+  - right_part_2
+  - center
+  right_part_1:
+    circle:
+      horizontal:
+      - '#365a5a'
+      - '#626262'
+      vertical:
+      - '#365a5a'
+      - '#626262'
+    horizontal:
+    - '#69a9a9'
+    - '#5fdfdf'
+    - '#365a5a'
+    - '#5fdfdf'
+    vertical:
+    - '#69a9a9'
+    - '#39b9b9'
+  right_part_2:
+    circle:
+      horizontal:
+      - '#626262'
+      vertical:
+      - '#626262'
+    horizontal:
+    - '#5f5fa0'
+    - '#5959d9'
+    vertical:
+    - '#5f5fa0'
+    - '#3333b3'
+transparent_colors:
+- '#bfa88f'
+- '#ffff00'

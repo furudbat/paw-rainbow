@@ -8,12 +8,13 @@
     <script type='text/javascript' >  
       const site = {
         data: {
-          base_url: '{{ "" | absolute_url }}',
+          base_url: '{{ "" | absolute_url }}' + '/',
           assets_url: '{{ "assets/" | absolute_url }}',
 
           // add more data here (from site.data), like "strings"
           sprites: {{ site.data.sprites | jsonify }},
           flags: {{ site.data.flags | jsonify }},
+          flags_config: {{ site.data.flags_config | jsonify }},
 
           strings: {{ site.data.strings | jsonify }}
         },

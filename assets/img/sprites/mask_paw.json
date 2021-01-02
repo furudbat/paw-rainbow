@@ -7,6 +7,8 @@
             "flag_filename": "assets/img/flags/mask.png",
             "mask_key": "_horizontal_0",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask": true,
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -35,6 +37,8 @@
             "flag_filename": "assets/img/flags/mask.png",
             "mask_key": "_horizontal_1",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask": true,
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -63,6 +67,8 @@
             "flag_filename": "assets/img/flags/mask.png",
             "mask_key": "_horizontal_2",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask": true,
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -91,6 +97,8 @@
             "flag_filename": "assets/img/flags/mask.png",
             "mask_key": "_horizontal_3",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask": true,
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -119,6 +127,8 @@
             "flag_filename": "assets/img/flags/mask.png",
             "mask_key": "_horizontal_4",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask": true,
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -147,6 +157,8 @@
             "flag_filename": "assets/img/flags/mask.png",
             "mask_key": "_vertical_0",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask": true,
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -175,6 +187,8 @@
             "flag_filename": "assets/img/flags/mask.png",
             "mask_key": "_vertical_1",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask": true,
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -203,6 +217,8 @@
             "flag_filename": "assets/img/flags/mask.png",
             "mask_key": "_vertical_2",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask": true,
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -231,6 +247,8 @@
             "flag_filename": "assets/img/flags/mask.png",
             "mask_key": "_vertical_3",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask": true,
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -259,6 +277,8 @@
             "flag_filename": "assets/img/flags/mask.png",
             "mask_key": "_vertical_4",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask": true,
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {

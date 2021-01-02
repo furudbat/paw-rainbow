@@ -1,14 +1,17 @@
 export interface FlagMetaData {
     name: string;
+    filename: string;
     
     colors: string[];
-    line: string;
     triangle: string[];
+    line: string;
+    circle: string;
 
     default?: boolean;
+    mask?: boolean;
 }
 
-export enum Orienration {
+export enum Orientation {
     Horizontal = "horizontal",
     Vertical = "vertical"
 }
@@ -26,11 +29,15 @@ interface SpriteSize {
 export interface SpriteFlagMetaData {
     id: string;
     filename: string;
+    flag_filename: string;
     sheet: string;
+
+    mask_filename: string;
+    mask_key: string;
     
     form: string;
     flag_name: string;
-    orientation: Orienration;
+    orientation: Orientation;
     part: string;
 
     frame: SpriteRect;
@@ -40,5 +47,40 @@ export interface SpriteFlagMetaData {
 
     flags_fits?: boolean;
     flags_fits_perfect?: boolean;
+    default?: boolean;
+    mask?: boolean;
 }
 
+
+interface FlagConfigColors {
+    horizontal: string[];
+    vertical: string[];
+}
+
+interface FlagConfigColorsPart extends FlagConfigColors {
+    circle?: FlagConfigColors;
+    triangle?: FlagConfigColors;
+}
+
+
+export type Forms = 'paw';
+export type PawParts = 'left_part_1' | 'left_part_2' | 'right_part_1' | 'right_part_2' | 'center';
+
+export interface BaseFlagConfig {
+    //base_filename: string;
+
+    craws?: string[];
+    outline? : string;
+    extra_outline? : string;
+    parts: string[];
+}
+
+export interface PawFlagConfig extends BaseFlagConfig, Record<PawParts, FlagConfigColorsPart> {
+
+}
+
+export interface FlagsConfig {
+    forms: string[];
+    transparent_colors: string[];
+    paw: PawFlagConfig;
+}

@@ -1,3 +1,4 @@
+import { Orientation } from './../_site/src/flags.data';
 import localForage from "localforage";
 import { DataSubject } from "./observer";
 import { site } from "./site";
@@ -5,6 +6,7 @@ import { site } from "./site";
 const STORAGE_KEY_SETTINGS = 'settings';
 const STORAGE_KEY_THEME = 'theme';
 const STORAGE_KEY_VERSION = 'version';
+const STORAGE_KEY_CURRENT_SELECTION = 'settings';
 
 export enum Theme {
     Light = "light",
@@ -14,11 +16,21 @@ export class Settings {
     
 }
 
+export class CurrentSelectionPart {
+    flag_name: string = "None";
+    orientation: Orientation = Orientation.Vertical;
+}
+export class CurrentSelection {
+    form: string = "";
+    parts: Record<string, CurrentSelectionPart> = {};
+}
+
 export class ApplicationData {
 
     private _settings: DataSubject<Settings> = new DataSubject<Settings>(new Settings());
     private _theme: Theme = Theme.Dark;
     private _version: string = site.version;
+    private _currentSelection: DataSubject<CurrentSelection> = new DataSubject<CurrentSelection>(new CurrentSelection());
 
     private _storeSession = localForage.createInstance({
         name: "session"
@@ -39,6 +51,8 @@ export class ApplicationData {
 
             this._version = site.version;
             this._storeSession.setItem(STORAGE_KEY_VERSION, this._version);
+
+            this._currentSelection.data = await this._storeSession.getItem<CurrentSelection>(STORAGE_KEY_CURRENT_SELECTION) || this._currentSelection.data;
         } catch (err) {
             // This code runs if there were any errors.
             console.error('loadFromStorage', err);
@@ -73,5 +87,46 @@ export class ApplicationData {
         this._settings.data = value;
     }
 
+
     /// add more getter and setter
+
+    set currentSelection(value: CurrentSelection) {
+        this._storeSession.setItem(STORAGE_KEY_CURRENT_SELECTION, value);
+        this._storeSession.setItem(STORAGE_KEY_VERSION, this._version);
+        this._currentSelection.data = value;
+    }
+
+    get currentSelectionObservable() {
+        return this._currentSelection;
+    }
+
+    get currentSelection() {
+        return this._currentSelection.data;
+    }
+
+    public saveCurrentSelection() {
+        this._storeSession.setItem(STORAGE_KEY_CURRENT_SELECTION, this._currentSelection.data);
+        this._storeSession.setItem(STORAGE_KEY_VERSION, this._version);
+    }
+
+
+    public setPartFlagName(part: string, flag_name: string) {
+        if (!(part in this._currentSelection.data.parts)) {
+            this._currentSelection.data.parts[part] = new CurrentSelectionPart();
+        }
+
+        this._currentSelection.data.parts[part].flag_name = flag_name;
+
+        this.currentSelection = this.currentSelection;
+    }
+
+    public setPartOrientation(part: string, orientation: Orientation) {
+        if (!(part in this._currentSelection.data.parts)) {
+            this._currentSelection.data.parts[part] = new CurrentSelectionPart();
+        }
+
+        this._currentSelection.data.parts[part].orientation = orientation;
+
+        this.currentSelection = this.currentSelection;
+    }
 }

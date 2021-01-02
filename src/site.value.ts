@@ -1,4 +1,4 @@
-import { FlagMetaData, SpriteFlagMetaData } from "./flags.data";
+import { FlagMetaData, FlagsConfig, SpriteFlagMetaData } from "./flags.data";
 
 export interface SiteValue {
     data: {
@@ -7,6 +7,7 @@ export interface SiteValue {
 
         flags: FlagMetaData[],
         sprites: SpriteFlagMetaData[],
+        flags_config: FlagsConfig;
 
         strings: any
     },

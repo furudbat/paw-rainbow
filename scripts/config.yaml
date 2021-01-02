@@ -3,6 +3,11 @@ transparent_colors:
   - '#ffff00'
 forms:
   - paw
+categories:
+  - 'pride'
+  - 'gender'
+  - 'relationship'
+  - 'romantic'
 paw:
   base_filename: './paw.png'
   outline: '#000000'

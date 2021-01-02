@@ -1,14 +1,16 @@
-import { ApplicationData, Theme } from './application.data'
+import { ApplicationData, CurrentSelectionPart, Theme } from './application.data'
 import { LoggerManager } from 'typescript-logger';
 import { Loader, Application as PixiApplication, LoaderResource } from 'pixi.js';
 import { site } from './site';
 import { SpritePawPartsAdapter } from './sprite.adapter';
+import { FormPartsAdapter } from './form-parts.adapter';
 
 export class Application {
 
     private _appData: ApplicationData = new ApplicationData();
-    private _pixiApp: PixiApplication = new PixiApplication();
+    private _pixiApp?: PixiApplication;
     private _loader: Loader = new Loader();
+    private _formPartsAdapter?: FormPartsAdapter;
     private _spriteAdapter?: SpritePawPartsAdapter;
 
     private log = LoggerManager.create('Application');
@@ -26,8 +28,14 @@ export class Application {
         this.initTheme();
         this.initSettings();
 
-        const paw_sprites = site.data.sprites.filter(it => it.form == 'pride_paws' || it.form == 'gender_paws');
-        this._spriteAdapter = new SpritePawPartsAdapter(this._pixiApp, paw_sprites);
+        this._formPartsAdapter = new FormPartsAdapter(this._appData);
+        this._formPartsAdapter?.init();
+        if (!this._formPartsAdapter?.current_form) {
+            this._formPartsAdapter?.setForm(site.data.flags_config.forms[0]);
+        } else {
+            this._formPartsAdapter.updateUI();
+        }
+
         this.initCanvas();
 
         this.initObservers();
@@ -72,6 +80,7 @@ export class Application {
 
     private initCanvas() {
         var that = this;
+        /*
         this._pixiApp = new PixiApplication({
             width: 520,
             height: 520,
@@ -80,6 +89,7 @@ export class Application {
             resizeTo: $('#spriteViewContainer')[0]
         });
         $('#spriteViewContainer').html(this._pixiApp.view);
+        */
 
         let sprite_sheet_filenames = site.data.sprites.map(it => it.sheet);
         sprite_sheet_filenames = sprite_sheet_filenames.filter((filename: string, index: number) => {
@@ -91,15 +101,16 @@ export class Application {
             that.loadProgressHandler();
         })
         this._loader.add(sprite_sheet_filenames).load(function (loader, resources) {
-            that.setupAdapters(loader, resources)
+            that.setupSpriteAdapters(loader, resources)
         });
     }
 
-    private setupAdapters(loader: Loader, resources: Partial<Record<string, LoaderResource>>) {
+    private setupSpriteAdapters(loader: Loader, resources: Partial<Record<string, LoaderResource>>) {
         this._spriteAdapter?.init(resources);
     }
 
     private loadProgressHandler() {
 
     }
+      
 }

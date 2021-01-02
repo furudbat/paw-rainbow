@@ -7,6 +7,9 @@
             "flag_filename": "assets/img/flags/none.png",
             "mask_key": "_horizontal_0",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_0.png",
+            "default": true,
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -35,6 +38,9 @@
             "flag_filename": "assets/img/flags/none.png",
             "mask_key": "_horizontal_1",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_1.png",
+            "default": true,
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -63,6 +69,9 @@
             "flag_filename": "assets/img/flags/none.png",
             "mask_key": "_horizontal_2",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_2.png",
+            "default": true,
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -91,6 +100,9 @@
             "flag_filename": "assets/img/flags/none.png",
             "mask_key": "_horizontal_3",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_3.png",
+            "default": true,
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -119,6 +131,9 @@
             "flag_filename": "assets/img/flags/none.png",
             "mask_key": "_horizontal_4",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_4.png",
+            "default": true,
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -147,6 +162,9 @@
             "flag_filename": "assets/img/flags/none.png",
             "mask_key": "_vertical_0",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png",
+            "default": true,
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -175,6 +193,9 @@
             "flag_filename": "assets/img/flags/none.png",
             "mask_key": "_vertical_1",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_1.png",
+            "default": true,
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -203,6 +224,9 @@
             "flag_filename": "assets/img/flags/none.png",
             "mask_key": "_vertical_2",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_2.png",
+            "default": true,
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -231,6 +255,9 @@
             "flag_filename": "assets/img/flags/none.png",
             "mask_key": "_vertical_3",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_3.png",
+            "default": true,
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -259,6 +286,9 @@
             "flag_filename": "assets/img/flags/none.png",
             "mask_key": "_vertical_4",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_4.png",
+            "default": true,
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -287,6 +317,9 @@
             "flag_filename": "assets/img/flags/mask.png",
             "mask_key": "_horizontal_0",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_0.png",
+            "mask": true,
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -315,6 +348,9 @@
             "flag_filename": "assets/img/flags/mask.png",
             "mask_key": "_horizontal_1",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_1.png",
+            "mask": true,
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -343,6 +379,9 @@
             "flag_filename": "assets/img/flags/mask.png",
             "mask_key": "_horizontal_2",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_2.png",
+            "mask": true,
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -371,6 +410,9 @@
             "flag_filename": "assets/img/flags/mask.png",
             "mask_key": "_horizontal_3",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_3.png",
+            "mask": true,
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -399,6 +441,9 @@
             "flag_filename": "assets/img/flags/mask.png",
             "mask_key": "_horizontal_4",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_4.png",
+            "mask": true,
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -427,6 +472,9 @@
             "flag_filename": "assets/img/flags/mask.png",
             "mask_key": "_vertical_0",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png",
+            "mask": true,
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -455,6 +503,9 @@
             "flag_filename": "assets/img/flags/mask.png",
             "mask_key": "_vertical_1",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_1.png",
+            "mask": true,
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -483,6 +534,9 @@
             "flag_filename": "assets/img/flags/mask.png",
             "mask_key": "_vertical_2",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_2.png",
+            "mask": true,
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -511,6 +565,9 @@
             "flag_filename": "assets/img/flags/mask.png",
             "mask_key": "_vertical_3",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_3.png",
+            "mask": true,
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -539,6 +596,9 @@
             "flag_filename": "assets/img/flags/mask.png",
             "mask_key": "_vertical_4",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_4.png",
+            "mask": true,
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -567,6 +627,8 @@
             "flag_filename": "assets/img/flags/lgbt_pride.png",
             "mask_key": "_horizontal_0",
             "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_0.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -595,6 +657,8 @@
             "flag_filename": "assets/img/flags/lgbt_pride.png",
             "mask_key": "_horizontal_1",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_1.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -623,6 +687,8 @@
             "flag_filename": "assets/img/flags/lgbt_pride.png",
             "mask_key": "_horizontal_2",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_2.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -651,6 +717,8 @@
             "flag_filename": "assets/img/flags/lgbt_pride.png",
             "mask_key": "_horizontal_3",
             "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_3.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -679,6 +747,8 @@
             "flag_filename": "assets/img/flags/lgbt_pride.png",
             "mask_key": "_horizontal_4",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_4.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -707,6 +777,8 @@
             "flag_filename": "assets/img/flags/lgbt_pride.png",
             "mask_key": "_vertical_0",
             "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -735,6 +807,8 @@
             "flag_filename": "assets/img/flags/lgbt_pride.png",
             "mask_key": "_vertical_1",
             "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_1.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -763,6 +837,8 @@
             "flag_filename": "assets/img/flags/lgbt_pride.png",
             "mask_key": "_vertical_2",
             "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_2.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -791,6 +867,8 @@
             "flag_filename": "assets/img/flags/lgbt_pride.png",
             "mask_key": "_vertical_3",
             "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_3.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -819,6 +897,8 @@
             "flag_filename": "assets/img/flags/lgbt_pride.png",
             "mask_key": "_vertical_4",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_4.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -847,6 +927,8 @@
             "flag_filename": "assets/img/flags/asexual.png",
             "mask_key": "_horizontal_0",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_0.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -875,6 +957,8 @@
             "flag_filename": "assets/img/flags/asexual.png",
             "mask_key": "_horizontal_1",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_1.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -903,6 +987,8 @@
             "flag_filename": "assets/img/flags/asexual.png",
             "mask_key": "_horizontal_2",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_2.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -931,6 +1017,8 @@
             "flag_filename": "assets/img/flags/asexual.png",
             "mask_key": "_horizontal_3",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_3.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -959,6 +1047,8 @@
             "flag_filename": "assets/img/flags/asexual.png",
             "mask_key": "_horizontal_4",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_4.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -988,6 +1078,7 @@
             "mask_key": "_vertical_0",
             "flags_fits": true,
             "flags_fits_perfect": true,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -1017,6 +1108,7 @@
             "mask_key": "_vertical_1",
             "flags_fits": true,
             "flags_fits_perfect": true,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_1.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -1046,6 +1138,7 @@
             "mask_key": "_vertical_2",
             "flags_fits": true,
             "flags_fits_perfect": true,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_2.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -1075,6 +1168,7 @@
             "mask_key": "_vertical_3",
             "flags_fits": true,
             "flags_fits_perfect": true,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_3.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -1103,6 +1197,8 @@
             "flag_filename": "assets/img/flags/asexual.png",
             "mask_key": "_vertical_4",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_4.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -1132,6 +1228,7 @@
             "mask_key": "_horizontal_0",
             "flags_fits": true,
             "flags_fits_perfect": true,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_0.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -1160,6 +1257,8 @@
             "flag_filename": "assets/img/flags/bisexual.png",
             "mask_key": "_horizontal_1",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_1.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -1188,6 +1287,8 @@
             "flag_filename": "assets/img/flags/bisexual.png",
             "mask_key": "_horizontal_2",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_2.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -1217,6 +1318,7 @@
             "mask_key": "_horizontal_3",
             "flags_fits": true,
             "flags_fits_perfect": true,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_3.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -1245,6 +1347,8 @@
             "flag_filename": "assets/img/flags/bisexual.png",
             "mask_key": "_horizontal_4",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_4.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -1273,6 +1377,8 @@
             "flag_filename": "assets/img/flags/bisexual.png",
             "mask_key": "_vertical_0",
             "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -1301,6 +1407,8 @@
             "flag_filename": "assets/img/flags/bisexual.png",
             "mask_key": "_vertical_1",
             "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_1.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -1329,6 +1437,8 @@
             "flag_filename": "assets/img/flags/bisexual.png",
             "mask_key": "_vertical_2",
             "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_2.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -1357,6 +1467,8 @@
             "flag_filename": "assets/img/flags/bisexual.png",
             "mask_key": "_vertical_3",
             "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_3.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -1385,6 +1497,8 @@
             "flag_filename": "assets/img/flags/bisexual.png",
             "mask_key": "_vertical_4",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_4.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -1413,6 +1527,8 @@
             "flag_filename": "assets/img/flags/pansexual.png",
             "mask_key": "_horizontal_0",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_0.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -1441,6 +1557,8 @@
             "flag_filename": "assets/img/flags/pansexual.png",
             "mask_key": "_horizontal_1",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_1.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -1469,6 +1587,8 @@
             "flag_filename": "assets/img/flags/pansexual.png",
             "mask_key": "_horizontal_2",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_2.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -1497,6 +1617,8 @@
             "flag_filename": "assets/img/flags/pansexual.png",
             "mask_key": "_horizontal_3",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_3.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -1525,6 +1647,8 @@
             "flag_filename": "assets/img/flags/pansexual.png",
             "mask_key": "_horizontal_4",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_4.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -1553,6 +1677,8 @@
             "flag_filename": "assets/img/flags/pansexual.png",
             "mask_key": "_vertical_0",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -1581,6 +1707,8 @@
             "flag_filename": "assets/img/flags/pansexual.png",
             "mask_key": "_vertical_1",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_1.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -1609,6 +1737,8 @@
             "flag_filename": "assets/img/flags/pansexual.png",
             "mask_key": "_vertical_2",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_2.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -1637,6 +1767,8 @@
             "flag_filename": "assets/img/flags/pansexual.png",
             "mask_key": "_vertical_3",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_3.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -1665,6 +1797,8 @@
             "flag_filename": "assets/img/flags/pansexual.png",
             "mask_key": "_vertical_4",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_4.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -1693,6 +1827,8 @@
             "flag_filename": "assets/img/flags/sapphic.png",
             "mask_key": "_horizontal_0",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_0.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -1721,6 +1857,8 @@
             "flag_filename": "assets/img/flags/sapphic.png",
             "mask_key": "_horizontal_1",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_1.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -1749,6 +1887,8 @@
             "flag_filename": "assets/img/flags/sapphic.png",
             "mask_key": "_horizontal_2",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_2.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -1777,6 +1917,8 @@
             "flag_filename": "assets/img/flags/sapphic.png",
             "mask_key": "_horizontal_3",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_3.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -1805,6 +1947,8 @@
             "flag_filename": "assets/img/flags/sapphic.png",
             "mask_key": "_horizontal_4",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_4.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -1833,6 +1977,8 @@
             "flag_filename": "assets/img/flags/sapphic.png",
             "mask_key": "_vertical_0",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -1861,6 +2007,8 @@
             "flag_filename": "assets/img/flags/sapphic.png",
             "mask_key": "_vertical_1",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_1.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -1889,6 +2037,8 @@
             "flag_filename": "assets/img/flags/sapphic.png",
             "mask_key": "_vertical_2",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_2.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -1917,6 +2067,8 @@
             "flag_filename": "assets/img/flags/sapphic.png",
             "mask_key": "_vertical_3",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_3.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -1945,6 +2097,8 @@
             "flag_filename": "assets/img/flags/sapphic.png",
             "mask_key": "_vertical_4",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_4.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -1973,6 +2127,8 @@
             "flag_filename": "assets/img/flags/pluralian.png",
             "mask_key": "_horizontal_0",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_0.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -2001,6 +2157,8 @@
             "flag_filename": "assets/img/flags/pluralian.png",
             "mask_key": "_horizontal_1",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_1.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -2029,6 +2187,8 @@
             "flag_filename": "assets/img/flags/pluralian.png",
             "mask_key": "_horizontal_2",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_2.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -2057,6 +2217,8 @@
             "flag_filename": "assets/img/flags/pluralian.png",
             "mask_key": "_horizontal_3",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_3.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -2085,6 +2247,8 @@
             "flag_filename": "assets/img/flags/pluralian.png",
             "mask_key": "_horizontal_4",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_4.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -2113,6 +2277,8 @@
             "flag_filename": "assets/img/flags/pluralian.png",
             "mask_key": "_vertical_0",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -2141,6 +2307,8 @@
             "flag_filename": "assets/img/flags/pluralian.png",
             "mask_key": "_vertical_1",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_1.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -2169,6 +2337,8 @@
             "flag_filename": "assets/img/flags/pluralian.png",
             "mask_key": "_vertical_2",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_2.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -2197,6 +2367,8 @@
             "flag_filename": "assets/img/flags/pluralian.png",
             "mask_key": "_vertical_3",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_3.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -2225,6 +2397,8 @@
             "flag_filename": "assets/img/flags/pluralian.png",
             "mask_key": "_vertical_4",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_4.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -2254,6 +2428,7 @@
             "mask_key": "_horizontal_0",
             "flags_fits": true,
             "flags_fits_perfect": true,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_0.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -2282,6 +2457,8 @@
             "flag_filename": "assets/img/flags/lesbian.png",
             "mask_key": "_horizontal_1",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_1.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -2310,6 +2487,8 @@
             "flag_filename": "assets/img/flags/lesbian.png",
             "mask_key": "_horizontal_2",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_2.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -2339,6 +2518,7 @@
             "mask_key": "_horizontal_3",
             "flags_fits": true,
             "flags_fits_perfect": true,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_3.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -2367,6 +2547,8 @@
             "flag_filename": "assets/img/flags/lesbian.png",
             "mask_key": "_horizontal_4",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_4.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -2395,6 +2577,8 @@
             "flag_filename": "assets/img/flags/lesbian.png",
             "mask_key": "_vertical_0",
             "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -2423,6 +2607,8 @@
             "flag_filename": "assets/img/flags/lesbian.png",
             "mask_key": "_vertical_1",
             "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_1.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -2451,6 +2637,8 @@
             "flag_filename": "assets/img/flags/lesbian.png",
             "mask_key": "_vertical_2",
             "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_2.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -2479,6 +2667,8 @@
             "flag_filename": "assets/img/flags/lesbian.png",
             "mask_key": "_vertical_3",
             "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_3.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -2507,6 +2697,8 @@
             "flag_filename": "assets/img/flags/lesbian.png",
             "mask_key": "_vertical_4",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_4.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -2535,6 +2727,8 @@
             "flag_filename": "assets/img/flags/gay_men.png",
             "mask_key": "_horizontal_0",
             "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_0.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -2563,6 +2757,8 @@
             "flag_filename": "assets/img/flags/gay_men.png",
             "mask_key": "_horizontal_1",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_1.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -2591,6 +2787,8 @@
             "flag_filename": "assets/img/flags/gay_men.png",
             "mask_key": "_horizontal_2",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_2.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -2619,6 +2817,8 @@
             "flag_filename": "assets/img/flags/gay_men.png",
             "mask_key": "_horizontal_3",
             "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_3.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -2648,6 +2848,7 @@
             "mask_key": "_horizontal_4",
             "flags_fits": true,
             "flags_fits_perfect": true,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_4.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -2676,6 +2877,8 @@
             "flag_filename": "assets/img/flags/gay_men.png",
             "mask_key": "_vertical_0",
             "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -2704,6 +2907,8 @@
             "flag_filename": "assets/img/flags/gay_men.png",
             "mask_key": "_vertical_1",
             "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_1.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -2732,6 +2937,8 @@
             "flag_filename": "assets/img/flags/gay_men.png",
             "mask_key": "_vertical_2",
             "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_2.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -2760,6 +2967,8 @@
             "flag_filename": "assets/img/flags/gay_men.png",
             "mask_key": "_vertical_3",
             "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_3.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -2788,6 +2997,8 @@
             "flag_filename": "assets/img/flags/gay_men.png",
             "mask_key": "_vertical_4",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_4.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -2816,6 +3027,8 @@
             "flag_filename": "assets/img/flags/progress.png",
             "mask_key": "_horizontal_0",
             "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_0.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -2843,7 +3056,9 @@
             "orientation": "horizontal",
             "flag_filename": "assets/img/flags/progress.png",
             "mask_key": "_horizontal_1",
-            "flags_fits": true,
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_1.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -2871,7 +3086,9 @@
             "orientation": "horizontal",
             "flag_filename": "assets/img/flags/progress.png",
             "mask_key": "_horizontal_2",
-            "flags_fits": true,
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_2.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -2900,6 +3117,8 @@
             "flag_filename": "assets/img/flags/progress.png",
             "mask_key": "_horizontal_3",
             "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_3.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -2927,7 +3146,9 @@
             "orientation": "horizontal",
             "flag_filename": "assets/img/flags/progress.png",
             "mask_key": "_horizontal_4",
-            "flags_fits": true,
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_4.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -2956,6 +3177,8 @@
             "flag_filename": "assets/img/flags/progress.png",
             "mask_key": "_vertical_0",
             "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -2984,6 +3207,8 @@
             "flag_filename": "assets/img/flags/progress.png",
             "mask_key": "_vertical_1",
             "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_1.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -3012,6 +3237,8 @@
             "flag_filename": "assets/img/flags/progress.png",
             "mask_key": "_vertical_2",
             "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_2.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -3040,6 +3267,8 @@
             "flag_filename": "assets/img/flags/progress.png",
             "mask_key": "_vertical_3",
             "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_3.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -3068,6 +3297,8 @@
             "flag_filename": "assets/img/flags/progress.png",
             "mask_key": "_vertical_4",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_4.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -3095,7 +3326,9 @@
             "orientation": "horizontal",
             "flag_filename": "assets/img/flags/demisexual.png",
             "mask_key": "_horizontal_0",
-            "flags_fits": true,
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_0.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -3123,7 +3356,9 @@
             "orientation": "horizontal",
             "flag_filename": "assets/img/flags/demisexual.png",
             "mask_key": "_horizontal_1",
-            "flags_fits": true,
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_1.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -3151,7 +3386,9 @@
             "orientation": "horizontal",
             "flag_filename": "assets/img/flags/demisexual.png",
             "mask_key": "_horizontal_2",
-            "flags_fits": true,
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_2.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -3179,7 +3416,9 @@
             "orientation": "horizontal",
             "flag_filename": "assets/img/flags/demisexual.png",
             "mask_key": "_horizontal_3",
-            "flags_fits": true,
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_3.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -3207,7 +3446,9 @@
             "orientation": "horizontal",
             "flag_filename": "assets/img/flags/demisexual.png",
             "mask_key": "_horizontal_4",
-            "flags_fits": true,
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_4.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -3235,7 +3476,9 @@
             "orientation": "vertical",
             "flag_filename": "assets/img/flags/demisexual.png",
             "mask_key": "_vertical_0",
-            "flags_fits": true,
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -3263,7 +3506,9 @@
             "orientation": "vertical",
             "flag_filename": "assets/img/flags/demisexual.png",
             "mask_key": "_vertical_1",
-            "flags_fits": true,
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_1.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -3291,7 +3536,9 @@
             "orientation": "vertical",
             "flag_filename": "assets/img/flags/demisexual.png",
             "mask_key": "_vertical_2",
-            "flags_fits": true,
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_2.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -3319,7 +3566,9 @@
             "orientation": "vertical",
             "flag_filename": "assets/img/flags/demisexual.png",
             "mask_key": "_vertical_3",
-            "flags_fits": true,
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_3.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -3348,6 +3597,8 @@
             "flag_filename": "assets/img/flags/demisexual.png",
             "mask_key": "_vertical_4",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_4.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -3376,6 +3627,8 @@
             "flag_filename": "assets/img/flags/achillean.png",
             "mask_key": "_horizontal_0",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_0.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -3404,6 +3657,8 @@
             "flag_filename": "assets/img/flags/achillean.png",
             "mask_key": "_horizontal_1",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_1.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -3432,6 +3687,8 @@
             "flag_filename": "assets/img/flags/achillean.png",
             "mask_key": "_horizontal_2",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_2.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -3460,6 +3717,8 @@
             "flag_filename": "assets/img/flags/achillean.png",
             "mask_key": "_horizontal_3",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_3.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -3488,6 +3747,8 @@
             "flag_filename": "assets/img/flags/achillean.png",
             "mask_key": "_horizontal_4",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_4.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -3516,6 +3777,8 @@
             "flag_filename": "assets/img/flags/achillean.png",
             "mask_key": "_vertical_0",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -3544,6 +3807,8 @@
             "flag_filename": "assets/img/flags/achillean.png",
             "mask_key": "_vertical_1",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_1.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -3572,6 +3837,8 @@
             "flag_filename": "assets/img/flags/achillean.png",
             "mask_key": "_vertical_2",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_2.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -3600,6 +3867,8 @@
             "flag_filename": "assets/img/flags/achillean.png",
             "mask_key": "_vertical_3",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_3.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -3628,6 +3897,8 @@
             "flag_filename": "assets/img/flags/achillean.png",
             "mask_key": "_vertical_4",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_4.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -3656,6 +3927,8 @@
             "flag_filename": "assets/img/flags/androphillia.png",
             "mask_key": "_horizontal_0",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_0.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -3684,6 +3957,8 @@
             "flag_filename": "assets/img/flags/androphillia.png",
             "mask_key": "_horizontal_1",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_1.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -3712,6 +3987,8 @@
             "flag_filename": "assets/img/flags/androphillia.png",
             "mask_key": "_horizontal_2",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_2.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -3740,6 +4017,8 @@
             "flag_filename": "assets/img/flags/androphillia.png",
             "mask_key": "_horizontal_3",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_3.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -3768,6 +4047,8 @@
             "flag_filename": "assets/img/flags/androphillia.png",
             "mask_key": "_horizontal_4",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_4.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -3797,6 +4078,7 @@
             "mask_key": "_vertical_0",
             "flags_fits": true,
             "flags_fits_perfect": true,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -3826,6 +4108,7 @@
             "mask_key": "_vertical_1",
             "flags_fits": true,
             "flags_fits_perfect": true,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_1.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -3855,6 +4138,7 @@
             "mask_key": "_vertical_2",
             "flags_fits": true,
             "flags_fits_perfect": true,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_2.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -3884,6 +4168,7 @@
             "mask_key": "_vertical_3",
             "flags_fits": true,
             "flags_fits_perfect": true,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_3.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -3912,6 +4197,8 @@
             "flag_filename": "assets/img/flags/androphillia.png",
             "mask_key": "_vertical_4",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_4.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -3940,6 +4227,8 @@
             "flag_filename": "assets/img/flags/gynephilia.png",
             "mask_key": "_horizontal_0",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_0.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -3968,6 +4257,8 @@
             "flag_filename": "assets/img/flags/gynephilia.png",
             "mask_key": "_horizontal_1",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_1.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -3996,6 +4287,8 @@
             "flag_filename": "assets/img/flags/gynephilia.png",
             "mask_key": "_horizontal_2",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_2.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -4024,6 +4317,8 @@
             "flag_filename": "assets/img/flags/gynephilia.png",
             "mask_key": "_horizontal_3",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_3.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -4052,6 +4347,8 @@
             "flag_filename": "assets/img/flags/gynephilia.png",
             "mask_key": "_horizontal_4",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_4.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -4081,6 +4378,7 @@
             "mask_key": "_vertical_0",
             "flags_fits": true,
             "flags_fits_perfect": true,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -4110,6 +4408,7 @@
             "mask_key": "_vertical_1",
             "flags_fits": true,
             "flags_fits_perfect": true,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_1.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -4139,6 +4438,7 @@
             "mask_key": "_vertical_2",
             "flags_fits": true,
             "flags_fits_perfect": true,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_2.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -4168,6 +4468,7 @@
             "mask_key": "_vertical_3",
             "flags_fits": true,
             "flags_fits_perfect": true,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_3.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -4196,6 +4497,8 @@
             "flag_filename": "assets/img/flags/gynephilia.png",
             "mask_key": "_vertical_4",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_4.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -4224,6 +4527,8 @@
             "flag_filename": "assets/img/flags/polysexual.png",
             "mask_key": "_horizontal_0",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_0.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -4252,6 +4557,8 @@
             "flag_filename": "assets/img/flags/polysexual.png",
             "mask_key": "_horizontal_1",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_1.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -4280,6 +4587,8 @@
             "flag_filename": "assets/img/flags/polysexual.png",
             "mask_key": "_horizontal_2",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_2.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -4308,6 +4617,8 @@
             "flag_filename": "assets/img/flags/polysexual.png",
             "mask_key": "_horizontal_3",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_3.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -4336,6 +4647,8 @@
             "flag_filename": "assets/img/flags/polysexual.png",
             "mask_key": "_horizontal_4",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_4.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -4364,6 +4677,8 @@
             "flag_filename": "assets/img/flags/polysexual.png",
             "mask_key": "_vertical_0",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -4392,6 +4707,8 @@
             "flag_filename": "assets/img/flags/polysexual.png",
             "mask_key": "_vertical_1",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_1.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -4420,6 +4737,8 @@
             "flag_filename": "assets/img/flags/polysexual.png",
             "mask_key": "_vertical_2",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_2.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -4448,6 +4767,8 @@
             "flag_filename": "assets/img/flags/polysexual.png",
             "mask_key": "_vertical_3",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_3.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -4476,6 +4797,8 @@
             "flag_filename": "assets/img/flags/polysexual.png",
             "mask_key": "_vertical_4",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_4.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -4505,6 +4828,7 @@
             "mask_key": "_horizontal_0",
             "flags_fits": true,
             "flags_fits_perfect": true,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_0.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -4533,6 +4857,8 @@
             "flag_filename": "assets/img/flags/omni.png",
             "mask_key": "_horizontal_1",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_1.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -4561,6 +4887,8 @@
             "flag_filename": "assets/img/flags/omni.png",
             "mask_key": "_horizontal_2",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_2.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -4590,6 +4918,7 @@
             "mask_key": "_horizontal_3",
             "flags_fits": true,
             "flags_fits_perfect": true,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_3.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -4618,6 +4947,8 @@
             "flag_filename": "assets/img/flags/omni.png",
             "mask_key": "_horizontal_4",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_4.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -4646,6 +4977,8 @@
             "flag_filename": "assets/img/flags/omni.png",
             "mask_key": "_vertical_0",
             "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -4674,6 +5007,8 @@
             "flag_filename": "assets/img/flags/omni.png",
             "mask_key": "_vertical_1",
             "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_1.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -4702,6 +5037,8 @@
             "flag_filename": "assets/img/flags/omni.png",
             "mask_key": "_vertical_2",
             "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_2.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -4730,6 +5067,8 @@
             "flag_filename": "assets/img/flags/omni.png",
             "mask_key": "_vertical_3",
             "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_3.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -4758,6 +5097,8 @@
             "flag_filename": "assets/img/flags/omni.png",
             "mask_key": "_vertical_4",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_4.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -4786,6 +5127,8 @@
             "flag_filename": "assets/img/flags/queer.png",
             "mask_key": "_horizontal_0",
             "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_0.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -4814,6 +5157,8 @@
             "flag_filename": "assets/img/flags/queer.png",
             "mask_key": "_horizontal_1",
             "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_1.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -4842,6 +5187,8 @@
             "flag_filename": "assets/img/flags/queer.png",
             "mask_key": "_horizontal_2",
             "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_2.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -4870,6 +5217,8 @@
             "flag_filename": "assets/img/flags/queer.png",
             "mask_key": "_horizontal_3",
             "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_3.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -4898,6 +5247,8 @@
             "flag_filename": "assets/img/flags/queer.png",
             "mask_key": "_horizontal_4",
             "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_4.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -4926,6 +5277,8 @@
             "flag_filename": "assets/img/flags/queer.png",
             "mask_key": "_vertical_0",
             "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -4954,6 +5307,8 @@
             "flag_filename": "assets/img/flags/queer.png",
             "mask_key": "_vertical_1",
             "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_1.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -4982,6 +5337,8 @@
             "flag_filename": "assets/img/flags/queer.png",
             "mask_key": "_vertical_2",
             "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_2.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -5010,6 +5367,8 @@
             "flag_filename": "assets/img/flags/queer.png",
             "mask_key": "_vertical_3",
             "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_3.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -5038,6 +5397,8 @@
             "flag_filename": "assets/img/flags/queer.png",
             "mask_key": "_vertical_4",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_4.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -5066,6 +5427,8 @@
             "flag_filename": "assets/img/flags/questioning.png",
             "mask_key": "_horizontal_0",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_0.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -5094,6 +5457,8 @@
             "flag_filename": "assets/img/flags/questioning.png",
             "mask_key": "_horizontal_1",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_1.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -5122,6 +5487,8 @@
             "flag_filename": "assets/img/flags/questioning.png",
             "mask_key": "_horizontal_2",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_2.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -5150,6 +5517,8 @@
             "flag_filename": "assets/img/flags/questioning.png",
             "mask_key": "_horizontal_3",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_3.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -5178,6 +5547,8 @@
             "flag_filename": "assets/img/flags/questioning.png",
             "mask_key": "_horizontal_4",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_4.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -5207,6 +5578,7 @@
             "mask_key": "_vertical_0",
             "flags_fits": true,
             "flags_fits_perfect": true,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -5236,6 +5608,7 @@
             "mask_key": "_vertical_1",
             "flags_fits": true,
             "flags_fits_perfect": true,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_1.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -5265,6 +5638,7 @@
             "mask_key": "_vertical_2",
             "flags_fits": true,
             "flags_fits_perfect": true,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_2.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -5294,6 +5668,7 @@
             "mask_key": "_vertical_3",
             "flags_fits": true,
             "flags_fits_perfect": true,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_3.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -5322,6 +5697,8 @@
             "flag_filename": "assets/img/flags/questioning.png",
             "mask_key": "_vertical_4",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_4.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -5350,6 +5727,8 @@
             "flag_filename": "assets/img/flags/diamoric.png",
             "mask_key": "_horizontal_0",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_0.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -5378,6 +5757,8 @@
             "flag_filename": "assets/img/flags/diamoric.png",
             "mask_key": "_horizontal_1",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_1.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -5406,6 +5787,8 @@
             "flag_filename": "assets/img/flags/diamoric.png",
             "mask_key": "_horizontal_2",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_2.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -5434,6 +5817,8 @@
             "flag_filename": "assets/img/flags/diamoric.png",
             "mask_key": "_horizontal_3",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_3.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -5462,6 +5847,8 @@
             "flag_filename": "assets/img/flags/diamoric.png",
             "mask_key": "_horizontal_4",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_4.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -5490,6 +5877,8 @@
             "flag_filename": "assets/img/flags/diamoric.png",
             "mask_key": "_vertical_0",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -5518,6 +5907,8 @@
             "flag_filename": "assets/img/flags/diamoric.png",
             "mask_key": "_vertical_1",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_1.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -5546,6 +5937,8 @@
             "flag_filename": "assets/img/flags/diamoric.png",
             "mask_key": "_vertical_2",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_2.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -5574,6 +5967,8 @@
             "flag_filename": "assets/img/flags/diamoric.png",
             "mask_key": "_vertical_3",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_3.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -5602,6 +5997,8 @@
             "flag_filename": "assets/img/flags/diamoric.png",
             "mask_key": "_vertical_4",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_4.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -5631,6 +6028,7 @@
             "mask_key": "_horizontal_0",
             "flags_fits": true,
             "flags_fits_perfect": true,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_0.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -5659,6 +6057,8 @@
             "flag_filename": "assets/img/flags/greysexual.png",
             "mask_key": "_horizontal_1",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_1.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -5687,6 +6087,8 @@
             "flag_filename": "assets/img/flags/greysexual.png",
             "mask_key": "_horizontal_2",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_2.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -5716,6 +6118,7 @@
             "mask_key": "_horizontal_3",
             "flags_fits": true,
             "flags_fits_perfect": true,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_3.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -5744,6 +6147,8 @@
             "flag_filename": "assets/img/flags/greysexual.png",
             "mask_key": "_horizontal_4",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_4.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -5772,6 +6177,8 @@
             "flag_filename": "assets/img/flags/greysexual.png",
             "mask_key": "_vertical_0",
             "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -5800,6 +6207,8 @@
             "flag_filename": "assets/img/flags/greysexual.png",
             "mask_key": "_vertical_1",
             "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_1.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -5828,6 +6237,8 @@
             "flag_filename": "assets/img/flags/greysexual.png",
             "mask_key": "_vertical_2",
             "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_2.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -5856,6 +6267,8 @@
             "flag_filename": "assets/img/flags/greysexual.png",
             "mask_key": "_vertical_3",
             "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_3.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -5884,6 +6297,8 @@
             "flag_filename": "assets/img/flags/greysexual.png",
             "mask_key": "_vertical_4",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_4.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -5912,6 +6327,8 @@
             "flag_filename": "assets/img/flags/autosexual.png",
             "mask_key": "_horizontal_0",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_0.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -5940,6 +6357,8 @@
             "flag_filename": "assets/img/flags/autosexual.png",
             "mask_key": "_horizontal_1",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_1.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -5968,6 +6387,8 @@
             "flag_filename": "assets/img/flags/autosexual.png",
             "mask_key": "_horizontal_2",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_2.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -5996,6 +6417,8 @@
             "flag_filename": "assets/img/flags/autosexual.png",
             "mask_key": "_horizontal_3",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_3.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -6024,6 +6447,8 @@
             "flag_filename": "assets/img/flags/autosexual.png",
             "mask_key": "_horizontal_4",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_4.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -6052,6 +6477,8 @@
             "flag_filename": "assets/img/flags/autosexual.png",
             "mask_key": "_vertical_0",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -6080,6 +6507,8 @@
             "flag_filename": "assets/img/flags/autosexual.png",
             "mask_key": "_vertical_1",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_1.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -6108,6 +6537,8 @@
             "flag_filename": "assets/img/flags/autosexual.png",
             "mask_key": "_vertical_2",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_2.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -6136,6 +6567,8 @@
             "flag_filename": "assets/img/flags/autosexual.png",
             "mask_key": "_vertical_3",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_3.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -6164,6 +6597,8 @@
             "flag_filename": "assets/img/flags/autosexual.png",
             "mask_key": "_vertical_4",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_4.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -6192,6 +6627,8 @@
             "flag_filename": "assets/img/flags/androsexual.png",
             "mask_key": "_horizontal_0",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_0.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -6220,6 +6657,8 @@
             "flag_filename": "assets/img/flags/androsexual.png",
             "mask_key": "_horizontal_1",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_1.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -6248,6 +6687,8 @@
             "flag_filename": "assets/img/flags/androsexual.png",
             "mask_key": "_horizontal_2",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_2.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -6276,6 +6717,8 @@
             "flag_filename": "assets/img/flags/androsexual.png",
             "mask_key": "_horizontal_3",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_3.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -6304,6 +6747,8 @@
             "flag_filename": "assets/img/flags/androsexual.png",
             "mask_key": "_horizontal_4",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_4.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -6332,6 +6777,8 @@
             "flag_filename": "assets/img/flags/androsexual.png",
             "mask_key": "_vertical_0",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -6360,6 +6807,8 @@
             "flag_filename": "assets/img/flags/androsexual.png",
             "mask_key": "_vertical_1",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_1.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -6388,6 +6837,8 @@
             "flag_filename": "assets/img/flags/androsexual.png",
             "mask_key": "_vertical_2",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_2.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -6416,6 +6867,8 @@
             "flag_filename": "assets/img/flags/androsexual.png",
             "mask_key": "_vertical_3",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_3.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -6444,6 +6897,8 @@
             "flag_filename": "assets/img/flags/androsexual.png",
             "mask_key": "_vertical_4",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_4.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -6472,6 +6927,8 @@
             "flag_filename": "assets/img/flags/myrsexual.png",
             "mask_key": "_horizontal_0",
             "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_0.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -6500,6 +6957,8 @@
             "flag_filename": "assets/img/flags/myrsexual.png",
             "mask_key": "_horizontal_1",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_1.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -6528,6 +6987,8 @@
             "flag_filename": "assets/img/flags/myrsexual.png",
             "mask_key": "_horizontal_2",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_2.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -6556,6 +7017,8 @@
             "flag_filename": "assets/img/flags/myrsexual.png",
             "mask_key": "_horizontal_3",
             "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_3.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -6585,6 +7048,7 @@
             "mask_key": "_horizontal_4",
             "flags_fits": true,
             "flags_fits_perfect": true,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_4.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -6613,6 +7077,8 @@
             "flag_filename": "assets/img/flags/myrsexual.png",
             "mask_key": "_vertical_0",
             "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -6641,6 +7107,8 @@
             "flag_filename": "assets/img/flags/myrsexual.png",
             "mask_key": "_vertical_1",
             "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_1.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -6669,6 +7137,8 @@
             "flag_filename": "assets/img/flags/myrsexual.png",
             "mask_key": "_vertical_2",
             "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_2.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -6697,6 +7167,8 @@
             "flag_filename": "assets/img/flags/myrsexual.png",
             "mask_key": "_vertical_3",
             "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_3.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -6725,6 +7197,8 @@
             "flag_filename": "assets/img/flags/myrsexual.png",
             "mask_key": "_vertical_4",
             "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_4.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
