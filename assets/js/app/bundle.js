@@ -45808,6 +45808,7 @@ var application_data_1 = require("./application.data");
 var typescript_logger_1 = require("typescript-logger");
 var pixi_js_1 = require("pixi.js");
 var site_1 = require("./site");
+var sprite_adapter_1 = require("./sprite.adapter");
 var form_parts_adapter_1 = require("./form-parts.adapter");
 var Application = (function () {
     function Application() {
@@ -45879,9 +45880,28 @@ var Application = (function () {
         });
     };
     Application.prototype.initObservers = function () {
+        var that = this;
+        this._appData.currentSelectionObservable.attach(new (function () {
+            function class_1() {
+            }
+            class_1.prototype.update = function (subject) {
+                var _a;
+                (_a = that._spriteAdapter) === null || _a === void 0 ? void 0 : _a.updateParts();
+            };
+            return class_1;
+        }()));
     };
     Application.prototype.initCanvas = function () {
         var that = this;
+        this._pixiApp = new pixi_js_1.Application({
+            width: 520,
+            height: 520,
+            antialias: false,
+            transparent: true,
+            resizeTo: $('#spriteViewContainer')[0]
+        });
+        $('#spriteViewContainer').html(this._pixiApp.view);
+        this._spriteAdapter = new sprite_adapter_1.SpriteAdapter(this._pixiApp, this._appData);
         var sprite_sheet_filenames = site_1.site.data.sprites.map(function (it) { return it.sheet; });
         sprite_sheet_filenames = sprite_sheet_filenames.filter(function (filename, index) {
             return sprite_sheet_filenames.indexOf(filename) === index;
@@ -45896,6 +45916,7 @@ var Application = (function () {
     };
     Application.prototype.setupSpriteAdapters = function (loader, resources) {
         var _a;
+        this.log.debug('setupSpriteAdapters', loader, resources);
         (_a = this._spriteAdapter) === null || _a === void 0 ? void 0 : _a.init(resources);
     };
     Application.prototype.loadProgressHandler = function () {
@@ -45904,7 +45925,7 @@ var Application = (function () {
 }());
 exports.Application = Application;
 
-},{"./application.data":60,"./form-parts.adapter":63,"./site":66,"pixi.js":45,"typescript-logger":54}],62:[function(require,module,exports){
+},{"./application.data":60,"./form-parts.adapter":63,"./site":66,"./sprite.adapter":67,"pixi.js":45,"typescript-logger":54}],62:[function(require,module,exports){
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.Orientation = void 0;
@@ -45931,17 +45952,10 @@ var FormPartsAdapter = (function () {
         this.initObservers();
     };
     FormPartsAdapter.prototype.initObservers = function () {
-        var that = this;
-        this._appData.currentSelectionObservable.attach(new (function () {
-            function class_1() {
-            }
-            class_1.prototype.update = function (subject) {
-            };
-            return class_1;
-        }()));
     };
     FormPartsAdapter.prototype.setForm = function (form) {
         this._appData.currentSelection.form = form;
+        this._appData.currentSelection.parts = {};
         this.log.debug('setForm', form, this._appData.currentSelection.parts);
         for (var _i = 0, _a = this.parts_list; _i < _a.length; _i++) {
             var part = _a[_i];
@@ -46053,7 +46067,7 @@ var FormPartsAdapter = (function () {
             selects += "<option class=\"select-part\" value=\"" + selectable_flag_name + "\" data-form=\"" + form + "\" data-part=\"" + part + "\" " + selected + ">\n                " + selectable_flag_name + "\n            </option>\n";
         }
         var icon_filename = site_1.site.data.base_url + (selected_part === null || selected_part === void 0 ? void 0 : selected_part.flag_filename);
-        return "<div class=\"form-group\">\n            <label for=\"" + lstId + "\" class=\"select-part-label\">" + part_name + "</label>\n            <div class=\"input-group\">\n                <div class=\"input-group-prepend text-center\">\n                    <img src=\"" + icon_filename + "\" class=\"img-fluid clickable-flag select-part-icon flag-item-icon\" data-form=\"" + form + "\" data-part=\"" + part + "\" data-flag-name=\"" + (selected_part === null || selected_part === void 0 ? void 0 : selected_part.flag_name) + "\" alt=\"Selected Icon " + (selected_part === null || selected_part === void 0 ? void 0 : selected_part.flag_name) + "\">\n                </div>\n                <select id=\"" + lstId + "Filter\" class=\"custom-select select-part-filter\" data-form=\"" + form + "\" data-part=\"" + part + "\" data-list-id=\"" + lstId + "\">\n                    " + filters + "\n                </select>\n                <select id=\"" + lstId + "\" class=\"custom-select select-part\" data-form=\"" + form + "\" data-part=\"" + part + "\" data-list-id=\"" + lstId + "\">\n                    " + selects + "\n                </select>\n                <div class=\"input-group-append\">\n                    <button class=\"btn " + select_orientation_vertical_class + " select-part-orientation select-part-orientation-vertical\" type=\"button\" data-form=\"" + form + "\" data-part=\"" + part + "\" data-orientation=\"" + flags_data_1.Orientation.Vertical + "\" data-list-id=\"" + lstId + "\" id=\"" + btnSelectOrientationVerticalId + "\" " + select_orientation_vertical_disabled + ">\n                        <i class=\"fas fa-bars\"></i>\n                        <span class=\"sr-only\">Select Vertical</span>\n                    </button>\n                    <button class=\"btn " + select_orientation_horizontal_class + " select-part-orientation select-part-orientation-horizontal\" type=\"button\" data-form=\"" + form + "\" data-part=\"" + part + "\" data-orientation=\"" + flags_data_1.Orientation.Horizontal + "\" data-list-id=\"" + lstId + "\" id=\"" + btnSelectOrientationHorizontalId + "\" " + select_orientation_horizontal_disabled + ">\n                        <i class=\"fas fa-bars\" data-fa-transform=\"rotate-90\"></i>\n                        <span class=\"sr-only\">Select Horizontal</span>\n                    </button>\n                </div>\n            </div>\n        </div>";
+        return "<div class=\"form-group\">\n            <label for=\"" + lstId + "\" class=\"select-part-label\">" + part_name + "</label>\n            <div class=\"input-group\">\n                <div class=\"input-group-prepend text-center\">\n                    <img src=\"" + icon_filename + "\" class=\"img-fluid clickable-flag select-part-icon flag-item-icon\" data-form=\"" + form + "\" data-part=\"" + part + "\" data-flag-name=\"" + (selected_part === null || selected_part === void 0 ? void 0 : selected_part.flag_name) + "\" alt=\"Selected Icon " + (selected_part === null || selected_part === void 0 ? void 0 : selected_part.flag_name) + "\">\n                </div>\n                <select id=\"" + lstId + "Filter\" class=\"custom-select select-part-filter\" data-form=\"" + form + "\" data-part=\"" + part + "\" data-list-id=\"" + lstId + "\">\n                    " + filters + "\n                </select>\n                <select id=\"" + lstId + "\" class=\"custom-select select-part\" data-form=\"" + form + "\" data-part=\"" + part + "\" data-list-id=\"" + lstId + "\">\n                    " + selects + "\n                </select>\n                <div class=\"input-group-append\">\n                    <button class=\"btn " + select_orientation_vertical_class + " select-part-orientation select-part-orientation-vertical\" type=\"button\" data-form=\"" + form + "\" data-part=\"" + part + "\" data-orientation=\"" + flags_data_1.Orientation.Vertical + "\" data-list-id=\"" + lstId + "\" id=\"" + btnSelectOrientationVerticalId + "\" " + select_orientation_vertical_disabled + ">\n                        <i class=\"fas fa-bars\" data-fa-transform=\"rotate-90\"></i>\n                        <span class=\"sr-only\">Select Vertical</span>\n                    </button>\n                    <button class=\"btn " + select_orientation_horizontal_class + " select-part-orientation select-part-orientation-horizontal\" type=\"button\" data-form=\"" + form + "\" data-part=\"" + part + "\" data-orientation=\"" + flags_data_1.Orientation.Horizontal + "\" data-list-id=\"" + lstId + "\" id=\"" + btnSelectOrientationHorizontalId + "\" " + select_orientation_horizontal_disabled + ">\n                        <i class=\"fas fa-bars\"></i>\n                        <span class=\"sr-only\">Select Horizontal</span>\n                    </button>\n                </div>\n            </div>\n        </div>";
     };
     FormPartsAdapter.prototype.initEvents = function () {
         var that = this;
@@ -46423,5 +46437,92 @@ module.exports = {
     clamp: clamp
 };
 
-},{}]},{},[64])
+},{}],67:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.SpriteAdapter = void 0;
+var pixi_js_1 = require("pixi.js");
+var typescript_logger_1 = require("typescript-logger");
+var flags_data_1 = require("./flags.data");
+var site_1 = require("./site");
+var SpriteAdapter = (function () {
+    function SpriteAdapter(pixiApp, appData) {
+        this._sprites = {};
+        this._parts_container = new pixi_js_1.Container();
+        this.log = typescript_logger_1.LoggerManager.create('SpritePawPartsAdapter');
+        this._pixiApp = pixiApp;
+        this._appData = appData;
+    }
+    SpriteAdapter.prototype.init = function (resources) {
+        var _this = this;
+        this._resources = resources;
+        this.updateParts();
+        this._pixiApp.stage.addChild(this._parts_container);
+        this._pixiApp.ticker.add(function () {
+            _this._pixiApp.renderer.render(_this._parts_container);
+        });
+        var that = this;
+        window.addEventListener('resize', function () {
+            that.log.debug('resize');
+            that.updateSprite();
+        });
+    };
+    SpriteAdapter.prototype.updateParts = function () {
+        var _a, _b;
+        this._parts_container.removeChildren();
+        for (var part in this._appData.currentSelection.parts) {
+            this.setPart((_a = this._appData.currentSelection.parts[part].flag_name) !== null && _a !== void 0 ? _a : 'None', part, (_b = this._appData.currentSelection.parts[part].orientation) !== null && _b !== void 0 ? _b : flags_data_1.Orientation.Vertical, false);
+            this._parts_container.addChild(this._sprites[part]);
+        }
+        this.updateSprite();
+    };
+    SpriteAdapter.prototype.setPart = function (flag_name, part, orientation, update_sprite) {
+        if (update_sprite === void 0) { update_sprite = true; }
+        if (this._resources !== undefined) {
+            var sprite_data = site_1.site.data.sprites.find(function (it) { return it.flag_name == flag_name && it.part == part && it.orientation == orientation; });
+            if (sprite_data !== undefined) {
+                var ress = this._resources[sprite_data.sheet];
+                if (ress != undefined && ress.textures !== undefined) {
+                    var texture = ress.textures[sprite_data.id];
+                    if (!(part in this._sprites)) {
+                        this._sprites[part] = new pixi_js_1.Sprite(texture);
+                    }
+                    else {
+                        this._sprites[part].texture = texture;
+                    }
+                    this._sprites[part].texture.baseTexture.scaleMode = PIXI.SCALE_MODES.NEAREST;
+                    if (update_sprite) {
+                        this.updateSprite();
+                    }
+                    this._sprites[part].texture.baseTexture.update();
+                    this._sprites[part].texture.update();
+                    this.log.debug('setPart', flag_name + " " + part + " " + orientation, sprite_data, texture);
+                    return true;
+                }
+                else {
+                    this.log.warn('setPart', sprite_data.sheet + " not found or no textures", this._resources[sprite_data.sheet]);
+                }
+            }
+            else {
+                this.log.warn('setPart', flag_name + " " + part + " " + orientation + " not found in meta");
+            }
+        }
+        return false;
+    };
+    SpriteAdapter.prototype.updateSprite = function () {
+        var offset_x = (this._pixiApp.screen.width >= 32) ? 8 : 0;
+        var offset_y = (this._pixiApp.screen.height >= 32) ? 8 : 0;
+        var display_width = this._pixiApp.screen.width - offset_x;
+        var display_height = this._pixiApp.screen.height - offset_y;
+        this._parts_container.width = display_width;
+        this._parts_container.height = display_height;
+        this._parts_container.position.set(offset_x, offset_y);
+        this.log.debug('updateSprite: window', display_width, display_height);
+        this.log.debug('updateSprite: sprites', this._parts_container.x, this._parts_container.y, this._parts_container.width, this._parts_container.height, this._parts_container);
+    };
+    return SpriteAdapter;
+}());
+exports.SpriteAdapter = SpriteAdapter;
+
+},{"./flags.data":62,"./site":66,"pixi.js":45,"typescript-logger":54}]},{},[64])
 //# sourceMappingURL=bundle.js.map

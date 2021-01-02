@@ -1,9 +1,7 @@
-import { DataObserver, DataSubject } from './observer';
-import { ApplicationData, CurrentSelection, CurrentSelectionPart } from "./application.data";
+import { ApplicationData, CurrentSelectionPart } from "./application.data";
 import { Orientation } from "./flags.data";
 import { site } from "./site";
 import { LoggerManager } from 'typescript-logger';
-import { isRegExp } from 'util';
 
 export class FormPartsAdapter {
     private _appData: ApplicationData;
@@ -19,17 +17,12 @@ export class FormPartsAdapter {
     }
 
     private initObservers() {
-        var that = this;
-        this._appData.currentSelectionObservable.attach(new class implements DataObserver<CurrentSelection>{
-            update(subject: DataSubject<CurrentSelection>): void {
-                //that.updateUI();
-            }
-        });
     }
 
 
     public setForm(form: string) {
         this._appData.currentSelection.form = form;
+        this._appData.currentSelection.parts = {};
         this.log.debug('setForm', form, this._appData.currentSelection.parts);
         for (let part of this.parts_list) {
             if (this._appData.currentSelection.parts && !(part in this._appData.currentSelection.parts)) {
@@ -154,11 +147,11 @@ export class FormPartsAdapter {
                 </select>
                 <div class="input-group-append">
                     <button class="btn ${select_orientation_vertical_class} select-part-orientation select-part-orientation-vertical" type="button" data-form="${form}" data-part="${part}" data-orientation="${Orientation.Vertical}" data-list-id="${lstId}" id="${btnSelectOrientationVerticalId}" ${select_orientation_vertical_disabled}>
-                        <i class="fas fa-bars"></i>
+                        <i class="fas fa-bars" data-fa-transform="rotate-90"></i>
                         <span class="sr-only">Select Vertical</span>
                     </button>
                     <button class="btn ${select_orientation_horizontal_class} select-part-orientation select-part-orientation-horizontal" type="button" data-form="${form}" data-part="${part}" data-orientation="${Orientation.Horizontal}" data-list-id="${lstId}" id="${btnSelectOrientationHorizontalId}" ${select_orientation_horizontal_disabled}>
-                        <i class="fas fa-bars" data-fa-transform="rotate-90"></i>
+                        <i class="fas fa-bars"></i>
                         <span class="sr-only">Select Horizontal</span>
                     </button>
                 </div>

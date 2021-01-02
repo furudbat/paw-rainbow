@@ -1,9 +1,11 @@
-import { ApplicationData, CurrentSelectionPart, Theme } from './application.data'
+import { ApplicationData, CurrentSelection, CurrentSelectionPart, Theme } from './application.data'
 import { LoggerManager } from 'typescript-logger';
 import { Loader, Application as PixiApplication, LoaderResource } from 'pixi.js';
 import { site } from './site';
-import { SpritePawPartsAdapter } from './sprite.adapter';
+import { SpriteAdapter } from './sprite.adapter';
 import { FormPartsAdapter } from './form-parts.adapter';
+import { threadId } from 'worker_threads';
+import { DataObserver, DataSubject } from './observer';
 
 export class Application {
 
@@ -11,7 +13,7 @@ export class Application {
     private _pixiApp?: PixiApplication;
     private _loader: Loader = new Loader();
     private _formPartsAdapter?: FormPartsAdapter;
-    private _spriteAdapter?: SpritePawPartsAdapter;
+    private _spriteAdapter?: SpriteAdapter;
 
     private log = LoggerManager.create('Application');
 
@@ -75,12 +77,16 @@ export class Application {
     }
 
     private initObservers() {
-
+        var that = this;
+        this._appData.currentSelectionObservable.attach(new class implements DataObserver<CurrentSelection>{
+            update(subject: DataSubject<CurrentSelection>): void {
+                that._spriteAdapter?.updateParts();
+            }
+        });
     }
 
     private initCanvas() {
         var that = this;
-        /*
         this._pixiApp = new PixiApplication({
             width: 520,
             height: 520,
@@ -89,7 +95,7 @@ export class Application {
             resizeTo: $('#spriteViewContainer')[0]
         });
         $('#spriteViewContainer').html(this._pixiApp.view);
-        */
+        this._spriteAdapter = new SpriteAdapter(this._pixiApp, this._appData);
 
         let sprite_sheet_filenames = site.data.sprites.map(it => it.sheet);
         sprite_sheet_filenames = sprite_sheet_filenames.filter((filename: string, index: number) => {
@@ -99,13 +105,14 @@ export class Application {
         this._loader.baseUrl = site.data.base_url;
         this._loader.onProgress.add(function () {
             that.loadProgressHandler();
-        })
+        });
         this._loader.add(sprite_sheet_filenames).load(function (loader, resources) {
             that.setupSpriteAdapters(loader, resources)
         });
     }
 
     private setupSpriteAdapters(loader: Loader, resources: Partial<Record<string, LoaderResource>>) {
+        this.log.debug('setupSpriteAdapters', loader, resources);
         this._spriteAdapter?.init(resources);
     }
 

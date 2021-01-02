@@ -1,47 +1,35 @@
 
-import { Container, Sprite, Application as PixiApplication, LoaderResource } from 'pixi.js';
+import { Container, Sprite, Application as PixiApplication, LoaderResource, BaseRenderTexture, RenderTexture } from 'pixi.js';
 import { LoggerManager } from 'typescript-logger';
-import { Orientation, SpriteFlagMetaData } from "./flags.data";
+import { ApplicationData } from './application.data';
+import { Orientation } from "./flags.data";
+import { site } from './site';
 
-type SpritePawPart = 'left_part_1' | 'left_part_2' | 'right_part_1' | 'right_part_2' | 'center';
+type SpriteParts = Record<string, Sprite>;
 
-type SpritePawParts = Record<SpritePawPart, Sprite>;
-
-export class SpritePawPartsAdapter {
-    private _spritesMetaData: SpriteFlagMetaData[] = [];
+export class SpriteAdapter {
+    private _appData: ApplicationData;
     private _resources?: Partial<Record<string, LoaderResource>>;
-    private _sprites: SpritePawParts = {
-        left_part_1: new Sprite(),
-        left_part_2: new Sprite(),
-        right_part_1: new Sprite(),
-        right_part_2: new Sprite(),
-        center: new Sprite(),
-    };
+    private _sprites: SpriteParts = {};
     private _parts_container: Container = new Container();
     private _pixiApp: PixiApplication;
 
     private log = LoggerManager.create('SpritePawPartsAdapter');
 
-    constructor(pixiApp: PixiApplication, spritesMetaData: SpriteFlagMetaData[]) {
+    constructor(pixiApp: PixiApplication, appData: ApplicationData) {
         this._pixiApp = pixiApp;
-        this._spritesMetaData = spritesMetaData;
+        this._appData = appData;
     }
 
     public init(resources: Partial<Record<string, LoaderResource>>) {
         this._resources = resources;
+        this.updateParts();
 
-        const parts = <SpritePawParts>(name: keyof SpritePawParts) => name;
-        for (let part of ['left_part_1', 'left_part_2', 'right_part_1', 'right_part_2', 'center']) {
-            this.setPart('None', part, Orientation.Vertical, false);
-        }
-        this._parts_container.addChild(this._sprites.left_part_1);
-        this._parts_container.addChild(this._sprites.left_part_2);
-        this._parts_container.addChild(this._sprites.right_part_1);
-        this._parts_container.addChild(this._sprites.right_part_2);
-        this._parts_container.addChild(this._sprites.center);
-        this.updateSprite();
+        this._pixiApp.stage.addChild(this._parts_container);
+        this._pixiApp.ticker.add(() => {
+            this._pixiApp.renderer.render(this._parts_container);
+        });
 
-        this._pixiApp.stage.addChild(this._sprites.left_part_1);
         var that = this;
         window.addEventListener('resize', function() {
             that.log.debug('resize');
@@ -49,44 +37,45 @@ export class SpritePawPartsAdapter {
         });
     }
 
-    public setPart(flag_name: string, part: string, orienration: Orientation, update_sprite: boolean = true) {
-        if (this._resources !== undefined) {
-            const meta = this._spritesMetaData.find(it => it.flag_name == flag_name && it.orientation == orienration && it.part == part);
-            if (meta !== undefined) {
-                const ress = this._resources[meta.sheet];
-                if (ress != undefined && ress.textures !== undefined) {
-                    const texture = ress.textures[meta.id];
+    public updateParts() {
+        this._parts_container.removeChildren();
+        for(let part in this._appData.currentSelection.parts) {
+            this.setPart(this._appData.currentSelection.parts[part].flag_name ?? 'None', part, this._appData.currentSelection.parts[part].orientation ?? Orientation.Vertical, false);
+            this._parts_container.addChild(this._sprites[part]);
+        }
 
-                    /// @TODO use hashmap 
-                    switch (part) {
-                        case 'left_part_1':
-                            this._sprites.left_part_1.texture = texture;
-                            break;
-                        case 'left_part_2':
-                            this._sprites.left_part_2.texture = texture;
-                            break;
-                        case 'right_part_1':
-                            this._sprites.right_part_1.texture = texture;
-                            break;
-                        case 'right_part_2':
-                            this._sprites.right_part_2.texture = texture;
-                            break;
-                        case 'center':
-                            this._sprites.center.texture = texture;
-                            break;
+        this.updateSprite();
+    }
+
+    public setPart(flag_name: string, part: string, orientation: Orientation, update_sprite: boolean = true) {
+        if (this._resources !== undefined) {
+            const sprite_data = site.data.sprites.find(it => it.flag_name == flag_name && it.part == part && it.orientation == orientation);
+            if (sprite_data !== undefined) {
+                const ress = this._resources[sprite_data.sheet];
+                if (ress != undefined && ress.textures !== undefined) {
+                    const texture = ress.textures[sprite_data.id];
+
+                    if (!(part in this._sprites)) {
+                        this._sprites[part] = new Sprite(texture);
+                    } else {
+                        this._sprites[part].texture = texture;
                     }
+                    this._sprites[part].texture.baseTexture.scaleMode = PIXI.SCALE_MODES.NEAREST;
+
                     if (update_sprite) {
                         this.updateSprite();
                     }
+                    this._sprites[part].texture.baseTexture.update();
+                    this._sprites[part].texture.update();
                     
-                    this.log.debug('setPart', `${flag_name} ${part} ${orienration}`, meta, texture);
+                    this.log.debug('setPart', `${flag_name} ${part} ${orientation}`, sprite_data, texture);
 
                     return true;
                 } else {
-                    this.log.warn('setPart', `${meta.sheet} not found or no textures`, this._resources[meta.sheet]);
+                    this.log.warn('setPart', `${sprite_data.sheet} not found or no textures`, this._resources[sprite_data.sheet]);
                 }
             } else {
-                this.log.warn('setPart', `${flag_name} ${part} ${orienration} not found in meta`, this._spritesMetaData);
+                this.log.warn('setPart', `${flag_name} ${part} ${orientation} not found in meta`);
             }
         }
 
@@ -103,10 +92,7 @@ export class SpritePawPartsAdapter {
         this._parts_container.width = display_width;
         this._parts_container.height = display_height;
         
-        this._parts_container.position.set((this._pixiApp.screen.width/2 - this._parts_container.width/2) + offset_x,
-                                            (this._pixiApp.screen.height/2 - this._parts_container.height/2) + offset_y);
-
-        this._pixiApp.render();
+        this._parts_container.position.set(offset_x, offset_y);
 
         this.log.debug('updateSprite: window', display_width, display_height);
         this.log.debug('updateSprite: sprites', this._parts_container.x, this._parts_container.y, this._parts_container.width, this._parts_container.height, this._parts_container);
