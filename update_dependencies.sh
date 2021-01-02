@@ -31,3 +31,11 @@ cp node_modules/@fortawesome/fontawesome-free/webfonts/*.* assets/css/webfonts
 mkdir assets/js/pixi
 cp node_modules/pixi.js/dist/*.min.js assets/js/pixi
 cp node_modules/pixi.js/dist/*.min.js.map assets/js/pixi
+
+mkdir assets/css/select2
+mkdir assets/js/select2
+mkdir assets/js/select2/i18n
+cp node_modules/select2/dist/js/*.min.js assets/js/select2
+cp node_modules/select2/dist/js/i18n/*.js assets/js/select2/i18n
+cp node_modules/select2/dist/css/*.min.css assets/css/select2
+cp node_modules/@ttskch/select2-bootstrap4-theme/dist/*.min.css assets/css/select2

@@ -4,7 +4,6 @@ import { Loader, Application as PixiApplication, LoaderResource } from 'pixi.js'
 import { site } from './site';
 import { SpriteAdapter } from './sprite.adapter';
 import { FormPartsAdapter } from './form-parts.adapter';
-import { threadId } from 'worker_threads';
 import { DataObserver, DataSubject } from './observer';
 
 export class Application {
@@ -30,14 +29,7 @@ export class Application {
         this.initTheme();
         this.initSettings();
 
-        this._formPartsAdapter = new FormPartsAdapter(this._appData);
-        this._formPartsAdapter?.init();
-        if (!this._formPartsAdapter?.current_form) {
-            this._formPartsAdapter?.setForm(site.data.flags_config.forms[0]);
-        } else {
-            this._formPartsAdapter.updateUI();
-        }
-
+        this.initForm();
         this.initCanvas();
 
         this.initObservers();
@@ -85,7 +77,17 @@ export class Application {
         });
     }
 
-    private initCanvas() {
+    private async initForm() {
+        this._formPartsAdapter = new FormPartsAdapter(this._appData);
+        this._formPartsAdapter?.init();
+        if (!this._formPartsAdapter?.current_form) {
+            this._formPartsAdapter?.setForm(site.data.flags_config.forms[0]);
+        } else {
+            this._formPartsAdapter.updateUI();
+        }
+    }
+
+    private async initCanvas() {
         var that = this;
         this._pixiApp = new PixiApplication({
             width: 520,
@@ -95,7 +97,7 @@ export class Application {
             resizeTo: $('#spriteViewContainer')[0]
         });
         $('#spriteViewContainer').html(this._pixiApp.view);
-        this._spriteAdapter = new SpriteAdapter(this._pixiApp, this._appData);
+        this._spriteAdapter = new SpriteAdapter(this._pixiApp, this._appData, '#btnDownload');
 
         let sprite_sheet_filenames = site.data.sprites.map(it => it.sheet);
         sprite_sheet_filenames = sprite_sheet_filenames.filter((filename: string, index: number) => {
@@ -112,7 +114,7 @@ export class Application {
     }
 
     private setupSpriteAdapters(loader: Loader, resources: Partial<Record<string, LoaderResource>>) {
-        this.log.debug('setupSpriteAdapters', loader, resources);
+        //this.log.debug('setupSpriteAdapters', loader, resources);
         this._spriteAdapter?.init(resources);
     }
 

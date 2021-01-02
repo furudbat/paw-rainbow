@@ -80,6 +80,21 @@ ul.pagination {
     font-weight: bold;
 }
 
+
+.sprite-view-container {
+    max-width: 400px;
+    min-height: 400px;
+    width: 520px;
+    height: 520px;
+    max-width: 520px;
+    max-height: 520px;
+}
+
+
+.select-part-icon-container {
+    background-color: $gray-600;
+}
 .flag-item-icon {
     width: 32px;
+    height: 32px;
 }
