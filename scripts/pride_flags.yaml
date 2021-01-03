@@ -14,16 +14,19 @@
     - '#007940'
     - '#4040ff'
     - '#a000c0'
+  link: https://en.wikipedia.org/wiki/Rainbow_flag_(LGBT)
 - name: Sapphic
   colors:
     - '#fe8ba8'
     - '#fbf1ff'
     - '#fe8ba8'
+  link: https://lgbta.wikia.org/wiki/Sapphic
 - name: Pluralian
   colors:
     - '#7f39eb'
     - '#fbf1ff'
     - '#7f39eb'
+  link: https://lgbta.wikia.org/wiki/Pluralian
 - name: Progress
   colors:
     - '#c32b1f'
@@ -43,6 +46,7 @@
     - '#9ac5ec'
     - '#ffffff'
     - '#9ac5ec'
+  link: https://lgbta.wikia.org/wiki/Achillean
 - name: Androphillia
   colors:
     - '#010001'
@@ -66,14 +70,17 @@
     - '#fd6667'
     - '#ffaecb'
     - '#010001'
+  link: https://lgbta.wikia.org/wiki/Queer
 - name: Questioning
   colors:
     - '#ee7331'
     - '#f5ea26'
     - '#55b048'
     - '#4b63ae'
+  link: https://lgbta.wikia.org/wiki/Questioning
 - name: Diamoric
   colors:
     - '#91f292'
     - '#ffffff'
     - '#91f292'
+  link: https://lgbta.wikia.org/wiki/Diamoric

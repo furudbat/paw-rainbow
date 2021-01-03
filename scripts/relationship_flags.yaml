@@ -3,11 +3,13 @@
     - '#204d9b'
     - '#e52322'
     - '#010001'
+  link: https://lgbta.wikia.org/wiki/Polyamorous
 - name: Open Relationship
   colors:
     - '#71ee72'
     - '#c4c4c4'
     - '#ffbc51'
+  link: https://lgbta.wikia.org/wiki/Open_Relationship
 - name: Triad
   colors:
     - '#acacac'
@@ -15,23 +17,27 @@
     - '#ee444c'
     - '#acacac'
     - '#ac6bb9'
+  link: https://lgbta.wikia.org/wiki/Triad
 - name: Quad
   colors:
     - '#010180'
     - '#00dbd3'
     - '#ff966e'
     - '#ff4a35'
+  link: https://lgbta.wikia.org/wiki/Quad_Polyamory
 - name: N Polyamory
   colors:
     - '#ff9670'
     - '#ff4a35'
     - '#010180'
     - '#00dbd3'
+  link: https://lgbta.wikia.org/wiki/N_Polyamory
 - name: Geographically Non-Monogamy
   colors:
     - '#41fefe'
     - '#010001'
     - '#6466ff'
+  link: https://lgbta.wikia.org/wiki/Geographically_Non-Monogamy
 - name: V Polyamory
   colors:
     - '#ee444c'
@@ -39,6 +45,7 @@
     - '#ac6bb9'
     - '#acacac'
     - '#ee444c'
+  link: https://lgbta.wikia.org/wiki/V_Polyamory
 - name: T Polyamory
   colors:
     - '#ac6bb9'
@@ -46,17 +53,20 @@
     - '#acacac'
     - '#ac6bb9'
     - '#ee444c'
+  link: https://lgbta.wikia.org/wiki/T_Polyamory
 - name: Polyfidelity
   colors:
     - '#e4e459'
     - '#c79461'
     - '#962fdb'
+  link: https://lgbta.wikia.org/wiki/Polyfidelity
 - name: Monogamy
   colors:
     - '#ffffff'
     - '#ec1b24'
     - '#ff3999'
     - '#c4c4c4'
+  link: https://lgbta.wikia.org/wiki/Monogamy
 - name: Pluriad
   colors:
     - '#010001'
@@ -68,11 +78,13 @@
     - '#ffffff'
     - '#ff9670'
     - '#ee444c'
+  link: https://lgbta.wikia.org/wiki/Pluriad
 - name: Nonamorous
   colors:
     - '#794da3'
     - '#ee89d2'
     - '#f4cc75'
+  link: https://lgbta.wikia.org/wiki/Nonamorous
 - name: Biamorous
   colors:
     - '#f3001b'
@@ -80,6 +92,7 @@
     - '#63459a'
     - '#3d2bdc'
     - '#010001'
+  link: https://lgbta.wikia.org/wiki/Biamorous
 - name: Plurian
   colors:
     - '#0d75e8'
@@ -87,3 +100,4 @@
     - '#e8e831'
     - '#ef59a9'
     - '#4a0c8e'
+  link: https://lgbta.wikia.org/wiki/Plurian

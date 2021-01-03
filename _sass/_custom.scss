@@ -82,12 +82,11 @@ ul.pagination {
 
 
 .sprite-view-container {
-    max-width: 400px;
-    min-height: 400px;
-    width: 520px;
-    height: 520px;
-    max-width: 520px;
-    max-height: 520px;
+    width: 100%;
+    min-height: 520px;
+    min-width: 296px;
+    max-width: 720px;
+    max-height: 720px;
 }
 
 
@@ -97,4 +96,8 @@ ul.pagination {
 .flag-item-icon {
     width: 32px;
     height: 32px;
+}
+
+.card-flag-info-list-image {
+    height: 150px;
 }

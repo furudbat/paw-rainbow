@@ -1,28 +1,33 @@
 <div class="row">
-    <div class="col-3">
+    <div class="col-lg-3">
         {% include main_ui.html %}
     </div>
 
-    <div class="col-5">
+    <div class="col-lg-6 mt-sm-1">
         <div class="card">
-            <div class="card-img-top sprite-view-container text-center mx-auto" id='spriteViewContainer'></div>
+            <div class="card-img-top sprite-view-container mx-auto" id='spriteViewContainer'></div>
             <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
-                <a href="#" class="btn btn-primary" id="btnDownload">Download</a>
+                <h5 class="card-title" id="spriteViewTitle"></h5>
+                <p class="card-text" id="spriteViewDescription"></p>
+                
+                <a href="#" class="btn btn-primary" id="btnDownload">{{ site.data.strings.sprite.download }}</a>
+                <a href="#" class="btn btn-primary" id="btnFullDownload">{{ site.data.strings.sprite.full_download }}</a>
             </div>
         </div>
     </div>
 
-    <div class="col-4">
-        <div class="card mx-2">
-            <img src="http://via.placeholder.com/250x150" class="card-img-top" alt="flag name">
+    <div class="col-lg-3 mt-sm-3">
+        <div class="card card-flag-info mx-sm-2">
+            <img src="{{- site.data.strings.flag_info.unknown.img -}}" class="card-img-top" alt="flag image" id="flagInfoImage">
             <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
+                <h5 class="card-title" id="flagInfoTitle">{{ site.data.strings.flag_info.unknown.title }}</h5>
+                <p class="card-text" id="flagInfoDescription">{{ site.data.strings.flag_info.unknown.description }}</p>
+                <a href="#" class="card-link" id="flagInfoLink" target="_blank" rel="noopener noreferrer"></a>
             </div>
         </div>
     </div>
+</div>
+
+<div class="row mt-5">
+    {% include flags_list.html %}
 </div>

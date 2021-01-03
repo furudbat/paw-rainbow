@@ -102,7 +102,11 @@ export class FormPartsAdapter {
     }
 
     public getSelectableParts(part: string) {
-        return this.selected_form_sprites.filter(it => it.part == part);
+        return this.selected_form_sprites.filter(it => it.part == part).sort((a, b) => {  
+            if (a.flag_name > b.flag_name) { return -1; }  
+            if (a.flag_name < b.flag_name) { return 1; }  
+            return 0;  
+        });
     }
 
     public getListId(form: string, part: string) {
@@ -111,7 +115,7 @@ export class FormPartsAdapter {
 
     public getIconURL(sprite_data: SpriteFlagMetaData) {
         /// @TODO: use URL builder
-        return site.data.base_url + sprite_data.filename;
+        return site.base_url + sprite_data.filename;
     }
 
     public getSelectedOrientation(part: string) {
@@ -167,18 +171,18 @@ export class FormPartsAdapter {
         return `<div class="form-group">
             ${label}
             <div class="input-group">
-                <div class="input-group-prepend select-part-icon-container d-flex align-items-center justify-content-center">
+                <div class="input-group-prepend select-part-icon-container d-flex align-items-center justify-content-center" data-form="${form}" data-part="${part}" data-flag-name="${selected_part?.flag_name}">
                     <img src="${icon_filename}" class="img-fluid clickable-flag select-part-icon flag-item-icon" data-form="${form}" data-part="${part}" data-flag-name="${selected_part?.flag_name}" alt="Selected Icon ${selected_part?.flag_name}">
                 </div>
                 <select id="${lstId}" class="custom-select select-part" data-form="${form}" data-part="${part}" data-list-id="${lstId}">
                     ${selects}
                 </select>
                 <div class="input-group-append">
-                    <button class="btn ${select_orientation_vertical_class} select-part-orientation select-part-orientation-vertical" type="button" data-form="${form}" data-part="${part}" data-orientation="${Orientation.Vertical}" data-list-id="${lstId}" id="${btnSelectOrientationVerticalId}" ${select_orientation_vertical_disabled}>
+                    <button class="btn ${select_orientation_vertical_class} select-part-orientation select-part-orientation-vertical" type="button" data-form="${form}" data-part="${part}" data-orientation="${Orientation.Vertical}" data-list-id="${lstId}" data-flag-name="${selected_part_flag_name}" id="${btnSelectOrientationVerticalId}" ${select_orientation_vertical_disabled}>
                         <i class="fas fa-bars" data-fa-transform="rotate-90"></i>
                         <span class="sr-only">Select Vertical</span>
                     </button>
-                    <button class="btn ${select_orientation_horizontal_class} select-part-orientation select-part-orientation-horizontal" type="button" data-form="${form}" data-part="${part}" data-orientation="${Orientation.Horizontal}" data-list-id="${lstId}" id="${btnSelectOrientationHorizontalId}" ${select_orientation_horizontal_disabled}>
+                    <button class="btn ${select_orientation_horizontal_class} select-part-orientation select-part-orientation-horizontal" type="button" data-form="${form}" data-part="${part}" data-orientation="${Orientation.Horizontal}" data-list-id="${lstId}" data-flag-name="${selected_part_flag_name}" id="${btnSelectOrientationHorizontalId}" ${select_orientation_horizontal_disabled}>
                         <i class="fas fa-bars"></i>
                         <span class="sr-only">Select Horizontal</span>
                     </button>
@@ -195,7 +199,7 @@ export class FormPartsAdapter {
         });
 
         const updateOrientation = function(selected_flag_name: string, orientation: string, form: string, part: string) {
-            const selectable_parts = that.getSelectableParts(part).filter(it => it.flags_fits);
+            const selectable_parts = that.getSelectableParts(part);
             const selectable_horizontal_parts = selectable_parts.filter(it => it.orientation == Orientation.Horizontal);
             const selectable_vertical_parts = selectable_parts.filter(it => it.orientation == Orientation.Vertical);
 
@@ -212,6 +216,7 @@ export class FormPartsAdapter {
 
                     $(this).removeClass('btn-primary').removeClass('btn-outline-secondary');
 
+                    $(this).data('flag-name', selected_flag_name);
                     switch (btn_orientation) {
                         case Orientation.Horizontal:
                             $(this).addClass(select_orientation_horizontal_class);
@@ -232,6 +237,9 @@ export class FormPartsAdapter {
             const part = $(this).data('part');
 
             that._appData.setPartFlagName(part, selected_flag_name);
+            if (selected_flag_name) {
+                that._appData.lastFlag = selected_flag_name;
+            }
 
             const selected_part = that.getSelectedPart(part);
             const selected_orientation = that.getSelectedOrientation(part);
@@ -246,20 +254,38 @@ export class FormPartsAdapter {
                     $(this).attr('src', icon_filename);
                 }
             });
+            $('.select-part-icon-container').each(function () {
+                const icon_form = $(this).data('form');
+                const icon_part = $(this).data('part');
+
+                if (icon_form == form && icon_part == part) {
+                    $(this).data('flag-name', selected_part?.flag_name ?? '');
+                }
+            });
 
             updateOrientation(selected_flag_name, selected_orientation, form, part);
+
         });
 
         $('.select-part-orientation').off('click').on('click', function () {
             const form = $(this).data('form');
             const part = $(this).data('part');
             const orientation = $(this).data('orientation');
-            const listId = that.getListId(form, part);
-            const selected_flag_name = $(`#${listId}`).find('.select-part').val() as string;
+            const selected_flag_name = $(this).data('flag-name');
 
             that._appData.setPartOrientation(part, orientation);
 
             updateOrientation(selected_flag_name, orientation, form, part);
+        });
+
+        $('.select-part-icon-container').off('click').on('click', function() {
+            //const form = $(this).data('form');
+            //const part = $(this).data('part');
+            //const orientation = $(this).data('orientation');
+            const selected_flag_name = $(this).data('flag-name');
+            if (selected_flag_name) {
+                that._appData.lastFlag = selected_flag_name;
+            }
         });
     }
 

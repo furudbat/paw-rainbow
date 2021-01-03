@@ -62589,7 +62589,8 @@ var site_1 = require("./site");
 var STORAGE_KEY_SETTINGS = 'settings';
 var STORAGE_KEY_THEME = 'theme';
 var STORAGE_KEY_VERSION = 'version';
-var STORAGE_KEY_CURRENT_SELECTION = 'settings';
+var STORAGE_KEY_CURRENT_SELECTION = 'current_selection';
+var STORAGE_KEY_LAST_FLAG = 'last_flag';
 var Theme;
 (function (Theme) {
     Theme["Light"] = "light";
@@ -62603,7 +62604,6 @@ var Settings = (function () {
 exports.Settings = Settings;
 var CurrentSelectionPart = (function () {
     function CurrentSelectionPart() {
-        this.filter = "All";
         this.flag_name = "None";
         this.orientation = flags_data_1.Orientation.Vertical;
     }
@@ -62624,44 +62624,49 @@ var ApplicationData = (function () {
         this._theme = Theme.Dark;
         this._version = site_1.site.version;
         this._currentSelection = new observer_1.DataSubject(new CurrentSelection());
+        this._lastFlag = new observer_1.DataSubject("");
         this._storeSession = localforage_1.default.createInstance({
             name: "session"
         });
     }
     ApplicationData.prototype.loadFromStorage = function () {
         return __awaiter(this, void 0, void 0, function () {
-            var _a, _b, _c, _d, err_1;
-            return __generator(this, function (_e) {
-                switch (_e.label) {
+            var _a, _b, _c, _d, _e, err_1;
+            return __generator(this, function (_f) {
+                switch (_f.label) {
                     case 0:
-                        _e.trys.push([0, 6, , 7]);
+                        _f.trys.push([0, 7, , 8]);
                         _a = this;
                         return [4, this._storeSession.getItem(STORAGE_KEY_VERSION)];
                     case 1:
-                        _a._version = (_e.sent()) || '';
+                        _a._version = (_f.sent()) || '';
                         if (!(this._version !== '')) return [3, 4];
                         _b = this._settings;
                         return [4, this._storeSession.getItem(STORAGE_KEY_SETTINGS)];
                     case 2:
-                        _b.data = (_e.sent()) || this._settings.data;
+                        _b.data = (_f.sent()) || this._settings.data;
                         _c = this;
                         return [4, this._storeSession.getItem(STORAGE_KEY_THEME)];
                     case 3:
-                        _c._theme = (_e.sent()) || this._theme;
-                        _e.label = 4;
+                        _c._theme = (_f.sent()) || this._theme;
+                        _f.label = 4;
                     case 4:
                         this._version = site_1.site.version;
                         this._storeSession.setItem(STORAGE_KEY_VERSION, this._version);
                         _d = this._currentSelection;
                         return [4, this._storeSession.getItem(STORAGE_KEY_CURRENT_SELECTION)];
                     case 5:
-                        _d.data = (_e.sent()) || this._currentSelection.data;
-                        return [3, 7];
+                        _d.data = (_f.sent()) || this._currentSelection.data;
+                        _e = this._lastFlag;
+                        return [4, this._storeSession.getItem(STORAGE_KEY_LAST_FLAG)];
                     case 6:
-                        err_1 = _e.sent();
+                        _e.data = (_f.sent()) || this._lastFlag.data;
+                        return [3, 8];
+                    case 7:
+                        err_1 = _f.sent();
                         console.error('loadFromStorage', err_1);
-                        return [3, 7];
-                    case 7: return [2];
+                        return [3, 8];
+                    case 8: return [2];
                 }
             });
         });
@@ -62677,6 +62682,25 @@ var ApplicationData = (function () {
             this._theme = value;
             this._storeSession.setItem(STORAGE_KEY_THEME, value);
             this._storeSession.setItem(STORAGE_KEY_VERSION, this._version);
+        },
+        enumerable: false,
+        configurable: true
+    });
+    Object.defineProperty(ApplicationData.prototype, "lastFlagObservable", {
+        get: function () {
+            return this._lastFlag;
+        },
+        enumerable: false,
+        configurable: true
+    });
+    Object.defineProperty(ApplicationData.prototype, "lastFlag", {
+        get: function () {
+            return this._lastFlag.data;
+        },
+        set: function (value) {
+            this._storeSession.setItem(STORAGE_KEY_LAST_FLAG, value);
+            this._storeSession.setItem(STORAGE_KEY_VERSION, this._version);
+            this._lastFlag.data = value;
         },
         enumerable: false,
         configurable: true
@@ -62737,18 +62761,11 @@ var ApplicationData = (function () {
         this._currentSelection.data.parts[part].orientation = orientation;
         this.currentSelection = this.currentSelection;
     };
-    ApplicationData.prototype.setPartFilter = function (part, filter) {
-        if (!(part in this._currentSelection.data.parts)) {
-            this._currentSelection.data.parts[part] = new CurrentSelectionPart();
-        }
-        this._currentSelection.data.parts[part].filter = filter;
-        this.currentSelection = this.currentSelection;
-    };
     return ApplicationData;
 }());
 exports.ApplicationData = ApplicationData;
 
-},{"./../_site/src/flags.data":1,"./observer":67,"./site":68,"localforage":42}],63:[function(require,module,exports){
+},{"./../_site/src/flags.data":1,"./observer":68,"./site":69,"localforage":42}],63:[function(require,module,exports){
 "use strict";
 var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
     function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
@@ -62794,6 +62811,7 @@ var pixi_js_1 = require("pixi.js");
 var site_1 = require("./site");
 var sprite_adapter_1 = require("./sprite.adapter");
 var form_parts_adapter_1 = require("./form-parts.adapter");
+var flag_wiki_adapter_1 = require("./flag-wiki.adapter");
 var Application = (function () {
     function Application() {
         this._appData = new application_data_1.ApplicationData();
@@ -62868,9 +62886,9 @@ var Application = (function () {
         }()));
     };
     Application.prototype.initForm = function () {
-        var _a, _b, _c;
+        var _a, _b, _c, _d;
         return __awaiter(this, void 0, void 0, function () {
-            return __generator(this, function (_d) {
+            return __generator(this, function (_e) {
                 this._formPartsAdapter = new form_parts_adapter_1.FormPartsAdapter(this._appData);
                 (_a = this._formPartsAdapter) === null || _a === void 0 ? void 0 : _a.init();
                 if (!((_b = this._formPartsAdapter) === null || _b === void 0 ? void 0 : _b.current_form)) {
@@ -62879,6 +62897,8 @@ var Application = (function () {
                 else {
                     this._formPartsAdapter.updateUI();
                 }
+                this._flagWikiAdapter = new flag_wiki_adapter_1.FlagWikiAdapter(this._appData);
+                (_d = this._flagWikiAdapter) === null || _d === void 0 ? void 0 : _d.init();
                 return [2];
             });
         });
@@ -62889,19 +62909,19 @@ var Application = (function () {
             return __generator(this, function (_a) {
                 that = this;
                 this._pixiApp = new pixi_js_1.Application({
-                    width: 520,
-                    height: 520,
+                    width: 720,
+                    height: 720,
                     antialias: false,
                     transparent: true,
                     resizeTo: $('#spriteViewContainer')[0]
                 });
                 $('#spriteViewContainer').html(this._pixiApp.view);
-                this._spriteAdapter = new sprite_adapter_1.SpriteAdapter(this._pixiApp, this._appData, '#btnDownload');
+                this._spriteAdapter = new sprite_adapter_1.SpriteAdapter(this._pixiApp, this._appData, '#btnDownload', '#btnFullDownload');
                 sprite_sheet_filenames = site_1.site.data.sprites.map(function (it) { return it.sheet; });
                 sprite_sheet_filenames = sprite_sheet_filenames.filter(function (filename, index) {
                     return sprite_sheet_filenames.indexOf(filename) === index;
                 });
-                this._loader.baseUrl = site_1.site.data.base_url;
+                this._loader.baseUrl = site_1.site.base_url;
                 this._loader.onProgress.add(function () {
                     that.loadProgressHandler();
                 });
@@ -62922,7 +62942,59 @@ var Application = (function () {
 }());
 exports.Application = Application;
 
-},{"./application.data":62,"./form-parts.adapter":65,"./site":68,"./sprite.adapter":69,"pixi.js":46,"typescript-logger":56}],64:[function(require,module,exports){
+},{"./application.data":62,"./flag-wiki.adapter":64,"./form-parts.adapter":66,"./site":69,"./sprite.adapter":70,"pixi.js":46,"typescript-logger":56}],64:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.FlagWikiAdapter = void 0;
+var typescript_logger_1 = require("typescript-logger");
+var site_1 = require("./site");
+var FlagWikiAdapter = (function () {
+    function FlagWikiAdapter(appData) {
+        this.log = typescript_logger_1.LoggerManager.create('FlagWikiAdapter');
+        this._appData = appData;
+    }
+    FlagWikiAdapter.prototype.init = function () {
+        this.updateFlagInfos(this._appData.lastFlag);
+        this.initObservers();
+    };
+    FlagWikiAdapter.prototype.initObservers = function () {
+        var that = this;
+        this._appData.lastFlagObservable.attach(new (function () {
+            function class_1() {
+            }
+            class_1.prototype.update = function (subject) {
+                var flag_name = subject.data;
+                that.updateFlagInfos(flag_name);
+            };
+            return class_1;
+        }()));
+    };
+    FlagWikiAdapter.prototype.updateFlagInfos = function (flag_name) {
+        var _a;
+        var flag_info = site_1.site.data.flags_wiki.find(function (it) { return it.name === flag_name; });
+        this.log.debug('updateFlagInfos', flag_name, flag_info);
+        if (flag_info) {
+            if (flag_info.img) {
+                $('#flagInfoImage').attr('src', flag_info.img);
+            }
+            $('#flagInfoTitle').html(flag_info.name);
+            $('#flagInfoDescription').html((_a = flag_info.description) !== null && _a !== void 0 ? _a : '');
+            if (flag_info.link) {
+                $('#flagInfoLink').attr('href', flag_info.link).html(site_1.site.data.strings.flag_info.source_label);
+            }
+        }
+        else {
+            $('#flagInfoImage').attr('src', site_1.site.data.strings.flag_info.unknown.img);
+            $('#flagInfoTitle').html(site_1.site.data.strings.flag_info.unknown.title);
+            $('#flagInfoDescription').html(site_1.site.data.strings.flag_info.unknown.description);
+            $('#flagInfoLink').attr('href', '#').html('');
+        }
+    };
+    return FlagWikiAdapter;
+}());
+exports.FlagWikiAdapter = FlagWikiAdapter;
+
+},{"./site":69,"typescript-logger":56}],65:[function(require,module,exports){
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.Orientation = void 0;
@@ -62932,7 +63004,7 @@ var Orientation;
     Orientation["Vertical"] = "vertical";
 })(Orientation = exports.Orientation || (exports.Orientation = {}));
 
-},{}],65:[function(require,module,exports){
+},{}],66:[function(require,module,exports){
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.FormPartsAdapter = void 0;
@@ -63051,13 +63123,21 @@ var FormPartsAdapter = (function () {
         return this.selected_form_sprites.find(function (it) { return it.flag_name === selected_part_flag_name && it.orientation === selected_part_orientation && it.part === part; });
     };
     FormPartsAdapter.prototype.getSelectableParts = function (part) {
-        return this.selected_form_sprites.filter(function (it) { return it.part == part; });
+        return this.selected_form_sprites.filter(function (it) { return it.part == part; }).sort(function (a, b) {
+            if (a.flag_name > b.flag_name) {
+                return -1;
+            }
+            if (a.flag_name < b.flag_name) {
+                return 1;
+            }
+            return 0;
+        });
     };
     FormPartsAdapter.prototype.getListId = function (form, part) {
         return "lstSelect" + form + part;
     };
     FormPartsAdapter.prototype.getIconURL = function (sprite_data) {
-        return site_1.site.data.base_url + sprite_data.filename;
+        return site_1.site.base_url + sprite_data.filename;
     };
     FormPartsAdapter.prototype.getSelectedOrientation = function (part) {
         return (part in this._appData.currentSelection.parts) ? this._appData.currentSelection.parts[part].orientation : flags_data_1.Orientation.Vertical;
@@ -63100,7 +63180,7 @@ var FormPartsAdapter = (function () {
         }
         var icon_filename = (selected_part) ? this.getIconURL(selected_part) : '';
         var label = (show_label) ? "<label for=\"" + lstId + "\" class=\"select-part-label\">" + part_name + "</label>" : '';
-        return "<div class=\"form-group\">\n            " + label + "\n            <div class=\"input-group\">\n                <div class=\"input-group-prepend select-part-icon-container d-flex align-items-center justify-content-center\">\n                    <img src=\"" + icon_filename + "\" class=\"img-fluid clickable-flag select-part-icon flag-item-icon\" data-form=\"" + form + "\" data-part=\"" + part + "\" data-flag-name=\"" + (selected_part === null || selected_part === void 0 ? void 0 : selected_part.flag_name) + "\" alt=\"Selected Icon " + (selected_part === null || selected_part === void 0 ? void 0 : selected_part.flag_name) + "\">\n                </div>\n                <select id=\"" + lstId + "\" class=\"custom-select select-part\" data-form=\"" + form + "\" data-part=\"" + part + "\" data-list-id=\"" + lstId + "\">\n                    " + selects + "\n                </select>\n                <div class=\"input-group-append\">\n                    <button class=\"btn " + select_orientation_vertical_class + " select-part-orientation select-part-orientation-vertical\" type=\"button\" data-form=\"" + form + "\" data-part=\"" + part + "\" data-orientation=\"" + flags_data_1.Orientation.Vertical + "\" data-list-id=\"" + lstId + "\" id=\"" + btnSelectOrientationVerticalId + "\" " + select_orientation_vertical_disabled + ">\n                        <i class=\"fas fa-bars\" data-fa-transform=\"rotate-90\"></i>\n                        <span class=\"sr-only\">Select Vertical</span>\n                    </button>\n                    <button class=\"btn " + select_orientation_horizontal_class + " select-part-orientation select-part-orientation-horizontal\" type=\"button\" data-form=\"" + form + "\" data-part=\"" + part + "\" data-orientation=\"" + flags_data_1.Orientation.Horizontal + "\" data-list-id=\"" + lstId + "\" id=\"" + btnSelectOrientationHorizontalId + "\" " + select_orientation_horizontal_disabled + ">\n                        <i class=\"fas fa-bars\"></i>\n                        <span class=\"sr-only\">Select Horizontal</span>\n                    </button>\n                </div>\n            </div>\n        </div>";
+        return "<div class=\"form-group\">\n            " + label + "\n            <div class=\"input-group\">\n                <div class=\"input-group-prepend select-part-icon-container d-flex align-items-center justify-content-center\" data-form=\"" + form + "\" data-part=\"" + part + "\" data-flag-name=\"" + (selected_part === null || selected_part === void 0 ? void 0 : selected_part.flag_name) + "\">\n                    <img src=\"" + icon_filename + "\" class=\"img-fluid clickable-flag select-part-icon flag-item-icon\" data-form=\"" + form + "\" data-part=\"" + part + "\" data-flag-name=\"" + (selected_part === null || selected_part === void 0 ? void 0 : selected_part.flag_name) + "\" alt=\"Selected Icon " + (selected_part === null || selected_part === void 0 ? void 0 : selected_part.flag_name) + "\">\n                </div>\n                <select id=\"" + lstId + "\" class=\"custom-select select-part\" data-form=\"" + form + "\" data-part=\"" + part + "\" data-list-id=\"" + lstId + "\">\n                    " + selects + "\n                </select>\n                <div class=\"input-group-append\">\n                    <button class=\"btn " + select_orientation_vertical_class + " select-part-orientation select-part-orientation-vertical\" type=\"button\" data-form=\"" + form + "\" data-part=\"" + part + "\" data-orientation=\"" + flags_data_1.Orientation.Vertical + "\" data-list-id=\"" + lstId + "\" data-flag-name=\"" + selected_part_flag_name + "\" id=\"" + btnSelectOrientationVerticalId + "\" " + select_orientation_vertical_disabled + ">\n                        <i class=\"fas fa-bars\" data-fa-transform=\"rotate-90\"></i>\n                        <span class=\"sr-only\">Select Vertical</span>\n                    </button>\n                    <button class=\"btn " + select_orientation_horizontal_class + " select-part-orientation select-part-orientation-horizontal\" type=\"button\" data-form=\"" + form + "\" data-part=\"" + part + "\" data-orientation=\"" + flags_data_1.Orientation.Horizontal + "\" data-list-id=\"" + lstId + "\" data-flag-name=\"" + selected_part_flag_name + "\" id=\"" + btnSelectOrientationHorizontalId + "\" " + select_orientation_horizontal_disabled + ">\n                        <i class=\"fas fa-bars\"></i>\n                        <span class=\"sr-only\">Select Horizontal</span>\n                    </button>\n                </div>\n            </div>\n        </div>";
     };
     FormPartsAdapter.prototype.initEvents = function () {
         var that = this;
@@ -63109,7 +63189,7 @@ var FormPartsAdapter = (function () {
             that.setForm(form);
         });
         var updateOrientation = function (selected_flag_name, orientation, form, part) {
-            var selectable_parts = that.getSelectableParts(part).filter(function (it) { return it.flags_fits; });
+            var selectable_parts = that.getSelectableParts(part);
             var selectable_horizontal_parts = selectable_parts.filter(function (it) { return it.orientation == flags_data_1.Orientation.Horizontal; });
             var selectable_vertical_parts = selectable_parts.filter(function (it) { return it.orientation == flags_data_1.Orientation.Vertical; });
             $('.select-part-orientation').each(function () {
@@ -63122,6 +63202,7 @@ var FormPartsAdapter = (function () {
                     var select_orientation_horizontal_disabled = selectable_horizontal_parts.find(function (it) { return it.flag_name === selected_flag_name && it.orientation === flags_data_1.Orientation.Horizontal && it.flags_fits; }) === undefined;
                     var select_orientation_vertical_disabled = selectable_vertical_parts.find(function (it) { return it.flag_name === selected_flag_name && it.orientation === flags_data_1.Orientation.Vertical && it.flags_fits; }) === undefined;
                     $(this).removeClass('btn-primary').removeClass('btn-outline-secondary');
+                    $(this).data('flag-name', selected_flag_name);
                     switch (btn_orientation) {
                         case flags_data_1.Orientation.Horizontal:
                             $(this).addClass(select_orientation_horizontal_class);
@@ -63140,6 +63221,9 @@ var FormPartsAdapter = (function () {
             var form = $(this).data('form');
             var part = $(this).data('part');
             that._appData.setPartFlagName(part, selected_flag_name);
+            if (selected_flag_name) {
+                that._appData.lastFlag = selected_flag_name;
+            }
             var selected_part = that.getSelectedPart(part);
             var selected_orientation = that.getSelectedOrientation(part);
             var icon_filename = (selected_part) ? that.getIconURL(selected_part) : '';
@@ -63152,16 +63236,29 @@ var FormPartsAdapter = (function () {
                     $(this).attr('src', icon_filename);
                 }
             });
+            $('.select-part-icon-container').each(function () {
+                var _a;
+                var icon_form = $(this).data('form');
+                var icon_part = $(this).data('part');
+                if (icon_form == form && icon_part == part) {
+                    $(this).data('flag-name', (_a = selected_part === null || selected_part === void 0 ? void 0 : selected_part.flag_name) !== null && _a !== void 0 ? _a : '');
+                }
+            });
             updateOrientation(selected_flag_name, selected_orientation, form, part);
         });
         $('.select-part-orientation').off('click').on('click', function () {
             var form = $(this).data('form');
             var part = $(this).data('part');
             var orientation = $(this).data('orientation');
-            var listId = that.getListId(form, part);
-            var selected_flag_name = $("#" + listId).find('.select-part').val();
+            var selected_flag_name = $(this).data('flag-name');
             that._appData.setPartOrientation(part, orientation);
             updateOrientation(selected_flag_name, orientation, form, part);
+        });
+        $('.select-part-icon-container').off('click').on('click', function () {
+            var selected_flag_name = $(this).data('flag-name');
+            if (selected_flag_name) {
+                that._appData.lastFlag = selected_flag_name;
+            }
         });
     };
     FormPartsAdapter.getUnsafeProperty = function (obj, key) {
@@ -63177,7 +63274,7 @@ var FormPartsAdapter = (function () {
 }());
 exports.FormPartsAdapter = FormPartsAdapter;
 
-},{"./application.data":62,"./flags.data":64,"./site":68,"select2":53,"typescript-logger":56}],66:[function(require,module,exports){
+},{"./application.data":62,"./flags.data":65,"./site":69,"select2":53,"typescript-logger":56}],67:[function(require,module,exports){
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 require("./site");
@@ -63191,7 +63288,7 @@ $(function () {
     app.init();
 });
 
-},{"./application":63,"./site":68,"typescript-logger":56}],67:[function(require,module,exports){
+},{"./application":63,"./site":69,"typescript-logger":56}],68:[function(require,module,exports){
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.DataListSubject = exports.DataSubject = void 0;
@@ -63379,7 +63476,7 @@ var DataListSubject = (function () {
 }());
 exports.DataListSubject = DataListSubject;
 
-},{"typescript-logger":56}],68:[function(require,module,exports){
+},{"typescript-logger":56}],69:[function(require,module,exports){
 'use strict';
 String.prototype.format = function () {
     var args = arguments;
@@ -63463,7 +63560,7 @@ module.exports = {
     clamp: clamp
 };
 
-},{}],69:[function(require,module,exports){
+},{}],70:[function(require,module,exports){
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.SpriteAdapter = void 0;
@@ -63472,13 +63569,16 @@ var typescript_logger_1 = require("typescript-logger");
 var flags_data_1 = require("./flags.data");
 var site_1 = require("./site");
 var SpriteAdapter = (function () {
-    function SpriteAdapter(pixiApp, appData, downloadButton) {
+    function SpriteAdapter(pixiApp, appData, downloadButton, downloadFullButton) {
+        if (downloadButton === void 0) { downloadButton = undefined; }
+        if (downloadFullButton === void 0) { downloadFullButton = undefined; }
         this._sprites = {};
         this._parts_container = new pixi_js_1.Container();
         this.log = typescript_logger_1.LoggerManager.create('SpritePawPartsAdapter');
         this._pixiApp = pixiApp;
         this._appData = appData;
         this._downloadButton = downloadButton;
+        this._downloadFullButton = downloadFullButton;
     }
     SpriteAdapter.prototype.init = function (resources) {
         var _this = this;
@@ -63543,9 +63643,9 @@ var SpriteAdapter = (function () {
         var offset_y = (this._pixiApp.screen.height >= 32) ? 16 : (this._pixiApp.screen.height >= 8) ? 8 : 0;
         var display_width = this._pixiApp.screen.width - offset_x;
         var display_height = this._pixiApp.screen.height - offset_y;
-        this._parts_container.width = display_width;
-        this._parts_container.height = display_height;
-        this._parts_container.position.set(offset_x, offset_y);
+        this._parts_container.width = Math.min(display_width, display_height);
+        this._parts_container.height = Math.min(display_width, display_height);
+        this._parts_container.position.set(this._pixiApp.screen.width / 2 - this._parts_container.width / 2, this._pixiApp.screen.height / 2 - this._parts_container.height / 2);
         this.log.debug('updateSprite: window', display_width, display_height);
         this.log.debug('updateSprite: sprites', this._parts_container.x, this._parts_container.y, this._parts_container.width, this._parts_container.height, this._parts_container);
     };
@@ -63559,10 +63659,18 @@ var SpriteAdapter = (function () {
                 aDownload.attr('href', URL.createObjectURL(b));
             }
         }, 'image/png');
+        this._pixiApp.renderer.extract.canvas(this._pixiApp.stage).toBlob(function (b) {
+            if (_this._downloadFullButton) {
+                var form = _this._appData.currentSelection.form;
+                var aDownload = $(_this._downloadFullButton);
+                aDownload.attr('download', form);
+                aDownload.attr('href', URL.createObjectURL(b));
+            }
+        }, 'image/png');
     };
     return SpriteAdapter;
 }());
 exports.SpriteAdapter = SpriteAdapter;
 
-},{"./flags.data":64,"./site":68,"pixi.js":46,"typescript-logger":56}]},{},[66])
+},{"./flags.data":65,"./site":69,"pixi.js":46,"typescript-logger":56}]},{},[67])
 //# sourceMappingURL=bundle.js.map

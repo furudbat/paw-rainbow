@@ -6,7 +6,8 @@ import { site } from "./site";
 const STORAGE_KEY_SETTINGS = 'settings';
 const STORAGE_KEY_THEME = 'theme';
 const STORAGE_KEY_VERSION = 'version';
-const STORAGE_KEY_CURRENT_SELECTION = 'settings';
+const STORAGE_KEY_CURRENT_SELECTION = 'current_selection';
+const STORAGE_KEY_LAST_FLAG = 'last_flag';
 
 export enum Theme {
     Light = "light",
@@ -17,7 +18,6 @@ export class Settings {
 }
 
 export class CurrentSelectionPart {
-    filter: string = "All";
     flag_name: string = "None";
     orientation: Orientation = Orientation.Vertical;
 }
@@ -32,6 +32,7 @@ export class ApplicationData {
     private _theme: Theme = Theme.Dark;
     private _version: string = site.version;
     private _currentSelection: DataSubject<CurrentSelection> = new DataSubject<CurrentSelection>(new CurrentSelection());
+    private _lastFlag: DataSubject<string> = new DataSubject<string>("");
 
     private _storeSession = localForage.createInstance({
         name: "session"
@@ -54,6 +55,7 @@ export class ApplicationData {
             this._storeSession.setItem(STORAGE_KEY_VERSION, this._version);
 
             this._currentSelection.data = await this._storeSession.getItem<CurrentSelection>(STORAGE_KEY_CURRENT_SELECTION) || this._currentSelection.data;
+            this._lastFlag.data = await this._storeSession.getItem<string>(STORAGE_KEY_LAST_FLAG) || this._lastFlag.data;
         } catch (err) {
             // This code runs if there were any errors.
             console.error('loadFromStorage', err);
@@ -72,6 +74,20 @@ export class ApplicationData {
         this._theme = value;
         this._storeSession.setItem(STORAGE_KEY_THEME, value);
         this._storeSession.setItem(STORAGE_KEY_VERSION, this._version);
+    }
+
+    get lastFlagObservable() {
+        return this._lastFlag;
+    }
+
+    get lastFlag() {
+        return this._lastFlag.data;
+    }
+
+    set lastFlag(value: string) {
+        this._storeSession.setItem(STORAGE_KEY_LAST_FLAG, value);
+        this._storeSession.setItem(STORAGE_KEY_VERSION, this._version);
+        this._lastFlag.data = value;
     }
 
     get settingsObservable() {
@@ -127,16 +143,6 @@ export class ApplicationData {
         }
 
         this._currentSelection.data.parts[part].orientation = orientation;
-
-        this.currentSelection = this.currentSelection;
-    }
-
-    public setPartFilter(part: string, filter: string) {
-        if (!(part in this._currentSelection.data.parts)) {
-            this._currentSelection.data.parts[part] = new CurrentSelectionPart();
-        }
-
-        this._currentSelection.data.parts[part].filter = filter;
 
         this.currentSelection = this.currentSelection;
     }

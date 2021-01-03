@@ -1,3 +1,4 @@
 colour
 pyyaml
 Pillow
+pyquery

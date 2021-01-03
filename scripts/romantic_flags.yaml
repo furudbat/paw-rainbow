@@ -5,6 +5,7 @@
     - '#ffffff'
     - '#b3b2b3'
     - '#010001'
+  link: https://lgbta.wikia.org/wiki/Aromantic
 - name: Demiromantic
   colors:
     - '#ffffff'
@@ -12,11 +13,13 @@
   triangle:
     - '#010001'
   line: '#3ea544'
+  link: https://lgbta.wikia.org/wiki/Demiromantic
 - name: Autoromantic
   colors:
     - '#93d2e4'
     - '#3ea442'
     - '#7b7b7b'
+  link: https://lgbta.wikia.org/wiki/Autoromantic
 - name: Andromantic
   colors:
     - '#ffffff'
@@ -24,6 +27,7 @@
     - '#81b2e1'
     - '#8085e3'
     - '#b480e1'
+  link: https://lgbta.wikia.org/wiki/Andromantic
 - name: Myrromantic
   colors:
     - '#69ff76'
@@ -33,3 +37,4 @@
     - '#ffffff'
     - '#666666'
     - '#010001'
+  link: https://lgbta.wikia.org/wiki/Myrromantic

@@ -86,3 +86,10 @@ export interface FlagsConfig {
     transparent_colors: string[];
     paw: PawFlagConfig;
 }
+
+export interface FlagWikiData {
+    name: string;
+    link: string;
+    description?: string;
+    img?: string;
+}

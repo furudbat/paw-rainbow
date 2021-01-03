@@ -7,6 +7,7 @@
     - '#FFFFFF'
     - '#b9b9b9'
     - '#010001'
+  link: https://lgbta.wikia.org/wiki/Agender
 - name: Androgynous 
   colors:
     - '#9b979e'
@@ -16,6 +17,7 @@
     - '#cd74c7'
     - '#9b979e'
     - '#9b979e'
+  link: https://lgbta.wikia.org/wiki/Androgynous
 - name: Transgender 
   colors:
     - '#7ccdf6'
@@ -23,11 +25,13 @@
     - '#ffffff'
     - '#eaaeba'
     - '#7ccdf6'
+  link: https://lgbta.wikia.org/wiki/Transgender
 - name: Genderqueer 
   colors:
     - '#b39bd9'
     - '#ffffff'
     - '#738d46'
+  link: https://lgbta.wikia.org/wiki/Genderqueer
 - name: Genderfluid 
   colors:
     - '#ed7ea3'
@@ -35,12 +39,14 @@
     - '#af30d0'
     - '#010001'
     - '#313fb8'
+  link: https://lgbta.wikia.org/wiki/Genderfluid
 - name: Non-Binary 
   colors:
     - '#fdf35e'
     - '#ffffff'
     - '#915fc9'
     - '#2d2d2d'
+  link: https://lgbta.wikia.org/wiki/Non-Binary
 - name: Demigender
   colors:
     - '#7e7f7f'
@@ -50,6 +56,7 @@
     - '#fdff75'
     - '#c5c3c4'
     - '#7e7f7f'
+  link: https://lgbta.wikia.org/wiki/Demigender
 - name: Demiboy
   colors:
     - '#7e7f7f'
@@ -59,6 +66,7 @@
     - '#9bd5e6'
     - '#c5c3c4'
     - '#7e7f7f'
+  link: https://lgbta.wikia.org/wiki/Demiboy
 - name: Demigirl
   colors:
     - '#7e7f7f'
@@ -68,6 +76,7 @@
     - '#f4aec9'
     - '#c5c3c4'
     - '#7e7f7f'
+  link: https://lgbta.wikia.org/wiki/Demigirl
 - name: Demiflux
   colors:
     - '#7e7f7f'
@@ -77,14 +86,13 @@
     - '#9bd5e6'
     - '#c5c3c4'
     - '#7e7f7f'
-- name: Neutrio
+  link: https://lgbta.wikia.org/wiki/Demiflux
+- name: Neutrois
   colors:
     - '#ffffff'
     - '#36ab4f'
     - '#010001'
-- name: Ingender
-  colors:
-    - '#ffffff'
+  link: https://lgbta.wikia.org/wiki/Neutrois
 - name: Pangender
   colors:
     - '#f43a61'
@@ -95,6 +103,7 @@
     - '#fdcfff'
     - '#ffc3a9'
     - '#fff484'
+  link: https://lgbta.wikia.org/wiki/Pangender
 - name: Bigender
   colors:
     - '#c479a0'
@@ -104,6 +113,7 @@
     - '#d6c7e7'
     - '#eda5cb'
     - '#c479a0'
+  link: https://lgbta.wikia.org/wiki/Bigender
 - name: Polygender
   colors:
     - '#010001'
@@ -111,12 +121,14 @@
     - '#ed93c6'
     - '#f6ec82'
     - '#64bae7'
+  link: https://lgbta.wikia.org/wiki/Polygender
 - name: Alexigender
   colors:
     - '#7d04ec'
     - '#01eedd'
     - '#5400d3'
     - '#010001'
+  link: https://lgbta.wikia.org/wiki/Alexigender
 - name: Genderfluid
   colors:
     - '#f3759c'
@@ -124,6 +136,7 @@
     - '#8b4e9f'
     - '#010001'
     - '#3b50a5'
+  link: https://lgbta.wikia.org/wiki/Genderfluid
 - name: Gender Questioning
   colors:
     - '#ff98bd'
@@ -138,15 +151,18 @@
     - '#03adf0'
     - '#6ad1d4'
     - '#6ad1d4'
+  link: https://nonbinary.wiki/wiki/Questioning
 - name: Intersex
   colors:
     - '#fed800'
   circle: '#7902ac'
+  link: https://lgbta.wikia.org/wiki/Intersex
 - name: Maverique
   colors:
     - '#fef333'
     - '#ffffff'
     - '#f39622'
+  link: https://lgbta.wikia.org/wiki/Maverique
 - name: Trigender
   colors:
     - '#ff94c5'
@@ -154,3 +170,4 @@
     - '#68d867'
     - '#9680ff'
     - '#ff94c5'
+  link: https://lgbta.wikia.org/wiki/Trigender

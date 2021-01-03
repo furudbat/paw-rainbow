@@ -5,6 +5,7 @@ import { site } from './site';
 import { SpriteAdapter } from './sprite.adapter';
 import { FormPartsAdapter } from './form-parts.adapter';
 import { DataObserver, DataSubject } from './observer';
+import { FlagWikiAdapter } from './flag-wiki.adapter';
 
 export class Application {
 
@@ -13,6 +14,7 @@ export class Application {
     private _loader: Loader = new Loader();
     private _formPartsAdapter?: FormPartsAdapter;
     private _spriteAdapter?: SpriteAdapter;
+    private _flagWikiAdapter?: FlagWikiAdapter;
 
     private log = LoggerManager.create('Application');
 
@@ -85,26 +87,29 @@ export class Application {
         } else {
             this._formPartsAdapter.updateUI();
         }
+
+        this._flagWikiAdapter = new FlagWikiAdapter(this._appData);
+        this._flagWikiAdapter?.init();
     }
 
     private async initCanvas() {
         var that = this;
         this._pixiApp = new PixiApplication({
-            width: 520,
-            height: 520,
+            width: 720,
+            height: 720,
             antialias: false,
             transparent: true,
             resizeTo: $('#spriteViewContainer')[0]
         });
         $('#spriteViewContainer').html(this._pixiApp.view);
-        this._spriteAdapter = new SpriteAdapter(this._pixiApp, this._appData, '#btnDownload');
+        this._spriteAdapter = new SpriteAdapter(this._pixiApp, this._appData, '#btnDownload', '#btnFullDownload');
 
         let sprite_sheet_filenames = site.data.sprites.map(it => it.sheet);
         sprite_sheet_filenames = sprite_sheet_filenames.filter((filename: string, index: number) => {
             return sprite_sheet_filenames.indexOf(filename) === index;
         });
 
-        this._loader.baseUrl = site.data.base_url;
+        this._loader.baseUrl = site.base_url;
         this._loader.onProgress.add(function () {
             that.loadProgressHandler();
         });

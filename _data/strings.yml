@@ -15,6 +15,16 @@ select_parts:
   right_part_1: Right Part 1
   right_part_2: Right Part 2
   center: Center
+sprite:
+  download: Download
+  full_download: Full Download
+flag_info:
+  unknown:
+    title: Unknown
+    img: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAQCAYAAAB3AH1ZAAAAKElEQVR4nGOMjIz8zzCAgGkgLR91wKgDRh0w6oBRB4w6YNQBDAwMDAD0jgIqLFpokwAAAABJRU5ErkJggg==
+    description: >-
+      No Info.
+  source_label: '[Source]'
 misc:
   title: Misc
   clear_session: Clear Session

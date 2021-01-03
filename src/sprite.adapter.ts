@@ -13,14 +13,16 @@ export class SpriteAdapter {
     private _sprites: SpriteParts = {};
     private _parts_container: Container = new Container();
     private _pixiApp: PixiApplication;
-    private _downloadButton: string;
+    private _downloadButton?: string;
+    private _downloadFullButton?: string;
 
     private log = LoggerManager.create('SpritePawPartsAdapter');
 
-    constructor(pixiApp: PixiApplication, appData: ApplicationData, downloadButton: string) {
+    constructor(pixiApp: PixiApplication, appData: ApplicationData, downloadButton: string | undefined = undefined, downloadFullButton: string | undefined = undefined) {
         this._pixiApp = pixiApp;
         this._appData = appData;
         this._downloadButton = downloadButton;
+        this._downloadFullButton = downloadFullButton;
     }
 
     public init(resources: Partial<Record<string, LoaderResource>>) {
@@ -95,10 +97,10 @@ export class SpriteAdapter {
         const display_width = this._pixiApp.screen.width - offset_x;
         const display_height = this._pixiApp.screen.height - offset_y;
 
-        this._parts_container.width = display_width;
-        this._parts_container.height = display_height;
+        this._parts_container.width = Math.min(display_width, display_height);
+        this._parts_container.height = Math.min(display_width, display_height);
         
-        this._parts_container.position.set(offset_x, offset_y);
+        this._parts_container.position.set(this._pixiApp.screen.width /2 - this._parts_container.width/2, this._pixiApp.screen.height/2 - this._parts_container.height/2);
 
         this.log.debug('updateSprite: window', display_width, display_height);
         this.log.debug('updateSprite: sprites', this._parts_container.x, this._parts_container.y, this._parts_container.width, this._parts_container.height, this._parts_container);
@@ -110,6 +112,16 @@ export class SpriteAdapter {
                 const form = this._appData.currentSelection.form;
 
                 const aDownload = $(this._downloadButton) as JQuery<HTMLAnchorElement>;
+                aDownload.attr('download', form);
+                aDownload.attr('href', URL.createObjectURL(b));
+            }
+        }, 'image/png');
+
+        this._pixiApp.renderer.extract.canvas(this._pixiApp.stage).toBlob((b) => {
+            if(this._downloadFullButton) {
+                const form = this._appData.currentSelection.form;
+
+                const aDownload = $(this._downloadFullButton) as JQuery<HTMLAnchorElement>;
                 aDownload.attr('download', form);
                 aDownload.attr('href', URL.createObjectURL(b));
             }

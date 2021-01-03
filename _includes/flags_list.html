@@ -1,0 +1,10 @@
+{% for flag_info in site.data.flags_wiki %}
+    <div class="col-2 mt-2 mb-1">
+        <div class="card card-flag-info-list">
+            <img src="{{ flag_info.img }}" class="card-img-top card-flag-info-list-image" alt="{{ flag_info.name }}">
+            <div class="card-body">
+                <h5 class="card-title card-flag-info-list-title"><a href="{{ flag_info.link }}" target="_blank" rel="noopener noreferrer">{{ flag_info.name }}</a></h5>
+            </div>
+        </div>
+    </div>
+{% endfor %}
