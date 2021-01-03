@@ -9,7 +9,7 @@ categories:
   - 'gender'
   - 'relationship'
   - 'romantic'
-  - 'tribe'
+  - 'sub_culture'
 paw:
   base_filename: './paw.png'
   outline: '#000000'

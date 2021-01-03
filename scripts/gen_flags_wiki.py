@@ -127,7 +127,7 @@ def main():
     gender_flags = dict()
     relationship_flags = dict()
     romantic_flags = dict()
-    tribe_flags = dict()
+    sub_culture_flags = dict()
     
     with open('config.yaml') as f:
         config = yaml.load(f, Loader=yaml.FullLoader)
@@ -142,15 +142,15 @@ def main():
         relationship_flags = yaml.load(f, Loader=yaml.FullLoader)
     with open('romantic_flags.yaml') as f:
         romantic_flags = yaml.load(f, Loader=yaml.FullLoader)
-    with open('tribe_flags.yaml') as f:
-        tribe_flags = yaml.load(f, Loader=yaml.FullLoader)
+    with open('sub_culture_flags.yaml') as f:
+        sub_culture_flags = yaml.load(f, Loader=yaml.FullLoader)
 
     pride_flags = genFlags(pride_flags)
     sexual_flags = genFlags(sexual_flags)
     gender_flags = genFlags(gender_flags)
     relationship_flags = genFlags(relationship_flags)
     romantic_flags = genFlags(romantic_flags)
-    tribe_flags = genFlags(tribe_flags)
+    sub_culture_flags = genFlags(sub_culture_flags)
 
     all_flags = []
     all_flags.extend(pride_flags)
@@ -158,7 +158,7 @@ def main():
     all_flags.extend(gender_flags)
     all_flags.extend(relationship_flags)
     all_flags.extend(romantic_flags)
-    all_flags.extend(tribe_flags)
+    all_flags.extend(sub_culture_flags)
 
     print("Flags count: {}".format(len(all_flags)))
 

@@ -1,11 +1,23 @@
 - colors:
   - '#595959'
   default: true
-  filename: assets/img/flags/none.png
+  filename: assets/img/flags/none/none.png
+  filename_set:
+    128w: assets/img/flags/none/none-4x.png
+    256w: assets/img/flags/none/none-8x.png
+    32w: assets/img/flags/none/none.png
+    512w: assets/img/flags/none/none-16x.png
+    64w: assets/img/flags/none/none-2x.png
   name: None
 - colors:
   - '#010101'
-  filename: assets/img/flags/mask.png
+  filename: assets/img/flags/mask/mask.png
+  filename_set:
+    128w: assets/img/flags/mask/mask-4x.png
+    256w: assets/img/flags/mask/mask-8x.png
+    32w: assets/img/flags/mask/mask.png
+    512w: assets/img/flags/mask/mask-16x.png
+    64w: assets/img/flags/mask/mask-2x.png
   mask: true
   name: Mask
 - colors:
@@ -15,19 +27,40 @@
   - '#007940'
   - '#4040ff'
   - '#a000c0'
-  filename: assets/img/flags/lgbt_pride.png
+  filename: assets/img/flags/lgbt_pride/lgbt_pride.png
+  filename_set:
+    192w: assets/img/flags/lgbt_pride/lgbt_pride-4x.png
+    384w: assets/img/flags/lgbt_pride/lgbt_pride-8x.png
+    48w: assets/img/flags/lgbt_pride/lgbt_pride.png
+    768w: assets/img/flags/lgbt_pride/lgbt_pride-16x.png
+    96w: assets/img/flags/lgbt_pride/lgbt_pride-2x.png
+  link: https://en.wikipedia.org/wiki/Rainbow_flag_(LGBT)
   name: LGBT+ Pride
 - colors:
   - '#fe8ba8'
   - '#fbf1ff'
   - '#fe8ba8'
-  filename: assets/img/flags/sapphic.png
+  filename: assets/img/flags/sapphic/sapphic.png
+  filename_set:
+    192w: assets/img/flags/sapphic/sapphic-4x.png
+    384w: assets/img/flags/sapphic/sapphic-8x.png
+    48w: assets/img/flags/sapphic/sapphic.png
+    768w: assets/img/flags/sapphic/sapphic-16x.png
+    96w: assets/img/flags/sapphic/sapphic-2x.png
+  link: https://lgbta.wikia.org/wiki/Sapphic
   name: Sapphic
 - colors:
   - '#7f39eb'
   - '#fbf1ff'
   - '#7f39eb'
-  filename: assets/img/flags/pluralian.png
+  filename: assets/img/flags/pluralian/pluralian.png
+  filename_set:
+    192w: assets/img/flags/pluralian/pluralian-4x.png
+    384w: assets/img/flags/pluralian/pluralian-8x.png
+    48w: assets/img/flags/pluralian/pluralian.png
+    768w: assets/img/flags/pluralian/pluralian-16x.png
+    96w: assets/img/flags/pluralian/pluralian-2x.png
+  link: https://lgbta.wikia.org/wiki/Pluralian
   name: Pluralian
 - colors:
   - '#c32b1f'
@@ -36,7 +69,13 @@
   - '#5abd37'
   - '#051f92'
   - '#6b1785'
-  filename: assets/img/flags/progress.png
+  filename: assets/img/flags/progress/progress.png
+  filename_set:
+    1152w: assets/img/flags/progress/progress-8x.png
+    144w: assets/img/flags/progress/progress.png
+    2304w: assets/img/flags/progress/progress-16x.png
+    288w: assets/img/flags/progress/progress-2x.png
+    576w: assets/img/flags/progress/progress-4x.png
   name: Progress
   triangle:
   - '#ffffff'
@@ -48,21 +87,40 @@
   - '#9ac5ec'
   - '#ffffff'
   - '#9ac5ec'
-  filename: assets/img/flags/achillean.png
+  filename: assets/img/flags/achillean/achillean.png
+  filename_set:
+    192w: assets/img/flags/achillean/achillean-4x.png
+    384w: assets/img/flags/achillean/achillean-8x.png
+    48w: assets/img/flags/achillean/achillean.png
+    768w: assets/img/flags/achillean/achillean-16x.png
+    96w: assets/img/flags/achillean/achillean-2x.png
+  link: https://lgbta.wikia.org/wiki/Achillean
   name: Achillean
 - colors:
   - '#010001'
   - '#ffffff'
   - '#ffffff'
   - '#007f01'
-  filename: assets/img/flags/androphillia.png
+  filename: assets/img/flags/androphillia/androphillia.png
+  filename_set:
+    1024w: assets/img/flags/androphillia/androphillia-16x.png
+    128w: assets/img/flags/androphillia/androphillia-2x.png
+    256w: assets/img/flags/androphillia/androphillia-4x.png
+    512w: assets/img/flags/androphillia/androphillia-8x.png
+    64w: assets/img/flags/androphillia/androphillia.png
   name: Androphillia
 - colors:
   - '#010001'
   - '#ffffff'
   - '#ffffff'
   - '#ff0077'
-  filename: assets/img/flags/gynephilia.png
+  filename: assets/img/flags/gynephilia/gynephilia.png
+  filename_set:
+    1024w: assets/img/flags/gynephilia/gynephilia-16x.png
+    128w: assets/img/flags/gynephilia/gynephilia-2x.png
+    256w: assets/img/flags/gynephilia/gynephilia-4x.png
+    512w: assets/img/flags/gynephilia/gynephilia-8x.png
+    64w: assets/img/flags/gynephilia/gynephilia.png
   name: Gynephilia
 - colors:
   - '#010001'
@@ -74,27 +132,55 @@
   - '#fd6667'
   - '#ffaecb'
   - '#010001'
-  filename: assets/img/flags/queer.png
+  filename: assets/img/flags/queer/queer.png
+  filename_set:
+    1152w: assets/img/flags/queer/queer-16x.png
+    144w: assets/img/flags/queer/queer-2x.png
+    288w: assets/img/flags/queer/queer-4x.png
+    576w: assets/img/flags/queer/queer-8x.png
+    72w: assets/img/flags/queer/queer.png
+  link: https://lgbta.wikia.org/wiki/Queer
   name: Queer
 - colors:
   - '#ee7331'
   - '#f5ea26'
   - '#55b048'
   - '#4b63ae'
-  filename: assets/img/flags/questioning.png
+  filename: assets/img/flags/questioning/questioning.png
+  filename_set:
+    1024w: assets/img/flags/questioning/questioning-16x.png
+    128w: assets/img/flags/questioning/questioning-2x.png
+    256w: assets/img/flags/questioning/questioning-4x.png
+    512w: assets/img/flags/questioning/questioning-8x.png
+    64w: assets/img/flags/questioning/questioning.png
+  link: https://lgbta.wikia.org/wiki/Questioning
   name: Questioning
 - colors:
   - '#91f292'
   - '#ffffff'
   - '#91f292'
-  filename: assets/img/flags/diamoric.png
+  filename: assets/img/flags/diamoric/diamoric.png
+  filename_set:
+    192w: assets/img/flags/diamoric/diamoric-4x.png
+    384w: assets/img/flags/diamoric/diamoric-8x.png
+    48w: assets/img/flags/diamoric/diamoric.png
+    768w: assets/img/flags/diamoric/diamoric-16x.png
+    96w: assets/img/flags/diamoric/diamoric-2x.png
+  link: https://lgbta.wikia.org/wiki/Diamoric
   name: Diamoric
 - colors:
   - '#010001'
   - '#a3a3a3'
   - '#ffffff'
   - '#800080'
-  filename: assets/img/flags/asexual.png
+  filename: assets/img/flags/asexual/asexual.png
+  filename_set:
+    1024w: assets/img/flags/asexual/asexual-16x.png
+    128w: assets/img/flags/asexual/asexual-2x.png
+    256w: assets/img/flags/asexual/asexual-4x.png
+    512w: assets/img/flags/asexual/asexual-8x.png
+    64w: assets/img/flags/asexual/asexual.png
+  link: https://lgbta.wikia.org/wiki/Asexual
   name: Asexual
 - colors:
   - '#d60270'
@@ -102,13 +188,27 @@
   - '#9b4f96'
   - '#0038a8'
   - '#0038a8'
-  filename: assets/img/flags/bisexual.png
+  filename: assets/img/flags/bisexual/bisexual.png
+  filename_set:
+    160w: assets/img/flags/bisexual/bisexual-4x.png
+    320w: assets/img/flags/bisexual/bisexual-8x.png
+    40w: assets/img/flags/bisexual/bisexual.png
+    640w: assets/img/flags/bisexual/bisexual-16x.png
+    80w: assets/img/flags/bisexual/bisexual-2x.png
+  link: https://lgbta.wikia.org/wiki/Bisexual
   name: Bisexual
 - colors:
   - '#e93d8c'
   - '#f9da49'
   - '#55b1f9'
-  filename: assets/img/flags/pansexual.png
+  filename: assets/img/flags/pansexual/pansexual.png
+  filename_set:
+    192w: assets/img/flags/pansexual/pansexual-4x.png
+    384w: assets/img/flags/pansexual/pansexual-8x.png
+    48w: assets/img/flags/pansexual/pansexual.png
+    768w: assets/img/flags/pansexual/pansexual-16x.png
+    96w: assets/img/flags/pansexual/pansexual-2x.png
+  link: https://lgbta.wikia.org/wiki/Pansexual
   name: Pansexual
 - colors:
   - '#d72d01'
@@ -116,7 +216,14 @@
   - '#ffffff'
   - '#d462a6'
   - '#a40163'
-  filename: assets/img/flags/lesbian.png
+  filename: assets/img/flags/lesbian/lesbian.png
+  filename_set:
+    160w: assets/img/flags/lesbian/lesbian-4x.png
+    320w: assets/img/flags/lesbian/lesbian-8x.png
+    40w: assets/img/flags/lesbian/lesbian.png
+    640w: assets/img/flags/lesbian/lesbian-16x.png
+    80w: assets/img/flags/lesbian/lesbian-2x.png
+  link: https://lgbta.wikia.org/wiki/Lesbian
   name: Lesbian
 - colors:
   - '#007071'
@@ -126,13 +233,27 @@
   - '#91fcf0'
   - '#1878ff'
   - '#0e184d'
-  filename: assets/img/flags/gay_men.png
+  filename: assets/img/flags/gay_men/gay_men.png
+  filename_set:
+    112w: assets/img/flags/gay_men/gay_men-2x.png
+    224w: assets/img/flags/gay_men/gay_men-4x.png
+    448w: assets/img/flags/gay_men/gay_men-8x.png
+    56w: assets/img/flags/gay_men/gay_men.png
+    896w: assets/img/flags/gay_men/gay_men-16x.png
+  link: https://lgbta.wikia.org/wiki/Vincian
   name: Gay Men
 - colors:
   - '#ffffff'
   - '#d2d2d2'
-  filename: assets/img/flags/demisexual.png
+  filename: assets/img/flags/demisexual/demisexual.png
+  filename_set:
+    120w: assets/img/flags/demisexual/demisexual-2x.png
+    240w: assets/img/flags/demisexual/demisexual-4x.png
+    480w: assets/img/flags/demisexual/demisexual-8x.png
+    60w: assets/img/flags/demisexual/demisexual.png
+    960w: assets/img/flags/demisexual/demisexual-16x.png
   line: '#67236d'
+  link: https://lgbta.wikia.org/wiki/Demisexual
   name: Demisexual
   triangle:
   - '#010001'
@@ -140,7 +261,14 @@
   - '#c84793'
   - '#4bb166'
   - '#4288c8'
-  filename: assets/img/flags/polysexual.png
+  filename: assets/img/flags/polysexual/polysexual.png
+  filename_set:
+    192w: assets/img/flags/polysexual/polysexual-4x.png
+    384w: assets/img/flags/polysexual/polysexual-8x.png
+    48w: assets/img/flags/polysexual/polysexual.png
+    768w: assets/img/flags/polysexual/polysexual-16x.png
+    96w: assets/img/flags/polysexual/polysexual-2x.png
+  link: https://lgbta.wikia.org/wiki/Polysexual
   name: Polysexual
 - colors:
   - '#6a0c80'
@@ -148,18 +276,39 @@
   - '#f0dff2'
   - '#a595a7'
   - '#6a0c80'
-  filename: assets/img/flags/greysexual.png
+  filename: assets/img/flags/greysexual/greysexual.png
+  filename_set:
+    160w: assets/img/flags/greysexual/greysexual-4x.png
+    320w: assets/img/flags/greysexual/greysexual-8x.png
+    40w: assets/img/flags/greysexual/greysexual.png
+    640w: assets/img/flags/greysexual/greysexual-16x.png
+    80w: assets/img/flags/greysexual/greysexual-2x.png
+  link: https://lgbta.wikia.org/wiki/Greyasexual
   name: Greysexual
 - colors:
   - '#9adbec'
   - '#7b7e7b'
-  filename: assets/img/flags/autosexual.png
+  filename: assets/img/flags/autosexual/autosexual.png
+  filename_set:
+    192w: assets/img/flags/autosexual/autosexual-4x.png
+    384w: assets/img/flags/autosexual/autosexual-8x.png
+    48w: assets/img/flags/autosexual/autosexual.png
+    768w: assets/img/flags/autosexual/autosexual-16x.png
+    96w: assets/img/flags/autosexual/autosexual-2x.png
+  link: https://lgbta.wikia.org/wiki/Autosexual
   name: Autosexual
 - colors:
   - '#01ccff'
   - '#603524'
   - '#b799de'
-  filename: assets/img/flags/androsexual.png
+  filename: assets/img/flags/androsexual/androsexual.png
+  filename_set:
+    192w: assets/img/flags/androsexual/androsexual-4x.png
+    384w: assets/img/flags/androsexual/androsexual-8x.png
+    48w: assets/img/flags/androsexual/androsexual.png
+    768w: assets/img/flags/androsexual/androsexual-16x.png
+    96w: assets/img/flags/androsexual/androsexual-2x.png
+  link: https://lgbta.wikia.org/wiki/Androsexual
   name: Androsexual
 - colors:
   - '#801ca4'
@@ -169,7 +318,14 @@
   - '#ffffff'
   - '#666666'
   - '#010001'
-  filename: assets/img/flags/myrsexual.png
+  filename: assets/img/flags/myrsexual/myrsexual.png
+  filename_set:
+    112w: assets/img/flags/myrsexual/myrsexual-2x.png
+    224w: assets/img/flags/myrsexual/myrsexual-4x.png
+    448w: assets/img/flags/myrsexual/myrsexual-8x.png
+    56w: assets/img/flags/myrsexual/myrsexual.png
+    896w: assets/img/flags/myrsexual/myrsexual-16x.png
+  link: https://lgbta.wikia.org/wiki/Myrsexual
   name: Myrsexual
 - colors:
   - '#ff9ace'
@@ -177,7 +333,14 @@
   - '#270047'
   - '#675dff'
   - '#8da5ff'
-  filename: assets/img/flags/omnisexual.png
+  filename: assets/img/flags/omnisexual/omnisexual.png
+  filename_set:
+    160w: assets/img/flags/omnisexual/omnisexual-4x.png
+    320w: assets/img/flags/omnisexual/omnisexual-8x.png
+    40w: assets/img/flags/omnisexual/omnisexual.png
+    640w: assets/img/flags/omnisexual/omnisexual-16x.png
+    80w: assets/img/flags/omnisexual/omnisexual-2x.png
+  link: https://lgbta.wikia.org/wiki/Omnisexual
   name: Omnisexual
 - colors:
   - '#010001'
@@ -187,7 +350,14 @@
   - '#FFFFFF'
   - '#b9b9b9'
   - '#010001'
-  filename: assets/img/flags/agender.png
+  filename: assets/img/flags/agender/agender.png
+  filename_set:
+    112w: assets/img/flags/agender/agender-2x.png
+    224w: assets/img/flags/agender/agender-4x.png
+    448w: assets/img/flags/agender/agender-8x.png
+    56w: assets/img/flags/agender/agender.png
+    896w: assets/img/flags/agender/agender-16x.png
+  link: https://lgbta.wikia.org/wiki/Agender
   name: Agender
 - colors:
   - '#9b979e'
@@ -197,7 +367,14 @@
   - '#cd74c7'
   - '#9b979e'
   - '#9b979e'
-  filename: assets/img/flags/androgynous.png
+  filename: assets/img/flags/androgynous/androgynous.png
+  filename_set:
+    112w: assets/img/flags/androgynous/androgynous-2x.png
+    224w: assets/img/flags/androgynous/androgynous-4x.png
+    448w: assets/img/flags/androgynous/androgynous-8x.png
+    56w: assets/img/flags/androgynous/androgynous.png
+    896w: assets/img/flags/androgynous/androgynous-16x.png
+  link: https://lgbta.wikia.org/wiki/Androgynous
   name: Androgynous
 - colors:
   - '#7ccdf6'
@@ -205,13 +382,27 @@
   - '#ffffff'
   - '#eaaeba'
   - '#7ccdf6'
-  filename: assets/img/flags/transgender.png
+  filename: assets/img/flags/transgender/transgender.png
+  filename_set:
+    160w: assets/img/flags/transgender/transgender-4x.png
+    320w: assets/img/flags/transgender/transgender-8x.png
+    40w: assets/img/flags/transgender/transgender.png
+    640w: assets/img/flags/transgender/transgender-16x.png
+    80w: assets/img/flags/transgender/transgender-2x.png
+  link: https://lgbta.wikia.org/wiki/Transgender
   name: Transgender
 - colors:
   - '#b39bd9'
   - '#ffffff'
   - '#738d46'
-  filename: assets/img/flags/genderqueer.png
+  filename: assets/img/flags/genderqueer/genderqueer.png
+  filename_set:
+    192w: assets/img/flags/genderqueer/genderqueer-4x.png
+    384w: assets/img/flags/genderqueer/genderqueer-8x.png
+    48w: assets/img/flags/genderqueer/genderqueer.png
+    768w: assets/img/flags/genderqueer/genderqueer-16x.png
+    96w: assets/img/flags/genderqueer/genderqueer-2x.png
+  link: https://lgbta.wikia.org/wiki/Genderqueer
   name: Genderqueer
 - colors:
   - '#ed7ea3'
@@ -219,14 +410,28 @@
   - '#af30d0'
   - '#010001'
   - '#313fb8'
-  filename: assets/img/flags/genderfluid.png
+  filename: assets/img/flags/genderfluid/genderfluid.png
+  filename_set:
+    160w: assets/img/flags/genderfluid/genderfluid-4x.png
+    320w: assets/img/flags/genderfluid/genderfluid-8x.png
+    40w: assets/img/flags/genderfluid/genderfluid.png
+    640w: assets/img/flags/genderfluid/genderfluid-16x.png
+    80w: assets/img/flags/genderfluid/genderfluid-2x.png
+  link: https://lgbta.wikia.org/wiki/Genderfluid
   name: Genderfluid
 - colors:
   - '#fdf35e'
   - '#ffffff'
   - '#915fc9'
   - '#2d2d2d'
-  filename: assets/img/flags/non_binary.png
+  filename: assets/img/flags/non_binary/non_binary.png
+  filename_set:
+    1024w: assets/img/flags/non_binary/non_binary-16x.png
+    128w: assets/img/flags/non_binary/non_binary-2x.png
+    256w: assets/img/flags/non_binary/non_binary-4x.png
+    512w: assets/img/flags/non_binary/non_binary-8x.png
+    64w: assets/img/flags/non_binary/non_binary.png
+  link: https://lgbta.wikia.org/wiki/Non-Binary
   name: Non-Binary
 - colors:
   - '#7e7f7f'
@@ -236,7 +441,14 @@
   - '#fdff75'
   - '#c5c3c4'
   - '#7e7f7f'
-  filename: assets/img/flags/demigender.png
+  filename: assets/img/flags/demigender/demigender.png
+  filename_set:
+    112w: assets/img/flags/demigender/demigender-2x.png
+    224w: assets/img/flags/demigender/demigender-4x.png
+    448w: assets/img/flags/demigender/demigender-8x.png
+    56w: assets/img/flags/demigender/demigender.png
+    896w: assets/img/flags/demigender/demigender-16x.png
+  link: https://lgbta.wikia.org/wiki/Demigender
   name: Demigender
 - colors:
   - '#7e7f7f'
@@ -246,7 +458,14 @@
   - '#9bd5e6'
   - '#c5c3c4'
   - '#7e7f7f'
-  filename: assets/img/flags/demiboy.png
+  filename: assets/img/flags/demiboy/demiboy.png
+  filename_set:
+    112w: assets/img/flags/demiboy/demiboy-2x.png
+    224w: assets/img/flags/demiboy/demiboy-4x.png
+    448w: assets/img/flags/demiboy/demiboy-8x.png
+    56w: assets/img/flags/demiboy/demiboy.png
+    896w: assets/img/flags/demiboy/demiboy-16x.png
+  link: https://lgbta.wikia.org/wiki/Demiboy
   name: Demiboy
 - colors:
   - '#7e7f7f'
@@ -256,7 +475,14 @@
   - '#f4aec9'
   - '#c5c3c4'
   - '#7e7f7f'
-  filename: assets/img/flags/demigirl.png
+  filename: assets/img/flags/demigirl/demigirl.png
+  filename_set:
+    112w: assets/img/flags/demigirl/demigirl-2x.png
+    224w: assets/img/flags/demigirl/demigirl-4x.png
+    448w: assets/img/flags/demigirl/demigirl-8x.png
+    56w: assets/img/flags/demigirl/demigirl.png
+    896w: assets/img/flags/demigirl/demigirl-16x.png
+  link: https://lgbta.wikia.org/wiki/Demigirl
   name: Demigirl
 - colors:
   - '#7e7f7f'
@@ -266,18 +492,28 @@
   - '#9bd5e6'
   - '#c5c3c4'
   - '#7e7f7f'
-  filename: assets/img/flags/demiflux.png
+  filename: assets/img/flags/demiflux/demiflux.png
+  filename_set:
+    112w: assets/img/flags/demiflux/demiflux-2x.png
+    224w: assets/img/flags/demiflux/demiflux-4x.png
+    448w: assets/img/flags/demiflux/demiflux-8x.png
+    56w: assets/img/flags/demiflux/demiflux.png
+    896w: assets/img/flags/demiflux/demiflux-16x.png
+  link: https://lgbta.wikia.org/wiki/Demiflux
   name: Demiflux
 - colors:
   - '#ffffff'
   - '#36ab4f'
   - '#010001'
-  filename: assets/img/flags/neutrio.png
-  name: Neutrio
-- colors:
-  - '#ffffff'
-  filename: assets/img/flags/ingender.png
-  name: Ingender
+  filename: assets/img/flags/neutrois/neutrois.png
+  filename_set:
+    192w: assets/img/flags/neutrois/neutrois-4x.png
+    384w: assets/img/flags/neutrois/neutrois-8x.png
+    48w: assets/img/flags/neutrois/neutrois.png
+    768w: assets/img/flags/neutrois/neutrois-16x.png
+    96w: assets/img/flags/neutrois/neutrois-2x.png
+  link: https://lgbta.wikia.org/wiki/Neutrois
+  name: Neutrois
 - colors:
   - '#f43a61'
   - '#5e9dfb'
@@ -287,7 +523,14 @@
   - '#fdcfff'
   - '#ffc3a9'
   - '#fff484'
-  filename: assets/img/flags/pangender.png
+  filename: assets/img/flags/pangender/pangender.png
+  filename_set:
+    1024w: assets/img/flags/pangender/pangender-16x.png
+    128w: assets/img/flags/pangender/pangender-2x.png
+    256w: assets/img/flags/pangender/pangender-4x.png
+    512w: assets/img/flags/pangender/pangender-8x.png
+    64w: assets/img/flags/pangender/pangender.png
+  link: https://lgbta.wikia.org/wiki/Pangender
   name: Pangender
 - colors:
   - '#c479a0'
@@ -297,7 +540,14 @@
   - '#d6c7e7'
   - '#eda5cb'
   - '#c479a0'
-  filename: assets/img/flags/bigender.png
+  filename: assets/img/flags/bigender/bigender.png
+  filename_set:
+    112w: assets/img/flags/bigender/bigender-2x.png
+    224w: assets/img/flags/bigender/bigender-4x.png
+    448w: assets/img/flags/bigender/bigender-8x.png
+    56w: assets/img/flags/bigender/bigender.png
+    896w: assets/img/flags/bigender/bigender-16x.png
+  link: https://lgbta.wikia.org/wiki/Bigender
   name: Bigender
 - colors:
   - '#010001'
@@ -305,14 +555,28 @@
   - '#ed93c6'
   - '#f6ec82'
   - '#64bae7'
-  filename: assets/img/flags/polygender.png
+  filename: assets/img/flags/polygender/polygender.png
+  filename_set:
+    160w: assets/img/flags/polygender/polygender-4x.png
+    320w: assets/img/flags/polygender/polygender-8x.png
+    40w: assets/img/flags/polygender/polygender.png
+    640w: assets/img/flags/polygender/polygender-16x.png
+    80w: assets/img/flags/polygender/polygender-2x.png
+  link: https://lgbta.wikia.org/wiki/Polygender
   name: Polygender
 - colors:
   - '#7d04ec'
   - '#01eedd'
   - '#5400d3'
   - '#010001'
-  filename: assets/img/flags/alexigender.png
+  filename: assets/img/flags/alexigender/alexigender.png
+  filename_set:
+    1024w: assets/img/flags/alexigender/alexigender-16x.png
+    128w: assets/img/flags/alexigender/alexigender-2x.png
+    256w: assets/img/flags/alexigender/alexigender-4x.png
+    512w: assets/img/flags/alexigender/alexigender-8x.png
+    64w: assets/img/flags/alexigender/alexigender.png
+  link: https://lgbta.wikia.org/wiki/Alexigender
   name: Alexigender
 - colors:
   - '#f3759c'
@@ -320,7 +584,14 @@
   - '#8b4e9f'
   - '#010001'
   - '#3b50a5'
-  filename: assets/img/flags/genderfluid.png
+  filename: assets/img/flags/genderfluid/genderfluid.png
+  filename_set:
+    160w: assets/img/flags/genderfluid/genderfluid-4x.png
+    320w: assets/img/flags/genderfluid/genderfluid-8x.png
+    40w: assets/img/flags/genderfluid/genderfluid.png
+    640w: assets/img/flags/genderfluid/genderfluid-16x.png
+    80w: assets/img/flags/genderfluid/genderfluid-2x.png
+  link: https://lgbta.wikia.org/wiki/Genderfluid
   name: Genderfluid
 - colors:
   - '#ff98bd'
@@ -335,18 +606,39 @@
   - '#03adf0'
   - '#6ad1d4'
   - '#6ad1d4'
-  filename: assets/img/flags/gender_questioning.png
+  filename: assets/img/flags/gender_questioning/gender_questioning.png
+  filename_set:
+    1536w: assets/img/flags/gender_questioning/gender_questioning-16x.png
+    192w: assets/img/flags/gender_questioning/gender_questioning-2x.png
+    384w: assets/img/flags/gender_questioning/gender_questioning-4x.png
+    768w: assets/img/flags/gender_questioning/gender_questioning-8x.png
+    96w: assets/img/flags/gender_questioning/gender_questioning.png
+  link: https://nonbinary.wiki/wiki/Questioning
   name: Gender Questioning
 - circle: '#7902ac'
   colors:
   - '#fed800'
-  filename: assets/img/flags/intersex.png
+  filename: assets/img/flags/intersex/intersex.png
+  filename_set:
+    128w: assets/img/flags/intersex/intersex-4x.png
+    256w: assets/img/flags/intersex/intersex-8x.png
+    32w: assets/img/flags/intersex/intersex.png
+    512w: assets/img/flags/intersex/intersex-16x.png
+    64w: assets/img/flags/intersex/intersex-2x.png
+  link: https://lgbta.wikia.org/wiki/Intersex
   name: Intersex
 - colors:
   - '#fef333'
   - '#ffffff'
   - '#f39622'
-  filename: assets/img/flags/maverique.png
+  filename: assets/img/flags/maverique/maverique.png
+  filename_set:
+    192w: assets/img/flags/maverique/maverique-4x.png
+    384w: assets/img/flags/maverique/maverique-8x.png
+    48w: assets/img/flags/maverique/maverique.png
+    768w: assets/img/flags/maverique/maverique-16x.png
+    96w: assets/img/flags/maverique/maverique-2x.png
+  link: https://lgbta.wikia.org/wiki/Maverique
   name: Maverique
 - colors:
   - '#ff94c5'
@@ -354,19 +646,40 @@
   - '#68d867'
   - '#9680ff'
   - '#ff94c5'
-  filename: assets/img/flags/trigender.png
+  filename: assets/img/flags/trigender/trigender.png
+  filename_set:
+    160w: assets/img/flags/trigender/trigender-4x.png
+    320w: assets/img/flags/trigender/trigender-8x.png
+    40w: assets/img/flags/trigender/trigender.png
+    640w: assets/img/flags/trigender/trigender-16x.png
+    80w: assets/img/flags/trigender/trigender-2x.png
+  link: https://lgbta.wikia.org/wiki/Trigender
   name: Trigender
 - colors:
   - '#204d9b'
   - '#e52322'
   - '#010001'
-  filename: assets/img/flags/polyamory.png
+  filename: assets/img/flags/polyamory/polyamory.png
+  filename_set:
+    192w: assets/img/flags/polyamory/polyamory-4x.png
+    384w: assets/img/flags/polyamory/polyamory-8x.png
+    48w: assets/img/flags/polyamory/polyamory.png
+    768w: assets/img/flags/polyamory/polyamory-16x.png
+    96w: assets/img/flags/polyamory/polyamory-2x.png
+  link: https://lgbta.wikia.org/wiki/Polyamorous
   name: Polyamory
 - colors:
   - '#71ee72'
   - '#c4c4c4'
   - '#ffbc51'
-  filename: assets/img/flags/open_relationship.png
+  filename: assets/img/flags/open_relationship/open_relationship.png
+  filename_set:
+    192w: assets/img/flags/open_relationship/open_relationship-4x.png
+    384w: assets/img/flags/open_relationship/open_relationship-8x.png
+    48w: assets/img/flags/open_relationship/open_relationship.png
+    768w: assets/img/flags/open_relationship/open_relationship-16x.png
+    96w: assets/img/flags/open_relationship/open_relationship-2x.png
+  link: https://lgbta.wikia.org/wiki/Open_Relationship
   name: Open Relationship
 - colors:
   - '#acacac'
@@ -374,27 +687,55 @@
   - '#ee444c'
   - '#acacac'
   - '#ac6bb9'
-  filename: assets/img/flags/triad.png
+  filename: assets/img/flags/triad/triad.png
+  filename_set:
+    160w: assets/img/flags/triad/triad-4x.png
+    320w: assets/img/flags/triad/triad-8x.png
+    40w: assets/img/flags/triad/triad.png
+    640w: assets/img/flags/triad/triad-16x.png
+    80w: assets/img/flags/triad/triad-2x.png
+  link: https://lgbta.wikia.org/wiki/Triad
   name: Triad
 - colors:
   - '#010180'
   - '#00dbd3'
   - '#ff966e'
   - '#ff4a35'
-  filename: assets/img/flags/quad.png
+  filename: assets/img/flags/quad/quad.png
+  filename_set:
+    1024w: assets/img/flags/quad/quad-16x.png
+    128w: assets/img/flags/quad/quad-2x.png
+    256w: assets/img/flags/quad/quad-4x.png
+    512w: assets/img/flags/quad/quad-8x.png
+    64w: assets/img/flags/quad/quad.png
+  link: https://lgbta.wikia.org/wiki/Quad_Polyamory
   name: Quad
 - colors:
   - '#ff9670'
   - '#ff4a35'
   - '#010180'
   - '#00dbd3'
-  filename: assets/img/flags/n_polyamory.png
+  filename: assets/img/flags/n_polyamory/n_polyamory.png
+  filename_set:
+    1024w: assets/img/flags/n_polyamory/n_polyamory-16x.png
+    128w: assets/img/flags/n_polyamory/n_polyamory-2x.png
+    256w: assets/img/flags/n_polyamory/n_polyamory-4x.png
+    512w: assets/img/flags/n_polyamory/n_polyamory-8x.png
+    64w: assets/img/flags/n_polyamory/n_polyamory.png
+  link: https://lgbta.wikia.org/wiki/N_Polyamory
   name: N Polyamory
 - colors:
   - '#41fefe'
   - '#010001'
   - '#6466ff'
-  filename: assets/img/flags/geographically_non_monogamy.png
+  filename: assets/img/flags/geographically_non_monogamy/geographically_non_monogamy.png
+  filename_set:
+    192w: assets/img/flags/geographically_non_monogamy/geographically_non_monogamy-4x.png
+    384w: assets/img/flags/geographically_non_monogamy/geographically_non_monogamy-8x.png
+    48w: assets/img/flags/geographically_non_monogamy/geographically_non_monogamy.png
+    768w: assets/img/flags/geographically_non_monogamy/geographically_non_monogamy-16x.png
+    96w: assets/img/flags/geographically_non_monogamy/geographically_non_monogamy-2x.png
+  link: https://lgbta.wikia.org/wiki/Geographically_Non-Monogamy
   name: Geographically Non-Monogamy
 - colors:
   - '#ee444c'
@@ -402,7 +743,14 @@
   - '#ac6bb9'
   - '#acacac'
   - '#ee444c'
-  filename: assets/img/flags/v_polyamory.png
+  filename: assets/img/flags/v_polyamory/v_polyamory.png
+  filename_set:
+    160w: assets/img/flags/v_polyamory/v_polyamory-4x.png
+    320w: assets/img/flags/v_polyamory/v_polyamory-8x.png
+    40w: assets/img/flags/v_polyamory/v_polyamory.png
+    640w: assets/img/flags/v_polyamory/v_polyamory-16x.png
+    80w: assets/img/flags/v_polyamory/v_polyamory-2x.png
+  link: https://lgbta.wikia.org/wiki/V_Polyamory
   name: V Polyamory
 - colors:
   - '#ac6bb9'
@@ -410,20 +758,41 @@
   - '#acacac'
   - '#ac6bb9'
   - '#ee444c'
-  filename: assets/img/flags/t_polyamory.png
+  filename: assets/img/flags/t_polyamory/t_polyamory.png
+  filename_set:
+    160w: assets/img/flags/t_polyamory/t_polyamory-4x.png
+    320w: assets/img/flags/t_polyamory/t_polyamory-8x.png
+    40w: assets/img/flags/t_polyamory/t_polyamory.png
+    640w: assets/img/flags/t_polyamory/t_polyamory-16x.png
+    80w: assets/img/flags/t_polyamory/t_polyamory-2x.png
+  link: https://lgbta.wikia.org/wiki/T_Polyamory
   name: T Polyamory
 - colors:
   - '#e4e459'
   - '#c79461'
   - '#962fdb'
-  filename: assets/img/flags/polyfidelity.png
+  filename: assets/img/flags/polyfidelity/polyfidelity.png
+  filename_set:
+    192w: assets/img/flags/polyfidelity/polyfidelity-4x.png
+    384w: assets/img/flags/polyfidelity/polyfidelity-8x.png
+    48w: assets/img/flags/polyfidelity/polyfidelity.png
+    768w: assets/img/flags/polyfidelity/polyfidelity-16x.png
+    96w: assets/img/flags/polyfidelity/polyfidelity-2x.png
+  link: https://lgbta.wikia.org/wiki/Polyfidelity
   name: Polyfidelity
 - colors:
   - '#ffffff'
   - '#ec1b24'
   - '#ff3999'
   - '#c4c4c4'
-  filename: assets/img/flags/monogamy.png
+  filename: assets/img/flags/monogamy/monogamy.png
+  filename_set:
+    1024w: assets/img/flags/monogamy/monogamy-16x.png
+    128w: assets/img/flags/monogamy/monogamy-2x.png
+    256w: assets/img/flags/monogamy/monogamy-4x.png
+    512w: assets/img/flags/monogamy/monogamy-8x.png
+    64w: assets/img/flags/monogamy/monogamy.png
+  link: https://lgbta.wikia.org/wiki/Monogamy
   name: Monogamy
 - colors:
   - '#010001'
@@ -435,13 +804,27 @@
   - '#ffffff'
   - '#ff9670'
   - '#ee444c'
-  filename: assets/img/flags/pluriad.png
+  filename: assets/img/flags/pluriad/pluriad.png
+  filename_set:
+    1152w: assets/img/flags/pluriad/pluriad-16x.png
+    144w: assets/img/flags/pluriad/pluriad-2x.png
+    288w: assets/img/flags/pluriad/pluriad-4x.png
+    576w: assets/img/flags/pluriad/pluriad-8x.png
+    72w: assets/img/flags/pluriad/pluriad.png
+  link: https://lgbta.wikia.org/wiki/Pluriad
   name: Pluriad
 - colors:
   - '#794da3'
   - '#ee89d2'
   - '#f4cc75'
-  filename: assets/img/flags/nonamorous.png
+  filename: assets/img/flags/nonamorous/nonamorous.png
+  filename_set:
+    192w: assets/img/flags/nonamorous/nonamorous-4x.png
+    384w: assets/img/flags/nonamorous/nonamorous-8x.png
+    48w: assets/img/flags/nonamorous/nonamorous.png
+    768w: assets/img/flags/nonamorous/nonamorous-16x.png
+    96w: assets/img/flags/nonamorous/nonamorous-2x.png
+  link: https://lgbta.wikia.org/wiki/Nonamorous
   name: Nonamorous
 - colors:
   - '#f3001b'
@@ -449,7 +832,14 @@
   - '#63459a'
   - '#3d2bdc'
   - '#010001'
-  filename: assets/img/flags/biamorous.png
+  filename: assets/img/flags/biamorous/biamorous.png
+  filename_set:
+    160w: assets/img/flags/biamorous/biamorous-4x.png
+    320w: assets/img/flags/biamorous/biamorous-8x.png
+    40w: assets/img/flags/biamorous/biamorous.png
+    640w: assets/img/flags/biamorous/biamorous-16x.png
+    80w: assets/img/flags/biamorous/biamorous-2x.png
+  link: https://lgbta.wikia.org/wiki/Biamorous
   name: Biamorous
 - colors:
   - '#0d75e8'
@@ -457,7 +847,14 @@
   - '#e8e831'
   - '#ef59a9'
   - '#4a0c8e'
-  filename: assets/img/flags/plurian.png
+  filename: assets/img/flags/plurian/plurian.png
+  filename_set:
+    160w: assets/img/flags/plurian/plurian-4x.png
+    320w: assets/img/flags/plurian/plurian-8x.png
+    40w: assets/img/flags/plurian/plurian.png
+    640w: assets/img/flags/plurian/plurian-16x.png
+    80w: assets/img/flags/plurian/plurian-2x.png
+  link: https://lgbta.wikia.org/wiki/Plurian
   name: Plurian
 - colors:
   - '#08360a'
@@ -465,13 +862,27 @@
   - '#ffffff'
   - '#b3b2b3'
   - '#010001'
-  filename: assets/img/flags/aromantic.png
+  filename: assets/img/flags/aromantic/aromantic.png
+  filename_set:
+    160w: assets/img/flags/aromantic/aromantic-4x.png
+    320w: assets/img/flags/aromantic/aromantic-8x.png
+    40w: assets/img/flags/aromantic/aromantic.png
+    640w: assets/img/flags/aromantic/aromantic-16x.png
+    80w: assets/img/flags/aromantic/aromantic-2x.png
+  link: https://lgbta.wikia.org/wiki/Aromantic
   name: Aromantic
 - colors:
   - '#ffffff'
   - '#d2d2d2'
-  filename: assets/img/flags/demiromantic.png
+  filename: assets/img/flags/demiromantic/demiromantic.png
+  filename_set:
+    120w: assets/img/flags/demiromantic/demiromantic-2x.png
+    240w: assets/img/flags/demiromantic/demiromantic-4x.png
+    480w: assets/img/flags/demiromantic/demiromantic-8x.png
+    60w: assets/img/flags/demiromantic/demiromantic.png
+    960w: assets/img/flags/demiromantic/demiromantic-16x.png
   line: '#3ea544'
+  link: https://lgbta.wikia.org/wiki/Demiromantic
   name: Demiromantic
   triangle:
   - '#010001'
@@ -479,7 +890,14 @@
   - '#93d2e4'
   - '#3ea442'
   - '#7b7b7b'
-  filename: assets/img/flags/autoromantic.png
+  filename: assets/img/flags/autoromantic/autoromantic.png
+  filename_set:
+    192w: assets/img/flags/autoromantic/autoromantic-4x.png
+    384w: assets/img/flags/autoromantic/autoromantic-8x.png
+    48w: assets/img/flags/autoromantic/autoromantic.png
+    768w: assets/img/flags/autoromantic/autoromantic-16x.png
+    96w: assets/img/flags/autoromantic/autoromantic-2x.png
+  link: https://lgbta.wikia.org/wiki/Autoromantic
   name: Autoromantic
 - colors:
   - '#ffffff'
@@ -487,7 +905,14 @@
   - '#81b2e1'
   - '#8085e3'
   - '#b480e1'
-  filename: assets/img/flags/andromantic.png
+  filename: assets/img/flags/andromantic/andromantic.png
+  filename_set:
+    160w: assets/img/flags/andromantic/andromantic-4x.png
+    320w: assets/img/flags/andromantic/andromantic-8x.png
+    40w: assets/img/flags/andromantic/andromantic.png
+    640w: assets/img/flags/andromantic/andromantic-16x.png
+    80w: assets/img/flags/andromantic/andromantic-2x.png
+  link: https://lgbta.wikia.org/wiki/Andromantic
   name: Andromantic
 - colors:
   - '#69ff76'
@@ -497,7 +922,14 @@
   - '#ffffff'
   - '#666666'
   - '#010001'
-  filename: assets/img/flags/myrromantic.png
+  filename: assets/img/flags/myrromantic/myrromantic.png
+  filename_set:
+    112w: assets/img/flags/myrromantic/myrromantic-2x.png
+    224w: assets/img/flags/myrromantic/myrromantic-4x.png
+    448w: assets/img/flags/myrromantic/myrromantic-8x.png
+    56w: assets/img/flags/myrromantic/myrromantic.png
+    896w: assets/img/flags/myrromantic/myrromantic-16x.png
+  link: https://lgbta.wikia.org/wiki/Myrromantic
   name: Myrromantic
 - colors:
   - '#000000'
@@ -508,7 +940,14 @@
   - '#3a7f30'
   - '#1c50f6'
   - '#6b1783'
-  filename: assets/img/flags/people_of_color_pride.png
+  filename: assets/img/flags/people_of_color_pride/people_of_color_pride.png
+  filename_set:
+    1024w: assets/img/flags/people_of_color_pride/people_of_color_pride-16x.png
+    128w: assets/img/flags/people_of_color_pride/people_of_color_pride-2x.png
+    256w: assets/img/flags/people_of_color_pride/people_of_color_pride-4x.png
+    512w: assets/img/flags/people_of_color_pride/people_of_color_pride-8x.png
+    64w: assets/img/flags/people_of_color_pride/people_of_color_pride.png
+  link: https://en.wikipedia.org/wiki/Rainbow_flag_(LGBT)
   name: People of Color Pride
 - colors:
   - '#c33d1e'
@@ -518,7 +957,14 @@
   - '#c269a2'
   - '#a85c8e'
   - '#951f60'
-  filename: assets/img/flags/lipstick_lesbian.png
+  filename: assets/img/flags/lipstick_lesbian/lipstick_lesbian.png
+  filename_set:
+    112w: assets/img/flags/lipstick_lesbian/lipstick_lesbian-2x.png
+    224w: assets/img/flags/lipstick_lesbian/lipstick_lesbian-4x.png
+    448w: assets/img/flags/lipstick_lesbian/lipstick_lesbian-8x.png
+    56w: assets/img/flags/lipstick_lesbian/lipstick_lesbian.png
+    896w: assets/img/flags/lipstick_lesbian/lipstick_lesbian-16x.png
+  link: https://lgbta.wikia.org/wiki/Lesbian
   name: Lipstick Lesbian
 - colors:
   - '#364071'
@@ -528,7 +974,14 @@
   - '#c1b3de'
   - '#784cc7'
   - '#52028a'
-  filename: assets/img/flags/butch_lesbian.png
+  filename: assets/img/flags/butch_lesbian/butch_lesbian.png
+  filename_set:
+    112w: assets/img/flags/butch_lesbian/butch_lesbian-2x.png
+    224w: assets/img/flags/butch_lesbian/butch_lesbian-4x.png
+    448w: assets/img/flags/butch_lesbian/butch_lesbian-8x.png
+    56w: assets/img/flags/butch_lesbian/butch_lesbian.png
+    896w: assets/img/flags/butch_lesbian/butch_lesbian-16x.png
+  link: https://lgbta.wikia.org/wiki/Lesbian
   name: Butch Lesbian
 - colors:
   - '#643806'
@@ -539,7 +992,14 @@
   - '#565556'
   - '#951f60'
   - '#010001'
-  filename: assets/img/flags/bears.png
+  filename: assets/img/flags/bears/bears.png
+  filename_set:
+    1024w: assets/img/flags/bears/bears-16x.png
+    128w: assets/img/flags/bears/bears-2x.png
+    256w: assets/img/flags/bears/bears-4x.png
+    512w: assets/img/flags/bears/bears-8x.png
+    64w: assets/img/flags/bears/bears.png
+  link: https://lgbta.wikia.org/wiki/Bear
   name: Bears
 - colors:
   - '#6ec5fe'
@@ -547,20 +1007,40 @@
   - '#ffffff'
   - '#b5b4b5'
   - '#2b2a2b'
-  filename: assets/img/flags/otters.png
+  filename: assets/img/flags/otters/otters.png
+  filename_set:
+    160w: assets/img/flags/otters/otters-4x.png
+    320w: assets/img/flags/otters/otters-8x.png
+    40w: assets/img/flags/otters/otters.png
+    640w: assets/img/flags/otters/otters-16x.png
+    80w: assets/img/flags/otters/otters-2x.png
+  link: https://lgbta.wikia.org/wiki/Otter
   name: Otters
 - colors:
   - '#ffb1ff'
   - '#ffffff'
   - '#ffff80'
-  filename: assets/img/flags/twinks.png
+  filename: assets/img/flags/twinks/twinks.png
+  filename_set:
+    192w: assets/img/flags/twinks/twinks-4x.png
+    384w: assets/img/flags/twinks/twinks-8x.png
+    48w: assets/img/flags/twinks/twinks.png
+    768w: assets/img/flags/twinks/twinks-16x.png
+    96w: assets/img/flags/twinks/twinks-2x.png
+  link: https://lgbta.wikia.org/wiki/Twink
   name: Twinks
 - colors:
   - '#010001'
   - '#246b3a'
   - '#269025'
   - '#5d5c27'
-  filename: assets/img/flags/military.png
+  filename: assets/img/flags/military/military.png
+  filename_set:
+    1024w: assets/img/flags/military/military-16x.png
+    128w: assets/img/flags/military/military-2x.png
+    256w: assets/img/flags/military/military-4x.png
+    512w: assets/img/flags/military/military-8x.png
+    64w: assets/img/flags/military/military.png
   name: Military
 - colors:
   - '#050b08'
@@ -568,7 +1048,13 @@
   - '#faf6c2'
   - '#66474d'
   - '#0a090a'
-  filename: assets/img/flags/fat_chubby.png
+  filename: assets/img/flags/fat_chubby/fat_chubby.png
+  filename_set:
+    160w: assets/img/flags/fat_chubby/fat_chubby-4x.png
+    320w: assets/img/flags/fat_chubby/fat_chubby-8x.png
+    40w: assets/img/flags/fat_chubby/fat_chubby.png
+    640w: assets/img/flags/fat_chubby/fat_chubby-16x.png
+    80w: assets/img/flags/fat_chubby/fat_chubby-2x.png
   name: Fat/Chubby
 - colors:
   - '#010001'
@@ -580,7 +1066,13 @@
   - '#010001'
   - '#0a235c'
   - '#010001'
-  filename: assets/img/flags/poz.png
+  filename: assets/img/flags/poz/poz.png
+  filename_set:
+    1152w: assets/img/flags/poz/poz-16x.png
+    144w: assets/img/flags/poz/poz-2x.png
+    288w: assets/img/flags/poz/poz-4x.png
+    576w: assets/img/flags/poz/poz-8x.png
+    72w: assets/img/flags/poz/poz.png
   name: Poz
 - colors:
   - '#010001'
@@ -592,7 +1084,14 @@
   - '#010001'
   - '#2b297f'
   - '#010001'
-  filename: assets/img/flags/leather_fetish.png
+  filename: assets/img/flags/leather_fetish/leather_fetish.png
+  filename_set:
+    1152w: assets/img/flags/leather_fetish/leather_fetish-16x.png
+    144w: assets/img/flags/leather_fetish/leather_fetish-2x.png
+    288w: assets/img/flags/leather_fetish/leather_fetish-4x.png
+    576w: assets/img/flags/leather_fetish/leather_fetish-8x.png
+    72w: assets/img/flags/leather_fetish/leather_fetish.png
+  link: https://lgbt.wikia.org/wiki/Leather_Pride_flag
   name: Leather/Fetish
 - colors:
   - '#313e83'
@@ -600,5 +1099,11 @@
   - '#3fc5ec'
   - '#6c35a9'
   - '#313e83'
-  filename: assets/img/flags/vore.png
+  filename: assets/img/flags/vore/vore.png
+  filename_set:
+    160w: assets/img/flags/vore/vore-4x.png
+    320w: assets/img/flags/vore/vore-8x.png
+    40w: assets/img/flags/vore/vore.png
+    640w: assets/img/flags/vore/vore-16x.png
+    80w: assets/img/flags/vore/vore-2x.png
   name: Vore

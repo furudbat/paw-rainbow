@@ -4,6 +4,7 @@
     - '#a3a3a3'
     - '#ffffff'
     - '#800080'
+  link: https://lgbta.wikia.org/wiki/Asexual
 - name: Bisexual
   colors:
     - '#d60270'
@@ -11,11 +12,13 @@
     - '#9b4f96'
     - '#0038a8'
     - '#0038a8'
+  link: https://lgbta.wikia.org/wiki/Bisexual
 - name: Pansexual
   colors:
     - '#e93d8c'
     - '#f9da49'
     - '#55b1f9'
+  link: https://lgbta.wikia.org/wiki/Pansexual
 - name: Lesbian
   colors:
     - '#d72d01'
@@ -23,6 +26,7 @@
     - '#ffffff'
     - '#d462a6'
     - '#a40163'
+  link: https://lgbta.wikia.org/wiki/Lesbian
 - name: Gay Men
   colors:
     - '#007071'
@@ -32,6 +36,7 @@
     - '#91fcf0'
     - '#1878ff'
     - '#0e184d'
+  link: https://lgbta.wikia.org/wiki/Vincian
 - name: Demisexual
   colors:
     - '#ffffff'
@@ -39,11 +44,13 @@
   triangle:
     - '#010001'
   line: '#67236d'
+  link: https://lgbta.wikia.org/wiki/Demisexual
 - name: Polysexual
   colors:
     - '#c84793'
     - '#4bb166'
     - '#4288c8'
+  link: https://lgbta.wikia.org/wiki/Polysexual
 - name: Greysexual
   colors:
     - '#6a0c80'
@@ -51,15 +58,18 @@
     - '#f0dff2'
     - '#a595a7'
     - '#6a0c80'
+  link: https://lgbta.wikia.org/wiki/Greyasexual
 - name: Autosexual
   colors:
     - '#9adbec'
     - '#7b7e7b'
+  link: https://lgbta.wikia.org/wiki/Autosexual
 - name: Androsexual
   colors:
     - '#01ccff'
     - '#603524'
     - '#b799de'
+  link: https://lgbta.wikia.org/wiki/Androsexual
 - name: Myrsexual
   colors:
     - '#801ca4'
@@ -69,6 +79,7 @@
     - '#ffffff'
     - '#666666'
     - '#010001'
+  link: https://lgbta.wikia.org/wiki/Myrsexual
 - name: Omnisexual
   colors:
     - '#ff9ace'
@@ -76,3 +87,4 @@
     - '#270047'
     - '#675dff'
     - '#8da5ff'
+  link: https://lgbta.wikia.org/wiki/Omnisexual
