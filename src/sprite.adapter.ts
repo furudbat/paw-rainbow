@@ -50,8 +50,6 @@ export class SpriteAdapter {
         });
         
         this.updateSprite();
-        this.updateDownloadButton();
-        this.updateGrid();
 
         this.initObservers();
     }

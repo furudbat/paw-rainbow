@@ -63013,6 +63013,42 @@ var Orientation;
 
 },{}],66:[function(require,module,exports){
 "use strict";
+var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
+    function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
+    return new (P || (P = Promise))(function (resolve, reject) {
+        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }
+        function rejected(value) { try { step(generator["throw"](value)); } catch (e) { reject(e); } }
+        function step(result) { result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected); }
+        step((generator = generator.apply(thisArg, _arguments || [])).next());
+    });
+};
+var __generator = (this && this.__generator) || function (thisArg, body) {
+    var _ = { label: 0, sent: function() { if (t[0] & 1) throw t[1]; return t[1]; }, trys: [], ops: [] }, f, y, t, g;
+    return g = { next: verb(0), "throw": verb(1), "return": verb(2) }, typeof Symbol === "function" && (g[Symbol.iterator] = function() { return this; }), g;
+    function verb(n) { return function (v) { return step([n, v]); }; }
+    function step(op) {
+        if (f) throw new TypeError("Generator is already executing.");
+        while (_) try {
+            if (f = 1, y && (t = op[0] & 2 ? y["return"] : op[0] ? y["throw"] || ((t = y["return"]) && t.call(y), 0) : y.next) && !(t = t.call(y, op[1])).done) return t;
+            if (y = 0, t) op = [op[0] & 2, t.value];
+            switch (op[0]) {
+                case 0: case 1: t = op; break;
+                case 4: _.label++; return { value: op[1], done: false };
+                case 5: _.label++; y = op[1]; op = [0]; continue;
+                case 7: op = _.ops.pop(); _.trys.pop(); continue;
+                default:
+                    if (!(t = _.trys, t = t.length > 0 && t[t.length - 1]) && (op[0] === 6 || op[0] === 2)) { _ = 0; continue; }
+                    if (op[0] === 3 && (!t || (op[1] > t[0] && op[1] < t[3]))) { _.label = op[1]; break; }
+                    if (op[0] === 6 && _.label < t[1]) { _.label = t[1]; t = op; break; }
+                    if (t && _.label < t[2]) { _.label = t[2]; _.ops.push(op); break; }
+                    if (t[2]) _.ops.pop();
+                    _.trys.pop(); continue;
+            }
+            op = body.call(thisArg, _);
+        } catch (e) { op = [6, e]; y = 0; } finally { f = t = 0; }
+        if (op[0] & 5) throw op[1]; return { value: op[0] ? op[1] : void 0, done: true };
+    }
+};
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.FormPartsAdapter = void 0;
 var application_data_1 = require("./application.data");
@@ -63020,9 +63056,18 @@ var flags_data_1 = require("./flags.data");
 var site_1 = require("./site");
 var typescript_logger_1 = require("typescript-logger");
 require("select2");
+var FLAG_NAME_NONE_DEFAULT = 'None';
 var FormPartsAdapter = (function () {
     function FormPartsAdapter(appData) {
+        this._cacheSpriteMetaData = {};
+        this._cacheFlagNames = {};
         this.log = typescript_logger_1.LoggerManager.create('FormPartsAdapter');
+        this.DEFAULT_FLAG_NAME_KEY = 'default_flag_name';
+        this.SELECTED_FORM_SPRITES_KEY = 'selected_form_sprites';
+        this.MASK_SPRITE_KEY = 'mask_sprite';
+        this.DEFAULT_SPRITE_KEY = 'default_sprite';
+        this.SELECTED_PART_KEY = 'selected_part';
+        this.SELECTABLE_PARTS_KEY = 'selectable_parts';
         this._appData = appData;
     }
     FormPartsAdapter.prototype.init = function () {
@@ -63046,6 +63091,57 @@ var FormPartsAdapter = (function () {
         this._appData.currentSelection = this._appData.currentSelection;
         this.updateUI();
     };
+    FormPartsAdapter.prototype.updateUI = function () {
+        $('#btnSelectForm').empty();
+        for (var _i = 0, _a = site_1.site.data.flags_config.forms; _i < _a.length; _i++) {
+            var form = _a[_i];
+            var form_name = site_1.site.data.strings.select_form[form];
+            var btn_class = (this._appData.currentSelection.form == form) ? 'btn-primary' : 'btn-secondary';
+            var btn = "<button type=\"button\" class=\"btn " + btn_class + " btn-select-form\" data-form=\"" + form + "\">" + form_name + "</button>";
+            $('#btnSelectForm').append(btn);
+        }
+        var that = this;
+        var formGroupGenerator = function () {
+            var _i, _a, part;
+            return __generator(this, function (_b) {
+                switch (_b.label) {
+                    case 0:
+                        _i = 0, _a = that.parts_list;
+                        _b.label = 1;
+                    case 1:
+                        if (!(_i < _a.length)) return [3, 4];
+                        part = _a[_i];
+                        return [4, that.renderSelectElement(that.current_form, part, false)];
+                    case 2:
+                        _b.sent();
+                        _b.label = 3;
+                    case 3:
+                        _i++;
+                        return [3, 1];
+                    case 4: return [2];
+                }
+            });
+        };
+        var formGroupIter = formGroupGenerator();
+        $('#lstSelectContainer').empty();
+        while (true) {
+            var formGroupIt = formGroupIter.next();
+            this.log.debug('updateUI formGroupGenerator', formGroupIt);
+            if (formGroupIt.done) {
+                break;
+            }
+            $('#lstSelectContainer').append(formGroupIt.value);
+        }
+        $('.select-part').each(function () {
+            var part = $(this).data('part');
+            var label = site_1.site.data.strings.select_parts[part];
+            $(this).select2({
+                theme: 'bootstrap4',
+                placeholder: label
+            });
+        });
+        this.initEvents();
+    };
     Object.defineProperty(FormPartsAdapter.prototype, "current_form", {
         get: function () {
             return this._appData.currentSelection.form;
@@ -63067,35 +63163,15 @@ var FormPartsAdapter = (function () {
         enumerable: false,
         configurable: true
     });
-    FormPartsAdapter.prototype.updateUI = function () {
-        $('#btnSelectForm').empty();
-        for (var _i = 0, _a = site_1.site.data.flags_config.forms; _i < _a.length; _i++) {
-            var form = _a[_i];
-            var form_name = site_1.site.data.strings.select_form[form];
-            var btn_class = (this._appData.currentSelection.form == form) ? 'btn-primary' : 'btn-secondary';
-            var btn = "<button type=\"button\" class=\"btn " + btn_class + " btn-select-form\" data-form=\"" + form + "\">" + form_name + "</button>";
-            $('#btnSelectForm').append(btn);
-        }
-        $('#lstSelectContainer').empty();
-        for (var _b = 0, _c = this.parts_list; _b < _c.length; _b++) {
-            var part = _c[_b];
-            var form_group = this.renderSelectElement(this.current_form, part, false);
-            $('#lstSelectContainer').append(form_group);
-        }
-        $('.select-part').each(function () {
-            var part = $(this).data('part');
-            var label = site_1.site.data.strings.select_parts[part];
-            $(this).select2({
-                theme: 'bootstrap4',
-                placeholder: label
-            });
-        });
-        this.initEvents();
-    };
     Object.defineProperty(FormPartsAdapter.prototype, "default_flag_name", {
         get: function () {
             var _a, _b;
-            return (_b = (_a = site_1.site.data.sprites.find(function (it) { return it.default; })) === null || _a === void 0 ? void 0 : _a.flag_name) !== null && _b !== void 0 ? _b : 'None';
+            if (this.DEFAULT_FLAG_NAME_KEY in this._cacheFlagNames) {
+                return this._cacheFlagNames[this.DEFAULT_FLAG_NAME_KEY];
+            }
+            var ret = (_b = (_a = site_1.site.data.sprites.find(function (it) { return it.default; })) === null || _a === void 0 ? void 0 : _a.flag_name) !== null && _b !== void 0 ? _b : FLAG_NAME_NONE_DEFAULT;
+            this._cacheFlagNames[this.DEFAULT_FLAG_NAME_KEY] = ret;
+            return ret;
         },
         enumerable: false,
         configurable: true
@@ -63103,7 +63179,12 @@ var FormPartsAdapter = (function () {
     Object.defineProperty(FormPartsAdapter.prototype, "selected_form_sprites", {
         get: function () {
             var _this = this;
-            return site_1.site.data.sprites.filter(function (it) { return it.form == _this.current_form && (it.mask === undefined || !it.mask); });
+            if (this.SELECTED_FORM_SPRITES_KEY in this._cacheSpriteMetaData) {
+                return this._cacheSpriteMetaData[this.SELECTED_FORM_SPRITES_KEY];
+            }
+            var ret = site_1.site.data.sprites.filter(function (it) { return it.form == _this.current_form && (it.mask === undefined || !it.mask); });
+            this._cacheSpriteMetaData[this.SELECTED_FORM_SPRITES_KEY] = ret;
+            return ret;
         },
         enumerable: false,
         configurable: true
@@ -63111,7 +63192,12 @@ var FormPartsAdapter = (function () {
     Object.defineProperty(FormPartsAdapter.prototype, "mask_sprite", {
         get: function () {
             var _this = this;
-            return site_1.site.data.sprites.filter(function (it) { return it.form == _this.current_form && it.mask !== undefined; });
+            if (this.MASK_SPRITE_KEY in this._cacheSpriteMetaData && this._cacheSpriteMetaData[this.MASK_SPRITE_KEY].length > 0) {
+                return this._cacheSpriteMetaData[this.MASK_SPRITE_KEY][0];
+            }
+            var ret = site_1.site.data.sprites.filter(function (it) { return it.form == _this.current_form && it.mask !== undefined; });
+            this._cacheSpriteMetaData[this.MASK_SPRITE_KEY] = ret;
+            return (ret.length) ? ret[0] : undefined;
         },
         enumerable: false,
         configurable: true
@@ -63119,7 +63205,12 @@ var FormPartsAdapter = (function () {
     Object.defineProperty(FormPartsAdapter.prototype, "default_sprite", {
         get: function () {
             var _this = this;
-            return site_1.site.data.sprites.filter(function (it) { return it.form == _this.current_form && it.default !== undefined; });
+            if (this.DEFAULT_SPRITE_KEY in this._cacheSpriteMetaData && this._cacheSpriteMetaData[this.DEFAULT_SPRITE_KEY].length > 0) {
+                return this._cacheSpriteMetaData[this.DEFAULT_SPRITE_KEY][0];
+            }
+            var ret = site_1.site.data.sprites.filter(function (it) { return it.form == _this.current_form && it.default !== undefined; });
+            this._cacheSpriteMetaData[this.DEFAULT_SPRITE_KEY] = ret;
+            return (ret.length) ? ret[0] : undefined;
         },
         enumerable: false,
         configurable: true
@@ -63127,10 +63218,23 @@ var FormPartsAdapter = (function () {
     FormPartsAdapter.prototype.getSelectedPart = function (part) {
         var selected_part_orientation = (part in this._appData.currentSelection.parts) ? this._appData.currentSelection.parts[part].orientation : undefined;
         var selected_part_flag_name = (part in this._appData.currentSelection.parts) ? this._appData.currentSelection.parts[part].flag_name : undefined;
-        return this.selected_form_sprites.find(function (it) { return it.flag_name === selected_part_flag_name && it.orientation === selected_part_orientation && it.part === part; });
+        if (selected_part_orientation === undefined || selected_part_flag_name === undefined) {
+            return undefined;
+        }
+        var key = this.SELECTED_PART_KEY + "_" + selected_part_flag_name + "_" + selected_part_orientation;
+        if (key in this._cacheSpriteMetaData && this._cacheSpriteMetaData[key].length > 0) {
+            return this._cacheSpriteMetaData[key][0];
+        }
+        var ret = this.selected_form_sprites.filter(function (it) { return it.flag_name === selected_part_flag_name && it.orientation === selected_part_orientation && it.part === part; });
+        this._cacheSpriteMetaData[key] = ret;
+        return (ret.length) ? ret[0] : undefined;
     };
     FormPartsAdapter.prototype.getSelectableParts = function (part) {
-        return this.selected_form_sprites.filter(function (it) { return it.part == part; }).sort(function (a, b) {
+        var key = this.SELECTABLE_PARTS_KEY + "_" + part;
+        if (key in this._cacheSpriteMetaData) {
+            return this._cacheSpriteMetaData[key];
+        }
+        var ret = this.selected_form_sprites.filter(function (it) { return it.part == part; }).sort(function (a, b) {
             if (a.flag_name > b.flag_name) {
                 return -1;
             }
@@ -63138,7 +63242,9 @@ var FormPartsAdapter = (function () {
                 return 1;
             }
             return 0;
-        });
+        }).reverse();
+        this._cacheSpriteMetaData[key] = ret;
+        return ret;
     };
     FormPartsAdapter.prototype.getListId = function (form, part) {
         return "lstSelect" + form + part;
@@ -63185,7 +63291,7 @@ var FormPartsAdapter = (function () {
             var filter = _a[_i];
             _loop_1(filter);
         }
-        var icon_filename = (selected_part) ? this.getIconURL(selected_part) : '';
+        var icon_filename = (selected_part !== undefined) ? this.getIconURL(selected_part) : '';
         var label = (show_label) ? "<label for=\"" + lstId + "\" class=\"select-part-label\">" + part_name + "</label>" : '';
         return "<div class=\"form-group\">\n            " + label + "\n            <div class=\"input-group\">\n                <div class=\"input-group-prepend select-part-icon-container d-flex align-items-center justify-content-center\" data-form=\"" + form + "\" data-part=\"" + part + "\" data-flag-name=\"" + (selected_part === null || selected_part === void 0 ? void 0 : selected_part.flag_name) + "\">\n                    <img src=\"" + icon_filename + "\" class=\"img-fluid clickable-flag select-part-icon flag-item-icon\" data-form=\"" + form + "\" data-part=\"" + part + "\" data-flag-name=\"" + (selected_part === null || selected_part === void 0 ? void 0 : selected_part.flag_name) + "\" alt=\"Selected Icon " + (selected_part === null || selected_part === void 0 ? void 0 : selected_part.flag_name) + "\">\n                </div>\n                <select id=\"" + lstId + "\" class=\"custom-select select-part\" data-form=\"" + form + "\" data-part=\"" + part + "\" data-list-id=\"" + lstId + "\">\n                    " + selects + "\n                </select>\n                <div class=\"input-group-append\">\n                    <button class=\"btn " + select_orientation_vertical_class + " select-part-orientation select-part-orientation-vertical\" type=\"button\" data-form=\"" + form + "\" data-part=\"" + part + "\" data-orientation=\"" + flags_data_1.Orientation.Vertical + "\" data-list-id=\"" + lstId + "\" data-flag-name=\"" + selected_part_flag_name + "\" id=\"" + btnSelectOrientationVerticalId + "\" " + select_orientation_vertical_disabled + ">\n                        <i class=\"fas fa-bars\" data-fa-transform=\"rotate-90\"></i>\n                        <span class=\"sr-only\">Select Vertical</span>\n                    </button>\n                    <button class=\"btn " + select_orientation_horizontal_class + " select-part-orientation select-part-orientation-horizontal\" type=\"button\" data-form=\"" + form + "\" data-part=\"" + part + "\" data-orientation=\"" + flags_data_1.Orientation.Horizontal + "\" data-list-id=\"" + lstId + "\" data-flag-name=\"" + selected_part_flag_name + "\" id=\"" + btnSelectOrientationHorizontalId + "\" " + select_orientation_horizontal_disabled + ">\n                        <i class=\"fas fa-bars\"></i>\n                        <span class=\"sr-only\">Select Horizontal</span>\n                    </button>\n                </div>\n            </div>\n        </div>";
     };
@@ -63193,34 +63299,42 @@ var FormPartsAdapter = (function () {
         var that = this;
         $('.btn-select-form').off('click').on('click', function () {
             var form = $(this).data('form');
+            $(this).prop('disabled', true);
             that.setForm(form);
+            $(this).prop('disabled', false);
         });
         var updateOrientation = function (selected_flag_name, orientation, form, part) {
-            var selectable_parts = that.getSelectableParts(part);
-            var selectable_horizontal_parts = selectable_parts.filter(function (it) { return it.orientation == flags_data_1.Orientation.Horizontal; });
-            var selectable_vertical_parts = selectable_parts.filter(function (it) { return it.orientation == flags_data_1.Orientation.Vertical; });
-            $('.select-part-orientation').each(function () {
-                var btn_form = $(this).data('form');
-                var btn_part = $(this).data('part');
-                var btn_orientation = $(this).data('orientation');
-                if (btn_form == form && btn_part == part) {
-                    var select_orientation_horizontal_class = (orientation === flags_data_1.Orientation.Horizontal) ? 'btn-primary' : 'btn-outline-secondary';
-                    var select_orientation_vertical_class = (orientation === flags_data_1.Orientation.Vertical) ? 'btn-primary' : 'btn-outline-secondary';
-                    var select_orientation_horizontal_disabled = selectable_horizontal_parts.find(function (it) { return it.flag_name === selected_flag_name && it.orientation === flags_data_1.Orientation.Horizontal && it.flags_fits; }) === undefined;
-                    var select_orientation_vertical_disabled = selectable_vertical_parts.find(function (it) { return it.flag_name === selected_flag_name && it.orientation === flags_data_1.Orientation.Vertical && it.flags_fits; }) === undefined;
-                    $(this).removeClass('btn-primary').removeClass('btn-outline-secondary');
-                    $(this).data('flag-name', selected_flag_name);
-                    switch (btn_orientation) {
-                        case flags_data_1.Orientation.Horizontal:
-                            $(this).addClass(select_orientation_horizontal_class);
-                            $(this).prop('disabled', select_orientation_horizontal_disabled);
-                            break;
-                        case flags_data_1.Orientation.Vertical:
-                            $(this).addClass(select_orientation_vertical_class);
-                            $(this).prop('disabled', select_orientation_vertical_disabled);
-                            break;
-                    }
-                }
+            return __awaiter(this, void 0, void 0, function () {
+                var selectable_parts, selectable_horizontal_parts, selectable_vertical_parts;
+                return __generator(this, function (_a) {
+                    selectable_parts = that.getSelectableParts(part);
+                    selectable_horizontal_parts = selectable_parts.filter(function (it) { return it.orientation == flags_data_1.Orientation.Horizontal; });
+                    selectable_vertical_parts = selectable_parts.filter(function (it) { return it.orientation == flags_data_1.Orientation.Vertical; });
+                    $('.select-part-orientation').each(function () {
+                        var btn_form = $(this).data('form');
+                        var btn_part = $(this).data('part');
+                        var btn_orientation = $(this).data('orientation');
+                        if (btn_form == form && btn_part == part) {
+                            var select_orientation_horizontal_class = (orientation === flags_data_1.Orientation.Horizontal) ? 'btn-primary' : 'btn-outline-secondary';
+                            var select_orientation_vertical_class = (orientation === flags_data_1.Orientation.Vertical) ? 'btn-primary' : 'btn-outline-secondary';
+                            var select_orientation_horizontal_disabled = selectable_horizontal_parts.find(function (it) { return it.flag_name === selected_flag_name && it.orientation === flags_data_1.Orientation.Horizontal && it.flags_fits; }) === undefined;
+                            var select_orientation_vertical_disabled = selectable_vertical_parts.find(function (it) { return it.flag_name === selected_flag_name && it.orientation === flags_data_1.Orientation.Vertical && it.flags_fits; }) === undefined;
+                            $(this).removeClass('btn-primary').removeClass('btn-outline-secondary');
+                            $(this).data('flag-name', selected_flag_name);
+                            switch (btn_orientation) {
+                                case flags_data_1.Orientation.Horizontal:
+                                    $(this).addClass(select_orientation_horizontal_class);
+                                    $(this).prop('disabled', select_orientation_horizontal_disabled);
+                                    break;
+                                case flags_data_1.Orientation.Vertical:
+                                    $(this).addClass(select_orientation_vertical_class);
+                                    $(this).prop('disabled', select_orientation_vertical_disabled);
+                                    break;
+                            }
+                        }
+                    });
+                    return [2];
+                });
             });
         };
         $('.select-part').off('select2:select').on('select2:select', function () {
@@ -63297,6 +63411,42 @@ $(function () {
 
 },{"./application":63,"./site":69,"typescript-logger":56}],68:[function(require,module,exports){
 "use strict";
+var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
+    function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
+    return new (P || (P = Promise))(function (resolve, reject) {
+        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }
+        function rejected(value) { try { step(generator["throw"](value)); } catch (e) { reject(e); } }
+        function step(result) { result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected); }
+        step((generator = generator.apply(thisArg, _arguments || [])).next());
+    });
+};
+var __generator = (this && this.__generator) || function (thisArg, body) {
+    var _ = { label: 0, sent: function() { if (t[0] & 1) throw t[1]; return t[1]; }, trys: [], ops: [] }, f, y, t, g;
+    return g = { next: verb(0), "throw": verb(1), "return": verb(2) }, typeof Symbol === "function" && (g[Symbol.iterator] = function() { return this; }), g;
+    function verb(n) { return function (v) { return step([n, v]); }; }
+    function step(op) {
+        if (f) throw new TypeError("Generator is already executing.");
+        while (_) try {
+            if (f = 1, y && (t = op[0] & 2 ? y["return"] : op[0] ? y["throw"] || ((t = y["return"]) && t.call(y), 0) : y.next) && !(t = t.call(y, op[1])).done) return t;
+            if (y = 0, t) op = [op[0] & 2, t.value];
+            switch (op[0]) {
+                case 0: case 1: t = op; break;
+                case 4: _.label++; return { value: op[1], done: false };
+                case 5: _.label++; y = op[1]; op = [0]; continue;
+                case 7: op = _.ops.pop(); _.trys.pop(); continue;
+                default:
+                    if (!(t = _.trys, t = t.length > 0 && t[t.length - 1]) && (op[0] === 6 || op[0] === 2)) { _ = 0; continue; }
+                    if (op[0] === 3 && (!t || (op[1] > t[0] && op[1] < t[3]))) { _.label = op[1]; break; }
+                    if (op[0] === 6 && _.label < t[1]) { _.label = t[1]; t = op; break; }
+                    if (t && _.label < t[2]) { _.label = t[2]; _.ops.push(op); break; }
+                    if (t[2]) _.ops.pop();
+                    _.trys.pop(); continue;
+            }
+            op = body.call(thisArg, _);
+        } catch (e) { op = [6, e]; y = 0; } finally { f = t = 0; }
+        if (op[0] & 5) throw op[1]; return { value: op[0] ? op[1] : void 0, done: true };
+    }
+};
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.DataListSubject = exports.DataSubject = void 0;
 var typescript_logger_1 = require("typescript-logger");
@@ -63341,11 +63491,17 @@ var DataSubject = (function () {
         this.log.debug('Subject: Detached an observer.', observer);
     };
     DataSubject.prototype.notify = function () {
-        this.log.debug('Subject: Notifying observers...', this._state);
-        for (var _i = 0, _a = this.observers; _i < _a.length; _i++) {
-            var observer = _a[_i];
-            observer.update(this);
-        }
+        return __awaiter(this, void 0, void 0, function () {
+            var _i, _a, observer;
+            return __generator(this, function (_b) {
+                this.log.debug('Subject: Notifying observers...', this._state);
+                for (_i = 0, _a = this.observers; _i < _a.length; _i++) {
+                    observer = _a[_i];
+                    observer.update(this);
+                }
+                return [2];
+            });
+        });
     };
     return DataSubject;
 }());
@@ -63452,32 +63608,56 @@ var DataListSubject = (function () {
         this.log.debug('Subject: Detached an observer.', observer);
     };
     DataListSubject.prototype.notify = function () {
-        this.log.debug('Subject: Notifying observers...', this._state);
-        for (var _i = 0, _a = this.observers; _i < _a.length; _i++) {
-            var observer = _a[_i];
-            observer.update(this);
-        }
+        return __awaiter(this, void 0, void 0, function () {
+            var _i, _a, observer;
+            return __generator(this, function (_b) {
+                this.log.debug('Subject: Notifying observers...', this._state);
+                for (_i = 0, _a = this.observers; _i < _a.length; _i++) {
+                    observer = _a[_i];
+                    observer.update(this);
+                }
+                return [2];
+            });
+        });
     };
     DataListSubject.prototype.notifyItem = function (item, index) {
-        this.log.debug('Subject: Notifying observers, Item...', this._state, index);
-        for (var _i = 0, _a = this.observers; _i < _a.length; _i++) {
-            var observer = _a[_i];
-            observer.updateItem(this, item, index);
-        }
+        return __awaiter(this, void 0, void 0, function () {
+            var _i, _a, observer;
+            return __generator(this, function (_b) {
+                this.log.debug('Subject: Notifying observers, Item...', this._state, index);
+                for (_i = 0, _a = this.observers; _i < _a.length; _i++) {
+                    observer = _a[_i];
+                    observer.updateItem(this, item, index);
+                }
+                return [2];
+            });
+        });
     };
     DataListSubject.prototype.notifyAddedItem = function (added) {
-        this.log.debug('Subject: Notifying observers, AddedItem...', this._state, added);
-        for (var _i = 0, _a = this.observers; _i < _a.length; _i++) {
-            var observer = _a[_i];
-            observer.updateAddedItem(this, added);
-        }
+        return __awaiter(this, void 0, void 0, function () {
+            var _i, _a, observer;
+            return __generator(this, function (_b) {
+                this.log.debug('Subject: Notifying observers, AddedItem...', this._state, added);
+                for (_i = 0, _a = this.observers; _i < _a.length; _i++) {
+                    observer = _a[_i];
+                    observer.updateAddedItem(this, added);
+                }
+                return [2];
+            });
+        });
     };
     DataListSubject.prototype.notifyRemovedItem = function (removed) {
-        this.log.debug('Subject: Notifying observers, RemovedItem...', this._state, removed);
-        for (var _i = 0, _a = this.observers; _i < _a.length; _i++) {
-            var observer = _a[_i];
-            observer.updateRemovedItem(this, removed);
-        }
+        return __awaiter(this, void 0, void 0, function () {
+            var _i, _a, observer;
+            return __generator(this, function (_b) {
+                this.log.debug('Subject: Notifying observers, RemovedItem...', this._state, removed);
+                for (_i = 0, _a = this.observers; _i < _a.length; _i++) {
+                    observer = _a[_i];
+                    observer.updateRemovedItem(this, removed);
+                }
+                return [2];
+            });
+        });
     };
     return DataListSubject;
 }());
@@ -63610,8 +63790,6 @@ var SpriteAdapter = (function () {
             that.updateSprite();
         });
         this.updateSprite();
-        this.updateDownloadButton();
-        this.updateGrid();
         this.initObservers();
     };
     SpriteAdapter.prototype.updateParts = function () {

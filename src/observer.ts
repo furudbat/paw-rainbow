@@ -131,7 +131,7 @@ export class DataSubject<T> implements Subject {
     /**
      * Trigger an update in each subscriber.
      */
-    public notify() {
+    public async notify() {
         this.log.debug('Subject: Notifying observers...', this._state);
         for (const observer of this.observers) {
             observer.update(this);
@@ -271,7 +271,7 @@ export class DataListSubject<T> implements ListSubject {
     /**
      * Trigger an update in each subscriber.
      */
-    public notify() {
+    public async notify() {
         this.log.debug('Subject: Notifying observers...', this._state);
         for (const observer of this.observers) {
             observer.update(this);
@@ -281,21 +281,21 @@ export class DataListSubject<T> implements ListSubject {
     /**
      * Trigger an update in each subscriber.
      */
-    public notifyItem(item: T, index: number) {
+    public async notifyItem(item: T, index: number) {
         this.log.debug('Subject: Notifying observers, Item...', this._state, index);
         for (const observer of this.observers) {
             observer.updateItem(this, item, index);
         }
     }
 
-    public notifyAddedItem(added: T) {
+    public async notifyAddedItem(added: T) {
         this.log.debug('Subject: Notifying observers, AddedItem...', this._state, added);
         for (const observer of this.observers) {
             observer.updateAddedItem(this, added);
         }
     }
     
-    public notifyRemovedItem(removed: T) {
+    public async notifyRemovedItem(removed: T) {
         this.log.debug('Subject: Notifying observers, RemovedItem...', this._state, removed);
         for (const observer of this.observers) {
             observer.updateRemovedItem(this, removed);

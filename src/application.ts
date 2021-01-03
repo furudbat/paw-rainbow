@@ -88,6 +88,11 @@ export class Application {
     }
 
     private async initForm() {
+        this.initFormParts();
+        this.initFormInfo();
+    }
+
+    private async initFormParts() {
         this._formPartsAdapter = new FormPartsAdapter(this._appData);
         this._formPartsAdapter?.init();
         if (!this._formPartsAdapter?.current_form) {
@@ -95,7 +100,9 @@ export class Application {
         } else {
             this._formPartsAdapter.updateUI();
         }
+    }
 
+    private async initFormInfo() {
         this._flagWikiAdapter = new FlagWikiAdapter(this._appData);
         this._flagWikiAdapter?.init();
     }
