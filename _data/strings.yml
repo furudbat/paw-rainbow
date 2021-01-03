@@ -18,6 +18,7 @@ select_parts:
 sprite:
   download: Download
   full_download: Full Download
+  show_grid: Show Grid
 flag_info:
   unknown:
     title: Unknown

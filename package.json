@@ -23,6 +23,7 @@
     "jquery-ui": "^1.12.1",
     "localforage": "^1.9.0",
     "pixi.js": "^5.3.6",
+    "pixijs-grid": "^0.4.1",
     "select2": "^4.0.13",
     "typescript-logger": "^2.0.1"
   },

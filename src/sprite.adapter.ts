@@ -1,9 +1,9 @@
-
 import { Container, Sprite, Application as PixiApplication, LoaderResource, BaseRenderTexture, RenderTexture } from 'pixi.js';
 import { LoggerManager } from 'typescript-logger';
-import { ApplicationData } from './application.data';
+import { ApplicationData, Settings } from './application.data';
 import { Orientation } from "./flags.data";
 import { site } from './site';
+import { DataObserver, DataSubject } from './observer';
 
 type SpriteParts = Record<string, Sprite>;
 
@@ -15,6 +15,7 @@ export class SpriteAdapter {
     private _pixiApp: PixiApplication;
     private _downloadButton?: string;
     private _downloadFullButton?: string;
+    private _grid: PixiJSGrid = new PixiJSGrid(0);
 
     private log = LoggerManager.create('SpritePawPartsAdapter');
 
@@ -29,9 +30,17 @@ export class SpriteAdapter {
         this._resources = resources;
         this.updateParts();
 
+        this._grid = new PixiJSGrid(this._parts_container.width);
+
         this._pixiApp.stage.addChild(this._parts_container);
+        this._pixiApp.stage.addChild(this._grid);
         this._pixiApp.ticker.add(() => {
             this._pixiApp.renderer.render(this._parts_container);
+            if (this._appData.settings.show_grid) {
+                this._grid.drawGrid();
+            } else {
+                this._grid.clearGrid();
+            }
         });
 
         var that = this;
@@ -42,6 +51,9 @@ export class SpriteAdapter {
         
         this.updateSprite();
         this.updateDownloadButton();
+        this.updateGrid();
+
+        this.initObservers();
     }
 
     public updateParts() {
@@ -53,6 +65,28 @@ export class SpriteAdapter {
 
         this.updateSprite();
         this.updateDownloadButton();
+    }
+
+    public updateDownloadButton() {
+        this._pixiApp.renderer.extract.canvas(this._parts_container).toBlob((b) => {
+            if(this._downloadButton) {
+                const form = this._appData.currentSelection.form;
+
+                const aDownload = $(this._downloadButton) as JQuery<HTMLAnchorElement>;
+                aDownload.attr('download', form);
+                aDownload.attr('href', URL.createObjectURL(b));
+            }
+        }, 'image/png');
+
+        this._pixiApp.renderer.extract.canvas(this._pixiApp.stage).toBlob((b) => {
+            if(this._downloadFullButton) {
+                const form = this._appData.currentSelection.form;
+
+                const aDownload = $(this._downloadFullButton) as JQuery<HTMLAnchorElement>;
+                aDownload.attr('download', form);
+                aDownload.attr('href', URL.createObjectURL(b));
+            }
+        }, 'image/png');
     }
 
     public setPart(form: string, flag_name: string, part: string, orientation: Orientation, update_sprite: boolean = true) {
@@ -90,6 +124,15 @@ export class SpriteAdapter {
         return false;
     }
 
+    private initObservers() {
+        var that = this;
+        this._appData.settingsObservable.attach(new class implements DataObserver<Settings>{
+            update(subject: DataSubject<Settings>): void {
+                that.updateGrid();
+            }
+        });
+    }
+
     private updateSprite() {
         const offset_x = (this._pixiApp.screen.width >= 32)? 16 : (this._pixiApp.screen.width >= 8)? 8 : 0;
         const offset_y = (this._pixiApp.screen.height >= 32)? 16 : (this._pixiApp.screen.height >= 8)? 8 : 0;
@@ -104,27 +147,13 @@ export class SpriteAdapter {
 
         this.log.debug('updateSprite: window', display_width, display_height);
         this.log.debug('updateSprite: sprites', this._parts_container.x, this._parts_container.y, this._parts_container.width, this._parts_container.height, this._parts_container);
+
+        this.updateGrid();
     }
 
-    public updateDownloadButton() {
-        this._pixiApp.renderer.extract.canvas(this._parts_container).toBlob((b) => {
-            if(this._downloadButton) {
-                const form = this._appData.currentSelection.form;
-
-                const aDownload = $(this._downloadButton) as JQuery<HTMLAnchorElement>;
-                aDownload.attr('download', form);
-                aDownload.attr('href', URL.createObjectURL(b));
-            }
-        }, 'image/png');
-
-        this._pixiApp.renderer.extract.canvas(this._pixiApp.stage).toBlob((b) => {
-            if(this._downloadFullButton) {
-                const form = this._appData.currentSelection.form;
-
-                const aDownload = $(this._downloadFullButton) as JQuery<HTMLAnchorElement>;
-                aDownload.attr('download', form);
-                aDownload.attr('href', URL.createObjectURL(b));
-            }
-        }, 'image/png');
+    private updateGrid() {
+        this._grid.position = this._parts_container.position;
+        this._grid.cellSize = this._parts_container.scale.x;
+        this._grid.blendMode = PIXI.BLEND_MODES.SUBTRACT;
     }
 }

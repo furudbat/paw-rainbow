@@ -67,7 +67,15 @@ export class Application {
                 $('body').attr('data-theme', 'light');
                 that._appData.theme = Theme.Light;
             }
-        })
+        });
+
+        $('#chbShowGrid').prop('checked', this._appData.settings.show_grid);
+        $('#chbShowGrid').on('change', function() {
+            const checked = $(this).is(':checked');
+            
+            that._appData.settings.show_grid = checked;
+            that._appData.settings = that._appData.settings;
+        });
     }
 
     private initObservers() {

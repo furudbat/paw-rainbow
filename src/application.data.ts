@@ -14,7 +14,7 @@ export enum Theme {
     Dark = "dark"
 }
 export class Settings {
-    
+    show_grid: boolean = false
 }
 
 export class CurrentSelectionPart {

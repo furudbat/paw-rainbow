@@ -62598,6 +62598,7 @@ var Theme;
 })(Theme = exports.Theme || (exports.Theme = {}));
 var Settings = (function () {
     function Settings() {
+        this.show_grid = false;
     }
     return Settings;
 }());
@@ -62868,6 +62869,12 @@ var Application = (function () {
                         $('body').attr('data-theme', 'light');
                         that._appData.theme = application_data_1.Theme.Light;
                     }
+                });
+                $('#chbShowGrid').prop('checked', this._appData.settings.show_grid);
+                $('#chbShowGrid').on('change', function () {
+                    var checked = $(this).is(':checked');
+                    that._appData.settings.show_grid = checked;
+                    that._appData.settings = that._appData.settings;
                 });
                 return [2];
             });
@@ -63574,6 +63581,7 @@ var SpriteAdapter = (function () {
         if (downloadFullButton === void 0) { downloadFullButton = undefined; }
         this._sprites = {};
         this._parts_container = new pixi_js_1.Container();
+        this._grid = new PixiJSGrid(0);
         this.log = typescript_logger_1.LoggerManager.create('SpritePawPartsAdapter');
         this._pixiApp = pixiApp;
         this._appData = appData;
@@ -63584,9 +63592,17 @@ var SpriteAdapter = (function () {
         var _this = this;
         this._resources = resources;
         this.updateParts();
+        this._grid = new PixiJSGrid(this._parts_container.width);
         this._pixiApp.stage.addChild(this._parts_container);
+        this._pixiApp.stage.addChild(this._grid);
         this._pixiApp.ticker.add(function () {
             _this._pixiApp.renderer.render(_this._parts_container);
+            if (_this._appData.settings.show_grid) {
+                _this._grid.drawGrid();
+            }
+            else {
+                _this._grid.clearGrid();
+            }
         });
         var that = this;
         window.addEventListener('resize', function () {
@@ -63595,6 +63611,8 @@ var SpriteAdapter = (function () {
         });
         this.updateSprite();
         this.updateDownloadButton();
+        this.updateGrid();
+        this.initObservers();
     };
     SpriteAdapter.prototype.updateParts = function () {
         var _a, _b;
@@ -63605,6 +63623,25 @@ var SpriteAdapter = (function () {
         }
         this.updateSprite();
         this.updateDownloadButton();
+    };
+    SpriteAdapter.prototype.updateDownloadButton = function () {
+        var _this = this;
+        this._pixiApp.renderer.extract.canvas(this._parts_container).toBlob(function (b) {
+            if (_this._downloadButton) {
+                var form = _this._appData.currentSelection.form;
+                var aDownload = $(_this._downloadButton);
+                aDownload.attr('download', form);
+                aDownload.attr('href', URL.createObjectURL(b));
+            }
+        }, 'image/png');
+        this._pixiApp.renderer.extract.canvas(this._pixiApp.stage).toBlob(function (b) {
+            if (_this._downloadFullButton) {
+                var form = _this._appData.currentSelection.form;
+                var aDownload = $(_this._downloadFullButton);
+                aDownload.attr('download', form);
+                aDownload.attr('href', URL.createObjectURL(b));
+            }
+        }, 'image/png');
     };
     SpriteAdapter.prototype.setPart = function (form, flag_name, part, orientation, update_sprite) {
         if (update_sprite === void 0) { update_sprite = true; }
@@ -63638,6 +63675,17 @@ var SpriteAdapter = (function () {
         }
         return false;
     };
+    SpriteAdapter.prototype.initObservers = function () {
+        var that = this;
+        this._appData.settingsObservable.attach(new (function () {
+            function class_1() {
+            }
+            class_1.prototype.update = function (subject) {
+                that.updateGrid();
+            };
+            return class_1;
+        }()));
+    };
     SpriteAdapter.prototype.updateSprite = function () {
         var offset_x = (this._pixiApp.screen.width >= 32) ? 16 : (this._pixiApp.screen.width >= 8) ? 8 : 0;
         var offset_y = (this._pixiApp.screen.height >= 32) ? 16 : (this._pixiApp.screen.height >= 8) ? 8 : 0;
@@ -63648,25 +63696,12 @@ var SpriteAdapter = (function () {
         this._parts_container.position.set(this._pixiApp.screen.width / 2 - this._parts_container.width / 2, this._pixiApp.screen.height / 2 - this._parts_container.height / 2);
         this.log.debug('updateSprite: window', display_width, display_height);
         this.log.debug('updateSprite: sprites', this._parts_container.x, this._parts_container.y, this._parts_container.width, this._parts_container.height, this._parts_container);
+        this.updateGrid();
     };
-    SpriteAdapter.prototype.updateDownloadButton = function () {
-        var _this = this;
-        this._pixiApp.renderer.extract.canvas(this._parts_container).toBlob(function (b) {
-            if (_this._downloadButton) {
-                var form = _this._appData.currentSelection.form;
-                var aDownload = $(_this._downloadButton);
-                aDownload.attr('download', form);
-                aDownload.attr('href', URL.createObjectURL(b));
-            }
-        }, 'image/png');
-        this._pixiApp.renderer.extract.canvas(this._pixiApp.stage).toBlob(function (b) {
-            if (_this._downloadFullButton) {
-                var form = _this._appData.currentSelection.form;
-                var aDownload = $(_this._downloadFullButton);
-                aDownload.attr('download', form);
-                aDownload.attr('href', URL.createObjectURL(b));
-            }
-        }, 'image/png');
+    SpriteAdapter.prototype.updateGrid = function () {
+        this._grid.position = this._parts_container.position;
+        this._grid.cellSize = this._parts_container.scale.x;
+        this._grid.blendMode = PIXI.BLEND_MODES.SUBTRACT;
     };
     return SpriteAdapter;
 }());
