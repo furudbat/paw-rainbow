@@ -4,7 +4,6 @@
             "flag_name": "Polyamory",
             "part": "left_part_1",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/polyamory/polyamory.png",
             "mask_key": "_horizontal_0",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -34,7 +33,6 @@
             "flag_name": "Polyamory",
             "part": "left_part_2",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/polyamory/polyamory.png",
             "mask_key": "_horizontal_1",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -64,7 +62,6 @@
             "flag_name": "Polyamory",
             "part": "right_part_1",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/polyamory/polyamory.png",
             "mask_key": "_horizontal_2",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -94,7 +91,6 @@
             "flag_name": "Polyamory",
             "part": "right_part_2",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/polyamory/polyamory.png",
             "mask_key": "_horizontal_3",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -124,7 +120,6 @@
             "flag_name": "Polyamory",
             "part": "center",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/polyamory/polyamory.png",
             "mask_key": "_horizontal_4",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -150,15 +145,14 @@
             "id": "assets/img/sprites/relationship_paw/relationship_paw_polyamory_horizontal_4.png",
             "filename": "assets/img/sprites/relationship_paw/relationship_paw_polyamory_horizontal_4.png"
         },
-        "assets/img/sprites/relationship_paw/relationship_paw_polyamory_vertical_0.png": {
+        "assets/img/sprites/relationship_paw/relationship_paw_polyamory_horizontal_5.png": {
             "flag_name": "Polyamory",
-            "part": "left_part_1",
-            "orientation": "vertical",
-            "flag_filename": "assets/img/flags/polyamory/polyamory.png",
-            "mask_key": "_vertical_0",
+            "part": "whole",
+            "orientation": "horizontal",
+            "mask_key": "_horizontal_5",
             "flags_fits": true,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_5.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -177,18 +171,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/relationship_paw/relationship_paw_polyamory_vertical_0.png",
-            "filename": "assets/img/sprites/relationship_paw/relationship_paw_polyamory_vertical_0.png"
+            "id": "assets/img/sprites/relationship_paw/relationship_paw_polyamory_horizontal_5.png",
+            "filename": "assets/img/sprites/relationship_paw/relationship_paw_polyamory_horizontal_5.png"
         },
-        "assets/img/sprites/relationship_paw/relationship_paw_polyamory_vertical_1.png": {
+        "assets/img/sprites/relationship_paw/relationship_paw_polyamory_vertical_0.png": {
             "flag_name": "Polyamory",
-            "part": "left_part_2",
+            "part": "left_part_1",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/polyamory/polyamory.png",
-            "mask_key": "_vertical_1",
+            "mask_key": "_vertical_0",
             "flags_fits": true,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_1.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -207,18 +200,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/relationship_paw/relationship_paw_polyamory_vertical_1.png",
-            "filename": "assets/img/sprites/relationship_paw/relationship_paw_polyamory_vertical_1.png"
+            "id": "assets/img/sprites/relationship_paw/relationship_paw_polyamory_vertical_0.png",
+            "filename": "assets/img/sprites/relationship_paw/relationship_paw_polyamory_vertical_0.png"
         },
-        "assets/img/sprites/relationship_paw/relationship_paw_polyamory_vertical_2.png": {
+        "assets/img/sprites/relationship_paw/relationship_paw_polyamory_vertical_1.png": {
             "flag_name": "Polyamory",
-            "part": "right_part_1",
+            "part": "left_part_2",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/polyamory/polyamory.png",
-            "mask_key": "_vertical_2",
+            "mask_key": "_vertical_1",
             "flags_fits": true,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_2.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_1.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -237,18 +229,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/relationship_paw/relationship_paw_polyamory_vertical_2.png",
-            "filename": "assets/img/sprites/relationship_paw/relationship_paw_polyamory_vertical_2.png"
+            "id": "assets/img/sprites/relationship_paw/relationship_paw_polyamory_vertical_1.png",
+            "filename": "assets/img/sprites/relationship_paw/relationship_paw_polyamory_vertical_1.png"
         },
-        "assets/img/sprites/relationship_paw/relationship_paw_polyamory_vertical_3.png": {
+        "assets/img/sprites/relationship_paw/relationship_paw_polyamory_vertical_2.png": {
             "flag_name": "Polyamory",
-            "part": "right_part_2",
+            "part": "right_part_1",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/polyamory/polyamory.png",
-            "mask_key": "_vertical_3",
+            "mask_key": "_vertical_2",
             "flags_fits": true,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_3.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_2.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -267,18 +258,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/relationship_paw/relationship_paw_polyamory_vertical_3.png",
-            "filename": "assets/img/sprites/relationship_paw/relationship_paw_polyamory_vertical_3.png"
+            "id": "assets/img/sprites/relationship_paw/relationship_paw_polyamory_vertical_2.png",
+            "filename": "assets/img/sprites/relationship_paw/relationship_paw_polyamory_vertical_2.png"
         },
-        "assets/img/sprites/relationship_paw/relationship_paw_polyamory_vertical_4.png": {
+        "assets/img/sprites/relationship_paw/relationship_paw_polyamory_vertical_3.png": {
             "flag_name": "Polyamory",
-            "part": "center",
+            "part": "right_part_2",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/polyamory/polyamory.png",
-            "mask_key": "_vertical_4",
+            "mask_key": "_vertical_3",
             "flags_fits": true,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_4.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_3.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -297,14 +287,71 @@
                 "w": 22,
                 "h": 22
             },
+            "id": "assets/img/sprites/relationship_paw/relationship_paw_polyamory_vertical_3.png",
+            "filename": "assets/img/sprites/relationship_paw/relationship_paw_polyamory_vertical_3.png"
+        },
+        "assets/img/sprites/relationship_paw/relationship_paw_polyamory_vertical_4.png": {
+            "flag_name": "Polyamory",
+            "part": "center",
+            "orientation": "vertical",
+            "mask_key": "_vertical_4",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 220,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
             "id": "assets/img/sprites/relationship_paw/relationship_paw_polyamory_vertical_4.png",
             "filename": "assets/img/sprites/relationship_paw/relationship_paw_polyamory_vertical_4.png"
+        },
+        "assets/img/sprites/relationship_paw/relationship_paw_polyamory_vertical_5.png": {
+            "flag_name": "Polyamory",
+            "part": "whole",
+            "orientation": "vertical",
+            "mask_key": "_vertical_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 242,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_paw/relationship_paw_polyamory_vertical_5.png",
+            "filename": "assets/img/sprites/relationship_paw/relationship_paw_polyamory_vertical_5.png"
         },
         "assets/img/sprites/relationship_paw/relationship_paw_open_relationship_horizontal_0.png": {
             "flag_name": "Open Relationship",
             "part": "left_part_1",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/open_relationship/open_relationship.png",
             "mask_key": "_horizontal_0",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -334,7 +381,6 @@
             "flag_name": "Open Relationship",
             "part": "left_part_2",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/open_relationship/open_relationship.png",
             "mask_key": "_horizontal_1",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -364,7 +410,6 @@
             "flag_name": "Open Relationship",
             "part": "right_part_1",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/open_relationship/open_relationship.png",
             "mask_key": "_horizontal_2",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -394,7 +439,6 @@
             "flag_name": "Open Relationship",
             "part": "right_part_2",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/open_relationship/open_relationship.png",
             "mask_key": "_horizontal_3",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -424,7 +468,6 @@
             "flag_name": "Open Relationship",
             "part": "center",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/open_relationship/open_relationship.png",
             "mask_key": "_horizontal_4",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -450,15 +493,14 @@
             "id": "assets/img/sprites/relationship_paw/relationship_paw_open_relationship_horizontal_4.png",
             "filename": "assets/img/sprites/relationship_paw/relationship_paw_open_relationship_horizontal_4.png"
         },
-        "assets/img/sprites/relationship_paw/relationship_paw_open_relationship_vertical_0.png": {
+        "assets/img/sprites/relationship_paw/relationship_paw_open_relationship_horizontal_5.png": {
             "flag_name": "Open Relationship",
-            "part": "left_part_1",
-            "orientation": "vertical",
-            "flag_filename": "assets/img/flags/open_relationship/open_relationship.png",
-            "mask_key": "_vertical_0",
+            "part": "whole",
+            "orientation": "horizontal",
+            "mask_key": "_horizontal_5",
             "flags_fits": true,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_5.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -477,18 +519,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/relationship_paw/relationship_paw_open_relationship_vertical_0.png",
-            "filename": "assets/img/sprites/relationship_paw/relationship_paw_open_relationship_vertical_0.png"
+            "id": "assets/img/sprites/relationship_paw/relationship_paw_open_relationship_horizontal_5.png",
+            "filename": "assets/img/sprites/relationship_paw/relationship_paw_open_relationship_horizontal_5.png"
         },
-        "assets/img/sprites/relationship_paw/relationship_paw_open_relationship_vertical_1.png": {
+        "assets/img/sprites/relationship_paw/relationship_paw_open_relationship_vertical_0.png": {
             "flag_name": "Open Relationship",
-            "part": "left_part_2",
+            "part": "left_part_1",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/open_relationship/open_relationship.png",
-            "mask_key": "_vertical_1",
+            "mask_key": "_vertical_0",
             "flags_fits": true,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_1.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -507,18 +548,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/relationship_paw/relationship_paw_open_relationship_vertical_1.png",
-            "filename": "assets/img/sprites/relationship_paw/relationship_paw_open_relationship_vertical_1.png"
+            "id": "assets/img/sprites/relationship_paw/relationship_paw_open_relationship_vertical_0.png",
+            "filename": "assets/img/sprites/relationship_paw/relationship_paw_open_relationship_vertical_0.png"
         },
-        "assets/img/sprites/relationship_paw/relationship_paw_open_relationship_vertical_2.png": {
+        "assets/img/sprites/relationship_paw/relationship_paw_open_relationship_vertical_1.png": {
             "flag_name": "Open Relationship",
-            "part": "right_part_1",
+            "part": "left_part_2",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/open_relationship/open_relationship.png",
-            "mask_key": "_vertical_2",
+            "mask_key": "_vertical_1",
             "flags_fits": true,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_2.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_1.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -537,18 +577,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/relationship_paw/relationship_paw_open_relationship_vertical_2.png",
-            "filename": "assets/img/sprites/relationship_paw/relationship_paw_open_relationship_vertical_2.png"
+            "id": "assets/img/sprites/relationship_paw/relationship_paw_open_relationship_vertical_1.png",
+            "filename": "assets/img/sprites/relationship_paw/relationship_paw_open_relationship_vertical_1.png"
         },
-        "assets/img/sprites/relationship_paw/relationship_paw_open_relationship_vertical_3.png": {
+        "assets/img/sprites/relationship_paw/relationship_paw_open_relationship_vertical_2.png": {
             "flag_name": "Open Relationship",
-            "part": "right_part_2",
+            "part": "right_part_1",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/open_relationship/open_relationship.png",
-            "mask_key": "_vertical_3",
+            "mask_key": "_vertical_2",
             "flags_fits": true,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_3.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_2.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -567,18 +606,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/relationship_paw/relationship_paw_open_relationship_vertical_3.png",
-            "filename": "assets/img/sprites/relationship_paw/relationship_paw_open_relationship_vertical_3.png"
+            "id": "assets/img/sprites/relationship_paw/relationship_paw_open_relationship_vertical_2.png",
+            "filename": "assets/img/sprites/relationship_paw/relationship_paw_open_relationship_vertical_2.png"
         },
-        "assets/img/sprites/relationship_paw/relationship_paw_open_relationship_vertical_4.png": {
+        "assets/img/sprites/relationship_paw/relationship_paw_open_relationship_vertical_3.png": {
             "flag_name": "Open Relationship",
-            "part": "center",
+            "part": "right_part_2",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/open_relationship/open_relationship.png",
-            "mask_key": "_vertical_4",
+            "mask_key": "_vertical_3",
             "flags_fits": true,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_4.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_3.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -597,14 +635,71 @@
                 "w": 22,
                 "h": 22
             },
+            "id": "assets/img/sprites/relationship_paw/relationship_paw_open_relationship_vertical_3.png",
+            "filename": "assets/img/sprites/relationship_paw/relationship_paw_open_relationship_vertical_3.png"
+        },
+        "assets/img/sprites/relationship_paw/relationship_paw_open_relationship_vertical_4.png": {
+            "flag_name": "Open Relationship",
+            "part": "center",
+            "orientation": "vertical",
+            "mask_key": "_vertical_4",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 220,
+                "y": 22,
+                "w": 22,
+                "h": 22
+            },
             "id": "assets/img/sprites/relationship_paw/relationship_paw_open_relationship_vertical_4.png",
             "filename": "assets/img/sprites/relationship_paw/relationship_paw_open_relationship_vertical_4.png"
+        },
+        "assets/img/sprites/relationship_paw/relationship_paw_open_relationship_vertical_5.png": {
+            "flag_name": "Open Relationship",
+            "part": "whole",
+            "orientation": "vertical",
+            "mask_key": "_vertical_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 242,
+                "y": 22,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_paw/relationship_paw_open_relationship_vertical_5.png",
+            "filename": "assets/img/sprites/relationship_paw/relationship_paw_open_relationship_vertical_5.png"
         },
         "assets/img/sprites/relationship_paw/relationship_paw_triad_horizontal_0.png": {
             "flag_name": "Triad",
             "part": "left_part_1",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/triad/triad.png",
             "mask_key": "_horizontal_0",
             "flags_fits": true,
             "flags_fits_perfect": true,
@@ -634,7 +729,6 @@
             "flag_name": "Triad",
             "part": "left_part_2",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/triad/triad.png",
             "mask_key": "_horizontal_1",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -664,7 +758,6 @@
             "flag_name": "Triad",
             "part": "right_part_1",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/triad/triad.png",
             "mask_key": "_horizontal_2",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -694,7 +787,6 @@
             "flag_name": "Triad",
             "part": "right_part_2",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/triad/triad.png",
             "mask_key": "_horizontal_3",
             "flags_fits": true,
             "flags_fits_perfect": true,
@@ -724,7 +816,6 @@
             "flag_name": "Triad",
             "part": "center",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/triad/triad.png",
             "mask_key": "_horizontal_4",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -750,15 +841,14 @@
             "id": "assets/img/sprites/relationship_paw/relationship_paw_triad_horizontal_4.png",
             "filename": "assets/img/sprites/relationship_paw/relationship_paw_triad_horizontal_4.png"
         },
-        "assets/img/sprites/relationship_paw/relationship_paw_triad_vertical_0.png": {
+        "assets/img/sprites/relationship_paw/relationship_paw_triad_horizontal_5.png": {
             "flag_name": "Triad",
-            "part": "left_part_1",
-            "orientation": "vertical",
-            "flag_filename": "assets/img/flags/triad/triad.png",
-            "mask_key": "_vertical_0",
-            "flags_fits": false,
+            "part": "whole",
+            "orientation": "horizontal",
+            "mask_key": "_horizontal_5",
+            "flags_fits": true,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_5.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -777,18 +867,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/relationship_paw/relationship_paw_triad_vertical_0.png",
-            "filename": "assets/img/sprites/relationship_paw/relationship_paw_triad_vertical_0.png"
+            "id": "assets/img/sprites/relationship_paw/relationship_paw_triad_horizontal_5.png",
+            "filename": "assets/img/sprites/relationship_paw/relationship_paw_triad_horizontal_5.png"
         },
-        "assets/img/sprites/relationship_paw/relationship_paw_triad_vertical_1.png": {
+        "assets/img/sprites/relationship_paw/relationship_paw_triad_vertical_0.png": {
             "flag_name": "Triad",
-            "part": "left_part_2",
+            "part": "left_part_1",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/triad/triad.png",
-            "mask_key": "_vertical_1",
+            "mask_key": "_vertical_0",
             "flags_fits": false,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_1.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -807,18 +896,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/relationship_paw/relationship_paw_triad_vertical_1.png",
-            "filename": "assets/img/sprites/relationship_paw/relationship_paw_triad_vertical_1.png"
+            "id": "assets/img/sprites/relationship_paw/relationship_paw_triad_vertical_0.png",
+            "filename": "assets/img/sprites/relationship_paw/relationship_paw_triad_vertical_0.png"
         },
-        "assets/img/sprites/relationship_paw/relationship_paw_triad_vertical_2.png": {
+        "assets/img/sprites/relationship_paw/relationship_paw_triad_vertical_1.png": {
             "flag_name": "Triad",
-            "part": "right_part_1",
+            "part": "left_part_2",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/triad/triad.png",
-            "mask_key": "_vertical_2",
+            "mask_key": "_vertical_1",
             "flags_fits": false,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_2.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_1.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -837,18 +925,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/relationship_paw/relationship_paw_triad_vertical_2.png",
-            "filename": "assets/img/sprites/relationship_paw/relationship_paw_triad_vertical_2.png"
+            "id": "assets/img/sprites/relationship_paw/relationship_paw_triad_vertical_1.png",
+            "filename": "assets/img/sprites/relationship_paw/relationship_paw_triad_vertical_1.png"
         },
-        "assets/img/sprites/relationship_paw/relationship_paw_triad_vertical_3.png": {
+        "assets/img/sprites/relationship_paw/relationship_paw_triad_vertical_2.png": {
             "flag_name": "Triad",
-            "part": "right_part_2",
+            "part": "right_part_1",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/triad/triad.png",
-            "mask_key": "_vertical_3",
+            "mask_key": "_vertical_2",
             "flags_fits": false,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_3.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_2.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -867,18 +954,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/relationship_paw/relationship_paw_triad_vertical_3.png",
-            "filename": "assets/img/sprites/relationship_paw/relationship_paw_triad_vertical_3.png"
+            "id": "assets/img/sprites/relationship_paw/relationship_paw_triad_vertical_2.png",
+            "filename": "assets/img/sprites/relationship_paw/relationship_paw_triad_vertical_2.png"
         },
-        "assets/img/sprites/relationship_paw/relationship_paw_triad_vertical_4.png": {
+        "assets/img/sprites/relationship_paw/relationship_paw_triad_vertical_3.png": {
             "flag_name": "Triad",
-            "part": "center",
+            "part": "right_part_2",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/triad/triad.png",
-            "mask_key": "_vertical_4",
-            "flags_fits": true,
+            "mask_key": "_vertical_3",
+            "flags_fits": false,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_4.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_3.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -897,14 +983,71 @@
                 "w": 22,
                 "h": 22
             },
+            "id": "assets/img/sprites/relationship_paw/relationship_paw_triad_vertical_3.png",
+            "filename": "assets/img/sprites/relationship_paw/relationship_paw_triad_vertical_3.png"
+        },
+        "assets/img/sprites/relationship_paw/relationship_paw_triad_vertical_4.png": {
+            "flag_name": "Triad",
+            "part": "center",
+            "orientation": "vertical",
+            "mask_key": "_vertical_4",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 220,
+                "y": 44,
+                "w": 22,
+                "h": 22
+            },
             "id": "assets/img/sprites/relationship_paw/relationship_paw_triad_vertical_4.png",
             "filename": "assets/img/sprites/relationship_paw/relationship_paw_triad_vertical_4.png"
+        },
+        "assets/img/sprites/relationship_paw/relationship_paw_triad_vertical_5.png": {
+            "flag_name": "Triad",
+            "part": "whole",
+            "orientation": "vertical",
+            "mask_key": "_vertical_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 242,
+                "y": 44,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_paw/relationship_paw_triad_vertical_5.png",
+            "filename": "assets/img/sprites/relationship_paw/relationship_paw_triad_vertical_5.png"
         },
         "assets/img/sprites/relationship_paw/relationship_paw_quad_horizontal_0.png": {
             "flag_name": "Quad",
             "part": "left_part_1",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/quad/quad.png",
             "mask_key": "_horizontal_0",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -934,7 +1077,6 @@
             "flag_name": "Quad",
             "part": "left_part_2",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/quad/quad.png",
             "mask_key": "_horizontal_1",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -964,7 +1106,6 @@
             "flag_name": "Quad",
             "part": "right_part_1",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/quad/quad.png",
             "mask_key": "_horizontal_2",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -994,7 +1135,6 @@
             "flag_name": "Quad",
             "part": "right_part_2",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/quad/quad.png",
             "mask_key": "_horizontal_3",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -1024,7 +1164,6 @@
             "flag_name": "Quad",
             "part": "center",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/quad/quad.png",
             "mask_key": "_horizontal_4",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -1050,15 +1189,14 @@
             "id": "assets/img/sprites/relationship_paw/relationship_paw_quad_horizontal_4.png",
             "filename": "assets/img/sprites/relationship_paw/relationship_paw_quad_horizontal_4.png"
         },
-        "assets/img/sprites/relationship_paw/relationship_paw_quad_vertical_0.png": {
+        "assets/img/sprites/relationship_paw/relationship_paw_quad_horizontal_5.png": {
             "flag_name": "Quad",
-            "part": "left_part_1",
-            "orientation": "vertical",
-            "flag_filename": "assets/img/flags/quad/quad.png",
-            "mask_key": "_vertical_0",
+            "part": "whole",
+            "orientation": "horizontal",
+            "mask_key": "_horizontal_5",
             "flags_fits": true,
-            "flags_fits_perfect": true,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png",
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_5.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -1077,18 +1215,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/relationship_paw/relationship_paw_quad_vertical_0.png",
-            "filename": "assets/img/sprites/relationship_paw/relationship_paw_quad_vertical_0.png"
+            "id": "assets/img/sprites/relationship_paw/relationship_paw_quad_horizontal_5.png",
+            "filename": "assets/img/sprites/relationship_paw/relationship_paw_quad_horizontal_5.png"
         },
-        "assets/img/sprites/relationship_paw/relationship_paw_quad_vertical_1.png": {
+        "assets/img/sprites/relationship_paw/relationship_paw_quad_vertical_0.png": {
             "flag_name": "Quad",
-            "part": "left_part_2",
+            "part": "left_part_1",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/quad/quad.png",
-            "mask_key": "_vertical_1",
+            "mask_key": "_vertical_0",
             "flags_fits": true,
             "flags_fits_perfect": true,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_1.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -1107,18 +1244,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/relationship_paw/relationship_paw_quad_vertical_1.png",
-            "filename": "assets/img/sprites/relationship_paw/relationship_paw_quad_vertical_1.png"
+            "id": "assets/img/sprites/relationship_paw/relationship_paw_quad_vertical_0.png",
+            "filename": "assets/img/sprites/relationship_paw/relationship_paw_quad_vertical_0.png"
         },
-        "assets/img/sprites/relationship_paw/relationship_paw_quad_vertical_2.png": {
+        "assets/img/sprites/relationship_paw/relationship_paw_quad_vertical_1.png": {
             "flag_name": "Quad",
-            "part": "right_part_1",
+            "part": "left_part_2",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/quad/quad.png",
-            "mask_key": "_vertical_2",
+            "mask_key": "_vertical_1",
             "flags_fits": true,
             "flags_fits_perfect": true,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_2.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_1.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -1137,18 +1273,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/relationship_paw/relationship_paw_quad_vertical_2.png",
-            "filename": "assets/img/sprites/relationship_paw/relationship_paw_quad_vertical_2.png"
+            "id": "assets/img/sprites/relationship_paw/relationship_paw_quad_vertical_1.png",
+            "filename": "assets/img/sprites/relationship_paw/relationship_paw_quad_vertical_1.png"
         },
-        "assets/img/sprites/relationship_paw/relationship_paw_quad_vertical_3.png": {
+        "assets/img/sprites/relationship_paw/relationship_paw_quad_vertical_2.png": {
             "flag_name": "Quad",
-            "part": "right_part_2",
+            "part": "right_part_1",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/quad/quad.png",
-            "mask_key": "_vertical_3",
+            "mask_key": "_vertical_2",
             "flags_fits": true,
             "flags_fits_perfect": true,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_3.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_2.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -1167,18 +1302,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/relationship_paw/relationship_paw_quad_vertical_3.png",
-            "filename": "assets/img/sprites/relationship_paw/relationship_paw_quad_vertical_3.png"
+            "id": "assets/img/sprites/relationship_paw/relationship_paw_quad_vertical_2.png",
+            "filename": "assets/img/sprites/relationship_paw/relationship_paw_quad_vertical_2.png"
         },
-        "assets/img/sprites/relationship_paw/relationship_paw_quad_vertical_4.png": {
+        "assets/img/sprites/relationship_paw/relationship_paw_quad_vertical_3.png": {
             "flag_name": "Quad",
-            "part": "center",
+            "part": "right_part_2",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/quad/quad.png",
-            "mask_key": "_vertical_4",
+            "mask_key": "_vertical_3",
             "flags_fits": true,
-            "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_4.png",
+            "flags_fits_perfect": true,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_3.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -1197,14 +1331,71 @@
                 "w": 22,
                 "h": 22
             },
+            "id": "assets/img/sprites/relationship_paw/relationship_paw_quad_vertical_3.png",
+            "filename": "assets/img/sprites/relationship_paw/relationship_paw_quad_vertical_3.png"
+        },
+        "assets/img/sprites/relationship_paw/relationship_paw_quad_vertical_4.png": {
+            "flag_name": "Quad",
+            "part": "center",
+            "orientation": "vertical",
+            "mask_key": "_vertical_4",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 220,
+                "y": 66,
+                "w": 22,
+                "h": 22
+            },
             "id": "assets/img/sprites/relationship_paw/relationship_paw_quad_vertical_4.png",
             "filename": "assets/img/sprites/relationship_paw/relationship_paw_quad_vertical_4.png"
+        },
+        "assets/img/sprites/relationship_paw/relationship_paw_quad_vertical_5.png": {
+            "flag_name": "Quad",
+            "part": "whole",
+            "orientation": "vertical",
+            "mask_key": "_vertical_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 242,
+                "y": 66,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_paw/relationship_paw_quad_vertical_5.png",
+            "filename": "assets/img/sprites/relationship_paw/relationship_paw_quad_vertical_5.png"
         },
         "assets/img/sprites/relationship_paw/relationship_paw_n_polyamory_horizontal_0.png": {
             "flag_name": "N Polyamory",
             "part": "left_part_1",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/n_polyamory/n_polyamory.png",
             "mask_key": "_horizontal_0",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -1234,7 +1425,6 @@
             "flag_name": "N Polyamory",
             "part": "left_part_2",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/n_polyamory/n_polyamory.png",
             "mask_key": "_horizontal_1",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -1264,7 +1454,6 @@
             "flag_name": "N Polyamory",
             "part": "right_part_1",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/n_polyamory/n_polyamory.png",
             "mask_key": "_horizontal_2",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -1294,7 +1483,6 @@
             "flag_name": "N Polyamory",
             "part": "right_part_2",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/n_polyamory/n_polyamory.png",
             "mask_key": "_horizontal_3",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -1324,7 +1512,6 @@
             "flag_name": "N Polyamory",
             "part": "center",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/n_polyamory/n_polyamory.png",
             "mask_key": "_horizontal_4",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -1350,15 +1537,14 @@
             "id": "assets/img/sprites/relationship_paw/relationship_paw_n_polyamory_horizontal_4.png",
             "filename": "assets/img/sprites/relationship_paw/relationship_paw_n_polyamory_horizontal_4.png"
         },
-        "assets/img/sprites/relationship_paw/relationship_paw_n_polyamory_vertical_0.png": {
+        "assets/img/sprites/relationship_paw/relationship_paw_n_polyamory_horizontal_5.png": {
             "flag_name": "N Polyamory",
-            "part": "left_part_1",
-            "orientation": "vertical",
-            "flag_filename": "assets/img/flags/n_polyamory/n_polyamory.png",
-            "mask_key": "_vertical_0",
+            "part": "whole",
+            "orientation": "horizontal",
+            "mask_key": "_horizontal_5",
             "flags_fits": true,
-            "flags_fits_perfect": true,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png",
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_5.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -1377,18 +1563,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/relationship_paw/relationship_paw_n_polyamory_vertical_0.png",
-            "filename": "assets/img/sprites/relationship_paw/relationship_paw_n_polyamory_vertical_0.png"
+            "id": "assets/img/sprites/relationship_paw/relationship_paw_n_polyamory_horizontal_5.png",
+            "filename": "assets/img/sprites/relationship_paw/relationship_paw_n_polyamory_horizontal_5.png"
         },
-        "assets/img/sprites/relationship_paw/relationship_paw_n_polyamory_vertical_1.png": {
+        "assets/img/sprites/relationship_paw/relationship_paw_n_polyamory_vertical_0.png": {
             "flag_name": "N Polyamory",
-            "part": "left_part_2",
+            "part": "left_part_1",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/n_polyamory/n_polyamory.png",
-            "mask_key": "_vertical_1",
+            "mask_key": "_vertical_0",
             "flags_fits": true,
             "flags_fits_perfect": true,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_1.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -1407,18 +1592,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/relationship_paw/relationship_paw_n_polyamory_vertical_1.png",
-            "filename": "assets/img/sprites/relationship_paw/relationship_paw_n_polyamory_vertical_1.png"
+            "id": "assets/img/sprites/relationship_paw/relationship_paw_n_polyamory_vertical_0.png",
+            "filename": "assets/img/sprites/relationship_paw/relationship_paw_n_polyamory_vertical_0.png"
         },
-        "assets/img/sprites/relationship_paw/relationship_paw_n_polyamory_vertical_2.png": {
+        "assets/img/sprites/relationship_paw/relationship_paw_n_polyamory_vertical_1.png": {
             "flag_name": "N Polyamory",
-            "part": "right_part_1",
+            "part": "left_part_2",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/n_polyamory/n_polyamory.png",
-            "mask_key": "_vertical_2",
+            "mask_key": "_vertical_1",
             "flags_fits": true,
             "flags_fits_perfect": true,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_2.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_1.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -1437,18 +1621,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/relationship_paw/relationship_paw_n_polyamory_vertical_2.png",
-            "filename": "assets/img/sprites/relationship_paw/relationship_paw_n_polyamory_vertical_2.png"
+            "id": "assets/img/sprites/relationship_paw/relationship_paw_n_polyamory_vertical_1.png",
+            "filename": "assets/img/sprites/relationship_paw/relationship_paw_n_polyamory_vertical_1.png"
         },
-        "assets/img/sprites/relationship_paw/relationship_paw_n_polyamory_vertical_3.png": {
+        "assets/img/sprites/relationship_paw/relationship_paw_n_polyamory_vertical_2.png": {
             "flag_name": "N Polyamory",
-            "part": "right_part_2",
+            "part": "right_part_1",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/n_polyamory/n_polyamory.png",
-            "mask_key": "_vertical_3",
+            "mask_key": "_vertical_2",
             "flags_fits": true,
             "flags_fits_perfect": true,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_3.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_2.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -1467,18 +1650,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/relationship_paw/relationship_paw_n_polyamory_vertical_3.png",
-            "filename": "assets/img/sprites/relationship_paw/relationship_paw_n_polyamory_vertical_3.png"
+            "id": "assets/img/sprites/relationship_paw/relationship_paw_n_polyamory_vertical_2.png",
+            "filename": "assets/img/sprites/relationship_paw/relationship_paw_n_polyamory_vertical_2.png"
         },
-        "assets/img/sprites/relationship_paw/relationship_paw_n_polyamory_vertical_4.png": {
+        "assets/img/sprites/relationship_paw/relationship_paw_n_polyamory_vertical_3.png": {
             "flag_name": "N Polyamory",
-            "part": "center",
+            "part": "right_part_2",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/n_polyamory/n_polyamory.png",
-            "mask_key": "_vertical_4",
+            "mask_key": "_vertical_3",
             "flags_fits": true,
-            "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_4.png",
+            "flags_fits_perfect": true,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_3.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -1497,14 +1679,71 @@
                 "w": 22,
                 "h": 22
             },
+            "id": "assets/img/sprites/relationship_paw/relationship_paw_n_polyamory_vertical_3.png",
+            "filename": "assets/img/sprites/relationship_paw/relationship_paw_n_polyamory_vertical_3.png"
+        },
+        "assets/img/sprites/relationship_paw/relationship_paw_n_polyamory_vertical_4.png": {
+            "flag_name": "N Polyamory",
+            "part": "center",
+            "orientation": "vertical",
+            "mask_key": "_vertical_4",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 220,
+                "y": 88,
+                "w": 22,
+                "h": 22
+            },
             "id": "assets/img/sprites/relationship_paw/relationship_paw_n_polyamory_vertical_4.png",
             "filename": "assets/img/sprites/relationship_paw/relationship_paw_n_polyamory_vertical_4.png"
+        },
+        "assets/img/sprites/relationship_paw/relationship_paw_n_polyamory_vertical_5.png": {
+            "flag_name": "N Polyamory",
+            "part": "whole",
+            "orientation": "vertical",
+            "mask_key": "_vertical_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 242,
+                "y": 88,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_paw/relationship_paw_n_polyamory_vertical_5.png",
+            "filename": "assets/img/sprites/relationship_paw/relationship_paw_n_polyamory_vertical_5.png"
         },
         "assets/img/sprites/relationship_paw/relationship_paw_geographically_non_monogamy_horizontal_0.png": {
             "flag_name": "Geographically Non-Monogamy",
             "part": "left_part_1",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/geographically_non_monogamy/geographically_non_monogamy.png",
             "mask_key": "_horizontal_0",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -1534,7 +1773,6 @@
             "flag_name": "Geographically Non-Monogamy",
             "part": "left_part_2",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/geographically_non_monogamy/geographically_non_monogamy.png",
             "mask_key": "_horizontal_1",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -1564,7 +1802,6 @@
             "flag_name": "Geographically Non-Monogamy",
             "part": "right_part_1",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/geographically_non_monogamy/geographically_non_monogamy.png",
             "mask_key": "_horizontal_2",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -1594,7 +1831,6 @@
             "flag_name": "Geographically Non-Monogamy",
             "part": "right_part_2",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/geographically_non_monogamy/geographically_non_monogamy.png",
             "mask_key": "_horizontal_3",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -1624,7 +1860,6 @@
             "flag_name": "Geographically Non-Monogamy",
             "part": "center",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/geographically_non_monogamy/geographically_non_monogamy.png",
             "mask_key": "_horizontal_4",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -1650,15 +1885,14 @@
             "id": "assets/img/sprites/relationship_paw/relationship_paw_geographically_non_monogamy_horizontal_4.png",
             "filename": "assets/img/sprites/relationship_paw/relationship_paw_geographically_non_monogamy_horizontal_4.png"
         },
-        "assets/img/sprites/relationship_paw/relationship_paw_geographically_non_monogamy_vertical_0.png": {
+        "assets/img/sprites/relationship_paw/relationship_paw_geographically_non_monogamy_horizontal_5.png": {
             "flag_name": "Geographically Non-Monogamy",
-            "part": "left_part_1",
-            "orientation": "vertical",
-            "flag_filename": "assets/img/flags/geographically_non_monogamy/geographically_non_monogamy.png",
-            "mask_key": "_vertical_0",
+            "part": "whole",
+            "orientation": "horizontal",
+            "mask_key": "_horizontal_5",
             "flags_fits": true,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_5.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -1677,18 +1911,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/relationship_paw/relationship_paw_geographically_non_monogamy_vertical_0.png",
-            "filename": "assets/img/sprites/relationship_paw/relationship_paw_geographically_non_monogamy_vertical_0.png"
+            "id": "assets/img/sprites/relationship_paw/relationship_paw_geographically_non_monogamy_horizontal_5.png",
+            "filename": "assets/img/sprites/relationship_paw/relationship_paw_geographically_non_monogamy_horizontal_5.png"
         },
-        "assets/img/sprites/relationship_paw/relationship_paw_geographically_non_monogamy_vertical_1.png": {
+        "assets/img/sprites/relationship_paw/relationship_paw_geographically_non_monogamy_vertical_0.png": {
             "flag_name": "Geographically Non-Monogamy",
-            "part": "left_part_2",
+            "part": "left_part_1",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/geographically_non_monogamy/geographically_non_monogamy.png",
-            "mask_key": "_vertical_1",
+            "mask_key": "_vertical_0",
             "flags_fits": true,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_1.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -1707,18 +1940,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/relationship_paw/relationship_paw_geographically_non_monogamy_vertical_1.png",
-            "filename": "assets/img/sprites/relationship_paw/relationship_paw_geographically_non_monogamy_vertical_1.png"
+            "id": "assets/img/sprites/relationship_paw/relationship_paw_geographically_non_monogamy_vertical_0.png",
+            "filename": "assets/img/sprites/relationship_paw/relationship_paw_geographically_non_monogamy_vertical_0.png"
         },
-        "assets/img/sprites/relationship_paw/relationship_paw_geographically_non_monogamy_vertical_2.png": {
+        "assets/img/sprites/relationship_paw/relationship_paw_geographically_non_monogamy_vertical_1.png": {
             "flag_name": "Geographically Non-Monogamy",
-            "part": "right_part_1",
+            "part": "left_part_2",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/geographically_non_monogamy/geographically_non_monogamy.png",
-            "mask_key": "_vertical_2",
+            "mask_key": "_vertical_1",
             "flags_fits": true,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_2.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_1.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -1737,18 +1969,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/relationship_paw/relationship_paw_geographically_non_monogamy_vertical_2.png",
-            "filename": "assets/img/sprites/relationship_paw/relationship_paw_geographically_non_monogamy_vertical_2.png"
+            "id": "assets/img/sprites/relationship_paw/relationship_paw_geographically_non_monogamy_vertical_1.png",
+            "filename": "assets/img/sprites/relationship_paw/relationship_paw_geographically_non_monogamy_vertical_1.png"
         },
-        "assets/img/sprites/relationship_paw/relationship_paw_geographically_non_monogamy_vertical_3.png": {
+        "assets/img/sprites/relationship_paw/relationship_paw_geographically_non_monogamy_vertical_2.png": {
             "flag_name": "Geographically Non-Monogamy",
-            "part": "right_part_2",
+            "part": "right_part_1",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/geographically_non_monogamy/geographically_non_monogamy.png",
-            "mask_key": "_vertical_3",
+            "mask_key": "_vertical_2",
             "flags_fits": true,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_3.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_2.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -1767,18 +1998,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/relationship_paw/relationship_paw_geographically_non_monogamy_vertical_3.png",
-            "filename": "assets/img/sprites/relationship_paw/relationship_paw_geographically_non_monogamy_vertical_3.png"
+            "id": "assets/img/sprites/relationship_paw/relationship_paw_geographically_non_monogamy_vertical_2.png",
+            "filename": "assets/img/sprites/relationship_paw/relationship_paw_geographically_non_monogamy_vertical_2.png"
         },
-        "assets/img/sprites/relationship_paw/relationship_paw_geographically_non_monogamy_vertical_4.png": {
+        "assets/img/sprites/relationship_paw/relationship_paw_geographically_non_monogamy_vertical_3.png": {
             "flag_name": "Geographically Non-Monogamy",
-            "part": "center",
+            "part": "right_part_2",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/geographically_non_monogamy/geographically_non_monogamy.png",
-            "mask_key": "_vertical_4",
+            "mask_key": "_vertical_3",
             "flags_fits": true,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_4.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_3.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -1797,14 +2027,71 @@
                 "w": 22,
                 "h": 22
             },
+            "id": "assets/img/sprites/relationship_paw/relationship_paw_geographically_non_monogamy_vertical_3.png",
+            "filename": "assets/img/sprites/relationship_paw/relationship_paw_geographically_non_monogamy_vertical_3.png"
+        },
+        "assets/img/sprites/relationship_paw/relationship_paw_geographically_non_monogamy_vertical_4.png": {
+            "flag_name": "Geographically Non-Monogamy",
+            "part": "center",
+            "orientation": "vertical",
+            "mask_key": "_vertical_4",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 220,
+                "y": 110,
+                "w": 22,
+                "h": 22
+            },
             "id": "assets/img/sprites/relationship_paw/relationship_paw_geographically_non_monogamy_vertical_4.png",
             "filename": "assets/img/sprites/relationship_paw/relationship_paw_geographically_non_monogamy_vertical_4.png"
+        },
+        "assets/img/sprites/relationship_paw/relationship_paw_geographically_non_monogamy_vertical_5.png": {
+            "flag_name": "Geographically Non-Monogamy",
+            "part": "whole",
+            "orientation": "vertical",
+            "mask_key": "_vertical_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 242,
+                "y": 110,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_paw/relationship_paw_geographically_non_monogamy_vertical_5.png",
+            "filename": "assets/img/sprites/relationship_paw/relationship_paw_geographically_non_monogamy_vertical_5.png"
         },
         "assets/img/sprites/relationship_paw/relationship_paw_v_polyamory_horizontal_0.png": {
             "flag_name": "V Polyamory",
             "part": "left_part_1",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/v_polyamory/v_polyamory.png",
             "mask_key": "_horizontal_0",
             "flags_fits": true,
             "flags_fits_perfect": true,
@@ -1834,7 +2121,6 @@
             "flag_name": "V Polyamory",
             "part": "left_part_2",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/v_polyamory/v_polyamory.png",
             "mask_key": "_horizontal_1",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -1864,7 +2150,6 @@
             "flag_name": "V Polyamory",
             "part": "right_part_1",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/v_polyamory/v_polyamory.png",
             "mask_key": "_horizontal_2",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -1894,7 +2179,6 @@
             "flag_name": "V Polyamory",
             "part": "right_part_2",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/v_polyamory/v_polyamory.png",
             "mask_key": "_horizontal_3",
             "flags_fits": true,
             "flags_fits_perfect": true,
@@ -1924,7 +2208,6 @@
             "flag_name": "V Polyamory",
             "part": "center",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/v_polyamory/v_polyamory.png",
             "mask_key": "_horizontal_4",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -1950,15 +2233,14 @@
             "id": "assets/img/sprites/relationship_paw/relationship_paw_v_polyamory_horizontal_4.png",
             "filename": "assets/img/sprites/relationship_paw/relationship_paw_v_polyamory_horizontal_4.png"
         },
-        "assets/img/sprites/relationship_paw/relationship_paw_v_polyamory_vertical_0.png": {
+        "assets/img/sprites/relationship_paw/relationship_paw_v_polyamory_horizontal_5.png": {
             "flag_name": "V Polyamory",
-            "part": "left_part_1",
-            "orientation": "vertical",
-            "flag_filename": "assets/img/flags/v_polyamory/v_polyamory.png",
-            "mask_key": "_vertical_0",
-            "flags_fits": false,
+            "part": "whole",
+            "orientation": "horizontal",
+            "mask_key": "_horizontal_5",
+            "flags_fits": true,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_5.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -1977,18 +2259,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/relationship_paw/relationship_paw_v_polyamory_vertical_0.png",
-            "filename": "assets/img/sprites/relationship_paw/relationship_paw_v_polyamory_vertical_0.png"
+            "id": "assets/img/sprites/relationship_paw/relationship_paw_v_polyamory_horizontal_5.png",
+            "filename": "assets/img/sprites/relationship_paw/relationship_paw_v_polyamory_horizontal_5.png"
         },
-        "assets/img/sprites/relationship_paw/relationship_paw_v_polyamory_vertical_1.png": {
+        "assets/img/sprites/relationship_paw/relationship_paw_v_polyamory_vertical_0.png": {
             "flag_name": "V Polyamory",
-            "part": "left_part_2",
+            "part": "left_part_1",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/v_polyamory/v_polyamory.png",
-            "mask_key": "_vertical_1",
+            "mask_key": "_vertical_0",
             "flags_fits": false,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_1.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -2007,18 +2288,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/relationship_paw/relationship_paw_v_polyamory_vertical_1.png",
-            "filename": "assets/img/sprites/relationship_paw/relationship_paw_v_polyamory_vertical_1.png"
+            "id": "assets/img/sprites/relationship_paw/relationship_paw_v_polyamory_vertical_0.png",
+            "filename": "assets/img/sprites/relationship_paw/relationship_paw_v_polyamory_vertical_0.png"
         },
-        "assets/img/sprites/relationship_paw/relationship_paw_v_polyamory_vertical_2.png": {
+        "assets/img/sprites/relationship_paw/relationship_paw_v_polyamory_vertical_1.png": {
             "flag_name": "V Polyamory",
-            "part": "right_part_1",
+            "part": "left_part_2",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/v_polyamory/v_polyamory.png",
-            "mask_key": "_vertical_2",
+            "mask_key": "_vertical_1",
             "flags_fits": false,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_2.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_1.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -2037,18 +2317,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/relationship_paw/relationship_paw_v_polyamory_vertical_2.png",
-            "filename": "assets/img/sprites/relationship_paw/relationship_paw_v_polyamory_vertical_2.png"
+            "id": "assets/img/sprites/relationship_paw/relationship_paw_v_polyamory_vertical_1.png",
+            "filename": "assets/img/sprites/relationship_paw/relationship_paw_v_polyamory_vertical_1.png"
         },
-        "assets/img/sprites/relationship_paw/relationship_paw_v_polyamory_vertical_3.png": {
+        "assets/img/sprites/relationship_paw/relationship_paw_v_polyamory_vertical_2.png": {
             "flag_name": "V Polyamory",
-            "part": "right_part_2",
+            "part": "right_part_1",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/v_polyamory/v_polyamory.png",
-            "mask_key": "_vertical_3",
+            "mask_key": "_vertical_2",
             "flags_fits": false,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_3.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_2.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -2067,18 +2346,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/relationship_paw/relationship_paw_v_polyamory_vertical_3.png",
-            "filename": "assets/img/sprites/relationship_paw/relationship_paw_v_polyamory_vertical_3.png"
+            "id": "assets/img/sprites/relationship_paw/relationship_paw_v_polyamory_vertical_2.png",
+            "filename": "assets/img/sprites/relationship_paw/relationship_paw_v_polyamory_vertical_2.png"
         },
-        "assets/img/sprites/relationship_paw/relationship_paw_v_polyamory_vertical_4.png": {
+        "assets/img/sprites/relationship_paw/relationship_paw_v_polyamory_vertical_3.png": {
             "flag_name": "V Polyamory",
-            "part": "center",
+            "part": "right_part_2",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/v_polyamory/v_polyamory.png",
-            "mask_key": "_vertical_4",
-            "flags_fits": true,
+            "mask_key": "_vertical_3",
+            "flags_fits": false,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_4.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_3.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -2097,14 +2375,71 @@
                 "w": 22,
                 "h": 22
             },
+            "id": "assets/img/sprites/relationship_paw/relationship_paw_v_polyamory_vertical_3.png",
+            "filename": "assets/img/sprites/relationship_paw/relationship_paw_v_polyamory_vertical_3.png"
+        },
+        "assets/img/sprites/relationship_paw/relationship_paw_v_polyamory_vertical_4.png": {
+            "flag_name": "V Polyamory",
+            "part": "center",
+            "orientation": "vertical",
+            "mask_key": "_vertical_4",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 220,
+                "y": 132,
+                "w": 22,
+                "h": 22
+            },
             "id": "assets/img/sprites/relationship_paw/relationship_paw_v_polyamory_vertical_4.png",
             "filename": "assets/img/sprites/relationship_paw/relationship_paw_v_polyamory_vertical_4.png"
+        },
+        "assets/img/sprites/relationship_paw/relationship_paw_v_polyamory_vertical_5.png": {
+            "flag_name": "V Polyamory",
+            "part": "whole",
+            "orientation": "vertical",
+            "mask_key": "_vertical_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 242,
+                "y": 132,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_paw/relationship_paw_v_polyamory_vertical_5.png",
+            "filename": "assets/img/sprites/relationship_paw/relationship_paw_v_polyamory_vertical_5.png"
         },
         "assets/img/sprites/relationship_paw/relationship_paw_t_polyamory_horizontal_0.png": {
             "flag_name": "T Polyamory",
             "part": "left_part_1",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/t_polyamory/t_polyamory.png",
             "mask_key": "_horizontal_0",
             "flags_fits": true,
             "flags_fits_perfect": true,
@@ -2134,7 +2469,6 @@
             "flag_name": "T Polyamory",
             "part": "left_part_2",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/t_polyamory/t_polyamory.png",
             "mask_key": "_horizontal_1",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -2164,7 +2498,6 @@
             "flag_name": "T Polyamory",
             "part": "right_part_1",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/t_polyamory/t_polyamory.png",
             "mask_key": "_horizontal_2",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -2194,7 +2527,6 @@
             "flag_name": "T Polyamory",
             "part": "right_part_2",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/t_polyamory/t_polyamory.png",
             "mask_key": "_horizontal_3",
             "flags_fits": true,
             "flags_fits_perfect": true,
@@ -2224,7 +2556,6 @@
             "flag_name": "T Polyamory",
             "part": "center",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/t_polyamory/t_polyamory.png",
             "mask_key": "_horizontal_4",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -2250,15 +2581,14 @@
             "id": "assets/img/sprites/relationship_paw/relationship_paw_t_polyamory_horizontal_4.png",
             "filename": "assets/img/sprites/relationship_paw/relationship_paw_t_polyamory_horizontal_4.png"
         },
-        "assets/img/sprites/relationship_paw/relationship_paw_t_polyamory_vertical_0.png": {
+        "assets/img/sprites/relationship_paw/relationship_paw_t_polyamory_horizontal_5.png": {
             "flag_name": "T Polyamory",
-            "part": "left_part_1",
-            "orientation": "vertical",
-            "flag_filename": "assets/img/flags/t_polyamory/t_polyamory.png",
-            "mask_key": "_vertical_0",
-            "flags_fits": false,
+            "part": "whole",
+            "orientation": "horizontal",
+            "mask_key": "_horizontal_5",
+            "flags_fits": true,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_5.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -2277,18 +2607,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/relationship_paw/relationship_paw_t_polyamory_vertical_0.png",
-            "filename": "assets/img/sprites/relationship_paw/relationship_paw_t_polyamory_vertical_0.png"
+            "id": "assets/img/sprites/relationship_paw/relationship_paw_t_polyamory_horizontal_5.png",
+            "filename": "assets/img/sprites/relationship_paw/relationship_paw_t_polyamory_horizontal_5.png"
         },
-        "assets/img/sprites/relationship_paw/relationship_paw_t_polyamory_vertical_1.png": {
+        "assets/img/sprites/relationship_paw/relationship_paw_t_polyamory_vertical_0.png": {
             "flag_name": "T Polyamory",
-            "part": "left_part_2",
+            "part": "left_part_1",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/t_polyamory/t_polyamory.png",
-            "mask_key": "_vertical_1",
+            "mask_key": "_vertical_0",
             "flags_fits": false,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_1.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -2307,18 +2636,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/relationship_paw/relationship_paw_t_polyamory_vertical_1.png",
-            "filename": "assets/img/sprites/relationship_paw/relationship_paw_t_polyamory_vertical_1.png"
+            "id": "assets/img/sprites/relationship_paw/relationship_paw_t_polyamory_vertical_0.png",
+            "filename": "assets/img/sprites/relationship_paw/relationship_paw_t_polyamory_vertical_0.png"
         },
-        "assets/img/sprites/relationship_paw/relationship_paw_t_polyamory_vertical_2.png": {
+        "assets/img/sprites/relationship_paw/relationship_paw_t_polyamory_vertical_1.png": {
             "flag_name": "T Polyamory",
-            "part": "right_part_1",
+            "part": "left_part_2",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/t_polyamory/t_polyamory.png",
-            "mask_key": "_vertical_2",
+            "mask_key": "_vertical_1",
             "flags_fits": false,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_2.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_1.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -2337,18 +2665,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/relationship_paw/relationship_paw_t_polyamory_vertical_2.png",
-            "filename": "assets/img/sprites/relationship_paw/relationship_paw_t_polyamory_vertical_2.png"
+            "id": "assets/img/sprites/relationship_paw/relationship_paw_t_polyamory_vertical_1.png",
+            "filename": "assets/img/sprites/relationship_paw/relationship_paw_t_polyamory_vertical_1.png"
         },
-        "assets/img/sprites/relationship_paw/relationship_paw_t_polyamory_vertical_3.png": {
+        "assets/img/sprites/relationship_paw/relationship_paw_t_polyamory_vertical_2.png": {
             "flag_name": "T Polyamory",
-            "part": "right_part_2",
+            "part": "right_part_1",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/t_polyamory/t_polyamory.png",
-            "mask_key": "_vertical_3",
+            "mask_key": "_vertical_2",
             "flags_fits": false,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_3.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_2.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -2367,18 +2694,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/relationship_paw/relationship_paw_t_polyamory_vertical_3.png",
-            "filename": "assets/img/sprites/relationship_paw/relationship_paw_t_polyamory_vertical_3.png"
+            "id": "assets/img/sprites/relationship_paw/relationship_paw_t_polyamory_vertical_2.png",
+            "filename": "assets/img/sprites/relationship_paw/relationship_paw_t_polyamory_vertical_2.png"
         },
-        "assets/img/sprites/relationship_paw/relationship_paw_t_polyamory_vertical_4.png": {
+        "assets/img/sprites/relationship_paw/relationship_paw_t_polyamory_vertical_3.png": {
             "flag_name": "T Polyamory",
-            "part": "center",
+            "part": "right_part_2",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/t_polyamory/t_polyamory.png",
-            "mask_key": "_vertical_4",
-            "flags_fits": true,
+            "mask_key": "_vertical_3",
+            "flags_fits": false,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_4.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_3.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -2397,14 +2723,71 @@
                 "w": 22,
                 "h": 22
             },
+            "id": "assets/img/sprites/relationship_paw/relationship_paw_t_polyamory_vertical_3.png",
+            "filename": "assets/img/sprites/relationship_paw/relationship_paw_t_polyamory_vertical_3.png"
+        },
+        "assets/img/sprites/relationship_paw/relationship_paw_t_polyamory_vertical_4.png": {
+            "flag_name": "T Polyamory",
+            "part": "center",
+            "orientation": "vertical",
+            "mask_key": "_vertical_4",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 220,
+                "y": 154,
+                "w": 22,
+                "h": 22
+            },
             "id": "assets/img/sprites/relationship_paw/relationship_paw_t_polyamory_vertical_4.png",
             "filename": "assets/img/sprites/relationship_paw/relationship_paw_t_polyamory_vertical_4.png"
+        },
+        "assets/img/sprites/relationship_paw/relationship_paw_t_polyamory_vertical_5.png": {
+            "flag_name": "T Polyamory",
+            "part": "whole",
+            "orientation": "vertical",
+            "mask_key": "_vertical_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 242,
+                "y": 154,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_paw/relationship_paw_t_polyamory_vertical_5.png",
+            "filename": "assets/img/sprites/relationship_paw/relationship_paw_t_polyamory_vertical_5.png"
         },
         "assets/img/sprites/relationship_paw/relationship_paw_polyfidelity_horizontal_0.png": {
             "flag_name": "Polyfidelity",
             "part": "left_part_1",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/polyfidelity/polyfidelity.png",
             "mask_key": "_horizontal_0",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -2434,7 +2817,6 @@
             "flag_name": "Polyfidelity",
             "part": "left_part_2",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/polyfidelity/polyfidelity.png",
             "mask_key": "_horizontal_1",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -2464,7 +2846,6 @@
             "flag_name": "Polyfidelity",
             "part": "right_part_1",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/polyfidelity/polyfidelity.png",
             "mask_key": "_horizontal_2",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -2494,7 +2875,6 @@
             "flag_name": "Polyfidelity",
             "part": "right_part_2",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/polyfidelity/polyfidelity.png",
             "mask_key": "_horizontal_3",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -2524,7 +2904,6 @@
             "flag_name": "Polyfidelity",
             "part": "center",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/polyfidelity/polyfidelity.png",
             "mask_key": "_horizontal_4",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -2550,15 +2929,14 @@
             "id": "assets/img/sprites/relationship_paw/relationship_paw_polyfidelity_horizontal_4.png",
             "filename": "assets/img/sprites/relationship_paw/relationship_paw_polyfidelity_horizontal_4.png"
         },
-        "assets/img/sprites/relationship_paw/relationship_paw_polyfidelity_vertical_0.png": {
+        "assets/img/sprites/relationship_paw/relationship_paw_polyfidelity_horizontal_5.png": {
             "flag_name": "Polyfidelity",
-            "part": "left_part_1",
-            "orientation": "vertical",
-            "flag_filename": "assets/img/flags/polyfidelity/polyfidelity.png",
-            "mask_key": "_vertical_0",
+            "part": "whole",
+            "orientation": "horizontal",
+            "mask_key": "_horizontal_5",
             "flags_fits": true,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_5.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -2577,18 +2955,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/relationship_paw/relationship_paw_polyfidelity_vertical_0.png",
-            "filename": "assets/img/sprites/relationship_paw/relationship_paw_polyfidelity_vertical_0.png"
+            "id": "assets/img/sprites/relationship_paw/relationship_paw_polyfidelity_horizontal_5.png",
+            "filename": "assets/img/sprites/relationship_paw/relationship_paw_polyfidelity_horizontal_5.png"
         },
-        "assets/img/sprites/relationship_paw/relationship_paw_polyfidelity_vertical_1.png": {
+        "assets/img/sprites/relationship_paw/relationship_paw_polyfidelity_vertical_0.png": {
             "flag_name": "Polyfidelity",
-            "part": "left_part_2",
+            "part": "left_part_1",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/polyfidelity/polyfidelity.png",
-            "mask_key": "_vertical_1",
+            "mask_key": "_vertical_0",
             "flags_fits": true,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_1.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -2607,18 +2984,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/relationship_paw/relationship_paw_polyfidelity_vertical_1.png",
-            "filename": "assets/img/sprites/relationship_paw/relationship_paw_polyfidelity_vertical_1.png"
+            "id": "assets/img/sprites/relationship_paw/relationship_paw_polyfidelity_vertical_0.png",
+            "filename": "assets/img/sprites/relationship_paw/relationship_paw_polyfidelity_vertical_0.png"
         },
-        "assets/img/sprites/relationship_paw/relationship_paw_polyfidelity_vertical_2.png": {
+        "assets/img/sprites/relationship_paw/relationship_paw_polyfidelity_vertical_1.png": {
             "flag_name": "Polyfidelity",
-            "part": "right_part_1",
+            "part": "left_part_2",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/polyfidelity/polyfidelity.png",
-            "mask_key": "_vertical_2",
+            "mask_key": "_vertical_1",
             "flags_fits": true,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_2.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_1.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -2637,18 +3013,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/relationship_paw/relationship_paw_polyfidelity_vertical_2.png",
-            "filename": "assets/img/sprites/relationship_paw/relationship_paw_polyfidelity_vertical_2.png"
+            "id": "assets/img/sprites/relationship_paw/relationship_paw_polyfidelity_vertical_1.png",
+            "filename": "assets/img/sprites/relationship_paw/relationship_paw_polyfidelity_vertical_1.png"
         },
-        "assets/img/sprites/relationship_paw/relationship_paw_polyfidelity_vertical_3.png": {
+        "assets/img/sprites/relationship_paw/relationship_paw_polyfidelity_vertical_2.png": {
             "flag_name": "Polyfidelity",
-            "part": "right_part_2",
+            "part": "right_part_1",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/polyfidelity/polyfidelity.png",
-            "mask_key": "_vertical_3",
+            "mask_key": "_vertical_2",
             "flags_fits": true,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_3.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_2.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -2667,18 +3042,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/relationship_paw/relationship_paw_polyfidelity_vertical_3.png",
-            "filename": "assets/img/sprites/relationship_paw/relationship_paw_polyfidelity_vertical_3.png"
+            "id": "assets/img/sprites/relationship_paw/relationship_paw_polyfidelity_vertical_2.png",
+            "filename": "assets/img/sprites/relationship_paw/relationship_paw_polyfidelity_vertical_2.png"
         },
-        "assets/img/sprites/relationship_paw/relationship_paw_polyfidelity_vertical_4.png": {
+        "assets/img/sprites/relationship_paw/relationship_paw_polyfidelity_vertical_3.png": {
             "flag_name": "Polyfidelity",
-            "part": "center",
+            "part": "right_part_2",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/polyfidelity/polyfidelity.png",
-            "mask_key": "_vertical_4",
+            "mask_key": "_vertical_3",
             "flags_fits": true,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_4.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_3.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -2697,14 +3071,71 @@
                 "w": 22,
                 "h": 22
             },
+            "id": "assets/img/sprites/relationship_paw/relationship_paw_polyfidelity_vertical_3.png",
+            "filename": "assets/img/sprites/relationship_paw/relationship_paw_polyfidelity_vertical_3.png"
+        },
+        "assets/img/sprites/relationship_paw/relationship_paw_polyfidelity_vertical_4.png": {
+            "flag_name": "Polyfidelity",
+            "part": "center",
+            "orientation": "vertical",
+            "mask_key": "_vertical_4",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 220,
+                "y": 176,
+                "w": 22,
+                "h": 22
+            },
             "id": "assets/img/sprites/relationship_paw/relationship_paw_polyfidelity_vertical_4.png",
             "filename": "assets/img/sprites/relationship_paw/relationship_paw_polyfidelity_vertical_4.png"
+        },
+        "assets/img/sprites/relationship_paw/relationship_paw_polyfidelity_vertical_5.png": {
+            "flag_name": "Polyfidelity",
+            "part": "whole",
+            "orientation": "vertical",
+            "mask_key": "_vertical_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 242,
+                "y": 176,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_paw/relationship_paw_polyfidelity_vertical_5.png",
+            "filename": "assets/img/sprites/relationship_paw/relationship_paw_polyfidelity_vertical_5.png"
         },
         "assets/img/sprites/relationship_paw/relationship_paw_monogamy_horizontal_0.png": {
             "flag_name": "Monogamy",
             "part": "left_part_1",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/monogamy/monogamy.png",
             "mask_key": "_horizontal_0",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -2734,7 +3165,6 @@
             "flag_name": "Monogamy",
             "part": "left_part_2",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/monogamy/monogamy.png",
             "mask_key": "_horizontal_1",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -2764,7 +3194,6 @@
             "flag_name": "Monogamy",
             "part": "right_part_1",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/monogamy/monogamy.png",
             "mask_key": "_horizontal_2",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -2794,7 +3223,6 @@
             "flag_name": "Monogamy",
             "part": "right_part_2",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/monogamy/monogamy.png",
             "mask_key": "_horizontal_3",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -2824,7 +3252,6 @@
             "flag_name": "Monogamy",
             "part": "center",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/monogamy/monogamy.png",
             "mask_key": "_horizontal_4",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -2850,15 +3277,14 @@
             "id": "assets/img/sprites/relationship_paw/relationship_paw_monogamy_horizontal_4.png",
             "filename": "assets/img/sprites/relationship_paw/relationship_paw_monogamy_horizontal_4.png"
         },
-        "assets/img/sprites/relationship_paw/relationship_paw_monogamy_vertical_0.png": {
+        "assets/img/sprites/relationship_paw/relationship_paw_monogamy_horizontal_5.png": {
             "flag_name": "Monogamy",
-            "part": "left_part_1",
-            "orientation": "vertical",
-            "flag_filename": "assets/img/flags/monogamy/monogamy.png",
-            "mask_key": "_vertical_0",
+            "part": "whole",
+            "orientation": "horizontal",
+            "mask_key": "_horizontal_5",
             "flags_fits": true,
-            "flags_fits_perfect": true,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png",
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_5.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -2877,18 +3303,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/relationship_paw/relationship_paw_monogamy_vertical_0.png",
-            "filename": "assets/img/sprites/relationship_paw/relationship_paw_monogamy_vertical_0.png"
+            "id": "assets/img/sprites/relationship_paw/relationship_paw_monogamy_horizontal_5.png",
+            "filename": "assets/img/sprites/relationship_paw/relationship_paw_monogamy_horizontal_5.png"
         },
-        "assets/img/sprites/relationship_paw/relationship_paw_monogamy_vertical_1.png": {
+        "assets/img/sprites/relationship_paw/relationship_paw_monogamy_vertical_0.png": {
             "flag_name": "Monogamy",
-            "part": "left_part_2",
+            "part": "left_part_1",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/monogamy/monogamy.png",
-            "mask_key": "_vertical_1",
+            "mask_key": "_vertical_0",
             "flags_fits": true,
             "flags_fits_perfect": true,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_1.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -2907,18 +3332,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/relationship_paw/relationship_paw_monogamy_vertical_1.png",
-            "filename": "assets/img/sprites/relationship_paw/relationship_paw_monogamy_vertical_1.png"
+            "id": "assets/img/sprites/relationship_paw/relationship_paw_monogamy_vertical_0.png",
+            "filename": "assets/img/sprites/relationship_paw/relationship_paw_monogamy_vertical_0.png"
         },
-        "assets/img/sprites/relationship_paw/relationship_paw_monogamy_vertical_2.png": {
+        "assets/img/sprites/relationship_paw/relationship_paw_monogamy_vertical_1.png": {
             "flag_name": "Monogamy",
-            "part": "right_part_1",
+            "part": "left_part_2",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/monogamy/monogamy.png",
-            "mask_key": "_vertical_2",
+            "mask_key": "_vertical_1",
             "flags_fits": true,
             "flags_fits_perfect": true,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_2.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_1.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -2937,18 +3361,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/relationship_paw/relationship_paw_monogamy_vertical_2.png",
-            "filename": "assets/img/sprites/relationship_paw/relationship_paw_monogamy_vertical_2.png"
+            "id": "assets/img/sprites/relationship_paw/relationship_paw_monogamy_vertical_1.png",
+            "filename": "assets/img/sprites/relationship_paw/relationship_paw_monogamy_vertical_1.png"
         },
-        "assets/img/sprites/relationship_paw/relationship_paw_monogamy_vertical_3.png": {
+        "assets/img/sprites/relationship_paw/relationship_paw_monogamy_vertical_2.png": {
             "flag_name": "Monogamy",
-            "part": "right_part_2",
+            "part": "right_part_1",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/monogamy/monogamy.png",
-            "mask_key": "_vertical_3",
+            "mask_key": "_vertical_2",
             "flags_fits": true,
             "flags_fits_perfect": true,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_3.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_2.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -2967,18 +3390,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/relationship_paw/relationship_paw_monogamy_vertical_3.png",
-            "filename": "assets/img/sprites/relationship_paw/relationship_paw_monogamy_vertical_3.png"
+            "id": "assets/img/sprites/relationship_paw/relationship_paw_monogamy_vertical_2.png",
+            "filename": "assets/img/sprites/relationship_paw/relationship_paw_monogamy_vertical_2.png"
         },
-        "assets/img/sprites/relationship_paw/relationship_paw_monogamy_vertical_4.png": {
+        "assets/img/sprites/relationship_paw/relationship_paw_monogamy_vertical_3.png": {
             "flag_name": "Monogamy",
-            "part": "center",
+            "part": "right_part_2",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/monogamy/monogamy.png",
-            "mask_key": "_vertical_4",
+            "mask_key": "_vertical_3",
             "flags_fits": true,
-            "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_4.png",
+            "flags_fits_perfect": true,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_3.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -2997,14 +3419,71 @@
                 "w": 22,
                 "h": 22
             },
+            "id": "assets/img/sprites/relationship_paw/relationship_paw_monogamy_vertical_3.png",
+            "filename": "assets/img/sprites/relationship_paw/relationship_paw_monogamy_vertical_3.png"
+        },
+        "assets/img/sprites/relationship_paw/relationship_paw_monogamy_vertical_4.png": {
+            "flag_name": "Monogamy",
+            "part": "center",
+            "orientation": "vertical",
+            "mask_key": "_vertical_4",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 220,
+                "y": 198,
+                "w": 22,
+                "h": 22
+            },
             "id": "assets/img/sprites/relationship_paw/relationship_paw_monogamy_vertical_4.png",
             "filename": "assets/img/sprites/relationship_paw/relationship_paw_monogamy_vertical_4.png"
+        },
+        "assets/img/sprites/relationship_paw/relationship_paw_monogamy_vertical_5.png": {
+            "flag_name": "Monogamy",
+            "part": "whole",
+            "orientation": "vertical",
+            "mask_key": "_vertical_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 242,
+                "y": 198,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_paw/relationship_paw_monogamy_vertical_5.png",
+            "filename": "assets/img/sprites/relationship_paw/relationship_paw_monogamy_vertical_5.png"
         },
         "assets/img/sprites/relationship_paw/relationship_paw_pluriad_horizontal_0.png": {
             "flag_name": "Pluriad",
             "part": "left_part_1",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/pluriad/pluriad.png",
             "mask_key": "_horizontal_0",
             "flags_fits": false,
             "flags_fits_perfect": false,
@@ -3034,7 +3513,6 @@
             "flag_name": "Pluriad",
             "part": "left_part_2",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/pluriad/pluriad.png",
             "mask_key": "_horizontal_1",
             "flags_fits": false,
             "flags_fits_perfect": false,
@@ -3064,7 +3542,6 @@
             "flag_name": "Pluriad",
             "part": "right_part_1",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/pluriad/pluriad.png",
             "mask_key": "_horizontal_2",
             "flags_fits": false,
             "flags_fits_perfect": false,
@@ -3094,7 +3571,6 @@
             "flag_name": "Pluriad",
             "part": "right_part_2",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/pluriad/pluriad.png",
             "mask_key": "_horizontal_3",
             "flags_fits": false,
             "flags_fits_perfect": false,
@@ -3124,7 +3600,6 @@
             "flag_name": "Pluriad",
             "part": "center",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/pluriad/pluriad.png",
             "mask_key": "_horizontal_4",
             "flags_fits": false,
             "flags_fits_perfect": false,
@@ -3150,15 +3625,14 @@
             "id": "assets/img/sprites/relationship_paw/relationship_paw_pluriad_horizontal_4.png",
             "filename": "assets/img/sprites/relationship_paw/relationship_paw_pluriad_horizontal_4.png"
         },
-        "assets/img/sprites/relationship_paw/relationship_paw_pluriad_vertical_0.png": {
+        "assets/img/sprites/relationship_paw/relationship_paw_pluriad_horizontal_5.png": {
             "flag_name": "Pluriad",
-            "part": "left_part_1",
-            "orientation": "vertical",
-            "flag_filename": "assets/img/flags/pluriad/pluriad.png",
-            "mask_key": "_vertical_0",
-            "flags_fits": false,
+            "part": "whole",
+            "orientation": "horizontal",
+            "mask_key": "_horizontal_5",
+            "flags_fits": true,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_5.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -3177,18 +3651,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/relationship_paw/relationship_paw_pluriad_vertical_0.png",
-            "filename": "assets/img/sprites/relationship_paw/relationship_paw_pluriad_vertical_0.png"
+            "id": "assets/img/sprites/relationship_paw/relationship_paw_pluriad_horizontal_5.png",
+            "filename": "assets/img/sprites/relationship_paw/relationship_paw_pluriad_horizontal_5.png"
         },
-        "assets/img/sprites/relationship_paw/relationship_paw_pluriad_vertical_1.png": {
+        "assets/img/sprites/relationship_paw/relationship_paw_pluriad_vertical_0.png": {
             "flag_name": "Pluriad",
-            "part": "left_part_2",
+            "part": "left_part_1",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/pluriad/pluriad.png",
-            "mask_key": "_vertical_1",
+            "mask_key": "_vertical_0",
             "flags_fits": false,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_1.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -3207,18 +3680,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/relationship_paw/relationship_paw_pluriad_vertical_1.png",
-            "filename": "assets/img/sprites/relationship_paw/relationship_paw_pluriad_vertical_1.png"
+            "id": "assets/img/sprites/relationship_paw/relationship_paw_pluriad_vertical_0.png",
+            "filename": "assets/img/sprites/relationship_paw/relationship_paw_pluriad_vertical_0.png"
         },
-        "assets/img/sprites/relationship_paw/relationship_paw_pluriad_vertical_2.png": {
+        "assets/img/sprites/relationship_paw/relationship_paw_pluriad_vertical_1.png": {
             "flag_name": "Pluriad",
-            "part": "right_part_1",
+            "part": "left_part_2",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/pluriad/pluriad.png",
-            "mask_key": "_vertical_2",
+            "mask_key": "_vertical_1",
             "flags_fits": false,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_2.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_1.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -3237,18 +3709,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/relationship_paw/relationship_paw_pluriad_vertical_2.png",
-            "filename": "assets/img/sprites/relationship_paw/relationship_paw_pluriad_vertical_2.png"
+            "id": "assets/img/sprites/relationship_paw/relationship_paw_pluriad_vertical_1.png",
+            "filename": "assets/img/sprites/relationship_paw/relationship_paw_pluriad_vertical_1.png"
         },
-        "assets/img/sprites/relationship_paw/relationship_paw_pluriad_vertical_3.png": {
+        "assets/img/sprites/relationship_paw/relationship_paw_pluriad_vertical_2.png": {
             "flag_name": "Pluriad",
-            "part": "right_part_2",
+            "part": "right_part_1",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/pluriad/pluriad.png",
-            "mask_key": "_vertical_3",
+            "mask_key": "_vertical_2",
             "flags_fits": false,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_3.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_2.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -3267,18 +3738,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/relationship_paw/relationship_paw_pluriad_vertical_3.png",
-            "filename": "assets/img/sprites/relationship_paw/relationship_paw_pluriad_vertical_3.png"
+            "id": "assets/img/sprites/relationship_paw/relationship_paw_pluriad_vertical_2.png",
+            "filename": "assets/img/sprites/relationship_paw/relationship_paw_pluriad_vertical_2.png"
         },
-        "assets/img/sprites/relationship_paw/relationship_paw_pluriad_vertical_4.png": {
+        "assets/img/sprites/relationship_paw/relationship_paw_pluriad_vertical_3.png": {
             "flag_name": "Pluriad",
-            "part": "center",
+            "part": "right_part_2",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/pluriad/pluriad.png",
-            "mask_key": "_vertical_4",
-            "flags_fits": true,
+            "mask_key": "_vertical_3",
+            "flags_fits": false,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_4.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_3.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -3297,14 +3767,71 @@
                 "w": 22,
                 "h": 22
             },
+            "id": "assets/img/sprites/relationship_paw/relationship_paw_pluriad_vertical_3.png",
+            "filename": "assets/img/sprites/relationship_paw/relationship_paw_pluriad_vertical_3.png"
+        },
+        "assets/img/sprites/relationship_paw/relationship_paw_pluriad_vertical_4.png": {
+            "flag_name": "Pluriad",
+            "part": "center",
+            "orientation": "vertical",
+            "mask_key": "_vertical_4",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 220,
+                "y": 220,
+                "w": 22,
+                "h": 22
+            },
             "id": "assets/img/sprites/relationship_paw/relationship_paw_pluriad_vertical_4.png",
             "filename": "assets/img/sprites/relationship_paw/relationship_paw_pluriad_vertical_4.png"
+        },
+        "assets/img/sprites/relationship_paw/relationship_paw_pluriad_vertical_5.png": {
+            "flag_name": "Pluriad",
+            "part": "whole",
+            "orientation": "vertical",
+            "mask_key": "_vertical_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 242,
+                "y": 220,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_paw/relationship_paw_pluriad_vertical_5.png",
+            "filename": "assets/img/sprites/relationship_paw/relationship_paw_pluriad_vertical_5.png"
         },
         "assets/img/sprites/relationship_paw/relationship_paw_nonamorous_horizontal_0.png": {
             "flag_name": "Nonamorous",
             "part": "left_part_1",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/nonamorous/nonamorous.png",
             "mask_key": "_horizontal_0",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -3334,7 +3861,6 @@
             "flag_name": "Nonamorous",
             "part": "left_part_2",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/nonamorous/nonamorous.png",
             "mask_key": "_horizontal_1",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -3364,7 +3890,6 @@
             "flag_name": "Nonamorous",
             "part": "right_part_1",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/nonamorous/nonamorous.png",
             "mask_key": "_horizontal_2",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -3394,7 +3919,6 @@
             "flag_name": "Nonamorous",
             "part": "right_part_2",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/nonamorous/nonamorous.png",
             "mask_key": "_horizontal_3",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -3424,7 +3948,6 @@
             "flag_name": "Nonamorous",
             "part": "center",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/nonamorous/nonamorous.png",
             "mask_key": "_horizontal_4",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -3450,15 +3973,14 @@
             "id": "assets/img/sprites/relationship_paw/relationship_paw_nonamorous_horizontal_4.png",
             "filename": "assets/img/sprites/relationship_paw/relationship_paw_nonamorous_horizontal_4.png"
         },
-        "assets/img/sprites/relationship_paw/relationship_paw_nonamorous_vertical_0.png": {
+        "assets/img/sprites/relationship_paw/relationship_paw_nonamorous_horizontal_5.png": {
             "flag_name": "Nonamorous",
-            "part": "left_part_1",
-            "orientation": "vertical",
-            "flag_filename": "assets/img/flags/nonamorous/nonamorous.png",
-            "mask_key": "_vertical_0",
+            "part": "whole",
+            "orientation": "horizontal",
+            "mask_key": "_horizontal_5",
             "flags_fits": true,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_5.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -3477,18 +3999,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/relationship_paw/relationship_paw_nonamorous_vertical_0.png",
-            "filename": "assets/img/sprites/relationship_paw/relationship_paw_nonamorous_vertical_0.png"
+            "id": "assets/img/sprites/relationship_paw/relationship_paw_nonamorous_horizontal_5.png",
+            "filename": "assets/img/sprites/relationship_paw/relationship_paw_nonamorous_horizontal_5.png"
         },
-        "assets/img/sprites/relationship_paw/relationship_paw_nonamorous_vertical_1.png": {
+        "assets/img/sprites/relationship_paw/relationship_paw_nonamorous_vertical_0.png": {
             "flag_name": "Nonamorous",
-            "part": "left_part_2",
+            "part": "left_part_1",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/nonamorous/nonamorous.png",
-            "mask_key": "_vertical_1",
+            "mask_key": "_vertical_0",
             "flags_fits": true,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_1.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -3507,18 +4028,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/relationship_paw/relationship_paw_nonamorous_vertical_1.png",
-            "filename": "assets/img/sprites/relationship_paw/relationship_paw_nonamorous_vertical_1.png"
+            "id": "assets/img/sprites/relationship_paw/relationship_paw_nonamorous_vertical_0.png",
+            "filename": "assets/img/sprites/relationship_paw/relationship_paw_nonamorous_vertical_0.png"
         },
-        "assets/img/sprites/relationship_paw/relationship_paw_nonamorous_vertical_2.png": {
+        "assets/img/sprites/relationship_paw/relationship_paw_nonamorous_vertical_1.png": {
             "flag_name": "Nonamorous",
-            "part": "right_part_1",
+            "part": "left_part_2",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/nonamorous/nonamorous.png",
-            "mask_key": "_vertical_2",
+            "mask_key": "_vertical_1",
             "flags_fits": true,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_2.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_1.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -3537,18 +4057,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/relationship_paw/relationship_paw_nonamorous_vertical_2.png",
-            "filename": "assets/img/sprites/relationship_paw/relationship_paw_nonamorous_vertical_2.png"
+            "id": "assets/img/sprites/relationship_paw/relationship_paw_nonamorous_vertical_1.png",
+            "filename": "assets/img/sprites/relationship_paw/relationship_paw_nonamorous_vertical_1.png"
         },
-        "assets/img/sprites/relationship_paw/relationship_paw_nonamorous_vertical_3.png": {
+        "assets/img/sprites/relationship_paw/relationship_paw_nonamorous_vertical_2.png": {
             "flag_name": "Nonamorous",
-            "part": "right_part_2",
+            "part": "right_part_1",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/nonamorous/nonamorous.png",
-            "mask_key": "_vertical_3",
+            "mask_key": "_vertical_2",
             "flags_fits": true,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_3.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_2.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -3567,18 +4086,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/relationship_paw/relationship_paw_nonamorous_vertical_3.png",
-            "filename": "assets/img/sprites/relationship_paw/relationship_paw_nonamorous_vertical_3.png"
+            "id": "assets/img/sprites/relationship_paw/relationship_paw_nonamorous_vertical_2.png",
+            "filename": "assets/img/sprites/relationship_paw/relationship_paw_nonamorous_vertical_2.png"
         },
-        "assets/img/sprites/relationship_paw/relationship_paw_nonamorous_vertical_4.png": {
+        "assets/img/sprites/relationship_paw/relationship_paw_nonamorous_vertical_3.png": {
             "flag_name": "Nonamorous",
-            "part": "center",
+            "part": "right_part_2",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/nonamorous/nonamorous.png",
-            "mask_key": "_vertical_4",
+            "mask_key": "_vertical_3",
             "flags_fits": true,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_4.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_3.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -3597,14 +4115,71 @@
                 "w": 22,
                 "h": 22
             },
+            "id": "assets/img/sprites/relationship_paw/relationship_paw_nonamorous_vertical_3.png",
+            "filename": "assets/img/sprites/relationship_paw/relationship_paw_nonamorous_vertical_3.png"
+        },
+        "assets/img/sprites/relationship_paw/relationship_paw_nonamorous_vertical_4.png": {
+            "flag_name": "Nonamorous",
+            "part": "center",
+            "orientation": "vertical",
+            "mask_key": "_vertical_4",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 220,
+                "y": 242,
+                "w": 22,
+                "h": 22
+            },
             "id": "assets/img/sprites/relationship_paw/relationship_paw_nonamorous_vertical_4.png",
             "filename": "assets/img/sprites/relationship_paw/relationship_paw_nonamorous_vertical_4.png"
+        },
+        "assets/img/sprites/relationship_paw/relationship_paw_nonamorous_vertical_5.png": {
+            "flag_name": "Nonamorous",
+            "part": "whole",
+            "orientation": "vertical",
+            "mask_key": "_vertical_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 242,
+                "y": 242,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_paw/relationship_paw_nonamorous_vertical_5.png",
+            "filename": "assets/img/sprites/relationship_paw/relationship_paw_nonamorous_vertical_5.png"
         },
         "assets/img/sprites/relationship_paw/relationship_paw_biamorous_horizontal_0.png": {
             "flag_name": "Biamorous",
             "part": "left_part_1",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/biamorous/biamorous.png",
             "mask_key": "_horizontal_0",
             "flags_fits": true,
             "flags_fits_perfect": true,
@@ -3634,7 +4209,6 @@
             "flag_name": "Biamorous",
             "part": "left_part_2",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/biamorous/biamorous.png",
             "mask_key": "_horizontal_1",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -3664,7 +4238,6 @@
             "flag_name": "Biamorous",
             "part": "right_part_1",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/biamorous/biamorous.png",
             "mask_key": "_horizontal_2",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -3694,7 +4267,6 @@
             "flag_name": "Biamorous",
             "part": "right_part_2",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/biamorous/biamorous.png",
             "mask_key": "_horizontal_3",
             "flags_fits": true,
             "flags_fits_perfect": true,
@@ -3724,7 +4296,6 @@
             "flag_name": "Biamorous",
             "part": "center",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/biamorous/biamorous.png",
             "mask_key": "_horizontal_4",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -3750,15 +4321,14 @@
             "id": "assets/img/sprites/relationship_paw/relationship_paw_biamorous_horizontal_4.png",
             "filename": "assets/img/sprites/relationship_paw/relationship_paw_biamorous_horizontal_4.png"
         },
-        "assets/img/sprites/relationship_paw/relationship_paw_biamorous_vertical_0.png": {
+        "assets/img/sprites/relationship_paw/relationship_paw_biamorous_horizontal_5.png": {
             "flag_name": "Biamorous",
-            "part": "left_part_1",
-            "orientation": "vertical",
-            "flag_filename": "assets/img/flags/biamorous/biamorous.png",
-            "mask_key": "_vertical_0",
-            "flags_fits": false,
+            "part": "whole",
+            "orientation": "horizontal",
+            "mask_key": "_horizontal_5",
+            "flags_fits": true,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_5.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -3777,18 +4347,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/relationship_paw/relationship_paw_biamorous_vertical_0.png",
-            "filename": "assets/img/sprites/relationship_paw/relationship_paw_biamorous_vertical_0.png"
+            "id": "assets/img/sprites/relationship_paw/relationship_paw_biamorous_horizontal_5.png",
+            "filename": "assets/img/sprites/relationship_paw/relationship_paw_biamorous_horizontal_5.png"
         },
-        "assets/img/sprites/relationship_paw/relationship_paw_biamorous_vertical_1.png": {
+        "assets/img/sprites/relationship_paw/relationship_paw_biamorous_vertical_0.png": {
             "flag_name": "Biamorous",
-            "part": "left_part_2",
+            "part": "left_part_1",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/biamorous/biamorous.png",
-            "mask_key": "_vertical_1",
+            "mask_key": "_vertical_0",
             "flags_fits": false,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_1.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -3807,18 +4376,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/relationship_paw/relationship_paw_biamorous_vertical_1.png",
-            "filename": "assets/img/sprites/relationship_paw/relationship_paw_biamorous_vertical_1.png"
+            "id": "assets/img/sprites/relationship_paw/relationship_paw_biamorous_vertical_0.png",
+            "filename": "assets/img/sprites/relationship_paw/relationship_paw_biamorous_vertical_0.png"
         },
-        "assets/img/sprites/relationship_paw/relationship_paw_biamorous_vertical_2.png": {
+        "assets/img/sprites/relationship_paw/relationship_paw_biamorous_vertical_1.png": {
             "flag_name": "Biamorous",
-            "part": "right_part_1",
+            "part": "left_part_2",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/biamorous/biamorous.png",
-            "mask_key": "_vertical_2",
+            "mask_key": "_vertical_1",
             "flags_fits": false,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_2.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_1.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -3837,18 +4405,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/relationship_paw/relationship_paw_biamorous_vertical_2.png",
-            "filename": "assets/img/sprites/relationship_paw/relationship_paw_biamorous_vertical_2.png"
+            "id": "assets/img/sprites/relationship_paw/relationship_paw_biamorous_vertical_1.png",
+            "filename": "assets/img/sprites/relationship_paw/relationship_paw_biamorous_vertical_1.png"
         },
-        "assets/img/sprites/relationship_paw/relationship_paw_biamorous_vertical_3.png": {
+        "assets/img/sprites/relationship_paw/relationship_paw_biamorous_vertical_2.png": {
             "flag_name": "Biamorous",
-            "part": "right_part_2",
+            "part": "right_part_1",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/biamorous/biamorous.png",
-            "mask_key": "_vertical_3",
+            "mask_key": "_vertical_2",
             "flags_fits": false,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_3.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_2.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -3867,18 +4434,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/relationship_paw/relationship_paw_biamorous_vertical_3.png",
-            "filename": "assets/img/sprites/relationship_paw/relationship_paw_biamorous_vertical_3.png"
+            "id": "assets/img/sprites/relationship_paw/relationship_paw_biamorous_vertical_2.png",
+            "filename": "assets/img/sprites/relationship_paw/relationship_paw_biamorous_vertical_2.png"
         },
-        "assets/img/sprites/relationship_paw/relationship_paw_biamorous_vertical_4.png": {
+        "assets/img/sprites/relationship_paw/relationship_paw_biamorous_vertical_3.png": {
             "flag_name": "Biamorous",
-            "part": "center",
+            "part": "right_part_2",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/biamorous/biamorous.png",
-            "mask_key": "_vertical_4",
-            "flags_fits": true,
+            "mask_key": "_vertical_3",
+            "flags_fits": false,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_4.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_3.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -3897,14 +4463,71 @@
                 "w": 22,
                 "h": 22
             },
+            "id": "assets/img/sprites/relationship_paw/relationship_paw_biamorous_vertical_3.png",
+            "filename": "assets/img/sprites/relationship_paw/relationship_paw_biamorous_vertical_3.png"
+        },
+        "assets/img/sprites/relationship_paw/relationship_paw_biamorous_vertical_4.png": {
+            "flag_name": "Biamorous",
+            "part": "center",
+            "orientation": "vertical",
+            "mask_key": "_vertical_4",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 220,
+                "y": 264,
+                "w": 22,
+                "h": 22
+            },
             "id": "assets/img/sprites/relationship_paw/relationship_paw_biamorous_vertical_4.png",
             "filename": "assets/img/sprites/relationship_paw/relationship_paw_biamorous_vertical_4.png"
+        },
+        "assets/img/sprites/relationship_paw/relationship_paw_biamorous_vertical_5.png": {
+            "flag_name": "Biamorous",
+            "part": "whole",
+            "orientation": "vertical",
+            "mask_key": "_vertical_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 242,
+                "y": 264,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_paw/relationship_paw_biamorous_vertical_5.png",
+            "filename": "assets/img/sprites/relationship_paw/relationship_paw_biamorous_vertical_5.png"
         },
         "assets/img/sprites/relationship_paw/relationship_paw_plurian_horizontal_0.png": {
             "flag_name": "Plurian",
             "part": "left_part_1",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/plurian/plurian.png",
             "mask_key": "_horizontal_0",
             "flags_fits": true,
             "flags_fits_perfect": true,
@@ -3934,7 +4557,6 @@
             "flag_name": "Plurian",
             "part": "left_part_2",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/plurian/plurian.png",
             "mask_key": "_horizontal_1",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -3964,7 +4586,6 @@
             "flag_name": "Plurian",
             "part": "right_part_1",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/plurian/plurian.png",
             "mask_key": "_horizontal_2",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -3994,7 +4615,6 @@
             "flag_name": "Plurian",
             "part": "right_part_2",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/plurian/plurian.png",
             "mask_key": "_horizontal_3",
             "flags_fits": true,
             "flags_fits_perfect": true,
@@ -4024,7 +4644,6 @@
             "flag_name": "Plurian",
             "part": "center",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/plurian/plurian.png",
             "mask_key": "_horizontal_4",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -4050,15 +4669,14 @@
             "id": "assets/img/sprites/relationship_paw/relationship_paw_plurian_horizontal_4.png",
             "filename": "assets/img/sprites/relationship_paw/relationship_paw_plurian_horizontal_4.png"
         },
-        "assets/img/sprites/relationship_paw/relationship_paw_plurian_vertical_0.png": {
+        "assets/img/sprites/relationship_paw/relationship_paw_plurian_horizontal_5.png": {
             "flag_name": "Plurian",
-            "part": "left_part_1",
-            "orientation": "vertical",
-            "flag_filename": "assets/img/flags/plurian/plurian.png",
-            "mask_key": "_vertical_0",
-            "flags_fits": false,
+            "part": "whole",
+            "orientation": "horizontal",
+            "mask_key": "_horizontal_5",
+            "flags_fits": true,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_5.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -4077,18 +4695,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/relationship_paw/relationship_paw_plurian_vertical_0.png",
-            "filename": "assets/img/sprites/relationship_paw/relationship_paw_plurian_vertical_0.png"
+            "id": "assets/img/sprites/relationship_paw/relationship_paw_plurian_horizontal_5.png",
+            "filename": "assets/img/sprites/relationship_paw/relationship_paw_plurian_horizontal_5.png"
         },
-        "assets/img/sprites/relationship_paw/relationship_paw_plurian_vertical_1.png": {
+        "assets/img/sprites/relationship_paw/relationship_paw_plurian_vertical_0.png": {
             "flag_name": "Plurian",
-            "part": "left_part_2",
+            "part": "left_part_1",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/plurian/plurian.png",
-            "mask_key": "_vertical_1",
+            "mask_key": "_vertical_0",
             "flags_fits": false,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_1.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -4107,18 +4724,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/relationship_paw/relationship_paw_plurian_vertical_1.png",
-            "filename": "assets/img/sprites/relationship_paw/relationship_paw_plurian_vertical_1.png"
+            "id": "assets/img/sprites/relationship_paw/relationship_paw_plurian_vertical_0.png",
+            "filename": "assets/img/sprites/relationship_paw/relationship_paw_plurian_vertical_0.png"
         },
-        "assets/img/sprites/relationship_paw/relationship_paw_plurian_vertical_2.png": {
+        "assets/img/sprites/relationship_paw/relationship_paw_plurian_vertical_1.png": {
             "flag_name": "Plurian",
-            "part": "right_part_1",
+            "part": "left_part_2",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/plurian/plurian.png",
-            "mask_key": "_vertical_2",
+            "mask_key": "_vertical_1",
             "flags_fits": false,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_2.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_1.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -4137,18 +4753,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/relationship_paw/relationship_paw_plurian_vertical_2.png",
-            "filename": "assets/img/sprites/relationship_paw/relationship_paw_plurian_vertical_2.png"
+            "id": "assets/img/sprites/relationship_paw/relationship_paw_plurian_vertical_1.png",
+            "filename": "assets/img/sprites/relationship_paw/relationship_paw_plurian_vertical_1.png"
         },
-        "assets/img/sprites/relationship_paw/relationship_paw_plurian_vertical_3.png": {
+        "assets/img/sprites/relationship_paw/relationship_paw_plurian_vertical_2.png": {
             "flag_name": "Plurian",
-            "part": "right_part_2",
+            "part": "right_part_1",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/plurian/plurian.png",
-            "mask_key": "_vertical_3",
+            "mask_key": "_vertical_2",
             "flags_fits": false,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_3.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_2.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -4167,18 +4782,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/relationship_paw/relationship_paw_plurian_vertical_3.png",
-            "filename": "assets/img/sprites/relationship_paw/relationship_paw_plurian_vertical_3.png"
+            "id": "assets/img/sprites/relationship_paw/relationship_paw_plurian_vertical_2.png",
+            "filename": "assets/img/sprites/relationship_paw/relationship_paw_plurian_vertical_2.png"
         },
-        "assets/img/sprites/relationship_paw/relationship_paw_plurian_vertical_4.png": {
+        "assets/img/sprites/relationship_paw/relationship_paw_plurian_vertical_3.png": {
             "flag_name": "Plurian",
-            "part": "center",
+            "part": "right_part_2",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/plurian/plurian.png",
-            "mask_key": "_vertical_4",
-            "flags_fits": true,
+            "mask_key": "_vertical_3",
+            "flags_fits": false,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_4.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_3.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -4197,13 +4811,71 @@
                 "w": 22,
                 "h": 22
             },
+            "id": "assets/img/sprites/relationship_paw/relationship_paw_plurian_vertical_3.png",
+            "filename": "assets/img/sprites/relationship_paw/relationship_paw_plurian_vertical_3.png"
+        },
+        "assets/img/sprites/relationship_paw/relationship_paw_plurian_vertical_4.png": {
+            "flag_name": "Plurian",
+            "part": "center",
+            "orientation": "vertical",
+            "mask_key": "_vertical_4",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 220,
+                "y": 286,
+                "w": 22,
+                "h": 22
+            },
             "id": "assets/img/sprites/relationship_paw/relationship_paw_plurian_vertical_4.png",
             "filename": "assets/img/sprites/relationship_paw/relationship_paw_plurian_vertical_4.png"
+        },
+        "assets/img/sprites/relationship_paw/relationship_paw_plurian_vertical_5.png": {
+            "flag_name": "Plurian",
+            "part": "whole",
+            "orientation": "vertical",
+            "mask_key": "_vertical_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 242,
+                "y": 286,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_paw/relationship_paw_plurian_vertical_5.png",
+            "filename": "assets/img/sprites/relationship_paw/relationship_paw_plurian_vertical_5.png"
         }
     },
     "meta": {
         "size": {
-            "w": 220,
+            "w": 264,
             "h": 308
         },
         "image": "relationship_paw.png",

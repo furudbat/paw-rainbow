@@ -1,11 +1,11 @@
-import { ApplicationData, CurrentSelection, CurrentSelectionPart, Theme } from './application.data'
+import { ApplicationData, CurrentSelection, CurrentSelectionPart, Theme } from './data/application.data'
 import { LoggerManager } from 'typescript-logger';
 import { Loader, Application as PixiApplication, LoaderResource } from 'pixi.js';
 import { site } from './site';
 import { SpriteAdapter } from './sprite.adapter';
 import { FormPartsAdapter } from './form-parts.adapter';
 import { DataObserver, DataSubject } from './observer';
-import { FlagWikiAdapter } from './flag-wiki.adapter';
+import { FlagInfoAdapter } from './flag-info.adapter';
 
 export class Application {
 
@@ -14,7 +14,7 @@ export class Application {
     private _loader: Loader = new Loader();
     private _formPartsAdapter?: FormPartsAdapter;
     private _spriteAdapter?: SpriteAdapter;
-    private _flagWikiAdapter?: FlagWikiAdapter;
+    private _flagInfoAdapter?: FlagInfoAdapter;
 
     private log = LoggerManager.create('Application');
 
@@ -94,17 +94,12 @@ export class Application {
 
     private async initFormParts() {
         this._formPartsAdapter = new FormPartsAdapter(this._appData);
-        this._formPartsAdapter?.init();
-        if (!this._formPartsAdapter?.current_form) {
-            this._formPartsAdapter?.setForm(site.data.flags_config.forms[0]);
-        } else {
-            this._formPartsAdapter.updateUI();
-        }
+        this._formPartsAdapter.init();
     }
 
     private async initFormInfo() {
-        this._flagWikiAdapter = new FlagWikiAdapter(this._appData);
-        this._flagWikiAdapter?.init();
+        this._flagInfoAdapter = new FlagInfoAdapter(this._appData);
+        this._flagInfoAdapter?.init();
     }
 
     private async initCanvas() {

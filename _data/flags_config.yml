@@ -76,6 +76,7 @@ paw:
   - right_part_1
   - right_part_2
   - center
+  - whole
   right_part_1:
     circle:
       horizontal:

@@ -1,13 +1,15 @@
-import { Orientation } from './../_site/src/flags.data';
 import localForage from "localforage";
-import { DataSubject } from "./observer";
-import { site } from "./site";
+import { DataSubject } from "../observer";
+import { site } from "../site";
+import { Orientation } from "./sprite.data";
 
 const STORAGE_KEY_SETTINGS = 'settings';
 const STORAGE_KEY_THEME = 'theme';
 const STORAGE_KEY_VERSION = 'version';
 const STORAGE_KEY_CURRENT_SELECTION = 'current_selection';
 const STORAGE_KEY_LAST_FLAG = 'last_flag';
+
+const DEFAULT_FLAG_NAME_NONE = "None";
 
 export enum Theme {
     Light = "light",
@@ -18,7 +20,7 @@ export class Settings {
 }
 
 export class CurrentSelectionPart {
-    flag_name: string = "None";
+    flag_name: string = DEFAULT_FLAG_NAME_NONE;
     orientation: Orientation = Orientation.Vertical;
 }
 export class CurrentSelection {
@@ -145,5 +147,23 @@ export class ApplicationData {
         this._currentSelection.data.parts[part].orientation = orientation;
 
         this.currentSelection = this.currentSelection;
+    }
+
+    public setForm(form: string, parts_list: string[], default_flag_name: string = '') { 
+        let currentSelection = this.currentSelection;   
+
+        currentSelection.form = form;
+
+        //currentSelection.parts = {};
+        for (const part of parts_list) {
+            if (currentSelection.parts && !(part in currentSelection.parts)) {
+                currentSelection.parts[part] = new CurrentSelectionPart();
+                if (default_flag_name) {
+                    currentSelection.parts[part].flag_name = default_flag_name;
+                }
+            }
+        }
+
+        this.currentSelection = currentSelection;
     }
 }

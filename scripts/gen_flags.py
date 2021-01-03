@@ -180,15 +180,13 @@ def main():
 
     print("Flags count: {}".format(len(all_flags)))
 
-    with open(r'flags.json', 'w') as file:
+    with open(r'output/flags.json', 'w') as file:
         json.dump(all_flags, file, indent=4)
 
-    with open(r'flags.json', 'r') as json_file:
+    with open(r'output/flags.json', 'r') as json_file:
         with open(r'../_data/flags.yml', 'w') as yaml_file:
             yaml.safe_dump(json.load(json_file), yaml_file, default_flow_style=False, allow_unicode=True)
     
-    with open(r'../_data/flags_config.yml', 'w') as yaml_file:
-        yaml.safe_dump(config, yaml_file, default_flow_style=False, allow_unicode=True)
 
 if __name__ == "__main__":
     main()

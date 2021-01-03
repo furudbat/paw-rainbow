@@ -4,7 +4,6 @@
             "flag_name": "None",
             "part": "left_part_1",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/none/none.png",
             "mask_key": "_horizontal_0",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -35,7 +34,6 @@
             "flag_name": "None",
             "part": "left_part_2",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/none/none.png",
             "mask_key": "_horizontal_1",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -66,7 +64,6 @@
             "flag_name": "None",
             "part": "right_part_1",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/none/none.png",
             "mask_key": "_horizontal_2",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -97,7 +94,6 @@
             "flag_name": "None",
             "part": "right_part_2",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/none/none.png",
             "mask_key": "_horizontal_3",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -128,7 +124,6 @@
             "flag_name": "None",
             "part": "center",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/none/none.png",
             "mask_key": "_horizontal_4",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -155,15 +150,14 @@
             "id": "assets/img/sprites/pride_paw/pride_paw_none_horizontal_4.png",
             "filename": "assets/img/sprites/pride_paw/pride_paw_none_horizontal_4.png"
         },
-        "assets/img/sprites/pride_paw/pride_paw_none_vertical_0.png": {
+        "assets/img/sprites/pride_paw/pride_paw_none_horizontal_5.png": {
             "flag_name": "None",
-            "part": "left_part_1",
-            "orientation": "vertical",
-            "flag_filename": "assets/img/flags/none/none.png",
-            "mask_key": "_vertical_0",
+            "part": "whole",
+            "orientation": "horizontal",
+            "mask_key": "_horizontal_5",
             "flags_fits": true,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_5.png",
             "default": true,
             "rotated": false,
             "trimmed": false,
@@ -183,18 +177,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/pride_paw/pride_paw_none_vertical_0.png",
-            "filename": "assets/img/sprites/pride_paw/pride_paw_none_vertical_0.png"
+            "id": "assets/img/sprites/pride_paw/pride_paw_none_horizontal_5.png",
+            "filename": "assets/img/sprites/pride_paw/pride_paw_none_horizontal_5.png"
         },
-        "assets/img/sprites/pride_paw/pride_paw_none_vertical_1.png": {
+        "assets/img/sprites/pride_paw/pride_paw_none_vertical_0.png": {
             "flag_name": "None",
-            "part": "left_part_2",
+            "part": "left_part_1",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/none/none.png",
-            "mask_key": "_vertical_1",
+            "mask_key": "_vertical_0",
             "flags_fits": true,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_1.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png",
             "default": true,
             "rotated": false,
             "trimmed": false,
@@ -214,18 +207,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/pride_paw/pride_paw_none_vertical_1.png",
-            "filename": "assets/img/sprites/pride_paw/pride_paw_none_vertical_1.png"
+            "id": "assets/img/sprites/pride_paw/pride_paw_none_vertical_0.png",
+            "filename": "assets/img/sprites/pride_paw/pride_paw_none_vertical_0.png"
         },
-        "assets/img/sprites/pride_paw/pride_paw_none_vertical_2.png": {
+        "assets/img/sprites/pride_paw/pride_paw_none_vertical_1.png": {
             "flag_name": "None",
-            "part": "right_part_1",
+            "part": "left_part_2",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/none/none.png",
-            "mask_key": "_vertical_2",
+            "mask_key": "_vertical_1",
             "flags_fits": true,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_2.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_1.png",
             "default": true,
             "rotated": false,
             "trimmed": false,
@@ -245,18 +237,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/pride_paw/pride_paw_none_vertical_2.png",
-            "filename": "assets/img/sprites/pride_paw/pride_paw_none_vertical_2.png"
+            "id": "assets/img/sprites/pride_paw/pride_paw_none_vertical_1.png",
+            "filename": "assets/img/sprites/pride_paw/pride_paw_none_vertical_1.png"
         },
-        "assets/img/sprites/pride_paw/pride_paw_none_vertical_3.png": {
+        "assets/img/sprites/pride_paw/pride_paw_none_vertical_2.png": {
             "flag_name": "None",
-            "part": "right_part_2",
+            "part": "right_part_1",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/none/none.png",
-            "mask_key": "_vertical_3",
+            "mask_key": "_vertical_2",
             "flags_fits": true,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_3.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_2.png",
             "default": true,
             "rotated": false,
             "trimmed": false,
@@ -276,18 +267,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/pride_paw/pride_paw_none_vertical_3.png",
-            "filename": "assets/img/sprites/pride_paw/pride_paw_none_vertical_3.png"
+            "id": "assets/img/sprites/pride_paw/pride_paw_none_vertical_2.png",
+            "filename": "assets/img/sprites/pride_paw/pride_paw_none_vertical_2.png"
         },
-        "assets/img/sprites/pride_paw/pride_paw_none_vertical_4.png": {
+        "assets/img/sprites/pride_paw/pride_paw_none_vertical_3.png": {
             "flag_name": "None",
-            "part": "center",
+            "part": "right_part_2",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/none/none.png",
-            "mask_key": "_vertical_4",
+            "mask_key": "_vertical_3",
             "flags_fits": true,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_4.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_3.png",
             "default": true,
             "rotated": false,
             "trimmed": false,
@@ -307,14 +297,73 @@
                 "w": 22,
                 "h": 22
             },
+            "id": "assets/img/sprites/pride_paw/pride_paw_none_vertical_3.png",
+            "filename": "assets/img/sprites/pride_paw/pride_paw_none_vertical_3.png"
+        },
+        "assets/img/sprites/pride_paw/pride_paw_none_vertical_4.png": {
+            "flag_name": "None",
+            "part": "center",
+            "orientation": "vertical",
+            "mask_key": "_vertical_4",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_4.png",
+            "default": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 220,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
             "id": "assets/img/sprites/pride_paw/pride_paw_none_vertical_4.png",
             "filename": "assets/img/sprites/pride_paw/pride_paw_none_vertical_4.png"
+        },
+        "assets/img/sprites/pride_paw/pride_paw_none_vertical_5.png": {
+            "flag_name": "None",
+            "part": "whole",
+            "orientation": "vertical",
+            "mask_key": "_vertical_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_5.png",
+            "default": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 242,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_paw/pride_paw_none_vertical_5.png",
+            "filename": "assets/img/sprites/pride_paw/pride_paw_none_vertical_5.png"
         },
         "assets/img/sprites/pride_paw/pride_paw_mask_horizontal_0.png": {
             "flag_name": "Mask",
             "part": "left_part_1",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/mask/mask.png",
             "mask_key": "_horizontal_0",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -345,7 +394,6 @@
             "flag_name": "Mask",
             "part": "left_part_2",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/mask/mask.png",
             "mask_key": "_horizontal_1",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -376,7 +424,6 @@
             "flag_name": "Mask",
             "part": "right_part_1",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/mask/mask.png",
             "mask_key": "_horizontal_2",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -407,7 +454,6 @@
             "flag_name": "Mask",
             "part": "right_part_2",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/mask/mask.png",
             "mask_key": "_horizontal_3",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -438,7 +484,6 @@
             "flag_name": "Mask",
             "part": "center",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/mask/mask.png",
             "mask_key": "_horizontal_4",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -465,15 +510,14 @@
             "id": "assets/img/sprites/pride_paw/pride_paw_mask_horizontal_4.png",
             "filename": "assets/img/sprites/pride_paw/pride_paw_mask_horizontal_4.png"
         },
-        "assets/img/sprites/pride_paw/pride_paw_mask_vertical_0.png": {
+        "assets/img/sprites/pride_paw/pride_paw_mask_horizontal_5.png": {
             "flag_name": "Mask",
-            "part": "left_part_1",
-            "orientation": "vertical",
-            "flag_filename": "assets/img/flags/mask/mask.png",
-            "mask_key": "_vertical_0",
+            "part": "whole",
+            "orientation": "horizontal",
+            "mask_key": "_horizontal_5",
             "flags_fits": true,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_5.png",
             "mask": true,
             "rotated": false,
             "trimmed": false,
@@ -493,18 +537,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/pride_paw/pride_paw_mask_vertical_0.png",
-            "filename": "assets/img/sprites/pride_paw/pride_paw_mask_vertical_0.png"
+            "id": "assets/img/sprites/pride_paw/pride_paw_mask_horizontal_5.png",
+            "filename": "assets/img/sprites/pride_paw/pride_paw_mask_horizontal_5.png"
         },
-        "assets/img/sprites/pride_paw/pride_paw_mask_vertical_1.png": {
+        "assets/img/sprites/pride_paw/pride_paw_mask_vertical_0.png": {
             "flag_name": "Mask",
-            "part": "left_part_2",
+            "part": "left_part_1",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/mask/mask.png",
-            "mask_key": "_vertical_1",
+            "mask_key": "_vertical_0",
             "flags_fits": true,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_1.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png",
             "mask": true,
             "rotated": false,
             "trimmed": false,
@@ -524,18 +567,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/pride_paw/pride_paw_mask_vertical_1.png",
-            "filename": "assets/img/sprites/pride_paw/pride_paw_mask_vertical_1.png"
+            "id": "assets/img/sprites/pride_paw/pride_paw_mask_vertical_0.png",
+            "filename": "assets/img/sprites/pride_paw/pride_paw_mask_vertical_0.png"
         },
-        "assets/img/sprites/pride_paw/pride_paw_mask_vertical_2.png": {
+        "assets/img/sprites/pride_paw/pride_paw_mask_vertical_1.png": {
             "flag_name": "Mask",
-            "part": "right_part_1",
+            "part": "left_part_2",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/mask/mask.png",
-            "mask_key": "_vertical_2",
+            "mask_key": "_vertical_1",
             "flags_fits": true,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_2.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_1.png",
             "mask": true,
             "rotated": false,
             "trimmed": false,
@@ -555,18 +597,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/pride_paw/pride_paw_mask_vertical_2.png",
-            "filename": "assets/img/sprites/pride_paw/pride_paw_mask_vertical_2.png"
+            "id": "assets/img/sprites/pride_paw/pride_paw_mask_vertical_1.png",
+            "filename": "assets/img/sprites/pride_paw/pride_paw_mask_vertical_1.png"
         },
-        "assets/img/sprites/pride_paw/pride_paw_mask_vertical_3.png": {
+        "assets/img/sprites/pride_paw/pride_paw_mask_vertical_2.png": {
             "flag_name": "Mask",
-            "part": "right_part_2",
+            "part": "right_part_1",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/mask/mask.png",
-            "mask_key": "_vertical_3",
+            "mask_key": "_vertical_2",
             "flags_fits": true,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_3.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_2.png",
             "mask": true,
             "rotated": false,
             "trimmed": false,
@@ -586,18 +627,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/pride_paw/pride_paw_mask_vertical_3.png",
-            "filename": "assets/img/sprites/pride_paw/pride_paw_mask_vertical_3.png"
+            "id": "assets/img/sprites/pride_paw/pride_paw_mask_vertical_2.png",
+            "filename": "assets/img/sprites/pride_paw/pride_paw_mask_vertical_2.png"
         },
-        "assets/img/sprites/pride_paw/pride_paw_mask_vertical_4.png": {
+        "assets/img/sprites/pride_paw/pride_paw_mask_vertical_3.png": {
             "flag_name": "Mask",
-            "part": "center",
+            "part": "right_part_2",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/mask/mask.png",
-            "mask_key": "_vertical_4",
+            "mask_key": "_vertical_3",
             "flags_fits": true,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_4.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_3.png",
             "mask": true,
             "rotated": false,
             "trimmed": false,
@@ -617,14 +657,73 @@
                 "w": 22,
                 "h": 22
             },
+            "id": "assets/img/sprites/pride_paw/pride_paw_mask_vertical_3.png",
+            "filename": "assets/img/sprites/pride_paw/pride_paw_mask_vertical_3.png"
+        },
+        "assets/img/sprites/pride_paw/pride_paw_mask_vertical_4.png": {
+            "flag_name": "Mask",
+            "part": "center",
+            "orientation": "vertical",
+            "mask_key": "_vertical_4",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_4.png",
+            "mask": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 220,
+                "y": 22,
+                "w": 22,
+                "h": 22
+            },
             "id": "assets/img/sprites/pride_paw/pride_paw_mask_vertical_4.png",
             "filename": "assets/img/sprites/pride_paw/pride_paw_mask_vertical_4.png"
+        },
+        "assets/img/sprites/pride_paw/pride_paw_mask_vertical_5.png": {
+            "flag_name": "Mask",
+            "part": "whole",
+            "orientation": "vertical",
+            "mask_key": "_vertical_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_5.png",
+            "mask": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 242,
+                "y": 22,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_paw/pride_paw_mask_vertical_5.png",
+            "filename": "assets/img/sprites/pride_paw/pride_paw_mask_vertical_5.png"
         },
         "assets/img/sprites/pride_paw/pride_paw_lgbt_pride_horizontal_0.png": {
             "flag_name": "LGBT+ Pride",
             "part": "left_part_1",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/lgbt_pride/lgbt_pride.png",
             "mask_key": "_horizontal_0",
             "flags_fits": false,
             "flags_fits_perfect": false,
@@ -654,7 +753,6 @@
             "flag_name": "LGBT+ Pride",
             "part": "left_part_2",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/lgbt_pride/lgbt_pride.png",
             "mask_key": "_horizontal_1",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -684,7 +782,6 @@
             "flag_name": "LGBT+ Pride",
             "part": "right_part_1",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/lgbt_pride/lgbt_pride.png",
             "mask_key": "_horizontal_2",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -714,7 +811,6 @@
             "flag_name": "LGBT+ Pride",
             "part": "right_part_2",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/lgbt_pride/lgbt_pride.png",
             "mask_key": "_horizontal_3",
             "flags_fits": false,
             "flags_fits_perfect": false,
@@ -744,7 +840,6 @@
             "flag_name": "LGBT+ Pride",
             "part": "center",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/lgbt_pride/lgbt_pride.png",
             "mask_key": "_horizontal_4",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -770,15 +865,14 @@
             "id": "assets/img/sprites/pride_paw/pride_paw_lgbt_pride_horizontal_4.png",
             "filename": "assets/img/sprites/pride_paw/pride_paw_lgbt_pride_horizontal_4.png"
         },
-        "assets/img/sprites/pride_paw/pride_paw_lgbt_pride_vertical_0.png": {
+        "assets/img/sprites/pride_paw/pride_paw_lgbt_pride_horizontal_5.png": {
             "flag_name": "LGBT+ Pride",
-            "part": "left_part_1",
-            "orientation": "vertical",
-            "flag_filename": "assets/img/flags/lgbt_pride/lgbt_pride.png",
-            "mask_key": "_vertical_0",
-            "flags_fits": false,
+            "part": "whole",
+            "orientation": "horizontal",
+            "mask_key": "_horizontal_5",
+            "flags_fits": true,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_5.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -797,18 +891,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/pride_paw/pride_paw_lgbt_pride_vertical_0.png",
-            "filename": "assets/img/sprites/pride_paw/pride_paw_lgbt_pride_vertical_0.png"
+            "id": "assets/img/sprites/pride_paw/pride_paw_lgbt_pride_horizontal_5.png",
+            "filename": "assets/img/sprites/pride_paw/pride_paw_lgbt_pride_horizontal_5.png"
         },
-        "assets/img/sprites/pride_paw/pride_paw_lgbt_pride_vertical_1.png": {
+        "assets/img/sprites/pride_paw/pride_paw_lgbt_pride_vertical_0.png": {
             "flag_name": "LGBT+ Pride",
-            "part": "left_part_2",
+            "part": "left_part_1",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/lgbt_pride/lgbt_pride.png",
-            "mask_key": "_vertical_1",
+            "mask_key": "_vertical_0",
             "flags_fits": false,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_1.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -827,18 +920,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/pride_paw/pride_paw_lgbt_pride_vertical_1.png",
-            "filename": "assets/img/sprites/pride_paw/pride_paw_lgbt_pride_vertical_1.png"
+            "id": "assets/img/sprites/pride_paw/pride_paw_lgbt_pride_vertical_0.png",
+            "filename": "assets/img/sprites/pride_paw/pride_paw_lgbt_pride_vertical_0.png"
         },
-        "assets/img/sprites/pride_paw/pride_paw_lgbt_pride_vertical_2.png": {
+        "assets/img/sprites/pride_paw/pride_paw_lgbt_pride_vertical_1.png": {
             "flag_name": "LGBT+ Pride",
-            "part": "right_part_1",
+            "part": "left_part_2",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/lgbt_pride/lgbt_pride.png",
-            "mask_key": "_vertical_2",
+            "mask_key": "_vertical_1",
             "flags_fits": false,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_2.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_1.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -857,18 +949,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/pride_paw/pride_paw_lgbt_pride_vertical_2.png",
-            "filename": "assets/img/sprites/pride_paw/pride_paw_lgbt_pride_vertical_2.png"
+            "id": "assets/img/sprites/pride_paw/pride_paw_lgbt_pride_vertical_1.png",
+            "filename": "assets/img/sprites/pride_paw/pride_paw_lgbt_pride_vertical_1.png"
         },
-        "assets/img/sprites/pride_paw/pride_paw_lgbt_pride_vertical_3.png": {
+        "assets/img/sprites/pride_paw/pride_paw_lgbt_pride_vertical_2.png": {
             "flag_name": "LGBT+ Pride",
-            "part": "right_part_2",
+            "part": "right_part_1",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/lgbt_pride/lgbt_pride.png",
-            "mask_key": "_vertical_3",
+            "mask_key": "_vertical_2",
             "flags_fits": false,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_3.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_2.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -887,18 +978,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/pride_paw/pride_paw_lgbt_pride_vertical_3.png",
-            "filename": "assets/img/sprites/pride_paw/pride_paw_lgbt_pride_vertical_3.png"
+            "id": "assets/img/sprites/pride_paw/pride_paw_lgbt_pride_vertical_2.png",
+            "filename": "assets/img/sprites/pride_paw/pride_paw_lgbt_pride_vertical_2.png"
         },
-        "assets/img/sprites/pride_paw/pride_paw_lgbt_pride_vertical_4.png": {
+        "assets/img/sprites/pride_paw/pride_paw_lgbt_pride_vertical_3.png": {
             "flag_name": "LGBT+ Pride",
-            "part": "center",
+            "part": "right_part_2",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/lgbt_pride/lgbt_pride.png",
-            "mask_key": "_vertical_4",
-            "flags_fits": true,
+            "mask_key": "_vertical_3",
+            "flags_fits": false,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_4.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_3.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -917,14 +1007,71 @@
                 "w": 22,
                 "h": 22
             },
+            "id": "assets/img/sprites/pride_paw/pride_paw_lgbt_pride_vertical_3.png",
+            "filename": "assets/img/sprites/pride_paw/pride_paw_lgbt_pride_vertical_3.png"
+        },
+        "assets/img/sprites/pride_paw/pride_paw_lgbt_pride_vertical_4.png": {
+            "flag_name": "LGBT+ Pride",
+            "part": "center",
+            "orientation": "vertical",
+            "mask_key": "_vertical_4",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 220,
+                "y": 44,
+                "w": 22,
+                "h": 22
+            },
             "id": "assets/img/sprites/pride_paw/pride_paw_lgbt_pride_vertical_4.png",
             "filename": "assets/img/sprites/pride_paw/pride_paw_lgbt_pride_vertical_4.png"
+        },
+        "assets/img/sprites/pride_paw/pride_paw_lgbt_pride_vertical_5.png": {
+            "flag_name": "LGBT+ Pride",
+            "part": "whole",
+            "orientation": "vertical",
+            "mask_key": "_vertical_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 242,
+                "y": 44,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_paw/pride_paw_lgbt_pride_vertical_5.png",
+            "filename": "assets/img/sprites/pride_paw/pride_paw_lgbt_pride_vertical_5.png"
         },
         "assets/img/sprites/pride_paw/pride_paw_sapphic_horizontal_0.png": {
             "flag_name": "Sapphic",
             "part": "left_part_1",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/sapphic/sapphic.png",
             "mask_key": "_horizontal_0",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -954,7 +1101,6 @@
             "flag_name": "Sapphic",
             "part": "left_part_2",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/sapphic/sapphic.png",
             "mask_key": "_horizontal_1",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -984,7 +1130,6 @@
             "flag_name": "Sapphic",
             "part": "right_part_1",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/sapphic/sapphic.png",
             "mask_key": "_horizontal_2",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -1014,7 +1159,6 @@
             "flag_name": "Sapphic",
             "part": "right_part_2",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/sapphic/sapphic.png",
             "mask_key": "_horizontal_3",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -1044,7 +1188,6 @@
             "flag_name": "Sapphic",
             "part": "center",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/sapphic/sapphic.png",
             "mask_key": "_horizontal_4",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -1070,15 +1213,14 @@
             "id": "assets/img/sprites/pride_paw/pride_paw_sapphic_horizontal_4.png",
             "filename": "assets/img/sprites/pride_paw/pride_paw_sapphic_horizontal_4.png"
         },
-        "assets/img/sprites/pride_paw/pride_paw_sapphic_vertical_0.png": {
+        "assets/img/sprites/pride_paw/pride_paw_sapphic_horizontal_5.png": {
             "flag_name": "Sapphic",
-            "part": "left_part_1",
-            "orientation": "vertical",
-            "flag_filename": "assets/img/flags/sapphic/sapphic.png",
-            "mask_key": "_vertical_0",
+            "part": "whole",
+            "orientation": "horizontal",
+            "mask_key": "_horizontal_5",
             "flags_fits": true,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_5.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -1097,18 +1239,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/pride_paw/pride_paw_sapphic_vertical_0.png",
-            "filename": "assets/img/sprites/pride_paw/pride_paw_sapphic_vertical_0.png"
+            "id": "assets/img/sprites/pride_paw/pride_paw_sapphic_horizontal_5.png",
+            "filename": "assets/img/sprites/pride_paw/pride_paw_sapphic_horizontal_5.png"
         },
-        "assets/img/sprites/pride_paw/pride_paw_sapphic_vertical_1.png": {
+        "assets/img/sprites/pride_paw/pride_paw_sapphic_vertical_0.png": {
             "flag_name": "Sapphic",
-            "part": "left_part_2",
+            "part": "left_part_1",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/sapphic/sapphic.png",
-            "mask_key": "_vertical_1",
+            "mask_key": "_vertical_0",
             "flags_fits": true,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_1.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -1127,18 +1268,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/pride_paw/pride_paw_sapphic_vertical_1.png",
-            "filename": "assets/img/sprites/pride_paw/pride_paw_sapphic_vertical_1.png"
+            "id": "assets/img/sprites/pride_paw/pride_paw_sapphic_vertical_0.png",
+            "filename": "assets/img/sprites/pride_paw/pride_paw_sapphic_vertical_0.png"
         },
-        "assets/img/sprites/pride_paw/pride_paw_sapphic_vertical_2.png": {
+        "assets/img/sprites/pride_paw/pride_paw_sapphic_vertical_1.png": {
             "flag_name": "Sapphic",
-            "part": "right_part_1",
+            "part": "left_part_2",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/sapphic/sapphic.png",
-            "mask_key": "_vertical_2",
+            "mask_key": "_vertical_1",
             "flags_fits": true,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_2.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_1.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -1157,18 +1297,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/pride_paw/pride_paw_sapphic_vertical_2.png",
-            "filename": "assets/img/sprites/pride_paw/pride_paw_sapphic_vertical_2.png"
+            "id": "assets/img/sprites/pride_paw/pride_paw_sapphic_vertical_1.png",
+            "filename": "assets/img/sprites/pride_paw/pride_paw_sapphic_vertical_1.png"
         },
-        "assets/img/sprites/pride_paw/pride_paw_sapphic_vertical_3.png": {
+        "assets/img/sprites/pride_paw/pride_paw_sapphic_vertical_2.png": {
             "flag_name": "Sapphic",
-            "part": "right_part_2",
+            "part": "right_part_1",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/sapphic/sapphic.png",
-            "mask_key": "_vertical_3",
+            "mask_key": "_vertical_2",
             "flags_fits": true,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_3.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_2.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -1187,18 +1326,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/pride_paw/pride_paw_sapphic_vertical_3.png",
-            "filename": "assets/img/sprites/pride_paw/pride_paw_sapphic_vertical_3.png"
+            "id": "assets/img/sprites/pride_paw/pride_paw_sapphic_vertical_2.png",
+            "filename": "assets/img/sprites/pride_paw/pride_paw_sapphic_vertical_2.png"
         },
-        "assets/img/sprites/pride_paw/pride_paw_sapphic_vertical_4.png": {
+        "assets/img/sprites/pride_paw/pride_paw_sapphic_vertical_3.png": {
             "flag_name": "Sapphic",
-            "part": "center",
+            "part": "right_part_2",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/sapphic/sapphic.png",
-            "mask_key": "_vertical_4",
+            "mask_key": "_vertical_3",
             "flags_fits": true,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_4.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_3.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -1217,14 +1355,71 @@
                 "w": 22,
                 "h": 22
             },
+            "id": "assets/img/sprites/pride_paw/pride_paw_sapphic_vertical_3.png",
+            "filename": "assets/img/sprites/pride_paw/pride_paw_sapphic_vertical_3.png"
+        },
+        "assets/img/sprites/pride_paw/pride_paw_sapphic_vertical_4.png": {
+            "flag_name": "Sapphic",
+            "part": "center",
+            "orientation": "vertical",
+            "mask_key": "_vertical_4",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 220,
+                "y": 66,
+                "w": 22,
+                "h": 22
+            },
             "id": "assets/img/sprites/pride_paw/pride_paw_sapphic_vertical_4.png",
             "filename": "assets/img/sprites/pride_paw/pride_paw_sapphic_vertical_4.png"
+        },
+        "assets/img/sprites/pride_paw/pride_paw_sapphic_vertical_5.png": {
+            "flag_name": "Sapphic",
+            "part": "whole",
+            "orientation": "vertical",
+            "mask_key": "_vertical_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 242,
+                "y": 66,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_paw/pride_paw_sapphic_vertical_5.png",
+            "filename": "assets/img/sprites/pride_paw/pride_paw_sapphic_vertical_5.png"
         },
         "assets/img/sprites/pride_paw/pride_paw_pluralian_horizontal_0.png": {
             "flag_name": "Pluralian",
             "part": "left_part_1",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/pluralian/pluralian.png",
             "mask_key": "_horizontal_0",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -1254,7 +1449,6 @@
             "flag_name": "Pluralian",
             "part": "left_part_2",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/pluralian/pluralian.png",
             "mask_key": "_horizontal_1",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -1284,7 +1478,6 @@
             "flag_name": "Pluralian",
             "part": "right_part_1",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/pluralian/pluralian.png",
             "mask_key": "_horizontal_2",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -1314,7 +1507,6 @@
             "flag_name": "Pluralian",
             "part": "right_part_2",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/pluralian/pluralian.png",
             "mask_key": "_horizontal_3",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -1344,7 +1536,6 @@
             "flag_name": "Pluralian",
             "part": "center",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/pluralian/pluralian.png",
             "mask_key": "_horizontal_4",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -1370,15 +1561,14 @@
             "id": "assets/img/sprites/pride_paw/pride_paw_pluralian_horizontal_4.png",
             "filename": "assets/img/sprites/pride_paw/pride_paw_pluralian_horizontal_4.png"
         },
-        "assets/img/sprites/pride_paw/pride_paw_pluralian_vertical_0.png": {
+        "assets/img/sprites/pride_paw/pride_paw_pluralian_horizontal_5.png": {
             "flag_name": "Pluralian",
-            "part": "left_part_1",
-            "orientation": "vertical",
-            "flag_filename": "assets/img/flags/pluralian/pluralian.png",
-            "mask_key": "_vertical_0",
+            "part": "whole",
+            "orientation": "horizontal",
+            "mask_key": "_horizontal_5",
             "flags_fits": true,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_5.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -1397,18 +1587,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/pride_paw/pride_paw_pluralian_vertical_0.png",
-            "filename": "assets/img/sprites/pride_paw/pride_paw_pluralian_vertical_0.png"
+            "id": "assets/img/sprites/pride_paw/pride_paw_pluralian_horizontal_5.png",
+            "filename": "assets/img/sprites/pride_paw/pride_paw_pluralian_horizontal_5.png"
         },
-        "assets/img/sprites/pride_paw/pride_paw_pluralian_vertical_1.png": {
+        "assets/img/sprites/pride_paw/pride_paw_pluralian_vertical_0.png": {
             "flag_name": "Pluralian",
-            "part": "left_part_2",
+            "part": "left_part_1",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/pluralian/pluralian.png",
-            "mask_key": "_vertical_1",
+            "mask_key": "_vertical_0",
             "flags_fits": true,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_1.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -1427,18 +1616,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/pride_paw/pride_paw_pluralian_vertical_1.png",
-            "filename": "assets/img/sprites/pride_paw/pride_paw_pluralian_vertical_1.png"
+            "id": "assets/img/sprites/pride_paw/pride_paw_pluralian_vertical_0.png",
+            "filename": "assets/img/sprites/pride_paw/pride_paw_pluralian_vertical_0.png"
         },
-        "assets/img/sprites/pride_paw/pride_paw_pluralian_vertical_2.png": {
+        "assets/img/sprites/pride_paw/pride_paw_pluralian_vertical_1.png": {
             "flag_name": "Pluralian",
-            "part": "right_part_1",
+            "part": "left_part_2",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/pluralian/pluralian.png",
-            "mask_key": "_vertical_2",
+            "mask_key": "_vertical_1",
             "flags_fits": true,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_2.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_1.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -1457,18 +1645,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/pride_paw/pride_paw_pluralian_vertical_2.png",
-            "filename": "assets/img/sprites/pride_paw/pride_paw_pluralian_vertical_2.png"
+            "id": "assets/img/sprites/pride_paw/pride_paw_pluralian_vertical_1.png",
+            "filename": "assets/img/sprites/pride_paw/pride_paw_pluralian_vertical_1.png"
         },
-        "assets/img/sprites/pride_paw/pride_paw_pluralian_vertical_3.png": {
+        "assets/img/sprites/pride_paw/pride_paw_pluralian_vertical_2.png": {
             "flag_name": "Pluralian",
-            "part": "right_part_2",
+            "part": "right_part_1",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/pluralian/pluralian.png",
-            "mask_key": "_vertical_3",
+            "mask_key": "_vertical_2",
             "flags_fits": true,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_3.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_2.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -1487,18 +1674,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/pride_paw/pride_paw_pluralian_vertical_3.png",
-            "filename": "assets/img/sprites/pride_paw/pride_paw_pluralian_vertical_3.png"
+            "id": "assets/img/sprites/pride_paw/pride_paw_pluralian_vertical_2.png",
+            "filename": "assets/img/sprites/pride_paw/pride_paw_pluralian_vertical_2.png"
         },
-        "assets/img/sprites/pride_paw/pride_paw_pluralian_vertical_4.png": {
+        "assets/img/sprites/pride_paw/pride_paw_pluralian_vertical_3.png": {
             "flag_name": "Pluralian",
-            "part": "center",
+            "part": "right_part_2",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/pluralian/pluralian.png",
-            "mask_key": "_vertical_4",
+            "mask_key": "_vertical_3",
             "flags_fits": true,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_4.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_3.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -1517,14 +1703,71 @@
                 "w": 22,
                 "h": 22
             },
+            "id": "assets/img/sprites/pride_paw/pride_paw_pluralian_vertical_3.png",
+            "filename": "assets/img/sprites/pride_paw/pride_paw_pluralian_vertical_3.png"
+        },
+        "assets/img/sprites/pride_paw/pride_paw_pluralian_vertical_4.png": {
+            "flag_name": "Pluralian",
+            "part": "center",
+            "orientation": "vertical",
+            "mask_key": "_vertical_4",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 220,
+                "y": 88,
+                "w": 22,
+                "h": 22
+            },
             "id": "assets/img/sprites/pride_paw/pride_paw_pluralian_vertical_4.png",
             "filename": "assets/img/sprites/pride_paw/pride_paw_pluralian_vertical_4.png"
+        },
+        "assets/img/sprites/pride_paw/pride_paw_pluralian_vertical_5.png": {
+            "flag_name": "Pluralian",
+            "part": "whole",
+            "orientation": "vertical",
+            "mask_key": "_vertical_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 242,
+                "y": 88,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_paw/pride_paw_pluralian_vertical_5.png",
+            "filename": "assets/img/sprites/pride_paw/pride_paw_pluralian_vertical_5.png"
         },
         "assets/img/sprites/pride_paw/pride_paw_progress_horizontal_0.png": {
             "flag_name": "Progress",
             "part": "left_part_1",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/progress/progress.png",
             "mask_key": "_horizontal_0",
             "flags_fits": false,
             "flags_fits_perfect": false,
@@ -1554,7 +1797,6 @@
             "flag_name": "Progress",
             "part": "left_part_2",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/progress/progress.png",
             "mask_key": "_horizontal_1",
             "flags_fits": false,
             "flags_fits_perfect": false,
@@ -1584,7 +1826,6 @@
             "flag_name": "Progress",
             "part": "right_part_1",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/progress/progress.png",
             "mask_key": "_horizontal_2",
             "flags_fits": false,
             "flags_fits_perfect": false,
@@ -1614,7 +1855,6 @@
             "flag_name": "Progress",
             "part": "right_part_2",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/progress/progress.png",
             "mask_key": "_horizontal_3",
             "flags_fits": false,
             "flags_fits_perfect": false,
@@ -1644,7 +1884,6 @@
             "flag_name": "Progress",
             "part": "center",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/progress/progress.png",
             "mask_key": "_horizontal_4",
             "flags_fits": false,
             "flags_fits_perfect": false,
@@ -1670,15 +1909,14 @@
             "id": "assets/img/sprites/pride_paw/pride_paw_progress_horizontal_4.png",
             "filename": "assets/img/sprites/pride_paw/pride_paw_progress_horizontal_4.png"
         },
-        "assets/img/sprites/pride_paw/pride_paw_progress_vertical_0.png": {
+        "assets/img/sprites/pride_paw/pride_paw_progress_horizontal_5.png": {
             "flag_name": "Progress",
-            "part": "left_part_1",
-            "orientation": "vertical",
-            "flag_filename": "assets/img/flags/progress/progress.png",
-            "mask_key": "_vertical_0",
+            "part": "whole",
+            "orientation": "horizontal",
+            "mask_key": "_horizontal_5",
             "flags_fits": false,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_5.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -1697,18 +1935,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/pride_paw/pride_paw_progress_vertical_0.png",
-            "filename": "assets/img/sprites/pride_paw/pride_paw_progress_vertical_0.png"
+            "id": "assets/img/sprites/pride_paw/pride_paw_progress_horizontal_5.png",
+            "filename": "assets/img/sprites/pride_paw/pride_paw_progress_horizontal_5.png"
         },
-        "assets/img/sprites/pride_paw/pride_paw_progress_vertical_1.png": {
+        "assets/img/sprites/pride_paw/pride_paw_progress_vertical_0.png": {
             "flag_name": "Progress",
-            "part": "left_part_2",
+            "part": "left_part_1",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/progress/progress.png",
-            "mask_key": "_vertical_1",
+            "mask_key": "_vertical_0",
             "flags_fits": false,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_1.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -1727,18 +1964,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/pride_paw/pride_paw_progress_vertical_1.png",
-            "filename": "assets/img/sprites/pride_paw/pride_paw_progress_vertical_1.png"
+            "id": "assets/img/sprites/pride_paw/pride_paw_progress_vertical_0.png",
+            "filename": "assets/img/sprites/pride_paw/pride_paw_progress_vertical_0.png"
         },
-        "assets/img/sprites/pride_paw/pride_paw_progress_vertical_2.png": {
+        "assets/img/sprites/pride_paw/pride_paw_progress_vertical_1.png": {
             "flag_name": "Progress",
-            "part": "right_part_1",
+            "part": "left_part_2",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/progress/progress.png",
-            "mask_key": "_vertical_2",
+            "mask_key": "_vertical_1",
             "flags_fits": false,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_2.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_1.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -1757,18 +1993,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/pride_paw/pride_paw_progress_vertical_2.png",
-            "filename": "assets/img/sprites/pride_paw/pride_paw_progress_vertical_2.png"
+            "id": "assets/img/sprites/pride_paw/pride_paw_progress_vertical_1.png",
+            "filename": "assets/img/sprites/pride_paw/pride_paw_progress_vertical_1.png"
         },
-        "assets/img/sprites/pride_paw/pride_paw_progress_vertical_3.png": {
+        "assets/img/sprites/pride_paw/pride_paw_progress_vertical_2.png": {
             "flag_name": "Progress",
-            "part": "right_part_2",
+            "part": "right_part_1",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/progress/progress.png",
-            "mask_key": "_vertical_3",
+            "mask_key": "_vertical_2",
             "flags_fits": false,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_3.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_2.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -1787,18 +2022,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/pride_paw/pride_paw_progress_vertical_3.png",
-            "filename": "assets/img/sprites/pride_paw/pride_paw_progress_vertical_3.png"
+            "id": "assets/img/sprites/pride_paw/pride_paw_progress_vertical_2.png",
+            "filename": "assets/img/sprites/pride_paw/pride_paw_progress_vertical_2.png"
         },
-        "assets/img/sprites/pride_paw/pride_paw_progress_vertical_4.png": {
+        "assets/img/sprites/pride_paw/pride_paw_progress_vertical_3.png": {
             "flag_name": "Progress",
-            "part": "center",
+            "part": "right_part_2",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/progress/progress.png",
-            "mask_key": "_vertical_4",
-            "flags_fits": true,
+            "mask_key": "_vertical_3",
+            "flags_fits": false,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_4.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_3.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -1817,14 +2051,71 @@
                 "w": 22,
                 "h": 22
             },
+            "id": "assets/img/sprites/pride_paw/pride_paw_progress_vertical_3.png",
+            "filename": "assets/img/sprites/pride_paw/pride_paw_progress_vertical_3.png"
+        },
+        "assets/img/sprites/pride_paw/pride_paw_progress_vertical_4.png": {
+            "flag_name": "Progress",
+            "part": "center",
+            "orientation": "vertical",
+            "mask_key": "_vertical_4",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 220,
+                "y": 110,
+                "w": 22,
+                "h": 22
+            },
             "id": "assets/img/sprites/pride_paw/pride_paw_progress_vertical_4.png",
             "filename": "assets/img/sprites/pride_paw/pride_paw_progress_vertical_4.png"
+        },
+        "assets/img/sprites/pride_paw/pride_paw_progress_vertical_5.png": {
+            "flag_name": "Progress",
+            "part": "whole",
+            "orientation": "vertical",
+            "mask_key": "_vertical_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 242,
+                "y": 110,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_paw/pride_paw_progress_vertical_5.png",
+            "filename": "assets/img/sprites/pride_paw/pride_paw_progress_vertical_5.png"
         },
         "assets/img/sprites/pride_paw/pride_paw_achillean_horizontal_0.png": {
             "flag_name": "Achillean",
             "part": "left_part_1",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/achillean/achillean.png",
             "mask_key": "_horizontal_0",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -1854,7 +2145,6 @@
             "flag_name": "Achillean",
             "part": "left_part_2",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/achillean/achillean.png",
             "mask_key": "_horizontal_1",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -1884,7 +2174,6 @@
             "flag_name": "Achillean",
             "part": "right_part_1",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/achillean/achillean.png",
             "mask_key": "_horizontal_2",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -1914,7 +2203,6 @@
             "flag_name": "Achillean",
             "part": "right_part_2",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/achillean/achillean.png",
             "mask_key": "_horizontal_3",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -1944,7 +2232,6 @@
             "flag_name": "Achillean",
             "part": "center",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/achillean/achillean.png",
             "mask_key": "_horizontal_4",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -1970,15 +2257,14 @@
             "id": "assets/img/sprites/pride_paw/pride_paw_achillean_horizontal_4.png",
             "filename": "assets/img/sprites/pride_paw/pride_paw_achillean_horizontal_4.png"
         },
-        "assets/img/sprites/pride_paw/pride_paw_achillean_vertical_0.png": {
+        "assets/img/sprites/pride_paw/pride_paw_achillean_horizontal_5.png": {
             "flag_name": "Achillean",
-            "part": "left_part_1",
-            "orientation": "vertical",
-            "flag_filename": "assets/img/flags/achillean/achillean.png",
-            "mask_key": "_vertical_0",
+            "part": "whole",
+            "orientation": "horizontal",
+            "mask_key": "_horizontal_5",
             "flags_fits": true,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_5.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -1997,18 +2283,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/pride_paw/pride_paw_achillean_vertical_0.png",
-            "filename": "assets/img/sprites/pride_paw/pride_paw_achillean_vertical_0.png"
+            "id": "assets/img/sprites/pride_paw/pride_paw_achillean_horizontal_5.png",
+            "filename": "assets/img/sprites/pride_paw/pride_paw_achillean_horizontal_5.png"
         },
-        "assets/img/sprites/pride_paw/pride_paw_achillean_vertical_1.png": {
+        "assets/img/sprites/pride_paw/pride_paw_achillean_vertical_0.png": {
             "flag_name": "Achillean",
-            "part": "left_part_2",
+            "part": "left_part_1",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/achillean/achillean.png",
-            "mask_key": "_vertical_1",
+            "mask_key": "_vertical_0",
             "flags_fits": true,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_1.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -2027,18 +2312,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/pride_paw/pride_paw_achillean_vertical_1.png",
-            "filename": "assets/img/sprites/pride_paw/pride_paw_achillean_vertical_1.png"
+            "id": "assets/img/sprites/pride_paw/pride_paw_achillean_vertical_0.png",
+            "filename": "assets/img/sprites/pride_paw/pride_paw_achillean_vertical_0.png"
         },
-        "assets/img/sprites/pride_paw/pride_paw_achillean_vertical_2.png": {
+        "assets/img/sprites/pride_paw/pride_paw_achillean_vertical_1.png": {
             "flag_name": "Achillean",
-            "part": "right_part_1",
+            "part": "left_part_2",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/achillean/achillean.png",
-            "mask_key": "_vertical_2",
+            "mask_key": "_vertical_1",
             "flags_fits": true,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_2.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_1.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -2057,18 +2341,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/pride_paw/pride_paw_achillean_vertical_2.png",
-            "filename": "assets/img/sprites/pride_paw/pride_paw_achillean_vertical_2.png"
+            "id": "assets/img/sprites/pride_paw/pride_paw_achillean_vertical_1.png",
+            "filename": "assets/img/sprites/pride_paw/pride_paw_achillean_vertical_1.png"
         },
-        "assets/img/sprites/pride_paw/pride_paw_achillean_vertical_3.png": {
+        "assets/img/sprites/pride_paw/pride_paw_achillean_vertical_2.png": {
             "flag_name": "Achillean",
-            "part": "right_part_2",
+            "part": "right_part_1",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/achillean/achillean.png",
-            "mask_key": "_vertical_3",
+            "mask_key": "_vertical_2",
             "flags_fits": true,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_3.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_2.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -2087,18 +2370,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/pride_paw/pride_paw_achillean_vertical_3.png",
-            "filename": "assets/img/sprites/pride_paw/pride_paw_achillean_vertical_3.png"
+            "id": "assets/img/sprites/pride_paw/pride_paw_achillean_vertical_2.png",
+            "filename": "assets/img/sprites/pride_paw/pride_paw_achillean_vertical_2.png"
         },
-        "assets/img/sprites/pride_paw/pride_paw_achillean_vertical_4.png": {
+        "assets/img/sprites/pride_paw/pride_paw_achillean_vertical_3.png": {
             "flag_name": "Achillean",
-            "part": "center",
+            "part": "right_part_2",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/achillean/achillean.png",
-            "mask_key": "_vertical_4",
+            "mask_key": "_vertical_3",
             "flags_fits": true,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_4.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_3.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -2117,14 +2399,71 @@
                 "w": 22,
                 "h": 22
             },
+            "id": "assets/img/sprites/pride_paw/pride_paw_achillean_vertical_3.png",
+            "filename": "assets/img/sprites/pride_paw/pride_paw_achillean_vertical_3.png"
+        },
+        "assets/img/sprites/pride_paw/pride_paw_achillean_vertical_4.png": {
+            "flag_name": "Achillean",
+            "part": "center",
+            "orientation": "vertical",
+            "mask_key": "_vertical_4",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 220,
+                "y": 132,
+                "w": 22,
+                "h": 22
+            },
             "id": "assets/img/sprites/pride_paw/pride_paw_achillean_vertical_4.png",
             "filename": "assets/img/sprites/pride_paw/pride_paw_achillean_vertical_4.png"
+        },
+        "assets/img/sprites/pride_paw/pride_paw_achillean_vertical_5.png": {
+            "flag_name": "Achillean",
+            "part": "whole",
+            "orientation": "vertical",
+            "mask_key": "_vertical_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 242,
+                "y": 132,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_paw/pride_paw_achillean_vertical_5.png",
+            "filename": "assets/img/sprites/pride_paw/pride_paw_achillean_vertical_5.png"
         },
         "assets/img/sprites/pride_paw/pride_paw_androphillia_horizontal_0.png": {
             "flag_name": "Androphillia",
             "part": "left_part_1",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/androphillia/androphillia.png",
             "mask_key": "_horizontal_0",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -2154,7 +2493,6 @@
             "flag_name": "Androphillia",
             "part": "left_part_2",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/androphillia/androphillia.png",
             "mask_key": "_horizontal_1",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -2184,7 +2522,6 @@
             "flag_name": "Androphillia",
             "part": "right_part_1",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/androphillia/androphillia.png",
             "mask_key": "_horizontal_2",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -2214,7 +2551,6 @@
             "flag_name": "Androphillia",
             "part": "right_part_2",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/androphillia/androphillia.png",
             "mask_key": "_horizontal_3",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -2244,7 +2580,6 @@
             "flag_name": "Androphillia",
             "part": "center",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/androphillia/androphillia.png",
             "mask_key": "_horizontal_4",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -2270,15 +2605,14 @@
             "id": "assets/img/sprites/pride_paw/pride_paw_androphillia_horizontal_4.png",
             "filename": "assets/img/sprites/pride_paw/pride_paw_androphillia_horizontal_4.png"
         },
-        "assets/img/sprites/pride_paw/pride_paw_androphillia_vertical_0.png": {
+        "assets/img/sprites/pride_paw/pride_paw_androphillia_horizontal_5.png": {
             "flag_name": "Androphillia",
-            "part": "left_part_1",
-            "orientation": "vertical",
-            "flag_filename": "assets/img/flags/androphillia/androphillia.png",
-            "mask_key": "_vertical_0",
+            "part": "whole",
+            "orientation": "horizontal",
+            "mask_key": "_horizontal_5",
             "flags_fits": true,
-            "flags_fits_perfect": true,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png",
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_5.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -2297,18 +2631,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/pride_paw/pride_paw_androphillia_vertical_0.png",
-            "filename": "assets/img/sprites/pride_paw/pride_paw_androphillia_vertical_0.png"
+            "id": "assets/img/sprites/pride_paw/pride_paw_androphillia_horizontal_5.png",
+            "filename": "assets/img/sprites/pride_paw/pride_paw_androphillia_horizontal_5.png"
         },
-        "assets/img/sprites/pride_paw/pride_paw_androphillia_vertical_1.png": {
+        "assets/img/sprites/pride_paw/pride_paw_androphillia_vertical_0.png": {
             "flag_name": "Androphillia",
-            "part": "left_part_2",
+            "part": "left_part_1",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/androphillia/androphillia.png",
-            "mask_key": "_vertical_1",
+            "mask_key": "_vertical_0",
             "flags_fits": true,
             "flags_fits_perfect": true,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_1.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -2327,18 +2660,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/pride_paw/pride_paw_androphillia_vertical_1.png",
-            "filename": "assets/img/sprites/pride_paw/pride_paw_androphillia_vertical_1.png"
+            "id": "assets/img/sprites/pride_paw/pride_paw_androphillia_vertical_0.png",
+            "filename": "assets/img/sprites/pride_paw/pride_paw_androphillia_vertical_0.png"
         },
-        "assets/img/sprites/pride_paw/pride_paw_androphillia_vertical_2.png": {
+        "assets/img/sprites/pride_paw/pride_paw_androphillia_vertical_1.png": {
             "flag_name": "Androphillia",
-            "part": "right_part_1",
+            "part": "left_part_2",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/androphillia/androphillia.png",
-            "mask_key": "_vertical_2",
+            "mask_key": "_vertical_1",
             "flags_fits": true,
             "flags_fits_perfect": true,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_2.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_1.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -2357,18 +2689,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/pride_paw/pride_paw_androphillia_vertical_2.png",
-            "filename": "assets/img/sprites/pride_paw/pride_paw_androphillia_vertical_2.png"
+            "id": "assets/img/sprites/pride_paw/pride_paw_androphillia_vertical_1.png",
+            "filename": "assets/img/sprites/pride_paw/pride_paw_androphillia_vertical_1.png"
         },
-        "assets/img/sprites/pride_paw/pride_paw_androphillia_vertical_3.png": {
+        "assets/img/sprites/pride_paw/pride_paw_androphillia_vertical_2.png": {
             "flag_name": "Androphillia",
-            "part": "right_part_2",
+            "part": "right_part_1",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/androphillia/androphillia.png",
-            "mask_key": "_vertical_3",
+            "mask_key": "_vertical_2",
             "flags_fits": true,
             "flags_fits_perfect": true,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_3.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_2.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -2387,18 +2718,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/pride_paw/pride_paw_androphillia_vertical_3.png",
-            "filename": "assets/img/sprites/pride_paw/pride_paw_androphillia_vertical_3.png"
+            "id": "assets/img/sprites/pride_paw/pride_paw_androphillia_vertical_2.png",
+            "filename": "assets/img/sprites/pride_paw/pride_paw_androphillia_vertical_2.png"
         },
-        "assets/img/sprites/pride_paw/pride_paw_androphillia_vertical_4.png": {
+        "assets/img/sprites/pride_paw/pride_paw_androphillia_vertical_3.png": {
             "flag_name": "Androphillia",
-            "part": "center",
+            "part": "right_part_2",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/androphillia/androphillia.png",
-            "mask_key": "_vertical_4",
+            "mask_key": "_vertical_3",
             "flags_fits": true,
-            "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_4.png",
+            "flags_fits_perfect": true,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_3.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -2417,14 +2747,71 @@
                 "w": 22,
                 "h": 22
             },
+            "id": "assets/img/sprites/pride_paw/pride_paw_androphillia_vertical_3.png",
+            "filename": "assets/img/sprites/pride_paw/pride_paw_androphillia_vertical_3.png"
+        },
+        "assets/img/sprites/pride_paw/pride_paw_androphillia_vertical_4.png": {
+            "flag_name": "Androphillia",
+            "part": "center",
+            "orientation": "vertical",
+            "mask_key": "_vertical_4",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 220,
+                "y": 154,
+                "w": 22,
+                "h": 22
+            },
             "id": "assets/img/sprites/pride_paw/pride_paw_androphillia_vertical_4.png",
             "filename": "assets/img/sprites/pride_paw/pride_paw_androphillia_vertical_4.png"
+        },
+        "assets/img/sprites/pride_paw/pride_paw_androphillia_vertical_5.png": {
+            "flag_name": "Androphillia",
+            "part": "whole",
+            "orientation": "vertical",
+            "mask_key": "_vertical_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 242,
+                "y": 154,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_paw/pride_paw_androphillia_vertical_5.png",
+            "filename": "assets/img/sprites/pride_paw/pride_paw_androphillia_vertical_5.png"
         },
         "assets/img/sprites/pride_paw/pride_paw_gynephilia_horizontal_0.png": {
             "flag_name": "Gynephilia",
             "part": "left_part_1",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/gynephilia/gynephilia.png",
             "mask_key": "_horizontal_0",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -2454,7 +2841,6 @@
             "flag_name": "Gynephilia",
             "part": "left_part_2",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/gynephilia/gynephilia.png",
             "mask_key": "_horizontal_1",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -2484,7 +2870,6 @@
             "flag_name": "Gynephilia",
             "part": "right_part_1",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/gynephilia/gynephilia.png",
             "mask_key": "_horizontal_2",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -2514,7 +2899,6 @@
             "flag_name": "Gynephilia",
             "part": "right_part_2",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/gynephilia/gynephilia.png",
             "mask_key": "_horizontal_3",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -2544,7 +2928,6 @@
             "flag_name": "Gynephilia",
             "part": "center",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/gynephilia/gynephilia.png",
             "mask_key": "_horizontal_4",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -2570,15 +2953,14 @@
             "id": "assets/img/sprites/pride_paw/pride_paw_gynephilia_horizontal_4.png",
             "filename": "assets/img/sprites/pride_paw/pride_paw_gynephilia_horizontal_4.png"
         },
-        "assets/img/sprites/pride_paw/pride_paw_gynephilia_vertical_0.png": {
+        "assets/img/sprites/pride_paw/pride_paw_gynephilia_horizontal_5.png": {
             "flag_name": "Gynephilia",
-            "part": "left_part_1",
-            "orientation": "vertical",
-            "flag_filename": "assets/img/flags/gynephilia/gynephilia.png",
-            "mask_key": "_vertical_0",
+            "part": "whole",
+            "orientation": "horizontal",
+            "mask_key": "_horizontal_5",
             "flags_fits": true,
-            "flags_fits_perfect": true,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png",
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_5.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -2597,18 +2979,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/pride_paw/pride_paw_gynephilia_vertical_0.png",
-            "filename": "assets/img/sprites/pride_paw/pride_paw_gynephilia_vertical_0.png"
+            "id": "assets/img/sprites/pride_paw/pride_paw_gynephilia_horizontal_5.png",
+            "filename": "assets/img/sprites/pride_paw/pride_paw_gynephilia_horizontal_5.png"
         },
-        "assets/img/sprites/pride_paw/pride_paw_gynephilia_vertical_1.png": {
+        "assets/img/sprites/pride_paw/pride_paw_gynephilia_vertical_0.png": {
             "flag_name": "Gynephilia",
-            "part": "left_part_2",
+            "part": "left_part_1",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/gynephilia/gynephilia.png",
-            "mask_key": "_vertical_1",
+            "mask_key": "_vertical_0",
             "flags_fits": true,
             "flags_fits_perfect": true,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_1.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -2627,18 +3008,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/pride_paw/pride_paw_gynephilia_vertical_1.png",
-            "filename": "assets/img/sprites/pride_paw/pride_paw_gynephilia_vertical_1.png"
+            "id": "assets/img/sprites/pride_paw/pride_paw_gynephilia_vertical_0.png",
+            "filename": "assets/img/sprites/pride_paw/pride_paw_gynephilia_vertical_0.png"
         },
-        "assets/img/sprites/pride_paw/pride_paw_gynephilia_vertical_2.png": {
+        "assets/img/sprites/pride_paw/pride_paw_gynephilia_vertical_1.png": {
             "flag_name": "Gynephilia",
-            "part": "right_part_1",
+            "part": "left_part_2",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/gynephilia/gynephilia.png",
-            "mask_key": "_vertical_2",
+            "mask_key": "_vertical_1",
             "flags_fits": true,
             "flags_fits_perfect": true,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_2.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_1.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -2657,18 +3037,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/pride_paw/pride_paw_gynephilia_vertical_2.png",
-            "filename": "assets/img/sprites/pride_paw/pride_paw_gynephilia_vertical_2.png"
+            "id": "assets/img/sprites/pride_paw/pride_paw_gynephilia_vertical_1.png",
+            "filename": "assets/img/sprites/pride_paw/pride_paw_gynephilia_vertical_1.png"
         },
-        "assets/img/sprites/pride_paw/pride_paw_gynephilia_vertical_3.png": {
+        "assets/img/sprites/pride_paw/pride_paw_gynephilia_vertical_2.png": {
             "flag_name": "Gynephilia",
-            "part": "right_part_2",
+            "part": "right_part_1",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/gynephilia/gynephilia.png",
-            "mask_key": "_vertical_3",
+            "mask_key": "_vertical_2",
             "flags_fits": true,
             "flags_fits_perfect": true,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_3.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_2.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -2687,18 +3066,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/pride_paw/pride_paw_gynephilia_vertical_3.png",
-            "filename": "assets/img/sprites/pride_paw/pride_paw_gynephilia_vertical_3.png"
+            "id": "assets/img/sprites/pride_paw/pride_paw_gynephilia_vertical_2.png",
+            "filename": "assets/img/sprites/pride_paw/pride_paw_gynephilia_vertical_2.png"
         },
-        "assets/img/sprites/pride_paw/pride_paw_gynephilia_vertical_4.png": {
+        "assets/img/sprites/pride_paw/pride_paw_gynephilia_vertical_3.png": {
             "flag_name": "Gynephilia",
-            "part": "center",
+            "part": "right_part_2",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/gynephilia/gynephilia.png",
-            "mask_key": "_vertical_4",
+            "mask_key": "_vertical_3",
             "flags_fits": true,
-            "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_4.png",
+            "flags_fits_perfect": true,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_3.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -2717,14 +3095,71 @@
                 "w": 22,
                 "h": 22
             },
+            "id": "assets/img/sprites/pride_paw/pride_paw_gynephilia_vertical_3.png",
+            "filename": "assets/img/sprites/pride_paw/pride_paw_gynephilia_vertical_3.png"
+        },
+        "assets/img/sprites/pride_paw/pride_paw_gynephilia_vertical_4.png": {
+            "flag_name": "Gynephilia",
+            "part": "center",
+            "orientation": "vertical",
+            "mask_key": "_vertical_4",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 220,
+                "y": 176,
+                "w": 22,
+                "h": 22
+            },
             "id": "assets/img/sprites/pride_paw/pride_paw_gynephilia_vertical_4.png",
             "filename": "assets/img/sprites/pride_paw/pride_paw_gynephilia_vertical_4.png"
+        },
+        "assets/img/sprites/pride_paw/pride_paw_gynephilia_vertical_5.png": {
+            "flag_name": "Gynephilia",
+            "part": "whole",
+            "orientation": "vertical",
+            "mask_key": "_vertical_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 242,
+                "y": 176,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_paw/pride_paw_gynephilia_vertical_5.png",
+            "filename": "assets/img/sprites/pride_paw/pride_paw_gynephilia_vertical_5.png"
         },
         "assets/img/sprites/pride_paw/pride_paw_queer_horizontal_0.png": {
             "flag_name": "Queer",
             "part": "left_part_1",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/queer/queer.png",
             "mask_key": "_horizontal_0",
             "flags_fits": false,
             "flags_fits_perfect": false,
@@ -2754,7 +3189,6 @@
             "flag_name": "Queer",
             "part": "left_part_2",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/queer/queer.png",
             "mask_key": "_horizontal_1",
             "flags_fits": false,
             "flags_fits_perfect": false,
@@ -2784,7 +3218,6 @@
             "flag_name": "Queer",
             "part": "right_part_1",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/queer/queer.png",
             "mask_key": "_horizontal_2",
             "flags_fits": false,
             "flags_fits_perfect": false,
@@ -2814,7 +3247,6 @@
             "flag_name": "Queer",
             "part": "right_part_2",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/queer/queer.png",
             "mask_key": "_horizontal_3",
             "flags_fits": false,
             "flags_fits_perfect": false,
@@ -2844,7 +3276,6 @@
             "flag_name": "Queer",
             "part": "center",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/queer/queer.png",
             "mask_key": "_horizontal_4",
             "flags_fits": false,
             "flags_fits_perfect": false,
@@ -2870,15 +3301,14 @@
             "id": "assets/img/sprites/pride_paw/pride_paw_queer_horizontal_4.png",
             "filename": "assets/img/sprites/pride_paw/pride_paw_queer_horizontal_4.png"
         },
-        "assets/img/sprites/pride_paw/pride_paw_queer_vertical_0.png": {
+        "assets/img/sprites/pride_paw/pride_paw_queer_horizontal_5.png": {
             "flag_name": "Queer",
-            "part": "left_part_1",
-            "orientation": "vertical",
-            "flag_filename": "assets/img/flags/queer/queer.png",
-            "mask_key": "_vertical_0",
-            "flags_fits": false,
+            "part": "whole",
+            "orientation": "horizontal",
+            "mask_key": "_horizontal_5",
+            "flags_fits": true,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_5.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -2897,18 +3327,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/pride_paw/pride_paw_queer_vertical_0.png",
-            "filename": "assets/img/sprites/pride_paw/pride_paw_queer_vertical_0.png"
+            "id": "assets/img/sprites/pride_paw/pride_paw_queer_horizontal_5.png",
+            "filename": "assets/img/sprites/pride_paw/pride_paw_queer_horizontal_5.png"
         },
-        "assets/img/sprites/pride_paw/pride_paw_queer_vertical_1.png": {
+        "assets/img/sprites/pride_paw/pride_paw_queer_vertical_0.png": {
             "flag_name": "Queer",
-            "part": "left_part_2",
+            "part": "left_part_1",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/queer/queer.png",
-            "mask_key": "_vertical_1",
+            "mask_key": "_vertical_0",
             "flags_fits": false,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_1.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -2927,18 +3356,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/pride_paw/pride_paw_queer_vertical_1.png",
-            "filename": "assets/img/sprites/pride_paw/pride_paw_queer_vertical_1.png"
+            "id": "assets/img/sprites/pride_paw/pride_paw_queer_vertical_0.png",
+            "filename": "assets/img/sprites/pride_paw/pride_paw_queer_vertical_0.png"
         },
-        "assets/img/sprites/pride_paw/pride_paw_queer_vertical_2.png": {
+        "assets/img/sprites/pride_paw/pride_paw_queer_vertical_1.png": {
             "flag_name": "Queer",
-            "part": "right_part_1",
+            "part": "left_part_2",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/queer/queer.png",
-            "mask_key": "_vertical_2",
+            "mask_key": "_vertical_1",
             "flags_fits": false,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_2.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_1.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -2957,18 +3385,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/pride_paw/pride_paw_queer_vertical_2.png",
-            "filename": "assets/img/sprites/pride_paw/pride_paw_queer_vertical_2.png"
+            "id": "assets/img/sprites/pride_paw/pride_paw_queer_vertical_1.png",
+            "filename": "assets/img/sprites/pride_paw/pride_paw_queer_vertical_1.png"
         },
-        "assets/img/sprites/pride_paw/pride_paw_queer_vertical_3.png": {
+        "assets/img/sprites/pride_paw/pride_paw_queer_vertical_2.png": {
             "flag_name": "Queer",
-            "part": "right_part_2",
+            "part": "right_part_1",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/queer/queer.png",
-            "mask_key": "_vertical_3",
+            "mask_key": "_vertical_2",
             "flags_fits": false,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_3.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_2.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -2987,18 +3414,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/pride_paw/pride_paw_queer_vertical_3.png",
-            "filename": "assets/img/sprites/pride_paw/pride_paw_queer_vertical_3.png"
+            "id": "assets/img/sprites/pride_paw/pride_paw_queer_vertical_2.png",
+            "filename": "assets/img/sprites/pride_paw/pride_paw_queer_vertical_2.png"
         },
-        "assets/img/sprites/pride_paw/pride_paw_queer_vertical_4.png": {
+        "assets/img/sprites/pride_paw/pride_paw_queer_vertical_3.png": {
             "flag_name": "Queer",
-            "part": "center",
+            "part": "right_part_2",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/queer/queer.png",
-            "mask_key": "_vertical_4",
-            "flags_fits": true,
+            "mask_key": "_vertical_3",
+            "flags_fits": false,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_4.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_3.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -3017,14 +3443,71 @@
                 "w": 22,
                 "h": 22
             },
+            "id": "assets/img/sprites/pride_paw/pride_paw_queer_vertical_3.png",
+            "filename": "assets/img/sprites/pride_paw/pride_paw_queer_vertical_3.png"
+        },
+        "assets/img/sprites/pride_paw/pride_paw_queer_vertical_4.png": {
+            "flag_name": "Queer",
+            "part": "center",
+            "orientation": "vertical",
+            "mask_key": "_vertical_4",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 220,
+                "y": 198,
+                "w": 22,
+                "h": 22
+            },
             "id": "assets/img/sprites/pride_paw/pride_paw_queer_vertical_4.png",
             "filename": "assets/img/sprites/pride_paw/pride_paw_queer_vertical_4.png"
+        },
+        "assets/img/sprites/pride_paw/pride_paw_queer_vertical_5.png": {
+            "flag_name": "Queer",
+            "part": "whole",
+            "orientation": "vertical",
+            "mask_key": "_vertical_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 242,
+                "y": 198,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_paw/pride_paw_queer_vertical_5.png",
+            "filename": "assets/img/sprites/pride_paw/pride_paw_queer_vertical_5.png"
         },
         "assets/img/sprites/pride_paw/pride_paw_questioning_horizontal_0.png": {
             "flag_name": "Questioning",
             "part": "left_part_1",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/questioning/questioning.png",
             "mask_key": "_horizontal_0",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -3054,7 +3537,6 @@
             "flag_name": "Questioning",
             "part": "left_part_2",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/questioning/questioning.png",
             "mask_key": "_horizontal_1",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -3084,7 +3566,6 @@
             "flag_name": "Questioning",
             "part": "right_part_1",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/questioning/questioning.png",
             "mask_key": "_horizontal_2",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -3114,7 +3595,6 @@
             "flag_name": "Questioning",
             "part": "right_part_2",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/questioning/questioning.png",
             "mask_key": "_horizontal_3",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -3144,7 +3624,6 @@
             "flag_name": "Questioning",
             "part": "center",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/questioning/questioning.png",
             "mask_key": "_horizontal_4",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -3170,15 +3649,14 @@
             "id": "assets/img/sprites/pride_paw/pride_paw_questioning_horizontal_4.png",
             "filename": "assets/img/sprites/pride_paw/pride_paw_questioning_horizontal_4.png"
         },
-        "assets/img/sprites/pride_paw/pride_paw_questioning_vertical_0.png": {
+        "assets/img/sprites/pride_paw/pride_paw_questioning_horizontal_5.png": {
             "flag_name": "Questioning",
-            "part": "left_part_1",
-            "orientation": "vertical",
-            "flag_filename": "assets/img/flags/questioning/questioning.png",
-            "mask_key": "_vertical_0",
+            "part": "whole",
+            "orientation": "horizontal",
+            "mask_key": "_horizontal_5",
             "flags_fits": true,
-            "flags_fits_perfect": true,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png",
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_5.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -3197,18 +3675,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/pride_paw/pride_paw_questioning_vertical_0.png",
-            "filename": "assets/img/sprites/pride_paw/pride_paw_questioning_vertical_0.png"
+            "id": "assets/img/sprites/pride_paw/pride_paw_questioning_horizontal_5.png",
+            "filename": "assets/img/sprites/pride_paw/pride_paw_questioning_horizontal_5.png"
         },
-        "assets/img/sprites/pride_paw/pride_paw_questioning_vertical_1.png": {
+        "assets/img/sprites/pride_paw/pride_paw_questioning_vertical_0.png": {
             "flag_name": "Questioning",
-            "part": "left_part_2",
+            "part": "left_part_1",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/questioning/questioning.png",
-            "mask_key": "_vertical_1",
+            "mask_key": "_vertical_0",
             "flags_fits": true,
             "flags_fits_perfect": true,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_1.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -3227,18 +3704,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/pride_paw/pride_paw_questioning_vertical_1.png",
-            "filename": "assets/img/sprites/pride_paw/pride_paw_questioning_vertical_1.png"
+            "id": "assets/img/sprites/pride_paw/pride_paw_questioning_vertical_0.png",
+            "filename": "assets/img/sprites/pride_paw/pride_paw_questioning_vertical_0.png"
         },
-        "assets/img/sprites/pride_paw/pride_paw_questioning_vertical_2.png": {
+        "assets/img/sprites/pride_paw/pride_paw_questioning_vertical_1.png": {
             "flag_name": "Questioning",
-            "part": "right_part_1",
+            "part": "left_part_2",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/questioning/questioning.png",
-            "mask_key": "_vertical_2",
+            "mask_key": "_vertical_1",
             "flags_fits": true,
             "flags_fits_perfect": true,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_2.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_1.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -3257,18 +3733,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/pride_paw/pride_paw_questioning_vertical_2.png",
-            "filename": "assets/img/sprites/pride_paw/pride_paw_questioning_vertical_2.png"
+            "id": "assets/img/sprites/pride_paw/pride_paw_questioning_vertical_1.png",
+            "filename": "assets/img/sprites/pride_paw/pride_paw_questioning_vertical_1.png"
         },
-        "assets/img/sprites/pride_paw/pride_paw_questioning_vertical_3.png": {
+        "assets/img/sprites/pride_paw/pride_paw_questioning_vertical_2.png": {
             "flag_name": "Questioning",
-            "part": "right_part_2",
+            "part": "right_part_1",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/questioning/questioning.png",
-            "mask_key": "_vertical_3",
+            "mask_key": "_vertical_2",
             "flags_fits": true,
             "flags_fits_perfect": true,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_3.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_2.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -3287,18 +3762,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/pride_paw/pride_paw_questioning_vertical_3.png",
-            "filename": "assets/img/sprites/pride_paw/pride_paw_questioning_vertical_3.png"
+            "id": "assets/img/sprites/pride_paw/pride_paw_questioning_vertical_2.png",
+            "filename": "assets/img/sprites/pride_paw/pride_paw_questioning_vertical_2.png"
         },
-        "assets/img/sprites/pride_paw/pride_paw_questioning_vertical_4.png": {
+        "assets/img/sprites/pride_paw/pride_paw_questioning_vertical_3.png": {
             "flag_name": "Questioning",
-            "part": "center",
+            "part": "right_part_2",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/questioning/questioning.png",
-            "mask_key": "_vertical_4",
+            "mask_key": "_vertical_3",
             "flags_fits": true,
-            "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_4.png",
+            "flags_fits_perfect": true,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_3.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -3317,14 +3791,71 @@
                 "w": 22,
                 "h": 22
             },
+            "id": "assets/img/sprites/pride_paw/pride_paw_questioning_vertical_3.png",
+            "filename": "assets/img/sprites/pride_paw/pride_paw_questioning_vertical_3.png"
+        },
+        "assets/img/sprites/pride_paw/pride_paw_questioning_vertical_4.png": {
+            "flag_name": "Questioning",
+            "part": "center",
+            "orientation": "vertical",
+            "mask_key": "_vertical_4",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 220,
+                "y": 220,
+                "w": 22,
+                "h": 22
+            },
             "id": "assets/img/sprites/pride_paw/pride_paw_questioning_vertical_4.png",
             "filename": "assets/img/sprites/pride_paw/pride_paw_questioning_vertical_4.png"
+        },
+        "assets/img/sprites/pride_paw/pride_paw_questioning_vertical_5.png": {
+            "flag_name": "Questioning",
+            "part": "whole",
+            "orientation": "vertical",
+            "mask_key": "_vertical_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 242,
+                "y": 220,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_paw/pride_paw_questioning_vertical_5.png",
+            "filename": "assets/img/sprites/pride_paw/pride_paw_questioning_vertical_5.png"
         },
         "assets/img/sprites/pride_paw/pride_paw_diamoric_horizontal_0.png": {
             "flag_name": "Diamoric",
             "part": "left_part_1",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/diamoric/diamoric.png",
             "mask_key": "_horizontal_0",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -3354,7 +3885,6 @@
             "flag_name": "Diamoric",
             "part": "left_part_2",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/diamoric/diamoric.png",
             "mask_key": "_horizontal_1",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -3384,7 +3914,6 @@
             "flag_name": "Diamoric",
             "part": "right_part_1",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/diamoric/diamoric.png",
             "mask_key": "_horizontal_2",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -3414,7 +3943,6 @@
             "flag_name": "Diamoric",
             "part": "right_part_2",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/diamoric/diamoric.png",
             "mask_key": "_horizontal_3",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -3444,7 +3972,6 @@
             "flag_name": "Diamoric",
             "part": "center",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/diamoric/diamoric.png",
             "mask_key": "_horizontal_4",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -3470,15 +3997,14 @@
             "id": "assets/img/sprites/pride_paw/pride_paw_diamoric_horizontal_4.png",
             "filename": "assets/img/sprites/pride_paw/pride_paw_diamoric_horizontal_4.png"
         },
-        "assets/img/sprites/pride_paw/pride_paw_diamoric_vertical_0.png": {
+        "assets/img/sprites/pride_paw/pride_paw_diamoric_horizontal_5.png": {
             "flag_name": "Diamoric",
-            "part": "left_part_1",
-            "orientation": "vertical",
-            "flag_filename": "assets/img/flags/diamoric/diamoric.png",
-            "mask_key": "_vertical_0",
+            "part": "whole",
+            "orientation": "horizontal",
+            "mask_key": "_horizontal_5",
             "flags_fits": true,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_5.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -3497,18 +4023,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/pride_paw/pride_paw_diamoric_vertical_0.png",
-            "filename": "assets/img/sprites/pride_paw/pride_paw_diamoric_vertical_0.png"
+            "id": "assets/img/sprites/pride_paw/pride_paw_diamoric_horizontal_5.png",
+            "filename": "assets/img/sprites/pride_paw/pride_paw_diamoric_horizontal_5.png"
         },
-        "assets/img/sprites/pride_paw/pride_paw_diamoric_vertical_1.png": {
+        "assets/img/sprites/pride_paw/pride_paw_diamoric_vertical_0.png": {
             "flag_name": "Diamoric",
-            "part": "left_part_2",
+            "part": "left_part_1",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/diamoric/diamoric.png",
-            "mask_key": "_vertical_1",
+            "mask_key": "_vertical_0",
             "flags_fits": true,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_1.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -3527,18 +4052,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/pride_paw/pride_paw_diamoric_vertical_1.png",
-            "filename": "assets/img/sprites/pride_paw/pride_paw_diamoric_vertical_1.png"
+            "id": "assets/img/sprites/pride_paw/pride_paw_diamoric_vertical_0.png",
+            "filename": "assets/img/sprites/pride_paw/pride_paw_diamoric_vertical_0.png"
         },
-        "assets/img/sprites/pride_paw/pride_paw_diamoric_vertical_2.png": {
+        "assets/img/sprites/pride_paw/pride_paw_diamoric_vertical_1.png": {
             "flag_name": "Diamoric",
-            "part": "right_part_1",
+            "part": "left_part_2",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/diamoric/diamoric.png",
-            "mask_key": "_vertical_2",
+            "mask_key": "_vertical_1",
             "flags_fits": true,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_2.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_1.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -3557,18 +4081,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/pride_paw/pride_paw_diamoric_vertical_2.png",
-            "filename": "assets/img/sprites/pride_paw/pride_paw_diamoric_vertical_2.png"
+            "id": "assets/img/sprites/pride_paw/pride_paw_diamoric_vertical_1.png",
+            "filename": "assets/img/sprites/pride_paw/pride_paw_diamoric_vertical_1.png"
         },
-        "assets/img/sprites/pride_paw/pride_paw_diamoric_vertical_3.png": {
+        "assets/img/sprites/pride_paw/pride_paw_diamoric_vertical_2.png": {
             "flag_name": "Diamoric",
-            "part": "right_part_2",
+            "part": "right_part_1",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/diamoric/diamoric.png",
-            "mask_key": "_vertical_3",
+            "mask_key": "_vertical_2",
             "flags_fits": true,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_3.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_2.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -3587,18 +4110,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/pride_paw/pride_paw_diamoric_vertical_3.png",
-            "filename": "assets/img/sprites/pride_paw/pride_paw_diamoric_vertical_3.png"
+            "id": "assets/img/sprites/pride_paw/pride_paw_diamoric_vertical_2.png",
+            "filename": "assets/img/sprites/pride_paw/pride_paw_diamoric_vertical_2.png"
         },
-        "assets/img/sprites/pride_paw/pride_paw_diamoric_vertical_4.png": {
+        "assets/img/sprites/pride_paw/pride_paw_diamoric_vertical_3.png": {
             "flag_name": "Diamoric",
-            "part": "center",
+            "part": "right_part_2",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/diamoric/diamoric.png",
-            "mask_key": "_vertical_4",
+            "mask_key": "_vertical_3",
             "flags_fits": true,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_4.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_3.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -3617,13 +4139,71 @@
                 "w": 22,
                 "h": 22
             },
+            "id": "assets/img/sprites/pride_paw/pride_paw_diamoric_vertical_3.png",
+            "filename": "assets/img/sprites/pride_paw/pride_paw_diamoric_vertical_3.png"
+        },
+        "assets/img/sprites/pride_paw/pride_paw_diamoric_vertical_4.png": {
+            "flag_name": "Diamoric",
+            "part": "center",
+            "orientation": "vertical",
+            "mask_key": "_vertical_4",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 220,
+                "y": 242,
+                "w": 22,
+                "h": 22
+            },
             "id": "assets/img/sprites/pride_paw/pride_paw_diamoric_vertical_4.png",
             "filename": "assets/img/sprites/pride_paw/pride_paw_diamoric_vertical_4.png"
+        },
+        "assets/img/sprites/pride_paw/pride_paw_diamoric_vertical_5.png": {
+            "flag_name": "Diamoric",
+            "part": "whole",
+            "orientation": "vertical",
+            "mask_key": "_vertical_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 242,
+                "y": 242,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_paw/pride_paw_diamoric_vertical_5.png",
+            "filename": "assets/img/sprites/pride_paw/pride_paw_diamoric_vertical_5.png"
         }
     },
     "meta": {
         "size": {
-            "w": 220,
+            "w": 264,
             "h": 264
         },
         "image": "pride_paw.png",

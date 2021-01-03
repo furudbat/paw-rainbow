@@ -1,7 +1,7 @@
-import { Container, Sprite, Application as PixiApplication, LoaderResource, BaseRenderTexture, RenderTexture } from 'pixi.js';
+import { Container, Sprite, Application as PixiApplication, LoaderResource } from 'pixi.js';
 import { LoggerManager } from 'typescript-logger';
-import { ApplicationData, Settings } from './application.data';
-import { Orientation } from "./flags.data";
+import { ApplicationData, Settings } from './data/application.data';
+import { Orientation } from "./data/sprite.data";
 import { site } from './site';
 import { DataObserver, DataSubject } from './observer';
 

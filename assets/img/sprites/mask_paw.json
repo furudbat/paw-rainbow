@@ -4,7 +4,6 @@
             "flag_name": "Mask",
             "part": "left_part_1",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/mask/mask.png",
             "mask_key": "_horizontal_0",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -34,7 +33,6 @@
             "flag_name": "Mask",
             "part": "left_part_2",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/mask/mask.png",
             "mask_key": "_horizontal_1",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -64,7 +62,6 @@
             "flag_name": "Mask",
             "part": "right_part_1",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/mask/mask.png",
             "mask_key": "_horizontal_2",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -94,7 +91,6 @@
             "flag_name": "Mask",
             "part": "right_part_2",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/mask/mask.png",
             "mask_key": "_horizontal_3",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -124,7 +120,6 @@
             "flag_name": "Mask",
             "part": "center",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/mask/mask.png",
             "mask_key": "_horizontal_4",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -150,12 +145,11 @@
             "id": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_4.png",
             "filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_4.png"
         },
-        "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png": {
+        "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_5.png": {
             "flag_name": "Mask",
-            "part": "left_part_1",
-            "orientation": "vertical",
-            "flag_filename": "assets/img/flags/mask/mask.png",
-            "mask_key": "_vertical_0",
+            "part": "whole",
+            "orientation": "horizontal",
+            "mask_key": "_horizontal_5",
             "flags_fits": true,
             "flags_fits_perfect": false,
             "mask": true,
@@ -177,15 +171,14 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png",
-            "filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png"
+            "id": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_5.png",
+            "filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_5.png"
         },
-        "assets/img/sprites/mask_paw/mask_paw_mask_vertical_1.png": {
+        "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png": {
             "flag_name": "Mask",
-            "part": "left_part_2",
+            "part": "left_part_1",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/mask/mask.png",
-            "mask_key": "_vertical_1",
+            "mask_key": "_vertical_0",
             "flags_fits": true,
             "flags_fits_perfect": false,
             "mask": true,
@@ -207,15 +200,14 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_1.png",
-            "filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_1.png"
+            "id": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png",
+            "filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png"
         },
-        "assets/img/sprites/mask_paw/mask_paw_mask_vertical_2.png": {
+        "assets/img/sprites/mask_paw/mask_paw_mask_vertical_1.png": {
             "flag_name": "Mask",
-            "part": "right_part_1",
+            "part": "left_part_2",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/mask/mask.png",
-            "mask_key": "_vertical_2",
+            "mask_key": "_vertical_1",
             "flags_fits": true,
             "flags_fits_perfect": false,
             "mask": true,
@@ -237,15 +229,14 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_2.png",
-            "filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_2.png"
+            "id": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_1.png",
+            "filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_1.png"
         },
-        "assets/img/sprites/mask_paw/mask_paw_mask_vertical_3.png": {
+        "assets/img/sprites/mask_paw/mask_paw_mask_vertical_2.png": {
             "flag_name": "Mask",
-            "part": "right_part_2",
+            "part": "right_part_1",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/mask/mask.png",
-            "mask_key": "_vertical_3",
+            "mask_key": "_vertical_2",
             "flags_fits": true,
             "flags_fits_perfect": false,
             "mask": true,
@@ -267,15 +258,14 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_3.png",
-            "filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_3.png"
+            "id": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_2.png",
+            "filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_2.png"
         },
-        "assets/img/sprites/mask_paw/mask_paw_mask_vertical_4.png": {
+        "assets/img/sprites/mask_paw/mask_paw_mask_vertical_3.png": {
             "flag_name": "Mask",
-            "part": "center",
+            "part": "right_part_2",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/mask/mask.png",
-            "mask_key": "_vertical_4",
+            "mask_key": "_vertical_3",
             "flags_fits": true,
             "flags_fits_perfect": false,
             "mask": true,
@@ -297,13 +287,71 @@
                 "w": 22,
                 "h": 22
             },
+            "id": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_3.png",
+            "filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_3.png"
+        },
+        "assets/img/sprites/mask_paw/mask_paw_mask_vertical_4.png": {
+            "flag_name": "Mask",
+            "part": "center",
+            "orientation": "vertical",
+            "mask_key": "_vertical_4",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 220,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
             "id": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_4.png",
             "filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_4.png"
+        },
+        "assets/img/sprites/mask_paw/mask_paw_mask_vertical_5.png": {
+            "flag_name": "Mask",
+            "part": "whole",
+            "orientation": "vertical",
+            "mask_key": "_vertical_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 242,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_5.png",
+            "filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_5.png"
         }
     },
     "meta": {
         "size": {
-            "w": 220,
+            "w": 264,
             "h": 22
         },
         "image": "mask_paw.png",

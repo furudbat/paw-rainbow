@@ -145,6 +145,8 @@ def generateColorCodeMap(colors_config, parts, img, transparent_colors, outline_
     color_code_map = dict()
 
     parts_from_config['whole'] = dict()
+    if 'whole' in parts:
+        parts.remove('whole')
     for part in parts:
         parts_from_config[part] = dict()
         parts_from_config[part]['horizontal'] = colors_config[part]['horizontal'] if 'horizontal' in colors_config[part] else []
@@ -194,8 +196,6 @@ def generateColorCodeMap(colors_config, parts, img, transparent_colors, outline_
         del color_code_map['vertical_line']
     if 'line' in color_code_map:
         del color_code_map['line']
-
-    parts.append('whole')
 
     paw_width = img.size[0]
     paw_height = img.size[1]
@@ -459,13 +459,12 @@ def generateSpriteLine(output_map, paw_outlines_img, outline_color, flag, parts,
 
         flag_colors_size = len(flag['colors'])
         flag_name = flag['name']
-        flag_filename = flag['filename']
 
         key_name = flag_name.lower().replace(' ', '_').replace("'", '').replace('+', '').replace('-', '_').replace('/', '_').replace('\\', '_')
         mask_key = '_' + orientation + '_' + str(frame_counter)
         key = key_name + mask_key
         if not key in output_map:
-            output_map[key] = { 'flag_name': flag_name, 'part': part, 'orientation': orientation, 'flag_filename': flag_filename, 'mask_key': mask_key }
+            output_map[key] = { 'flag_name': flag_name, 'part': part, 'orientation': orientation, 'mask_key': mask_key }
 
         flags_fits = False
         flags_fits_perfect = False
@@ -708,10 +707,14 @@ def generateSprite(in_img_filename, parts, category, form, colors_config, flags,
         paw_outlines_img = getOutlineImage(img, outline_color)
         color_code_map = generateColorCodeMap(colors_config, parts, img, transparent_colors, outline_color)
 
-    with open("{}_map.json".format(output_name), 'w') as f:
+    with open("output/{}_map.json".format(output_name), 'w') as f:
         json.dump(color_code_map, f, indent=4)
 
     output_map = dict()
+
+    new_parts = parts
+    if not 'whole' in new_parts:
+        new_parts.append('whole')
 
     output_flages_map = dict()
     x = 0
@@ -724,7 +727,7 @@ def generateSprite(in_img_filename, parts, category, form, colors_config, flags,
 
         frame_width = 0
         frame_height = 0
-        for key, value in generateSpriteLine(output_map, paw_outlines_img, outline_color, flag, parts, 'horizontal', color_code_map, mask_output).items():
+        for key, value in generateSpriteLine(output_map, paw_outlines_img, outline_color, flag, new_parts, 'horizontal', color_code_map, mask_output).items():
             output_flages_map[key] = value
             frame_width = value.size[0]
             frame_height = value.size[1]
@@ -738,7 +741,7 @@ def generateSprite(in_img_filename, parts, category, form, colors_config, flags,
 
         frame_width = 0
         frame_height = 0
-        for key, value in generateSpriteLine(output_map, paw_outlines_img, outline_color, flag, parts, 'vertical', color_code_map, mask_output).items():
+        for key, value in generateSpriteLine(output_map, paw_outlines_img, outline_color, flag, new_parts, 'vertical', color_code_map, mask_output).items():
             output_flages_map[key] = value
             frame_width = value.size[0]
             frame_height = value.size[1]
@@ -840,6 +843,7 @@ def main():
     for form in forms:
         if form in config:
             parts = config[form]['parts']
+            
             for category in categories:
                 flags = []
                 if category == 'pride':
@@ -856,14 +860,19 @@ def main():
                     flags = sub_culture_flags
             
                 output.extend(generateSprite(config[form]['base_filename'], parts, category, form, config[form], flags, transparent_colors, mask_output))
+            
+            if not 'whole' in config[form]['parts']:
+                config[form]['parts'].append('whole')
 
-    with open(r'sprites.json', 'w') as file:
+    with open(r'output/sprites.json', 'w') as file:
         json.dump(output, file, indent=4)
 
-    with open(r'sprites.json', 'r') as json_file:
+    with open(r'output/sprites.json', 'r') as json_file:
         with open(r'../_data/sprites.yml', 'w') as yaml_file:
             yaml.safe_dump(json.load(json_file), yaml_file, default_flow_style=False, allow_unicode=True)
 
+    with open(r'../_data/flags_config.yml', 'w') as yaml_file:
+        yaml.safe_dump(config, yaml_file, default_flow_style=False, allow_unicode=True)
 
 if __name__ == "__main__":
     main()

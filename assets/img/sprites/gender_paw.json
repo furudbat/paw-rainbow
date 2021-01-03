@@ -4,7 +4,6 @@
             "flag_name": "Agender",
             "part": "left_part_1",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/agender/agender.png",
             "mask_key": "_horizontal_0",
             "flags_fits": false,
             "flags_fits_perfect": false,
@@ -34,7 +33,6 @@
             "flag_name": "Agender",
             "part": "left_part_2",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/agender/agender.png",
             "mask_key": "_horizontal_1",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -64,7 +62,6 @@
             "flag_name": "Agender",
             "part": "right_part_1",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/agender/agender.png",
             "mask_key": "_horizontal_2",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -94,7 +91,6 @@
             "flag_name": "Agender",
             "part": "right_part_2",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/agender/agender.png",
             "mask_key": "_horizontal_3",
             "flags_fits": false,
             "flags_fits_perfect": false,
@@ -124,7 +120,6 @@
             "flag_name": "Agender",
             "part": "center",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/agender/agender.png",
             "mask_key": "_horizontal_4",
             "flags_fits": true,
             "flags_fits_perfect": true,
@@ -150,15 +145,14 @@
             "id": "assets/img/sprites/gender_paw/gender_paw_agender_horizontal_4.png",
             "filename": "assets/img/sprites/gender_paw/gender_paw_agender_horizontal_4.png"
         },
-        "assets/img/sprites/gender_paw/gender_paw_agender_vertical_0.png": {
+        "assets/img/sprites/gender_paw/gender_paw_agender_horizontal_5.png": {
             "flag_name": "Agender",
-            "part": "left_part_1",
-            "orientation": "vertical",
-            "flag_filename": "assets/img/flags/agender/agender.png",
-            "mask_key": "_vertical_0",
-            "flags_fits": false,
+            "part": "whole",
+            "orientation": "horizontal",
+            "mask_key": "_horizontal_5",
+            "flags_fits": true,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_5.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -177,18 +171,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/gender_paw/gender_paw_agender_vertical_0.png",
-            "filename": "assets/img/sprites/gender_paw/gender_paw_agender_vertical_0.png"
+            "id": "assets/img/sprites/gender_paw/gender_paw_agender_horizontal_5.png",
+            "filename": "assets/img/sprites/gender_paw/gender_paw_agender_horizontal_5.png"
         },
-        "assets/img/sprites/gender_paw/gender_paw_agender_vertical_1.png": {
+        "assets/img/sprites/gender_paw/gender_paw_agender_vertical_0.png": {
             "flag_name": "Agender",
-            "part": "left_part_2",
+            "part": "left_part_1",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/agender/agender.png",
-            "mask_key": "_vertical_1",
+            "mask_key": "_vertical_0",
             "flags_fits": false,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_1.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -207,18 +200,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/gender_paw/gender_paw_agender_vertical_1.png",
-            "filename": "assets/img/sprites/gender_paw/gender_paw_agender_vertical_1.png"
+            "id": "assets/img/sprites/gender_paw/gender_paw_agender_vertical_0.png",
+            "filename": "assets/img/sprites/gender_paw/gender_paw_agender_vertical_0.png"
         },
-        "assets/img/sprites/gender_paw/gender_paw_agender_vertical_2.png": {
+        "assets/img/sprites/gender_paw/gender_paw_agender_vertical_1.png": {
             "flag_name": "Agender",
-            "part": "right_part_1",
+            "part": "left_part_2",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/agender/agender.png",
-            "mask_key": "_vertical_2",
+            "mask_key": "_vertical_1",
             "flags_fits": false,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_2.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_1.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -237,18 +229,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/gender_paw/gender_paw_agender_vertical_2.png",
-            "filename": "assets/img/sprites/gender_paw/gender_paw_agender_vertical_2.png"
+            "id": "assets/img/sprites/gender_paw/gender_paw_agender_vertical_1.png",
+            "filename": "assets/img/sprites/gender_paw/gender_paw_agender_vertical_1.png"
         },
-        "assets/img/sprites/gender_paw/gender_paw_agender_vertical_3.png": {
+        "assets/img/sprites/gender_paw/gender_paw_agender_vertical_2.png": {
             "flag_name": "Agender",
-            "part": "right_part_2",
+            "part": "right_part_1",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/agender/agender.png",
-            "mask_key": "_vertical_3",
+            "mask_key": "_vertical_2",
             "flags_fits": false,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_3.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_2.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -267,18 +258,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/gender_paw/gender_paw_agender_vertical_3.png",
-            "filename": "assets/img/sprites/gender_paw/gender_paw_agender_vertical_3.png"
+            "id": "assets/img/sprites/gender_paw/gender_paw_agender_vertical_2.png",
+            "filename": "assets/img/sprites/gender_paw/gender_paw_agender_vertical_2.png"
         },
-        "assets/img/sprites/gender_paw/gender_paw_agender_vertical_4.png": {
+        "assets/img/sprites/gender_paw/gender_paw_agender_vertical_3.png": {
             "flag_name": "Agender",
-            "part": "center",
+            "part": "right_part_2",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/agender/agender.png",
-            "mask_key": "_vertical_4",
-            "flags_fits": true,
+            "mask_key": "_vertical_3",
+            "flags_fits": false,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_4.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_3.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -297,14 +287,71 @@
                 "w": 22,
                 "h": 22
             },
+            "id": "assets/img/sprites/gender_paw/gender_paw_agender_vertical_3.png",
+            "filename": "assets/img/sprites/gender_paw/gender_paw_agender_vertical_3.png"
+        },
+        "assets/img/sprites/gender_paw/gender_paw_agender_vertical_4.png": {
+            "flag_name": "Agender",
+            "part": "center",
+            "orientation": "vertical",
+            "mask_key": "_vertical_4",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 220,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
             "id": "assets/img/sprites/gender_paw/gender_paw_agender_vertical_4.png",
             "filename": "assets/img/sprites/gender_paw/gender_paw_agender_vertical_4.png"
+        },
+        "assets/img/sprites/gender_paw/gender_paw_agender_vertical_5.png": {
+            "flag_name": "Agender",
+            "part": "whole",
+            "orientation": "vertical",
+            "mask_key": "_vertical_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 242,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/gender_paw/gender_paw_agender_vertical_5.png",
+            "filename": "assets/img/sprites/gender_paw/gender_paw_agender_vertical_5.png"
         },
         "assets/img/sprites/gender_paw/gender_paw_androgynous_horizontal_0.png": {
             "flag_name": "Androgynous",
             "part": "left_part_1",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/androgynous/androgynous.png",
             "mask_key": "_horizontal_0",
             "flags_fits": false,
             "flags_fits_perfect": false,
@@ -334,7 +381,6 @@
             "flag_name": "Androgynous",
             "part": "left_part_2",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/androgynous/androgynous.png",
             "mask_key": "_horizontal_1",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -364,7 +410,6 @@
             "flag_name": "Androgynous",
             "part": "right_part_1",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/androgynous/androgynous.png",
             "mask_key": "_horizontal_2",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -394,7 +439,6 @@
             "flag_name": "Androgynous",
             "part": "right_part_2",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/androgynous/androgynous.png",
             "mask_key": "_horizontal_3",
             "flags_fits": false,
             "flags_fits_perfect": false,
@@ -424,7 +468,6 @@
             "flag_name": "Androgynous",
             "part": "center",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/androgynous/androgynous.png",
             "mask_key": "_horizontal_4",
             "flags_fits": true,
             "flags_fits_perfect": true,
@@ -450,15 +493,14 @@
             "id": "assets/img/sprites/gender_paw/gender_paw_androgynous_horizontal_4.png",
             "filename": "assets/img/sprites/gender_paw/gender_paw_androgynous_horizontal_4.png"
         },
-        "assets/img/sprites/gender_paw/gender_paw_androgynous_vertical_0.png": {
+        "assets/img/sprites/gender_paw/gender_paw_androgynous_horizontal_5.png": {
             "flag_name": "Androgynous",
-            "part": "left_part_1",
-            "orientation": "vertical",
-            "flag_filename": "assets/img/flags/androgynous/androgynous.png",
-            "mask_key": "_vertical_0",
-            "flags_fits": false,
+            "part": "whole",
+            "orientation": "horizontal",
+            "mask_key": "_horizontal_5",
+            "flags_fits": true,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_5.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -477,18 +519,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/gender_paw/gender_paw_androgynous_vertical_0.png",
-            "filename": "assets/img/sprites/gender_paw/gender_paw_androgynous_vertical_0.png"
+            "id": "assets/img/sprites/gender_paw/gender_paw_androgynous_horizontal_5.png",
+            "filename": "assets/img/sprites/gender_paw/gender_paw_androgynous_horizontal_5.png"
         },
-        "assets/img/sprites/gender_paw/gender_paw_androgynous_vertical_1.png": {
+        "assets/img/sprites/gender_paw/gender_paw_androgynous_vertical_0.png": {
             "flag_name": "Androgynous",
-            "part": "left_part_2",
+            "part": "left_part_1",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/androgynous/androgynous.png",
-            "mask_key": "_vertical_1",
+            "mask_key": "_vertical_0",
             "flags_fits": false,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_1.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -507,18 +548,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/gender_paw/gender_paw_androgynous_vertical_1.png",
-            "filename": "assets/img/sprites/gender_paw/gender_paw_androgynous_vertical_1.png"
+            "id": "assets/img/sprites/gender_paw/gender_paw_androgynous_vertical_0.png",
+            "filename": "assets/img/sprites/gender_paw/gender_paw_androgynous_vertical_0.png"
         },
-        "assets/img/sprites/gender_paw/gender_paw_androgynous_vertical_2.png": {
+        "assets/img/sprites/gender_paw/gender_paw_androgynous_vertical_1.png": {
             "flag_name": "Androgynous",
-            "part": "right_part_1",
+            "part": "left_part_2",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/androgynous/androgynous.png",
-            "mask_key": "_vertical_2",
+            "mask_key": "_vertical_1",
             "flags_fits": false,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_2.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_1.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -537,18 +577,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/gender_paw/gender_paw_androgynous_vertical_2.png",
-            "filename": "assets/img/sprites/gender_paw/gender_paw_androgynous_vertical_2.png"
+            "id": "assets/img/sprites/gender_paw/gender_paw_androgynous_vertical_1.png",
+            "filename": "assets/img/sprites/gender_paw/gender_paw_androgynous_vertical_1.png"
         },
-        "assets/img/sprites/gender_paw/gender_paw_androgynous_vertical_3.png": {
+        "assets/img/sprites/gender_paw/gender_paw_androgynous_vertical_2.png": {
             "flag_name": "Androgynous",
-            "part": "right_part_2",
+            "part": "right_part_1",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/androgynous/androgynous.png",
-            "mask_key": "_vertical_3",
+            "mask_key": "_vertical_2",
             "flags_fits": false,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_3.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_2.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -567,18 +606,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/gender_paw/gender_paw_androgynous_vertical_3.png",
-            "filename": "assets/img/sprites/gender_paw/gender_paw_androgynous_vertical_3.png"
+            "id": "assets/img/sprites/gender_paw/gender_paw_androgynous_vertical_2.png",
+            "filename": "assets/img/sprites/gender_paw/gender_paw_androgynous_vertical_2.png"
         },
-        "assets/img/sprites/gender_paw/gender_paw_androgynous_vertical_4.png": {
+        "assets/img/sprites/gender_paw/gender_paw_androgynous_vertical_3.png": {
             "flag_name": "Androgynous",
-            "part": "center",
+            "part": "right_part_2",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/androgynous/androgynous.png",
-            "mask_key": "_vertical_4",
-            "flags_fits": true,
+            "mask_key": "_vertical_3",
+            "flags_fits": false,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_4.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_3.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -597,14 +635,71 @@
                 "w": 22,
                 "h": 22
             },
+            "id": "assets/img/sprites/gender_paw/gender_paw_androgynous_vertical_3.png",
+            "filename": "assets/img/sprites/gender_paw/gender_paw_androgynous_vertical_3.png"
+        },
+        "assets/img/sprites/gender_paw/gender_paw_androgynous_vertical_4.png": {
+            "flag_name": "Androgynous",
+            "part": "center",
+            "orientation": "vertical",
+            "mask_key": "_vertical_4",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 220,
+                "y": 22,
+                "w": 22,
+                "h": 22
+            },
             "id": "assets/img/sprites/gender_paw/gender_paw_androgynous_vertical_4.png",
             "filename": "assets/img/sprites/gender_paw/gender_paw_androgynous_vertical_4.png"
+        },
+        "assets/img/sprites/gender_paw/gender_paw_androgynous_vertical_5.png": {
+            "flag_name": "Androgynous",
+            "part": "whole",
+            "orientation": "vertical",
+            "mask_key": "_vertical_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 242,
+                "y": 22,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/gender_paw/gender_paw_androgynous_vertical_5.png",
+            "filename": "assets/img/sprites/gender_paw/gender_paw_androgynous_vertical_5.png"
         },
         "assets/img/sprites/gender_paw/gender_paw_transgender_horizontal_0.png": {
             "flag_name": "Transgender",
             "part": "left_part_1",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/transgender/transgender.png",
             "mask_key": "_horizontal_0",
             "flags_fits": true,
             "flags_fits_perfect": true,
@@ -634,7 +729,6 @@
             "flag_name": "Transgender",
             "part": "left_part_2",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/transgender/transgender.png",
             "mask_key": "_horizontal_1",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -664,7 +758,6 @@
             "flag_name": "Transgender",
             "part": "right_part_1",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/transgender/transgender.png",
             "mask_key": "_horizontal_2",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -694,7 +787,6 @@
             "flag_name": "Transgender",
             "part": "right_part_2",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/transgender/transgender.png",
             "mask_key": "_horizontal_3",
             "flags_fits": true,
             "flags_fits_perfect": true,
@@ -724,7 +816,6 @@
             "flag_name": "Transgender",
             "part": "center",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/transgender/transgender.png",
             "mask_key": "_horizontal_4",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -750,15 +841,14 @@
             "id": "assets/img/sprites/gender_paw/gender_paw_transgender_horizontal_4.png",
             "filename": "assets/img/sprites/gender_paw/gender_paw_transgender_horizontal_4.png"
         },
-        "assets/img/sprites/gender_paw/gender_paw_transgender_vertical_0.png": {
+        "assets/img/sprites/gender_paw/gender_paw_transgender_horizontal_5.png": {
             "flag_name": "Transgender",
-            "part": "left_part_1",
-            "orientation": "vertical",
-            "flag_filename": "assets/img/flags/transgender/transgender.png",
-            "mask_key": "_vertical_0",
-            "flags_fits": false,
+            "part": "whole",
+            "orientation": "horizontal",
+            "mask_key": "_horizontal_5",
+            "flags_fits": true,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_5.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -777,18 +867,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/gender_paw/gender_paw_transgender_vertical_0.png",
-            "filename": "assets/img/sprites/gender_paw/gender_paw_transgender_vertical_0.png"
+            "id": "assets/img/sprites/gender_paw/gender_paw_transgender_horizontal_5.png",
+            "filename": "assets/img/sprites/gender_paw/gender_paw_transgender_horizontal_5.png"
         },
-        "assets/img/sprites/gender_paw/gender_paw_transgender_vertical_1.png": {
+        "assets/img/sprites/gender_paw/gender_paw_transgender_vertical_0.png": {
             "flag_name": "Transgender",
-            "part": "left_part_2",
+            "part": "left_part_1",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/transgender/transgender.png",
-            "mask_key": "_vertical_1",
+            "mask_key": "_vertical_0",
             "flags_fits": false,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_1.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -807,18 +896,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/gender_paw/gender_paw_transgender_vertical_1.png",
-            "filename": "assets/img/sprites/gender_paw/gender_paw_transgender_vertical_1.png"
+            "id": "assets/img/sprites/gender_paw/gender_paw_transgender_vertical_0.png",
+            "filename": "assets/img/sprites/gender_paw/gender_paw_transgender_vertical_0.png"
         },
-        "assets/img/sprites/gender_paw/gender_paw_transgender_vertical_2.png": {
+        "assets/img/sprites/gender_paw/gender_paw_transgender_vertical_1.png": {
             "flag_name": "Transgender",
-            "part": "right_part_1",
+            "part": "left_part_2",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/transgender/transgender.png",
-            "mask_key": "_vertical_2",
+            "mask_key": "_vertical_1",
             "flags_fits": false,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_2.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_1.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -837,18 +925,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/gender_paw/gender_paw_transgender_vertical_2.png",
-            "filename": "assets/img/sprites/gender_paw/gender_paw_transgender_vertical_2.png"
+            "id": "assets/img/sprites/gender_paw/gender_paw_transgender_vertical_1.png",
+            "filename": "assets/img/sprites/gender_paw/gender_paw_transgender_vertical_1.png"
         },
-        "assets/img/sprites/gender_paw/gender_paw_transgender_vertical_3.png": {
+        "assets/img/sprites/gender_paw/gender_paw_transgender_vertical_2.png": {
             "flag_name": "Transgender",
-            "part": "right_part_2",
+            "part": "right_part_1",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/transgender/transgender.png",
-            "mask_key": "_vertical_3",
+            "mask_key": "_vertical_2",
             "flags_fits": false,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_3.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_2.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -867,18 +954,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/gender_paw/gender_paw_transgender_vertical_3.png",
-            "filename": "assets/img/sprites/gender_paw/gender_paw_transgender_vertical_3.png"
+            "id": "assets/img/sprites/gender_paw/gender_paw_transgender_vertical_2.png",
+            "filename": "assets/img/sprites/gender_paw/gender_paw_transgender_vertical_2.png"
         },
-        "assets/img/sprites/gender_paw/gender_paw_transgender_vertical_4.png": {
+        "assets/img/sprites/gender_paw/gender_paw_transgender_vertical_3.png": {
             "flag_name": "Transgender",
-            "part": "center",
+            "part": "right_part_2",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/transgender/transgender.png",
-            "mask_key": "_vertical_4",
-            "flags_fits": true,
+            "mask_key": "_vertical_3",
+            "flags_fits": false,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_4.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_3.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -897,14 +983,71 @@
                 "w": 22,
                 "h": 22
             },
+            "id": "assets/img/sprites/gender_paw/gender_paw_transgender_vertical_3.png",
+            "filename": "assets/img/sprites/gender_paw/gender_paw_transgender_vertical_3.png"
+        },
+        "assets/img/sprites/gender_paw/gender_paw_transgender_vertical_4.png": {
+            "flag_name": "Transgender",
+            "part": "center",
+            "orientation": "vertical",
+            "mask_key": "_vertical_4",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 220,
+                "y": 44,
+                "w": 22,
+                "h": 22
+            },
             "id": "assets/img/sprites/gender_paw/gender_paw_transgender_vertical_4.png",
             "filename": "assets/img/sprites/gender_paw/gender_paw_transgender_vertical_4.png"
+        },
+        "assets/img/sprites/gender_paw/gender_paw_transgender_vertical_5.png": {
+            "flag_name": "Transgender",
+            "part": "whole",
+            "orientation": "vertical",
+            "mask_key": "_vertical_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 242,
+                "y": 44,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/gender_paw/gender_paw_transgender_vertical_5.png",
+            "filename": "assets/img/sprites/gender_paw/gender_paw_transgender_vertical_5.png"
         },
         "assets/img/sprites/gender_paw/gender_paw_genderqueer_horizontal_0.png": {
             "flag_name": "Genderqueer",
             "part": "left_part_1",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/genderqueer/genderqueer.png",
             "mask_key": "_horizontal_0",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -934,7 +1077,6 @@
             "flag_name": "Genderqueer",
             "part": "left_part_2",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/genderqueer/genderqueer.png",
             "mask_key": "_horizontal_1",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -964,7 +1106,6 @@
             "flag_name": "Genderqueer",
             "part": "right_part_1",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/genderqueer/genderqueer.png",
             "mask_key": "_horizontal_2",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -994,7 +1135,6 @@
             "flag_name": "Genderqueer",
             "part": "right_part_2",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/genderqueer/genderqueer.png",
             "mask_key": "_horizontal_3",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -1024,7 +1164,6 @@
             "flag_name": "Genderqueer",
             "part": "center",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/genderqueer/genderqueer.png",
             "mask_key": "_horizontal_4",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -1050,15 +1189,14 @@
             "id": "assets/img/sprites/gender_paw/gender_paw_genderqueer_horizontal_4.png",
             "filename": "assets/img/sprites/gender_paw/gender_paw_genderqueer_horizontal_4.png"
         },
-        "assets/img/sprites/gender_paw/gender_paw_genderqueer_vertical_0.png": {
+        "assets/img/sprites/gender_paw/gender_paw_genderqueer_horizontal_5.png": {
             "flag_name": "Genderqueer",
-            "part": "left_part_1",
-            "orientation": "vertical",
-            "flag_filename": "assets/img/flags/genderqueer/genderqueer.png",
-            "mask_key": "_vertical_0",
+            "part": "whole",
+            "orientation": "horizontal",
+            "mask_key": "_horizontal_5",
             "flags_fits": true,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_5.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -1077,18 +1215,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/gender_paw/gender_paw_genderqueer_vertical_0.png",
-            "filename": "assets/img/sprites/gender_paw/gender_paw_genderqueer_vertical_0.png"
+            "id": "assets/img/sprites/gender_paw/gender_paw_genderqueer_horizontal_5.png",
+            "filename": "assets/img/sprites/gender_paw/gender_paw_genderqueer_horizontal_5.png"
         },
-        "assets/img/sprites/gender_paw/gender_paw_genderqueer_vertical_1.png": {
+        "assets/img/sprites/gender_paw/gender_paw_genderqueer_vertical_0.png": {
             "flag_name": "Genderqueer",
-            "part": "left_part_2",
+            "part": "left_part_1",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/genderqueer/genderqueer.png",
-            "mask_key": "_vertical_1",
+            "mask_key": "_vertical_0",
             "flags_fits": true,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_1.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -1107,18 +1244,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/gender_paw/gender_paw_genderqueer_vertical_1.png",
-            "filename": "assets/img/sprites/gender_paw/gender_paw_genderqueer_vertical_1.png"
+            "id": "assets/img/sprites/gender_paw/gender_paw_genderqueer_vertical_0.png",
+            "filename": "assets/img/sprites/gender_paw/gender_paw_genderqueer_vertical_0.png"
         },
-        "assets/img/sprites/gender_paw/gender_paw_genderqueer_vertical_2.png": {
+        "assets/img/sprites/gender_paw/gender_paw_genderqueer_vertical_1.png": {
             "flag_name": "Genderqueer",
-            "part": "right_part_1",
+            "part": "left_part_2",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/genderqueer/genderqueer.png",
-            "mask_key": "_vertical_2",
+            "mask_key": "_vertical_1",
             "flags_fits": true,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_2.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_1.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -1137,18 +1273,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/gender_paw/gender_paw_genderqueer_vertical_2.png",
-            "filename": "assets/img/sprites/gender_paw/gender_paw_genderqueer_vertical_2.png"
+            "id": "assets/img/sprites/gender_paw/gender_paw_genderqueer_vertical_1.png",
+            "filename": "assets/img/sprites/gender_paw/gender_paw_genderqueer_vertical_1.png"
         },
-        "assets/img/sprites/gender_paw/gender_paw_genderqueer_vertical_3.png": {
+        "assets/img/sprites/gender_paw/gender_paw_genderqueer_vertical_2.png": {
             "flag_name": "Genderqueer",
-            "part": "right_part_2",
+            "part": "right_part_1",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/genderqueer/genderqueer.png",
-            "mask_key": "_vertical_3",
+            "mask_key": "_vertical_2",
             "flags_fits": true,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_3.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_2.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -1167,18 +1302,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/gender_paw/gender_paw_genderqueer_vertical_3.png",
-            "filename": "assets/img/sprites/gender_paw/gender_paw_genderqueer_vertical_3.png"
+            "id": "assets/img/sprites/gender_paw/gender_paw_genderqueer_vertical_2.png",
+            "filename": "assets/img/sprites/gender_paw/gender_paw_genderqueer_vertical_2.png"
         },
-        "assets/img/sprites/gender_paw/gender_paw_genderqueer_vertical_4.png": {
+        "assets/img/sprites/gender_paw/gender_paw_genderqueer_vertical_3.png": {
             "flag_name": "Genderqueer",
-            "part": "center",
+            "part": "right_part_2",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/genderqueer/genderqueer.png",
-            "mask_key": "_vertical_4",
+            "mask_key": "_vertical_3",
             "flags_fits": true,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_4.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_3.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -1197,14 +1331,71 @@
                 "w": 22,
                 "h": 22
             },
+            "id": "assets/img/sprites/gender_paw/gender_paw_genderqueer_vertical_3.png",
+            "filename": "assets/img/sprites/gender_paw/gender_paw_genderqueer_vertical_3.png"
+        },
+        "assets/img/sprites/gender_paw/gender_paw_genderqueer_vertical_4.png": {
+            "flag_name": "Genderqueer",
+            "part": "center",
+            "orientation": "vertical",
+            "mask_key": "_vertical_4",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 220,
+                "y": 66,
+                "w": 22,
+                "h": 22
+            },
             "id": "assets/img/sprites/gender_paw/gender_paw_genderqueer_vertical_4.png",
             "filename": "assets/img/sprites/gender_paw/gender_paw_genderqueer_vertical_4.png"
+        },
+        "assets/img/sprites/gender_paw/gender_paw_genderqueer_vertical_5.png": {
+            "flag_name": "Genderqueer",
+            "part": "whole",
+            "orientation": "vertical",
+            "mask_key": "_vertical_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 242,
+                "y": 66,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/gender_paw/gender_paw_genderqueer_vertical_5.png",
+            "filename": "assets/img/sprites/gender_paw/gender_paw_genderqueer_vertical_5.png"
         },
         "assets/img/sprites/gender_paw/gender_paw_genderfluid_horizontal_0.png": {
             "flag_name": "Genderfluid",
             "part": "left_part_1",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/genderfluid/genderfluid.png",
             "mask_key": "_horizontal_0",
             "flags_fits": true,
             "flags_fits_perfect": true,
@@ -1234,7 +1425,6 @@
             "flag_name": "Genderfluid",
             "part": "left_part_2",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/genderfluid/genderfluid.png",
             "mask_key": "_horizontal_1",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -1264,7 +1454,6 @@
             "flag_name": "Genderfluid",
             "part": "right_part_1",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/genderfluid/genderfluid.png",
             "mask_key": "_horizontal_2",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -1294,7 +1483,6 @@
             "flag_name": "Genderfluid",
             "part": "right_part_2",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/genderfluid/genderfluid.png",
             "mask_key": "_horizontal_3",
             "flags_fits": true,
             "flags_fits_perfect": true,
@@ -1324,7 +1512,6 @@
             "flag_name": "Genderfluid",
             "part": "center",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/genderfluid/genderfluid.png",
             "mask_key": "_horizontal_4",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -1350,15 +1537,14 @@
             "id": "assets/img/sprites/gender_paw/gender_paw_genderfluid_horizontal_4.png",
             "filename": "assets/img/sprites/gender_paw/gender_paw_genderfluid_horizontal_4.png"
         },
-        "assets/img/sprites/gender_paw/gender_paw_genderfluid_vertical_0.png": {
+        "assets/img/sprites/gender_paw/gender_paw_genderfluid_horizontal_5.png": {
             "flag_name": "Genderfluid",
-            "part": "left_part_1",
-            "orientation": "vertical",
-            "flag_filename": "assets/img/flags/genderfluid/genderfluid.png",
-            "mask_key": "_vertical_0",
-            "flags_fits": false,
+            "part": "whole",
+            "orientation": "horizontal",
+            "mask_key": "_horizontal_5",
+            "flags_fits": true,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_5.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -1377,18 +1563,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/gender_paw/gender_paw_genderfluid_vertical_0.png",
-            "filename": "assets/img/sprites/gender_paw/gender_paw_genderfluid_vertical_0.png"
+            "id": "assets/img/sprites/gender_paw/gender_paw_genderfluid_horizontal_5.png",
+            "filename": "assets/img/sprites/gender_paw/gender_paw_genderfluid_horizontal_5.png"
         },
-        "assets/img/sprites/gender_paw/gender_paw_genderfluid_vertical_1.png": {
+        "assets/img/sprites/gender_paw/gender_paw_genderfluid_vertical_0.png": {
             "flag_name": "Genderfluid",
-            "part": "left_part_2",
+            "part": "left_part_1",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/genderfluid/genderfluid.png",
-            "mask_key": "_vertical_1",
+            "mask_key": "_vertical_0",
             "flags_fits": false,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_1.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -1407,18 +1592,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/gender_paw/gender_paw_genderfluid_vertical_1.png",
-            "filename": "assets/img/sprites/gender_paw/gender_paw_genderfluid_vertical_1.png"
+            "id": "assets/img/sprites/gender_paw/gender_paw_genderfluid_vertical_0.png",
+            "filename": "assets/img/sprites/gender_paw/gender_paw_genderfluid_vertical_0.png"
         },
-        "assets/img/sprites/gender_paw/gender_paw_genderfluid_vertical_2.png": {
+        "assets/img/sprites/gender_paw/gender_paw_genderfluid_vertical_1.png": {
             "flag_name": "Genderfluid",
-            "part": "right_part_1",
+            "part": "left_part_2",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/genderfluid/genderfluid.png",
-            "mask_key": "_vertical_2",
+            "mask_key": "_vertical_1",
             "flags_fits": false,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_2.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_1.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -1437,18 +1621,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/gender_paw/gender_paw_genderfluid_vertical_2.png",
-            "filename": "assets/img/sprites/gender_paw/gender_paw_genderfluid_vertical_2.png"
+            "id": "assets/img/sprites/gender_paw/gender_paw_genderfluid_vertical_1.png",
+            "filename": "assets/img/sprites/gender_paw/gender_paw_genderfluid_vertical_1.png"
         },
-        "assets/img/sprites/gender_paw/gender_paw_genderfluid_vertical_3.png": {
+        "assets/img/sprites/gender_paw/gender_paw_genderfluid_vertical_2.png": {
             "flag_name": "Genderfluid",
-            "part": "right_part_2",
+            "part": "right_part_1",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/genderfluid/genderfluid.png",
-            "mask_key": "_vertical_3",
+            "mask_key": "_vertical_2",
             "flags_fits": false,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_3.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_2.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -1467,18 +1650,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/gender_paw/gender_paw_genderfluid_vertical_3.png",
-            "filename": "assets/img/sprites/gender_paw/gender_paw_genderfluid_vertical_3.png"
+            "id": "assets/img/sprites/gender_paw/gender_paw_genderfluid_vertical_2.png",
+            "filename": "assets/img/sprites/gender_paw/gender_paw_genderfluid_vertical_2.png"
         },
-        "assets/img/sprites/gender_paw/gender_paw_genderfluid_vertical_4.png": {
+        "assets/img/sprites/gender_paw/gender_paw_genderfluid_vertical_3.png": {
             "flag_name": "Genderfluid",
-            "part": "center",
+            "part": "right_part_2",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/genderfluid/genderfluid.png",
-            "mask_key": "_vertical_4",
-            "flags_fits": true,
+            "mask_key": "_vertical_3",
+            "flags_fits": false,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_4.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_3.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -1497,14 +1679,71 @@
                 "w": 22,
                 "h": 22
             },
+            "id": "assets/img/sprites/gender_paw/gender_paw_genderfluid_vertical_3.png",
+            "filename": "assets/img/sprites/gender_paw/gender_paw_genderfluid_vertical_3.png"
+        },
+        "assets/img/sprites/gender_paw/gender_paw_genderfluid_vertical_4.png": {
+            "flag_name": "Genderfluid",
+            "part": "center",
+            "orientation": "vertical",
+            "mask_key": "_vertical_4",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 220,
+                "y": 330,
+                "w": 22,
+                "h": 22
+            },
             "id": "assets/img/sprites/gender_paw/gender_paw_genderfluid_vertical_4.png",
             "filename": "assets/img/sprites/gender_paw/gender_paw_genderfluid_vertical_4.png"
+        },
+        "assets/img/sprites/gender_paw/gender_paw_genderfluid_vertical_5.png": {
+            "flag_name": "Genderfluid",
+            "part": "whole",
+            "orientation": "vertical",
+            "mask_key": "_vertical_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 242,
+                "y": 330,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/gender_paw/gender_paw_genderfluid_vertical_5.png",
+            "filename": "assets/img/sprites/gender_paw/gender_paw_genderfluid_vertical_5.png"
         },
         "assets/img/sprites/gender_paw/gender_paw_non_binary_horizontal_0.png": {
             "flag_name": "Non-Binary",
             "part": "left_part_1",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/non_binary/non_binary.png",
             "mask_key": "_horizontal_0",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -1534,7 +1773,6 @@
             "flag_name": "Non-Binary",
             "part": "left_part_2",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/non_binary/non_binary.png",
             "mask_key": "_horizontal_1",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -1564,7 +1802,6 @@
             "flag_name": "Non-Binary",
             "part": "right_part_1",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/non_binary/non_binary.png",
             "mask_key": "_horizontal_2",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -1594,7 +1831,6 @@
             "flag_name": "Non-Binary",
             "part": "right_part_2",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/non_binary/non_binary.png",
             "mask_key": "_horizontal_3",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -1624,7 +1860,6 @@
             "flag_name": "Non-Binary",
             "part": "center",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/non_binary/non_binary.png",
             "mask_key": "_horizontal_4",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -1650,15 +1885,14 @@
             "id": "assets/img/sprites/gender_paw/gender_paw_non_binary_horizontal_4.png",
             "filename": "assets/img/sprites/gender_paw/gender_paw_non_binary_horizontal_4.png"
         },
-        "assets/img/sprites/gender_paw/gender_paw_non_binary_vertical_0.png": {
+        "assets/img/sprites/gender_paw/gender_paw_non_binary_horizontal_5.png": {
             "flag_name": "Non-Binary",
-            "part": "left_part_1",
-            "orientation": "vertical",
-            "flag_filename": "assets/img/flags/non_binary/non_binary.png",
-            "mask_key": "_vertical_0",
+            "part": "whole",
+            "orientation": "horizontal",
+            "mask_key": "_horizontal_5",
             "flags_fits": true,
-            "flags_fits_perfect": true,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png",
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_5.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -1677,18 +1911,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/gender_paw/gender_paw_non_binary_vertical_0.png",
-            "filename": "assets/img/sprites/gender_paw/gender_paw_non_binary_vertical_0.png"
+            "id": "assets/img/sprites/gender_paw/gender_paw_non_binary_horizontal_5.png",
+            "filename": "assets/img/sprites/gender_paw/gender_paw_non_binary_horizontal_5.png"
         },
-        "assets/img/sprites/gender_paw/gender_paw_non_binary_vertical_1.png": {
+        "assets/img/sprites/gender_paw/gender_paw_non_binary_vertical_0.png": {
             "flag_name": "Non-Binary",
-            "part": "left_part_2",
+            "part": "left_part_1",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/non_binary/non_binary.png",
-            "mask_key": "_vertical_1",
+            "mask_key": "_vertical_0",
             "flags_fits": true,
             "flags_fits_perfect": true,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_1.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -1707,18 +1940,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/gender_paw/gender_paw_non_binary_vertical_1.png",
-            "filename": "assets/img/sprites/gender_paw/gender_paw_non_binary_vertical_1.png"
+            "id": "assets/img/sprites/gender_paw/gender_paw_non_binary_vertical_0.png",
+            "filename": "assets/img/sprites/gender_paw/gender_paw_non_binary_vertical_0.png"
         },
-        "assets/img/sprites/gender_paw/gender_paw_non_binary_vertical_2.png": {
+        "assets/img/sprites/gender_paw/gender_paw_non_binary_vertical_1.png": {
             "flag_name": "Non-Binary",
-            "part": "right_part_1",
+            "part": "left_part_2",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/non_binary/non_binary.png",
-            "mask_key": "_vertical_2",
+            "mask_key": "_vertical_1",
             "flags_fits": true,
             "flags_fits_perfect": true,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_2.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_1.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -1737,18 +1969,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/gender_paw/gender_paw_non_binary_vertical_2.png",
-            "filename": "assets/img/sprites/gender_paw/gender_paw_non_binary_vertical_2.png"
+            "id": "assets/img/sprites/gender_paw/gender_paw_non_binary_vertical_1.png",
+            "filename": "assets/img/sprites/gender_paw/gender_paw_non_binary_vertical_1.png"
         },
-        "assets/img/sprites/gender_paw/gender_paw_non_binary_vertical_3.png": {
+        "assets/img/sprites/gender_paw/gender_paw_non_binary_vertical_2.png": {
             "flag_name": "Non-Binary",
-            "part": "right_part_2",
+            "part": "right_part_1",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/non_binary/non_binary.png",
-            "mask_key": "_vertical_3",
+            "mask_key": "_vertical_2",
             "flags_fits": true,
             "flags_fits_perfect": true,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_3.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_2.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -1767,18 +1998,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/gender_paw/gender_paw_non_binary_vertical_3.png",
-            "filename": "assets/img/sprites/gender_paw/gender_paw_non_binary_vertical_3.png"
+            "id": "assets/img/sprites/gender_paw/gender_paw_non_binary_vertical_2.png",
+            "filename": "assets/img/sprites/gender_paw/gender_paw_non_binary_vertical_2.png"
         },
-        "assets/img/sprites/gender_paw/gender_paw_non_binary_vertical_4.png": {
+        "assets/img/sprites/gender_paw/gender_paw_non_binary_vertical_3.png": {
             "flag_name": "Non-Binary",
-            "part": "center",
+            "part": "right_part_2",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/non_binary/non_binary.png",
-            "mask_key": "_vertical_4",
+            "mask_key": "_vertical_3",
             "flags_fits": true,
-            "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_4.png",
+            "flags_fits_perfect": true,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_3.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -1797,14 +2027,71 @@
                 "w": 22,
                 "h": 22
             },
+            "id": "assets/img/sprites/gender_paw/gender_paw_non_binary_vertical_3.png",
+            "filename": "assets/img/sprites/gender_paw/gender_paw_non_binary_vertical_3.png"
+        },
+        "assets/img/sprites/gender_paw/gender_paw_non_binary_vertical_4.png": {
+            "flag_name": "Non-Binary",
+            "part": "center",
+            "orientation": "vertical",
+            "mask_key": "_vertical_4",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 220,
+                "y": 110,
+                "w": 22,
+                "h": 22
+            },
             "id": "assets/img/sprites/gender_paw/gender_paw_non_binary_vertical_4.png",
             "filename": "assets/img/sprites/gender_paw/gender_paw_non_binary_vertical_4.png"
+        },
+        "assets/img/sprites/gender_paw/gender_paw_non_binary_vertical_5.png": {
+            "flag_name": "Non-Binary",
+            "part": "whole",
+            "orientation": "vertical",
+            "mask_key": "_vertical_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 242,
+                "y": 110,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/gender_paw/gender_paw_non_binary_vertical_5.png",
+            "filename": "assets/img/sprites/gender_paw/gender_paw_non_binary_vertical_5.png"
         },
         "assets/img/sprites/gender_paw/gender_paw_demigender_horizontal_0.png": {
             "flag_name": "Demigender",
             "part": "left_part_1",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/demigender/demigender.png",
             "mask_key": "_horizontal_0",
             "flags_fits": false,
             "flags_fits_perfect": false,
@@ -1834,7 +2121,6 @@
             "flag_name": "Demigender",
             "part": "left_part_2",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/demigender/demigender.png",
             "mask_key": "_horizontal_1",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -1864,7 +2150,6 @@
             "flag_name": "Demigender",
             "part": "right_part_1",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/demigender/demigender.png",
             "mask_key": "_horizontal_2",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -1894,7 +2179,6 @@
             "flag_name": "Demigender",
             "part": "right_part_2",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/demigender/demigender.png",
             "mask_key": "_horizontal_3",
             "flags_fits": false,
             "flags_fits_perfect": false,
@@ -1924,7 +2208,6 @@
             "flag_name": "Demigender",
             "part": "center",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/demigender/demigender.png",
             "mask_key": "_horizontal_4",
             "flags_fits": true,
             "flags_fits_perfect": true,
@@ -1950,15 +2233,14 @@
             "id": "assets/img/sprites/gender_paw/gender_paw_demigender_horizontal_4.png",
             "filename": "assets/img/sprites/gender_paw/gender_paw_demigender_horizontal_4.png"
         },
-        "assets/img/sprites/gender_paw/gender_paw_demigender_vertical_0.png": {
+        "assets/img/sprites/gender_paw/gender_paw_demigender_horizontal_5.png": {
             "flag_name": "Demigender",
-            "part": "left_part_1",
-            "orientation": "vertical",
-            "flag_filename": "assets/img/flags/demigender/demigender.png",
-            "mask_key": "_vertical_0",
-            "flags_fits": false,
+            "part": "whole",
+            "orientation": "horizontal",
+            "mask_key": "_horizontal_5",
+            "flags_fits": true,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_5.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -1977,18 +2259,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/gender_paw/gender_paw_demigender_vertical_0.png",
-            "filename": "assets/img/sprites/gender_paw/gender_paw_demigender_vertical_0.png"
+            "id": "assets/img/sprites/gender_paw/gender_paw_demigender_horizontal_5.png",
+            "filename": "assets/img/sprites/gender_paw/gender_paw_demigender_horizontal_5.png"
         },
-        "assets/img/sprites/gender_paw/gender_paw_demigender_vertical_1.png": {
+        "assets/img/sprites/gender_paw/gender_paw_demigender_vertical_0.png": {
             "flag_name": "Demigender",
-            "part": "left_part_2",
+            "part": "left_part_1",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/demigender/demigender.png",
-            "mask_key": "_vertical_1",
+            "mask_key": "_vertical_0",
             "flags_fits": false,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_1.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -2007,18 +2288,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/gender_paw/gender_paw_demigender_vertical_1.png",
-            "filename": "assets/img/sprites/gender_paw/gender_paw_demigender_vertical_1.png"
+            "id": "assets/img/sprites/gender_paw/gender_paw_demigender_vertical_0.png",
+            "filename": "assets/img/sprites/gender_paw/gender_paw_demigender_vertical_0.png"
         },
-        "assets/img/sprites/gender_paw/gender_paw_demigender_vertical_2.png": {
+        "assets/img/sprites/gender_paw/gender_paw_demigender_vertical_1.png": {
             "flag_name": "Demigender",
-            "part": "right_part_1",
+            "part": "left_part_2",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/demigender/demigender.png",
-            "mask_key": "_vertical_2",
+            "mask_key": "_vertical_1",
             "flags_fits": false,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_2.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_1.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -2037,18 +2317,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/gender_paw/gender_paw_demigender_vertical_2.png",
-            "filename": "assets/img/sprites/gender_paw/gender_paw_demigender_vertical_2.png"
+            "id": "assets/img/sprites/gender_paw/gender_paw_demigender_vertical_1.png",
+            "filename": "assets/img/sprites/gender_paw/gender_paw_demigender_vertical_1.png"
         },
-        "assets/img/sprites/gender_paw/gender_paw_demigender_vertical_3.png": {
+        "assets/img/sprites/gender_paw/gender_paw_demigender_vertical_2.png": {
             "flag_name": "Demigender",
-            "part": "right_part_2",
+            "part": "right_part_1",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/demigender/demigender.png",
-            "mask_key": "_vertical_3",
+            "mask_key": "_vertical_2",
             "flags_fits": false,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_3.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_2.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -2067,18 +2346,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/gender_paw/gender_paw_demigender_vertical_3.png",
-            "filename": "assets/img/sprites/gender_paw/gender_paw_demigender_vertical_3.png"
+            "id": "assets/img/sprites/gender_paw/gender_paw_demigender_vertical_2.png",
+            "filename": "assets/img/sprites/gender_paw/gender_paw_demigender_vertical_2.png"
         },
-        "assets/img/sprites/gender_paw/gender_paw_demigender_vertical_4.png": {
+        "assets/img/sprites/gender_paw/gender_paw_demigender_vertical_3.png": {
             "flag_name": "Demigender",
-            "part": "center",
+            "part": "right_part_2",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/demigender/demigender.png",
-            "mask_key": "_vertical_4",
-            "flags_fits": true,
+            "mask_key": "_vertical_3",
+            "flags_fits": false,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_4.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_3.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -2097,14 +2375,71 @@
                 "w": 22,
                 "h": 22
             },
+            "id": "assets/img/sprites/gender_paw/gender_paw_demigender_vertical_3.png",
+            "filename": "assets/img/sprites/gender_paw/gender_paw_demigender_vertical_3.png"
+        },
+        "assets/img/sprites/gender_paw/gender_paw_demigender_vertical_4.png": {
+            "flag_name": "Demigender",
+            "part": "center",
+            "orientation": "vertical",
+            "mask_key": "_vertical_4",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 220,
+                "y": 132,
+                "w": 22,
+                "h": 22
+            },
             "id": "assets/img/sprites/gender_paw/gender_paw_demigender_vertical_4.png",
             "filename": "assets/img/sprites/gender_paw/gender_paw_demigender_vertical_4.png"
+        },
+        "assets/img/sprites/gender_paw/gender_paw_demigender_vertical_5.png": {
+            "flag_name": "Demigender",
+            "part": "whole",
+            "orientation": "vertical",
+            "mask_key": "_vertical_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 242,
+                "y": 132,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/gender_paw/gender_paw_demigender_vertical_5.png",
+            "filename": "assets/img/sprites/gender_paw/gender_paw_demigender_vertical_5.png"
         },
         "assets/img/sprites/gender_paw/gender_paw_demiboy_horizontal_0.png": {
             "flag_name": "Demiboy",
             "part": "left_part_1",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/demiboy/demiboy.png",
             "mask_key": "_horizontal_0",
             "flags_fits": false,
             "flags_fits_perfect": false,
@@ -2134,7 +2469,6 @@
             "flag_name": "Demiboy",
             "part": "left_part_2",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/demiboy/demiboy.png",
             "mask_key": "_horizontal_1",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -2164,7 +2498,6 @@
             "flag_name": "Demiboy",
             "part": "right_part_1",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/demiboy/demiboy.png",
             "mask_key": "_horizontal_2",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -2194,7 +2527,6 @@
             "flag_name": "Demiboy",
             "part": "right_part_2",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/demiboy/demiboy.png",
             "mask_key": "_horizontal_3",
             "flags_fits": false,
             "flags_fits_perfect": false,
@@ -2224,7 +2556,6 @@
             "flag_name": "Demiboy",
             "part": "center",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/demiboy/demiboy.png",
             "mask_key": "_horizontal_4",
             "flags_fits": true,
             "flags_fits_perfect": true,
@@ -2250,15 +2581,14 @@
             "id": "assets/img/sprites/gender_paw/gender_paw_demiboy_horizontal_4.png",
             "filename": "assets/img/sprites/gender_paw/gender_paw_demiboy_horizontal_4.png"
         },
-        "assets/img/sprites/gender_paw/gender_paw_demiboy_vertical_0.png": {
+        "assets/img/sprites/gender_paw/gender_paw_demiboy_horizontal_5.png": {
             "flag_name": "Demiboy",
-            "part": "left_part_1",
-            "orientation": "vertical",
-            "flag_filename": "assets/img/flags/demiboy/demiboy.png",
-            "mask_key": "_vertical_0",
-            "flags_fits": false,
+            "part": "whole",
+            "orientation": "horizontal",
+            "mask_key": "_horizontal_5",
+            "flags_fits": true,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_5.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -2277,18 +2607,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/gender_paw/gender_paw_demiboy_vertical_0.png",
-            "filename": "assets/img/sprites/gender_paw/gender_paw_demiboy_vertical_0.png"
+            "id": "assets/img/sprites/gender_paw/gender_paw_demiboy_horizontal_5.png",
+            "filename": "assets/img/sprites/gender_paw/gender_paw_demiboy_horizontal_5.png"
         },
-        "assets/img/sprites/gender_paw/gender_paw_demiboy_vertical_1.png": {
+        "assets/img/sprites/gender_paw/gender_paw_demiboy_vertical_0.png": {
             "flag_name": "Demiboy",
-            "part": "left_part_2",
+            "part": "left_part_1",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/demiboy/demiboy.png",
-            "mask_key": "_vertical_1",
+            "mask_key": "_vertical_0",
             "flags_fits": false,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_1.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -2307,18 +2636,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/gender_paw/gender_paw_demiboy_vertical_1.png",
-            "filename": "assets/img/sprites/gender_paw/gender_paw_demiboy_vertical_1.png"
+            "id": "assets/img/sprites/gender_paw/gender_paw_demiboy_vertical_0.png",
+            "filename": "assets/img/sprites/gender_paw/gender_paw_demiboy_vertical_0.png"
         },
-        "assets/img/sprites/gender_paw/gender_paw_demiboy_vertical_2.png": {
+        "assets/img/sprites/gender_paw/gender_paw_demiboy_vertical_1.png": {
             "flag_name": "Demiboy",
-            "part": "right_part_1",
+            "part": "left_part_2",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/demiboy/demiboy.png",
-            "mask_key": "_vertical_2",
+            "mask_key": "_vertical_1",
             "flags_fits": false,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_2.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_1.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -2337,18 +2665,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/gender_paw/gender_paw_demiboy_vertical_2.png",
-            "filename": "assets/img/sprites/gender_paw/gender_paw_demiboy_vertical_2.png"
+            "id": "assets/img/sprites/gender_paw/gender_paw_demiboy_vertical_1.png",
+            "filename": "assets/img/sprites/gender_paw/gender_paw_demiboy_vertical_1.png"
         },
-        "assets/img/sprites/gender_paw/gender_paw_demiboy_vertical_3.png": {
+        "assets/img/sprites/gender_paw/gender_paw_demiboy_vertical_2.png": {
             "flag_name": "Demiboy",
-            "part": "right_part_2",
+            "part": "right_part_1",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/demiboy/demiboy.png",
-            "mask_key": "_vertical_3",
+            "mask_key": "_vertical_2",
             "flags_fits": false,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_3.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_2.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -2367,18 +2694,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/gender_paw/gender_paw_demiboy_vertical_3.png",
-            "filename": "assets/img/sprites/gender_paw/gender_paw_demiboy_vertical_3.png"
+            "id": "assets/img/sprites/gender_paw/gender_paw_demiboy_vertical_2.png",
+            "filename": "assets/img/sprites/gender_paw/gender_paw_demiboy_vertical_2.png"
         },
-        "assets/img/sprites/gender_paw/gender_paw_demiboy_vertical_4.png": {
+        "assets/img/sprites/gender_paw/gender_paw_demiboy_vertical_3.png": {
             "flag_name": "Demiboy",
-            "part": "center",
+            "part": "right_part_2",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/demiboy/demiboy.png",
-            "mask_key": "_vertical_4",
-            "flags_fits": true,
+            "mask_key": "_vertical_3",
+            "flags_fits": false,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_4.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_3.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -2397,14 +2723,71 @@
                 "w": 22,
                 "h": 22
             },
+            "id": "assets/img/sprites/gender_paw/gender_paw_demiboy_vertical_3.png",
+            "filename": "assets/img/sprites/gender_paw/gender_paw_demiboy_vertical_3.png"
+        },
+        "assets/img/sprites/gender_paw/gender_paw_demiboy_vertical_4.png": {
+            "flag_name": "Demiboy",
+            "part": "center",
+            "orientation": "vertical",
+            "mask_key": "_vertical_4",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 220,
+                "y": 154,
+                "w": 22,
+                "h": 22
+            },
             "id": "assets/img/sprites/gender_paw/gender_paw_demiboy_vertical_4.png",
             "filename": "assets/img/sprites/gender_paw/gender_paw_demiboy_vertical_4.png"
+        },
+        "assets/img/sprites/gender_paw/gender_paw_demiboy_vertical_5.png": {
+            "flag_name": "Demiboy",
+            "part": "whole",
+            "orientation": "vertical",
+            "mask_key": "_vertical_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 242,
+                "y": 154,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/gender_paw/gender_paw_demiboy_vertical_5.png",
+            "filename": "assets/img/sprites/gender_paw/gender_paw_demiboy_vertical_5.png"
         },
         "assets/img/sprites/gender_paw/gender_paw_demigirl_horizontal_0.png": {
             "flag_name": "Demigirl",
             "part": "left_part_1",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/demigirl/demigirl.png",
             "mask_key": "_horizontal_0",
             "flags_fits": false,
             "flags_fits_perfect": false,
@@ -2434,7 +2817,6 @@
             "flag_name": "Demigirl",
             "part": "left_part_2",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/demigirl/demigirl.png",
             "mask_key": "_horizontal_1",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -2464,7 +2846,6 @@
             "flag_name": "Demigirl",
             "part": "right_part_1",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/demigirl/demigirl.png",
             "mask_key": "_horizontal_2",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -2494,7 +2875,6 @@
             "flag_name": "Demigirl",
             "part": "right_part_2",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/demigirl/demigirl.png",
             "mask_key": "_horizontal_3",
             "flags_fits": false,
             "flags_fits_perfect": false,
@@ -2524,7 +2904,6 @@
             "flag_name": "Demigirl",
             "part": "center",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/demigirl/demigirl.png",
             "mask_key": "_horizontal_4",
             "flags_fits": true,
             "flags_fits_perfect": true,
@@ -2550,15 +2929,14 @@
             "id": "assets/img/sprites/gender_paw/gender_paw_demigirl_horizontal_4.png",
             "filename": "assets/img/sprites/gender_paw/gender_paw_demigirl_horizontal_4.png"
         },
-        "assets/img/sprites/gender_paw/gender_paw_demigirl_vertical_0.png": {
+        "assets/img/sprites/gender_paw/gender_paw_demigirl_horizontal_5.png": {
             "flag_name": "Demigirl",
-            "part": "left_part_1",
-            "orientation": "vertical",
-            "flag_filename": "assets/img/flags/demigirl/demigirl.png",
-            "mask_key": "_vertical_0",
-            "flags_fits": false,
+            "part": "whole",
+            "orientation": "horizontal",
+            "mask_key": "_horizontal_5",
+            "flags_fits": true,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_5.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -2577,18 +2955,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/gender_paw/gender_paw_demigirl_vertical_0.png",
-            "filename": "assets/img/sprites/gender_paw/gender_paw_demigirl_vertical_0.png"
+            "id": "assets/img/sprites/gender_paw/gender_paw_demigirl_horizontal_5.png",
+            "filename": "assets/img/sprites/gender_paw/gender_paw_demigirl_horizontal_5.png"
         },
-        "assets/img/sprites/gender_paw/gender_paw_demigirl_vertical_1.png": {
+        "assets/img/sprites/gender_paw/gender_paw_demigirl_vertical_0.png": {
             "flag_name": "Demigirl",
-            "part": "left_part_2",
+            "part": "left_part_1",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/demigirl/demigirl.png",
-            "mask_key": "_vertical_1",
+            "mask_key": "_vertical_0",
             "flags_fits": false,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_1.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -2607,18 +2984,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/gender_paw/gender_paw_demigirl_vertical_1.png",
-            "filename": "assets/img/sprites/gender_paw/gender_paw_demigirl_vertical_1.png"
+            "id": "assets/img/sprites/gender_paw/gender_paw_demigirl_vertical_0.png",
+            "filename": "assets/img/sprites/gender_paw/gender_paw_demigirl_vertical_0.png"
         },
-        "assets/img/sprites/gender_paw/gender_paw_demigirl_vertical_2.png": {
+        "assets/img/sprites/gender_paw/gender_paw_demigirl_vertical_1.png": {
             "flag_name": "Demigirl",
-            "part": "right_part_1",
+            "part": "left_part_2",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/demigirl/demigirl.png",
-            "mask_key": "_vertical_2",
+            "mask_key": "_vertical_1",
             "flags_fits": false,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_2.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_1.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -2637,18 +3013,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/gender_paw/gender_paw_demigirl_vertical_2.png",
-            "filename": "assets/img/sprites/gender_paw/gender_paw_demigirl_vertical_2.png"
+            "id": "assets/img/sprites/gender_paw/gender_paw_demigirl_vertical_1.png",
+            "filename": "assets/img/sprites/gender_paw/gender_paw_demigirl_vertical_1.png"
         },
-        "assets/img/sprites/gender_paw/gender_paw_demigirl_vertical_3.png": {
+        "assets/img/sprites/gender_paw/gender_paw_demigirl_vertical_2.png": {
             "flag_name": "Demigirl",
-            "part": "right_part_2",
+            "part": "right_part_1",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/demigirl/demigirl.png",
-            "mask_key": "_vertical_3",
+            "mask_key": "_vertical_2",
             "flags_fits": false,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_3.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_2.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -2667,18 +3042,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/gender_paw/gender_paw_demigirl_vertical_3.png",
-            "filename": "assets/img/sprites/gender_paw/gender_paw_demigirl_vertical_3.png"
+            "id": "assets/img/sprites/gender_paw/gender_paw_demigirl_vertical_2.png",
+            "filename": "assets/img/sprites/gender_paw/gender_paw_demigirl_vertical_2.png"
         },
-        "assets/img/sprites/gender_paw/gender_paw_demigirl_vertical_4.png": {
+        "assets/img/sprites/gender_paw/gender_paw_demigirl_vertical_3.png": {
             "flag_name": "Demigirl",
-            "part": "center",
+            "part": "right_part_2",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/demigirl/demigirl.png",
-            "mask_key": "_vertical_4",
-            "flags_fits": true,
+            "mask_key": "_vertical_3",
+            "flags_fits": false,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_4.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_3.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -2697,14 +3071,71 @@
                 "w": 22,
                 "h": 22
             },
+            "id": "assets/img/sprites/gender_paw/gender_paw_demigirl_vertical_3.png",
+            "filename": "assets/img/sprites/gender_paw/gender_paw_demigirl_vertical_3.png"
+        },
+        "assets/img/sprites/gender_paw/gender_paw_demigirl_vertical_4.png": {
+            "flag_name": "Demigirl",
+            "part": "center",
+            "orientation": "vertical",
+            "mask_key": "_vertical_4",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 220,
+                "y": 176,
+                "w": 22,
+                "h": 22
+            },
             "id": "assets/img/sprites/gender_paw/gender_paw_demigirl_vertical_4.png",
             "filename": "assets/img/sprites/gender_paw/gender_paw_demigirl_vertical_4.png"
+        },
+        "assets/img/sprites/gender_paw/gender_paw_demigirl_vertical_5.png": {
+            "flag_name": "Demigirl",
+            "part": "whole",
+            "orientation": "vertical",
+            "mask_key": "_vertical_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 242,
+                "y": 176,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/gender_paw/gender_paw_demigirl_vertical_5.png",
+            "filename": "assets/img/sprites/gender_paw/gender_paw_demigirl_vertical_5.png"
         },
         "assets/img/sprites/gender_paw/gender_paw_demiflux_horizontal_0.png": {
             "flag_name": "Demiflux",
             "part": "left_part_1",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/demiflux/demiflux.png",
             "mask_key": "_horizontal_0",
             "flags_fits": false,
             "flags_fits_perfect": false,
@@ -2734,7 +3165,6 @@
             "flag_name": "Demiflux",
             "part": "left_part_2",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/demiflux/demiflux.png",
             "mask_key": "_horizontal_1",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -2764,7 +3194,6 @@
             "flag_name": "Demiflux",
             "part": "right_part_1",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/demiflux/demiflux.png",
             "mask_key": "_horizontal_2",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -2794,7 +3223,6 @@
             "flag_name": "Demiflux",
             "part": "right_part_2",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/demiflux/demiflux.png",
             "mask_key": "_horizontal_3",
             "flags_fits": false,
             "flags_fits_perfect": false,
@@ -2824,7 +3252,6 @@
             "flag_name": "Demiflux",
             "part": "center",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/demiflux/demiflux.png",
             "mask_key": "_horizontal_4",
             "flags_fits": true,
             "flags_fits_perfect": true,
@@ -2850,15 +3277,14 @@
             "id": "assets/img/sprites/gender_paw/gender_paw_demiflux_horizontal_4.png",
             "filename": "assets/img/sprites/gender_paw/gender_paw_demiflux_horizontal_4.png"
         },
-        "assets/img/sprites/gender_paw/gender_paw_demiflux_vertical_0.png": {
+        "assets/img/sprites/gender_paw/gender_paw_demiflux_horizontal_5.png": {
             "flag_name": "Demiflux",
-            "part": "left_part_1",
-            "orientation": "vertical",
-            "flag_filename": "assets/img/flags/demiflux/demiflux.png",
-            "mask_key": "_vertical_0",
-            "flags_fits": false,
+            "part": "whole",
+            "orientation": "horizontal",
+            "mask_key": "_horizontal_5",
+            "flags_fits": true,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_5.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -2877,18 +3303,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/gender_paw/gender_paw_demiflux_vertical_0.png",
-            "filename": "assets/img/sprites/gender_paw/gender_paw_demiflux_vertical_0.png"
+            "id": "assets/img/sprites/gender_paw/gender_paw_demiflux_horizontal_5.png",
+            "filename": "assets/img/sprites/gender_paw/gender_paw_demiflux_horizontal_5.png"
         },
-        "assets/img/sprites/gender_paw/gender_paw_demiflux_vertical_1.png": {
+        "assets/img/sprites/gender_paw/gender_paw_demiflux_vertical_0.png": {
             "flag_name": "Demiflux",
-            "part": "left_part_2",
+            "part": "left_part_1",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/demiflux/demiflux.png",
-            "mask_key": "_vertical_1",
+            "mask_key": "_vertical_0",
             "flags_fits": false,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_1.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -2907,18 +3332,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/gender_paw/gender_paw_demiflux_vertical_1.png",
-            "filename": "assets/img/sprites/gender_paw/gender_paw_demiflux_vertical_1.png"
+            "id": "assets/img/sprites/gender_paw/gender_paw_demiflux_vertical_0.png",
+            "filename": "assets/img/sprites/gender_paw/gender_paw_demiflux_vertical_0.png"
         },
-        "assets/img/sprites/gender_paw/gender_paw_demiflux_vertical_2.png": {
+        "assets/img/sprites/gender_paw/gender_paw_demiflux_vertical_1.png": {
             "flag_name": "Demiflux",
-            "part": "right_part_1",
+            "part": "left_part_2",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/demiflux/demiflux.png",
-            "mask_key": "_vertical_2",
+            "mask_key": "_vertical_1",
             "flags_fits": false,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_2.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_1.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -2937,18 +3361,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/gender_paw/gender_paw_demiflux_vertical_2.png",
-            "filename": "assets/img/sprites/gender_paw/gender_paw_demiflux_vertical_2.png"
+            "id": "assets/img/sprites/gender_paw/gender_paw_demiflux_vertical_1.png",
+            "filename": "assets/img/sprites/gender_paw/gender_paw_demiflux_vertical_1.png"
         },
-        "assets/img/sprites/gender_paw/gender_paw_demiflux_vertical_3.png": {
+        "assets/img/sprites/gender_paw/gender_paw_demiflux_vertical_2.png": {
             "flag_name": "Demiflux",
-            "part": "right_part_2",
+            "part": "right_part_1",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/demiflux/demiflux.png",
-            "mask_key": "_vertical_3",
+            "mask_key": "_vertical_2",
             "flags_fits": false,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_3.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_2.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -2967,18 +3390,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/gender_paw/gender_paw_demiflux_vertical_3.png",
-            "filename": "assets/img/sprites/gender_paw/gender_paw_demiflux_vertical_3.png"
+            "id": "assets/img/sprites/gender_paw/gender_paw_demiflux_vertical_2.png",
+            "filename": "assets/img/sprites/gender_paw/gender_paw_demiflux_vertical_2.png"
         },
-        "assets/img/sprites/gender_paw/gender_paw_demiflux_vertical_4.png": {
+        "assets/img/sprites/gender_paw/gender_paw_demiflux_vertical_3.png": {
             "flag_name": "Demiflux",
-            "part": "center",
+            "part": "right_part_2",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/demiflux/demiflux.png",
-            "mask_key": "_vertical_4",
-            "flags_fits": true,
+            "mask_key": "_vertical_3",
+            "flags_fits": false,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_4.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_3.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -2997,14 +3419,71 @@
                 "w": 22,
                 "h": 22
             },
+            "id": "assets/img/sprites/gender_paw/gender_paw_demiflux_vertical_3.png",
+            "filename": "assets/img/sprites/gender_paw/gender_paw_demiflux_vertical_3.png"
+        },
+        "assets/img/sprites/gender_paw/gender_paw_demiflux_vertical_4.png": {
+            "flag_name": "Demiflux",
+            "part": "center",
+            "orientation": "vertical",
+            "mask_key": "_vertical_4",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 220,
+                "y": 198,
+                "w": 22,
+                "h": 22
+            },
             "id": "assets/img/sprites/gender_paw/gender_paw_demiflux_vertical_4.png",
             "filename": "assets/img/sprites/gender_paw/gender_paw_demiflux_vertical_4.png"
+        },
+        "assets/img/sprites/gender_paw/gender_paw_demiflux_vertical_5.png": {
+            "flag_name": "Demiflux",
+            "part": "whole",
+            "orientation": "vertical",
+            "mask_key": "_vertical_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 242,
+                "y": 198,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/gender_paw/gender_paw_demiflux_vertical_5.png",
+            "filename": "assets/img/sprites/gender_paw/gender_paw_demiflux_vertical_5.png"
         },
         "assets/img/sprites/gender_paw/gender_paw_neutrois_horizontal_0.png": {
             "flag_name": "Neutrois",
             "part": "left_part_1",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/neutrois/neutrois.png",
             "mask_key": "_horizontal_0",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -3034,7 +3513,6 @@
             "flag_name": "Neutrois",
             "part": "left_part_2",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/neutrois/neutrois.png",
             "mask_key": "_horizontal_1",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -3064,7 +3542,6 @@
             "flag_name": "Neutrois",
             "part": "right_part_1",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/neutrois/neutrois.png",
             "mask_key": "_horizontal_2",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -3094,7 +3571,6 @@
             "flag_name": "Neutrois",
             "part": "right_part_2",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/neutrois/neutrois.png",
             "mask_key": "_horizontal_3",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -3124,7 +3600,6 @@
             "flag_name": "Neutrois",
             "part": "center",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/neutrois/neutrois.png",
             "mask_key": "_horizontal_4",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -3150,15 +3625,14 @@
             "id": "assets/img/sprites/gender_paw/gender_paw_neutrois_horizontal_4.png",
             "filename": "assets/img/sprites/gender_paw/gender_paw_neutrois_horizontal_4.png"
         },
-        "assets/img/sprites/gender_paw/gender_paw_neutrois_vertical_0.png": {
+        "assets/img/sprites/gender_paw/gender_paw_neutrois_horizontal_5.png": {
             "flag_name": "Neutrois",
-            "part": "left_part_1",
-            "orientation": "vertical",
-            "flag_filename": "assets/img/flags/neutrois/neutrois.png",
-            "mask_key": "_vertical_0",
+            "part": "whole",
+            "orientation": "horizontal",
+            "mask_key": "_horizontal_5",
             "flags_fits": true,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_5.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -3177,18 +3651,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/gender_paw/gender_paw_neutrois_vertical_0.png",
-            "filename": "assets/img/sprites/gender_paw/gender_paw_neutrois_vertical_0.png"
+            "id": "assets/img/sprites/gender_paw/gender_paw_neutrois_horizontal_5.png",
+            "filename": "assets/img/sprites/gender_paw/gender_paw_neutrois_horizontal_5.png"
         },
-        "assets/img/sprites/gender_paw/gender_paw_neutrois_vertical_1.png": {
+        "assets/img/sprites/gender_paw/gender_paw_neutrois_vertical_0.png": {
             "flag_name": "Neutrois",
-            "part": "left_part_2",
+            "part": "left_part_1",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/neutrois/neutrois.png",
-            "mask_key": "_vertical_1",
+            "mask_key": "_vertical_0",
             "flags_fits": true,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_1.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -3207,18 +3680,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/gender_paw/gender_paw_neutrois_vertical_1.png",
-            "filename": "assets/img/sprites/gender_paw/gender_paw_neutrois_vertical_1.png"
+            "id": "assets/img/sprites/gender_paw/gender_paw_neutrois_vertical_0.png",
+            "filename": "assets/img/sprites/gender_paw/gender_paw_neutrois_vertical_0.png"
         },
-        "assets/img/sprites/gender_paw/gender_paw_neutrois_vertical_2.png": {
+        "assets/img/sprites/gender_paw/gender_paw_neutrois_vertical_1.png": {
             "flag_name": "Neutrois",
-            "part": "right_part_1",
+            "part": "left_part_2",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/neutrois/neutrois.png",
-            "mask_key": "_vertical_2",
+            "mask_key": "_vertical_1",
             "flags_fits": true,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_2.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_1.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -3237,18 +3709,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/gender_paw/gender_paw_neutrois_vertical_2.png",
-            "filename": "assets/img/sprites/gender_paw/gender_paw_neutrois_vertical_2.png"
+            "id": "assets/img/sprites/gender_paw/gender_paw_neutrois_vertical_1.png",
+            "filename": "assets/img/sprites/gender_paw/gender_paw_neutrois_vertical_1.png"
         },
-        "assets/img/sprites/gender_paw/gender_paw_neutrois_vertical_3.png": {
+        "assets/img/sprites/gender_paw/gender_paw_neutrois_vertical_2.png": {
             "flag_name": "Neutrois",
-            "part": "right_part_2",
+            "part": "right_part_1",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/neutrois/neutrois.png",
-            "mask_key": "_vertical_3",
+            "mask_key": "_vertical_2",
             "flags_fits": true,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_3.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_2.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -3267,18 +3738,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/gender_paw/gender_paw_neutrois_vertical_3.png",
-            "filename": "assets/img/sprites/gender_paw/gender_paw_neutrois_vertical_3.png"
+            "id": "assets/img/sprites/gender_paw/gender_paw_neutrois_vertical_2.png",
+            "filename": "assets/img/sprites/gender_paw/gender_paw_neutrois_vertical_2.png"
         },
-        "assets/img/sprites/gender_paw/gender_paw_neutrois_vertical_4.png": {
+        "assets/img/sprites/gender_paw/gender_paw_neutrois_vertical_3.png": {
             "flag_name": "Neutrois",
-            "part": "center",
+            "part": "right_part_2",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/neutrois/neutrois.png",
-            "mask_key": "_vertical_4",
+            "mask_key": "_vertical_3",
             "flags_fits": true,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_4.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_3.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -3297,14 +3767,71 @@
                 "w": 22,
                 "h": 22
             },
+            "id": "assets/img/sprites/gender_paw/gender_paw_neutrois_vertical_3.png",
+            "filename": "assets/img/sprites/gender_paw/gender_paw_neutrois_vertical_3.png"
+        },
+        "assets/img/sprites/gender_paw/gender_paw_neutrois_vertical_4.png": {
+            "flag_name": "Neutrois",
+            "part": "center",
+            "orientation": "vertical",
+            "mask_key": "_vertical_4",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 220,
+                "y": 220,
+                "w": 22,
+                "h": 22
+            },
             "id": "assets/img/sprites/gender_paw/gender_paw_neutrois_vertical_4.png",
             "filename": "assets/img/sprites/gender_paw/gender_paw_neutrois_vertical_4.png"
+        },
+        "assets/img/sprites/gender_paw/gender_paw_neutrois_vertical_5.png": {
+            "flag_name": "Neutrois",
+            "part": "whole",
+            "orientation": "vertical",
+            "mask_key": "_vertical_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 242,
+                "y": 220,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/gender_paw/gender_paw_neutrois_vertical_5.png",
+            "filename": "assets/img/sprites/gender_paw/gender_paw_neutrois_vertical_5.png"
         },
         "assets/img/sprites/gender_paw/gender_paw_pangender_horizontal_0.png": {
             "flag_name": "Pangender",
             "part": "left_part_1",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/pangender/pangender.png",
             "mask_key": "_horizontal_0",
             "flags_fits": false,
             "flags_fits_perfect": false,
@@ -3334,7 +3861,6 @@
             "flag_name": "Pangender",
             "part": "left_part_2",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/pangender/pangender.png",
             "mask_key": "_horizontal_1",
             "flags_fits": true,
             "flags_fits_perfect": true,
@@ -3364,7 +3890,6 @@
             "flag_name": "Pangender",
             "part": "right_part_1",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/pangender/pangender.png",
             "mask_key": "_horizontal_2",
             "flags_fits": true,
             "flags_fits_perfect": true,
@@ -3394,7 +3919,6 @@
             "flag_name": "Pangender",
             "part": "right_part_2",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/pangender/pangender.png",
             "mask_key": "_horizontal_3",
             "flags_fits": false,
             "flags_fits_perfect": false,
@@ -3424,7 +3948,6 @@
             "flag_name": "Pangender",
             "part": "center",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/pangender/pangender.png",
             "mask_key": "_horizontal_4",
             "flags_fits": false,
             "flags_fits_perfect": false,
@@ -3450,15 +3973,14 @@
             "id": "assets/img/sprites/gender_paw/gender_paw_pangender_horizontal_4.png",
             "filename": "assets/img/sprites/gender_paw/gender_paw_pangender_horizontal_4.png"
         },
-        "assets/img/sprites/gender_paw/gender_paw_pangender_vertical_0.png": {
+        "assets/img/sprites/gender_paw/gender_paw_pangender_horizontal_5.png": {
             "flag_name": "Pangender",
-            "part": "left_part_1",
-            "orientation": "vertical",
-            "flag_filename": "assets/img/flags/pangender/pangender.png",
-            "mask_key": "_vertical_0",
-            "flags_fits": false,
+            "part": "whole",
+            "orientation": "horizontal",
+            "mask_key": "_horizontal_5",
+            "flags_fits": true,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_5.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -3477,18 +3999,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/gender_paw/gender_paw_pangender_vertical_0.png",
-            "filename": "assets/img/sprites/gender_paw/gender_paw_pangender_vertical_0.png"
+            "id": "assets/img/sprites/gender_paw/gender_paw_pangender_horizontal_5.png",
+            "filename": "assets/img/sprites/gender_paw/gender_paw_pangender_horizontal_5.png"
         },
-        "assets/img/sprites/gender_paw/gender_paw_pangender_vertical_1.png": {
+        "assets/img/sprites/gender_paw/gender_paw_pangender_vertical_0.png": {
             "flag_name": "Pangender",
-            "part": "left_part_2",
+            "part": "left_part_1",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/pangender/pangender.png",
-            "mask_key": "_vertical_1",
+            "mask_key": "_vertical_0",
             "flags_fits": false,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_1.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -3507,18 +4028,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/gender_paw/gender_paw_pangender_vertical_1.png",
-            "filename": "assets/img/sprites/gender_paw/gender_paw_pangender_vertical_1.png"
+            "id": "assets/img/sprites/gender_paw/gender_paw_pangender_vertical_0.png",
+            "filename": "assets/img/sprites/gender_paw/gender_paw_pangender_vertical_0.png"
         },
-        "assets/img/sprites/gender_paw/gender_paw_pangender_vertical_2.png": {
+        "assets/img/sprites/gender_paw/gender_paw_pangender_vertical_1.png": {
             "flag_name": "Pangender",
-            "part": "right_part_1",
+            "part": "left_part_2",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/pangender/pangender.png",
-            "mask_key": "_vertical_2",
+            "mask_key": "_vertical_1",
             "flags_fits": false,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_2.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_1.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -3537,18 +4057,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/gender_paw/gender_paw_pangender_vertical_2.png",
-            "filename": "assets/img/sprites/gender_paw/gender_paw_pangender_vertical_2.png"
+            "id": "assets/img/sprites/gender_paw/gender_paw_pangender_vertical_1.png",
+            "filename": "assets/img/sprites/gender_paw/gender_paw_pangender_vertical_1.png"
         },
-        "assets/img/sprites/gender_paw/gender_paw_pangender_vertical_3.png": {
+        "assets/img/sprites/gender_paw/gender_paw_pangender_vertical_2.png": {
             "flag_name": "Pangender",
-            "part": "right_part_2",
+            "part": "right_part_1",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/pangender/pangender.png",
-            "mask_key": "_vertical_3",
+            "mask_key": "_vertical_2",
             "flags_fits": false,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_3.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_2.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -3567,18 +4086,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/gender_paw/gender_paw_pangender_vertical_3.png",
-            "filename": "assets/img/sprites/gender_paw/gender_paw_pangender_vertical_3.png"
+            "id": "assets/img/sprites/gender_paw/gender_paw_pangender_vertical_2.png",
+            "filename": "assets/img/sprites/gender_paw/gender_paw_pangender_vertical_2.png"
         },
-        "assets/img/sprites/gender_paw/gender_paw_pangender_vertical_4.png": {
+        "assets/img/sprites/gender_paw/gender_paw_pangender_vertical_3.png": {
             "flag_name": "Pangender",
-            "part": "center",
+            "part": "right_part_2",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/pangender/pangender.png",
-            "mask_key": "_vertical_4",
-            "flags_fits": true,
+            "mask_key": "_vertical_3",
+            "flags_fits": false,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_4.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_3.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -3597,14 +4115,71 @@
                 "w": 22,
                 "h": 22
             },
+            "id": "assets/img/sprites/gender_paw/gender_paw_pangender_vertical_3.png",
+            "filename": "assets/img/sprites/gender_paw/gender_paw_pangender_vertical_3.png"
+        },
+        "assets/img/sprites/gender_paw/gender_paw_pangender_vertical_4.png": {
+            "flag_name": "Pangender",
+            "part": "center",
+            "orientation": "vertical",
+            "mask_key": "_vertical_4",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 220,
+                "y": 242,
+                "w": 22,
+                "h": 22
+            },
             "id": "assets/img/sprites/gender_paw/gender_paw_pangender_vertical_4.png",
             "filename": "assets/img/sprites/gender_paw/gender_paw_pangender_vertical_4.png"
+        },
+        "assets/img/sprites/gender_paw/gender_paw_pangender_vertical_5.png": {
+            "flag_name": "Pangender",
+            "part": "whole",
+            "orientation": "vertical",
+            "mask_key": "_vertical_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 242,
+                "y": 242,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/gender_paw/gender_paw_pangender_vertical_5.png",
+            "filename": "assets/img/sprites/gender_paw/gender_paw_pangender_vertical_5.png"
         },
         "assets/img/sprites/gender_paw/gender_paw_bigender_horizontal_0.png": {
             "flag_name": "Bigender",
             "part": "left_part_1",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/bigender/bigender.png",
             "mask_key": "_horizontal_0",
             "flags_fits": false,
             "flags_fits_perfect": false,
@@ -3634,7 +4209,6 @@
             "flag_name": "Bigender",
             "part": "left_part_2",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/bigender/bigender.png",
             "mask_key": "_horizontal_1",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -3664,7 +4238,6 @@
             "flag_name": "Bigender",
             "part": "right_part_1",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/bigender/bigender.png",
             "mask_key": "_horizontal_2",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -3694,7 +4267,6 @@
             "flag_name": "Bigender",
             "part": "right_part_2",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/bigender/bigender.png",
             "mask_key": "_horizontal_3",
             "flags_fits": false,
             "flags_fits_perfect": false,
@@ -3724,7 +4296,6 @@
             "flag_name": "Bigender",
             "part": "center",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/bigender/bigender.png",
             "mask_key": "_horizontal_4",
             "flags_fits": true,
             "flags_fits_perfect": true,
@@ -3750,15 +4321,14 @@
             "id": "assets/img/sprites/gender_paw/gender_paw_bigender_horizontal_4.png",
             "filename": "assets/img/sprites/gender_paw/gender_paw_bigender_horizontal_4.png"
         },
-        "assets/img/sprites/gender_paw/gender_paw_bigender_vertical_0.png": {
+        "assets/img/sprites/gender_paw/gender_paw_bigender_horizontal_5.png": {
             "flag_name": "Bigender",
-            "part": "left_part_1",
-            "orientation": "vertical",
-            "flag_filename": "assets/img/flags/bigender/bigender.png",
-            "mask_key": "_vertical_0",
-            "flags_fits": false,
+            "part": "whole",
+            "orientation": "horizontal",
+            "mask_key": "_horizontal_5",
+            "flags_fits": true,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_5.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -3777,18 +4347,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/gender_paw/gender_paw_bigender_vertical_0.png",
-            "filename": "assets/img/sprites/gender_paw/gender_paw_bigender_vertical_0.png"
+            "id": "assets/img/sprites/gender_paw/gender_paw_bigender_horizontal_5.png",
+            "filename": "assets/img/sprites/gender_paw/gender_paw_bigender_horizontal_5.png"
         },
-        "assets/img/sprites/gender_paw/gender_paw_bigender_vertical_1.png": {
+        "assets/img/sprites/gender_paw/gender_paw_bigender_vertical_0.png": {
             "flag_name": "Bigender",
-            "part": "left_part_2",
+            "part": "left_part_1",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/bigender/bigender.png",
-            "mask_key": "_vertical_1",
+            "mask_key": "_vertical_0",
             "flags_fits": false,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_1.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -3807,18 +4376,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/gender_paw/gender_paw_bigender_vertical_1.png",
-            "filename": "assets/img/sprites/gender_paw/gender_paw_bigender_vertical_1.png"
+            "id": "assets/img/sprites/gender_paw/gender_paw_bigender_vertical_0.png",
+            "filename": "assets/img/sprites/gender_paw/gender_paw_bigender_vertical_0.png"
         },
-        "assets/img/sprites/gender_paw/gender_paw_bigender_vertical_2.png": {
+        "assets/img/sprites/gender_paw/gender_paw_bigender_vertical_1.png": {
             "flag_name": "Bigender",
-            "part": "right_part_1",
+            "part": "left_part_2",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/bigender/bigender.png",
-            "mask_key": "_vertical_2",
+            "mask_key": "_vertical_1",
             "flags_fits": false,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_2.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_1.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -3837,18 +4405,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/gender_paw/gender_paw_bigender_vertical_2.png",
-            "filename": "assets/img/sprites/gender_paw/gender_paw_bigender_vertical_2.png"
+            "id": "assets/img/sprites/gender_paw/gender_paw_bigender_vertical_1.png",
+            "filename": "assets/img/sprites/gender_paw/gender_paw_bigender_vertical_1.png"
         },
-        "assets/img/sprites/gender_paw/gender_paw_bigender_vertical_3.png": {
+        "assets/img/sprites/gender_paw/gender_paw_bigender_vertical_2.png": {
             "flag_name": "Bigender",
-            "part": "right_part_2",
+            "part": "right_part_1",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/bigender/bigender.png",
-            "mask_key": "_vertical_3",
+            "mask_key": "_vertical_2",
             "flags_fits": false,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_3.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_2.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -3867,18 +4434,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/gender_paw/gender_paw_bigender_vertical_3.png",
-            "filename": "assets/img/sprites/gender_paw/gender_paw_bigender_vertical_3.png"
+            "id": "assets/img/sprites/gender_paw/gender_paw_bigender_vertical_2.png",
+            "filename": "assets/img/sprites/gender_paw/gender_paw_bigender_vertical_2.png"
         },
-        "assets/img/sprites/gender_paw/gender_paw_bigender_vertical_4.png": {
+        "assets/img/sprites/gender_paw/gender_paw_bigender_vertical_3.png": {
             "flag_name": "Bigender",
-            "part": "center",
+            "part": "right_part_2",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/bigender/bigender.png",
-            "mask_key": "_vertical_4",
-            "flags_fits": true,
+            "mask_key": "_vertical_3",
+            "flags_fits": false,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_4.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_3.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -3897,14 +4463,71 @@
                 "w": 22,
                 "h": 22
             },
+            "id": "assets/img/sprites/gender_paw/gender_paw_bigender_vertical_3.png",
+            "filename": "assets/img/sprites/gender_paw/gender_paw_bigender_vertical_3.png"
+        },
+        "assets/img/sprites/gender_paw/gender_paw_bigender_vertical_4.png": {
+            "flag_name": "Bigender",
+            "part": "center",
+            "orientation": "vertical",
+            "mask_key": "_vertical_4",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 220,
+                "y": 264,
+                "w": 22,
+                "h": 22
+            },
             "id": "assets/img/sprites/gender_paw/gender_paw_bigender_vertical_4.png",
             "filename": "assets/img/sprites/gender_paw/gender_paw_bigender_vertical_4.png"
+        },
+        "assets/img/sprites/gender_paw/gender_paw_bigender_vertical_5.png": {
+            "flag_name": "Bigender",
+            "part": "whole",
+            "orientation": "vertical",
+            "mask_key": "_vertical_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 242,
+                "y": 264,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/gender_paw/gender_paw_bigender_vertical_5.png",
+            "filename": "assets/img/sprites/gender_paw/gender_paw_bigender_vertical_5.png"
         },
         "assets/img/sprites/gender_paw/gender_paw_polygender_horizontal_0.png": {
             "flag_name": "Polygender",
             "part": "left_part_1",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/polygender/polygender.png",
             "mask_key": "_horizontal_0",
             "flags_fits": true,
             "flags_fits_perfect": true,
@@ -3934,7 +4557,6 @@
             "flag_name": "Polygender",
             "part": "left_part_2",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/polygender/polygender.png",
             "mask_key": "_horizontal_1",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -3964,7 +4586,6 @@
             "flag_name": "Polygender",
             "part": "right_part_1",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/polygender/polygender.png",
             "mask_key": "_horizontal_2",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -3994,7 +4615,6 @@
             "flag_name": "Polygender",
             "part": "right_part_2",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/polygender/polygender.png",
             "mask_key": "_horizontal_3",
             "flags_fits": true,
             "flags_fits_perfect": true,
@@ -4024,7 +4644,6 @@
             "flag_name": "Polygender",
             "part": "center",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/polygender/polygender.png",
             "mask_key": "_horizontal_4",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -4050,15 +4669,14 @@
             "id": "assets/img/sprites/gender_paw/gender_paw_polygender_horizontal_4.png",
             "filename": "assets/img/sprites/gender_paw/gender_paw_polygender_horizontal_4.png"
         },
-        "assets/img/sprites/gender_paw/gender_paw_polygender_vertical_0.png": {
+        "assets/img/sprites/gender_paw/gender_paw_polygender_horizontal_5.png": {
             "flag_name": "Polygender",
-            "part": "left_part_1",
-            "orientation": "vertical",
-            "flag_filename": "assets/img/flags/polygender/polygender.png",
-            "mask_key": "_vertical_0",
-            "flags_fits": false,
+            "part": "whole",
+            "orientation": "horizontal",
+            "mask_key": "_horizontal_5",
+            "flags_fits": true,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_5.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -4077,18 +4695,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/gender_paw/gender_paw_polygender_vertical_0.png",
-            "filename": "assets/img/sprites/gender_paw/gender_paw_polygender_vertical_0.png"
+            "id": "assets/img/sprites/gender_paw/gender_paw_polygender_horizontal_5.png",
+            "filename": "assets/img/sprites/gender_paw/gender_paw_polygender_horizontal_5.png"
         },
-        "assets/img/sprites/gender_paw/gender_paw_polygender_vertical_1.png": {
+        "assets/img/sprites/gender_paw/gender_paw_polygender_vertical_0.png": {
             "flag_name": "Polygender",
-            "part": "left_part_2",
+            "part": "left_part_1",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/polygender/polygender.png",
-            "mask_key": "_vertical_1",
+            "mask_key": "_vertical_0",
             "flags_fits": false,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_1.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -4107,18 +4724,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/gender_paw/gender_paw_polygender_vertical_1.png",
-            "filename": "assets/img/sprites/gender_paw/gender_paw_polygender_vertical_1.png"
+            "id": "assets/img/sprites/gender_paw/gender_paw_polygender_vertical_0.png",
+            "filename": "assets/img/sprites/gender_paw/gender_paw_polygender_vertical_0.png"
         },
-        "assets/img/sprites/gender_paw/gender_paw_polygender_vertical_2.png": {
+        "assets/img/sprites/gender_paw/gender_paw_polygender_vertical_1.png": {
             "flag_name": "Polygender",
-            "part": "right_part_1",
+            "part": "left_part_2",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/polygender/polygender.png",
-            "mask_key": "_vertical_2",
+            "mask_key": "_vertical_1",
             "flags_fits": false,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_2.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_1.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -4137,18 +4753,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/gender_paw/gender_paw_polygender_vertical_2.png",
-            "filename": "assets/img/sprites/gender_paw/gender_paw_polygender_vertical_2.png"
+            "id": "assets/img/sprites/gender_paw/gender_paw_polygender_vertical_1.png",
+            "filename": "assets/img/sprites/gender_paw/gender_paw_polygender_vertical_1.png"
         },
-        "assets/img/sprites/gender_paw/gender_paw_polygender_vertical_3.png": {
+        "assets/img/sprites/gender_paw/gender_paw_polygender_vertical_2.png": {
             "flag_name": "Polygender",
-            "part": "right_part_2",
+            "part": "right_part_1",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/polygender/polygender.png",
-            "mask_key": "_vertical_3",
+            "mask_key": "_vertical_2",
             "flags_fits": false,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_3.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_2.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -4167,18 +4782,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/gender_paw/gender_paw_polygender_vertical_3.png",
-            "filename": "assets/img/sprites/gender_paw/gender_paw_polygender_vertical_3.png"
+            "id": "assets/img/sprites/gender_paw/gender_paw_polygender_vertical_2.png",
+            "filename": "assets/img/sprites/gender_paw/gender_paw_polygender_vertical_2.png"
         },
-        "assets/img/sprites/gender_paw/gender_paw_polygender_vertical_4.png": {
+        "assets/img/sprites/gender_paw/gender_paw_polygender_vertical_3.png": {
             "flag_name": "Polygender",
-            "part": "center",
+            "part": "right_part_2",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/polygender/polygender.png",
-            "mask_key": "_vertical_4",
-            "flags_fits": true,
+            "mask_key": "_vertical_3",
+            "flags_fits": false,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_4.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_3.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -4197,14 +4811,71 @@
                 "w": 22,
                 "h": 22
             },
+            "id": "assets/img/sprites/gender_paw/gender_paw_polygender_vertical_3.png",
+            "filename": "assets/img/sprites/gender_paw/gender_paw_polygender_vertical_3.png"
+        },
+        "assets/img/sprites/gender_paw/gender_paw_polygender_vertical_4.png": {
+            "flag_name": "Polygender",
+            "part": "center",
+            "orientation": "vertical",
+            "mask_key": "_vertical_4",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 220,
+                "y": 286,
+                "w": 22,
+                "h": 22
+            },
             "id": "assets/img/sprites/gender_paw/gender_paw_polygender_vertical_4.png",
             "filename": "assets/img/sprites/gender_paw/gender_paw_polygender_vertical_4.png"
+        },
+        "assets/img/sprites/gender_paw/gender_paw_polygender_vertical_5.png": {
+            "flag_name": "Polygender",
+            "part": "whole",
+            "orientation": "vertical",
+            "mask_key": "_vertical_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 242,
+                "y": 286,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/gender_paw/gender_paw_polygender_vertical_5.png",
+            "filename": "assets/img/sprites/gender_paw/gender_paw_polygender_vertical_5.png"
         },
         "assets/img/sprites/gender_paw/gender_paw_alexigender_horizontal_0.png": {
             "flag_name": "Alexigender",
             "part": "left_part_1",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/alexigender/alexigender.png",
             "mask_key": "_horizontal_0",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -4234,7 +4905,6 @@
             "flag_name": "Alexigender",
             "part": "left_part_2",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/alexigender/alexigender.png",
             "mask_key": "_horizontal_1",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -4264,7 +4934,6 @@
             "flag_name": "Alexigender",
             "part": "right_part_1",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/alexigender/alexigender.png",
             "mask_key": "_horizontal_2",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -4294,7 +4963,6 @@
             "flag_name": "Alexigender",
             "part": "right_part_2",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/alexigender/alexigender.png",
             "mask_key": "_horizontal_3",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -4324,7 +4992,6 @@
             "flag_name": "Alexigender",
             "part": "center",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/alexigender/alexigender.png",
             "mask_key": "_horizontal_4",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -4350,15 +5017,14 @@
             "id": "assets/img/sprites/gender_paw/gender_paw_alexigender_horizontal_4.png",
             "filename": "assets/img/sprites/gender_paw/gender_paw_alexigender_horizontal_4.png"
         },
-        "assets/img/sprites/gender_paw/gender_paw_alexigender_vertical_0.png": {
+        "assets/img/sprites/gender_paw/gender_paw_alexigender_horizontal_5.png": {
             "flag_name": "Alexigender",
-            "part": "left_part_1",
-            "orientation": "vertical",
-            "flag_filename": "assets/img/flags/alexigender/alexigender.png",
-            "mask_key": "_vertical_0",
+            "part": "whole",
+            "orientation": "horizontal",
+            "mask_key": "_horizontal_5",
             "flags_fits": true,
-            "flags_fits_perfect": true,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png",
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_5.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -4377,18 +5043,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/gender_paw/gender_paw_alexigender_vertical_0.png",
-            "filename": "assets/img/sprites/gender_paw/gender_paw_alexigender_vertical_0.png"
+            "id": "assets/img/sprites/gender_paw/gender_paw_alexigender_horizontal_5.png",
+            "filename": "assets/img/sprites/gender_paw/gender_paw_alexigender_horizontal_5.png"
         },
-        "assets/img/sprites/gender_paw/gender_paw_alexigender_vertical_1.png": {
+        "assets/img/sprites/gender_paw/gender_paw_alexigender_vertical_0.png": {
             "flag_name": "Alexigender",
-            "part": "left_part_2",
+            "part": "left_part_1",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/alexigender/alexigender.png",
-            "mask_key": "_vertical_1",
+            "mask_key": "_vertical_0",
             "flags_fits": true,
             "flags_fits_perfect": true,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_1.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -4407,18 +5072,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/gender_paw/gender_paw_alexigender_vertical_1.png",
-            "filename": "assets/img/sprites/gender_paw/gender_paw_alexigender_vertical_1.png"
+            "id": "assets/img/sprites/gender_paw/gender_paw_alexigender_vertical_0.png",
+            "filename": "assets/img/sprites/gender_paw/gender_paw_alexigender_vertical_0.png"
         },
-        "assets/img/sprites/gender_paw/gender_paw_alexigender_vertical_2.png": {
+        "assets/img/sprites/gender_paw/gender_paw_alexigender_vertical_1.png": {
             "flag_name": "Alexigender",
-            "part": "right_part_1",
+            "part": "left_part_2",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/alexigender/alexigender.png",
-            "mask_key": "_vertical_2",
+            "mask_key": "_vertical_1",
             "flags_fits": true,
             "flags_fits_perfect": true,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_2.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_1.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -4437,18 +5101,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/gender_paw/gender_paw_alexigender_vertical_2.png",
-            "filename": "assets/img/sprites/gender_paw/gender_paw_alexigender_vertical_2.png"
+            "id": "assets/img/sprites/gender_paw/gender_paw_alexigender_vertical_1.png",
+            "filename": "assets/img/sprites/gender_paw/gender_paw_alexigender_vertical_1.png"
         },
-        "assets/img/sprites/gender_paw/gender_paw_alexigender_vertical_3.png": {
+        "assets/img/sprites/gender_paw/gender_paw_alexigender_vertical_2.png": {
             "flag_name": "Alexigender",
-            "part": "right_part_2",
+            "part": "right_part_1",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/alexigender/alexigender.png",
-            "mask_key": "_vertical_3",
+            "mask_key": "_vertical_2",
             "flags_fits": true,
             "flags_fits_perfect": true,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_3.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_2.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -4467,18 +5130,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/gender_paw/gender_paw_alexigender_vertical_3.png",
-            "filename": "assets/img/sprites/gender_paw/gender_paw_alexigender_vertical_3.png"
+            "id": "assets/img/sprites/gender_paw/gender_paw_alexigender_vertical_2.png",
+            "filename": "assets/img/sprites/gender_paw/gender_paw_alexigender_vertical_2.png"
         },
-        "assets/img/sprites/gender_paw/gender_paw_alexigender_vertical_4.png": {
+        "assets/img/sprites/gender_paw/gender_paw_alexigender_vertical_3.png": {
             "flag_name": "Alexigender",
-            "part": "center",
+            "part": "right_part_2",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/alexigender/alexigender.png",
-            "mask_key": "_vertical_4",
+            "mask_key": "_vertical_3",
             "flags_fits": true,
-            "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_4.png",
+            "flags_fits_perfect": true,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_3.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -4497,14 +5159,71 @@
                 "w": 22,
                 "h": 22
             },
+            "id": "assets/img/sprites/gender_paw/gender_paw_alexigender_vertical_3.png",
+            "filename": "assets/img/sprites/gender_paw/gender_paw_alexigender_vertical_3.png"
+        },
+        "assets/img/sprites/gender_paw/gender_paw_alexigender_vertical_4.png": {
+            "flag_name": "Alexigender",
+            "part": "center",
+            "orientation": "vertical",
+            "mask_key": "_vertical_4",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 220,
+                "y": 308,
+                "w": 22,
+                "h": 22
+            },
             "id": "assets/img/sprites/gender_paw/gender_paw_alexigender_vertical_4.png",
             "filename": "assets/img/sprites/gender_paw/gender_paw_alexigender_vertical_4.png"
+        },
+        "assets/img/sprites/gender_paw/gender_paw_alexigender_vertical_5.png": {
+            "flag_name": "Alexigender",
+            "part": "whole",
+            "orientation": "vertical",
+            "mask_key": "_vertical_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 242,
+                "y": 308,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/gender_paw/gender_paw_alexigender_vertical_5.png",
+            "filename": "assets/img/sprites/gender_paw/gender_paw_alexigender_vertical_5.png"
         },
         "assets/img/sprites/gender_paw/gender_paw_gender_questioning_horizontal_0.png": {
             "flag_name": "Gender Questioning",
             "part": "left_part_1",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/gender_questioning/gender_questioning.png",
             "mask_key": "_horizontal_0",
             "flags_fits": false,
             "flags_fits_perfect": false,
@@ -4534,7 +5253,6 @@
             "flag_name": "Gender Questioning",
             "part": "left_part_2",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/gender_questioning/gender_questioning.png",
             "mask_key": "_horizontal_1",
             "flags_fits": false,
             "flags_fits_perfect": false,
@@ -4564,7 +5282,6 @@
             "flag_name": "Gender Questioning",
             "part": "right_part_1",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/gender_questioning/gender_questioning.png",
             "mask_key": "_horizontal_2",
             "flags_fits": false,
             "flags_fits_perfect": false,
@@ -4594,7 +5311,6 @@
             "flag_name": "Gender Questioning",
             "part": "right_part_2",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/gender_questioning/gender_questioning.png",
             "mask_key": "_horizontal_3",
             "flags_fits": false,
             "flags_fits_perfect": false,
@@ -4624,7 +5340,6 @@
             "flag_name": "Gender Questioning",
             "part": "center",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/gender_questioning/gender_questioning.png",
             "mask_key": "_horizontal_4",
             "flags_fits": false,
             "flags_fits_perfect": false,
@@ -4650,15 +5365,14 @@
             "id": "assets/img/sprites/gender_paw/gender_paw_gender_questioning_horizontal_4.png",
             "filename": "assets/img/sprites/gender_paw/gender_paw_gender_questioning_horizontal_4.png"
         },
-        "assets/img/sprites/gender_paw/gender_paw_gender_questioning_vertical_0.png": {
+        "assets/img/sprites/gender_paw/gender_paw_gender_questioning_horizontal_5.png": {
             "flag_name": "Gender Questioning",
-            "part": "left_part_1",
-            "orientation": "vertical",
-            "flag_filename": "assets/img/flags/gender_questioning/gender_questioning.png",
-            "mask_key": "_vertical_0",
-            "flags_fits": false,
+            "part": "whole",
+            "orientation": "horizontal",
+            "mask_key": "_horizontal_5",
+            "flags_fits": true,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_5.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -4677,18 +5391,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/gender_paw/gender_paw_gender_questioning_vertical_0.png",
-            "filename": "assets/img/sprites/gender_paw/gender_paw_gender_questioning_vertical_0.png"
+            "id": "assets/img/sprites/gender_paw/gender_paw_gender_questioning_horizontal_5.png",
+            "filename": "assets/img/sprites/gender_paw/gender_paw_gender_questioning_horizontal_5.png"
         },
-        "assets/img/sprites/gender_paw/gender_paw_gender_questioning_vertical_1.png": {
+        "assets/img/sprites/gender_paw/gender_paw_gender_questioning_vertical_0.png": {
             "flag_name": "Gender Questioning",
-            "part": "left_part_2",
+            "part": "left_part_1",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/gender_questioning/gender_questioning.png",
-            "mask_key": "_vertical_1",
+            "mask_key": "_vertical_0",
             "flags_fits": false,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_1.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -4707,18 +5420,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/gender_paw/gender_paw_gender_questioning_vertical_1.png",
-            "filename": "assets/img/sprites/gender_paw/gender_paw_gender_questioning_vertical_1.png"
+            "id": "assets/img/sprites/gender_paw/gender_paw_gender_questioning_vertical_0.png",
+            "filename": "assets/img/sprites/gender_paw/gender_paw_gender_questioning_vertical_0.png"
         },
-        "assets/img/sprites/gender_paw/gender_paw_gender_questioning_vertical_2.png": {
+        "assets/img/sprites/gender_paw/gender_paw_gender_questioning_vertical_1.png": {
             "flag_name": "Gender Questioning",
-            "part": "right_part_1",
+            "part": "left_part_2",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/gender_questioning/gender_questioning.png",
-            "mask_key": "_vertical_2",
+            "mask_key": "_vertical_1",
             "flags_fits": false,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_2.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_1.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -4737,18 +5449,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/gender_paw/gender_paw_gender_questioning_vertical_2.png",
-            "filename": "assets/img/sprites/gender_paw/gender_paw_gender_questioning_vertical_2.png"
+            "id": "assets/img/sprites/gender_paw/gender_paw_gender_questioning_vertical_1.png",
+            "filename": "assets/img/sprites/gender_paw/gender_paw_gender_questioning_vertical_1.png"
         },
-        "assets/img/sprites/gender_paw/gender_paw_gender_questioning_vertical_3.png": {
+        "assets/img/sprites/gender_paw/gender_paw_gender_questioning_vertical_2.png": {
             "flag_name": "Gender Questioning",
-            "part": "right_part_2",
+            "part": "right_part_1",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/gender_questioning/gender_questioning.png",
-            "mask_key": "_vertical_3",
+            "mask_key": "_vertical_2",
             "flags_fits": false,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_3.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_2.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -4767,18 +5478,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/gender_paw/gender_paw_gender_questioning_vertical_3.png",
-            "filename": "assets/img/sprites/gender_paw/gender_paw_gender_questioning_vertical_3.png"
+            "id": "assets/img/sprites/gender_paw/gender_paw_gender_questioning_vertical_2.png",
+            "filename": "assets/img/sprites/gender_paw/gender_paw_gender_questioning_vertical_2.png"
         },
-        "assets/img/sprites/gender_paw/gender_paw_gender_questioning_vertical_4.png": {
+        "assets/img/sprites/gender_paw/gender_paw_gender_questioning_vertical_3.png": {
             "flag_name": "Gender Questioning",
-            "part": "center",
+            "part": "right_part_2",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/gender_questioning/gender_questioning.png",
-            "mask_key": "_vertical_4",
+            "mask_key": "_vertical_3",
             "flags_fits": false,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_4.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_3.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -4797,14 +5507,71 @@
                 "w": 22,
                 "h": 22
             },
+            "id": "assets/img/sprites/gender_paw/gender_paw_gender_questioning_vertical_3.png",
+            "filename": "assets/img/sprites/gender_paw/gender_paw_gender_questioning_vertical_3.png"
+        },
+        "assets/img/sprites/gender_paw/gender_paw_gender_questioning_vertical_4.png": {
+            "flag_name": "Gender Questioning",
+            "part": "center",
+            "orientation": "vertical",
+            "mask_key": "_vertical_4",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 220,
+                "y": 352,
+                "w": 22,
+                "h": 22
+            },
             "id": "assets/img/sprites/gender_paw/gender_paw_gender_questioning_vertical_4.png",
             "filename": "assets/img/sprites/gender_paw/gender_paw_gender_questioning_vertical_4.png"
+        },
+        "assets/img/sprites/gender_paw/gender_paw_gender_questioning_vertical_5.png": {
+            "flag_name": "Gender Questioning",
+            "part": "whole",
+            "orientation": "vertical",
+            "mask_key": "_vertical_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 242,
+                "y": 352,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/gender_paw/gender_paw_gender_questioning_vertical_5.png",
+            "filename": "assets/img/sprites/gender_paw/gender_paw_gender_questioning_vertical_5.png"
         },
         "assets/img/sprites/gender_paw/gender_paw_intersex_horizontal_0.png": {
             "flag_name": "Intersex",
             "part": "left_part_1",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/intersex/intersex.png",
             "mask_key": "_horizontal_0",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -4834,7 +5601,6 @@
             "flag_name": "Intersex",
             "part": "left_part_2",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/intersex/intersex.png",
             "mask_key": "_horizontal_1",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -4864,7 +5630,6 @@
             "flag_name": "Intersex",
             "part": "right_part_1",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/intersex/intersex.png",
             "mask_key": "_horizontal_2",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -4894,7 +5659,6 @@
             "flag_name": "Intersex",
             "part": "right_part_2",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/intersex/intersex.png",
             "mask_key": "_horizontal_3",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -4924,7 +5688,6 @@
             "flag_name": "Intersex",
             "part": "center",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/intersex/intersex.png",
             "mask_key": "_horizontal_4",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -4950,15 +5713,14 @@
             "id": "assets/img/sprites/gender_paw/gender_paw_intersex_horizontal_4.png",
             "filename": "assets/img/sprites/gender_paw/gender_paw_intersex_horizontal_4.png"
         },
-        "assets/img/sprites/gender_paw/gender_paw_intersex_vertical_0.png": {
+        "assets/img/sprites/gender_paw/gender_paw_intersex_horizontal_5.png": {
             "flag_name": "Intersex",
-            "part": "left_part_1",
-            "orientation": "vertical",
-            "flag_filename": "assets/img/flags/intersex/intersex.png",
-            "mask_key": "_vertical_0",
+            "part": "whole",
+            "orientation": "horizontal",
+            "mask_key": "_horizontal_5",
             "flags_fits": true,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_5.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -4977,18 +5739,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/gender_paw/gender_paw_intersex_vertical_0.png",
-            "filename": "assets/img/sprites/gender_paw/gender_paw_intersex_vertical_0.png"
+            "id": "assets/img/sprites/gender_paw/gender_paw_intersex_horizontal_5.png",
+            "filename": "assets/img/sprites/gender_paw/gender_paw_intersex_horizontal_5.png"
         },
-        "assets/img/sprites/gender_paw/gender_paw_intersex_vertical_1.png": {
+        "assets/img/sprites/gender_paw/gender_paw_intersex_vertical_0.png": {
             "flag_name": "Intersex",
-            "part": "left_part_2",
+            "part": "left_part_1",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/intersex/intersex.png",
-            "mask_key": "_vertical_1",
+            "mask_key": "_vertical_0",
             "flags_fits": true,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_1.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -5007,18 +5768,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/gender_paw/gender_paw_intersex_vertical_1.png",
-            "filename": "assets/img/sprites/gender_paw/gender_paw_intersex_vertical_1.png"
+            "id": "assets/img/sprites/gender_paw/gender_paw_intersex_vertical_0.png",
+            "filename": "assets/img/sprites/gender_paw/gender_paw_intersex_vertical_0.png"
         },
-        "assets/img/sprites/gender_paw/gender_paw_intersex_vertical_2.png": {
+        "assets/img/sprites/gender_paw/gender_paw_intersex_vertical_1.png": {
             "flag_name": "Intersex",
-            "part": "right_part_1",
+            "part": "left_part_2",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/intersex/intersex.png",
-            "mask_key": "_vertical_2",
+            "mask_key": "_vertical_1",
             "flags_fits": true,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_2.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_1.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -5037,18 +5797,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/gender_paw/gender_paw_intersex_vertical_2.png",
-            "filename": "assets/img/sprites/gender_paw/gender_paw_intersex_vertical_2.png"
+            "id": "assets/img/sprites/gender_paw/gender_paw_intersex_vertical_1.png",
+            "filename": "assets/img/sprites/gender_paw/gender_paw_intersex_vertical_1.png"
         },
-        "assets/img/sprites/gender_paw/gender_paw_intersex_vertical_3.png": {
+        "assets/img/sprites/gender_paw/gender_paw_intersex_vertical_2.png": {
             "flag_name": "Intersex",
-            "part": "right_part_2",
+            "part": "right_part_1",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/intersex/intersex.png",
-            "mask_key": "_vertical_3",
+            "mask_key": "_vertical_2",
             "flags_fits": true,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_3.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_2.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -5067,18 +5826,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/gender_paw/gender_paw_intersex_vertical_3.png",
-            "filename": "assets/img/sprites/gender_paw/gender_paw_intersex_vertical_3.png"
+            "id": "assets/img/sprites/gender_paw/gender_paw_intersex_vertical_2.png",
+            "filename": "assets/img/sprites/gender_paw/gender_paw_intersex_vertical_2.png"
         },
-        "assets/img/sprites/gender_paw/gender_paw_intersex_vertical_4.png": {
+        "assets/img/sprites/gender_paw/gender_paw_intersex_vertical_3.png": {
             "flag_name": "Intersex",
-            "part": "center",
+            "part": "right_part_2",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/intersex/intersex.png",
-            "mask_key": "_vertical_4",
+            "mask_key": "_vertical_3",
             "flags_fits": true,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_4.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_3.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -5097,14 +5855,71 @@
                 "w": 22,
                 "h": 22
             },
+            "id": "assets/img/sprites/gender_paw/gender_paw_intersex_vertical_3.png",
+            "filename": "assets/img/sprites/gender_paw/gender_paw_intersex_vertical_3.png"
+        },
+        "assets/img/sprites/gender_paw/gender_paw_intersex_vertical_4.png": {
+            "flag_name": "Intersex",
+            "part": "center",
+            "orientation": "vertical",
+            "mask_key": "_vertical_4",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 220,
+                "y": 374,
+                "w": 22,
+                "h": 22
+            },
             "id": "assets/img/sprites/gender_paw/gender_paw_intersex_vertical_4.png",
             "filename": "assets/img/sprites/gender_paw/gender_paw_intersex_vertical_4.png"
+        },
+        "assets/img/sprites/gender_paw/gender_paw_intersex_vertical_5.png": {
+            "flag_name": "Intersex",
+            "part": "whole",
+            "orientation": "vertical",
+            "mask_key": "_vertical_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 242,
+                "y": 374,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/gender_paw/gender_paw_intersex_vertical_5.png",
+            "filename": "assets/img/sprites/gender_paw/gender_paw_intersex_vertical_5.png"
         },
         "assets/img/sprites/gender_paw/gender_paw_maverique_horizontal_0.png": {
             "flag_name": "Maverique",
             "part": "left_part_1",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/maverique/maverique.png",
             "mask_key": "_horizontal_0",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -5134,7 +5949,6 @@
             "flag_name": "Maverique",
             "part": "left_part_2",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/maverique/maverique.png",
             "mask_key": "_horizontal_1",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -5164,7 +5978,6 @@
             "flag_name": "Maverique",
             "part": "right_part_1",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/maverique/maverique.png",
             "mask_key": "_horizontal_2",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -5194,7 +6007,6 @@
             "flag_name": "Maverique",
             "part": "right_part_2",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/maverique/maverique.png",
             "mask_key": "_horizontal_3",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -5224,7 +6036,6 @@
             "flag_name": "Maverique",
             "part": "center",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/maverique/maverique.png",
             "mask_key": "_horizontal_4",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -5250,15 +6061,14 @@
             "id": "assets/img/sprites/gender_paw/gender_paw_maverique_horizontal_4.png",
             "filename": "assets/img/sprites/gender_paw/gender_paw_maverique_horizontal_4.png"
         },
-        "assets/img/sprites/gender_paw/gender_paw_maverique_vertical_0.png": {
+        "assets/img/sprites/gender_paw/gender_paw_maverique_horizontal_5.png": {
             "flag_name": "Maverique",
-            "part": "left_part_1",
-            "orientation": "vertical",
-            "flag_filename": "assets/img/flags/maverique/maverique.png",
-            "mask_key": "_vertical_0",
+            "part": "whole",
+            "orientation": "horizontal",
+            "mask_key": "_horizontal_5",
             "flags_fits": true,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_5.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -5277,18 +6087,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/gender_paw/gender_paw_maverique_vertical_0.png",
-            "filename": "assets/img/sprites/gender_paw/gender_paw_maverique_vertical_0.png"
+            "id": "assets/img/sprites/gender_paw/gender_paw_maverique_horizontal_5.png",
+            "filename": "assets/img/sprites/gender_paw/gender_paw_maverique_horizontal_5.png"
         },
-        "assets/img/sprites/gender_paw/gender_paw_maverique_vertical_1.png": {
+        "assets/img/sprites/gender_paw/gender_paw_maverique_vertical_0.png": {
             "flag_name": "Maverique",
-            "part": "left_part_2",
+            "part": "left_part_1",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/maverique/maverique.png",
-            "mask_key": "_vertical_1",
+            "mask_key": "_vertical_0",
             "flags_fits": true,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_1.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -5307,18 +6116,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/gender_paw/gender_paw_maverique_vertical_1.png",
-            "filename": "assets/img/sprites/gender_paw/gender_paw_maverique_vertical_1.png"
+            "id": "assets/img/sprites/gender_paw/gender_paw_maverique_vertical_0.png",
+            "filename": "assets/img/sprites/gender_paw/gender_paw_maverique_vertical_0.png"
         },
-        "assets/img/sprites/gender_paw/gender_paw_maverique_vertical_2.png": {
+        "assets/img/sprites/gender_paw/gender_paw_maverique_vertical_1.png": {
             "flag_name": "Maverique",
-            "part": "right_part_1",
+            "part": "left_part_2",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/maverique/maverique.png",
-            "mask_key": "_vertical_2",
+            "mask_key": "_vertical_1",
             "flags_fits": true,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_2.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_1.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -5337,18 +6145,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/gender_paw/gender_paw_maverique_vertical_2.png",
-            "filename": "assets/img/sprites/gender_paw/gender_paw_maverique_vertical_2.png"
+            "id": "assets/img/sprites/gender_paw/gender_paw_maverique_vertical_1.png",
+            "filename": "assets/img/sprites/gender_paw/gender_paw_maverique_vertical_1.png"
         },
-        "assets/img/sprites/gender_paw/gender_paw_maverique_vertical_3.png": {
+        "assets/img/sprites/gender_paw/gender_paw_maverique_vertical_2.png": {
             "flag_name": "Maverique",
-            "part": "right_part_2",
+            "part": "right_part_1",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/maverique/maverique.png",
-            "mask_key": "_vertical_3",
+            "mask_key": "_vertical_2",
             "flags_fits": true,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_3.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_2.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -5367,18 +6174,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/gender_paw/gender_paw_maverique_vertical_3.png",
-            "filename": "assets/img/sprites/gender_paw/gender_paw_maverique_vertical_3.png"
+            "id": "assets/img/sprites/gender_paw/gender_paw_maverique_vertical_2.png",
+            "filename": "assets/img/sprites/gender_paw/gender_paw_maverique_vertical_2.png"
         },
-        "assets/img/sprites/gender_paw/gender_paw_maverique_vertical_4.png": {
+        "assets/img/sprites/gender_paw/gender_paw_maverique_vertical_3.png": {
             "flag_name": "Maverique",
-            "part": "center",
+            "part": "right_part_2",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/maverique/maverique.png",
-            "mask_key": "_vertical_4",
+            "mask_key": "_vertical_3",
             "flags_fits": true,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_4.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_3.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -5397,14 +6203,71 @@
                 "w": 22,
                 "h": 22
             },
+            "id": "assets/img/sprites/gender_paw/gender_paw_maverique_vertical_3.png",
+            "filename": "assets/img/sprites/gender_paw/gender_paw_maverique_vertical_3.png"
+        },
+        "assets/img/sprites/gender_paw/gender_paw_maverique_vertical_4.png": {
+            "flag_name": "Maverique",
+            "part": "center",
+            "orientation": "vertical",
+            "mask_key": "_vertical_4",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 220,
+                "y": 396,
+                "w": 22,
+                "h": 22
+            },
             "id": "assets/img/sprites/gender_paw/gender_paw_maverique_vertical_4.png",
             "filename": "assets/img/sprites/gender_paw/gender_paw_maverique_vertical_4.png"
+        },
+        "assets/img/sprites/gender_paw/gender_paw_maverique_vertical_5.png": {
+            "flag_name": "Maverique",
+            "part": "whole",
+            "orientation": "vertical",
+            "mask_key": "_vertical_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 242,
+                "y": 396,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/gender_paw/gender_paw_maverique_vertical_5.png",
+            "filename": "assets/img/sprites/gender_paw/gender_paw_maverique_vertical_5.png"
         },
         "assets/img/sprites/gender_paw/gender_paw_trigender_horizontal_0.png": {
             "flag_name": "Trigender",
             "part": "left_part_1",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/trigender/trigender.png",
             "mask_key": "_horizontal_0",
             "flags_fits": true,
             "flags_fits_perfect": true,
@@ -5434,7 +6297,6 @@
             "flag_name": "Trigender",
             "part": "left_part_2",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/trigender/trigender.png",
             "mask_key": "_horizontal_1",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -5464,7 +6326,6 @@
             "flag_name": "Trigender",
             "part": "right_part_1",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/trigender/trigender.png",
             "mask_key": "_horizontal_2",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -5494,7 +6355,6 @@
             "flag_name": "Trigender",
             "part": "right_part_2",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/trigender/trigender.png",
             "mask_key": "_horizontal_3",
             "flags_fits": true,
             "flags_fits_perfect": true,
@@ -5524,7 +6384,6 @@
             "flag_name": "Trigender",
             "part": "center",
             "orientation": "horizontal",
-            "flag_filename": "assets/img/flags/trigender/trigender.png",
             "mask_key": "_horizontal_4",
             "flags_fits": true,
             "flags_fits_perfect": false,
@@ -5550,15 +6409,14 @@
             "id": "assets/img/sprites/gender_paw/gender_paw_trigender_horizontal_4.png",
             "filename": "assets/img/sprites/gender_paw/gender_paw_trigender_horizontal_4.png"
         },
-        "assets/img/sprites/gender_paw/gender_paw_trigender_vertical_0.png": {
+        "assets/img/sprites/gender_paw/gender_paw_trigender_horizontal_5.png": {
             "flag_name": "Trigender",
-            "part": "left_part_1",
-            "orientation": "vertical",
-            "flag_filename": "assets/img/flags/trigender/trigender.png",
-            "mask_key": "_vertical_0",
-            "flags_fits": false,
+            "part": "whole",
+            "orientation": "horizontal",
+            "mask_key": "_horizontal_5",
+            "flags_fits": true,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_5.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -5577,18 +6435,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/gender_paw/gender_paw_trigender_vertical_0.png",
-            "filename": "assets/img/sprites/gender_paw/gender_paw_trigender_vertical_0.png"
+            "id": "assets/img/sprites/gender_paw/gender_paw_trigender_horizontal_5.png",
+            "filename": "assets/img/sprites/gender_paw/gender_paw_trigender_horizontal_5.png"
         },
-        "assets/img/sprites/gender_paw/gender_paw_trigender_vertical_1.png": {
+        "assets/img/sprites/gender_paw/gender_paw_trigender_vertical_0.png": {
             "flag_name": "Trigender",
-            "part": "left_part_2",
+            "part": "left_part_1",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/trigender/trigender.png",
-            "mask_key": "_vertical_1",
+            "mask_key": "_vertical_0",
             "flags_fits": false,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_1.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -5607,18 +6464,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/gender_paw/gender_paw_trigender_vertical_1.png",
-            "filename": "assets/img/sprites/gender_paw/gender_paw_trigender_vertical_1.png"
+            "id": "assets/img/sprites/gender_paw/gender_paw_trigender_vertical_0.png",
+            "filename": "assets/img/sprites/gender_paw/gender_paw_trigender_vertical_0.png"
         },
-        "assets/img/sprites/gender_paw/gender_paw_trigender_vertical_2.png": {
+        "assets/img/sprites/gender_paw/gender_paw_trigender_vertical_1.png": {
             "flag_name": "Trigender",
-            "part": "right_part_1",
+            "part": "left_part_2",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/trigender/trigender.png",
-            "mask_key": "_vertical_2",
+            "mask_key": "_vertical_1",
             "flags_fits": false,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_2.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_1.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -5637,18 +6493,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/gender_paw/gender_paw_trigender_vertical_2.png",
-            "filename": "assets/img/sprites/gender_paw/gender_paw_trigender_vertical_2.png"
+            "id": "assets/img/sprites/gender_paw/gender_paw_trigender_vertical_1.png",
+            "filename": "assets/img/sprites/gender_paw/gender_paw_trigender_vertical_1.png"
         },
-        "assets/img/sprites/gender_paw/gender_paw_trigender_vertical_3.png": {
+        "assets/img/sprites/gender_paw/gender_paw_trigender_vertical_2.png": {
             "flag_name": "Trigender",
-            "part": "right_part_2",
+            "part": "right_part_1",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/trigender/trigender.png",
-            "mask_key": "_vertical_3",
+            "mask_key": "_vertical_2",
             "flags_fits": false,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_3.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_2.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -5667,18 +6522,17 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/gender_paw/gender_paw_trigender_vertical_3.png",
-            "filename": "assets/img/sprites/gender_paw/gender_paw_trigender_vertical_3.png"
+            "id": "assets/img/sprites/gender_paw/gender_paw_trigender_vertical_2.png",
+            "filename": "assets/img/sprites/gender_paw/gender_paw_trigender_vertical_2.png"
         },
-        "assets/img/sprites/gender_paw/gender_paw_trigender_vertical_4.png": {
+        "assets/img/sprites/gender_paw/gender_paw_trigender_vertical_3.png": {
             "flag_name": "Trigender",
-            "part": "center",
+            "part": "right_part_2",
             "orientation": "vertical",
-            "flag_filename": "assets/img/flags/trigender/trigender.png",
-            "mask_key": "_vertical_4",
-            "flags_fits": true,
+            "mask_key": "_vertical_3",
+            "flags_fits": false,
             "flags_fits_perfect": false,
-            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_4.png",
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_3.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
@@ -5697,13 +6551,71 @@
                 "w": 22,
                 "h": 22
             },
+            "id": "assets/img/sprites/gender_paw/gender_paw_trigender_vertical_3.png",
+            "filename": "assets/img/sprites/gender_paw/gender_paw_trigender_vertical_3.png"
+        },
+        "assets/img/sprites/gender_paw/gender_paw_trigender_vertical_4.png": {
+            "flag_name": "Trigender",
+            "part": "center",
+            "orientation": "vertical",
+            "mask_key": "_vertical_4",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 220,
+                "y": 418,
+                "w": 22,
+                "h": 22
+            },
             "id": "assets/img/sprites/gender_paw/gender_paw_trigender_vertical_4.png",
             "filename": "assets/img/sprites/gender_paw/gender_paw_trigender_vertical_4.png"
+        },
+        "assets/img/sprites/gender_paw/gender_paw_trigender_vertical_5.png": {
+            "flag_name": "Trigender",
+            "part": "whole",
+            "orientation": "vertical",
+            "mask_key": "_vertical_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 242,
+                "y": 418,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/gender_paw/gender_paw_trigender_vertical_5.png",
+            "filename": "assets/img/sprites/gender_paw/gender_paw_trigender_vertical_5.png"
         }
     },
     "meta": {
         "size": {
-            "w": 220,
+            "w": 264,
             "h": 440
         },
         "image": "gender_paw.png",

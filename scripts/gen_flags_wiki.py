@@ -162,11 +162,11 @@ def main():
 
     print("Flags count: {}".format(len(all_flags)))
 
-    with open(r'flags_wiki.json', 'w') as file:
+    with open(r'output/flags_info.json', 'w') as file:
         json.dump(all_flags, file, indent=4)
 
-    with open(r'flags_wiki.json', 'r') as json_file:
-        with open(r'../_data/flags_wiki.yml', 'w') as yaml_file:
+    with open(r'output/flags_info.json', 'r') as json_file:
+        with open(r'../_data/flags_info.yml', 'w') as yaml_file:
             yaml.safe_dump(json.load(json_file), yaml_file, default_flow_style=False, allow_unicode=True)
     
 

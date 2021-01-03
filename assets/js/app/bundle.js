@@ -1,14 +1,4 @@
 (function(){function r(e,n,t){function o(i,f){if(!n[i]){if(!e[i]){var c="function"==typeof require&&require;if(!f&&c)return c(i,!0);if(u)return u(i,!0);var a=new Error("Cannot find module '"+i+"'");throw a.code="MODULE_NOT_FOUND",a}var p=n[i]={exports:{}};e[i][0].call(p.exports,function(r){var n=e[i][1][r];return o(n||r)},p,p.exports,r,e,n,t)}return n[i].exports}for(var u="function"==typeof require&&require,i=0;i<t.length;i++)o(t[i]);return o}return r})()({1:[function(require,module,exports){
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.Orientation = void 0;
-var Orientation;
-(function (Orientation) {
-    Orientation["Horizontal"] = "horizontal";
-    Orientation["Vertical"] = "vertical";
-})(Orientation = exports.Orientation || (exports.Orientation = {}));
-
-},{}],2:[function(require,module,exports){
 /*!
  * @pixi/accessibility - v5.3.6
  * Compiled Mon, 21 Dec 2020 20:35:06 UTC
@@ -603,7 +593,7 @@ exports.AccessibilityManager = AccessibilityManager;
 exports.accessibleTarget = accessibleTarget;
 
 
-},{"@pixi/display":6,"@pixi/utils":35}],3:[function(require,module,exports){
+},{"@pixi/display":5,"@pixi/utils":34}],2:[function(require,module,exports){
 /*!
  * @pixi/app - v5.3.6
  * Compiled Mon, 21 Dec 2020 20:35:06 UTC
@@ -884,7 +874,7 @@ Application.registerPlugin(ResizePlugin);
 exports.Application = Application;
 
 
-},{"@pixi/core":5,"@pixi/display":6}],4:[function(require,module,exports){
+},{"@pixi/core":4,"@pixi/display":5}],3:[function(require,module,exports){
 /*!
  * @pixi/constants - v5.3.6
  * Compiled Mon, 21 Dec 2020 20:35:06 UTC
@@ -1048,7 +1038,7 @@ Object.defineProperty(exports, '__esModule', { value: true });
 })(exports.MSAA_QUALITY || (exports.MSAA_QUALITY = {}));
 
 
-},{}],5:[function(require,module,exports){
+},{}],4:[function(require,module,exports){
 /*!
  * @pixi/core - v5.3.6
  * Compiled Mon, 21 Dec 2020 20:35:06 UTC
@@ -12063,7 +12053,7 @@ exports.systems = systems;
 exports.uniformParsers = uniformParsers;
 
 
-},{"@pixi/constants":4,"@pixi/math":17,"@pixi/runner":26,"@pixi/settings":27,"@pixi/ticker":34,"@pixi/utils":35}],6:[function(require,module,exports){
+},{"@pixi/constants":3,"@pixi/math":16,"@pixi/runner":25,"@pixi/settings":26,"@pixi/ticker":33,"@pixi/utils":34}],5:[function(require,module,exports){
 /*!
  * @pixi/display - v5.3.6
  * Compiled Mon, 21 Dec 2020 20:35:06 UTC
@@ -13744,7 +13734,7 @@ exports.DisplayObject = DisplayObject;
 exports.TemporaryDisplayObject = TemporaryDisplayObject;
 
 
-},{"@pixi/math":17,"@pixi/settings":27,"@pixi/utils":35}],7:[function(require,module,exports){
+},{"@pixi/math":16,"@pixi/settings":26,"@pixi/utils":34}],6:[function(require,module,exports){
 /*!
  * @pixi/extract - v5.3.6
  * Compiled Mon, 21 Dec 2020 20:35:06 UTC
@@ -13972,7 +13962,7 @@ var Extract = /** @class */ (function () {
 exports.Extract = Extract;
 
 
-},{"@pixi/core":5,"@pixi/math":17,"@pixi/utils":35}],8:[function(require,module,exports){
+},{"@pixi/core":4,"@pixi/math":16,"@pixi/utils":34}],7:[function(require,module,exports){
 /*!
  * @pixi/filter-alpha - v5.3.6
  * Compiled Mon, 21 Dec 2020 20:35:06 UTC
@@ -14067,7 +14057,7 @@ var AlphaFilter = /** @class */ (function (_super) {
 exports.AlphaFilter = AlphaFilter;
 
 
-},{"@pixi/core":5}],9:[function(require,module,exports){
+},{"@pixi/core":4}],8:[function(require,module,exports){
 /*!
  * @pixi/filter-blur - v5.3.6
  * Compiled Mon, 21 Dec 2020 20:35:06 UTC
@@ -14902,7 +14892,7 @@ exports.BlurFilter = BlurFilter;
 exports.BlurFilterPass = BlurFilterPass;
 
 
-},{"@pixi/core":5,"@pixi/settings":27}],10:[function(require,module,exports){
+},{"@pixi/core":4,"@pixi/settings":26}],9:[function(require,module,exports){
 /*!
  * @pixi/filter-color-matrix - v5.3.6
  * Compiled Mon, 21 Dec 2020 20:35:06 UTC
@@ -15440,7 +15430,7 @@ ColorMatrixFilter.prototype.grayscale = ColorMatrixFilter.prototype.greyscale;
 exports.ColorMatrixFilter = ColorMatrixFilter;
 
 
-},{"@pixi/core":5}],11:[function(require,module,exports){
+},{"@pixi/core":4}],10:[function(require,module,exports){
 /*!
  * @pixi/filter-displacement - v5.3.6
  * Compiled Mon, 21 Dec 2020 20:35:06 UTC
@@ -15581,7 +15571,7 @@ var DisplacementFilter = /** @class */ (function (_super) {
 exports.DisplacementFilter = DisplacementFilter;
 
 
-},{"@pixi/core":5,"@pixi/math":17}],12:[function(require,module,exports){
+},{"@pixi/core":4,"@pixi/math":16}],11:[function(require,module,exports){
 /*!
  * @pixi/filter-fxaa - v5.3.6
  * Compiled Mon, 21 Dec 2020 20:35:06 UTC
@@ -15651,7 +15641,7 @@ var FXAAFilter = /** @class */ (function (_super) {
 exports.FXAAFilter = FXAAFilter;
 
 
-},{"@pixi/core":5}],13:[function(require,module,exports){
+},{"@pixi/core":4}],12:[function(require,module,exports){
 /*!
  * @pixi/filter-noise - v5.3.6
  * Compiled Mon, 21 Dec 2020 20:35:06 UTC
@@ -15761,7 +15751,7 @@ var NoiseFilter = /** @class */ (function (_super) {
 exports.NoiseFilter = NoiseFilter;
 
 
-},{"@pixi/core":5}],14:[function(require,module,exports){
+},{"@pixi/core":4}],13:[function(require,module,exports){
 /*!
  * @pixi/graphics - v5.3.6
  * Compiled Mon, 21 Dec 2020 20:35:06 UTC
@@ -19019,7 +19009,7 @@ exports.LineStyle = LineStyle;
 exports.graphicsUtils = index;
 
 
-},{"@pixi/constants":4,"@pixi/core":5,"@pixi/display":6,"@pixi/math":17,"@pixi/utils":35}],15:[function(require,module,exports){
+},{"@pixi/constants":3,"@pixi/core":4,"@pixi/display":5,"@pixi/math":16,"@pixi/utils":34}],14:[function(require,module,exports){
 /*!
  * @pixi/interaction - v5.3.6
  * Compiled Mon, 21 Dec 2020 20:35:06 UTC
@@ -21231,7 +21221,7 @@ exports.InteractionTrackingData = InteractionTrackingData;
 exports.interactiveTarget = interactiveTarget;
 
 
-},{"@pixi/display":6,"@pixi/math":17,"@pixi/ticker":34,"@pixi/utils":35}],16:[function(require,module,exports){
+},{"@pixi/display":5,"@pixi/math":16,"@pixi/ticker":33,"@pixi/utils":34}],15:[function(require,module,exports){
 /*!
  * @pixi/loaders - v5.3.6
  * Compiled Mon, 21 Dec 2020 20:35:06 UTC
@@ -21561,7 +21551,7 @@ exports.LoaderResource = LoaderResource;
 exports.TextureLoader = TextureLoader;
 
 
-},{"@pixi/core":5,"resource-loader":52}],17:[function(require,module,exports){
+},{"@pixi/core":4,"resource-loader":51}],16:[function(require,module,exports){
 /*!
  * @pixi/math - v5.3.6
  * Compiled Mon, 21 Dec 2020 20:35:06 UTC
@@ -23495,7 +23485,7 @@ exports.Transform = Transform;
 exports.groupD8 = groupD8;
 
 
-},{}],18:[function(require,module,exports){
+},{}],17:[function(require,module,exports){
 /*!
  * @pixi/mesh-extras - v5.3.6
  * Compiled Mon, 21 Dec 2020 20:35:06 UTC
@@ -24235,7 +24225,7 @@ exports.SimplePlane = SimplePlane;
 exports.SimpleRope = SimpleRope;
 
 
-},{"@pixi/constants":4,"@pixi/core":5,"@pixi/mesh":19}],19:[function(require,module,exports){
+},{"@pixi/constants":3,"@pixi/core":4,"@pixi/mesh":18}],18:[function(require,module,exports){
 /*!
  * @pixi/mesh - v5.3.6
  * Compiled Mon, 21 Dec 2020 20:35:06 UTC
@@ -24957,7 +24947,7 @@ exports.MeshGeometry = MeshGeometry;
 exports.MeshMaterial = MeshMaterial;
 
 
-},{"@pixi/constants":4,"@pixi/core":5,"@pixi/display":6,"@pixi/math":17,"@pixi/settings":27,"@pixi/utils":35}],20:[function(require,module,exports){
+},{"@pixi/constants":3,"@pixi/core":4,"@pixi/display":5,"@pixi/math":16,"@pixi/settings":26,"@pixi/utils":34}],19:[function(require,module,exports){
 /*!
  * @pixi/mixin-cache-as-bitmap - v5.3.6
  * Compiled Mon, 21 Dec 2020 20:35:06 UTC
@@ -25287,7 +25277,7 @@ display.DisplayObject.prototype._cacheAsBitmapDestroy = function _cacheAsBitmapD
 exports.CacheData = CacheData;
 
 
-},{"@pixi/core":5,"@pixi/display":6,"@pixi/math":17,"@pixi/settings":27,"@pixi/sprite":30,"@pixi/utils":35}],21:[function(require,module,exports){
+},{"@pixi/core":4,"@pixi/display":5,"@pixi/math":16,"@pixi/settings":26,"@pixi/sprite":29,"@pixi/utils":34}],20:[function(require,module,exports){
 /*!
  * @pixi/mixin-get-child-by-name - v5.3.6
  * Compiled Mon, 21 Dec 2020 20:35:06 UTC
@@ -25339,7 +25329,7 @@ display.Container.prototype.getChildByName = function getChildByName(name, deep)
 };
 
 
-},{"@pixi/display":6}],22:[function(require,module,exports){
+},{"@pixi/display":5}],21:[function(require,module,exports){
 /*!
  * @pixi/mixin-get-global-position - v5.3.6
  * Compiled Mon, 21 Dec 2020 20:35:06 UTC
@@ -25377,7 +25367,7 @@ display.DisplayObject.prototype.getGlobalPosition = function getGlobalPosition(p
 };
 
 
-},{"@pixi/display":6,"@pixi/math":17}],23:[function(require,module,exports){
+},{"@pixi/display":5,"@pixi/math":16}],22:[function(require,module,exports){
 /*!
  * @pixi/particles - v5.3.6
  * Compiled Mon, 21 Dec 2020 20:35:06 UTC
@@ -26194,7 +26184,7 @@ exports.ParticleContainer = ParticleContainer;
 exports.ParticleRenderer = ParticleRenderer;
 
 
-},{"@pixi/constants":4,"@pixi/core":5,"@pixi/display":6,"@pixi/math":17,"@pixi/utils":35}],24:[function(require,module,exports){
+},{"@pixi/constants":3,"@pixi/core":4,"@pixi/display":5,"@pixi/math":16,"@pixi/utils":34}],23:[function(require,module,exports){
 /*!
  * @pixi/polyfill - v5.3.6
  * Compiled Mon, 21 Dec 2020 20:35:06 UTC
@@ -26313,7 +26303,7 @@ if (!window.Int32Array) {
 }
 
 
-},{"es6-promise-polyfill":37,"object-assign":44}],25:[function(require,module,exports){
+},{"es6-promise-polyfill":36,"object-assign":43}],24:[function(require,module,exports){
 /*!
  * @pixi/prepare - v5.3.6
  * Compiled Mon, 21 Dec 2020 20:35:06 UTC
@@ -26956,7 +26946,7 @@ exports.Prepare = Prepare;
 exports.TimeLimiter = TimeLimiter;
 
 
-},{"@pixi/core":5,"@pixi/display":6,"@pixi/graphics":14,"@pixi/settings":27,"@pixi/text":33,"@pixi/ticker":34}],26:[function(require,module,exports){
+},{"@pixi/core":4,"@pixi/display":5,"@pixi/graphics":13,"@pixi/settings":26,"@pixi/text":32,"@pixi/ticker":33}],25:[function(require,module,exports){
 /*!
  * @pixi/runner - v5.3.6
  * Compiled Mon, 21 Dec 2020 20:35:06 UTC
@@ -27160,7 +27150,7 @@ Object.defineProperties(Runner.prototype, {
 exports.Runner = Runner;
 
 
-},{}],27:[function(require,module,exports){
+},{}],26:[function(require,module,exports){
 /*!
  * @pixi/settings - v5.3.6
  * Compiled Mon, 21 Dec 2020 20:35:06 UTC
@@ -27450,7 +27440,7 @@ exports.isMobile = isMobile;
 exports.settings = settings;
 
 
-},{"ismobilejs":39}],28:[function(require,module,exports){
+},{"ismobilejs":38}],27:[function(require,module,exports){
 /*!
  * @pixi/sprite-animated - v5.3.6
  * Compiled Mon, 21 Dec 2020 20:35:06 UTC
@@ -27924,7 +27914,7 @@ var AnimatedSprite = /** @class */ (function (_super) {
 exports.AnimatedSprite = AnimatedSprite;
 
 
-},{"@pixi/core":5,"@pixi/sprite":30,"@pixi/ticker":34}],29:[function(require,module,exports){
+},{"@pixi/core":4,"@pixi/sprite":29,"@pixi/ticker":33}],28:[function(require,module,exports){
 /*!
  * @pixi/sprite-tiling - v5.3.6
  * Compiled Mon, 21 Dec 2020 20:35:06 UTC
@@ -28339,7 +28329,7 @@ exports.TilingSprite = TilingSprite;
 exports.TilingSpriteRenderer = TilingSpriteRenderer;
 
 
-},{"@pixi/constants":4,"@pixi/core":5,"@pixi/math":17,"@pixi/sprite":30,"@pixi/utils":35}],30:[function(require,module,exports){
+},{"@pixi/constants":3,"@pixi/core":4,"@pixi/math":16,"@pixi/sprite":29,"@pixi/utils":34}],29:[function(require,module,exports){
 /*!
  * @pixi/sprite - v5.3.6
  * Compiled Mon, 21 Dec 2020 20:35:06 UTC
@@ -28934,7 +28924,7 @@ var Sprite = /** @class */ (function (_super) {
 exports.Sprite = Sprite;
 
 
-},{"@pixi/constants":4,"@pixi/core":5,"@pixi/display":6,"@pixi/math":17,"@pixi/settings":27,"@pixi/utils":35}],31:[function(require,module,exports){
+},{"@pixi/constants":3,"@pixi/core":4,"@pixi/display":5,"@pixi/math":16,"@pixi/settings":26,"@pixi/utils":34}],30:[function(require,module,exports){
 /*!
  * @pixi/spritesheet - v5.3.6
  * Compiled Mon, 21 Dec 2020 20:35:06 UTC
@@ -29278,7 +29268,7 @@ exports.Spritesheet = Spritesheet;
 exports.SpritesheetLoader = SpritesheetLoader;
 
 
-},{"@pixi/core":5,"@pixi/loaders":16,"@pixi/math":17,"@pixi/utils":35}],32:[function(require,module,exports){
+},{"@pixi/core":4,"@pixi/loaders":15,"@pixi/math":16,"@pixi/utils":34}],31:[function(require,module,exports){
 /*!
  * @pixi/text-bitmap - v5.3.6
  * Compiled Mon, 21 Dec 2020 20:35:06 UTC
@@ -31083,7 +31073,7 @@ exports.BitmapFontLoader = BitmapFontLoader;
 exports.BitmapText = BitmapText;
 
 
-},{"@pixi/core":5,"@pixi/display":6,"@pixi/loaders":16,"@pixi/math":17,"@pixi/mesh":19,"@pixi/settings":27,"@pixi/text":33,"@pixi/utils":35}],33:[function(require,module,exports){
+},{"@pixi/core":4,"@pixi/display":5,"@pixi/loaders":15,"@pixi/math":16,"@pixi/mesh":18,"@pixi/settings":26,"@pixi/text":32,"@pixi/utils":34}],32:[function(require,module,exports){
 /*!
  * @pixi/text - v5.3.6
  * Compiled Mon, 21 Dec 2020 20:35:06 UTC
@@ -33144,7 +33134,7 @@ exports.TextMetrics = TextMetrics;
 exports.TextStyle = TextStyle;
 
 
-},{"@pixi/core":5,"@pixi/math":17,"@pixi/settings":27,"@pixi/sprite":30,"@pixi/utils":35}],34:[function(require,module,exports){
+},{"@pixi/core":4,"@pixi/math":16,"@pixi/settings":26,"@pixi/sprite":29,"@pixi/utils":34}],33:[function(require,module,exports){
 /*!
  * @pixi/ticker - v5.3.6
  * Compiled Mon, 21 Dec 2020 20:35:06 UTC
@@ -33996,7 +33986,7 @@ exports.Ticker = Ticker;
 exports.TickerPlugin = TickerPlugin;
 
 
-},{"@pixi/settings":27}],35:[function(require,module,exports){
+},{"@pixi/settings":26}],34:[function(require,module,exports){
 /*!
  * @pixi/utils - v5.3.6
  * Compiled Mon, 21 Dec 2020 20:35:06 UTC
@@ -34933,7 +34923,7 @@ exports.trimCanvas = trimCanvas;
 exports.uid = uid;
 
 
-},{"@pixi/constants":4,"@pixi/settings":27,"earcut":36,"eventemitter3":38,"url":60}],36:[function(require,module,exports){
+},{"@pixi/constants":3,"@pixi/settings":26,"earcut":35,"eventemitter3":37,"url":59}],35:[function(require,module,exports){
 'use strict';
 
 module.exports = earcut;
@@ -35614,7 +35604,7 @@ earcut.flatten = function (data) {
     return result;
 };
 
-},{}],37:[function(require,module,exports){
+},{}],36:[function(require,module,exports){
 (function (global,setImmediate){(function (){
 (function(global){
 
@@ -35965,7 +35955,7 @@ Promise.reject = function(reason){
 
 }).call(this)}).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("timers").setImmediate)
 
-},{"timers":54}],38:[function(require,module,exports){
+},{"timers":53}],37:[function(require,module,exports){
 'use strict';
 
 var has = Object.prototype.hasOwnProperty
@@ -36303,7 +36293,7 @@ if ('undefined' !== typeof module) {
   module.exports = EventEmitter;
 }
 
-},{}],39:[function(require,module,exports){
+},{}],38:[function(require,module,exports){
 "use strict";
 function __export(m) {
     for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
@@ -36313,7 +36303,7 @@ __export(require("./isMobile"));
 var isMobile_1 = require("./isMobile");
 exports["default"] = isMobile_1["default"];
 
-},{"./isMobile":40}],40:[function(require,module,exports){
+},{"./isMobile":39}],39:[function(require,module,exports){
 "use strict";
 exports.__esModule = true;
 var appleIphone = /iPhone/i;
@@ -36442,7 +36432,7 @@ function isMobile(param) {
 }
 exports["default"] = isMobile;
 
-},{}],41:[function(require,module,exports){
+},{}],40:[function(require,module,exports){
 /*!
  * jQuery JavaScript Library v3.5.1
  * https://jquery.com/
@@ -47316,7 +47306,7 @@ if ( typeof noGlobal === "undefined" ) {
 return jQuery;
 } );
 
-},{}],42:[function(require,module,exports){
+},{}],41:[function(require,module,exports){
 (function (global){(function (){
 /*!
     localForage -- Offline Storage, Improved
@@ -50122,7 +50112,7 @@ module.exports = localforage_js;
 
 }).call(this)}).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
 
-},{}],43:[function(require,module,exports){
+},{}],42:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, '__esModule', {
@@ -50289,7 +50279,7 @@ MiniSignal.MiniSignalBinding = MiniSignalBinding;
 exports['default'] = MiniSignal;
 module.exports = exports['default'];
 
-},{}],44:[function(require,module,exports){
+},{}],43:[function(require,module,exports){
 /*
 object-assign
 (c) Sindre Sorhus
@@ -50381,7 +50371,7 @@ module.exports = shouldUseNative() ? Object.assign : function (target, source) {
 	return to;
 };
 
-},{}],45:[function(require,module,exports){
+},{}],44:[function(require,module,exports){
 'use strict'
 
 function parseURI (str, opts) {
@@ -50432,7 +50422,7 @@ function parseURI (str, opts) {
 
 module.exports = parseURI
 
-},{}],46:[function(require,module,exports){
+},{}],45:[function(require,module,exports){
 /*!
  * pixi.js - v5.3.6
  * Compiled Mon, 21 Dec 2020 20:35:06 UTC
@@ -51998,7 +51988,7 @@ exports.filters = filters;
 exports.useDeprecated = useDeprecated;
 
 
-},{"@pixi/accessibility":2,"@pixi/app":3,"@pixi/constants":4,"@pixi/core":5,"@pixi/display":6,"@pixi/extract":7,"@pixi/filter-alpha":8,"@pixi/filter-blur":9,"@pixi/filter-color-matrix":10,"@pixi/filter-displacement":11,"@pixi/filter-fxaa":12,"@pixi/filter-noise":13,"@pixi/graphics":14,"@pixi/interaction":15,"@pixi/loaders":16,"@pixi/math":17,"@pixi/mesh":19,"@pixi/mesh-extras":18,"@pixi/mixin-cache-as-bitmap":20,"@pixi/mixin-get-child-by-name":21,"@pixi/mixin-get-global-position":22,"@pixi/particles":23,"@pixi/polyfill":24,"@pixi/prepare":25,"@pixi/runner":26,"@pixi/settings":27,"@pixi/sprite":30,"@pixi/sprite-animated":28,"@pixi/sprite-tiling":29,"@pixi/spritesheet":31,"@pixi/text":33,"@pixi/text-bitmap":32,"@pixi/ticker":34,"@pixi/utils":35}],47:[function(require,module,exports){
+},{"@pixi/accessibility":1,"@pixi/app":2,"@pixi/constants":3,"@pixi/core":4,"@pixi/display":5,"@pixi/extract":6,"@pixi/filter-alpha":7,"@pixi/filter-blur":8,"@pixi/filter-color-matrix":9,"@pixi/filter-displacement":10,"@pixi/filter-fxaa":11,"@pixi/filter-noise":12,"@pixi/graphics":13,"@pixi/interaction":14,"@pixi/loaders":15,"@pixi/math":16,"@pixi/mesh":18,"@pixi/mesh-extras":17,"@pixi/mixin-cache-as-bitmap":19,"@pixi/mixin-get-child-by-name":20,"@pixi/mixin-get-global-position":21,"@pixi/particles":22,"@pixi/polyfill":23,"@pixi/prepare":24,"@pixi/runner":25,"@pixi/settings":26,"@pixi/sprite":29,"@pixi/sprite-animated":27,"@pixi/sprite-tiling":28,"@pixi/spritesheet":30,"@pixi/text":32,"@pixi/text-bitmap":31,"@pixi/ticker":33,"@pixi/utils":34}],46:[function(require,module,exports){
 // shim for using process in browser
 var process = module.exports = {};
 
@@ -52184,7 +52174,7 @@ process.chdir = function (dir) {
 };
 process.umask = function() { return 0; };
 
-},{}],48:[function(require,module,exports){
+},{}],47:[function(require,module,exports){
 (function (global){(function (){
 /*! https://mths.be/punycode v1.3.2 by @mathias */
 ;(function(root) {
@@ -52719,7 +52709,7 @@ process.umask = function() { return 0; };
 
 }).call(this)}).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
 
-},{}],49:[function(require,module,exports){
+},{}],48:[function(require,module,exports){
 // Copyright Joyent, Inc. and other Node contributors.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a
@@ -52805,7 +52795,7 @@ var isArray = Array.isArray || function (xs) {
   return Object.prototype.toString.call(xs) === '[object Array]';
 };
 
-},{}],50:[function(require,module,exports){
+},{}],49:[function(require,module,exports){
 // Copyright Joyent, Inc. and other Node contributors.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a
@@ -52892,13 +52882,13 @@ var objectKeys = Object.keys || function (obj) {
   return res;
 };
 
-},{}],51:[function(require,module,exports){
+},{}],50:[function(require,module,exports){
 'use strict';
 
 exports.decode = exports.parse = require('./decode');
 exports.encode = exports.stringify = require('./encode');
 
-},{"./decode":49,"./encode":50}],52:[function(require,module,exports){
+},{"./decode":48,"./encode":49}],51:[function(require,module,exports){
 /*!
  * resource-loader - v3.0.1
  * https://github.com/pixijs/pixi-sound
@@ -55249,7 +55239,7 @@ exports.encodeBinary = encodeBinary;
 exports.middleware = index;
 
 
-},{"mini-signals":43,"parse-uri":45}],53:[function(require,module,exports){
+},{"mini-signals":42,"parse-uri":44}],52:[function(require,module,exports){
 /*!
  * Select2 4.0.13
  * https://select2.github.io
@@ -61359,7 +61349,7 @@ S2.define('jquery.select2',[
   return select2;
 }));
 
-},{"jquery":41}],54:[function(require,module,exports){
+},{"jquery":40}],53:[function(require,module,exports){
 (function (setImmediate,clearImmediate){(function (){
 var nextTick = require('process/browser.js').nextTick;
 var apply = Function.prototype.apply;
@@ -61439,7 +61429,7 @@ exports.clearImmediate = typeof clearImmediate === "function" ? clearImmediate :
 };
 }).call(this)}).call(this,require("timers").setImmediate,require("timers").clearImmediate)
 
-},{"process/browser.js":47,"timers":54}],55:[function(require,module,exports){
+},{"process/browser.js":46,"timers":53}],54:[function(require,module,exports){
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 var level_1 = require("./level");
@@ -61524,7 +61514,7 @@ var Display = /** @class */ (function () {
 }());
 exports.Display = Display;
 
-},{"./level":57,"./loggerManager":59}],56:[function(require,module,exports){
+},{"./level":56,"./loggerManager":58}],55:[function(require,module,exports){
 "use strict";
 /**
  * @file Automatically generated by barrelsby.
@@ -61538,7 +61528,7 @@ __export(require("./level"));
 __export(require("./logger"));
 __export(require("./loggerManager"));
 
-},{"./display":55,"./level":57,"./logger":58,"./loggerManager":59}],57:[function(require,module,exports){
+},{"./display":54,"./level":56,"./logger":57,"./loggerManager":58}],56:[function(require,module,exports){
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 /**
@@ -61568,7 +61558,7 @@ var Level;
     Level[Level["ERROR"] = 4] = "ERROR";
 })(Level = exports.Level || (exports.Level = {}));
 
-},{}],58:[function(require,module,exports){
+},{}],57:[function(require,module,exports){
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 var level_1 = require("./level");
@@ -61670,7 +61660,7 @@ var Logger = /** @class */ (function () {
 }());
 exports.Logger = Logger;
 
-},{"./display":55,"./level":57}],59:[function(require,module,exports){
+},{"./display":54,"./level":56}],58:[function(require,module,exports){
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 var logger_1 = require("./logger");
@@ -61787,7 +61777,7 @@ var LoggerManager = /** @class */ (function () {
 }());
 exports.LoggerManager = LoggerManager;
 
-},{"./logger":58}],60:[function(require,module,exports){
+},{"./logger":57}],59:[function(require,module,exports){
 // Copyright Joyent, Inc. and other Node contributors.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a
@@ -62521,7 +62511,7 @@ Url.prototype.parseHost = function() {
   if (host) this.hostname = host;
 };
 
-},{"./util":61,"punycode":48,"querystring":51}],61:[function(require,module,exports){
+},{"./util":60,"punycode":47,"querystring":50}],60:[function(require,module,exports){
 'use strict';
 
 module.exports = {
@@ -62539,7 +62529,200 @@ module.exports = {
   }
 };
 
-},{}],62:[function(require,module,exports){
+},{}],61:[function(require,module,exports){
+"use strict";
+var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
+    function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
+    return new (P || (P = Promise))(function (resolve, reject) {
+        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }
+        function rejected(value) { try { step(generator["throw"](value)); } catch (e) { reject(e); } }
+        function step(result) { result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected); }
+        step((generator = generator.apply(thisArg, _arguments || [])).next());
+    });
+};
+var __generator = (this && this.__generator) || function (thisArg, body) {
+    var _ = { label: 0, sent: function() { if (t[0] & 1) throw t[1]; return t[1]; }, trys: [], ops: [] }, f, y, t, g;
+    return g = { next: verb(0), "throw": verb(1), "return": verb(2) }, typeof Symbol === "function" && (g[Symbol.iterator] = function() { return this; }), g;
+    function verb(n) { return function (v) { return step([n, v]); }; }
+    function step(op) {
+        if (f) throw new TypeError("Generator is already executing.");
+        while (_) try {
+            if (f = 1, y && (t = op[0] & 2 ? y["return"] : op[0] ? y["throw"] || ((t = y["return"]) && t.call(y), 0) : y.next) && !(t = t.call(y, op[1])).done) return t;
+            if (y = 0, t) op = [op[0] & 2, t.value];
+            switch (op[0]) {
+                case 0: case 1: t = op; break;
+                case 4: _.label++; return { value: op[1], done: false };
+                case 5: _.label++; y = op[1]; op = [0]; continue;
+                case 7: op = _.ops.pop(); _.trys.pop(); continue;
+                default:
+                    if (!(t = _.trys, t = t.length > 0 && t[t.length - 1]) && (op[0] === 6 || op[0] === 2)) { _ = 0; continue; }
+                    if (op[0] === 3 && (!t || (op[1] > t[0] && op[1] < t[3]))) { _.label = op[1]; break; }
+                    if (op[0] === 6 && _.label < t[1]) { _.label = t[1]; t = op; break; }
+                    if (t && _.label < t[2]) { _.label = t[2]; _.ops.push(op); break; }
+                    if (t[2]) _.ops.pop();
+                    _.trys.pop(); continue;
+            }
+            op = body.call(thisArg, _);
+        } catch (e) { op = [6, e]; y = 0; } finally { f = t = 0; }
+        if (op[0] & 5) throw op[1]; return { value: op[0] ? op[1] : void 0, done: true };
+    }
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.Application = void 0;
+var application_data_1 = require("./data/application.data");
+var typescript_logger_1 = require("typescript-logger");
+var pixi_js_1 = require("pixi.js");
+var site_1 = require("./site");
+var sprite_adapter_1 = require("./sprite.adapter");
+var form_parts_adapter_1 = require("./form-parts.adapter");
+var flag_info_adapter_1 = require("./flag-info.adapter");
+var Application = (function () {
+    function Application() {
+        this._appData = new application_data_1.ApplicationData();
+        this._loader = new pixi_js_1.Loader();
+        this.log = typescript_logger_1.LoggerManager.create('Application');
+    }
+    Application.prototype.init = function () {
+        var that = this;
+        this._appData.loadFromStorage().then(function () {
+            that.initSite();
+        });
+    };
+    Application.prototype.initSite = function () {
+        return __awaiter(this, void 0, void 0, function () {
+            return __generator(this, function (_a) {
+                this.initTheme();
+                this.initSettings();
+                this.initForm();
+                this.initCanvas();
+                this.initObservers();
+                return [2];
+            });
+        });
+    };
+    Application.prototype.initTheme = function () {
+        $('body').removeAttr('data-theme');
+        switch (this._appData.theme) {
+            case application_data_1.Theme.Dark:
+                $('#chbDarkTheme').bootstrapToggle('on');
+                $('body').attr('data-theme', 'dark');
+                break;
+            case application_data_1.Theme.Light:
+            default:
+                $('#chbDarkTheme').bootstrapToggle('off');
+                $('body').attr('data-theme', 'light');
+                break;
+        }
+    };
+    Application.prototype.initSettings = function () {
+        return __awaiter(this, void 0, void 0, function () {
+            var that;
+            return __generator(this, function (_a) {
+                that = this;
+                $('#btnClearSession').on('click', function () {
+                    that._appData.clearSessionStorage();
+                });
+                $('#chbDarkTheme').on('change', function () {
+                    $('body').removeAttr('data-theme');
+                    if ($(this).prop('checked')) {
+                        $('body').attr('data-theme', 'dark');
+                        that._appData.theme = application_data_1.Theme.Dark;
+                    }
+                    else {
+                        $('body').attr('data-theme', 'light');
+                        that._appData.theme = application_data_1.Theme.Light;
+                    }
+                });
+                $('#chbShowGrid').prop('checked', this._appData.settings.show_grid);
+                $('#chbShowGrid').on('change', function () {
+                    var checked = $(this).is(':checked');
+                    that._appData.settings.show_grid = checked;
+                    that._appData.settings = that._appData.settings;
+                });
+                return [2];
+            });
+        });
+    };
+    Application.prototype.initObservers = function () {
+        var that = this;
+        this._appData.currentSelectionObservable.attach(new (function () {
+            function class_1() {
+            }
+            class_1.prototype.update = function (subject) {
+                var _a;
+                (_a = that._spriteAdapter) === null || _a === void 0 ? void 0 : _a.updateParts();
+            };
+            return class_1;
+        }()));
+    };
+    Application.prototype.initForm = function () {
+        return __awaiter(this, void 0, void 0, function () {
+            return __generator(this, function (_a) {
+                this.initFormParts();
+                this.initFormInfo();
+                return [2];
+            });
+        });
+    };
+    Application.prototype.initFormParts = function () {
+        return __awaiter(this, void 0, void 0, function () {
+            return __generator(this, function (_a) {
+                this._formPartsAdapter = new form_parts_adapter_1.FormPartsAdapter(this._appData);
+                this._formPartsAdapter.init();
+                return [2];
+            });
+        });
+    };
+    Application.prototype.initFormInfo = function () {
+        var _a;
+        return __awaiter(this, void 0, void 0, function () {
+            return __generator(this, function (_b) {
+                this._flagInfoAdapter = new flag_info_adapter_1.FlagInfoAdapter(this._appData);
+                (_a = this._flagInfoAdapter) === null || _a === void 0 ? void 0 : _a.init();
+                return [2];
+            });
+        });
+    };
+    Application.prototype.initCanvas = function () {
+        return __awaiter(this, void 0, void 0, function () {
+            var that, sprite_sheet_filenames;
+            return __generator(this, function (_a) {
+                that = this;
+                this._pixiApp = new pixi_js_1.Application({
+                    width: 720,
+                    height: 720,
+                    antialias: false,
+                    transparent: true,
+                    resizeTo: $('#spriteViewContainer')[0]
+                });
+                $('#spriteViewContainer').html(this._pixiApp.view);
+                this._spriteAdapter = new sprite_adapter_1.SpriteAdapter(this._pixiApp, this._appData, '#btnDownload', '#btnFullDownload');
+                sprite_sheet_filenames = site_1.site.data.sprites.map(function (it) { return it.sheet; });
+                sprite_sheet_filenames = sprite_sheet_filenames.filter(function (filename, index) {
+                    return sprite_sheet_filenames.indexOf(filename) === index;
+                });
+                this._loader.baseUrl = site_1.site.base_url;
+                this._loader.onProgress.add(function () {
+                    that.loadProgressHandler();
+                });
+                this._loader.add(sprite_sheet_filenames).load(function (loader, resources) {
+                    that.setupSpriteAdapters(loader, resources);
+                });
+                return [2];
+            });
+        });
+    };
+    Application.prototype.setupSpriteAdapters = function (loader, resources) {
+        var _a;
+        (_a = this._spriteAdapter) === null || _a === void 0 ? void 0 : _a.init(resources);
+    };
+    Application.prototype.loadProgressHandler = function () {
+    };
+    return Application;
+}());
+exports.Application = Application;
+
+},{"./data/application.data":62,"./flag-info.adapter":64,"./form-parts.adapter":65,"./site":68,"./sprite.adapter":69,"pixi.js":45,"typescript-logger":55}],62:[function(require,module,exports){
 "use strict";
 var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
     function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
@@ -62582,15 +62765,16 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.ApplicationData = exports.CurrentSelection = exports.CurrentSelectionPart = exports.Settings = exports.Theme = void 0;
-var flags_data_1 = require("./../_site/src/flags.data");
 var localforage_1 = __importDefault(require("localforage"));
-var observer_1 = require("./observer");
-var site_1 = require("./site");
+var observer_1 = require("../observer");
+var site_1 = require("../site");
+var sprite_data_1 = require("./sprite.data");
 var STORAGE_KEY_SETTINGS = 'settings';
 var STORAGE_KEY_THEME = 'theme';
 var STORAGE_KEY_VERSION = 'version';
 var STORAGE_KEY_CURRENT_SELECTION = 'current_selection';
 var STORAGE_KEY_LAST_FLAG = 'last_flag';
+var DEFAULT_FLAG_NAME_NONE = "None";
 var Theme;
 (function (Theme) {
     Theme["Light"] = "light";
@@ -62605,8 +62789,8 @@ var Settings = (function () {
 exports.Settings = Settings;
 var CurrentSelectionPart = (function () {
     function CurrentSelectionPart() {
-        this.flag_name = "None";
-        this.orientation = flags_data_1.Orientation.Vertical;
+        this.flag_name = DEFAULT_FLAG_NAME_NONE;
+        this.orientation = sprite_data_1.Orientation.Vertical;
     }
     return CurrentSelectionPart;
 }());
@@ -62762,209 +62946,51 @@ var ApplicationData = (function () {
         this._currentSelection.data.parts[part].orientation = orientation;
         this.currentSelection = this.currentSelection;
     };
+    ApplicationData.prototype.setForm = function (form, parts_list, default_flag_name) {
+        if (default_flag_name === void 0) { default_flag_name = ''; }
+        var currentSelection = this.currentSelection;
+        currentSelection.form = form;
+        for (var _i = 0, parts_list_1 = parts_list; _i < parts_list_1.length; _i++) {
+            var part = parts_list_1[_i];
+            if (currentSelection.parts && !(part in currentSelection.parts)) {
+                currentSelection.parts[part] = new CurrentSelectionPart();
+                if (default_flag_name) {
+                    currentSelection.parts[part].flag_name = default_flag_name;
+                }
+            }
+        }
+        this.currentSelection = currentSelection;
+    };
     return ApplicationData;
 }());
 exports.ApplicationData = ApplicationData;
 
-},{"./../_site/src/flags.data":1,"./observer":68,"./site":69,"localforage":42}],63:[function(require,module,exports){
+},{"../observer":67,"../site":68,"./sprite.data":63,"localforage":41}],63:[function(require,module,exports){
 "use strict";
-var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
-    function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
-    return new (P || (P = Promise))(function (resolve, reject) {
-        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }
-        function rejected(value) { try { step(generator["throw"](value)); } catch (e) { reject(e); } }
-        function step(result) { result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected); }
-        step((generator = generator.apply(thisArg, _arguments || [])).next());
-    });
-};
-var __generator = (this && this.__generator) || function (thisArg, body) {
-    var _ = { label: 0, sent: function() { if (t[0] & 1) throw t[1]; return t[1]; }, trys: [], ops: [] }, f, y, t, g;
-    return g = { next: verb(0), "throw": verb(1), "return": verb(2) }, typeof Symbol === "function" && (g[Symbol.iterator] = function() { return this; }), g;
-    function verb(n) { return function (v) { return step([n, v]); }; }
-    function step(op) {
-        if (f) throw new TypeError("Generator is already executing.");
-        while (_) try {
-            if (f = 1, y && (t = op[0] & 2 ? y["return"] : op[0] ? y["throw"] || ((t = y["return"]) && t.call(y), 0) : y.next) && !(t = t.call(y, op[1])).done) return t;
-            if (y = 0, t) op = [op[0] & 2, t.value];
-            switch (op[0]) {
-                case 0: case 1: t = op; break;
-                case 4: _.label++; return { value: op[1], done: false };
-                case 5: _.label++; y = op[1]; op = [0]; continue;
-                case 7: op = _.ops.pop(); _.trys.pop(); continue;
-                default:
-                    if (!(t = _.trys, t = t.length > 0 && t[t.length - 1]) && (op[0] === 6 || op[0] === 2)) { _ = 0; continue; }
-                    if (op[0] === 3 && (!t || (op[1] > t[0] && op[1] < t[3]))) { _.label = op[1]; break; }
-                    if (op[0] === 6 && _.label < t[1]) { _.label = t[1]; t = op; break; }
-                    if (t && _.label < t[2]) { _.label = t[2]; _.ops.push(op); break; }
-                    if (t[2]) _.ops.pop();
-                    _.trys.pop(); continue;
-            }
-            op = body.call(thisArg, _);
-        } catch (e) { op = [6, e]; y = 0; } finally { f = t = 0; }
-        if (op[0] & 5) throw op[1]; return { value: op[0] ? op[1] : void 0, done: true };
-    }
-};
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.Application = void 0;
-var application_data_1 = require("./application.data");
-var typescript_logger_1 = require("typescript-logger");
-var pixi_js_1 = require("pixi.js");
-var site_1 = require("./site");
-var sprite_adapter_1 = require("./sprite.adapter");
-var form_parts_adapter_1 = require("./form-parts.adapter");
-var flag_wiki_adapter_1 = require("./flag-wiki.adapter");
-var Application = (function () {
-    function Application() {
-        this._appData = new application_data_1.ApplicationData();
-        this._loader = new pixi_js_1.Loader();
-        this.log = typescript_logger_1.LoggerManager.create('Application');
-    }
-    Application.prototype.init = function () {
-        var that = this;
-        this._appData.loadFromStorage().then(function () {
-            that.initSite();
-        });
-    };
-    Application.prototype.initSite = function () {
-        return __awaiter(this, void 0, void 0, function () {
-            return __generator(this, function (_a) {
-                this.initTheme();
-                this.initSettings();
-                this.initForm();
-                this.initCanvas();
-                this.initObservers();
-                return [2];
-            });
-        });
-    };
-    Application.prototype.initTheme = function () {
-        $('body').removeAttr('data-theme');
-        switch (this._appData.theme) {
-            case application_data_1.Theme.Dark:
-                $('#chbDarkTheme').bootstrapToggle('on');
-                $('body').attr('data-theme', 'dark');
-                break;
-            case application_data_1.Theme.Light:
-            default:
-                $('#chbDarkTheme').bootstrapToggle('off');
-                $('body').attr('data-theme', 'light');
-                break;
-        }
-    };
-    Application.prototype.initSettings = function () {
-        return __awaiter(this, void 0, void 0, function () {
-            var that;
-            return __generator(this, function (_a) {
-                that = this;
-                $('#btnClearSession').on('click', function () {
-                    that._appData.clearSessionStorage();
-                });
-                $('#chbDarkTheme').on('change', function () {
-                    $('body').removeAttr('data-theme');
-                    if ($(this).prop('checked')) {
-                        $('body').attr('data-theme', 'dark');
-                        that._appData.theme = application_data_1.Theme.Dark;
-                    }
-                    else {
-                        $('body').attr('data-theme', 'light');
-                        that._appData.theme = application_data_1.Theme.Light;
-                    }
-                });
-                $('#chbShowGrid').prop('checked', this._appData.settings.show_grid);
-                $('#chbShowGrid').on('change', function () {
-                    var checked = $(this).is(':checked');
-                    that._appData.settings.show_grid = checked;
-                    that._appData.settings = that._appData.settings;
-                });
-                return [2];
-            });
-        });
-    };
-    Application.prototype.initObservers = function () {
-        var that = this;
-        this._appData.currentSelectionObservable.attach(new (function () {
-            function class_1() {
-            }
-            class_1.prototype.update = function (subject) {
-                var _a;
-                (_a = that._spriteAdapter) === null || _a === void 0 ? void 0 : _a.updateParts();
-            };
-            return class_1;
-        }()));
-    };
-    Application.prototype.initForm = function () {
-        var _a, _b, _c, _d;
-        return __awaiter(this, void 0, void 0, function () {
-            return __generator(this, function (_e) {
-                this._formPartsAdapter = new form_parts_adapter_1.FormPartsAdapter(this._appData);
-                (_a = this._formPartsAdapter) === null || _a === void 0 ? void 0 : _a.init();
-                if (!((_b = this._formPartsAdapter) === null || _b === void 0 ? void 0 : _b.current_form)) {
-                    (_c = this._formPartsAdapter) === null || _c === void 0 ? void 0 : _c.setForm(site_1.site.data.flags_config.forms[0]);
-                }
-                else {
-                    this._formPartsAdapter.updateUI();
-                }
-                this._flagWikiAdapter = new flag_wiki_adapter_1.FlagWikiAdapter(this._appData);
-                (_d = this._flagWikiAdapter) === null || _d === void 0 ? void 0 : _d.init();
-                return [2];
-            });
-        });
-    };
-    Application.prototype.initCanvas = function () {
-        return __awaiter(this, void 0, void 0, function () {
-            var that, sprite_sheet_filenames;
-            return __generator(this, function (_a) {
-                that = this;
-                this._pixiApp = new pixi_js_1.Application({
-                    width: 720,
-                    height: 720,
-                    antialias: false,
-                    transparent: true,
-                    resizeTo: $('#spriteViewContainer')[0]
-                });
-                $('#spriteViewContainer').html(this._pixiApp.view);
-                this._spriteAdapter = new sprite_adapter_1.SpriteAdapter(this._pixiApp, this._appData, '#btnDownload', '#btnFullDownload');
-                sprite_sheet_filenames = site_1.site.data.sprites.map(function (it) { return it.sheet; });
-                sprite_sheet_filenames = sprite_sheet_filenames.filter(function (filename, index) {
-                    return sprite_sheet_filenames.indexOf(filename) === index;
-                });
-                this._loader.baseUrl = site_1.site.base_url;
-                this._loader.onProgress.add(function () {
-                    that.loadProgressHandler();
-                });
-                this._loader.add(sprite_sheet_filenames).load(function (loader, resources) {
-                    that.setupSpriteAdapters(loader, resources);
-                });
-                return [2];
-            });
-        });
-    };
-    Application.prototype.setupSpriteAdapters = function (loader, resources) {
-        var _a;
-        (_a = this._spriteAdapter) === null || _a === void 0 ? void 0 : _a.init(resources);
-    };
-    Application.prototype.loadProgressHandler = function () {
-    };
-    return Application;
-}());
-exports.Application = Application;
+exports.Orientation = void 0;
+var Orientation;
+(function (Orientation) {
+    Orientation["Horizontal"] = "horizontal";
+    Orientation["Vertical"] = "vertical";
+})(Orientation = exports.Orientation || (exports.Orientation = {}));
 
-},{"./application.data":62,"./flag-wiki.adapter":64,"./form-parts.adapter":66,"./site":69,"./sprite.adapter":70,"pixi.js":46,"typescript-logger":56}],64:[function(require,module,exports){
+},{}],64:[function(require,module,exports){
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.FlagWikiAdapter = void 0;
+exports.FlagInfoAdapter = void 0;
 var typescript_logger_1 = require("typescript-logger");
 var site_1 = require("./site");
-var FlagWikiAdapter = (function () {
-    function FlagWikiAdapter(appData) {
+var FlagInfoAdapter = (function () {
+    function FlagInfoAdapter(appData) {
         this.log = typescript_logger_1.LoggerManager.create('FlagWikiAdapter');
         this._appData = appData;
     }
-    FlagWikiAdapter.prototype.init = function () {
+    FlagInfoAdapter.prototype.init = function () {
         this.updateFlagInfos(this._appData.lastFlag);
         this.initObservers();
     };
-    FlagWikiAdapter.prototype.initObservers = function () {
+    FlagInfoAdapter.prototype.initObservers = function () {
         var that = this;
         this._appData.lastFlagObservable.attach(new (function () {
             function class_1() {
@@ -62976,9 +63002,9 @@ var FlagWikiAdapter = (function () {
             return class_1;
         }()));
     };
-    FlagWikiAdapter.prototype.updateFlagInfos = function (flag_name) {
+    FlagInfoAdapter.prototype.updateFlagInfos = function (flag_name) {
         var _a;
-        var flag_info = site_1.site.data.flags_wiki.find(function (it) { return it.name === flag_name; });
+        var flag_info = site_1.site.data.flags_info.find(function (it) { return it.name === flag_name; });
         this.log.debug('updateFlagInfos', flag_name, flag_info);
         if (flag_info) {
             if (flag_info.img) {
@@ -62997,21 +63023,11 @@ var FlagWikiAdapter = (function () {
             $('#flagInfoLink').attr('href', '#').html('');
         }
     };
-    return FlagWikiAdapter;
+    return FlagInfoAdapter;
 }());
-exports.FlagWikiAdapter = FlagWikiAdapter;
+exports.FlagInfoAdapter = FlagInfoAdapter;
 
-},{"./site":69,"typescript-logger":56}],65:[function(require,module,exports){
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.Orientation = void 0;
-var Orientation;
-(function (Orientation) {
-    Orientation["Horizontal"] = "horizontal";
-    Orientation["Vertical"] = "vertical";
-})(Orientation = exports.Orientation || (exports.Orientation = {}));
-
-},{}],66:[function(require,module,exports){
+},{"./site":68,"typescript-logger":55}],65:[function(require,module,exports){
 "use strict";
 var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
     function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
@@ -63051,8 +63067,7 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.FormPartsAdapter = void 0;
-var application_data_1 = require("./application.data");
-var flags_data_1 = require("./flags.data");
+var sprite_data_1 = require("./data/sprite.data");
 var site_1 = require("./site");
 var typescript_logger_1 = require("typescript-logger");
 require("select2");
@@ -63072,75 +63087,27 @@ var FormPartsAdapter = (function () {
     }
     FormPartsAdapter.prototype.init = function () {
         this.initObservers();
+        if (!this.current_form) {
+            this._appData.setForm(site_1.site.data.flags_config.forms[0], this.parts_list, this.default_flag_name);
+        }
+        else {
+            this.updateUI();
+        }
     };
     FormPartsAdapter.prototype.initObservers = function () {
-    };
-    FormPartsAdapter.prototype.setForm = function (form) {
-        this._appData.currentSelection.form = form;
-        this._appData.currentSelection.parts = {};
-        this.log.debug('setForm', form, this._appData.currentSelection.parts);
-        for (var _i = 0, _a = this.parts_list; _i < _a.length; _i++) {
-            var part = _a[_i];
-            if (this._appData.currentSelection.parts && !(part in this._appData.currentSelection.parts)) {
-                this._appData.currentSelection.parts[part] = new application_data_1.CurrentSelectionPart();
-                if (this.default_flag_name) {
-                    this._appData.currentSelection.parts[part].flag_name = this.default_flag_name;
-                }
+        var that = this;
+        this._appData.currentSelectionObservable.attach(new (function () {
+            function class_1() {
             }
-        }
-        this._appData.currentSelection = this._appData.currentSelection;
-        this.updateUI();
+            class_1.prototype.update = function (subject) {
+                that.updateUI();
+            };
+            return class_1;
+        }()));
     };
     FormPartsAdapter.prototype.updateUI = function () {
-        $('#btnSelectForm').empty();
-        for (var _i = 0, _a = site_1.site.data.flags_config.forms; _i < _a.length; _i++) {
-            var form = _a[_i];
-            var form_name = site_1.site.data.strings.select_form[form];
-            var btn_class = (this._appData.currentSelection.form == form) ? 'btn-primary' : 'btn-secondary';
-            var btn = "<button type=\"button\" class=\"btn " + btn_class + " btn-select-form\" data-form=\"" + form + "\">" + form_name + "</button>";
-            $('#btnSelectForm').append(btn);
-        }
-        var that = this;
-        var formGroupGenerator = function () {
-            var _i, _a, part;
-            return __generator(this, function (_b) {
-                switch (_b.label) {
-                    case 0:
-                        _i = 0, _a = that.parts_list;
-                        _b.label = 1;
-                    case 1:
-                        if (!(_i < _a.length)) return [3, 4];
-                        part = _a[_i];
-                        return [4, that.renderSelectElement(that.current_form, part, false)];
-                    case 2:
-                        _b.sent();
-                        _b.label = 3;
-                    case 3:
-                        _i++;
-                        return [3, 1];
-                    case 4: return [2];
-                }
-            });
-        };
-        var formGroupIter = formGroupGenerator();
-        $('#lstSelectContainer').empty();
-        while (true) {
-            var formGroupIt = formGroupIter.next();
-            this.log.debug('updateUI formGroupGenerator', formGroupIt);
-            if (formGroupIt.done) {
-                break;
-            }
-            $('#lstSelectContainer').append(formGroupIt.value);
-        }
-        $('.select-part').each(function () {
-            var part = $(this).data('part');
-            var label = site_1.site.data.strings.select_parts[part];
-            $(this).select2({
-                theme: 'bootstrap4',
-                placeholder: label
-            });
-        });
-        this.initEvents();
+        this.updateUISetForm();
+        this.updateUISetParts();
     };
     Object.defineProperty(FormPartsAdapter.prototype, "current_form", {
         get: function () {
@@ -63253,10 +63220,76 @@ var FormPartsAdapter = (function () {
         return site_1.site.base_url + sprite_data.filename;
     };
     FormPartsAdapter.prototype.getSelectedOrientation = function (part) {
-        return (part in this._appData.currentSelection.parts) ? this._appData.currentSelection.parts[part].orientation : flags_data_1.Orientation.Vertical;
+        return (part in this._appData.currentSelection.parts) ? this._appData.currentSelection.parts[part].orientation : sprite_data_1.Orientation.Vertical;
     };
     FormPartsAdapter.prototype.getSelectedFlagName = function (part) {
         return (part in this._appData.currentSelection.parts) ? this._appData.currentSelection.parts[part].flag_name : this.default_flag_name;
+    };
+    FormPartsAdapter.prototype.updateUISetForm = function () {
+        return __awaiter(this, void 0, void 0, function () {
+            var _i, _a, form, form_name, btn_class, btn;
+            return __generator(this, function (_b) {
+                $('#btnSelectForm').empty();
+                for (_i = 0, _a = site_1.site.data.flags_config.forms; _i < _a.length; _i++) {
+                    form = _a[_i];
+                    form_name = site_1.site.data.strings.select_form[form];
+                    btn_class = (this._appData.currentSelection.form == form) ? 'btn-primary' : 'btn-secondary';
+                    btn = "<button type=\"button\" class=\"btn " + btn_class + " btn-select-form\" data-form=\"" + form + "\">" + form_name + "</button>";
+                    $('#btnSelectForm').append(btn);
+                }
+                this.initEventSetForm();
+                return [2];
+            });
+        });
+    };
+    FormPartsAdapter.prototype.updateUISetParts = function () {
+        return __awaiter(this, void 0, void 0, function () {
+            var that, formGroupGenerator, formGroupIter, formGroupIt;
+            return __generator(this, function (_a) {
+                that = this;
+                formGroupGenerator = function () {
+                    var _i, _a, part;
+                    return __generator(this, function (_b) {
+                        switch (_b.label) {
+                            case 0:
+                                _i = 0, _a = that.parts_list;
+                                _b.label = 1;
+                            case 1:
+                                if (!(_i < _a.length)) return [3, 4];
+                                part = _a[_i];
+                                return [4, that.renderSelectElement(that.current_form, part, false)];
+                            case 2:
+                                _b.sent();
+                                _b.label = 3;
+                            case 3:
+                                _i++;
+                                return [3, 1];
+                            case 4: return [2];
+                        }
+                    });
+                };
+                formGroupIter = formGroupGenerator();
+                $('#lstSelectContainer').empty();
+                while (true) {
+                    formGroupIt = formGroupIter.next();
+                    this.log.debug('updateUI formGroupGenerator', formGroupIt);
+                    if (formGroupIt.done) {
+                        break;
+                    }
+                    $('#lstSelectContainer').append(formGroupIt.value);
+                }
+                $('#lstSelectContainer').find('.select-part').each(function () {
+                    var part = $(this).data('part');
+                    var label = site_1.site.data.strings.select_parts[part];
+                    $(this).select2({
+                        theme: 'bootstrap4',
+                        placeholder: label
+                    });
+                });
+                this.initEventsSetParts();
+                return [2];
+            });
+        });
     };
     FormPartsAdapter.prototype.renderSelectElement = function (form, part, show_label) {
         if (show_label === void 0) { show_label = true; }
@@ -63268,12 +63301,12 @@ var FormPartsAdapter = (function () {
         var selected_part_orientation = this.getSelectedOrientation(part);
         var selected_part_flag_name = this.getSelectedFlagName(part);
         var selectable_parts = this.getSelectableParts(part).filter(function (it) { return it.flags_fits; });
-        var selectable_horizontal_parts = selectable_parts.filter(function (it) { return it.orientation == flags_data_1.Orientation.Horizontal; });
-        var selectable_vertical_parts = selectable_parts.filter(function (it) { return it.orientation == flags_data_1.Orientation.Vertical; });
-        var select_orientation_horizontal_class = (selected_part_orientation === flags_data_1.Orientation.Horizontal) ? 'btn-primary' : 'btn-outline-secondary';
-        var select_orientation_vertical_class = (selected_part_orientation === flags_data_1.Orientation.Vertical) ? 'btn-primary' : 'btn-outline-secondary';
-        var select_orientation_horizontal_disabled = (selectable_horizontal_parts.find(function (it) { return it.flag_name === selected_part_flag_name && it.orientation === flags_data_1.Orientation.Horizontal && it.flags_fits; })) ? '' : 'disabled';
-        var select_orientation_vertical_disabled = (selectable_vertical_parts.find(function (it) { return it.flag_name === selected_part_flag_name && it.orientation === flags_data_1.Orientation.Vertical && it.flags_fits; })) ? '' : 'disabled';
+        var selectable_horizontal_parts = selectable_parts.filter(function (it) { return it.orientation == sprite_data_1.Orientation.Horizontal; });
+        var selectable_vertical_parts = selectable_parts.filter(function (it) { return it.orientation == sprite_data_1.Orientation.Vertical; });
+        var select_orientation_horizontal_class = (selected_part_orientation === sprite_data_1.Orientation.Horizontal) ? 'btn-primary' : 'btn-outline-secondary';
+        var select_orientation_vertical_class = (selected_part_orientation === sprite_data_1.Orientation.Vertical) ? 'btn-primary' : 'btn-outline-secondary';
+        var select_orientation_horizontal_disabled = (selectable_horizontal_parts.find(function (it) { return it.flag_name === selected_part_flag_name && it.orientation === sprite_data_1.Orientation.Horizontal && it.flags_fits; })) ? '' : 'disabled';
+        var select_orientation_vertical_disabled = (selectable_vertical_parts.find(function (it) { return it.flag_name === selected_part_flag_name && it.orientation === sprite_data_1.Orientation.Vertical && it.flags_fits; })) ? '' : 'disabled';
         var selects = '';
         var _loop_1 = function (filter) {
             var filter_name = site_1.site.data.strings.select_filter[filter];
@@ -63293,40 +63326,43 @@ var FormPartsAdapter = (function () {
         }
         var icon_filename = (selected_part !== undefined) ? this.getIconURL(selected_part) : '';
         var label = (show_label) ? "<label for=\"" + lstId + "\" class=\"select-part-label\">" + part_name + "</label>" : '';
-        return "<div class=\"form-group\">\n            " + label + "\n            <div class=\"input-group\">\n                <div class=\"input-group-prepend select-part-icon-container d-flex align-items-center justify-content-center\" data-form=\"" + form + "\" data-part=\"" + part + "\" data-flag-name=\"" + (selected_part === null || selected_part === void 0 ? void 0 : selected_part.flag_name) + "\">\n                    <img src=\"" + icon_filename + "\" class=\"img-fluid clickable-flag select-part-icon flag-item-icon\" data-form=\"" + form + "\" data-part=\"" + part + "\" data-flag-name=\"" + (selected_part === null || selected_part === void 0 ? void 0 : selected_part.flag_name) + "\" alt=\"Selected Icon " + (selected_part === null || selected_part === void 0 ? void 0 : selected_part.flag_name) + "\">\n                </div>\n                <select id=\"" + lstId + "\" class=\"custom-select select-part\" data-form=\"" + form + "\" data-part=\"" + part + "\" data-list-id=\"" + lstId + "\">\n                    " + selects + "\n                </select>\n                <div class=\"input-group-append\">\n                    <button class=\"btn " + select_orientation_vertical_class + " select-part-orientation select-part-orientation-vertical\" type=\"button\" data-form=\"" + form + "\" data-part=\"" + part + "\" data-orientation=\"" + flags_data_1.Orientation.Vertical + "\" data-list-id=\"" + lstId + "\" data-flag-name=\"" + selected_part_flag_name + "\" id=\"" + btnSelectOrientationVerticalId + "\" " + select_orientation_vertical_disabled + ">\n                        <i class=\"fas fa-bars\" data-fa-transform=\"rotate-90\"></i>\n                        <span class=\"sr-only\">Select Vertical</span>\n                    </button>\n                    <button class=\"btn " + select_orientation_horizontal_class + " select-part-orientation select-part-orientation-horizontal\" type=\"button\" data-form=\"" + form + "\" data-part=\"" + part + "\" data-orientation=\"" + flags_data_1.Orientation.Horizontal + "\" data-list-id=\"" + lstId + "\" data-flag-name=\"" + selected_part_flag_name + "\" id=\"" + btnSelectOrientationHorizontalId + "\" " + select_orientation_horizontal_disabled + ">\n                        <i class=\"fas fa-bars\"></i>\n                        <span class=\"sr-only\">Select Horizontal</span>\n                    </button>\n                </div>\n            </div>\n        </div>";
+        return "<div class=\"form-group\">\n            " + label + "\n            <div class=\"input-group\">\n                <div class=\"input-group-prepend select-part-icon-container d-flex align-items-center justify-content-center\" data-form=\"" + form + "\" data-part=\"" + part + "\" data-flag-name=\"" + (selected_part === null || selected_part === void 0 ? void 0 : selected_part.flag_name) + "\">\n                    <img src=\"" + icon_filename + "\" class=\"img-fluid clickable-flag select-part-icon flag-item-icon\" data-form=\"" + form + "\" data-part=\"" + part + "\" data-flag-name=\"" + (selected_part === null || selected_part === void 0 ? void 0 : selected_part.flag_name) + "\" alt=\"Selected Icon " + (selected_part === null || selected_part === void 0 ? void 0 : selected_part.flag_name) + "\">\n                </div>\n                <select id=\"" + lstId + "\" class=\"custom-select select-part\" data-form=\"" + form + "\" data-part=\"" + part + "\" data-list-id=\"" + lstId + "\">\n                    " + selects + "\n                </select>\n                <div class=\"input-group-append\">\n                    <button class=\"btn " + select_orientation_vertical_class + " select-part-orientation select-part-orientation-vertical\" type=\"button\" data-form=\"" + form + "\" data-part=\"" + part + "\" data-orientation=\"" + sprite_data_1.Orientation.Vertical + "\" data-list-id=\"" + lstId + "\" data-flag-name=\"" + selected_part_flag_name + "\" id=\"" + btnSelectOrientationVerticalId + "\" " + select_orientation_vertical_disabled + ">\n                        <i class=\"fas fa-bars\" data-fa-transform=\"rotate-90\"></i>\n                        <span class=\"sr-only\">Select Vertical</span>\n                    </button>\n                    <button class=\"btn " + select_orientation_horizontal_class + " select-part-orientation select-part-orientation-horizontal\" type=\"button\" data-form=\"" + form + "\" data-part=\"" + part + "\" data-orientation=\"" + sprite_data_1.Orientation.Horizontal + "\" data-list-id=\"" + lstId + "\" data-flag-name=\"" + selected_part_flag_name + "\" id=\"" + btnSelectOrientationHorizontalId + "\" " + select_orientation_horizontal_disabled + ">\n                        <i class=\"fas fa-bars\"></i>\n                        <span class=\"sr-only\">Select Horizontal</span>\n                    </button>\n                </div>\n            </div>\n        </div>";
     };
-    FormPartsAdapter.prototype.initEvents = function () {
+    FormPartsAdapter.prototype.initEventSetForm = function () {
         var that = this;
         $('.btn-select-form').off('click').on('click', function () {
             var form = $(this).data('form');
             $(this).prop('disabled', true);
-            that.setForm(form);
+            that._appData.setForm(form, that.parts_list, that.default_flag_name);
             $(this).prop('disabled', false);
         });
+    };
+    FormPartsAdapter.prototype.initEventsSetParts = function () {
+        var that = this;
         var updateOrientation = function (selected_flag_name, orientation, form, part) {
             return __awaiter(this, void 0, void 0, function () {
                 var selectable_parts, selectable_horizontal_parts, selectable_vertical_parts;
                 return __generator(this, function (_a) {
                     selectable_parts = that.getSelectableParts(part);
-                    selectable_horizontal_parts = selectable_parts.filter(function (it) { return it.orientation == flags_data_1.Orientation.Horizontal; });
-                    selectable_vertical_parts = selectable_parts.filter(function (it) { return it.orientation == flags_data_1.Orientation.Vertical; });
+                    selectable_horizontal_parts = selectable_parts.filter(function (it) { return it.orientation == sprite_data_1.Orientation.Horizontal; });
+                    selectable_vertical_parts = selectable_parts.filter(function (it) { return it.orientation == sprite_data_1.Orientation.Vertical; });
                     $('.select-part-orientation').each(function () {
                         var btn_form = $(this).data('form');
                         var btn_part = $(this).data('part');
                         var btn_orientation = $(this).data('orientation');
                         if (btn_form == form && btn_part == part) {
-                            var select_orientation_horizontal_class = (orientation === flags_data_1.Orientation.Horizontal) ? 'btn-primary' : 'btn-outline-secondary';
-                            var select_orientation_vertical_class = (orientation === flags_data_1.Orientation.Vertical) ? 'btn-primary' : 'btn-outline-secondary';
-                            var select_orientation_horizontal_disabled = selectable_horizontal_parts.find(function (it) { return it.flag_name === selected_flag_name && it.orientation === flags_data_1.Orientation.Horizontal && it.flags_fits; }) === undefined;
-                            var select_orientation_vertical_disabled = selectable_vertical_parts.find(function (it) { return it.flag_name === selected_flag_name && it.orientation === flags_data_1.Orientation.Vertical && it.flags_fits; }) === undefined;
+                            var select_orientation_horizontal_class = (orientation === sprite_data_1.Orientation.Horizontal) ? 'btn-primary' : 'btn-outline-secondary';
+                            var select_orientation_vertical_class = (orientation === sprite_data_1.Orientation.Vertical) ? 'btn-primary' : 'btn-outline-secondary';
+                            var select_orientation_horizontal_disabled = selectable_horizontal_parts.find(function (it) { return it.flag_name === selected_flag_name && it.orientation === sprite_data_1.Orientation.Horizontal && it.flags_fits; }) === undefined;
+                            var select_orientation_vertical_disabled = selectable_vertical_parts.find(function (it) { return it.flag_name === selected_flag_name && it.orientation === sprite_data_1.Orientation.Vertical && it.flags_fits; }) === undefined;
                             $(this).removeClass('btn-primary').removeClass('btn-outline-secondary');
                             $(this).data('flag-name', selected_flag_name);
                             switch (btn_orientation) {
-                                case flags_data_1.Orientation.Horizontal:
+                                case sprite_data_1.Orientation.Horizontal:
                                     $(this).addClass(select_orientation_horizontal_class);
                                     $(this).prop('disabled', select_orientation_horizontal_disabled);
                                     break;
-                                case flags_data_1.Orientation.Vertical:
+                                case sprite_data_1.Orientation.Vertical:
                                     $(this).addClass(select_orientation_vertical_class);
                                     $(this).prop('disabled', select_orientation_vertical_disabled);
                                     break;
@@ -63395,7 +63431,7 @@ var FormPartsAdapter = (function () {
 }());
 exports.FormPartsAdapter = FormPartsAdapter;
 
-},{"./application.data":62,"./flags.data":65,"./site":69,"select2":53,"typescript-logger":56}],67:[function(require,module,exports){
+},{"./data/sprite.data":63,"./site":68,"select2":52,"typescript-logger":55}],66:[function(require,module,exports){
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 require("./site");
@@ -63409,7 +63445,7 @@ $(function () {
     app.init();
 });
 
-},{"./application":63,"./site":69,"typescript-logger":56}],68:[function(require,module,exports){
+},{"./application":61,"./site":68,"typescript-logger":55}],67:[function(require,module,exports){
 "use strict";
 var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
     function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
@@ -63663,7 +63699,7 @@ var DataListSubject = (function () {
 }());
 exports.DataListSubject = DataListSubject;
 
-},{"typescript-logger":56}],69:[function(require,module,exports){
+},{"typescript-logger":55}],68:[function(require,module,exports){
 'use strict';
 String.prototype.format = function () {
     var args = arguments;
@@ -63747,13 +63783,13 @@ module.exports = {
     clamp: clamp
 };
 
-},{}],70:[function(require,module,exports){
+},{}],69:[function(require,module,exports){
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.SpriteAdapter = void 0;
 var pixi_js_1 = require("pixi.js");
 var typescript_logger_1 = require("typescript-logger");
-var flags_data_1 = require("./flags.data");
+var sprite_data_1 = require("./data/sprite.data");
 var site_1 = require("./site");
 var SpriteAdapter = (function () {
     function SpriteAdapter(pixiApp, appData, downloadButton, downloadFullButton) {
@@ -63796,7 +63832,7 @@ var SpriteAdapter = (function () {
         var _a, _b;
         this._parts_container.removeChildren();
         for (var part in this._appData.currentSelection.parts) {
-            this.setPart(this._appData.currentSelection.form, (_a = this._appData.currentSelection.parts[part].flag_name) !== null && _a !== void 0 ? _a : 'None', part, (_b = this._appData.currentSelection.parts[part].orientation) !== null && _b !== void 0 ? _b : flags_data_1.Orientation.Vertical, false);
+            this.setPart(this._appData.currentSelection.form, (_a = this._appData.currentSelection.parts[part].flag_name) !== null && _a !== void 0 ? _a : 'None', part, (_b = this._appData.currentSelection.parts[part].orientation) !== null && _b !== void 0 ? _b : sprite_data_1.Orientation.Vertical, false);
             this._parts_container.addChild(this._sprites[part]);
         }
         this.updateSprite();
@@ -63885,5 +63921,5 @@ var SpriteAdapter = (function () {
 }());
 exports.SpriteAdapter = SpriteAdapter;
 
-},{"./flags.data":65,"./site":69,"pixi.js":46,"typescript-logger":56}]},{},[67])
+},{"./data/sprite.data":63,"./site":68,"pixi.js":45,"typescript-logger":55}]},{},[66])
 //# sourceMappingURL=bundle.js.map

@@ -1,5 +1,5 @@
 select_form:
-  label: Form
+  label: Forms
   paw: Paw
 select_filter:
   all: All
@@ -8,13 +8,14 @@ select_filter:
   gender: Gender
   relationship: Relationship
   romantic: Romantic
-  tribe: Tribe
+  sub_culture: Subculture
 select_parts:
-  left_part_1: Left Part 1
-  left_part_2: Left Part 1
-  right_part_1: Right Part 1
-  right_part_2: Right Part 2
-  center: Center
+  whole: All Parts
+  left_part_1: Digital pad 1
+  left_part_2: Digital pad 2
+  right_part_1: Digital pad 3
+  right_part_2: Digital pad 4
+  center: Metacarpal pad
 sprite:
   download: Download
   full_download: Full Download

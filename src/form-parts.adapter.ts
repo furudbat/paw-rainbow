@@ -1,15 +1,15 @@
-import { SpriteFlagMetaData } from './../_site/src/flags.data';
-import { ApplicationData, CurrentSelectionPart } from "./application.data";
-import { Orientation } from "./flags.data";
+import { ApplicationData, CurrentSelection } from "./data/application.data";
+import { Orientation, SpriteData } from "./data/sprite.data";
 import { site } from "./site";
 import { LoggerManager } from 'typescript-logger';
+import { DataObserver, DataSubject } from './observer';
 import 'select2';
 
 const FLAG_NAME_NONE_DEFAULT = 'None';
 
 export class FormPartsAdapter {
     private _appData: ApplicationData;
-    private _cacheSpriteMetaData: Record<string, SpriteFlagMetaData[]> = {};
+    private _cacheSpriteMetaData: Record<string, SpriteData[]> = {};
     private _cacheFlagNames: Record<string, string> = {};
 
     private log = LoggerManager.create('FormPartsAdapter');
@@ -27,28 +27,21 @@ export class FormPartsAdapter {
 
     public init() {
         this.initObservers();
+
+        if (!this.current_form) {
+            this._appData.setForm(site.data.flags_config.forms[0], this.parts_list, this.default_flag_name);
+        } else {
+            this.updateUI();
+        }
     }
 
     private initObservers() {
-    }
-
-
-    public setForm(form: string) {
-        this._appData.currentSelection.form = form;
-        this._appData.currentSelection.parts = {};
-
-        this.log.debug('setForm', form, this._appData.currentSelection.parts);
-
-        for (let part of this.parts_list) {
-            if (this._appData.currentSelection.parts && !(part in this._appData.currentSelection.parts)) {
-                this._appData.currentSelection.parts[part] = new CurrentSelectionPart();
-                if (this.default_flag_name) {
-                    this._appData.currentSelection.parts[part].flag_name = this.default_flag_name;
-                }
+        var that = this;
+        this._appData.currentSelectionObservable.attach(new class implements DataObserver<CurrentSelection>{
+            update(subject: DataSubject<CurrentSelection>): void {
+                that.updateUI();
             }
-        }
-        this._appData.currentSelection = this._appData.currentSelection;
-        this.updateUI();
+        });
     }
 
     public updateUI() {
@@ -97,6 +90,7 @@ export class FormPartsAdapter {
         this._cacheSpriteMetaData[this.MASK_SPRITE_KEY] = ret;
         return (ret.length)? ret[0] : undefined;
     }
+
     get default_sprite() {
         if (this.DEFAULT_SPRITE_KEY in this._cacheSpriteMetaData && this._cacheSpriteMetaData[this.DEFAULT_SPRITE_KEY].length > 0) {
             return this._cacheSpriteMetaData[this.DEFAULT_SPRITE_KEY][0];
@@ -144,7 +138,7 @@ export class FormPartsAdapter {
         return `lstSelect${form}${part}`;
     }
 
-    public getIconURL(sprite_data: SpriteFlagMetaData) {
+    public getIconURL(sprite_data: SpriteData) {
         /// @TODO: use URL builder
         return site.base_url + sprite_data.filename;
     }
@@ -274,7 +268,9 @@ export class FormPartsAdapter {
         $('.btn-select-form').off('click').on('click', function () {
             const form = $(this).data('form');
             $(this).prop('disabled', true);
-            that.setForm(form);
+
+            that._appData.setForm(form, that.parts_list, that.default_flag_name);
+
             $(this).prop('disabled', false);
         });
 
