@@ -16,6 +16,7 @@ select_parts:
   right_part_1: Digital pad 3
   right_part_2: Digital pad 4
   center: Metacarpal pad
+  unknown: '???'
 sprite:
   download: Download
   full_download: Full Download
@@ -27,6 +28,9 @@ flag_info:
     description: >-
       No Info.
   source_label: '[Source]'
+orientation:
+  horizontal: Horizontal
+  vertical: Vertical
 misc:
   title: Misc
   clear_session: Clear Session

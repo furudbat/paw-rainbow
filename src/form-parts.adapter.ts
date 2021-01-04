@@ -3,7 +3,8 @@ import { Orientation, SpriteData } from "./data/sprite.data";
 import { site } from "./site";
 import { LoggerManager } from 'typescript-logger';
 import { DataObserver, DataSubject } from './observer';
-import 'select2';
+import { AnyFlagConfig } from './data/flag-config.data';
+import { FlagData } from "./data/flag.data";
 
 const FLAG_NAME_NONE_DEFAULT = 'None';
 
@@ -54,7 +55,7 @@ export class FormPartsAdapter {
     }
 
     get parts_list() {
-        return FormPartsAdapter.getUnsafeProperty(site.data.flags_config, this.current_form).parts;
+        return (FormPartsAdapter.hasProperty(site.data.flags_config, this.current_form))? (FormPartsAdapter.getUnsafeProperty(site.data.flags_config, this.current_form) as AnyFlagConfig).parts : [];
     }
 
     get filter_list() {
@@ -65,7 +66,7 @@ export class FormPartsAdapter {
         if (this.DEFAULT_FLAG_NAME_KEY in this._cacheFlagNames) {
             return this._cacheFlagNames[this.DEFAULT_FLAG_NAME_KEY];
         }
-        
+
         const ret = site.data.sprites.find(it => it.default)?.flag_name ?? FLAG_NAME_NONE_DEFAULT;
         this._cacheFlagNames[this.DEFAULT_FLAG_NAME_KEY] = ret;
         return ret;
@@ -75,7 +76,7 @@ export class FormPartsAdapter {
         if (this.SELECTED_FORM_SPRITES_KEY in this._cacheSpriteMetaData) {
             return this._cacheSpriteMetaData[this.SELECTED_FORM_SPRITES_KEY];
         }
-        
+
         const ret = site.data.sprites.filter(it => it.form == this.current_form && (it.mask === undefined || !it.mask));
         this._cacheSpriteMetaData[this.SELECTED_FORM_SPRITES_KEY] = ret;
         return ret;
@@ -85,20 +86,20 @@ export class FormPartsAdapter {
         if (this.MASK_SPRITE_KEY in this._cacheSpriteMetaData && this._cacheSpriteMetaData[this.MASK_SPRITE_KEY].length > 0) {
             return this._cacheSpriteMetaData[this.MASK_SPRITE_KEY][0];
         }
-        
+
         const ret = site.data.sprites.filter(it => it.form == this.current_form && it.mask !== undefined);
         this._cacheSpriteMetaData[this.MASK_SPRITE_KEY] = ret;
-        return (ret.length)? ret[0] : undefined;
+        return (ret.length) ? ret[0] : undefined;
     }
 
     get default_sprite() {
         if (this.DEFAULT_SPRITE_KEY in this._cacheSpriteMetaData && this._cacheSpriteMetaData[this.DEFAULT_SPRITE_KEY].length > 0) {
             return this._cacheSpriteMetaData[this.DEFAULT_SPRITE_KEY][0];
         }
-        
+
         const ret = site.data.sprites.filter(it => it.form == this.current_form && it.default !== undefined);
         this._cacheSpriteMetaData[this.DEFAULT_SPRITE_KEY] = ret;
-        return (ret.length)? ret[0] : undefined;
+        return (ret.length) ? ret[0] : undefined;
     }
 
     public getSelectedPart(part: string) {
@@ -112,10 +113,10 @@ export class FormPartsAdapter {
         if (key in this._cacheSpriteMetaData && this._cacheSpriteMetaData[key].length > 0) {
             return this._cacheSpriteMetaData[key][0];
         }
-        
+
         const ret = this.selected_form_sprites.filter(it => it.flag_name === selected_part_flag_name && it.orientation === selected_part_orientation && it.part === part);
         this._cacheSpriteMetaData[key] = ret;
-        return (ret.length)? ret[0] : undefined;
+        return (ret.length) ? ret[0] : undefined;
     }
 
     public getSelectableParts(part: string) {
@@ -124,11 +125,11 @@ export class FormPartsAdapter {
         if (key in this._cacheSpriteMetaData) {
             return this._cacheSpriteMetaData[key];
         }
-        
-        const ret = this.selected_form_sprites.filter(it => it.part == part).sort((a, b) => {  
-            if (a.flag_name > b.flag_name) { return -1; }  
-            if (a.flag_name < b.flag_name) { return 1; }  
-            return 0;  
+
+        const ret = this.selected_form_sprites.filter(it => it.part == part).sort((a, b) => {
+            if (a.flag_name > b.flag_name) { return -1; }
+            if (a.flag_name < b.flag_name) { return 1; }
+            return 0;
         }).reverse();
         this._cacheSpriteMetaData[key] = ret;
         return ret;
@@ -138,25 +139,28 @@ export class FormPartsAdapter {
         return `lstSelect${form}${part}`;
     }
 
-    public getIconURL(sprite_data: SpriteData) {
-        /// @TODO: use URL builder
-        return site.base_url + sprite_data.filename;
+    private getIconImgHTML(flag_info: FlagData, classstr: string = '') {
+        const src = `${site.base_url}/${flag_info.filename}`;
+
+        let srcset_arr: string[] = [];
+        for (const key in flag_info.filename_set) {
+            const filename = flag_info.filename_set[key];
+            srcset_arr.push(`${site.base_url}/${filename} ${key}`);
+        }
+        const srcset = srcset_arr.join(',');
+
+        return `<img srcset="${srcset}" class="img-fluid ${classstr}" src="${src}" alt="${flag_info.name} Icon">`;
     }
 
-    public getSelectedOrientation(part: string) {
+    private getSelectedOrientation(part: string) {
         return (part in this._appData.currentSelection.parts) ? this._appData.currentSelection.parts[part].orientation : Orientation.Vertical;
     }
-
-    public getSelectedFlagName(part: string) {
-        return (part in this._appData.currentSelection.parts) ? this._appData.currentSelection.parts[part].flag_name : this.default_flag_name;
-    }
-
 
     private async updateUISetForm() {
         $('#btnSelectForm').empty();
         for (const form of site.data.flags_config.forms) {
             const form_name = site.data.strings.select_form[form];
-            const btn_class = (this._appData.currentSelection.form == form) ? 'btn-primary' : 'btn-secondary';
+            const btn_class = (this._appData.currentSelection.form == form) ? 'btn-primary active' : 'btn-secondary';
             const btn = `<button type="button" class="btn ${btn_class} btn-select-form" data-form="${form}">${form_name}</button>`;
             $('#btnSelectForm').append(btn);
         }
@@ -165,102 +169,102 @@ export class FormPartsAdapter {
     }
 
     private async updateUISetParts() {
-        var that = this;
-        const formGroupGenerator = function*() {
-            for (const part of that.parts_list) {
-                yield that.renderSelectElement(that.current_form, part, false);
-            }
-        }
+        $('#lstSelectContainer').empty().html(this.getSelectablePartsHTML(this._appData.currentSelection.form));
 
-        const formGroupIter = formGroupGenerator();
-        $('#lstSelectContainer').empty();
-        while (true) {
-            const formGroupIt = formGroupIter.next();
-            this.log.debug('updateUI formGroupGenerator', formGroupIt);
-            if (formGroupIt.done) {
-                break;
-            }
-            $('#lstSelectContainer').append(formGroupIt.value);
-        }
-
-        $('#lstSelectContainer').find('.select-part').each(function() {
-            //const selected_flag_name = $(this).val() as string;
-            //const form = $(this).data('form');
-
-            const part = $(this).data('part');
-            const label = site.data.strings.select_parts[part];
-            $(this).select2({
-                theme: 'bootstrap4',
-                placeholder: label
-            });
-        });
-
-        this.initEventsSetParts();
+        this.initEventSetParts();
     }
 
-    private renderSelectElement(form: string, part: string, show_label: boolean = true) {
-        const part_name = site.data.strings.select_parts[part];
-        const lstId = this.getListId(form, part);
-        const btnSelectOrientationHorizontalId = `btnSelectOrientationHorizontal${part}`;
-        const btnSelectOrientationVerticalId = `btnSelectOrientationVertical${part}`;
+    private getSelectablePartsHTML(form: string) {
+        const nav_tabs_id = `nav-tab-${form}-parts`;
+        const nav_tab_content_id = `nav-tab-${form}-parts-tabContent`;
+        const parts = this.parts_list;
 
-        const selected_part = this.getSelectedPart(part);
-        const selected_part_orientation = this.getSelectedOrientation(part);
-        const selected_part_flag_name = this.getSelectedFlagName(part);
+        const get_nav_link_id = (part: string) => `nav-parts-${part}`;
+        const get_nav_link_tab_id = (part: string) => `nav-parts-${part}-tab`;
 
-        const selectable_parts = this.getSelectableParts(part).filter(it => it.flags_fits);
-        const selectable_horizontal_parts = selectable_parts.filter(it => it.orientation == Orientation.Horizontal);
-        const selectable_vertical_parts = selectable_parts.filter(it => it.orientation == Orientation.Vertical);
+        let nav_links = '';
+        let tab_content_content = '';
+        for (const part of parts) {
+            const part_label = site.data.strings.select_parts[part] ?? site.data.strings.select_parts.unknown;
+            const selected = part == 'whole';
+            const active = (part == 'whole') ? 'show active' : '';
+            const content = this.getSelectablePartsListHTML(form, part);
 
-        const select_orientation_horizontal_class = (selected_part_orientation === Orientation.Horizontal) ? 'btn-primary' : 'btn-outline-secondary';
-        const select_orientation_vertical_class = (selected_part_orientation === Orientation.Vertical) ? 'btn-primary' : 'btn-outline-secondary';
-        const select_orientation_horizontal_disabled = (selectable_horizontal_parts.find(it => it.flag_name === selected_part_flag_name && it.orientation === Orientation.Horizontal && it.flags_fits)) ? '' : 'disabled';
-        const select_orientation_vertical_disabled = (selectable_vertical_parts.find(it => it.flag_name === selected_part_flag_name && it.orientation === Orientation.Vertical && it.flags_fits)) ? '' : 'disabled';
+            const nav_link_id = get_nav_link_id(part);
+            const nav_link_tab_id = get_nav_link_tab_id(part);
 
-        let selects = '';
-        for (const filter of this.filter_list) {
-            const filter_name = site.data.strings.select_filter[filter];
-            selects += `<optgroup class="select-part" value="${filter}" data-form="${form}" data-part="${part}" label="${filter_name}">\n`;
+            nav_links += `<a class="nav-link" id="nav-parts-${part}-tab" data-toggle="tab" href="#${nav_link_id}" role="tab" aria-controls="${nav_link_id}" aria-selected="${selected}">
+                ${part_label}
+            </a>\n`;
 
-            let selectable_parts_flag_names = selectable_parts.filter(it => filter === it.category).map(it => it.flag_name);
-            selectable_parts_flag_names = selectable_parts_flag_names.filter((element, i) => i === selectable_parts_flag_names.indexOf(element));
-            
-            for (const selectable_flag_name of selectable_parts_flag_names) {
-                const selected = (selectable_flag_name === selected_part_flag_name) ? 'selected' : '';
-
-                selects += `<option class="select-part" value="${selectable_flag_name}" data-form="${form}" data-part="${part}" ${selected}>
-                    ${selectable_flag_name}
-                </option>\n`;
-            }
-
-            selects += `</optgroup>\n`;
+            tab_content_content += `<div class="tab-pane fade ${active}" id="${nav_link_id}" role="tabpanel" aria-labelledby="${nav_link_tab_id}">
+                ${content}
+            </div>\n`;
         }
 
-        /// @TODO: use URL builder
-        const icon_filename = (selected_part !== undefined)? this.getIconURL(selected_part) : '';
 
-        const label = (show_label)? `<label for="${lstId}" class="select-part-label">${part_name}</label>` : '';
-        return `<div class="form-group">
-            ${label}
-            <div class="input-group">
-                <div class="input-group-prepend select-part-icon-container d-flex align-items-center justify-content-center" data-form="${form}" data-part="${part}" data-flag-name="${selected_part?.flag_name}">
-                    <img src="${icon_filename}" class="img-fluid clickable-flag select-part-icon flag-item-icon" data-form="${form}" data-part="${part}" data-flag-name="${selected_part?.flag_name}" alt="Selected Icon ${selected_part?.flag_name}">
-                </div>
-                <select id="${lstId}" class="custom-select select-part" data-form="${form}" data-part="${part}" data-list-id="${lstId}">
-                    ${selects}
-                </select>
-                <div class="input-group-append">
-                    <button class="btn ${select_orientation_vertical_class} select-part-orientation select-part-orientation-vertical" type="button" data-form="${form}" data-part="${part}" data-orientation="${Orientation.Vertical}" data-list-id="${lstId}" data-flag-name="${selected_part_flag_name}" id="${btnSelectOrientationVerticalId}" ${select_orientation_vertical_disabled}>
-                        <i class="fas fa-bars" data-fa-transform="rotate-90"></i>
-                        <span class="sr-only">Select Vertical</span>
-                    </button>
-                    <button class="btn ${select_orientation_horizontal_class} select-part-orientation select-part-orientation-horizontal" type="button" data-form="${form}" data-part="${part}" data-orientation="${Orientation.Horizontal}" data-list-id="${lstId}" data-flag-name="${selected_part_flag_name}" id="${btnSelectOrientationHorizontalId}" ${select_orientation_horizontal_disabled}>
-                        <i class="fas fa-bars"></i>
-                        <span class="sr-only">Select Horizontal</span>
-                    </button>
-                </div>
-            </div>
+        const nav_tabs = `<div class="nav nav-tabs" id="${nav_tabs_id}" role="tablist">
+            ${nav_links}
+        <div>`;
+
+        return `<nav>
+                    ${nav_tabs}
+                </nav>
+                <div class="tab-content" id="${nav_tab_content_id}">
+                    ${tab_content_content}
+                </div>`;
+    }
+
+    private getSelectablePartsListHTML(form: string, part: string) {
+        var that = this;
+
+        const removeDuplicateObjectFromArray = function (array: any[], key: string) {
+            let check = new Set();
+            return array.filter(obj => !check.has(obj[key]) && check.add(obj[key]));
+        }
+
+        let selectable_parts = that.getSelectableParts(part).filter(it => it.flags_fits);
+        selectable_parts = removeDuplicateObjectFromArray(selectable_parts, 'flag_name');
+        const orientation = that.getSelectedOrientation(part);
+
+        let list_elements: string[] = [];
+        for (const selectable_part of selectable_parts) {
+            const flag_info = site.data.flags.find(it => it.name == selectable_part.flag_name);
+            if (flag_info !== undefined) {
+                const active = selectable_part.flag_name === ((part in that._appData.currentSelection.parts) ? that._appData.currentSelection.parts[part].flag_name : undefined);
+                list_elements.push(that.getListItemHTML(that.current_form, part, flag_info, orientation, active));
+            }
+        }
+        const list_elements_str = list_elements.join('\n');
+
+        const id = this.getListId(form, part);
+        return `<div class="list-group">
+            ${list_elements_str}
         </div>`;
+    }
+
+    private getListItemHTML(form: string, part: string, flag_info: FlagData, orientation: Orientation, active: boolean = false) {
+        const icon = (flag_info !== undefined) ? this.getIconImgHTML(flag_info) : '';
+
+        let orientationIcon = '';
+        switch (orientation) {
+            case Orientation.Horizontal:
+                orientationIcon = `<i class="fas fa-bars"></i><span class="sr-only">${site.data.strings.orientation.horizontal}</span>`;
+                break;
+            case Orientation.Vertical:
+                orientationIcon = `<i class="fas fa-bars fa-rotate-90"></i><span class="sr-only">${site.data.strings.orientation.vertical}</span>`;
+                break;
+        }
+
+        const list_active = (active) ? 'active' : '';
+
+        return `<button type="button" class="list-group-item list-group-item-action ${list_active}" data-form="${form}" data-part="${part}" data-flag-name="${flag_info.name}">
+            <div class="row no-gutters">
+                <div class="col-2 pr-2 part-list-item-icon">${icon}</div>
+                <div class="col-8 mt-1 align-middle part-list-item-name">${flag_info.name}</div>
+                <div class="col-2 mt-1 px-2 text-right align-middle part-list-item-orientation">${orientationIcon}</div>
+            </div>
+        </button>`;
     }
 
     private initEventSetForm() {
@@ -273,102 +277,16 @@ export class FormPartsAdapter {
 
             $(this).prop('disabled', false);
         });
+    }
+
+    private initEventSetParts() {
 
     }
 
-    private initEventsSetParts() {
-        var that = this;
-        const updateOrientation = async function (selected_flag_name: string, orientation: string, form: string, part: string) {
-            const selectable_parts = that.getSelectableParts(part);
-            const selectable_horizontal_parts = selectable_parts.filter(it => it.orientation == Orientation.Horizontal);
-            const selectable_vertical_parts = selectable_parts.filter(it => it.orientation == Orientation.Vertical);
 
-            $('.select-part-orientation').each(function () {
-                const btn_form = $(this).data('form');
-                const btn_part = $(this).data('part');
-                const btn_orientation = $(this).data('orientation');
-
-                if (btn_form == form && btn_part == part) {
-                    const select_orientation_horizontal_class = (orientation === Orientation.Horizontal) ? 'btn-primary' : 'btn-outline-secondary';
-                    const select_orientation_vertical_class = (orientation === Orientation.Vertical) ? 'btn-primary' : 'btn-outline-secondary';
-                    const select_orientation_horizontal_disabled = selectable_horizontal_parts.find(it => it.flag_name === selected_flag_name && it.orientation === Orientation.Horizontal && it.flags_fits) === undefined;
-                    const select_orientation_vertical_disabled = selectable_vertical_parts.find(it => it.flag_name === selected_flag_name && it.orientation === Orientation.Vertical && it.flags_fits) === undefined;
-
-                    $(this).removeClass('btn-primary').removeClass('btn-outline-secondary');
-
-                    $(this).data('flag-name', selected_flag_name);
-                    switch (btn_orientation) {
-                        case Orientation.Horizontal:
-                            $(this).addClass(select_orientation_horizontal_class);
-                            $(this).prop('disabled', select_orientation_horizontal_disabled);
-                            break;
-                        case Orientation.Vertical:
-                            $(this).addClass(select_orientation_vertical_class);
-                            $(this).prop('disabled', select_orientation_vertical_disabled);
-                            break;
-                    }
-                }
-            });
-        }
-
-        $('.select-part').off('select2:select').on('select2:select', function () {
-            const selected_flag_name = $(this).val() as string;
-            const form = $(this).data('form');
-            const part = $(this).data('part');
-
-            that._appData.setPartFlagName(part, selected_flag_name);
-            if (selected_flag_name) {
-                that._appData.lastFlag = selected_flag_name;
-            }
-
-            const selected_part = that.getSelectedPart(part);
-            const selected_orientation = that.getSelectedOrientation(part);
-            const icon_filename = (selected_part)? that.getIconURL(selected_part) : '';
-
-            $('.select-part-icon').each(function () {
-                const icon_form = $(this).data('form');
-                const icon_part = $(this).data('part');
-
-                if (icon_form == form && icon_part == part) {
-                    $(this).data('flag-name', selected_part?.flag_name ?? '');
-                    $(this).attr('src', icon_filename);
-                }
-            });
-            $('.select-part-icon-container').each(function () {
-                const icon_form = $(this).data('form');
-                const icon_part = $(this).data('part');
-
-                if (icon_form == form && icon_part == part) {
-                    $(this).data('flag-name', selected_part?.flag_name ?? '');
-                }
-            });
-
-            updateOrientation(selected_flag_name, selected_orientation, form, part);
-
-        });
-
-        $('.select-part-orientation').off('click').on('click', function () {
-            const form = $(this).data('form');
-            const part = $(this).data('part');
-            const orientation = $(this).data('orientation');
-            const selected_flag_name = $(this).data('flag-name');
-
-            that._appData.setPartOrientation(part, orientation);
-
-            updateOrientation(selected_flag_name, orientation, form, part);
-        });
-
-        $('.select-part-icon-container').off('click').on('click', function() {
-            //const form = $(this).data('form');
-            //const part = $(this).data('part');
-            //const orientation = $(this).data('orientation');
-            const selected_flag_name = $(this).data('flag-name');
-            if (selected_flag_name) {
-                that._appData.lastFlag = selected_flag_name;
-            }
-        });
+    static hasProperty(obj: any, key: string) {
+        return key in obj
     }
-
 
     static getUnsafeProperty(obj: any, key: string) {
         return key in obj ? obj[key] : undefined; // Inferred type is T[K]

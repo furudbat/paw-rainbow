@@ -1,9 +1,16 @@
 <div class="row">
     <div class="col-lg-3">
-        {% include main_ui.html %}
+        <div class="mt-2 mb-1" id="lstSelectContainer">
+        </div>
     </div>
 
     <div class="col-lg-6 mt-sm-1">
+        <div class="form-group">
+            <label for="btnSelectForm" class="select-form-label">{{ site.data.strings.select_form.label }}</label>
+            <div class="d-block btn-group select-form" role="group" aria-label="Form" id="btnSelectForm">
+            </div>
+        </div>
+        
         <div class="card">
             <div class="card-body">
                 <div class="form-check mb-1">
@@ -24,7 +31,7 @@
         </div>
     </div>
 
-    <div class="col-lg-3 mt-sm-3">
+    <div class="col-lg-3 mt-sm-3 mt-md-5">
         <div class="card card-flag-info mx-sm-2">
             <img src="{{- site.data.strings.flag_info.unknown.img -}}" class="card-img-top" alt="flag image" id="flagInfoImage">
             <div class="card-body">

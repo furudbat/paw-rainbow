@@ -1,6 +1,6 @@
 interface FlagConfigColors {
-    horizontal: string[];
-    vertical: string[];
+    horizontal: string[] | string[][];
+    vertical: string[] | string[][];
 }
 
 interface FlagConfigColorsPart extends FlagConfigColors {
@@ -17,9 +17,10 @@ export interface BaseFlagConfig {
     craws?: string[];
     outline? : string;
     extra_outline? : string;
-    parts: PawParts[];
+    parts: string[];
 }
 
+export interface AnyFlagConfig extends BaseFlagConfig, Record<string, FlagConfigColors | any> {}
 export interface PawFlagConfig extends BaseFlagConfig, Record<PawParts, FlagConfigColorsPart> {}
 
 export interface FlagsConfigData {
