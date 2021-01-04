@@ -96,8 +96,8 @@ paw:
         - '#5c285c'
     triangle:
       vertical:
-        - '#424242'
-        - '#858585'
+        - [ '#8c8c8c', '#424242' ]
+        - [ '#858585' ]
     circle:
       horizontal:
         - '#626262'

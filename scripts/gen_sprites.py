@@ -206,16 +206,7 @@ def generateColorCodeMap(colors_config, parts, img, transparent_colors, outline_
             rgb = r, g, b
             px_color = Color(rgb_to_hex(rgb))
             
-            extras = []
-            if 'triangle' in colors_config[part]:
-                extras.append('triangle')
-                if 'circle' in colors_config[part]:
-                    extras.append('circle')
-            elif 'circle' in colors_config[part]:
-                extras.append('circle')
-                if 'triangle' in colors_config[part]:
-                    extras.append('triangle')
-
+            extras = ['triangle', 'circle']
             for extra in extras:
                 for part in parts:
                     if part in colors_config and extra in colors_config[part]:
@@ -229,15 +220,19 @@ def generateColorCodeMap(colors_config, parts, img, transparent_colors, outline_
                                     color_code_map['whole'][extra_name] = []
                                 
                                 for i in range(len(colors_config[part][extra][orientation])):
-                                    part_color = colors_config[part][extra][orientation][i]
+                                    if isinstance(colors_config[part][extra][orientation][i], list):
+                                        part_colors = colors_config[part][extra][orientation][i]
+                                    else:
+                                        part_colors = [ colors_config[part][extra][orientation][i] ]
 
-                                    if i >= len(color_code_map[part][extra_name]):
-                                        color_code_map[part][extra_name].append([])
-                                        color_code_map['whole'][extra_name].append([])
-                                    
-                                    if px_color == Color(part_color):
-                                        color_code_map[part][extra_name][i].append(coordinate)
-                                        color_code_map['whole'][extra_name][i].append(coordinate)
+                                    for part_color in part_colors:
+                                        if i >= len(color_code_map[part][extra_name]):
+                                            color_code_map[part][extra_name].append([])
+                                            color_code_map['whole'][extra_name].append([])
+                                        
+                                        if px_color == Color(part_color):
+                                            color_code_map[part][extra_name][i].append(coordinate)
+                                            color_code_map['whole'][extra_name][i].append(coordinate)
             
             if 'craws' in colors_config:
                 if not 'craws' in color_code_map:
@@ -584,9 +579,8 @@ def generateSpriteLine(output_map, paw_outlines_img, outline_color, flag, parts,
                     flags_fits = circle_name in color_coords and len(color_coords[circle_name]) > 0
 
                 if 'triangle' in flag and triangle_name in color_coords:
-                    opp_extra_name = ''
-                    if 'circle' in flag:
-                        opp_extra_name = circle_name
+                    opp_extra_name = circle_name
+                    opp_extra_in_flag = 'circle' in flag
                     
                     triangle_flag_colors = flag['triangle']
                     color_coords_triangle = color_coords[triangle_name]
@@ -599,43 +593,87 @@ def generateSpriteLine(output_map, paw_outlines_img, outline_color, flag, parts,
                         triangle_flag_color = Color(triangle_flag_colors[0])
                         for i in range(color_coords_triangle_size-1):
                             for color_coord in color_coords_triangle[i]:
-                                if not opp_extra_name or not opp_extra_name in color_coords or (opp_extra_name and opp_extra_name in color_coords and len(color_coords[opp_extra_name]) == 0 or i < len(color_coords[opp_extra_name]) and not color_coord in color_coords[opp_extra_name][i]):
+                                find_opp_extra = False
+                                if opp_extra_in_flag and opp_extra_name and opp_extra_name in color_coords and len(color_coords[opp_extra_name]) > 0:
+                                    for find_opp_color_coord in color_coords[opp_extra_name]:
+                                        for opp_color_coord in find_opp_color_coord:
+                                            find_opp_extra = find_opp_extra or color_coord == opp_color_coord
+
+                                if not find_opp_extra:
                                     x, y = color_coord
                                     output_flage_part_pixels[x ,y] = hex_to_rgb(triangle_flag_color.hex_l)
                     elif color_coords_triangle_size == triangle_flag_colors_size:
                         for i in range(color_coords_triangle_size):
                             for color_coord in color_coords_triangle[i]:
-                                if not opp_extra_name or not opp_extra_name in color_coords or (opp_extra_name and opp_extra_name in color_coords and len(color_coords[opp_extra_name]) == 0 or i < len(color_coords[opp_extra_name]) and not color_coord in color_coords[opp_extra_name][i]):
+                                find_opp_extra = False
+                                if opp_extra_in_flag and opp_extra_name and opp_extra_name in color_coords and len(color_coords[opp_extra_name]) > 0:
+                                    for find_opp_color_coord in color_coords[opp_extra_name]:
+                                        for opp_color_coord in find_opp_color_coord:
+                                            find_opp_extra = find_opp_extra or color_coord == opp_color_coord
+
+                                if not find_opp_extra:
                                     x, y = color_coord
                                     output_flage_part_pixels[x ,y] = hex_to_rgb(Color(triangle_flag_colors[i]).hex_l)
                     elif color_coords_triangle_size == 2 and triangle_flag_colors_size >= 2:
                         start_triangle_flag_color = Color(triangle_flag_colors[0])
                         end_triangle_flag_color = Color(triangle_flag_colors[-1])
                         for color_coord in color_coords_triangle[0]:
-                            if not opp_extra_name or not opp_extra_name in color_coords or (opp_extra_name and opp_extra_name in color_coords and len(color_coords[opp_extra_name]) == 0 or i < len(color_coords[opp_extra_name]) and not color_coord in color_coords[opp_extra_name][i]):
+                            find_opp_extra = False
+                            if opp_extra_in_flag and opp_extra_name and opp_extra_name in color_coords and len(color_coords[opp_extra_name]) > 0:
+                                for find_opp_color_coord in color_coords[opp_extra_name]:
+                                    for opp_color_coord in find_opp_color_coord:
+                                        find_opp_extra = find_opp_extra or color_coord == opp_color_coord
+
+                            if not find_opp_extra:
                                 x, y = color_coord
                                 output_flage_part_pixels[x ,y] = hex_to_rgb(start_triangle_flag_color.hex_l)
                         for color_coord in color_coords_triangle[-1]:
-                            if not opp_extra_name or not opp_extra_name in color_coords or (opp_extra_name and opp_extra_name in color_coords and len(color_coords[opp_extra_name]) == 0 or i < len(color_coords[opp_extra_name]) and not color_coord in color_coords[opp_extra_name][i]):
+                            find_opp_extra = False
+                            if opp_extra_in_flag and opp_extra_name and opp_extra_name in color_coords and len(color_coords[opp_extra_name]) > 0:
+                                for find_opp_color_coord in color_coords[opp_extra_name]:
+                                    for opp_color_coord in find_opp_color_coord:
+                                        find_opp_extra = find_opp_extra or color_coord == opp_color_coord
+
+                            if not find_opp_extra:
                                 x, y = color_coord
                                 output_flage_part_pixels[x ,y] = hex_to_rgb(end_triangle_flag_color.hex_l)
                     else:
                         start_triangle_flag_color = Color(triangle_flag_colors[0])
                         end_triangle_flag_color = Color(triangle_flag_colors[-1])
                         for color_cooord in color_coords_triangle[0]:
-                            x, y = color_cooord
-                            output_flage_part_pixels[x ,y] = hex_to_rgb(start_triangle_flag_color.hex_l)
-                        for i in range(1, color_coords_triangle-1):
-                            for color_cooord in color_coords_triangle[i]:
+                            find_opp_extra = False
+                            if opp_extra_in_flag and opp_extra_name and opp_extra_name in color_coords and len(color_coords[opp_extra_name]) > 0:
+                                for find_opp_color_coord in color_coords[opp_extra_name]:
+                                    for opp_color_coord in find_opp_color_coord:
+                                        find_opp_extra = find_opp_extra or color_coord == opp_color_coord
+
+                            if not find_opp_extra:
                                 x, y = color_cooord
                                 output_flage_part_pixels[x ,y] = hex_to_rgb(start_triangle_flag_color.hex_l)
+                        for i in range(1, color_coords_triangle-1):
+                            for color_cooord in color_coords_triangle[i]:
+                                find_opp_extra = False
+                                if opp_extra_in_flag and opp_extra_name and opp_extra_name in color_coords and len(color_coords[opp_extra_name]) > 0:
+                                    for find_opp_color_coord in color_coords[opp_extra_name]:
+                                        for opp_color_coord in find_opp_color_coord:
+                                            find_opp_extra = find_opp_extra or color_coord == opp_color_coord
+
+                                if not find_opp_extra:
+                                    x, y = color_cooord
+                                    output_flage_part_pixels[x ,y] = hex_to_rgb(start_triangle_flag_color.hex_l)
                         for color_cooord in color_coords_triangle[-1]:
-                            x, y = color_cooord
-                            output_flage_part_pixels[x ,y] = hex_to_rgb(end_triangle_flag_color.hex_l)
+                            find_opp_extra = False
+                            if opp_extra_in_flag and opp_extra_name and opp_extra_name in color_coords and len(color_coords[opp_extra_name]) > 0:
+                                for find_opp_color_coord in color_coords[opp_extra_name]:
+                                    for opp_color_coord in find_opp_color_coord:
+                                        find_opp_extra = find_opp_extra or color_coord == opp_color_coord
+
+                            if not find_opp_extra:
+                                x, y = color_cooord
+                                output_flage_part_pixels[x ,y] = hex_to_rgb(end_triangle_flag_color.hex_l)
                 if 'circle' in flag and circle_name in color_coords:
-                    opp_extra_name = ''
-                    if 'triangle' in flag :
-                        opp_extra_name = triangle_name
+                    opp_extra_name = triangle_name
+                    opp_extra_in_flag = 'triangle' in flag
 
                     circle_flag_color = Color(flag['circle'])
                     color_coords_circle = color_coords[circle_name]
@@ -643,7 +681,13 @@ def generateSpriteLine(output_map, paw_outlines_img, outline_color, flag, parts,
 
                     for i in range(color_coords_circle_size):
                         for color_coord in color_coords_circle[i]:
-                            if not opp_extra_name or not opp_extra_name in color_coords or (opp_extra_name and opp_extra_name in color_coords and len(color_coords[opp_extra_name]) == 0 or i < len(color_coords[opp_extra_name]) and not color_coord in color_coords[opp_extra_name][i]):    
+                            find_opp_extra = False
+                            if opp_extra_in_flag and opp_extra_name and opp_extra_name in color_coords and len(color_coords[opp_extra_name]) > 0:
+                                for find_opp_color_coord in color_coords[opp_extra_name]:
+                                    for opp_color_coord in find_opp_color_coord:
+                                        find_opp_extra = find_opp_extra or color_coord == opp_color_coord
+
+                            if not find_opp_extra:
                                 x, y = color_coord
                                 output_flage_part_pixels[x ,y] = hex_to_rgb(circle_flag_color.hex_l)
         else:
