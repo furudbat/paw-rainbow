@@ -9,7 +9,9 @@ const STORAGE_KEY_VERSION = 'version';
 const STORAGE_KEY_CURRENT_SELECTION = 'current_selection';
 const STORAGE_KEY_LAST_FLAG = 'last_flag';
 
-const DEFAULT_FLAG_NAME_NONE = "None";
+export const DEFAULT_FLAG_NAME_NONE = 'None';
+export const ALL_FILTER = 'all';
+export const WHOLE_PART = 'whole';
 
 export enum Theme {
     Light = "light",
@@ -20,11 +22,13 @@ export class Settings {
 }
 
 export class CurrentSelectionPart {
+    filter: string = ALL_FILTER;
     flag_name: string = DEFAULT_FLAG_NAME_NONE;
     orientation: Orientation = Orientation.Vertical;
 }
 export class CurrentSelection {
     form: string = "";
+    show_whole: boolean = false;
     parts: Record<string, CurrentSelectionPart> = {};
 }
 
@@ -136,7 +140,7 @@ export class ApplicationData {
 
         this._currentSelection.data.parts[part].flag_name = flag_name;
 
-        this.currentSelection = this.currentSelection;
+        this._currentSelection.notify();
     }
 
     public setPartOrientation(part: string, orientation: Orientation) {
@@ -146,7 +150,28 @@ export class ApplicationData {
 
         this._currentSelection.data.parts[part].orientation = orientation;
 
-        this.currentSelection = this.currentSelection;
+        this._currentSelection.notify();
+    }
+
+    public setPartFilter(part: string, filter: string) {
+        if (!(part in this._currentSelection.data.parts)) {
+            this._currentSelection.data.parts[part] = new CurrentSelectionPart();
+        }
+
+        this._currentSelection.data.parts[part].filter = filter;
+
+        this._currentSelection.notify();
+    }
+
+    public setPart(part: string, flag_name: string, orientation: Orientation) {
+        if (!(part in this._currentSelection.data.parts)) {
+            this._currentSelection.data.parts[part] = new CurrentSelectionPart();
+        }
+
+        this._currentSelection.data.parts[part].flag_name = flag_name;
+        this._currentSelection.data.parts[part].orientation = orientation;
+
+        this._currentSelection.notify();
     }
 
     public setForm(form: string, parts_list: string[], default_flag_name: string = '') { 
@@ -164,6 +189,11 @@ export class ApplicationData {
             }
         }
 
-        this.currentSelection = currentSelection;
+        this._currentSelection.notify();
+    }
+
+    public setShowWhole(value: boolean) {
+        this._currentSelection.data.show_whole = value;
+        this._currentSelection.notify();
     }
 }

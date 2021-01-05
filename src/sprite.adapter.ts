@@ -1,6 +1,6 @@
 import { Container, Sprite, Application as PixiApplication, LoaderResource } from 'pixi.js';
 import { LoggerManager } from 'typescript-logger';
-import { ApplicationData, Settings } from './data/application.data';
+import { ApplicationData, Settings, WHOLE_PART } from './data/application.data';
 import { Orientation } from "./data/sprite.data";
 import { site } from './site';
 import { DataObserver, DataSubject } from './observer';
@@ -58,7 +58,9 @@ export class SpriteAdapter {
         this._parts_container.removeChildren();
         for(let part in this._appData.currentSelection.parts) {
             this.setPart(this._appData.currentSelection.form, this._appData.currentSelection.parts[part].flag_name ?? 'None', part, this._appData.currentSelection.parts[part].orientation ?? Orientation.Vertical, false);
-            this._parts_container.addChild(this._sprites[part]);
+            if (part in this._sprites && (part !== WHOLE_PART && !this._appData.currentSelection.show_whole) || (part == WHOLE_PART && this._appData.currentSelection.show_whole)) {
+                this._parts_container.addChild(this._sprites[part]);
+            }
         }
 
         this.updateSprite();

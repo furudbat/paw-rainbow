@@ -31,6 +31,8 @@ export class Application {
         this.initTheme();
         this.initSettings();
 
+        this._formPartsAdapter = new FormPartsAdapter(this._appData);
+        this._flagInfoAdapter = new FlagInfoAdapter(this._appData);
         this.initForm();
         this.initCanvas();
 
@@ -93,12 +95,10 @@ export class Application {
     }
 
     private async initFormParts() {
-        this._formPartsAdapter = new FormPartsAdapter(this._appData);
-        this._formPartsAdapter.init();
+        this._formPartsAdapter?.init();
     }
 
     private async initFormInfo() {
-        this._flagInfoAdapter = new FlagInfoAdapter(this._appData);
         this._flagInfoAdapter?.init();
     }
 

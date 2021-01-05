@@ -17,6 +17,11 @@ select_parts:
   right_part_2: Digital pad 4
   center: Metacarpal pad
   unknown: '???'
+parts_list:
+  pagination_label: Part page navigation
+  search_label: Flag Search
+  show_whole_label: Show This Part
+  filter_label: Filter Flags
 sprite:
   download: Download
   full_download: Full Download

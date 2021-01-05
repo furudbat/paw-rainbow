@@ -15,7 +15,7 @@ def hex_to_rgb(hex):
   hex = hex.replace('#', '')
   return tuple(int(hex[i:i+2], 16) for i in (0, 2, 4))
 
-def genFlags(flags, strip_size_factor=1):
+def genFlags(flags, category, strip_size_factor=1):
     base_strip_size = 8
     for i in range(len(flags)):
         flag = flags[i]
@@ -133,6 +133,8 @@ def genFlags(flags, strip_size_factor=1):
             flags[i][filename_key] = output_filename
         flags[i]['filename_set'] = filenames
 
+        flags[i]['category'] = category
+
         print("genFlags: {} -> {}".format(flag_name, output_filename))
 
     return flags
@@ -163,12 +165,12 @@ def main():
         sub_culture_flags = yaml.load(f, Loader=yaml.FullLoader)
 
     for scale in [1, 2, 4, 8, 16]:
-        pride_flags = genFlags(pride_flags, scale)
-        sexual_flags = genFlags(sexual_flags, scale)
-        gender_flags = genFlags(gender_flags, scale)
-        relationship_flags = genFlags(relationship_flags, scale)
-        romantic_flags = genFlags(romantic_flags, scale)
-        sub_culture_flags = genFlags(sub_culture_flags, scale)
+        pride_flags = genFlags(pride_flags, 'pride', scale)
+        sexual_flags = genFlags(sexual_flags, 'sexual', scale)
+        gender_flags = genFlags(gender_flags, 'gender', scale)
+        relationship_flags = genFlags(relationship_flags, 'relationship', scale)
+        romantic_flags = genFlags(romantic_flags, 'romantic', scale)
+        sub_culture_flags = genFlags(sub_culture_flags, 'sub_culture', scale)
 
     all_flags = []
     all_flags.extend(pride_flags)

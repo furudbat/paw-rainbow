@@ -1,4 +1,5 @@
 export interface FlagData {
+    category: string;
     colors: string[];
     filename: string;
     filename_set: Record<string, string>;
