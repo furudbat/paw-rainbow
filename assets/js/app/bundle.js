@@ -65332,7 +65332,7 @@ var FormPartsAdapter = (function () {
                 partSettings = "<div class=\"form-check form-check-inline\">\n                    <input class=\"form-check-input\" type=\"checkbox\" id=\"chbShowWholePart\" value=\"" + this.currentSelection.show_whole + "\">\n                    <label class=\"form-check-label\" for=\"chbShowWholePart\">" + site_1.site.data.strings.parts_list.show_whole_label + "</label>\n                </div>";
             }
             var filters_id = this.getSelectFilterId(form, part);
-            var filters = "<select class=\"custom-select\" id=\"" + filters_id + "\" data-placeholder=\"" + site_1.site.data.strings.parts_list.filter_label + "\">";
+            var filters = "<select class=\"custom-select\" id=\"" + filters_id + "\" data-placeholder=\"" + site_1.site.data.strings.parts_list.filter_label + "\" data-form=\"" + form + "\" data-part=\"" + part + "\">";
             for (var _c = 0, _d = this.filter_list; _c < _d.length; _c++) {
                 var filter = _d[_c];
                 var filter_label = site_1.site.data.strings.select_filter[filter];

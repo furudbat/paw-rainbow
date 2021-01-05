@@ -346,7 +346,7 @@ export class FormPartsAdapter {
             }
             
             const filters_id = this.getSelectFilterId(form, part);
-            let filters = `<select class="custom-select" id="${filters_id}" data-placeholder="${site.data.strings.parts_list.filter_label}">`;
+            let filters = `<select class="custom-select" id="${filters_id}" data-placeholder="${site.data.strings.parts_list.filter_label}" data-form="${form}" data-part="${part}">`;
             for(const filter of this.filter_list) {
                 const filter_label = site.data.strings.select_filter[filter];
                 if (filter_label) {
