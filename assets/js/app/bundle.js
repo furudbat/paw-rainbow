@@ -65148,10 +65148,10 @@ var FormPartsAdapter = (function () {
                             if (old_filter !== new_filter) {
                                 that.updateFilter(part, subject.data.parts[part].filter);
                             }
-                            if (old_flag_name !== new_flag_name && old_orientation !== new_orientation) {
+                            if (old_flag_name !== new_flag_name || old_orientation !== new_orientation) {
                                 that.updateSelectedPartUI(old_form, part);
                             }
-                            if (old_show_whole !== new_show_whole) {
+                            if (old_flag_name !== new_flag_name || old_orientation !== new_orientation || old_show_whole !== new_show_whole) {
                                 (_a = that._parts_lists[part]) === null || _a === void 0 ? void 0 : _a.update();
                             }
                             resolve(that.updateLastValues(subject.data));

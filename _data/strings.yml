@@ -10,6 +10,7 @@ select_filter:
   romantic: Romantic
   sub_culture: Subculture
 select_parts:
+  label: Parts
   whole: All Parts
   left_part_1: Digital pad 1
   left_part_2: Digital pad 2

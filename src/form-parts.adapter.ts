@@ -98,7 +98,7 @@ export class FormPartsAdapter {
                             if (old_flag_name !== new_flag_name || old_orientation !== new_orientation) {
                                 that.updateSelectedPartUI(old_form, part);
                             }
-                            if (old_show_whole !== new_show_whole) {
+                            if (old_flag_name !== new_flag_name || old_show_whole !== new_show_whole) {
                                 that._parts_lists[part]?.update();
                             }
     
