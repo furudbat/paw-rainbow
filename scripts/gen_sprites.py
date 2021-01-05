@@ -248,6 +248,13 @@ def generateColorCodeMap(colors_config, parts, img, transparent_colors, outline_
                 if px_color == Color(part_color):
                     color_code_map['extra_outline'].append(coordinate)
 
+            if 'outlines' in colors_config:
+                if not 'outlines' in color_code_map:
+                    color_code_map['outlines'] = []
+                for part_color in colors_config['outlines']:
+                    if px_color == Color(part_color):
+                        color_code_map['outlines'].append(coordinate)
+
     return color_code_map
 
 def genStripesParts(small_start, small_end, stripes, flag_colors_size, orientation):
@@ -840,6 +847,145 @@ def generateSprite(in_img_filename, parts, category, form, colors_config, flags,
 
     return output_arr
 
+
+def generateCustomSpriteLine(output_map, paw_outlines_img, outline_color, flag, parts, orientation, color_code_map, extra_name):
+    assert (orientation == "horizontal" or orientation == "vertical"), 'orientation must be "horizontal" or "vertical"'
+
+    paw_width = paw_outlines_img.size[0]
+    paw_height = paw_outlines_img.size[1]
+
+    output_flage_frames = dict()
+    frame_counter = 0
+    for part in parts:
+        output_flage_part = Image.new(mode = "RGBA", size = (paw_width, paw_height))
+        output_flage_part_pixels = output_flage_part.load()
+
+        flag_name = flag['name']
+
+        key_name = flag_name.lower().replace(' ', '_').replace("'", '').replace('+', '').replace('-', '_').replace('/', '_').replace('\\', '_')
+        extra_key = '_' + orientation + '_' + str(frame_counter) + '_' + extra_name
+        key = key_name + extra_key
+        if not key in output_map:
+            output_map[key] = { 'flag_name': flag_name, 'part': part, 'orientation': orientation, extra_name+'_key': extra_key, 'mask_key': extra_key }
+
+        if extra_name in color_code_map:
+            for coord in color_code_map[extra_name]:
+                x, y = coord
+                output_flage_part_pixels[x ,y] = hex_to_rgb(outline_color.hex_l)
+
+        frame_width = output_flage_part.size[0]
+        frame_height = output_flage_part.size[1]
+        
+        new_output_flage_part = output_flage_part
+        output_flage_frames[key] = new_output_flage_part
+        output_map[key][extra_name] = True
+        output_map[key]['rotated'] = False
+        output_map[key]['trimmed'] = False
+        output_map[key]['spriteSourceSize'] = { 'x': 0, 'y': 0, 'w': frame_width, 'h': frame_height }
+        output_map[key]['sourceSize'] = { 'w': frame_width,'h': frame_height }
+        
+        frame_counter = frame_counter + 1
+
+    return output_flage_frames
+    
+def generateCustomSprite(in_img_filename, parts, category, form, colors_config, flags, transparent_colors, extra_name):
+    output_name = category + '_' + form
+    outline_color = Color(colors_config['outline']) if 'outline' in colors_config else None
+    color_code_map = dict()
+
+    paw_outlines_img = Image.new(mode = "RGBA", size= (0, 0))
+    with Image.open(in_img_filename) as img:
+        paw_outlines_img = getOutlineImage(img, outline_color)
+        color_code_map = generateColorCodeMap(colors_config, parts, img, transparent_colors, outline_color)
+
+    with open("output/{}_map.json".format(output_name), 'w') as f:
+        json.dump(color_code_map, f, indent=4)
+
+    output_map = dict()
+
+    new_parts = parts
+
+    output_flages_map = dict()
+    x = 0
+    y = 0
+    width = 0
+    height = 0
+    for flag in flags:
+        x = 0
+        frames_width = 0
+
+        frame_width = 0
+        frame_height = 0
+        for key, value in generateCustomSpriteLine(output_map, paw_outlines_img, outline_color, flag, new_parts, 'horizontal', color_code_map, extra_name).items():
+            output_flages_map[key] = value
+            frame_width = value.size[0]
+            frame_height = value.size[1]
+
+            if key in output_map:
+                output_map[key]['frame'] = { 'x': x, 'y': y, 'w': frame_width, 'h': frame_height }
+
+            x = x + frame_width
+            frames_width = frames_width + frame_width
+            width = max(width, frames_width)
+
+        frame_width = 0
+        frame_height = 0
+        for key, value in generateCustomSpriteLine(output_map, paw_outlines_img, outline_color, flag, new_parts, 'vertical', color_code_map, extra_name).items():
+            output_flages_map[key] = value
+            frame_width = value.size[0]
+            frame_height = value.size[1]
+
+            if key in output_map:
+                output_map[key]['frame'] = { 'x': x, 'y': y, 'w': frame_width,'h': frame_height }
+            
+            x = x + frame_width
+            frames_width = frames_width + frame_width
+            width = max(width, frames_width)
+        
+        y = y + frame_height
+        height = height + frame_height
+
+    output_img = Image.new(mode="RGBA", size=(width, height))
+    new_output_frames = dict()
+    for name, img in output_flages_map.items():
+        if name in output_map:
+            if (not 'empty' in output_map[name] or ('empty' in output_map[name] and not output_map[name]['empty'])):
+                dir_name = 'assets/img/sprites/{}'.format(output_name)
+                sprite_filename = os.path.normpath(os.path.join(dir_name, "{}_{}.png".format(output_name, name))).replace("\\", "/")
+                os.makedirs(os.path.join('..', dir_name), exist_ok=True)
+                img.save(os.path.join('..', sprite_filename))
+
+                output_map[name]['id'] = sprite_filename
+                output_map[name]['filename'] = sprite_filename
+                output_map[name]['mask_filename'] = sprite_filename
+                new_output_frames[sprite_filename] = output_map[name]
+
+            if name in output_map and 'frame' in output_map[name]:
+                output_img.paste(img, (output_map[name]['frame']['x'], output_map[name]['frame']['y']))
+        else:
+            print("{} not in output_map".format(name))
+
+    output_sprite_filename = "{}.png".format(output_name)
+    output_img.save(os.path.join('../assets/img/sprites', output_sprite_filename))
+    new_output_map = { 'frames': new_output_frames, 'meta': { 'size': {'w': width, 'h': height}, 'image': output_sprite_filename, 'format': 'RGBA8888', 'scale': 1 } }
+
+    sheet_filename = 'assets/img/sprites/{}.json'.format(output_name)
+    output_json_filename = os.path.join('..', sheet_filename)
+    with open(output_json_filename, 'w') as f:
+        json.dump(new_output_map, f, indent=4)
+        
+    output_arr = []
+    for name, data in output_map.items():
+        data['category'] = category
+        data['form'] = form
+        data['sheet'] = sheet_filename
+        if name in output_map and (not 'empty' in output_map[name] or ('empty' in output_map[name] and not output_map[name]['empty'])):
+            output_arr.append(data)
+
+    print("generateSprite: generate {} and {}".format(output_sprite_filename, sheet_filename))
+
+    return output_arr
+
 def main():
     config = dict()
     pride_flags = dict()
@@ -882,7 +1028,7 @@ def main():
         if form in config:
             parts = config[form]['parts']
             mask_output.extend(generateSprite(config[form]['base_filename'], parts, 'mask', form, config[form], [mask_flag], transparent_colors, mask_output))
-
+    
     output = []
     for form in forms:
         if form in config:
@@ -907,6 +1053,13 @@ def main():
             
             if not 'whole' in config[form]['parts']:
                 config[form]['parts'].append('whole')
+    
+    for form in forms:
+        if form in config:
+            parts = config[form]['parts']
+            
+            output.extend(generateCustomSprite(config[form]['base_filename'], parts, 'craws', form, config[form], [mask_flag], transparent_colors, 'craws'))
+            output.extend(generateCustomSprite(config[form]['base_filename'], parts, 'outlines', form, config[form], [mask_flag], transparent_colors, 'outlines'))
 
     with open(r'output/sprites.json', 'w') as file:
         json.dump(output, file, indent=4)

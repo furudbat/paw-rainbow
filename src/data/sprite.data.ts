@@ -42,4 +42,10 @@ export interface SpriteData extends SpriteSheetData {
     flags_fits_perfect?: boolean;
     default?: boolean;
     mask?: boolean;
+
+    outlines_key?: string;
+    outlines?: boolean;
+
+    craws_key?: string;
+    craws?: boolean;
 }

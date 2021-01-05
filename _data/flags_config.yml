@@ -71,13 +71,15 @@ paw:
     - '#73b373'
     - '#40c040'
   outline: '#000000'
+  outlines:
+  - '#000000'
+  - '#1a1a1a'
   parts:
   - left_part_1
   - left_part_2
   - right_part_1
   - right_part_2
   - center
-  - whole
   right_part_1:
     circle:
       horizontal:

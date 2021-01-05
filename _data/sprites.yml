@@ -23674,3 +23674,543 @@
     x: 0
     y: 0
   trimmed: false
+- category: craws
+  craws: true
+  craws_key: _horizontal_0_craws
+  filename: assets/img/sprites/craws_paw/craws_paw_mask_horizontal_0_craws.png
+  flag_name: Mask
+  form: paw
+  frame:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  id: assets/img/sprites/craws_paw/craws_paw_mask_horizontal_0_craws.png
+  mask_filename: assets/img/sprites/craws_paw/craws_paw_mask_horizontal_0_craws.png
+  mask_key: _horizontal_0_craws
+  orientation: horizontal
+  part: left_part_1
+  rotated: false
+  sheet: assets/img/sprites/craws_paw.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- category: craws
+  craws: true
+  craws_key: _horizontal_1_craws
+  filename: assets/img/sprites/craws_paw/craws_paw_mask_horizontal_1_craws.png
+  flag_name: Mask
+  form: paw
+  frame:
+    h: 22
+    w: 22
+    x: 22
+    y: 0
+  id: assets/img/sprites/craws_paw/craws_paw_mask_horizontal_1_craws.png
+  mask_filename: assets/img/sprites/craws_paw/craws_paw_mask_horizontal_1_craws.png
+  mask_key: _horizontal_1_craws
+  orientation: horizontal
+  part: left_part_2
+  rotated: false
+  sheet: assets/img/sprites/craws_paw.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- category: craws
+  craws: true
+  craws_key: _horizontal_2_craws
+  filename: assets/img/sprites/craws_paw/craws_paw_mask_horizontal_2_craws.png
+  flag_name: Mask
+  form: paw
+  frame:
+    h: 22
+    w: 22
+    x: 44
+    y: 0
+  id: assets/img/sprites/craws_paw/craws_paw_mask_horizontal_2_craws.png
+  mask_filename: assets/img/sprites/craws_paw/craws_paw_mask_horizontal_2_craws.png
+  mask_key: _horizontal_2_craws
+  orientation: horizontal
+  part: right_part_1
+  rotated: false
+  sheet: assets/img/sprites/craws_paw.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- category: craws
+  craws: true
+  craws_key: _horizontal_3_craws
+  filename: assets/img/sprites/craws_paw/craws_paw_mask_horizontal_3_craws.png
+  flag_name: Mask
+  form: paw
+  frame:
+    h: 22
+    w: 22
+    x: 66
+    y: 0
+  id: assets/img/sprites/craws_paw/craws_paw_mask_horizontal_3_craws.png
+  mask_filename: assets/img/sprites/craws_paw/craws_paw_mask_horizontal_3_craws.png
+  mask_key: _horizontal_3_craws
+  orientation: horizontal
+  part: right_part_2
+  rotated: false
+  sheet: assets/img/sprites/craws_paw.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- category: craws
+  craws: true
+  craws_key: _horizontal_4_craws
+  filename: assets/img/sprites/craws_paw/craws_paw_mask_horizontal_4_craws.png
+  flag_name: Mask
+  form: paw
+  frame:
+    h: 22
+    w: 22
+    x: 88
+    y: 0
+  id: assets/img/sprites/craws_paw/craws_paw_mask_horizontal_4_craws.png
+  mask_filename: assets/img/sprites/craws_paw/craws_paw_mask_horizontal_4_craws.png
+  mask_key: _horizontal_4_craws
+  orientation: horizontal
+  part: center
+  rotated: false
+  sheet: assets/img/sprites/craws_paw.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- category: craws
+  craws: true
+  craws_key: _vertical_0_craws
+  filename: assets/img/sprites/craws_paw/craws_paw_mask_vertical_0_craws.png
+  flag_name: Mask
+  form: paw
+  frame:
+    h: 22
+    w: 22
+    x: 110
+    y: 0
+  id: assets/img/sprites/craws_paw/craws_paw_mask_vertical_0_craws.png
+  mask_filename: assets/img/sprites/craws_paw/craws_paw_mask_vertical_0_craws.png
+  mask_key: _vertical_0_craws
+  orientation: vertical
+  part: left_part_1
+  rotated: false
+  sheet: assets/img/sprites/craws_paw.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- category: craws
+  craws: true
+  craws_key: _vertical_1_craws
+  filename: assets/img/sprites/craws_paw/craws_paw_mask_vertical_1_craws.png
+  flag_name: Mask
+  form: paw
+  frame:
+    h: 22
+    w: 22
+    x: 132
+    y: 0
+  id: assets/img/sprites/craws_paw/craws_paw_mask_vertical_1_craws.png
+  mask_filename: assets/img/sprites/craws_paw/craws_paw_mask_vertical_1_craws.png
+  mask_key: _vertical_1_craws
+  orientation: vertical
+  part: left_part_2
+  rotated: false
+  sheet: assets/img/sprites/craws_paw.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- category: craws
+  craws: true
+  craws_key: _vertical_2_craws
+  filename: assets/img/sprites/craws_paw/craws_paw_mask_vertical_2_craws.png
+  flag_name: Mask
+  form: paw
+  frame:
+    h: 22
+    w: 22
+    x: 154
+    y: 0
+  id: assets/img/sprites/craws_paw/craws_paw_mask_vertical_2_craws.png
+  mask_filename: assets/img/sprites/craws_paw/craws_paw_mask_vertical_2_craws.png
+  mask_key: _vertical_2_craws
+  orientation: vertical
+  part: right_part_1
+  rotated: false
+  sheet: assets/img/sprites/craws_paw.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- category: craws
+  craws: true
+  craws_key: _vertical_3_craws
+  filename: assets/img/sprites/craws_paw/craws_paw_mask_vertical_3_craws.png
+  flag_name: Mask
+  form: paw
+  frame:
+    h: 22
+    w: 22
+    x: 176
+    y: 0
+  id: assets/img/sprites/craws_paw/craws_paw_mask_vertical_3_craws.png
+  mask_filename: assets/img/sprites/craws_paw/craws_paw_mask_vertical_3_craws.png
+  mask_key: _vertical_3_craws
+  orientation: vertical
+  part: right_part_2
+  rotated: false
+  sheet: assets/img/sprites/craws_paw.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- category: craws
+  craws: true
+  craws_key: _vertical_4_craws
+  filename: assets/img/sprites/craws_paw/craws_paw_mask_vertical_4_craws.png
+  flag_name: Mask
+  form: paw
+  frame:
+    h: 22
+    w: 22
+    x: 198
+    y: 0
+  id: assets/img/sprites/craws_paw/craws_paw_mask_vertical_4_craws.png
+  mask_filename: assets/img/sprites/craws_paw/craws_paw_mask_vertical_4_craws.png
+  mask_key: _vertical_4_craws
+  orientation: vertical
+  part: center
+  rotated: false
+  sheet: assets/img/sprites/craws_paw.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- category: outlines
+  filename: assets/img/sprites/outlines_paw/outlines_paw_mask_horizontal_0_outlines.png
+  flag_name: Mask
+  form: paw
+  frame:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  id: assets/img/sprites/outlines_paw/outlines_paw_mask_horizontal_0_outlines.png
+  mask_filename: assets/img/sprites/outlines_paw/outlines_paw_mask_horizontal_0_outlines.png
+  mask_key: _horizontal_0_outlines
+  orientation: horizontal
+  outlines: true
+  outlines_key: _horizontal_0_outlines
+  part: left_part_1
+  rotated: false
+  sheet: assets/img/sprites/outlines_paw.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- category: outlines
+  filename: assets/img/sprites/outlines_paw/outlines_paw_mask_horizontal_1_outlines.png
+  flag_name: Mask
+  form: paw
+  frame:
+    h: 22
+    w: 22
+    x: 22
+    y: 0
+  id: assets/img/sprites/outlines_paw/outlines_paw_mask_horizontal_1_outlines.png
+  mask_filename: assets/img/sprites/outlines_paw/outlines_paw_mask_horizontal_1_outlines.png
+  mask_key: _horizontal_1_outlines
+  orientation: horizontal
+  outlines: true
+  outlines_key: _horizontal_1_outlines
+  part: left_part_2
+  rotated: false
+  sheet: assets/img/sprites/outlines_paw.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- category: outlines
+  filename: assets/img/sprites/outlines_paw/outlines_paw_mask_horizontal_2_outlines.png
+  flag_name: Mask
+  form: paw
+  frame:
+    h: 22
+    w: 22
+    x: 44
+    y: 0
+  id: assets/img/sprites/outlines_paw/outlines_paw_mask_horizontal_2_outlines.png
+  mask_filename: assets/img/sprites/outlines_paw/outlines_paw_mask_horizontal_2_outlines.png
+  mask_key: _horizontal_2_outlines
+  orientation: horizontal
+  outlines: true
+  outlines_key: _horizontal_2_outlines
+  part: right_part_1
+  rotated: false
+  sheet: assets/img/sprites/outlines_paw.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- category: outlines
+  filename: assets/img/sprites/outlines_paw/outlines_paw_mask_horizontal_3_outlines.png
+  flag_name: Mask
+  form: paw
+  frame:
+    h: 22
+    w: 22
+    x: 66
+    y: 0
+  id: assets/img/sprites/outlines_paw/outlines_paw_mask_horizontal_3_outlines.png
+  mask_filename: assets/img/sprites/outlines_paw/outlines_paw_mask_horizontal_3_outlines.png
+  mask_key: _horizontal_3_outlines
+  orientation: horizontal
+  outlines: true
+  outlines_key: _horizontal_3_outlines
+  part: right_part_2
+  rotated: false
+  sheet: assets/img/sprites/outlines_paw.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- category: outlines
+  filename: assets/img/sprites/outlines_paw/outlines_paw_mask_horizontal_4_outlines.png
+  flag_name: Mask
+  form: paw
+  frame:
+    h: 22
+    w: 22
+    x: 88
+    y: 0
+  id: assets/img/sprites/outlines_paw/outlines_paw_mask_horizontal_4_outlines.png
+  mask_filename: assets/img/sprites/outlines_paw/outlines_paw_mask_horizontal_4_outlines.png
+  mask_key: _horizontal_4_outlines
+  orientation: horizontal
+  outlines: true
+  outlines_key: _horizontal_4_outlines
+  part: center
+  rotated: false
+  sheet: assets/img/sprites/outlines_paw.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- category: outlines
+  filename: assets/img/sprites/outlines_paw/outlines_paw_mask_vertical_0_outlines.png
+  flag_name: Mask
+  form: paw
+  frame:
+    h: 22
+    w: 22
+    x: 110
+    y: 0
+  id: assets/img/sprites/outlines_paw/outlines_paw_mask_vertical_0_outlines.png
+  mask_filename: assets/img/sprites/outlines_paw/outlines_paw_mask_vertical_0_outlines.png
+  mask_key: _vertical_0_outlines
+  orientation: vertical
+  outlines: true
+  outlines_key: _vertical_0_outlines
+  part: left_part_1
+  rotated: false
+  sheet: assets/img/sprites/outlines_paw.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- category: outlines
+  filename: assets/img/sprites/outlines_paw/outlines_paw_mask_vertical_1_outlines.png
+  flag_name: Mask
+  form: paw
+  frame:
+    h: 22
+    w: 22
+    x: 132
+    y: 0
+  id: assets/img/sprites/outlines_paw/outlines_paw_mask_vertical_1_outlines.png
+  mask_filename: assets/img/sprites/outlines_paw/outlines_paw_mask_vertical_1_outlines.png
+  mask_key: _vertical_1_outlines
+  orientation: vertical
+  outlines: true
+  outlines_key: _vertical_1_outlines
+  part: left_part_2
+  rotated: false
+  sheet: assets/img/sprites/outlines_paw.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- category: outlines
+  filename: assets/img/sprites/outlines_paw/outlines_paw_mask_vertical_2_outlines.png
+  flag_name: Mask
+  form: paw
+  frame:
+    h: 22
+    w: 22
+    x: 154
+    y: 0
+  id: assets/img/sprites/outlines_paw/outlines_paw_mask_vertical_2_outlines.png
+  mask_filename: assets/img/sprites/outlines_paw/outlines_paw_mask_vertical_2_outlines.png
+  mask_key: _vertical_2_outlines
+  orientation: vertical
+  outlines: true
+  outlines_key: _vertical_2_outlines
+  part: right_part_1
+  rotated: false
+  sheet: assets/img/sprites/outlines_paw.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- category: outlines
+  filename: assets/img/sprites/outlines_paw/outlines_paw_mask_vertical_3_outlines.png
+  flag_name: Mask
+  form: paw
+  frame:
+    h: 22
+    w: 22
+    x: 176
+    y: 0
+  id: assets/img/sprites/outlines_paw/outlines_paw_mask_vertical_3_outlines.png
+  mask_filename: assets/img/sprites/outlines_paw/outlines_paw_mask_vertical_3_outlines.png
+  mask_key: _vertical_3_outlines
+  orientation: vertical
+  outlines: true
+  outlines_key: _vertical_3_outlines
+  part: right_part_2
+  rotated: false
+  sheet: assets/img/sprites/outlines_paw.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false
+- category: outlines
+  filename: assets/img/sprites/outlines_paw/outlines_paw_mask_vertical_4_outlines.png
+  flag_name: Mask
+  form: paw
+  frame:
+    h: 22
+    w: 22
+    x: 198
+    y: 0
+  id: assets/img/sprites/outlines_paw/outlines_paw_mask_vertical_4_outlines.png
+  mask_filename: assets/img/sprites/outlines_paw/outlines_paw_mask_vertical_4_outlines.png
+  mask_key: _vertical_4_outlines
+  orientation: vertical
+  outlines: true
+  outlines_key: _vertical_4_outlines
+  part: center
+  rotated: false
+  sheet: assets/img/sprites/outlines_paw.json
+  sourceSize:
+    h: 22
+    w: 22
+  spriteSourceSize:
+    h: 22
+    w: 22
+    x: 0
+    y: 0
+  trimmed: false

@@ -14,6 +14,9 @@ paw:
   base_filename: './paw.png'
   outline: '#000000'
   extra_outline: '#1a1a1a'
+  outlines:
+    - '#000000'
+    - '#1a1a1a'
   parts:
     - 'left_part_1'
     - 'left_part_2'
