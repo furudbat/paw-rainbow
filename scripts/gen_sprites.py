@@ -879,6 +879,7 @@ def generateCustomSpriteLine(output_map, paw_outlines_img, outline_color, flag, 
         new_output_flage_part = output_flage_part
         output_flage_frames[key] = new_output_flage_part
         output_map[key][extra_name] = True
+        output_map[key]['mask'] = True
         output_map[key]['rotated'] = False
         output_map[key]['trimmed'] = False
         output_map[key]['spriteSourceSize'] = { 'x': 0, 'y': 0, 'w': frame_width, 'h': frame_height }
@@ -904,6 +905,8 @@ def generateCustomSprite(in_img_filename, parts, category, form, colors_config, 
     output_map = dict()
 
     new_parts = parts
+    if not 'whole' in new_parts:
+        new_parts.append('whole')
 
     output_flages_map = dict()
     x = 0
@@ -1060,6 +1063,9 @@ def main():
             
             output.extend(generateCustomSprite(config[form]['base_filename'], parts, 'craws', form, config[form], [mask_flag], transparent_colors, 'craws'))
             output.extend(generateCustomSprite(config[form]['base_filename'], parts, 'outlines', form, config[form], [mask_flag], transparent_colors, 'outlines'))
+
+    if not 'whole' in config[form]['parts']:
+        config[form]['parts'].append('whole')
 
     with open(r'output/sprites.json', 'w') as file:
         json.dump(output, file, indent=4)

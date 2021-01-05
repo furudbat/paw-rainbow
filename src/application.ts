@@ -9,6 +9,8 @@ import { FlagInfoAdapter } from './flag-info.adapter';
 import List from 'list.js';
 import { LIST_JS_PAGINATION } from './site.value';
 
+export const CANVAS_WIDTH = 720;
+export const CANVAS_HEIGHT = 720;
 export class Application {
 
     private _appData: ApplicationData = new ApplicationData();
@@ -95,7 +97,7 @@ export class Application {
 
     private async initFlagList() {
         const options: any /*List.ListOptions*/ = {
-            valueNames: [ 'flag_info_img', 'flag_info_alt_name', 'flag_info_name' ],
+            valueNames: [ 'flag_name' ],
             page: 6,
             pagination: LIST_JS_PAGINATION
         };
@@ -119,8 +121,8 @@ export class Application {
     private async initCanvas() {
         var that = this;
         this._pixiApp = new PixiApplication({
-            width: 720,
-            height: 720,
+            width: CANVAS_WIDTH,
+            height: CANVAS_HEIGHT,
             antialias: false,
             transparent: true,
             resizeTo: $('#spriteViewContainer')[0]

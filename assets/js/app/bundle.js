@@ -64461,7 +64461,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.Application = void 0;
+exports.Application = exports.CANVAS_HEIGHT = exports.CANVAS_WIDTH = void 0;
 var application_data_1 = require("./data/application.data");
 var typescript_logger_1 = require("typescript-logger");
 var pixi_js_1 = require("pixi.js");
@@ -64471,6 +64471,8 @@ var form_parts_adapter_1 = require("./form-parts.adapter");
 var flag_info_adapter_1 = require("./flag-info.adapter");
 var list_js_1 = __importDefault(require("list.js"));
 var site_value_1 = require("./site.value");
+exports.CANVAS_WIDTH = 720;
+exports.CANVAS_HEIGHT = 720;
 var Application = (function () {
     function Application() {
         this._appData = new application_data_1.ApplicationData();
@@ -64558,7 +64560,7 @@ var Application = (function () {
             var options, id;
             return __generator(this, function (_a) {
                 options = {
-                    valueNames: ['flag_info_img', 'flag_info_alt_name', 'flag_info_name'],
+                    valueNames: ['flag_name'],
                     page: 6,
                     pagination: site_value_1.LIST_JS_PAGINATION
                 };
@@ -64601,8 +64603,8 @@ var Application = (function () {
             return __generator(this, function (_a) {
                 that = this;
                 this._pixiApp = new pixi_js_1.Application({
-                    width: 720,
-                    height: 720,
+                    width: exports.CANVAS_WIDTH,
+                    height: exports.CANVAS_HEIGHT,
                     antialias: false,
                     transparent: true,
                     resizeTo: $('#spriteViewContainer')[0]
@@ -64853,6 +64855,7 @@ var ApplicationData = (function () {
             this._currentSelection.data.parts[part] = new CurrentSelectionPart();
         }
         this._currentSelection.data.parts[part].flag_name = flag_name;
+        this.saveCurrentSelection();
         this._currentSelection.notify();
     };
     ApplicationData.prototype.setPartOrientation = function (part, orientation) {
@@ -64860,6 +64863,7 @@ var ApplicationData = (function () {
             this._currentSelection.data.parts[part] = new CurrentSelectionPart();
         }
         this._currentSelection.data.parts[part].orientation = orientation;
+        this.saveCurrentSelection();
         this._currentSelection.notify();
     };
     ApplicationData.prototype.setPartFilter = function (part, filter) {
@@ -64867,6 +64871,7 @@ var ApplicationData = (function () {
             this._currentSelection.data.parts[part] = new CurrentSelectionPart();
         }
         this._currentSelection.data.parts[part].filter = filter;
+        this.saveCurrentSelection();
         this._currentSelection.notify();
     };
     ApplicationData.prototype.setPart = function (part, flag_name, orientation) {
@@ -64875,25 +64880,27 @@ var ApplicationData = (function () {
         }
         this._currentSelection.data.parts[part].flag_name = flag_name;
         this._currentSelection.data.parts[part].orientation = orientation;
+        this.saveCurrentSelection();
         this._currentSelection.notify();
     };
     ApplicationData.prototype.setForm = function (form, parts_list, default_flag_name) {
         if (default_flag_name === void 0) { default_flag_name = ''; }
-        var currentSelection = this.currentSelection;
-        currentSelection.form = form;
+        this._currentSelection.data.form = form;
         for (var _i = 0, parts_list_1 = parts_list; _i < parts_list_1.length; _i++) {
             var part = parts_list_1[_i];
-            if (currentSelection.parts && !(part in currentSelection.parts)) {
-                currentSelection.parts[part] = new CurrentSelectionPart();
+            if (this._currentSelection.data.parts && !(part in this._currentSelection.data.parts)) {
+                this._currentSelection.data.parts[part] = new CurrentSelectionPart();
                 if (default_flag_name) {
-                    currentSelection.parts[part].flag_name = default_flag_name;
+                    this._currentSelection.data.parts[part].flag_name = default_flag_name;
                 }
             }
         }
+        this.saveCurrentSelection();
         this._currentSelection.notify();
     };
     ApplicationData.prototype.setShowWhole = function (value) {
         this._currentSelection.data.show_whole = value;
+        this.saveCurrentSelection();
         this._currentSelection.notify();
     };
     return ApplicationData;
@@ -64912,6 +64919,42 @@ var Orientation;
 
 },{}],85:[function(require,module,exports){
 "use strict";
+var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
+    function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
+    return new (P || (P = Promise))(function (resolve, reject) {
+        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }
+        function rejected(value) { try { step(generator["throw"](value)); } catch (e) { reject(e); } }
+        function step(result) { result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected); }
+        step((generator = generator.apply(thisArg, _arguments || [])).next());
+    });
+};
+var __generator = (this && this.__generator) || function (thisArg, body) {
+    var _ = { label: 0, sent: function() { if (t[0] & 1) throw t[1]; return t[1]; }, trys: [], ops: [] }, f, y, t, g;
+    return g = { next: verb(0), "throw": verb(1), "return": verb(2) }, typeof Symbol === "function" && (g[Symbol.iterator] = function() { return this; }), g;
+    function verb(n) { return function (v) { return step([n, v]); }; }
+    function step(op) {
+        if (f) throw new TypeError("Generator is already executing.");
+        while (_) try {
+            if (f = 1, y && (t = op[0] & 2 ? y["return"] : op[0] ? y["throw"] || ((t = y["return"]) && t.call(y), 0) : y.next) && !(t = t.call(y, op[1])).done) return t;
+            if (y = 0, t) op = [op[0] & 2, t.value];
+            switch (op[0]) {
+                case 0: case 1: t = op; break;
+                case 4: _.label++; return { value: op[1], done: false };
+                case 5: _.label++; y = op[1]; op = [0]; continue;
+                case 7: op = _.ops.pop(); _.trys.pop(); continue;
+                default:
+                    if (!(t = _.trys, t = t.length > 0 && t[t.length - 1]) && (op[0] === 6 || op[0] === 2)) { _ = 0; continue; }
+                    if (op[0] === 3 && (!t || (op[1] > t[0] && op[1] < t[3]))) { _.label = op[1]; break; }
+                    if (op[0] === 6 && _.label < t[1]) { _.label = t[1]; t = op; break; }
+                    if (t && _.label < t[2]) { _.label = t[2]; _.ops.push(op); break; }
+                    if (t[2]) _.ops.pop();
+                    _.trys.pop(); continue;
+            }
+            op = body.call(thisArg, _);
+        } catch (e) { op = [6, e]; y = 0; } finally { f = t = 0; }
+        if (op[0] & 5) throw op[1]; return { value: op[0] ? op[1] : void 0, done: true };
+    }
+};
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.FlagInfoAdapter = void 0;
 var typescript_logger_1 = require("typescript-logger");
@@ -64938,25 +64981,29 @@ var FlagInfoAdapter = (function () {
         }()));
     };
     FlagInfoAdapter.prototype.updateFlagInfos = function (flag_name) {
-        var _a;
-        var flag_info = site_1.site.data.flags_info.find(function (it) { return it.name === flag_name; });
-        this.log.debug('updateFlagInfos', flag_name, flag_info);
-        if (flag_info) {
-            if (flag_info.img) {
-                $('#flagInfoImage').attr('src', flag_info.img);
-            }
-            $('#flagInfoTitle').html(flag_info.name);
-            $('#flagInfoDescription').html((_a = flag_info.description) !== null && _a !== void 0 ? _a : '');
-            if (flag_info.link) {
-                $('#flagInfoLink').attr('href', flag_info.link).html(site_1.site.data.strings.flag_info.source_label);
-            }
-        }
-        else {
-            $('#flagInfoImage').attr('src', site_1.site.data.strings.flag_info.unknown.img);
-            $('#flagInfoTitle').html(site_1.site.data.strings.flag_info.unknown.title);
-            $('#flagInfoDescription').html(site_1.site.data.strings.flag_info.unknown.description);
-            $('#flagInfoLink').attr('href', '#').html('');
-        }
+        var _a, _b;
+        return __awaiter(this, void 0, void 0, function () {
+            var flag_info;
+            return __generator(this, function (_c) {
+                flag_info = site_1.site.data.flags_info.find(function (it) { return it.name === flag_name; });
+                this.log.debug('updateFlagInfos', flag_name, flag_info);
+                if (flag_info === null || flag_info === void 0 ? void 0 : flag_info.img) {
+                    $('#flagInfoImage').attr('src', flag_info.img);
+                }
+                else {
+                    $('#flagInfoImage').attr('src', site_1.site.data.strings.flag_info.unknown.img);
+                }
+                $('#flagInfoTitle').html((_a = flag_info === null || flag_info === void 0 ? void 0 : flag_info.name) !== null && _a !== void 0 ? _a : site_1.site.data.strings.flag_info.unknown.title);
+                $('#flagInfoDescription').html((_b = flag_info === null || flag_info === void 0 ? void 0 : flag_info.description) !== null && _b !== void 0 ? _b : site_1.site.data.strings.flag_info.unknown.description);
+                if (flag_info === null || flag_info === void 0 ? void 0 : flag_info.link) {
+                    $('#flagInfoLink').attr('href', flag_info.link).html(site_1.site.data.strings.flag_info.source_label);
+                }
+                else {
+                    $('#flagInfoLink').attr('href', '#').html('');
+                }
+                return [2];
+            });
+        });
     };
     return FlagInfoAdapter;
 }());
@@ -65012,112 +65059,124 @@ var typescript_logger_1 = require("typescript-logger");
 var site_value_1 = require("./site.value");
 var list_js_1 = __importDefault(require("list.js"));
 require("select2");
-var memory_cache_1 = __importDefault(require("memory-cache"));
-var FLAG_NAME_NONE_DEFAULT = 'None';
+var sprites_data_helper_1 = require("./sprites.data.helper");
 var SELECTABLE_PARTS_LIST_ITEMS_PER_PAGE = 8;
 var FormPartsAdapter = (function () {
     function FormPartsAdapter(appData) {
-        this._cacheFlagData = new memory_cache_1.default.Cache();
-        this._cacheSpriteMetaData = new memory_cache_1.default.Cache();
-        this._cacheFlagNames = new memory_cache_1.default.Cache();
         this._parts_lists = {};
-        this._last_value = {};
+        this._last_values = new LastSelectedValues();
+        this._sprite_data_helper = new sprites_data_helper_1.SpriteDataHelper();
         this.log = typescript_logger_1.LoggerManager.create('FormPartsAdapter');
-        this.DEFAULT_FLAG_NAME_KEY = 'default_flag_name';
-        this.MASK_SPRITE_KEY = 'mask_sprite';
-        this.DEFAULT_SPRITE_KEY = 'default_sprite';
-        this.SELECTABLE_SPRITES_KEY = 'selectable_sprites';
-        this.SELECTABLE_PARTS_KEY = 'selectable_parts';
-        this.FLAG_DATA_KEY = 'flag_data';
         this._appData = appData;
-        this.initDefaultValues();
     }
     FormPartsAdapter.prototype.initDefaultValues = function () {
-        for (var _i = 0, _a = this.parts_list; _i < _a.length; _i++) {
-            var part = _a[_i];
-            if (!(part in this.currentSelection.parts) || !this.currentSelection.parts[part].flag_name) {
-                this.currentSelection.parts[part] = new application_data_1.CurrentSelectionPart();
-                this.currentSelection.parts[part].filter = application_data_1.ALL_FILTER;
-                this.currentSelection.parts[part].flag_name = this.getDefaultFlagName(this.current_form);
-                this.currentSelection.parts[part].orientation = sprite_data_1.Orientation.Vertical;
+        var _this = this;
+        return this._sprite_data_helper.setup(this.current_form, this.parts_list).then(function () {
+            for (var _i = 0, _a = _this.parts_list; _i < _a.length; _i++) {
+                var part = _a[_i];
+                if (!(part in _this.currentSelection.parts) || !_this.currentSelection.parts[part].flag_name) {
+                    _this.currentSelection.parts[part] = new application_data_1.CurrentSelectionPart();
+                    _this.currentSelection.parts[part].filter = application_data_1.ALL_FILTER;
+                    _this.currentSelection.parts[part].flag_name = _this._sprite_data_helper.getDefaultFlagName(_this.current_form);
+                    _this.currentSelection.parts[part].orientation = sprite_data_1.Orientation.Vertical;
+                }
             }
-        }
+            _this._appData.saveCurrentSelection();
+        });
     };
     FormPartsAdapter.prototype.init = function () {
+        var _this = this;
         this.initObservers();
         if (!this.current_form && site_1.site.data.flags_config.forms.length > 0) {
-            var form = site_1.site.data.flags_config.forms[0];
-            this._appData.setForm(form, this.parts_list, this.getDefaultFlagName(form));
+            var form_1 = site_1.site.data.flags_config.forms[0];
+            this.initDefaultValues().then(function () {
+                _this._appData.setForm(form_1, _this.parts_list, _this._sprite_data_helper.getDefaultFlagName(form_1));
+            });
         }
         else {
-            this.updateUI();
-        }
-        this.warmUpCache();
-    };
-    FormPartsAdapter.prototype.warmUpCache = function () {
-        for (var _i = 0, _a = this.parts_list; _i < _a.length; _i++) {
-            var part = _a[_i];
-            this.getSelectableSpritesParts(this.current_form, part);
+            this.initDefaultValues().then(function () {
+                _this.updateUI();
+            });
         }
     };
+    FormPartsAdapter.prototype.updateLastValues = function (value) {
+        var _a;
+        return __awaiter(this, void 0, void 0, function () {
+            var _i, _b, part;
+            return __generator(this, function (_c) {
+                this._last_values.form = value.form;
+                this._last_values.show_whole = value.show_whole;
+                for (_i = 0, _b = this.parts_list; _i < _b.length; _i++) {
+                    part = _b[_i];
+                    this._last_values.parts[part] = {
+                        filter: (_a = value.parts[part].filter) !== null && _a !== void 0 ? _a : application_data_1.ALL_FILTER,
+                        flag_name: value.parts[part].flag_name,
+                        orientation: value.parts[part].orientation
+                    };
+                }
+                return [2];
+            });
+        });
+    };
+    ;
     FormPartsAdapter.prototype.initObservers = function () {
         var that = this;
         this._appData.currentSelectionObservable.attach(new (function () {
             function class_1() {
             }
             class_1.prototype.update = function (subject) {
-                var _a, _b, _c;
-                var form = subject.data.form;
-                var form_key = 'form';
-                that.log.debug('update currentSelection', subject.data, that._last_value);
-                if (that._last_value[form_key] !== form) {
-                    that.initDefaultValues();
-                    that._last_value = {};
-                    that.updateUI();
+                var new_form = subject.data.form;
+                var old_form = that._last_values.form;
+                if (old_form !== new_form) {
+                    that._last_values.clear();
+                    that.initDefaultValues().then(function () {
+                        that.updateUI().then(function () { return that.updateLastValues(subject.data); });
+                    });
                 }
                 else {
-                    for (var _i = 0, _d = that.parts_list; _i < _d.length; _i++) {
-                        var part = _d[_i];
-                        var part_filter_key = "part_filter_" + part;
-                        var sprite_data = (_a = that.getCurrentSelectedSprite(form, part)) !== null && _a !== void 0 ? _a : that.getDefaultSprite(form);
-                        if (part in subject.data.parts && that._last_value[part_filter_key] !== subject.data.parts[part].filter) {
-                            that.updateFilter(part, subject.data.parts[part].filter);
-                        }
-                        if (sprite_data !== undefined) {
-                            $('#' + that.getCurrentSelectedPartId(form, part)).replaceWith(that.getSelectedPartHTML(form, part, sprite_data));
-                        }
-                        (_b = that._parts_lists[part]) === null || _b === void 0 ? void 0 : _b.update();
-                    }
-                }
-                that._last_value[form_key] = subject.data.form;
-                for (var _e = 0, _f = that.parts_list; _e < _f.length; _e++) {
-                    var part = _f[_e];
-                    var part_filter_key = "part_filter_" + part;
-                    var part_flag_name_key = "part_flag_name_" + part;
-                    var part_orientation_key = "part_orientation_" + part;
-                    if (part in subject.data.parts) {
-                        that._last_value[part_filter_key] = (_c = subject.data.parts[part].filter) !== null && _c !== void 0 ? _c : application_data_1.ALL_FILTER;
-                        that._last_value[part_flag_name_key] = subject.data.parts[part].flag_name;
-                        that._last_value[part_orientation_key] = subject.data.parts[part].orientation;
-                    }
+                    that.parts_list.map(function (part) {
+                        return new Promise(function (resolve, reject) {
+                            var _a;
+                            var new_filter = (part in subject.data.parts) ? subject.data.parts[part].filter : undefined;
+                            var new_flag_name = (part in subject.data.parts) ? subject.data.parts[part].flag_name : undefined;
+                            var new_orientation = (part in subject.data.parts) ? subject.data.parts[part].orientation : undefined;
+                            var new_show_whole = subject.data.show_whole;
+                            var old_filter = (part in that._last_values.parts) ? that._last_values.parts[part].filter : undefined;
+                            var old_flag_name = (part in that._last_values.parts) ? that._last_values.parts[part].flag_name : undefined;
+                            var old_orientation = (part in that._last_values.parts) ? that._last_values.parts[part].orientation : undefined;
+                            var old_show_whole = that._last_values.show_whole;
+                            if (old_filter !== new_filter) {
+                                that.updateFilter(part, subject.data.parts[part].filter);
+                            }
+                            if (old_flag_name !== new_flag_name && old_orientation !== new_orientation) {
+                                that.updateSelectedPartUI(old_form, part);
+                            }
+                            if (old_show_whole !== new_show_whole) {
+                                (_a = that._parts_lists[part]) === null || _a === void 0 ? void 0 : _a.update();
+                            }
+                            resolve(that.updateLastValues(subject.data));
+                        });
+                    });
                 }
             };
             return class_1;
         }()));
     };
     FormPartsAdapter.prototype.updateUI = function () {
-        this.updateUISetForm();
-        this.updateUISetParts();
+        return Promise.all([
+            this.updateUISetForm(),
+            this.updateUISetParts()
+        ]);
     };
     FormPartsAdapter.prototype.updateFilter = function (part, filter) {
+        var _a;
         if (filter === application_data_1.ALL_FILTER) {
             this._parts_lists[part].filter();
-            this._parts_lists[part].update();
         }
         else {
             this._parts_lists[part].filter(function (item) { return item.values().category === filter; });
-            this._parts_lists[part].update();
         }
+        (_a = this._parts_lists[part]) === null || _a === void 0 ? void 0 : _a.update();
     };
     Object.defineProperty(FormPartsAdapter.prototype, "currentSelection", {
         get: function () {
@@ -65162,102 +65221,23 @@ var FormPartsAdapter = (function () {
         var srcset = srcset_arr.join(',');
         return "<img srcset=\"" + srcset + "\" class=\"img-fluid " + classstr + "\" src=\"" + src + "\" alt=\"" + flag.name + " Icon\">";
     };
-    FormPartsAdapter.prototype.getDefaultFlagName = function (form) {
-        var _a, _b;
-        var key = this.DEFAULT_FLAG_NAME_KEY + "_" + form;
-        var ret = this._cacheFlagNames.get(key);
-        if (ret) {
-            return ret;
-        }
-        ret = (_b = (_a = site_1.site.data.sprites.find(function (it) { return it.default; })) === null || _a === void 0 ? void 0 : _a.flag_name) !== null && _b !== void 0 ? _b : FLAG_NAME_NONE_DEFAULT;
-        this._cacheFlagNames.put(key, ret);
-        return ret;
-    };
-    FormPartsAdapter.prototype.getSelectableSprites = function (form) {
-        var key = this.SELECTABLE_SPRITES_KEY + "_" + form;
-        var ret = this._cacheSpriteMetaData.get(key);
-        if (ret) {
-            return ret;
-        }
-        ret = site_1.site.data.sprites.filter(function (it) { return it.form == form && (it.mask === undefined || !it.mask); }).sort(function (a, b) {
-            if (a.flag_name > b.flag_name) {
-                return -1;
-            }
-            if (a.flag_name < b.flag_name) {
-                return 1;
-            }
-            return 0;
-        }).reverse();
-        this._cacheSpriteMetaData.put(key, ret);
-        return ret;
-    };
-    FormPartsAdapter.prototype.getSelectableSpritesParts = function (form, part) {
-        var key = this.SELECTABLE_PARTS_KEY + "_" + form + "_" + part;
-        var ret = this._cacheSpriteMetaData.get(key);
-        if (ret) {
-            return ret;
-        }
-        ret = this.getSelectableSprites(form).filter(function (it) { return it.part == part; });
-        this._cacheSpriteMetaData.put(key, ret);
-        return ret;
-    };
-    FormPartsAdapter.prototype.getSelectableSpritesFlag = function (form, part, flag_name) {
-        var key = this.SELECTABLE_PARTS_KEY + "_" + form + "_" + part + "_" + flag_name;
-        var ret = this._cacheSpriteMetaData.get(key);
-        if (ret) {
-            return ret;
-        }
-        ret = this.getSelectableSpritesParts(form, part).filter(function (it) { return it.flag_name == flag_name; });
-        this._cacheSpriteMetaData.put(key, ret);
-        return ret;
-    };
-    FormPartsAdapter.prototype.getSelectableSprite = function (form, part, flag_name, orientation) {
-        var key = this.SELECTABLE_PARTS_KEY + "_" + form + "_" + part + "_" + flag_name + "_" + orientation;
-        var rets = this._cacheSpriteMetaData.get(key);
-        if (rets && rets.length > 0) {
-            return rets[0];
-        }
-        rets = this.getSelectableSpritesFlag(form, part, flag_name).filter(function (it) { return it.orientation == orientation; });
-        this._cacheSpriteMetaData.put(key, rets);
-        return (rets.length > 0) ? rets[0] : undefined;
-    };
-    FormPartsAdapter.prototype.getMaskSprite = function (form) {
-        var key = this.MASK_SPRITE_KEY + "_" + form;
-        var rets = this._cacheSpriteMetaData.get(key);
-        if (rets && rets.length > 0) {
-            return rets[0];
-        }
-        rets = site_1.site.data.sprites.filter(function (it) { return it.form == form && it.mask !== undefined; });
-        this._cacheSpriteMetaData.put(key, rets);
-        return (rets.length > 0) ? rets[0] : undefined;
-    };
-    FormPartsAdapter.prototype.getDefaultSprite = function (form) {
-        var key = this.DEFAULT_SPRITE_KEY + "_" + form;
-        var rets = this._cacheSpriteMetaData.get(key);
-        if (rets && rets.length > 0) {
-            return rets[0];
-        }
-        rets = site_1.site.data.sprites.filter(function (it) { return it.form == form && it.default !== undefined; });
-        this._cacheSpriteMetaData.put(key, rets);
-        return (rets.length > 0) ? rets[0] : undefined;
-    };
-    FormPartsAdapter.prototype.getFlagData = function (flag_name) {
+    FormPartsAdapter.prototype.updateSelectedPartUI = function (form, part) {
         var _a;
-        var key = this.FLAG_DATA_KEY + "_" + flag_name;
-        var ret = this._cacheFlagData.get(key);
-        if (ret) {
-            return ret;
-        }
-        ret = (_a = site_1.site.data.flags.find(function (it) { return it.name == flag_name; })) !== null && _a !== void 0 ? _a : null;
-        if (ret) {
-            this._cacheFlagData.put(key, ret);
-        }
-        return ret;
+        return __awaiter(this, void 0, void 0, function () {
+            var sprite_data;
+            return __generator(this, function (_b) {
+                sprite_data = (_a = this.getCurrentSelectedSprite(form, part)) !== null && _a !== void 0 ? _a : this._sprite_data_helper.getDefaultSprite(form, part);
+                if (sprite_data !== undefined) {
+                    $('#' + this.getCurrentSelectedPartId(form, part)).replaceWith(this.getSelectedPartHTML(form, part, sprite_data));
+                }
+                return [2];
+            });
+        });
     };
     FormPartsAdapter.prototype.getCurrentSelectedSprite = function (form, part) {
         var flag_name = this.getSelectedFlagName(part);
         var orientation = this.getSelectedOrientation(part);
-        return (flag_name !== undefined && orientation !== undefined) ? this.getSelectableSprite(form, part, flag_name, orientation) : undefined;
+        return (flag_name !== undefined && orientation !== undefined) ? this._sprite_data_helper.getSelectableSprite(form, part, flag_name, orientation) : undefined;
     };
     FormPartsAdapter.prototype.getSelectedOrientation = function (part) {
         return (part in this.currentSelection.parts) ? this.currentSelection.parts[part].orientation : undefined;
@@ -65277,7 +65257,7 @@ var FormPartsAdapter = (function () {
                     form = _a[_i];
                     form_name = site_1.site.data.strings.select_form[form];
                     active = (this.currentSelection.form == form) ? 'active' : '';
-                    btn = "<button type=\"button\" class=\"list-group-item list-group-item-action " + active + "\" data-form=\"" + form + "\">\n                " + form_name + "\n            </button>";
+                    btn = "<button type=\"button\" class=\"list-group-item " + active + "\" data-form=\"" + form + "\">\n                " + form_name + "\n            </button>";
                     $('#lstSelectForm').append(btn);
                 }
                 this.initEventSetForm();
@@ -65305,15 +65285,19 @@ var FormPartsAdapter = (function () {
             });
         });
     };
-    FormPartsAdapter.prototype.getSelectFilterId = function (form, part) {
+    FormPartsAdapter.getSelectFilterId = function (form, part) {
         return "lstSelectFilter" + form + "_" + part;
+    };
+    FormPartsAdapter.getPartNavLinkId = function (part) {
+        return "pills-parts-" + part;
+    };
+    FormPartsAdapter.getPartNavLinkTabId = function (part) {
+        return "pills-parts-" + part + "-tab";
     };
     FormPartsAdapter.prototype.getSelectablePartsHTML = function (form) {
         var _a;
         var nav_tabs_id = "pills-tab-" + form + "-parts";
         var nav_tab_content_id = "pills-" + form + "-parts-tabContent";
-        var get_nav_link_id = function (part) { return "pills-parts-" + part; };
-        var get_nav_link_tab_id = function (part) { return "pills-parts-" + part + "-tab"; };
         var default_selected_part = (this.parts_list.length > 0) ? this.parts_list[0] : application_data_1.WHOLE_PART;
         var nav_links = '';
         var tab_content_content = '';
@@ -65323,15 +65307,15 @@ var FormPartsAdapter = (function () {
             var selected = part == default_selected_part;
             var active = (selected) ? 'active' : '';
             var show_active = (selected) ? 'show active' : '';
-            var nav_link_id = get_nav_link_id(part);
-            var nav_link_tab_id = get_nav_link_tab_id(part);
+            var nav_link_id = FormPartsAdapter.getPartNavLinkId(part);
+            var nav_link_tab_id = FormPartsAdapter.getPartNavLinkTabId(part);
             var sprite_data = this.getCurrentSelectedSprite(form, part);
             var current_part = (sprite_data !== undefined) ? this.getSelectedPartHTML(form, part, sprite_data) : '';
             var partSettings = '';
             if (part == application_data_1.WHOLE_PART) {
                 partSettings = "<div class=\"form-check form-check-inline\">\n                    <input class=\"form-check-input\" type=\"checkbox\" id=\"chbShowWholePart\" value=\"" + this.currentSelection.show_whole + "\">\n                    <label class=\"form-check-label\" for=\"chbShowWholePart\">" + site_1.site.data.strings.parts_list.show_whole_label + "</label>\n                </div>";
             }
-            var filters_id = this.getSelectFilterId(form, part);
+            var filters_id = FormPartsAdapter.getSelectFilterId(form, part);
             var filters = "<select class=\"custom-select\" id=\"" + filters_id + "\" data-placeholder=\"" + site_1.site.data.strings.parts_list.filter_label + "\" data-form=\"" + form + "\" data-part=\"" + part + "\">";
             for (var _c = 0, _d = this.filter_list; _c < _d.length; _c++) {
                 var filter = _d[_c];
@@ -65345,7 +65329,9 @@ var FormPartsAdapter = (function () {
             filters += "</select>";
             var id = this.getListId(form, part);
             tab_content_content += "<div class=\"tab-pane fade " + show_active + "\" id=\"" + nav_link_id + "\" role=\"tabpanel\" aria-labelledby=\"" + nav_link_tab_id + "\">\n                <ul class=\"list-group mt-2 mb-4\">\n                    " + current_part + "\n                </ul>\n                <div class=\"my-1 part-settings\">\n                    " + partSettings + "\n                </div>\n                <div class=\"mt-2\" id=\"" + id + "\">\n                    <div class=\"row mt-2\">\n                        <div class=\"col-12\">\n                            <div class=\"input-group\">\n                                " + filters + "\n                            </div>\n                        </div>\n                    </div>\n                    <div class=\"row mt-2\">\n                        <div class=\"col-12\">\n                            <div class=\"input-group\">\n                                <div class=\"input-group-prepend\">\n                                    <span class=\"input-group-text\" id=\"searchHelp" + id + "\"><i class=\"fas fa-search d-inline\"></i></span>\n                                </div>\n                                <input type=\"text\" class=\"form-control fuzzy-search\" aria-label=\"" + site_1.site.data.strings.parts_list.search_label + "\" aria-describedby=\"searchHelp" + id + "\" placeholder=\"" + site_1.site.data.strings.parts_list.search_label + "\">\n                            </div>\n                        </div>\n                    </div>\n\n                    <div class=\"row mt-2\">\n                        <div class=\"col-12\">\n                            <div class=\"list-group list\"></div>\n\n                            <nav class=\"my-2\" aria-label=\"" + site_1.site.data.strings.parts_list.pagination_label + "\">\n                                <ul class=\"pagination " + site_value_1.PAGINATION_CLASS + " justify-content-center\">\n                                </ul>\n                            </nav>\n                        </div>\n                    </div>\n                </div>\n            </div>\n";
-            nav_links += "<li class=\"nav-item\" role=\"presentation\">\n                <a class=\"nav-link " + active + "\" id=\"" + nav_link_tab_id + "\" data-toggle=\"pill\" href=\"#" + nav_link_id + "\" role=\"tab\" aria-controls=\"" + nav_link_id + "\" aria-selected=\"" + selected + "\">\n                    " + part_label + "\n                </a>\n            </li>\n";
+            var default_sprite_data = this._sprite_data_helper.getDefaultSprite(form, part);
+            var part_icon = (default_sprite_data !== undefined) ? FormPartsAdapter.getSelectPartIconHTML(default_sprite_data) : '';
+            nav_links += "<li class=\"nav-item\" role=\"presentation\">\n                <a class=\"nav-link " + active + "\" id=\"" + nav_link_tab_id + "\" data-toggle=\"pill\" href=\"#" + nav_link_id + "\" role=\"tab\" aria-controls=\"" + nav_link_id + "\" aria-selected=\"" + selected + "\">\n                    <span class=\"select-part-icon-container\">" + part_icon + "</span>\n                    " + part_label + "\n                </a>\n            </li>\n";
         }
         var nav_tabs = "<ul class=\"nav nav-pills\" id=\"" + nav_tabs_id + "\" role=\"tablist\">\n            " + nav_links + "\n        </ul>";
         return nav_tabs + "\n                <div class=\"tab-content\" id=\"" + nav_tab_content_id + "\">\n                    " + tab_content_content + "\n                </div>";
@@ -65353,25 +65339,27 @@ var FormPartsAdapter = (function () {
     FormPartsAdapter.prototype.getCurrentSelectedPartId = function (form, part) {
         return "btnCurrentPart" + form + "_" + part;
     };
+    FormPartsAdapter.getSelectPartIconHTML = function (sprite_data) {
+        return "<img class=\"img-fluid select-part-icon mx-auto d-block\" src=\"" + site_1.site.base_url + "/" + sprite_data.filename + "\" alt=\"" + sprite_data.flag_name + " Part Icon\">";
+    };
     FormPartsAdapter.prototype.getSelectedPartHTML = function (form, part, selected_part) {
         var orientation = selected_part.orientation;
         var orientationIcon = (orientation) ? this.getListItemValueOrientationHTML(orientation) : '';
         var flag_name = selected_part.flag_name;
         var id = this.getCurrentSelectedPartId(form, part);
-        var icon = "<img class=\"img-fluid select-part-icon\" src=\"" + site_1.site.base_url + "/" + selected_part.filename + "\" alt=\"" + flag_name + " Part Icon\">";
         var disabled = '';
         var aria_disabled = '';
         if (part == application_data_1.WHOLE_PART) {
             disabled = (!this.currentSelection.show_whole) ? 'disabled' : '';
             aria_disabled = (!this.currentSelection.show_whole) ? 'aria-disabled="true"' : '';
         }
-        return "<li class=\"list-group-item list-group-item-action current-selected-part active form part flag_name " + disabled + "\" " + aria_disabled + " data-form=\"" + form + "\" data-part=\"" + part + "\" data-flag-name=\"" + flag_name + "\" data-orientation=\"" + orientation + "\" id=\"" + id + "\">\n            <div class=\"row no-gutters\">\n                <div class=\"col-1 icon select-part-icon-container\">" + icon + "</div>\n                <div class=\"col-9 pl-2 mt-1 align-middle name\">" + flag_name + "</div>\n                <div class=\"col-2 mt-1 px-2 text-right orientation_icon\">" + orientationIcon + "</div>\n            </div>\n        </li>";
+        return "<li class=\"list-group-item current-selected-part active form part flag_name " + disabled + "\" " + aria_disabled + " data-form=\"" + form + "\" data-part=\"" + part + "\" data-flag-name=\"" + flag_name + "\" data-orientation=\"" + orientation + "\" id=\"" + id + "\">\n            <div class=\"row no-gutters\">\n                <div class=\"col-9 mx-2 my-auto text-left\"><span class=\"name\">" + flag_name + "</span></div>\n                <div class=\"col-1 mx-2 my-auto float-right text-right\"><span class=\"orientation_icon\">" + orientationIcon + "</span></div>\n            </div>\n        </li>";
     };
     FormPartsAdapter.prototype.getSelectablePartsList = function (form, part) {
-        var item = "<button type=\"button\" class=\"list-group-item list-group-item-action form part flag_name orientation index\">\n            <div class=\"row no-gutters\">\n                <div class=\"col-2 pr-2 icon\"></div>\n                <div class=\"col-8 mt-1 align-middle name\"></div>\n            </div>\n        </button>";
+        var item = "<button type=\"button\" class=\"list-group-item form part flag_name index\">\n            <div class=\"row no-gutters\">\n                <div class=\"col-2 my-auto\"><span class=\"align-middle icon\"></span></div>\n                <div class=\"col-7 mx-2 my-auto text-left\"><span class=\"align-middle name\"></span></div>\n            </div>\n        </button>";
         var valueNames = [
             'icon', 'name',
-            { data: ['form', 'part', 'flag_name', 'orientation', 'index'] }
+            { data: ['form', 'part', 'flag_name', 'index'] }
         ];
         var options = {
             valueNames: valueNames,
@@ -65380,25 +65368,22 @@ var FormPartsAdapter = (function () {
             pagination: site_value_1.LIST_JS_PAGINATION
         };
         var values = this.getSelectablePartListValues(form, part);
-        this.log.debug('getSelectablePartsList', form, part, values);
         var id = this.getListId(form, part);
         return new list_js_1.default(id, options, values);
     };
     FormPartsAdapter.prototype.getSelectablePartListValues = function (form, part) {
         var _this = this;
-        var _a;
         var removeDuplicateObjectFromArray = function (array, key) {
             var check = new Set();
             return array.filter(function (obj) { return !check.has(obj[key]) && check.add(obj[key]); });
         };
-        var selectable_parts = removeDuplicateObjectFromArray(this.getSelectableSpritesParts(form, part).filter(function (it) { return it.flags_fits; }), 'flag_name');
-        var selected_orientation = (_a = this.getSelectedOrientation(part)) !== null && _a !== void 0 ? _a : sprite_data_1.Orientation.Vertical;
-        return selectable_parts.map(function (selectable_part, index) { return _this.getListItemPart(part, selectable_part, selected_orientation, index); }).filter(function (it) { return it !== undefined; });
+        var selectable_parts = removeDuplicateObjectFromArray(this._sprite_data_helper.getSelectableSpritesParts(form, part).filter(function (it) { return it.flags_fits; }), 'flag_name');
+        return selectable_parts.map(function (selectable_part, index) { return _this.getListItemPart(part, selectable_part, index); }).filter(function (it) { return it !== undefined; });
     };
-    FormPartsAdapter.prototype.getListItemPart = function (part, selectable_part, selected_orientation, index) {
+    FormPartsAdapter.prototype.getListItemPart = function (part, selectable_part, index) {
         var selectable_flag = site_1.site.data.flags.find(function (it) { return it.name == selectable_part.flag_name; });
         if (selectable_flag !== undefined) {
-            return this.getListItemValue(this.current_form, part, selectable_flag, selected_orientation, index);
+            return this.getListItemValue(this.current_form, part, selectable_flag, index);
         }
         return undefined;
     };
@@ -65410,17 +65395,14 @@ var FormPartsAdapter = (function () {
                 return "<span class=\"orientation-container\">\n                    <i class=\"fas fa-bars fa-rotate-90\"></i><span class=\"sr-only\">" + site_1.site.data.strings.orientation.vertical + "</span>\n                </span>";
         }
     };
-    FormPartsAdapter.prototype.getListItemValue = function (form, part, flag, orientation, index) {
+    FormPartsAdapter.prototype.getListItemValue = function (form, part, flag, index) {
         var icon = (flag !== undefined) ? this.getIconImgHTML(flag) : '';
         var flag_name = flag.name;
         var name = flag.name;
-        var orientationIcon = this.getListItemValueOrientationHTML(orientation);
         var category = flag.category;
         return {
             icon: icon,
             name: name,
-            orientation_icon: orientationIcon,
-            orientation: orientation,
             form: form,
             part: part,
             flag_name: flag_name,
@@ -65433,7 +65415,7 @@ var FormPartsAdapter = (function () {
         $('#lstSelectForm').find('.list-group-item').off('click').on('click', function () {
             var form = $(this).data('form');
             $(this).prop('disabled', true);
-            that._appData.setForm(form, that.parts_list, that.getDefaultFlagName(form));
+            that._appData.setForm(form, that.parts_list, that._sprite_data_helper.getDefaultFlagName(form));
             $(this).prop('disabled', false);
         });
     };
@@ -65457,16 +65439,17 @@ var FormPartsAdapter = (function () {
                         item_element.addClass('active');
                     }
                     item_element.off('click').on('click', function () {
+                        var _a;
                         var index = parseInt($(this).data('index'));
                         var item = list.get('index', index)[0];
                         var item_value = item.values();
                         var form = item_value.form;
                         var flag_name = item_value.flag_name;
                         var part = item_value.part;
-                        var orientation = item_value.orientation;
-                        var selectable_flags = that.getSelectableSpritesFlag(form, part, flag_name).filter(function (it) { return it.flags_fits; });
+                        var selectable_flags = that._sprite_data_helper.getSelectableSpritesFlag(form, part, flag_name).filter(function (it) { return it.flags_fits; });
                         var selectable_flag_horizontal = selectable_flags.find(function (it) { return it.orientation == sprite_data_1.Orientation.Horizontal; });
                         var selectable_flag_vertical = selectable_flags.find(function (it) { return it.orientation == sprite_data_1.Orientation.Vertical; });
+                        var orientation = (_a = that.getSelectedOrientation(part)) !== null && _a !== void 0 ? _a : sprite_data_1.Orientation.Vertical;
                         var new_orientation = orientation;
                         if (that.getSelectedFlagName(part) !== flag_name) {
                             if (selectable_flag_horizontal && orientation === sprite_data_1.Orientation.Horizontal) {
@@ -65500,14 +65483,10 @@ var FormPartsAdapter = (function () {
                                 that._appData.setPart(part, flag_name, new_orientation);
                             }
                         }
-                        item_value.orientation = new_orientation;
-                        item_value.orientation_icon = that.getListItemValueOrientationHTML(new_orientation);
-                        item.values(item_value);
-                        that._appData.lastFlag = flag_name;
                     });
                 });
             });
-            $('#' + this_1.getSelectFilterId(form, part)).select2({
+            $('#' + FormPartsAdapter.getSelectFilterId(form, part)).select2({
                 theme: "bootstrap4"
             }).off('select2:select').on('select2:select', function () {
                 var _a;
@@ -65543,8 +65522,21 @@ var FormPartsAdapter = (function () {
 }());
 exports.FormPartsAdapter = FormPartsAdapter;
 ;
+var LastSelectedValues = (function () {
+    function LastSelectedValues() {
+        this.form = undefined;
+        this.show_whole = undefined;
+        this.parts = {};
+    }
+    LastSelectedValues.prototype.clear = function () {
+        this.form = undefined;
+        this.parts = {};
+        this.show_whole = undefined;
+    };
+    return LastSelectedValues;
+}());
 
-},{"./data/application.data":83,"./data/sprite.data":84,"./site":89,"./site.value":90,"list.js":44,"memory-cache":61,"select2":72,"typescript-logger":76}],87:[function(require,module,exports){
+},{"./data/application.data":83,"./data/sprite.data":84,"./site":89,"./site.value":90,"./sprites.data.helper":92,"list.js":44,"select2":72,"typescript-logger":76}],87:[function(require,module,exports){
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 require("./site");
@@ -66052,5 +66044,157 @@ var SpriteAdapter = (function () {
 }());
 exports.SpriteAdapter = SpriteAdapter;
 
-},{"./data/application.data":83,"./data/sprite.data":84,"./site":89,"pixi.js":65,"typescript-logger":76}]},{},[87])
+},{"./data/application.data":83,"./data/sprite.data":84,"./site":89,"pixi.js":65,"typescript-logger":76}],92:[function(require,module,exports){
+"use strict";
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.SpriteDataHelper = exports.FLAG_NAME_NONE_DEFAULT = void 0;
+var memory_cache_1 = __importDefault(require("memory-cache"));
+var sprite_data_1 = require("./data/sprite.data");
+var site_1 = require("./site");
+exports.FLAG_NAME_NONE_DEFAULT = 'None';
+var SpriteDataHelper = (function () {
+    function SpriteDataHelper() {
+        this._cacheFlagData = new memory_cache_1.default.Cache();
+        this._cacheSpriteMetaData = new memory_cache_1.default.Cache();
+        this._cacheFlagNames = new memory_cache_1.default.Cache();
+        this.DEFAULT_FLAG_NAME_KEY = 'default_flag_name';
+        this.MASK_SPRITE_KEY = 'mask_sprite';
+        this.DEFAULT_SPRITE_KEY = 'default_sprite';
+        this.SELECTABLE_SPRITES_KEY = 'selectable_sprites';
+        this.SELECTABLE_PARTS_KEY = 'selectable_parts';
+        this.FLAG_DATA_KEY = 'flag_data';
+    }
+    SpriteDataHelper.prototype.setup = function (form, parts) {
+        return this.warmUpCache(form, parts);
+    };
+    SpriteDataHelper.prototype.getDefaultFlagName = function (form) {
+        var _a, _b;
+        var key = this.DEFAULT_FLAG_NAME_KEY + "_" + form;
+        var ret = this._cacheFlagNames.get(key);
+        if (ret) {
+            return ret;
+        }
+        ret = (_b = (_a = site_1.site.data.sprites.find(function (it) { return it.default; })) === null || _a === void 0 ? void 0 : _a.flag_name) !== null && _b !== void 0 ? _b : exports.FLAG_NAME_NONE_DEFAULT;
+        this._cacheFlagNames.put(key, ret);
+        return ret;
+    };
+    SpriteDataHelper.prototype.getSelectableSprites = function (form) {
+        var key = this.SELECTABLE_SPRITES_KEY + "_" + form;
+        var ret = this._cacheSpriteMetaData.get(key);
+        if (ret) {
+            return ret;
+        }
+        ret = site_1.site.data.sprites.filter(function (it) { return it.form == form && (it.mask === undefined || !it.mask) && (it.craws === undefined || !it.craws) && (it.outlines === undefined || !it.outlines); }).sort(function (a, b) {
+            if (a.default) {
+                return 1;
+            }
+            if (b.default) {
+                return -1;
+            }
+            if (a.flag_name > b.flag_name) {
+                return -1;
+            }
+            if (a.flag_name < b.flag_name) {
+                return 1;
+            }
+            return 0;
+        }).reverse();
+        this._cacheSpriteMetaData.put(key, ret);
+        return ret;
+    };
+    SpriteDataHelper.prototype.getSelectableSpritesParts = function (form, part) {
+        var key = this.SELECTABLE_PARTS_KEY + "_" + form + "_" + part;
+        var ret = this._cacheSpriteMetaData.get(key);
+        if (ret) {
+            return ret;
+        }
+        ret = this.getSelectableSprites(form).filter(function (it) { return it.part == part; });
+        this._cacheSpriteMetaData.put(key, ret);
+        return ret;
+    };
+    SpriteDataHelper.prototype.getSelectableSpritesFlag = function (form, part, flag_name) {
+        var key = this.SELECTABLE_PARTS_KEY + "_" + form + "_" + part + "_" + flag_name;
+        var ret = this._cacheSpriteMetaData.get(key);
+        if (ret) {
+            return ret;
+        }
+        ret = this.getSelectableSpritesParts(form, part).filter(function (it) { return it.flag_name == flag_name; });
+        this._cacheSpriteMetaData.put(key, ret);
+        return ret;
+    };
+    SpriteDataHelper.prototype.getSelectableSprite = function (form, part, flag_name, orientation) {
+        var key = this.SELECTABLE_PARTS_KEY + "_" + form + "_" + part + "_" + flag_name + "_" + orientation;
+        var rets = this._cacheSpriteMetaData.get(key);
+        if (rets && rets.length > 0) {
+            return rets[0];
+        }
+        rets = this.getSelectableSpritesFlag(form, part, flag_name).filter(function (it) { return it.orientation == orientation; });
+        this._cacheSpriteMetaData.put(key, rets);
+        return (rets.length > 0) ? rets[0] : undefined;
+    };
+    SpriteDataHelper.prototype.getMaskSprite = function (form, part) {
+        var key = this.MASK_SPRITE_KEY + "_" + form + "_" + part;
+        var rets = this._cacheSpriteMetaData.get(key);
+        if (rets && rets.length > 0) {
+            return rets[0];
+        }
+        rets = site_1.site.data.sprites.filter(function (it) { return it.form == form && it.part == part && it.mask !== undefined && it.mask; });
+        this._cacheSpriteMetaData.put(key, rets);
+        return (rets.length > 0) ? rets[0] : undefined;
+    };
+    SpriteDataHelper.prototype.getDefaultSprite = function (form, part) {
+        var key = this.DEFAULT_SPRITE_KEY + "_" + form + "_" + part;
+        var rets = this._cacheSpriteMetaData.get(key);
+        if (rets && rets.length > 0) {
+            return rets[0];
+        }
+        rets = site_1.site.data.sprites.filter(function (it) { return it.form == form && it.part == part && it.default !== undefined && it.default; });
+        this._cacheSpriteMetaData.put(key, rets);
+        return (rets.length > 0) ? rets[0] : undefined;
+    };
+    SpriteDataHelper.prototype.getFlagData = function (flag_name) {
+        var _a;
+        var key = this.FLAG_DATA_KEY + "_" + flag_name;
+        var ret = this._cacheFlagData.get(key);
+        if (ret) {
+            return ret;
+        }
+        ret = (_a = site_1.site.data.flags.find(function (it) { return it.name == flag_name; })) !== null && _a !== void 0 ? _a : null;
+        if (ret) {
+            this._cacheFlagData.put(key, ret);
+        }
+        return ret;
+    };
+    SpriteDataHelper.prototype.warmUpCache = function (form, parts) {
+        var _this = this;
+        var promises = parts.map(function (part) {
+            return new Promise(function (resolve, reject) {
+                try {
+                    _this.getSelectableSpritesParts(form, part);
+                    _this.getDefaultSprite(form, part);
+                    _this.getMaskSprite(form, part);
+                    for (var _i = 0, _a = site_1.site.data.flags.map(function (it) { return it.name; }); _i < _a.length; _i++) {
+                        var flag_name = _a[_i];
+                        _this.getFlagData(flag_name);
+                        _this.getSelectableSpritesFlag(form, part, flag_name);
+                        _this.getSelectableSprite(form, part, flag_name, sprite_data_1.Orientation.Horizontal);
+                        _this.getSelectableSprite(form, part, flag_name, sprite_data_1.Orientation.Vertical);
+                    }
+                    resolve(true);
+                }
+                catch (e) {
+                    reject(e);
+                }
+            });
+        });
+        return Promise.all(promises);
+    };
+    return SpriteDataHelper;
+}());
+exports.SpriteDataHelper = SpriteDataHelper;
+
+},{"./data/sprite.data":84,"./site":89,"memory-cache":61}]},{},[87])
 //# sourceMappingURL=bundle.js.map

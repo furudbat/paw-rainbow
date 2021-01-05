@@ -1,16 +1,16 @@
 <div class="row">
-    <div class="col-lg-3">
+    <div class="col-lg-3 col-md-5">
         <div class="mt-2 mb-1" id="lstSelectContainer">
         </div>
     </div>
 
-    <div class="col-lg-6 mt-sm-1">
+    <div class="col-lg-9 col-md-7 mt-sm-1">
         <div class="form-group">
             <label for="lstSelectForm" class="select-form-label">{{ site.data.strings.select_form.label }}</label>
             <div class="list-group list-group-horizontal select-form" role="group" aria-label="{{ site.data.strings.select_form.label }}" id="lstSelectForm">
             </div>
         </div>
-        
+    
         <div class="card">
             <div class="card-body">
                 <div class="form-check mb-1">
@@ -27,17 +27,6 @@
                 
                 <a href="#" class="btn btn-primary" id="btnDownload">{{ site.data.strings.sprite.download }}</a>
                 <a href="#" class="btn btn-primary" id="btnFullDownload">{{ site.data.strings.sprite.full_download }}</a>
-            </div>
-        </div>
-    </div>
-
-    <div class="col-lg-3 mt-sm-3 mt-md-5">
-        <div class="card card-flag-info mx-sm-2">
-            <img src="{{- site.data.strings.flag_info.unknown.img -}}" class="card-img-top" alt="flag image" id="flagInfoImage">
-            <div class="card-body">
-                <h5 class="card-title" id="flagInfoTitle">{{ site.data.strings.flag_info.unknown.title }}</h5>
-                <p class="card-text" id="flagInfoDescription">{{ site.data.strings.flag_info.unknown.description }}</p>
-                <a href="#" class="card-link" id="flagInfoLink" target="_blank" rel="noopener noreferrer"></a>
             </div>
         </div>
     </div>

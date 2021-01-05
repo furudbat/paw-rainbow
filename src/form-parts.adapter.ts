@@ -8,41 +8,33 @@ import { FlagData } from "./data/flag.data";
 import { LIST_JS_PAGINATION, PAGINATION_CLASS } from "./site.value";
 import List from 'list.js';
 import 'select2';
-import cache from 'memory-cache';
+import { SpriteDataHelper } from "./sprites.data.helper";
 
-const FLAG_NAME_NONE_DEFAULT = 'None';
 const SELECTABLE_PARTS_LIST_ITEMS_PER_PAGE = 8;
 
 export class FormPartsAdapter {
     private _appData: ApplicationData;
-    private _cacheFlagData: cache.CacheClass<string, FlagData> = new cache.Cache<string, FlagData>();
-    private _cacheSpriteMetaData: cache.CacheClass<string, SpriteData[]> = new cache.Cache<string, SpriteData[]>();
-    private _cacheFlagNames: cache.CacheClass<string, string> = new cache.Cache<string, string>();
     private _parts_lists: Record<string, List> = {};
-    private _last_value: Record<string, string> = {};
+    private _last_values: LastSelectedValues = new LastSelectedValues();
+    private _sprite_data_helper: SpriteDataHelper = new SpriteDataHelper();
 
     private log = LoggerManager.create('FormPartsAdapter');
 
-    private readonly DEFAULT_FLAG_NAME_KEY = 'default_flag_name';
-    private readonly MASK_SPRITE_KEY = 'mask_sprite';
-    private readonly DEFAULT_SPRITE_KEY = 'default_sprite';
-    private readonly SELECTABLE_SPRITES_KEY = 'selectable_sprites';
-    private readonly SELECTABLE_PARTS_KEY = 'selectable_parts';
-    private readonly FLAG_DATA_KEY = 'flag_data';
-
     constructor(appData: ApplicationData) {
         this._appData = appData;
-        this.initDefaultValues();
     }
     public initDefaultValues() {
-        for(const part of this.parts_list) {
-            if (!(part in this.currentSelection.parts) || !this.currentSelection.parts[part].flag_name) {
-                this.currentSelection.parts[part] = new CurrentSelectionPart();
-                this.currentSelection.parts[part].filter = ALL_FILTER;
-                this.currentSelection.parts[part].flag_name = this.getDefaultFlagName(this.current_form);
-                this.currentSelection.parts[part].orientation = Orientation.Vertical;
+        return this._sprite_data_helper.setup(this.current_form, this.parts_list).then(() => {
+            for(const part of this.parts_list) {
+                if (!(part in this.currentSelection.parts) || !this.currentSelection.parts[part].flag_name) {
+                    this.currentSelection.parts[part] = new CurrentSelectionPart();
+                    this.currentSelection.parts[part].filter = ALL_FILTER;
+                    this.currentSelection.parts[part].flag_name = this._sprite_data_helper.getDefaultFlagName(this.current_form);
+                    this.currentSelection.parts[part].orientation = Orientation.Vertical;
+                }
             }
-        }
+            this._appData.saveCurrentSelection();
+        });
     }
 
     public init() {
@@ -50,79 +42,88 @@ export class FormPartsAdapter {
 
         if (!this.current_form && site.data.flags_config.forms.length > 0) {
             const form = site.data.flags_config.forms[0];
-            this._appData.setForm(form, this.parts_list, this.getDefaultFlagName(form));
+
+            this.initDefaultValues().then(() => {
+                this._appData.setForm(form, this.parts_list, this._sprite_data_helper.getDefaultFlagName(form));
+            });
         } else {
-            this.updateUI();
-        }
-
-        this.warmUpCache();
-    }
-
-    private warmUpCache() {
-        for(const part of this.parts_list) {
-            this.getSelectableSpritesParts(this.current_form, part);
+            this.initDefaultValues().then(() => {
+                this.updateUI();
+            });
         }
     }
+
+    private async updateLastValues(value: CurrentSelection) {
+        this._last_values.form = value.form;
+        this._last_values.show_whole = value.show_whole;
+        for (const part of this.parts_list) {
+            this._last_values.parts[part] = {
+                filter: value.parts[part].filter ?? ALL_FILTER,
+                flag_name: value.parts[part].flag_name,
+                orientation: value.parts[part].orientation
+            };
+        }
+    };
 
     private initObservers() {
         var that = this;
         this._appData.currentSelectionObservable.attach(new class implements DataObserver<CurrentSelection>{
             update(subject: DataSubject<CurrentSelection>): void {
-                const form = subject.data.form;
-                const form_key = 'form';
+                const new_form = subject.data.form;
+                const old_form = that._last_values.form;
 
-                that.log.debug('update currentSelection', subject.data, that._last_value);
+                //that.log.debug('update currentSelection', form, subject.data, that._last_values);
 
-                if (that._last_value[form_key] !== form) {
-                    that.initDefaultValues();
-                    that._last_value = {};
-                    that.updateUI();
+                if (old_form !== new_form) {
+                    that._last_values.clear();
+                    that.initDefaultValues().then(() => {
+                        that.updateUI().then(() => that.updateLastValues(subject.data));
+                    });
                 } else {
-                    for (const part of that.parts_list) {
-                        const part_filter_key = `part_filter_${part}`;
+                    that.parts_list.map( part => {
+                        return new Promise((resolve, reject) => {
+                            const new_filter = (part in subject.data.parts)? subject.data.parts[part].filter : undefined;
+                            const new_flag_name = (part in subject.data.parts)? subject.data.parts[part].flag_name : undefined;
+                            const new_orientation = (part in subject.data.parts)? subject.data.parts[part].orientation : undefined;
+                            const new_show_whole = subject.data.show_whole;
 
-                        const sprite_data = that.getCurrentSelectedSprite(form, part) ?? that.getDefaultSprite(form);
-                        if (part in subject.data.parts && that._last_value[part_filter_key] !== subject.data.parts[part].filter) {
-                            that.updateFilter(part, subject.data.parts[part].filter);
-                        }
-
-                        if (sprite_data !== undefined) {
-                            $('#'+that.getCurrentSelectedPartId(form, part)).replaceWith(that.getSelectedPartHTML(form, part, sprite_data));
-                        }
-                        that._parts_lists[part]?.update();
-                    }
-                }
-
-
-                that._last_value[form_key] = subject.data.form;
-                for (const part of that.parts_list) {
-                    const part_filter_key = `part_filter_${part}`;
-                    const part_flag_name_key = `part_flag_name_${part}`;
-                    const part_orientation_key = `part_orientation_${part}`;
-
-                    if (part in subject.data.parts) {
-                        that._last_value[part_filter_key] = subject.data.parts[part].filter ?? ALL_FILTER;
-                        that._last_value[part_flag_name_key] = subject.data.parts[part].flag_name;
-                        that._last_value[part_orientation_key] = subject.data.parts[part].orientation;
-                    }
+                            const old_filter = (part in that._last_values.parts)? that._last_values.parts[part].filter : undefined;
+                            const old_flag_name = (part in that._last_values.parts)? that._last_values.parts[part].flag_name : undefined;
+                            const old_orientation = (part in that._last_values.parts)? that._last_values.parts[part].orientation : undefined;
+                            const old_show_whole = that._last_values.show_whole;
+                            
+                            if (old_filter !== new_filter) {
+                                that.updateFilter(part, subject.data.parts[part].filter);
+                            }
+                            if (old_flag_name !== new_flag_name || old_orientation !== new_orientation) {
+                                that.updateSelectedPartUI(old_form, part);
+                            }
+                            if (old_show_whole !== new_show_whole) {
+                                that._parts_lists[part]?.update();
+                            }
+    
+                            resolve(that.updateLastValues(subject.data));
+                        });
+                    });
                 }
             }
         });
     }
 
     public updateUI() {
-        this.updateUISetForm();
-        this.updateUISetParts();
+        return Promise.all([
+            this.updateUISetForm(),
+            this.updateUISetParts()
+        ]);
     }
 
     public updateFilter(part: string, filter: string) {
         if (filter === ALL_FILTER) {
             this._parts_lists[part].filter();
-            this._parts_lists[part].update();
         } else {
             this._parts_lists[part].filter(item => (item.values() as PartsListItemValue).category === filter);
-            this._parts_lists[part].update();
         }
+        this._parts_lists[part]?.update();
     }
 
     get currentSelection() {
@@ -159,113 +160,17 @@ export class FormPartsAdapter {
         return `<img srcset="${srcset}" class="img-fluid ${classstr}" src="${src}" alt="${flag.name} Icon">`;
     }
 
-
-    private getDefaultFlagName(form: string) {
-        const key = `${this.DEFAULT_FLAG_NAME_KEY}_${form}`;
-        let ret = this._cacheFlagNames.get(key);
-        if (ret) {
-            return ret;
+    private async updateSelectedPartUI(form: string, part: string) {
+        const sprite_data = this.getCurrentSelectedSprite(form, part) ?? this._sprite_data_helper.getDefaultSprite(form, part);
+        if (sprite_data !== undefined) {
+            $('#'+this.getCurrentSelectedPartId(form, part)).replaceWith(this.getSelectedPartHTML(form, part, sprite_data));
         }
-
-        ret = site.data.sprites.find(it => it.default)?.flag_name ?? FLAG_NAME_NONE_DEFAULT;
-        this._cacheFlagNames.put(key, ret);
-        return ret;
-    }
-
-    private getSelectableSprites(form: string) {
-        const key = `${this.SELECTABLE_SPRITES_KEY}_${form}`;
-        let ret = this._cacheSpriteMetaData.get(key);
-        if (ret) {
-            return ret;
-        }
-
-        ret = site.data.sprites.filter(it => it.form == form && (it.mask === undefined || !it.mask)).sort((a, b) => {
-            if (a.flag_name > b.flag_name) { return -1; }
-            if (a.flag_name < b.flag_name) { return 1; }
-            return 0;
-        }).reverse();
-        this._cacheSpriteMetaData.put(key, ret);
-        return ret;
-    }
-
-    private getSelectableSpritesParts(form: string, part: string) {
-        const key = `${this.SELECTABLE_PARTS_KEY}_${form}_${part}`;
-        let ret = this._cacheSpriteMetaData.get(key);
-        if (ret) {
-            return ret;
-        }
-
-        ret = this.getSelectableSprites(form).filter(it => it.part == part);
-        this._cacheSpriteMetaData.put(key, ret);
-        return ret;
-    }
-
-    private getSelectableSpritesFlag(form: string, part: string, flag_name: string) {
-        const key = `${this.SELECTABLE_PARTS_KEY}_${form}_${part}_${flag_name}`;
-        let ret = this._cacheSpriteMetaData.get(key);
-        if (ret) {
-            return ret;
-        }
-
-        ret = this.getSelectableSpritesParts(form, part).filter(it => it.flag_name == flag_name);
-        this._cacheSpriteMetaData.put(key, ret);
-        return ret;
-    }
-
-    private getSelectableSprite(form: string, part: string, flag_name: string, orientation: Orientation) {
-        const key = `${this.SELECTABLE_PARTS_KEY}_${form}_${part}_${flag_name}_${orientation}`;
-        let rets = this._cacheSpriteMetaData.get(key);
-        if (rets && rets.length > 0) {
-            return rets[0];
-        }
-
-        rets = this.getSelectableSpritesFlag(form, part, flag_name).filter(it => it.orientation == orientation);
-        this._cacheSpriteMetaData.put(key, rets);
-        return (rets.length > 0) ? rets[0] : undefined;
-    }
-
-    private getMaskSprite(form: string) {
-        const key = `${this.MASK_SPRITE_KEY}_${form}`;
-        let rets = this._cacheSpriteMetaData.get(key);
-        if (rets && rets.length > 0) {
-            return rets[0];
-        }
-
-        rets = site.data.sprites.filter(it => it.form == form && it.mask !== undefined);
-        this._cacheSpriteMetaData.put(key, rets);
-        return (rets.length > 0) ? rets[0] : undefined;
-    }
-
-    private getDefaultSprite(form: string) {
-        const key = `${this.DEFAULT_SPRITE_KEY}_${form}`;
-        let rets = this._cacheSpriteMetaData.get(key);
-        if (rets && rets.length > 0) {
-            return rets[0];
-        }
-
-        rets = site.data.sprites.filter(it => it.form == form && it.default !== undefined);
-        this._cacheSpriteMetaData.put(key, rets);
-        return (rets.length > 0) ? rets[0] : undefined;
-    }
-
-    private getFlagData(flag_name: string) {
-        const key = `${this.FLAG_DATA_KEY}_${flag_name}`;
-        let ret = this._cacheFlagData.get(key);
-        if (ret) {
-            return ret;
-        }
-
-        ret = site.data.flags.find(it => it.name == flag_name) ?? null;
-        if (ret) {
-            this._cacheFlagData.put(key, ret);
-        }
-        return ret;
     }
 
     private getCurrentSelectedSprite(form: string, part: string) {
         const flag_name = this.getSelectedFlagName(part);
         const orientation = this.getSelectedOrientation(part);
-        return (flag_name !== undefined && orientation !== undefined)? this.getSelectableSprite(form, part, flag_name, orientation) : undefined;
+        return (flag_name !== undefined && orientation !== undefined)? this._sprite_data_helper.getSelectableSprite(form, part, flag_name, orientation) : undefined;
     }
 
     private getSelectedOrientation(part: string) {
@@ -285,7 +190,7 @@ export class FormPartsAdapter {
             const form_name = site.data.strings.select_form[form];
             const active = (this.currentSelection.form == form) ? 'active' : '';
 
-            const btn = `<button type="button" class="list-group-item list-group-item-action ${active}" data-form="${form}">
+            const btn = `<button type="button" class="list-group-item ${active}" data-form="${form}">
                 ${form_name}
             </button>`;
 
@@ -309,16 +214,19 @@ export class FormPartsAdapter {
         }
     }
 
-    private getSelectFilterId(form: string, part: string) {
+    static getSelectFilterId(form: string, part: string) {
         return `lstSelectFilter${form}_${part}`;
+    }
+    static getPartNavLinkId(part: string) { 
+        return `pills-parts-${part}`;
+    }
+    static getPartNavLinkTabId(part: string) { 
+        return`pills-parts-${part}-tab`;
     }
 
     private getSelectablePartsHTML(form: string) {
         const nav_tabs_id = `pills-tab-${form}-parts`;
         const nav_tab_content_id = `pills-${form}-parts-tabContent`;
-
-        const get_nav_link_id = (part: string) => `pills-parts-${part}`;
-        const get_nav_link_tab_id = (part: string) => `pills-parts-${part}-tab`;
 
         const default_selected_part = (this.parts_list.length > 0)? this.parts_list[0] : WHOLE_PART;
 
@@ -331,8 +239,8 @@ export class FormPartsAdapter {
             const active = (selected) ? 'active' : '';
             const show_active = (selected) ? 'show active' : '';
 
-            const nav_link_id = get_nav_link_id(part);
-            const nav_link_tab_id = get_nav_link_tab_id(part);
+            const nav_link_id = FormPartsAdapter.getPartNavLinkId(part);
+            const nav_link_tab_id = FormPartsAdapter.getPartNavLinkTabId(part);
 
             const sprite_data = this.getCurrentSelectedSprite(form, part);
             const current_part = (sprite_data !== undefined)? this.getSelectedPartHTML(form, part, sprite_data) : '';
@@ -345,7 +253,7 @@ export class FormPartsAdapter {
                 </div>`;
             }
             
-            const filters_id = this.getSelectFilterId(form, part);
+            const filters_id = FormPartsAdapter.getSelectFilterId(form, part);
             let filters = `<select class="custom-select" id="${filters_id}" data-placeholder="${site.data.strings.parts_list.filter_label}" data-form="${form}" data-part="${part}">`;
             for(const filter of this.filter_list) {
                 const filter_label = site.data.strings.select_filter[filter];
@@ -401,8 +309,11 @@ export class FormPartsAdapter {
                 </div>
             </div>\n`;
 
+            const default_sprite_data = this._sprite_data_helper.getDefaultSprite(form, part);
+            const part_icon = (default_sprite_data !== undefined)? FormPartsAdapter.getSelectPartIconHTML(default_sprite_data) : '';
             nav_links += `<li class="nav-item" role="presentation">
                 <a class="nav-link ${active}" id="${nav_link_tab_id}" data-toggle="pill" href="#${nav_link_id}" role="tab" aria-controls="${nav_link_id}" aria-selected="${selected}">
+                    <span class="select-part-icon-container">${part_icon}</span>
                     ${part_label}
                 </a>
             </li>\n`;
@@ -423,13 +334,15 @@ export class FormPartsAdapter {
         return `btnCurrentPart${form}_${part}`;
     }
 
+    static getSelectPartIconHTML(sprite_data: SpriteData){
+        return `<img class="img-fluid select-part-icon mx-auto d-block" src="${site.base_url}/${sprite_data.filename}" alt="${sprite_data.flag_name} Part Icon">`;
+    }
+
     private getSelectedPartHTML(form: string, part: string, selected_part: SpriteData) {
         const orientation = selected_part.orientation;
         const orientationIcon = (orientation)? this.getListItemValueOrientationHTML(orientation) : '';
         const flag_name = selected_part.flag_name;
         const id = this.getCurrentSelectedPartId(form, part);
-
-        const icon = `<img class="img-fluid select-part-icon" src="${site.base_url}/${selected_part.filename}" alt="${flag_name} Part Icon">`;
 
         let disabled = '';
         let aria_disabled = '';
@@ -438,25 +351,24 @@ export class FormPartsAdapter {
             aria_disabled = (!this.currentSelection.show_whole)? 'aria-disabled="true"' : '';
         }
 
-        return `<li class="list-group-item list-group-item-action current-selected-part active form part flag_name ${disabled}" ${aria_disabled} data-form="${form}" data-part="${part}" data-flag-name="${flag_name}" data-orientation="${orientation}" id="${id}">
+        return `<li class="list-group-item current-selected-part active form part flag_name ${disabled}" ${aria_disabled} data-form="${form}" data-part="${part}" data-flag-name="${flag_name}" data-orientation="${orientation}" id="${id}">
             <div class="row no-gutters">
-                <div class="col-1 icon select-part-icon-container">${icon}</div>
-                <div class="col-9 pl-2 mt-1 align-middle name">${flag_name}</div>
-                <div class="col-2 mt-1 px-2 text-right orientation_icon">${orientationIcon}</div>
+                <div class="col-9 mx-2 my-auto text-left"><span class="name">${flag_name}</span></div>
+                <div class="col-1 mx-2 my-auto float-right text-right"><span class="orientation_icon">${orientationIcon}</span></div>
             </div>
         </li>`;
     }
 
     private getSelectablePartsList(form: string, part: string) {
-        const item = `<button type="button" class="list-group-item list-group-item-action form part flag_name orientation index">
+        const item = `<button type="button" class="list-group-item form part flag_name index">
             <div class="row no-gutters">
-                <div class="col-2 pr-2 icon"></div>
-                <div class="col-8 mt-1 align-middle name"></div>
+                <div class="col-2 my-auto"><span class="align-middle icon"></span></div>
+                <div class="col-7 mx-2 my-auto text-left"><span class="align-middle name"></span></div>
             </div>
         </button>`;
         const valueNames = [
             'icon', 'name',
-            { data: ['form', 'part', 'flag_name', 'orientation', 'index']}
+            { data: ['form', 'part', 'flag_name', 'index']}
         ];
         const options: any /*List.ListOptions*/ = {
             valueNames: valueNames,
@@ -465,7 +377,6 @@ export class FormPartsAdapter {
             pagination: LIST_JS_PAGINATION
         };
         const values = this.getSelectablePartListValues(form, part);
-        this.log.debug('getSelectablePartsList', form, part, values);
 
         const id = this.getListId(form, part);
         return new List(id, options, values);
@@ -477,17 +388,16 @@ export class FormPartsAdapter {
             return array.filter(obj => !check.has(obj[key]) && check.add(obj[key]));
         };
 
-        const selectable_parts = removeDuplicateObjectFromArray(this.getSelectableSpritesParts(form, part).filter(it => it.flags_fits), 'flag_name') as SpriteData[];
-        const selected_orientation = this.getSelectedOrientation(part) ?? Orientation.Vertical;
+        const selectable_parts = removeDuplicateObjectFromArray(this._sprite_data_helper.getSelectableSpritesParts(form, part).filter(it => it.flags_fits), 'flag_name') as SpriteData[];
 
-        return selectable_parts.map((selectable_part, index) => this.getListItemPart(part, selectable_part, selected_orientation, index)).filter(it => it !== undefined) as PartsListItemValue[];
+        return selectable_parts.map((selectable_part, index) => this.getListItemPart(part, selectable_part, index)).filter(it => it !== undefined) as PartsListItemValue[];
     }
 
-    private getListItemPart(part: string, selectable_part: SpriteData, selected_orientation: Orientation, index: number) {
+    private getListItemPart(part: string, selectable_part: SpriteData, index: number) {
         const selectable_flag = site.data.flags.find(it => it.name == selectable_part.flag_name);
 
         if (selectable_flag !== undefined) {
-            return this.getListItemValue(this.current_form, part, selectable_flag, selected_orientation, index);
+            return this.getListItemValue(this.current_form, part, selectable_flag, index);
         }
 
         return undefined;
@@ -506,19 +416,16 @@ export class FormPartsAdapter {
         }
     }
 
-    private getListItemValue(form: string, part: string, flag: FlagData, orientation: Orientation, index: number): PartsListItemValue {
+    private getListItemValue(form: string, part: string, flag: FlagData, index: number): PartsListItemValue {
 
         const icon = (flag !== undefined) ? this.getIconImgHTML(flag) : '';
         const flag_name = flag.name;
         const name = flag.name;
-        const orientationIcon = this.getListItemValueOrientationHTML(orientation);
         const category = flag.category;
 
         return {
             icon: icon,
             name: name,
-            orientation_icon: orientationIcon,
-            orientation: orientation,
             form: form,
             part: part,
             flag_name: flag_name,
@@ -533,7 +440,7 @@ export class FormPartsAdapter {
             const form = $(this).data('form');
             $(this).prop('disabled', true);
 
-            that._appData.setForm(form, that.parts_list, that.getDefaultFlagName(form));
+            that._appData.setForm(form, that.parts_list, that._sprite_data_helper.getDefaultFlagName(form));
 
             $(this).prop('disabled', false);
         });
@@ -573,12 +480,12 @@ export class FormPartsAdapter {
                         const form = item_value.form;
                         const flag_name = item_value.flag_name;
                         const part = item_value.part;
-                        const orientation = item_value.orientation;
 
-                        const selectable_flags = that.getSelectableSpritesFlag(form, part, flag_name).filter(it => it.flags_fits);
+                        const selectable_flags = that._sprite_data_helper.getSelectableSpritesFlag(form, part, flag_name).filter(it => it.flags_fits);
                         const selectable_flag_horizontal = selectable_flags.find(it => it.orientation == Orientation.Horizontal);
                         const selectable_flag_vertical = selectable_flags.find(it => it.orientation == Orientation.Vertical);
 
+                        const orientation = that.getSelectedOrientation(part) ?? Orientation.Vertical;
                         let new_orientation = orientation;
                         if (that.getSelectedFlagName(part) !== flag_name) {
                             if (selectable_flag_horizontal && orientation === Orientation.Horizontal) {
@@ -606,17 +513,13 @@ export class FormPartsAdapter {
                                 that._appData.setPart(part, flag_name, new_orientation);
                             }
                         }
-
-                        item_value.orientation = new_orientation;
-                        item_value.orientation_icon = that.getListItemValueOrientationHTML(new_orientation);
-                        item.values(item_value);
                         
-                        that._appData.lastFlag = flag_name;
+                        //that._appData.lastFlag = flag_name;
                     });
                 });
             });
 
-            $('#'+this.getSelectFilterId(form, part)).select2({
+            $('#'+FormPartsAdapter.getSelectFilterId(form, part)).select2({
                 theme: "bootstrap4"
             }).off('select2:select').on('select2:select', function() {
                 const part = $(this).data('part');
@@ -652,11 +555,25 @@ export class FormPartsAdapter {
 interface PartsListItemValue {
     icon: string;
     name: string;
-    orientation_icon: string;
-    orientation: Orientation;
     form: string;
     part: string;
     flag_name: string;
     index: number;
     category: string;
 };
+
+class LastSelectedValues {
+    public form: string | undefined = undefined;
+    public show_whole: boolean | undefined = undefined;
+    public parts: Record<string, {
+        filter: string;
+        flag_name: string;
+        orientation: Orientation;
+    }> = {};
+
+    public clear() {
+        this.form = undefined;
+        this.parts = {};
+        this.show_whole = undefined;
+    }
+}

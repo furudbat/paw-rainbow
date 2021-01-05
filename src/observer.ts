@@ -133,6 +133,7 @@ export class DataSubject<T> implements Subject {
      */
     public notify(): Promise<unknown> {
         this.log.debug('Subject: Notifying observers...', this._state);
+        
         return Promise.all(this.observers.map(observer => {
             return new Promise((resolve, reject) => {
                 try {

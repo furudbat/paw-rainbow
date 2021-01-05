@@ -1,22 +1,26 @@
-<div class="row mt-5" id="lstFlagInfo">
-    <div class="row col-12 list flag-info-list">
+<div class="row mt-5">
+    <div class="col-4">
+        <div class="list-group list" id="lstFlagInfo" role="tablist">
         {% for flag_info in site.data.flags_info %}
-            <div class="col-lg-2 col-md-3 col-sm-4 mt-2 mb-1 card-flag-info-container">
-                <div class="card card-flag-info flag_info_img">
-                    <img src="{{ flag_info.img }}" class="card-img-top card-flag-info-list-image flag_info_img flag_info_alt_name" alt="{{ flag_info.name }}">
-                    <div class="card-body">
-                        <h5 class="card-title card-flag-info-list-title">
-                            <a href="{{ flag_info.link }}" target="_blank" rel="noopener noreferrer" class="flag_info_name">{{ flag_info.name }}</a>
-                        </h5>
-                    </div>
+            {% assign id = flag_info.name | downcase | replace " ", "_" | replace "'", "" | replace "+", "" %}
+            <a class="list-group-item list-group-item-action flag_name" id="list-{{- id -}}-list" data-toggle="list"
+                href="#list-{{- id -}}" role="tab" aria-controls="{{- id -}}">{{ flag_info.name }}</a>
+        {% endfor %}
+        </div>
+    </div>
+    <div class="col-8">
+        <div class="tab-content" id="nav-tabContent">
+        {% for flag_info in site.data.flags_info %}
+            {% assign id = flag_info.name | downcase | replace " ", "_" | replace "'", "" | replace "+", "" %}
+            <div class="tab-pane fade" id="list-{{- id -}}" role="tabpanel" aria-labelledby="list-{{- id -}}-list">
+                <div class="d-block mx-auto"><img src="{{- flag_info.img -}}" class="card-img-top flag-info-image" alt="{{ flag_info.name }} flag image"></div>
+                <div class="card-body flag-info-body">
+                    <h5 class="card-title flag-info-name">{{ flag_info.name }}</h5>
+                    <p class="card-text flag-info-descroption">{{ flag_info.description }}</p>
+                    <a href="{{- flag_info.link -}}" class="card-link" target="_blank" rel="noopener noreferrer"></a>
                 </div>
             </div>
         {% endfor %}
-    </div>
-    <div class="row col-12">
-        <nav class="my-2" aria-label="${site.data.strings.flag_info.pagination_label}">
-            <ul class="pagination paginationBottom justify-content-center">
-            </ul>
-        </nav>
+        </div>
     </div>
 </div>

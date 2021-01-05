@@ -28,27 +28,23 @@ export class FlagInfoAdapter {
         });
     }
 
-    public updateFlagInfos(flag_name: string) {
+    public async updateFlagInfos(flag_name: string) {
         const flag_info = site.data.flags_info.find(it => it.name === flag_name);
 
         this.log.debug('updateFlagInfos', flag_name, flag_info);
-        if (flag_info) {
-            if (flag_info.img) {
-                $('#flagInfoImage').attr('src', flag_info.img);
-            }
 
-            $('#flagInfoTitle').html(flag_info.name);
-            $('#flagInfoDescription').html(flag_info.description ?? '');
-
-            if (flag_info.link) {
-                $('#flagInfoLink').attr('href', flag_info.link).html(site.data.strings.flag_info.source_label);
-            }
+        if (flag_info?.img) {
+            $('#flagInfoImage').attr('src', flag_info.img);
         } else {
             $('#flagInfoImage').attr('src', site.data.strings.flag_info.unknown.img);
+        }
 
-            $('#flagInfoTitle').html(site.data.strings.flag_info.unknown.title);
-            $('#flagInfoDescription').html(site.data.strings.flag_info.unknown.description);
-            
+        $('#flagInfoTitle').html(flag_info?.name ?? site.data.strings.flag_info.unknown.title);
+        $('#flagInfoDescription').html(flag_info?.description ?? site.data.strings.flag_info.unknown.description);
+
+        if (flag_info?.link) {
+            $('#flagInfoLink').attr('href', flag_info.link).html(site.data.strings.flag_info.source_label);
+        } else {
             $('#flagInfoLink').attr('href', '#').html('');
         }
     }

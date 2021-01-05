@@ -140,6 +140,7 @@ export class ApplicationData {
 
         this._currentSelection.data.parts[part].flag_name = flag_name;
 
+        this.saveCurrentSelection();
         this._currentSelection.notify();
     }
 
@@ -150,6 +151,7 @@ export class ApplicationData {
 
         this._currentSelection.data.parts[part].orientation = orientation;
 
+        this.saveCurrentSelection();
         this._currentSelection.notify();
     }
 
@@ -160,6 +162,7 @@ export class ApplicationData {
 
         this._currentSelection.data.parts[part].filter = filter;
 
+        this.saveCurrentSelection();
         this._currentSelection.notify();
     }
 
@@ -171,29 +174,30 @@ export class ApplicationData {
         this._currentSelection.data.parts[part].flag_name = flag_name;
         this._currentSelection.data.parts[part].orientation = orientation;
 
+        this.saveCurrentSelection();
         this._currentSelection.notify();
     }
 
     public setForm(form: string, parts_list: string[], default_flag_name: string = '') { 
-        let currentSelection = this.currentSelection;   
-
-        currentSelection.form = form;
+        this._currentSelection.data.form = form;
 
         //currentSelection.parts = {};
         for (const part of parts_list) {
-            if (currentSelection.parts && !(part in currentSelection.parts)) {
-                currentSelection.parts[part] = new CurrentSelectionPart();
+            if (this._currentSelection.data.parts && !(part in this._currentSelection.data.parts)) {
+                this._currentSelection.data.parts[part] = new CurrentSelectionPart();
                 if (default_flag_name) {
-                    currentSelection.parts[part].flag_name = default_flag_name;
+                    this._currentSelection.data.parts[part].flag_name = default_flag_name;
                 }
             }
         }
 
+        this.saveCurrentSelection();
         this._currentSelection.notify();
     }
 
     public setShowWhole(value: boolean) {
         this._currentSelection.data.show_whole = value;
+        this.saveCurrentSelection();
         this._currentSelection.notify();
     }
 }
