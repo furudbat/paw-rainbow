@@ -33,6 +33,7 @@ flag_info:
     description: >-
       No Info.
   source_label: '[Source]'
+  pagination_label: Flag List page navigation
 orientation:
   horizontal: Horizontal
   vertical: Vertical

@@ -64457,6 +64457,9 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
         if (op[0] & 5) throw op[1]; return { value: op[0] ? op[1] : void 0, done: true };
     }
 };
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.Application = void 0;
 var application_data_1 = require("./data/application.data");
@@ -64466,6 +64469,8 @@ var site_1 = require("./site");
 var sprite_adapter_1 = require("./sprite.adapter");
 var form_parts_adapter_1 = require("./form-parts.adapter");
 var flag_info_adapter_1 = require("./flag-info.adapter");
+var list_js_1 = __importDefault(require("list.js"));
+var site_value_1 = require("./site.value");
 var Application = (function () {
     function Application() {
         this._appData = new application_data_1.ApplicationData();
@@ -64487,6 +64492,7 @@ var Application = (function () {
                 this._flagInfoAdapter = new flag_info_adapter_1.FlagInfoAdapter(this._appData);
                 this.initForm();
                 this.initCanvas();
+                this.initFlagList();
                 this.initObservers();
                 return [2];
             });
@@ -64505,6 +64511,18 @@ var Application = (function () {
                 $('body').attr('data-theme', 'light');
                 break;
         }
+    };
+    Application.prototype.initObservers = function () {
+        var that = this;
+        this._appData.currentSelectionObservable.attach(new (function () {
+            function class_1() {
+            }
+            class_1.prototype.update = function (subject) {
+                var _a;
+                (_a = that._spriteAdapter) === null || _a === void 0 ? void 0 : _a.updateParts();
+            };
+            return class_1;
+        }()));
     };
     Application.prototype.initSettings = function () {
         return __awaiter(this, void 0, void 0, function () {
@@ -64535,17 +64553,20 @@ var Application = (function () {
             });
         });
     };
-    Application.prototype.initObservers = function () {
-        var that = this;
-        this._appData.currentSelectionObservable.attach(new (function () {
-            function class_1() {
-            }
-            class_1.prototype.update = function (subject) {
-                var _a;
-                (_a = that._spriteAdapter) === null || _a === void 0 ? void 0 : _a.updateParts();
-            };
-            return class_1;
-        }()));
+    Application.prototype.initFlagList = function () {
+        return __awaiter(this, void 0, void 0, function () {
+            var options, id;
+            return __generator(this, function (_a) {
+                options = {
+                    valueNames: ['flag_info_img', 'flag_info_alt_name', 'flag_info_name'],
+                    page: 6,
+                    pagination: site_value_1.LIST_JS_PAGINATION
+                };
+                id = 'lstFlagInfo';
+                this._flagList = new list_js_1.default(id, options);
+                return [2];
+            });
+        });
     };
     Application.prototype.initForm = function () {
         return __awaiter(this, void 0, void 0, function () {
@@ -64613,7 +64634,7 @@ var Application = (function () {
 }());
 exports.Application = Application;
 
-},{"./data/application.data":83,"./flag-info.adapter":85,"./form-parts.adapter":86,"./site":89,"./sprite.adapter":90,"pixi.js":65,"typescript-logger":76}],83:[function(require,module,exports){
+},{"./data/application.data":83,"./flag-info.adapter":85,"./form-parts.adapter":86,"./site":89,"./site.value":90,"./sprite.adapter":91,"list.js":44,"pixi.js":65,"typescript-logger":76}],83:[function(require,module,exports){
 "use strict";
 var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
     function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
@@ -64988,6 +65009,7 @@ var application_data_1 = require("./data/application.data");
 var sprite_data_1 = require("./data/sprite.data");
 var site_1 = require("./site");
 var typescript_logger_1 = require("typescript-logger");
+var site_value_1 = require("./site.value");
 var list_js_1 = __importDefault(require("list.js"));
 require("select2");
 var memory_cache_1 = __importDefault(require("memory-cache"));
@@ -65322,7 +65344,7 @@ var FormPartsAdapter = (function () {
             }
             filters += "</select>";
             var id = this.getListId(form, part);
-            tab_content_content += "<div class=\"tab-pane fade " + show_active + "\" id=\"" + nav_link_id + "\" role=\"tabpanel\" aria-labelledby=\"" + nav_link_tab_id + "\">\n                <ul class=\"list-group mt-2 mb-4\">\n                    " + current_part + "\n                </ul>\n                <div class=\"my-1 part-settings\">\n                    " + partSettings + "\n                </div>\n                <div class=\"mt-3\" id=\"" + id + "\">\n                    <div class=\"row\">\n                        <div class=\"col-12\">\n                            <div class=\"input-group\">\n                                <div class=\"input-group-prepend\">\n                                    <span class=\"input-group-text\" id=\"searchHelp" + id + "\"><i class=\"fas fa-search d-inline\"></i></span>\n                                </div>\n                                <input type=\"text\" class=\"form-control fuzzy-search\" aria-label=\"" + site_1.site.data.strings.parts_list.search_label + "\" aria-describedby=\"searchHelp" + id + "\" placeholder=\"" + site_1.site.data.strings.parts_list.search_label + "\">\n                            </div>\n                        </div>\n                    </div>\n\n                    <div class=\"row mt-2\">\n                        <div class=\"col-12\">\n                            <div class=\"input-group\">\n                                " + filters + "\n                            </div>\n                        </div>\n                    </div>\n                    <div class=\"row mt-3\">\n                        <div class=\"col-12\">\n                            <div class=\"list-group list\"></div>\n\n                            <nav class=\"my-2\" aria-label=\"" + site_1.site.data.strings.parts_list.pagination_label + "\">\n                                <ul class=\"pagination paginationBottom justify-content-center\">\n                                </ul>\n                            </nav>\n                        </div>\n                    </div>\n                </div>\n            </div>\n";
+            tab_content_content += "<div class=\"tab-pane fade " + show_active + "\" id=\"" + nav_link_id + "\" role=\"tabpanel\" aria-labelledby=\"" + nav_link_tab_id + "\">\n                <ul class=\"list-group mt-2 mb-4\">\n                    " + current_part + "\n                </ul>\n                <div class=\"my-1 part-settings\">\n                    " + partSettings + "\n                </div>\n                <div class=\"mt-2\" id=\"" + id + "\">\n                    <div class=\"row mt-2\">\n                        <div class=\"col-12\">\n                            <div class=\"input-group\">\n                                " + filters + "\n                            </div>\n                        </div>\n                    </div>\n                    <div class=\"row mt-2\">\n                        <div class=\"col-12\">\n                            <div class=\"input-group\">\n                                <div class=\"input-group-prepend\">\n                                    <span class=\"input-group-text\" id=\"searchHelp" + id + "\"><i class=\"fas fa-search d-inline\"></i></span>\n                                </div>\n                                <input type=\"text\" class=\"form-control fuzzy-search\" aria-label=\"" + site_1.site.data.strings.parts_list.search_label + "\" aria-describedby=\"searchHelp" + id + "\" placeholder=\"" + site_1.site.data.strings.parts_list.search_label + "\">\n                            </div>\n                        </div>\n                    </div>\n\n                    <div class=\"row mt-2\">\n                        <div class=\"col-12\">\n                            <div class=\"list-group list\"></div>\n\n                            <nav class=\"my-2\" aria-label=\"" + site_1.site.data.strings.parts_list.pagination_label + "\">\n                                <ul class=\"pagination " + site_value_1.PAGINATION_CLASS + " justify-content-center\">\n                                </ul>\n                            </nav>\n                        </div>\n                    </div>\n                </div>\n            </div>\n";
             nav_links += "<li class=\"nav-item\" role=\"presentation\">\n                <a class=\"nav-link " + active + "\" id=\"" + nav_link_tab_id + "\" data-toggle=\"pill\" href=\"#" + nav_link_id + "\" role=\"tab\" aria-controls=\"" + nav_link_id + "\" aria-selected=\"" + selected + "\">\n                    " + part_label + "\n                </a>\n            </li>\n";
         }
         var nav_tabs = "<ul class=\"nav nav-pills\" id=\"" + nav_tabs_id + "\" role=\"tablist\">\n            " + nav_links + "\n        </ul>";
@@ -65346,21 +65368,16 @@ var FormPartsAdapter = (function () {
         return "<li class=\"list-group-item list-group-item-action current-selected-part active form part flag_name " + disabled + "\" " + aria_disabled + " data-form=\"" + form + "\" data-part=\"" + part + "\" data-flag-name=\"" + flag_name + "\" data-orientation=\"" + orientation + "\" id=\"" + id + "\">\n            <div class=\"row no-gutters\">\n                <div class=\"col-1 icon select-part-icon-container\">" + icon + "</div>\n                <div class=\"col-9 pl-2 mt-1 align-middle name\">" + flag_name + "</div>\n                <div class=\"col-2 mt-1 px-2 text-right orientation_icon\">" + orientationIcon + "</div>\n            </div>\n        </li>";
     };
     FormPartsAdapter.prototype.getSelectablePartsList = function (form, part) {
-        var item = "<button type=\"button\" class=\"list-group-item list-group-item-action form part flag_name orientation index\">\n            <div class=\"row no-gutters\">\n                <div class=\"col-2 pr-2 icon\"></div>\n                <div class=\"col-8 mt-1 align-middle name\"></div>\n                <div class=\"col-2 mt-1 px-2 text-right orientation_icon\"></div>\n            </div>\n        </button>";
+        var item = "<button type=\"button\" class=\"list-group-item list-group-item-action form part flag_name orientation index\">\n            <div class=\"row no-gutters\">\n                <div class=\"col-2 pr-2 icon\"></div>\n                <div class=\"col-8 mt-1 align-middle name\"></div>\n            </div>\n        </button>";
         var valueNames = [
-            'icon', 'name', 'orientation_icon',
+            'icon', 'name',
             { data: ['form', 'part', 'flag_name', 'orientation', 'index'] }
         ];
         var options = {
             valueNames: valueNames,
             item: item,
             page: SELECTABLE_PARTS_LIST_ITEMS_PER_PAGE,
-            pagination: [{
-                    paginationClass: "paginationBottom",
-                    innerWindow: 5,
-                    left: 2,
-                    right: 2
-                }]
+            pagination: site_value_1.LIST_JS_PAGINATION
         };
         var values = this.getSelectablePartListValues(form, part);
         this.log.debug('getSelectablePartsList', form, part, values);
@@ -65392,7 +65409,6 @@ var FormPartsAdapter = (function () {
             case sprite_data_1.Orientation.Vertical:
                 return "<span class=\"orientation-container\">\n                    <i class=\"fas fa-bars fa-rotate-90\"></i><span class=\"sr-only\">" + site_1.site.data.strings.orientation.vertical + "</span>\n                </span>";
         }
-        return '';
     };
     FormPartsAdapter.prototype.getListItemValue = function (form, part, flag, orientation, index) {
         var icon = (flag !== undefined) ? this.getIconImgHTML(flag) : '';
@@ -65431,17 +65447,14 @@ var FormPartsAdapter = (function () {
                     var item = it.values();
                     var flag_name = item.flag_name;
                     var item_element = $(list.list).find("[data-index=\"" + index + "\"]");
-                    var orientation_container = item_element.find('.orientation-container').first();
                     item_element.removeAttr('data-flag_name');
                     item_element.data('flag-name', flag_name);
                     var disable = part === application_data_1.WHOLE_PART && !that.currentSelection.show_whole;
                     item_element.attr('aria-disabled', disable.toString());
                     item_element.prop('disabled', disable);
-                    orientation_container.addClass('d-none');
                     item_element.removeClass('active');
                     if (selected_flag_name === flag_name) {
                         item_element.addClass('active');
-                        orientation_container.removeClass('d-none');
                     }
                     item_element.off('click').on('click', function () {
                         var index = parseInt($(this).data('index'));
@@ -65487,22 +65500,20 @@ var FormPartsAdapter = (function () {
                                 that._appData.setPart(part, flag_name, new_orientation);
                             }
                         }
-                        var sprite_data = that.getSelectableSprite(form, part, flag_name, new_orientation);
-                        var values = (sprite_data !== undefined) ? that.getListItemPart(part, sprite_data, new_orientation, index) : undefined;
-                        if (values) {
-                            item.values(values);
-                            list.update();
-                        }
+                        item_value.orientation = new_orientation;
+                        item_value.orientation_icon = that.getListItemValueOrientationHTML(new_orientation);
+                        item.values(item_value);
                         that._appData.lastFlag = flag_name;
                     });
                 });
             });
             $('#' + this_1.getSelectFilterId(form, part)).select2({
                 theme: "bootstrap4"
-            }).off('change.select2').on('change.select2', function () {
+            }).off('select2:select').on('select2:select', function () {
                 var _a;
                 var part = $(this).data('part');
                 var filter = (_a = $(this).val()) !== null && _a !== void 0 ? _a : application_data_1.ALL_FILTER;
+                that.log.debug('select filter', part, $(this).val());
                 that._appData.setPartFilter(part, filter);
             });
         };
@@ -65511,7 +65522,7 @@ var FormPartsAdapter = (function () {
             var part = _a[_i];
             _loop_1(part);
         }
-        $('#chbShowWholePart').off('change').on('change', function () {
+        $('#chbShowWholePart').on('change', function () {
             var value = $(this).is(":checked");
             that._appData.setShowWhole(value);
         });
@@ -65533,7 +65544,7 @@ var FormPartsAdapter = (function () {
 exports.FormPartsAdapter = FormPartsAdapter;
 ;
 
-},{"./data/application.data":83,"./data/sprite.data":84,"./site":89,"list.js":44,"memory-cache":61,"select2":72,"typescript-logger":76}],87:[function(require,module,exports){
+},{"./data/application.data":83,"./data/sprite.data":84,"./site":89,"./site.value":90,"list.js":44,"memory-cache":61,"select2":72,"typescript-logger":76}],87:[function(require,module,exports){
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 require("./site");
@@ -65629,17 +65640,18 @@ var DataSubject = (function () {
         this.log.debug('Subject: Detached an observer.', observer);
     };
     DataSubject.prototype.notify = function () {
-        return __awaiter(this, void 0, void 0, function () {
-            var _i, _a, observer;
-            return __generator(this, function (_b) {
-                this.log.debug('Subject: Notifying observers...', this._state);
-                for (_i = 0, _a = this.observers; _i < _a.length; _i++) {
-                    observer = _a[_i];
-                    observer.update(this);
+        var _this = this;
+        this.log.debug('Subject: Notifying observers...', this._state);
+        return Promise.all(this.observers.map(function (observer) {
+            return new Promise(function (resolve, reject) {
+                try {
+                    resolve(observer.update(_this));
                 }
-                return [2];
+                catch (e) {
+                    reject(e);
+                }
             });
-        });
+        }));
     };
     return DataSubject;
 }());
@@ -65886,6 +65898,20 @@ module.exports = {
 };
 
 },{}],90:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.LIST_JS_PAGINATION = exports.PAGINATION_CLASS = void 0;
+exports.PAGINATION_CLASS = 'paginationBottom';
+exports.LIST_JS_PAGINATION = [{
+        paginationClass: exports.PAGINATION_CLASS,
+        innerWindow: 5,
+        left: 2,
+        right: 2,
+        item: '<li class="page-item"><a class="page page-link" href="#/"></a></li>'
+    }];
+;
+
+},{}],91:[function(require,module,exports){
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.SpriteAdapter = void 0;

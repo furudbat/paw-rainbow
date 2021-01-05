@@ -6,6 +6,8 @@ import { SpriteAdapter } from './sprite.adapter';
 import { FormPartsAdapter } from './form-parts.adapter';
 import { DataObserver, DataSubject } from './observer';
 import { FlagInfoAdapter } from './flag-info.adapter';
+import List from 'list.js';
+import { LIST_JS_PAGINATION } from './site.value';
 
 export class Application {
 
@@ -15,6 +17,7 @@ export class Application {
     private _formPartsAdapter?: FormPartsAdapter;
     private _spriteAdapter?: SpriteAdapter;
     private _flagInfoAdapter?: FlagInfoAdapter;
+    private _flagList?: List;
 
     private log = LoggerManager.create('Application');
 
@@ -35,6 +38,7 @@ export class Application {
         this._flagInfoAdapter = new FlagInfoAdapter(this._appData);
         this.initForm();
         this.initCanvas();
+        this.initFlagList();
 
         this.initObservers();
     }
@@ -52,6 +56,15 @@ export class Application {
                 $('body').attr('data-theme', 'light');
                 break;
         }
+    }
+
+    private initObservers() {
+        var that = this;
+        this._appData.currentSelectionObservable.attach(new class implements DataObserver<CurrentSelection>{
+            update(subject: DataSubject<CurrentSelection>): void {
+                that._spriteAdapter?.updateParts();
+            }
+        });
     }
 
     private async initSettings() {
@@ -80,13 +93,14 @@ export class Application {
         });
     }
 
-    private initObservers() {
-        var that = this;
-        this._appData.currentSelectionObservable.attach(new class implements DataObserver<CurrentSelection>{
-            update(subject: DataSubject<CurrentSelection>): void {
-                that._spriteAdapter?.updateParts();
-            }
-        });
+    private async initFlagList() {
+        const options: any /*List.ListOptions*/ = {
+            valueNames: [ 'flag_info_img', 'flag_info_alt_name', 'flag_info_name' ],
+            page: 6,
+            pagination: LIST_JS_PAGINATION
+        };
+        const id = 'lstFlagInfo';
+        this._flagList = new List(id, options);
     }
 
     private async initForm() {

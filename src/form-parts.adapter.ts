@@ -5,6 +5,7 @@ import { LoggerManager } from 'typescript-logger';
 import { DataObserver, DataSubject } from './observer';
 import { AnyFlagConfig } from './data/flag-config.data';
 import { FlagData } from "./data/flag.data";
+import { LIST_JS_PAGINATION, PAGINATION_CLASS } from "./site.value";
 import List from 'list.js';
 import 'select2';
 import cache from 'memory-cache';
@@ -368,8 +369,15 @@ export class FormPartsAdapter {
                 <div class="my-1 part-settings">
                     ${partSettings}
                 </div>
-                <div class="mt-3" id="${id}">
-                    <div class="row">
+                <div class="mt-2" id="${id}">
+                    <div class="row mt-2">
+                        <div class="col-12">
+                            <div class="input-group">
+                                ${filters}
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mt-2">
                         <div class="col-12">
                             <div class="input-group">
                                 <div class="input-group-prepend">
@@ -382,17 +390,10 @@ export class FormPartsAdapter {
 
                     <div class="row mt-2">
                         <div class="col-12">
-                            <div class="input-group">
-                                ${filters}
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row mt-3">
-                        <div class="col-12">
                             <div class="list-group list"></div>
 
                             <nav class="my-2" aria-label="${site.data.strings.parts_list.pagination_label}">
-                                <ul class="pagination paginationBottom justify-content-center">
+                                <ul class="pagination ${PAGINATION_CLASS} justify-content-center">
                                 </ul>
                             </nav>
                         </div>
@@ -451,23 +452,17 @@ export class FormPartsAdapter {
             <div class="row no-gutters">
                 <div class="col-2 pr-2 icon"></div>
                 <div class="col-8 mt-1 align-middle name"></div>
-                <div class="col-2 mt-1 px-2 text-right orientation_icon"></div>
             </div>
         </button>`;
         const valueNames = [
-            'icon', 'name', 'orientation_icon',
+            'icon', 'name',
             { data: ['form', 'part', 'flag_name', 'orientation', 'index']}
         ];
         const options: any /*List.ListOptions*/ = {
             valueNames: valueNames,
             item: item,
             page: SELECTABLE_PARTS_LIST_ITEMS_PER_PAGE,
-            pagination: [{
-                paginationClass: "paginationBottom",
-                innerWindow: 5,
-                left: 2,
-                right: 2
-            }]
+            pagination: LIST_JS_PAGINATION
         };
         const values = this.getSelectablePartListValues(form, part);
         this.log.debug('getSelectablePartsList', form, part, values);
@@ -509,8 +504,6 @@ export class FormPartsAdapter {
                     <i class="fas fa-bars fa-rotate-90"></i><span class="sr-only">${site.data.strings.orientation.vertical}</span>
                 </span>`;
         }
-
-        return '';
     }
 
     private getListItemValue(form: string, part: string, flag: FlagData, orientation: Orientation, index: number): PartsListItemValue {
@@ -558,22 +551,19 @@ export class FormPartsAdapter {
                     const item = it.values() as PartsListItemValue;
                     const flag_name = item.flag_name;
                     const item_element = $(list.list).find(`[data-index="${index}"]`);
-                    const orientation_container = item_element.find('.orientation-container').first();
 
                     item_element.removeAttr('data-flag_name');
                     item_element.data('flag-name', flag_name);
 
-                    //that.log.debug('list items forEach', flag_name, item_element, orientation_container);
+                    //that.log.debug('list items forEach', flag_name, item_element);
 
                     const disable = part === WHOLE_PART && !that.currentSelection.show_whole;
                     item_element.attr('aria-disabled', disable.toString());
                     item_element.prop('disabled', disable);
 
-                    orientation_container.addClass('d-none');
                     item_element.removeClass('active');
                     if (selected_flag_name === flag_name) {
                         item_element.addClass('active');
-                        orientation_container.removeClass('d-none');
                     }
 
                     item_element.off('click').on('click', function() {
@@ -617,12 +607,9 @@ export class FormPartsAdapter {
                             }
                         }
 
-                        const sprite_data = that.getSelectableSprite(form, part, flag_name, new_orientation);
-                        const values = (sprite_data !== undefined)? that.getListItemPart(part, sprite_data, new_orientation, index) : undefined;
-                        if (values) {
-                            item.values(values);
-                            list.update();
-                        }
+                        item_value.orientation = new_orientation;
+                        item_value.orientation_icon = that.getListItemValueOrientationHTML(new_orientation);
+                        item.values(item_value);
                         
                         that._appData.lastFlag = flag_name;
                     });
@@ -631,19 +618,19 @@ export class FormPartsAdapter {
 
             $('#'+this.getSelectFilterId(form, part)).select2({
                 theme: "bootstrap4"
-            }).off('change.select2').on('change.select2', function() {
+            }).off('select2:select').on('select2:select', function() {
                 const part = $(this).data('part');
                 const filter = $(this).val() as string ?? ALL_FILTER;
+                that.log.debug('select filter', part, $(this).val());
                 that._appData.setPartFilter(part, filter);
             });
         }
 
-        $('#chbShowWholePart').off('change').on('change', function() {
+        $('#chbShowWholePart').on('change', function() {
             const value = $(this).is(":checked");
             that._appData.setShowWhole(value);
         });
     }
-
 
     static hasProperty(obj: any, key: string) {
         return key in obj

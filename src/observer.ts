@@ -131,11 +131,17 @@ export class DataSubject<T> implements Subject {
     /**
      * Trigger an update in each subscriber.
      */
-    public async notify() {
+    public notify(): Promise<unknown> {
         this.log.debug('Subject: Notifying observers...', this._state);
-        for (const observer of this.observers) {
-            observer.update(this);
-        }
+        return Promise.all(this.observers.map(observer => {
+            return new Promise((resolve, reject) => {
+                try {
+                    resolve(observer.update(this));
+                } catch(e) {
+                    reject(e);
+                }
+            });
+        }));
     }
 }
 

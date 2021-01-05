@@ -1,12 +1,22 @@
-{% for flag_info in site.data.flags_info %}
-    <div class="col-lg-2 col-md-3 col-sm-4 mt-2 mb-1 card-flag-info-container list">
-        <div class="card card-flag-info flag_info_img">
-            <img src="{{ flag_info.img }}" class="card-img-top card-flag-info-list-image flag_info_img flag_info_alt_name" alt="{{ flag_info.name }}">
-            <div class="card-body">
-                <h5 class="card-title card-flag-info-list-title">
-                    <a href="{{ flag_info.link }}" target="_blank" rel="noopener noreferrer" class="flag_info_name">{{ flag_info.name }}</a>
-                </h5>
+<div class="row mt-5" id="lstFlagInfo">
+    <div class="row col-12 list flag-info-list">
+        {% for flag_info in site.data.flags_info %}
+            <div class="col-lg-2 col-md-3 col-sm-4 mt-2 mb-1 card-flag-info-container">
+                <div class="card card-flag-info flag_info_img">
+                    <img src="{{ flag_info.img }}" class="card-img-top card-flag-info-list-image flag_info_img flag_info_alt_name" alt="{{ flag_info.name }}">
+                    <div class="card-body">
+                        <h5 class="card-title card-flag-info-list-title">
+                            <a href="{{ flag_info.link }}" target="_blank" rel="noopener noreferrer" class="flag_info_name">{{ flag_info.name }}</a>
+                        </h5>
+                    </div>
+                </div>
             </div>
-        </div>
+        {% endfor %}
     </div>
-{% endfor %}
+    <div class="row col-12">
+        <nav class="my-2" aria-label="${site.data.strings.flag_info.pagination_label}">
+            <ul class="pagination paginationBottom justify-content-center">
+            </ul>
+        </nav>
+    </div>
+</div>
