@@ -1,13 +1,13 @@
-import { ApplicationData, CurrentSelection, CurrentSelectionPart, Theme } from './data/application.data'
+import { ApplicationData, CurrentSelectionPart, Theme } from './data/application.data';
 import { LoggerManager } from 'typescript-logger';
 import { Loader, Application as PixiApplication, LoaderResource } from 'pixi.js';
 import { site } from './site';
 import { SpriteAdapter } from './sprite.adapter';
 import { FormPartsAdapter } from './form-parts.adapter';
 import { DataObserver, DataSubject } from './observer';
-import { FlagInfoAdapter } from './flag-info.adapter';
 import List from 'list.js';
 import { LIST_JS_PAGINATION } from './site.value';
+import { SpriteDataHelper } from './sprites.data.helper';
 
 export const CANVAS_WIDTH = 720;
 export const CANVAS_HEIGHT = 720;
@@ -18,8 +18,8 @@ export class Application {
     private _loader: Loader = new Loader();
     private _formPartsAdapter?: FormPartsAdapter;
     private _spriteAdapter?: SpriteAdapter;
-    private _flagInfoAdapter?: FlagInfoAdapter;
     private _flagList?: List;
+    private _sprite_data_helper: SpriteDataHelper = new SpriteDataHelper();
 
     private log = LoggerManager.create('Application');
 
@@ -36,10 +36,16 @@ export class Application {
         this.initTheme();
         this.initSettings();
 
-        this._formPartsAdapter = new FormPartsAdapter(this._appData);
-        this._flagInfoAdapter = new FlagInfoAdapter(this._appData);
-        this.initForm();
-        this.initCanvas();
+        if (!this._appData.currentSelectionForm) {
+            this._appData.currentSelectionForm = (this._appData.forms.length > 0)? this._appData.forms[0] : '';
+        }
+        Promise.all(this._appData.forms.map( form => {
+            return this._sprite_data_helper.setup(form, this._appData.getPartsList(form));
+        })).then(() => {
+            this.initForm();
+            this.initCanvas();
+        });
+
         this.initFlagList();
 
         this.initObservers();
@@ -62,11 +68,23 @@ export class Application {
 
     private initObservers() {
         var that = this;
-        this._appData.currentSelectionObservable.attach(new class implements DataObserver<CurrentSelection>{
-            update(subject: DataSubject<CurrentSelection>): void {
-                that._spriteAdapter?.updateParts();
+        this._appData.currentSelectionFormObservable.attach(new class implements DataObserver<string>{
+            update(subject: DataSubject<string>): void {
+                that._spriteAdapter?.updateParts(subject.data);
             }
         });
+        for (const form of this._appData.forms) {
+            this._appData.getCurrentSelectionPartsObservables(form).forEach(obs => {
+                const form = obs.form;
+                const part = obs.part;
+                const observable = obs.observable;
+                observable.attach(new class implements DataObserver<CurrentSelectionPart>{
+                    update(subject: DataSubject<CurrentSelectionPart>): void {
+                        that._spriteAdapter?.updatePart(form, part, subject.data);
+                    }
+                });
+            });
+        }
     }
 
     private async initSettings() {
@@ -107,15 +125,11 @@ export class Application {
 
     private async initForm() {
         this.initFormParts();
-        this.initFormInfo();
     }
 
     private async initFormParts() {
+        this._formPartsAdapter = new FormPartsAdapter(this._appData, this._sprite_data_helper);
         this._formPartsAdapter?.init();
-    }
-
-    private async initFormInfo() {
-        this._flagInfoAdapter?.init();
     }
 
     private async initCanvas() {
@@ -146,11 +160,10 @@ export class Application {
 
     private setupSpriteAdapters(loader: Loader, resources: Partial<Record<string, LoaderResource>>) {
         //this.log.debug('setupSpriteAdapters', loader, resources);
-        this._spriteAdapter?.init(resources);
+        this._spriteAdapter?.init(this._appData.currentSelectionForm, resources);
     }
 
     private loadProgressHandler() {
 
     }
-      
 }

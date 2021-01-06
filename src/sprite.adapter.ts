@@ -1,6 +1,6 @@
 import { Container, Sprite, Application as PixiApplication, LoaderResource } from 'pixi.js';
 import { LoggerManager } from 'typescript-logger';
-import { ApplicationData, Settings, WHOLE_PART } from './data/application.data';
+import { ApplicationData, CurrentSelectionPart, Settings, WHOLE_PART } from './data/application.data';
 import { Orientation } from "./data/sprite.data";
 import { site } from './site';
 import { DataObserver, DataSubject } from './observer';
@@ -26,9 +26,9 @@ export class SpriteAdapter {
         this._downloadFullButton = downloadFullButton;
     }
 
-    public init(resources: Partial<Record<string, LoaderResource>>) {
+    public init(form: string, resources: Partial<Record<string, LoaderResource>>) {
         this._resources = resources;
-        this.updateParts();
+        this.updateParts(form);
 
         this._grid = new PixiJSGrid(this._parts_container.width);
 
@@ -54,12 +54,25 @@ export class SpriteAdapter {
         this.initObservers();
     }
 
-    public updateParts() {
+    public updatePart(form: string, part: string, part_data: CurrentSelectionPart) {
+        this.setPart(form, part_data.flag_name ?? 'None', part, part_data.orientation ?? Orientation.Vertical, false);
+
+        this.updateSprite();
+        this.updateDownloadButton();
+    }
+
+    public updateParts(form: string) {
         this._parts_container.removeChildren();
-        for(let part in this._appData.currentSelection.parts) {
-            this.setPart(this._appData.currentSelection.form, this._appData.currentSelection.parts[part].flag_name ?? 'None', part, this._appData.currentSelection.parts[part].orientation ?? Orientation.Vertical, false);
-            if (part in this._sprites && (part !== WHOLE_PART && !this._appData.currentSelection.show_whole) || (part == WHOLE_PART && this._appData.currentSelection.show_whole)) {
-                this._parts_container.addChild(this._sprites[part]);
+        for(const part of this._appData.getPartsList(form)) {
+            const part_data = this._appData.getCurrentSelectionPartData(form, part);
+
+            if (part_data !== undefined) {
+                this.setPart(form, part_data.flag_name ?? 'None', part, part_data.orientation ?? Orientation.Vertical, false);
+                if (part in this._sprites && (part !== WHOLE_PART && !this._appData.currentSelectionShowWhole) || (part == WHOLE_PART && this._appData.currentSelectionShowWhole)) {
+                    this._parts_container.addChild(this._sprites[part]);
+                }
+            } else {
+                this.log.warn('updateParts', `no sprite data for ${part}`);
             }
         }
 
@@ -70,7 +83,7 @@ export class SpriteAdapter {
     public updateDownloadButton() {
         this._pixiApp.renderer.extract.canvas(this._parts_container).toBlob((b) => {
             if(this._downloadButton) {
-                const form = this._appData.currentSelection.form;
+                const form = this._appData.currentSelectionForm;
 
                 const aDownload = $(this._downloadButton) as JQuery<HTMLAnchorElement>;
                 aDownload.attr('download', form);
@@ -80,7 +93,7 @@ export class SpriteAdapter {
 
         this._pixiApp.renderer.extract.canvas(this._pixiApp.stage).toBlob((b) => {
             if(this._downloadFullButton) {
-                const form = this._appData.currentSelection.form;
+                const form = this._appData.currentSelectionForm;
 
                 const aDownload = $(this._downloadFullButton) as JQuery<HTMLAnchorElement>;
                 aDownload.attr('download', form);

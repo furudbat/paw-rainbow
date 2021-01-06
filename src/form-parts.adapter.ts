@@ -1,4 +1,4 @@
-import { ALL_FILTER, ApplicationData, CurrentSelection, CurrentSelectionPart, WHOLE_PART } from "./data/application.data";
+import { ALL_FILTER, ApplicationData, CurrentSelectionPart, WHOLE_PART } from "./data/application.data";
 import { Orientation, SpriteData } from "./data/sprite.data";
 import { site } from "./site";
 import { LoggerManager } from 'typescript-logger';
@@ -15,97 +15,67 @@ const SELECTABLE_PARTS_LIST_ITEMS_PER_PAGE = 8;
 export class FormPartsAdapter {
     private _appData: ApplicationData;
     private _parts_lists: Record<string, List> = {};
-    private _last_values: LastSelectedValues = new LastSelectedValues();
-    private _sprite_data_helper: SpriteDataHelper = new SpriteDataHelper();
+    private _sprite_data_helper: SpriteDataHelper;
 
     private log = LoggerManager.create('FormPartsAdapter');
 
-    constructor(appData: ApplicationData) {
+    constructor(appData: ApplicationData, _sprite_data_helper: SpriteDataHelper) {
         this._appData = appData;
-    }
-    public initDefaultValues() {
-        return this._sprite_data_helper.setup(this.current_form, this.parts_list).then(() => {
-            for(const part of this.parts_list) {
-                if (!(part in this.currentSelection.parts) || !this.currentSelection.parts[part].flag_name) {
-                    this.currentSelection.parts[part] = new CurrentSelectionPart();
-                    this.currentSelection.parts[part].filter = ALL_FILTER;
-                    this.currentSelection.parts[part].flag_name = this._sprite_data_helper.getDefaultFlagName(this.current_form);
-                    this.currentSelection.parts[part].orientation = Orientation.Vertical;
-                }
-            }
-            this._appData.saveCurrentSelection();
-        });
+        this._sprite_data_helper = _sprite_data_helper;
     }
 
     public init() {
         this.initObservers();
-
-        if (!this.current_form && site.data.flags_config.forms.length > 0) {
-            const form = site.data.flags_config.forms[0];
-
-            this.initDefaultValues().then(() => {
-                this._appData.setForm(form, this.parts_list, this._sprite_data_helper.getDefaultFlagName(form));
-            });
-        } else {
-            this.initDefaultValues().then(() => {
-                this.updateUI();
-            });
-        }
+        this.updateUI();
     }
-
-    private async updateLastValues(value: CurrentSelection) {
-        this._last_values.form = value.form;
-        this._last_values.show_whole = value.show_whole;
-        for (const part of this.parts_list) {
-            this._last_values.parts[part] = {
-                filter: value.parts[part].filter ?? ALL_FILTER,
-                flag_name: value.parts[part].flag_name,
-                orientation: value.parts[part].orientation
-            };
-        }
-    };
 
     private initObservers() {
         var that = this;
-        this._appData.currentSelectionObservable.attach(new class implements DataObserver<CurrentSelection>{
-            update(subject: DataSubject<CurrentSelection>): void {
-                const new_form = subject.data.form;
-                const old_form = that._last_values.form;
+        this._appData.currentSelectionFormObservable.attach(new class implements DataObserver<string>{
+            update(subject: DataSubject<string>): void {
+                that.updateUI();
+            }
+        });
 
-                //that.log.debug('update currentSelection', form, subject.data, that._last_values);
-
-                if (old_form !== new_form) {
-                    that._last_values.clear();
-                    that.initDefaultValues().then(() => {
-                        that.updateUI().then(() => that.updateLastValues(subject.data));
-                    });
-                } else {
-                    that.parts_list.map( part => {
-                        return new Promise((resolve, reject) => {
-                            const new_filter = (part in subject.data.parts)? subject.data.parts[part].filter : undefined;
-                            const new_flag_name = (part in subject.data.parts)? subject.data.parts[part].flag_name : undefined;
-                            const new_orientation = (part in subject.data.parts)? subject.data.parts[part].orientation : undefined;
-                            const new_show_whole = subject.data.show_whole;
-
-                            const old_filter = (part in that._last_values.parts)? that._last_values.parts[part].filter : undefined;
-                            const old_flag_name = (part in that._last_values.parts)? that._last_values.parts[part].flag_name : undefined;
-                            const old_orientation = (part in that._last_values.parts)? that._last_values.parts[part].orientation : undefined;
-                            const old_show_whole = that._last_values.show_whole;
-                            
-                            if (old_filter !== new_filter) {
-                                that.updateFilter(part, subject.data.parts[part].filter);
-                            }
-                            if (old_flag_name !== new_flag_name || old_orientation !== new_orientation) {
-                                that.updateSelectedPartUI(old_form, part);
-                            }
-                            if (old_flag_name !== new_flag_name || old_show_whole !== new_show_whole) {
-                                that._parts_lists[part]?.update();
-                            }
+        for(const form of this._appData.forms) {
+            this._appData.getCurrentSelectionPartsFilterObservables(form).forEach(obs => {
+                const form = obs.form;
+                const part = obs.part;
+                const observable = obs.observable;
+                observable.attach(new class implements DataObserver<string>{
+                    update(subject: DataSubject<string>): void {
+                        //that.log.debug('update currentSelection filter', form, part, subject.data, that._last_values);
     
-                            resolve(that.updateLastValues(subject.data));
-                        });
-                    });
-                }
+                        if (that.current_form === form) {
+                            that.updateFilter(part, subject.data);
+                        }
+                    }
+                });
+            });
+    
+            this._appData.getCurrentSelectionPartsObservables(form).forEach(obs => {
+                const form = obs.form;
+                const part = obs.part;
+                const observable = obs.observable;
+                observable.attach(new class implements DataObserver<CurrentSelectionPart>{
+                    update(subject: DataSubject<CurrentSelectionPart>): void {
+                        //that.log.debug('update currentSelection part', form, part, subject.data, that._last_values);
+    
+                        that.updateSelectedPartUI(form, part);
+                        if (that.current_form === form) {
+                            that._parts_lists[part]?.update();
+                        }
+                    }
+                });
+            });
+        }
+
+        this._appData.currentSelectionShowWholeObservable.attach(new class implements DataObserver<boolean>{
+            update(subject: DataSubject<boolean>): void {
+                const part = WHOLE_PART;
+                //that.log.debug('update currentSelection show_whole', form, subject.data, that._last_values);
+
+                that._parts_lists[part]?.update();
             }
         });
     }
@@ -126,21 +96,17 @@ export class FormPartsAdapter {
         this._parts_lists[part]?.update();
     }
 
-    get currentSelection() {
-        return this._appData.currentSelection;
-    }
-
     get current_form() {
-        return this._appData.currentSelection.form;
-    }
-
-    get parts_list() {
-        return (FormPartsAdapter.hasProperty(site.data.flags_config, this.current_form)) ? (FormPartsAdapter.getUnsafeProperty(site.data.flags_config, this.current_form) as AnyFlagConfig).parts : [];
+        return this._appData.currentSelectionForm;
     }
 
     get filter_list() {
         let ret = [ALL_FILTER];
         return ret.concat(site.data.flags_config.categories);
+    }
+
+    get parts_list() {
+        return this._appData.getPartsList(this.current_form);
     }
 
     public getListId(form: string, part: string) {
@@ -168,19 +134,19 @@ export class FormPartsAdapter {
     }
 
     private getCurrentSelectedSprite(form: string, part: string) {
-        const flag_name = this.getSelectedFlagName(part);
-        const orientation = this.getSelectedOrientation(part);
+        const flag_name = this.getSelectedFlagName(form, part);
+        const orientation = this.getSelectedOrientation(form, part);
         return (flag_name !== undefined && orientation !== undefined)? this._sprite_data_helper.getSelectableSprite(form, part, flag_name, orientation) : undefined;
     }
 
-    private getSelectedOrientation(part: string) {
-        return (part in this.currentSelection.parts) ? this.currentSelection.parts[part].orientation : undefined;
+    private getSelectedOrientation(form: string, part: string) {
+        return this._appData.getCurrentSelectionPartData(form, part)?.orientation;
     }
-    private getSelectedFlagName(part: string) {
-        return (part in this.currentSelection.parts) ? this.currentSelection.parts[part].flag_name : undefined;
+    private getSelectedFlagName(form: string, part: string) {
+        return this._appData.getCurrentSelectionPartData(form, part)?.flag_name;
     }
-    private getSelectedFilter(part: string) {
-        return (part in this.currentSelection.parts) ? this.currentSelection.parts[part].filter : undefined;
+    private getSelectedFilter(form: string, part: string) {
+        return this._appData.getCurrentSelectionPartFilter(form, part);
     }
 
     private async updateUISetForm() {
@@ -188,7 +154,7 @@ export class FormPartsAdapter {
 
         for (const form of site.data.flags_config.forms) {
             const form_name = site.data.strings.select_form[form];
-            const active = (this.currentSelection.form == form) ? 'active' : '';
+            const active = (this.current_form == form) ? 'active' : '';
 
             const btn = `<button type="button" class="list-group-item ${active}" data-form="${form}">
                 ${form_name}
@@ -248,7 +214,7 @@ export class FormPartsAdapter {
             let partSettings = '';
             if (part == WHOLE_PART) {
                 partSettings = `<div class="form-check form-check-inline">
-                    <input class="form-check-input" type="checkbox" id="chbShowWholePart" value="${this.currentSelection.show_whole}">
+                    <input class="form-check-input" type="checkbox" id="chbShowWholePart" value="${this._appData.currentSelectionShowWhole}">
                     <label class="form-check-label" for="chbShowWholePart">${site.data.strings.parts_list.show_whole_label}</label>
                 </div>`;
             }
@@ -258,7 +224,7 @@ export class FormPartsAdapter {
             for(const filter of this.filter_list) {
                 const filter_label = site.data.strings.select_filter[filter];
                 if (filter_label) {
-                    const filter_selected = (this.getSelectedFilter(part) == filter)? 'selected' : '';
+                    const filter_selected = (this.getSelectedFilter(form, part) == filter)? 'selected' : '';
 
                     const filter_option = `<option ${filter_selected}" data-form="${form}" data-part="${part}" data-filter="${filter}" value="${filter}">
                         ${filter_label}
@@ -347,8 +313,8 @@ export class FormPartsAdapter {
         let disabled = '';
         let aria_disabled = '';
         if (part == WHOLE_PART) {
-            disabled = (!this.currentSelection.show_whole)? 'disabled' : '';
-            aria_disabled = (!this.currentSelection.show_whole)? 'aria-disabled="true"' : '';
+            disabled = (!this._appData.currentSelectionShowWhole)? 'disabled' : '';
+            aria_disabled = (!this._appData.currentSelectionShowWhole)? 'aria-disabled="true"' : '';
         }
 
         return `<li class="list-group-item current-selected-part active form part flag_name ${disabled}" ${aria_disabled} data-form="${form}" data-part="${part}" data-flag-name="${flag_name}" data-orientation="${orientation}" id="${id}">
@@ -449,10 +415,9 @@ export class FormPartsAdapter {
     private initEventSetParts() {
         var that = this;
         for (const part of this.parts_list) {
-            const form = this.current_form;
-
             this._parts_lists[part].on('updated', function(list) {
-                const selected_flag_name = that.getSelectedFlagName(part);
+                const form = that.current_form;
+                const selected_flag_name = that.getSelectedFlagName(form, part);
 
                 list.items.forEach(function (it: any, index: number) {
                     const item = it.values() as PartsListItemValue;
@@ -464,7 +429,7 @@ export class FormPartsAdapter {
 
                     //that.log.debug('list items forEach', flag_name, item_element);
 
-                    const disable = part === WHOLE_PART && !that.currentSelection.show_whole;
+                    const disable = part === WHOLE_PART && !that._appData.currentSelectionShowWhole;
                     item_element.attr('aria-disabled', disable.toString());
                     item_element.prop('disabled', disable);
 
@@ -485,9 +450,9 @@ export class FormPartsAdapter {
                         const selectable_flag_horizontal = selectable_flags.find(it => it.orientation == Orientation.Horizontal);
                         const selectable_flag_vertical = selectable_flags.find(it => it.orientation == Orientation.Vertical);
 
-                        const orientation = that.getSelectedOrientation(part) ?? Orientation.Vertical;
+                        const orientation = that.getSelectedOrientation(form, part) ?? Orientation.Vertical;
                         let new_orientation = orientation;
-                        if (that.getSelectedFlagName(part) !== flag_name) {
+                        if (that.getSelectedFlagName(form, part) !== flag_name) {
                             if (selectable_flag_horizontal && orientation === Orientation.Horizontal) {
                                 new_orientation = Orientation.Horizontal;
                             } else if (selectable_flag_vertical && orientation === Orientation.Vertical) {
@@ -498,7 +463,7 @@ export class FormPartsAdapter {
                                 new_orientation = Orientation.Vertical;
                             } 
                             
-                            that._appData.setPart(part, flag_name, new_orientation);
+                            that._appData.setPart(form, part, flag_name, new_orientation);
                         } else {
                             if (selectable_flag_horizontal && orientation === Orientation.Vertical) {
                                 new_orientation = Orientation.Horizontal;
@@ -510,22 +475,22 @@ export class FormPartsAdapter {
                                 new_orientation = Orientation.Vertical;
                             }
                             if (orientation !== new_orientation) {                            
-                                that._appData.setPart(part, flag_name, new_orientation);
+                                that._appData.setPart(form, part, flag_name, new_orientation);
                             }
                         }
                         
-                        //that._appData.lastFlag = flag_name;
+                        that._appData.lastFlag = flag_name;
                     });
                 });
             });
 
-            $('#'+FormPartsAdapter.getSelectFilterId(form, part)).select2({
+            $('#'+FormPartsAdapter.getSelectFilterId(this.current_form, part)).select2({
                 theme: "bootstrap4"
             }).off('select2:select').on('select2:select', function() {
                 const part = $(this).data('part');
                 const filter = $(this).val() as string ?? ALL_FILTER;
                 that.log.debug('select filter', part, $(this).val());
-                that._appData.setPartFilter(part, filter);
+                that._appData.setPartFilter(that.current_form, part, filter);
             });
         }
 
@@ -533,22 +498,6 @@ export class FormPartsAdapter {
             const value = $(this).is(":checked");
             that._appData.setShowWhole(value);
         });
-    }
-
-    static hasProperty(obj: any, key: string) {
-        return key in obj
-    }
-
-    static getUnsafeProperty(obj: any, key: string) {
-        return key in obj ? obj[key] : undefined; // Inferred type is T[K]
-    }
-
-    static getProperty<T, K extends keyof T>(obj: T, key: K) {
-        return obj[key]; // Inferred type is T[K]
-    }
-
-    static setProperty<T, K extends keyof T>(obj: T, key: K, value: T[K]) {
-        obj[key] = value;
     }
 }
 
@@ -561,19 +510,3 @@ interface PartsListItemValue {
     index: number;
     category: string;
 };
-
-class LastSelectedValues {
-    public form: string | undefined = undefined;
-    public show_whole: boolean | undefined = undefined;
-    public parts: Record<string, {
-        filter: string;
-        flag_name: string;
-        orientation: Orientation;
-    }> = {};
-
-    public clear() {
-        this.form = undefined;
-        this.parts = {};
-        this.show_whole = undefined;
-    }
-}

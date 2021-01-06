@@ -64468,15 +64468,16 @@ var pixi_js_1 = require("pixi.js");
 var site_1 = require("./site");
 var sprite_adapter_1 = require("./sprite.adapter");
 var form_parts_adapter_1 = require("./form-parts.adapter");
-var flag_info_adapter_1 = require("./flag-info.adapter");
 var list_js_1 = __importDefault(require("list.js"));
 var site_value_1 = require("./site.value");
+var sprites_data_helper_1 = require("./sprites.data.helper");
 exports.CANVAS_WIDTH = 720;
 exports.CANVAS_HEIGHT = 720;
 var Application = (function () {
     function Application() {
         this._appData = new application_data_1.ApplicationData();
         this._loader = new pixi_js_1.Loader();
+        this._sprite_data_helper = new sprites_data_helper_1.SpriteDataHelper();
         this.log = typescript_logger_1.LoggerManager.create('Application');
     }
     Application.prototype.init = function () {
@@ -64487,13 +64488,19 @@ var Application = (function () {
     };
     Application.prototype.initSite = function () {
         return __awaiter(this, void 0, void 0, function () {
+            var _this = this;
             return __generator(this, function (_a) {
                 this.initTheme();
                 this.initSettings();
-                this._formPartsAdapter = new form_parts_adapter_1.FormPartsAdapter(this._appData);
-                this._flagInfoAdapter = new flag_info_adapter_1.FlagInfoAdapter(this._appData);
-                this.initForm();
-                this.initCanvas();
+                if (!this._appData.currentSelectionForm) {
+                    this._appData.currentSelectionForm = (this._appData.forms.length > 0) ? this._appData.forms[0] : '';
+                }
+                Promise.all(this._appData.forms.map(function (form) {
+                    return _this._sprite_data_helper.setup(form, _this._appData.getPartsList(form));
+                })).then(function () {
+                    _this.initForm();
+                    _this.initCanvas();
+                });
                 this.initFlagList();
                 this.initObservers();
                 return [2];
@@ -64516,15 +64523,32 @@ var Application = (function () {
     };
     Application.prototype.initObservers = function () {
         var that = this;
-        this._appData.currentSelectionObservable.attach(new (function () {
+        this._appData.currentSelectionFormObservable.attach(new (function () {
             function class_1() {
             }
             class_1.prototype.update = function (subject) {
                 var _a;
-                (_a = that._spriteAdapter) === null || _a === void 0 ? void 0 : _a.updateParts();
+                (_a = that._spriteAdapter) === null || _a === void 0 ? void 0 : _a.updateParts(subject.data);
             };
             return class_1;
         }()));
+        for (var _i = 0, _a = this._appData.forms; _i < _a.length; _i++) {
+            var form = _a[_i];
+            this._appData.getCurrentSelectionPartsObservables(form).forEach(function (obs) {
+                var form = obs.form;
+                var part = obs.part;
+                var observable = obs.observable;
+                observable.attach(new (function () {
+                    function class_2() {
+                    }
+                    class_2.prototype.update = function (subject) {
+                        var _a;
+                        (_a = that._spriteAdapter) === null || _a === void 0 ? void 0 : _a.updatePart(form, part, subject.data);
+                    };
+                    return class_2;
+                }()));
+            });
+        }
     };
     Application.prototype.initSettings = function () {
         return __awaiter(this, void 0, void 0, function () {
@@ -64574,7 +64598,6 @@ var Application = (function () {
         return __awaiter(this, void 0, void 0, function () {
             return __generator(this, function (_a) {
                 this.initFormParts();
-                this.initFormInfo();
                 return [2];
             });
         });
@@ -64583,16 +64606,8 @@ var Application = (function () {
         var _a;
         return __awaiter(this, void 0, void 0, function () {
             return __generator(this, function (_b) {
+                this._formPartsAdapter = new form_parts_adapter_1.FormPartsAdapter(this._appData, this._sprite_data_helper);
                 (_a = this._formPartsAdapter) === null || _a === void 0 ? void 0 : _a.init();
-                return [2];
-            });
-        });
-    };
-    Application.prototype.initFormInfo = function () {
-        var _a;
-        return __awaiter(this, void 0, void 0, function () {
-            return __generator(this, function (_b) {
-                (_a = this._flagInfoAdapter) === null || _a === void 0 ? void 0 : _a.init();
                 return [2];
             });
         });
@@ -64628,7 +64643,7 @@ var Application = (function () {
     };
     Application.prototype.setupSpriteAdapters = function (loader, resources) {
         var _a;
-        (_a = this._spriteAdapter) === null || _a === void 0 ? void 0 : _a.init(resources);
+        (_a = this._spriteAdapter) === null || _a === void 0 ? void 0 : _a.init(this._appData.currentSelectionForm, resources);
     };
     Application.prototype.loadProgressHandler = function () {
     };
@@ -64636,7 +64651,7 @@ var Application = (function () {
 }());
 exports.Application = Application;
 
-},{"./data/application.data":83,"./flag-info.adapter":85,"./form-parts.adapter":86,"./site":89,"./site.value":90,"./sprite.adapter":91,"list.js":44,"pixi.js":65,"typescript-logger":76}],83:[function(require,module,exports){
+},{"./data/application.data":83,"./form-parts.adapter":85,"./site":88,"./site.value":89,"./sprite.adapter":90,"./sprites.data.helper":91,"list.js":44,"pixi.js":65,"typescript-logger":76}],83:[function(require,module,exports){
 "use strict";
 var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
     function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
@@ -64678,7 +64693,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.ApplicationData = exports.CurrentSelection = exports.CurrentSelectionPart = exports.Settings = exports.Theme = exports.WHOLE_PART = exports.ALL_FILTER = exports.DEFAULT_FLAG_NAME_NONE = void 0;
+exports.setProperty = exports.getProperty = exports.getUnsafeProperty = exports.hasProperty = exports.ApplicationData = exports.CurrentSelectionPart = exports.Settings = exports.Theme = exports.WHOLE_PART = exports.ALL_FILTER = exports.DEFAULT_FLAG_NAME_NONE = void 0;
 var localforage_1 = __importDefault(require("localforage"));
 var observer_1 = require("../observer");
 var site_1 = require("../site");
@@ -64686,7 +64701,10 @@ var sprite_data_1 = require("./sprite.data");
 var STORAGE_KEY_SETTINGS = 'settings';
 var STORAGE_KEY_THEME = 'theme';
 var STORAGE_KEY_VERSION = 'version';
-var STORAGE_KEY_CURRENT_SELECTION = 'current_selection';
+var STORAGE_KEY_CURRENT_SELECTION_FORM = 'current_selection_form';
+var STORAGE_KEY_CURRENT_SELECTION_SHOW_WHOLE = 'current_selection_show_whole';
+var STORAGE_KEY_CURRENT_SELECTION_PART = 'current_selection_part';
+var STORAGE_KEY_CURRENT_SELECTION_PART_FILTER = 'current_selection_part_filter';
 var STORAGE_KEY_LAST_FLAG = 'last_flag';
 exports.DEFAULT_FLAG_NAME_NONE = 'None';
 exports.ALL_FILTER = 'all';
@@ -64705,71 +64723,114 @@ var Settings = (function () {
 exports.Settings = Settings;
 var CurrentSelectionPart = (function () {
     function CurrentSelectionPart() {
-        this.filter = exports.ALL_FILTER;
         this.flag_name = exports.DEFAULT_FLAG_NAME_NONE;
         this.orientation = sprite_data_1.Orientation.Vertical;
     }
     return CurrentSelectionPart;
 }());
 exports.CurrentSelectionPart = CurrentSelectionPart;
-var CurrentSelection = (function () {
-    function CurrentSelection() {
-        this.form = "";
-        this.show_whole = false;
-        this.parts = {};
-    }
-    return CurrentSelection;
-}());
-exports.CurrentSelection = CurrentSelection;
 var ApplicationData = (function () {
     function ApplicationData() {
         this._settings = new observer_1.DataSubject(new Settings());
         this._theme = Theme.Dark;
         this._version = site_1.site.version;
-        this._currentSelection = new observer_1.DataSubject(new CurrentSelection());
-        this._lastFlag = new observer_1.DataSubject("");
+        this._currentSelectionForm = new observer_1.DataSubject('');
+        this._currentSelectionShowWhole = new observer_1.DataSubject(false);
+        this._currentSelectionPartsFilter = {};
+        this._currentSelectionParts = {};
+        this._lastFlag = new observer_1.DataSubject('');
         this._storeSession = localforage_1.default.createInstance({
             name: "session"
         });
+        for (var _i = 0, _a = this.forms; _i < _a.length; _i++) {
+            var form = _a[_i];
+            this._currentSelectionPartsFilter[form] = {};
+            this._currentSelectionParts[form] = {};
+            for (var _b = 0, _c = this.getPartsList(form); _b < _c.length; _b++) {
+                var part = _c[_b];
+                this._currentSelectionPartsFilter[form][part] = new observer_1.DataSubject(exports.ALL_FILTER);
+                this._currentSelectionParts[form][part] = new observer_1.DataSubject(new CurrentSelectionPart());
+            }
+        }
     }
+    ApplicationData.getStorageKeyCurrentSelectionPart = function (form, part) {
+        return STORAGE_KEY_CURRENT_SELECTION_PART + "_" + form + "_" + part;
+    };
+    ApplicationData.getStorageKeyCurrentSelectionPartFilter = function (form, part) {
+        return STORAGE_KEY_CURRENT_SELECTION_PART_FILTER + "_" + form + "_" + part;
+    };
     ApplicationData.prototype.loadFromStorage = function () {
+        var _a, _b, _c, _d, _e, _f, _g, _h;
         return __awaiter(this, void 0, void 0, function () {
-            var _a, _b, _c, _d, _e, err_1;
-            return __generator(this, function (_f) {
-                switch (_f.label) {
+            var _j, _k, _l, _m, _o, _p, _i, _q, form, _r, _s, part, part_key, part_filter_key, _t, _u, err_1;
+            return __generator(this, function (_v) {
+                switch (_v.label) {
                     case 0:
-                        _f.trys.push([0, 7, , 8]);
-                        _a = this;
+                        _v.trys.push([0, 15, , 16]);
+                        _j = this;
                         return [4, this._storeSession.getItem(STORAGE_KEY_VERSION)];
                     case 1:
-                        _a._version = (_f.sent()) || '';
+                        _j._version = (_a = _v.sent()) !== null && _a !== void 0 ? _a : '';
                         if (!(this._version !== '')) return [3, 4];
-                        _b = this._settings;
+                        _k = this._settings;
                         return [4, this._storeSession.getItem(STORAGE_KEY_SETTINGS)];
                     case 2:
-                        _b.data = (_f.sent()) || this._settings.data;
-                        _c = this;
+                        _k.data = (_b = _v.sent()) !== null && _b !== void 0 ? _b : this._settings.data;
+                        _l = this;
                         return [4, this._storeSession.getItem(STORAGE_KEY_THEME)];
                     case 3:
-                        _c._theme = (_f.sent()) || this._theme;
-                        _f.label = 4;
+                        _l._theme = (_c = _v.sent()) !== null && _c !== void 0 ? _c : this._theme;
+                        _v.label = 4;
                     case 4:
                         this._version = site_1.site.version;
                         this._storeSession.setItem(STORAGE_KEY_VERSION, this._version);
-                        _d = this._currentSelection;
-                        return [4, this._storeSession.getItem(STORAGE_KEY_CURRENT_SELECTION)];
-                    case 5:
-                        _d.data = (_f.sent()) || this._currentSelection.data;
-                        _e = this._lastFlag;
+                        _m = this._lastFlag;
                         return [4, this._storeSession.getItem(STORAGE_KEY_LAST_FLAG)];
+                    case 5:
+                        _m.data = (_d = _v.sent()) !== null && _d !== void 0 ? _d : this._lastFlag.data;
+                        _o = this._currentSelectionForm;
+                        return [4, this._storeSession.getItem(STORAGE_KEY_CURRENT_SELECTION_FORM)];
                     case 6:
-                        _e.data = (_f.sent()) || this._lastFlag.data;
-                        return [3, 8];
+                        _o.data = (_e = _v.sent()) !== null && _e !== void 0 ? _e : this._currentSelectionForm.data;
+                        _p = this._currentSelectionShowWhole;
+                        return [4, this._storeSession.getItem(STORAGE_KEY_CURRENT_SELECTION_SHOW_WHOLE)];
                     case 7:
-                        err_1 = _f.sent();
-                        console.error('loadFromStorage', err_1);
+                        _p.data = (_f = _v.sent()) !== null && _f !== void 0 ? _f : this._currentSelectionShowWhole.data;
+                        _i = 0, _q = this.forms;
+                        _v.label = 8;
+                    case 8:
+                        if (!(_i < _q.length)) return [3, 14];
+                        form = _q[_i];
+                        _r = 0, _s = this.getPartsList(form);
+                        _v.label = 9;
+                    case 9:
+                        if (!(_r < _s.length)) return [3, 13];
+                        part = _s[_r];
+                        part_key = ApplicationData.getStorageKeyCurrentSelectionPart(form, part);
+                        part_filter_key = ApplicationData.getStorageKeyCurrentSelectionPartFilter(form, part);
+                        _t = this._currentSelectionParts[form][part];
+                        return [4, this._storeSession.getItem(part_key)];
+                    case 10:
+                        _t.data = (_g = _v.sent()) !== null && _g !== void 0 ? _g : this._currentSelectionParts[form][part].data;
+                        _u = this._currentSelectionPartsFilter[form][part];
+                        return [4, this._storeSession.getItem(part_filter_key)];
+                    case 11:
+                        _u.data = (_h = _v.sent()) !== null && _h !== void 0 ? _h : this._currentSelectionPartsFilter[form][part].data;
+                        _v.label = 12;
+                    case 12:
+                        _r++;
+                        return [3, 9];
+                    case 13:
+                        _i++;
                         return [3, 8];
-                    case 8: return [2];
+                    case 14:
+                        this.saveCurrentSelection();
+                        return [3, 16];
+                    case 15:
+                        err_1 = _v.sent();
+                        console.error('loadFromStorage', err_1);
+                        return [3, 16];
+                    case 16: return [2];
                 }
             });
         });
@@ -64827,87 +64888,158 @@ var ApplicationData = (function () {
         enumerable: false,
         configurable: true
     });
-    Object.defineProperty(ApplicationData.prototype, "currentSelection", {
+    Object.defineProperty(ApplicationData.prototype, "currentSelectionForm", {
         get: function () {
-            return this._currentSelection.data;
+            return this._currentSelectionForm.data;
         },
         set: function (value) {
-            this._storeSession.setItem(STORAGE_KEY_CURRENT_SELECTION, value);
+            this._storeSession.setItem(STORAGE_KEY_CURRENT_SELECTION_FORM, value);
             this._storeSession.setItem(STORAGE_KEY_VERSION, this._version);
-            this._currentSelection.data = value;
+            this._currentSelectionForm.data = value;
         },
         enumerable: false,
         configurable: true
     });
-    Object.defineProperty(ApplicationData.prototype, "currentSelectionObservable", {
+    Object.defineProperty(ApplicationData.prototype, "currentSelectionFormObservable", {
         get: function () {
-            return this._currentSelection;
+            return this._currentSelectionForm;
         },
         enumerable: false,
         configurable: true
     });
+    Object.defineProperty(ApplicationData.prototype, "currentSelectionShowWhole", {
+        get: function () {
+            return this._currentSelectionShowWhole.data;
+        },
+        set: function (value) {
+            this._storeSession.setItem(STORAGE_KEY_CURRENT_SELECTION_SHOW_WHOLE, value);
+            this._storeSession.setItem(STORAGE_KEY_VERSION, this._version);
+            this._currentSelectionShowWhole.data = value;
+        },
+        enumerable: false,
+        configurable: true
+    });
+    Object.defineProperty(ApplicationData.prototype, "currentSelectionShowWholeObservable", {
+        get: function () {
+            return this._currentSelectionShowWhole;
+        },
+        enumerable: false,
+        configurable: true
+    });
+    ApplicationData.prototype.getCurrentSelectionPartsData = function (form) {
+        var _this = this;
+        return this.getPartsList(form).map(function (part) {
+            return _this._currentSelectionParts[form][part].data;
+        });
+    };
+    ApplicationData.prototype.getCurrentSelectionPartsObservables = function (form) {
+        var _this = this;
+        return this.getPartsList(form).map(function (part) {
+            return { form: form, part: part, observable: _this._currentSelectionParts[form][part] };
+        });
+    };
+    ApplicationData.prototype.getCurrentSelectionPartData = function (form, part) {
+        return (form in this._currentSelectionParts && part in this._currentSelectionParts[form]) ? this._currentSelectionParts[form][part].data : undefined;
+    };
+    ApplicationData.prototype.getCurrentSelectionPartsFilterObservables = function (form) {
+        var _this = this;
+        return this.getPartsList(form).map(function (part) {
+            return { form: form, part: part, observable: _this._currentSelectionPartsFilter[form][part] };
+        });
+    };
+    ApplicationData.prototype.getCurrentSelectionPartFilter = function (form, part) {
+        return (form in this._currentSelectionPartsFilter && part in this._currentSelectionPartsFilter[form]) ? this._currentSelectionPartsFilter[form][part].data : undefined;
+    };
     ApplicationData.prototype.saveCurrentSelection = function () {
-        this._storeSession.setItem(STORAGE_KEY_CURRENT_SELECTION, this._currentSelection.data);
+        this._storeSession.setItem(STORAGE_KEY_CURRENT_SELECTION_FORM, this._currentSelectionForm.data);
+        this._storeSession.setItem(STORAGE_KEY_CURRENT_SELECTION_SHOW_WHOLE, this._currentSelectionShowWhole.data);
+        for (var _i = 0, _a = this.forms; _i < _a.length; _i++) {
+            var form = _a[_i];
+            for (var _b = 0, _c = this.getPartsList(form); _b < _c.length; _b++) {
+                var part = _c[_b];
+                var part_key = ApplicationData.getStorageKeyCurrentSelectionPart(form, part);
+                var part_filter_key = ApplicationData.getStorageKeyCurrentSelectionPart(form, part);
+                this._storeSession.setItem(part_key, this._currentSelectionParts[form][part].data);
+                this._storeSession.setItem(part_filter_key, this._currentSelectionPartsFilter[form][part].data);
+            }
+        }
         this._storeSession.setItem(STORAGE_KEY_VERSION, this._version);
     };
-    ApplicationData.prototype.setPartFlagName = function (part, flag_name) {
-        if (!(part in this._currentSelection.data.parts)) {
-            this._currentSelection.data.parts[part] = new CurrentSelectionPart();
-        }
-        this._currentSelection.data.parts[part].flag_name = flag_name;
-        this.saveCurrentSelection();
-        this._currentSelection.notify();
-    };
-    ApplicationData.prototype.setPartOrientation = function (part, orientation) {
-        if (!(part in this._currentSelection.data.parts)) {
-            this._currentSelection.data.parts[part] = new CurrentSelectionPart();
-        }
-        this._currentSelection.data.parts[part].orientation = orientation;
-        this.saveCurrentSelection();
-        this._currentSelection.notify();
-    };
-    ApplicationData.prototype.setPartFilter = function (part, filter) {
-        if (!(part in this._currentSelection.data.parts)) {
-            this._currentSelection.data.parts[part] = new CurrentSelectionPart();
-        }
-        this._currentSelection.data.parts[part].filter = filter;
-        this.saveCurrentSelection();
-        this._currentSelection.notify();
-    };
-    ApplicationData.prototype.setPart = function (part, flag_name, orientation) {
-        if (!(part in this._currentSelection.data.parts)) {
-            this._currentSelection.data.parts[part] = new CurrentSelectionPart();
-        }
-        this._currentSelection.data.parts[part].flag_name = flag_name;
-        this._currentSelection.data.parts[part].orientation = orientation;
-        this.saveCurrentSelection();
-        this._currentSelection.notify();
-    };
-    ApplicationData.prototype.setForm = function (form, parts_list, default_flag_name) {
-        if (default_flag_name === void 0) { default_flag_name = ''; }
-        this._currentSelection.data.form = form;
-        for (var _i = 0, parts_list_1 = parts_list; _i < parts_list_1.length; _i++) {
-            var part = parts_list_1[_i];
-            if (this._currentSelection.data.parts && !(part in this._currentSelection.data.parts)) {
-                this._currentSelection.data.parts[part] = new CurrentSelectionPart();
-                if (default_flag_name) {
-                    this._currentSelection.data.parts[part].flag_name = default_flag_name;
+    ApplicationData.prototype.initDefaultValues = function (default_flag_name) {
+        for (var _i = 0, _a = this.forms; _i < _a.length; _i++) {
+            var form = _a[_i];
+            for (var _b = 0, _c = this.getPartsList(form); _b < _c.length; _b++) {
+                var part = _c[_b];
+                if (!this._currentSelectionParts[form][part].data.flag_name) {
+                    this._currentSelectionParts[form][part] = new observer_1.DataSubject({
+                        flag_name: default_flag_name,
+                        orientation: sprite_data_1.Orientation.Vertical
+                    });
                 }
             }
         }
         this.saveCurrentSelection();
-        this._currentSelection.notify();
+    };
+    ApplicationData.prototype.setPartFlagName = function (form, part, flag_name) {
+        this._currentSelectionParts[form][part].data.flag_name = flag_name;
+        this.saveCurrentSelection();
+        this._currentSelectionParts[form][part].notify();
+    };
+    ApplicationData.prototype.setPartOrientation = function (form, part, orientation) {
+        this._currentSelectionParts[form][part].data.orientation = orientation;
+        this.saveCurrentSelection();
+        this._currentSelectionParts[form][part].notify();
+    };
+    ApplicationData.prototype.setPartFilter = function (form, part, filter) {
+        this._currentSelectionPartsFilter[form][part].data = filter;
+        this.saveCurrentSelection();
+    };
+    ApplicationData.prototype.setPart = function (form, part, flag_name, orientation) {
+        this._currentSelectionParts[form][part].data.flag_name = flag_name;
+        this._currentSelectionParts[form][part].data.orientation = orientation;
+        this.saveCurrentSelection();
+        this._currentSelectionParts[form][part].notify();
+    };
+    ApplicationData.prototype.setForm = function (form, parts_list, default_flag_name) {
+        if (default_flag_name === void 0) { default_flag_name = ''; }
+        this._currentSelectionForm.data = form;
+        this.saveCurrentSelection();
     };
     ApplicationData.prototype.setShowWhole = function (value) {
-        this._currentSelection.data.show_whole = value;
+        this._currentSelectionShowWhole.data = value;
         this.saveCurrentSelection();
-        this._currentSelection.notify();
     };
+    ApplicationData.prototype.getPartsList = function (form) {
+        return (hasProperty(site_1.site.data.flags_config, form)) ? getUnsafeProperty(site_1.site.data.flags_config, form).parts : [];
+    };
+    Object.defineProperty(ApplicationData.prototype, "forms", {
+        get: function () {
+            return site_1.site.data.flags_config.forms;
+        },
+        enumerable: false,
+        configurable: true
+    });
     return ApplicationData;
 }());
 exports.ApplicationData = ApplicationData;
+function hasProperty(obj, key) {
+    return key in obj;
+}
+exports.hasProperty = hasProperty;
+function getUnsafeProperty(obj, key) {
+    return key in obj ? obj[key] : undefined;
+}
+exports.getUnsafeProperty = getUnsafeProperty;
+function getProperty(obj, key) {
+    return obj[key];
+}
+exports.getProperty = getProperty;
+function setProperty(obj, key, value) {
+    obj[key] = value;
+}
+exports.setProperty = setProperty;
 
-},{"../observer":88,"../site":89,"./sprite.data":84,"localforage":60}],84:[function(require,module,exports){
+},{"../observer":87,"../site":88,"./sprite.data":84,"localforage":60}],84:[function(require,module,exports){
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.Orientation = void 0;
@@ -64918,98 +65050,6 @@ var Orientation;
 })(Orientation = exports.Orientation || (exports.Orientation = {}));
 
 },{}],85:[function(require,module,exports){
-"use strict";
-var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
-    function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
-    return new (P || (P = Promise))(function (resolve, reject) {
-        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }
-        function rejected(value) { try { step(generator["throw"](value)); } catch (e) { reject(e); } }
-        function step(result) { result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected); }
-        step((generator = generator.apply(thisArg, _arguments || [])).next());
-    });
-};
-var __generator = (this && this.__generator) || function (thisArg, body) {
-    var _ = { label: 0, sent: function() { if (t[0] & 1) throw t[1]; return t[1]; }, trys: [], ops: [] }, f, y, t, g;
-    return g = { next: verb(0), "throw": verb(1), "return": verb(2) }, typeof Symbol === "function" && (g[Symbol.iterator] = function() { return this; }), g;
-    function verb(n) { return function (v) { return step([n, v]); }; }
-    function step(op) {
-        if (f) throw new TypeError("Generator is already executing.");
-        while (_) try {
-            if (f = 1, y && (t = op[0] & 2 ? y["return"] : op[0] ? y["throw"] || ((t = y["return"]) && t.call(y), 0) : y.next) && !(t = t.call(y, op[1])).done) return t;
-            if (y = 0, t) op = [op[0] & 2, t.value];
-            switch (op[0]) {
-                case 0: case 1: t = op; break;
-                case 4: _.label++; return { value: op[1], done: false };
-                case 5: _.label++; y = op[1]; op = [0]; continue;
-                case 7: op = _.ops.pop(); _.trys.pop(); continue;
-                default:
-                    if (!(t = _.trys, t = t.length > 0 && t[t.length - 1]) && (op[0] === 6 || op[0] === 2)) { _ = 0; continue; }
-                    if (op[0] === 3 && (!t || (op[1] > t[0] && op[1] < t[3]))) { _.label = op[1]; break; }
-                    if (op[0] === 6 && _.label < t[1]) { _.label = t[1]; t = op; break; }
-                    if (t && _.label < t[2]) { _.label = t[2]; _.ops.push(op); break; }
-                    if (t[2]) _.ops.pop();
-                    _.trys.pop(); continue;
-            }
-            op = body.call(thisArg, _);
-        } catch (e) { op = [6, e]; y = 0; } finally { f = t = 0; }
-        if (op[0] & 5) throw op[1]; return { value: op[0] ? op[1] : void 0, done: true };
-    }
-};
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.FlagInfoAdapter = void 0;
-var typescript_logger_1 = require("typescript-logger");
-var site_1 = require("./site");
-var FlagInfoAdapter = (function () {
-    function FlagInfoAdapter(appData) {
-        this.log = typescript_logger_1.LoggerManager.create('FlagWikiAdapter');
-        this._appData = appData;
-    }
-    FlagInfoAdapter.prototype.init = function () {
-        this.updateFlagInfos(this._appData.lastFlag);
-        this.initObservers();
-    };
-    FlagInfoAdapter.prototype.initObservers = function () {
-        var that = this;
-        this._appData.lastFlagObservable.attach(new (function () {
-            function class_1() {
-            }
-            class_1.prototype.update = function (subject) {
-                var flag_name = subject.data;
-                that.updateFlagInfos(flag_name);
-            };
-            return class_1;
-        }()));
-    };
-    FlagInfoAdapter.prototype.updateFlagInfos = function (flag_name) {
-        var _a, _b;
-        return __awaiter(this, void 0, void 0, function () {
-            var flag_info;
-            return __generator(this, function (_c) {
-                flag_info = site_1.site.data.flags_info.find(function (it) { return it.name === flag_name; });
-                this.log.debug('updateFlagInfos', flag_name, flag_info);
-                if (flag_info === null || flag_info === void 0 ? void 0 : flag_info.img) {
-                    $('#flagInfoImage').attr('src', flag_info.img);
-                }
-                else {
-                    $('#flagInfoImage').attr('src', site_1.site.data.strings.flag_info.unknown.img);
-                }
-                $('#flagInfoTitle').html((_a = flag_info === null || flag_info === void 0 ? void 0 : flag_info.name) !== null && _a !== void 0 ? _a : site_1.site.data.strings.flag_info.unknown.title);
-                $('#flagInfoDescription').html((_b = flag_info === null || flag_info === void 0 ? void 0 : flag_info.description) !== null && _b !== void 0 ? _b : site_1.site.data.strings.flag_info.unknown.description);
-                if (flag_info === null || flag_info === void 0 ? void 0 : flag_info.link) {
-                    $('#flagInfoLink').attr('href', flag_info.link).html(site_1.site.data.strings.flag_info.source_label);
-                }
-                else {
-                    $('#flagInfoLink').attr('href', '#').html('');
-                }
-                return [2];
-            });
-        });
-    };
-    return FlagInfoAdapter;
-}());
-exports.FlagInfoAdapter = FlagInfoAdapter;
-
-},{"./site":89,"typescript-logger":76}],86:[function(require,module,exports){
 "use strict";
 var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
     function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
@@ -65059,107 +65099,72 @@ var typescript_logger_1 = require("typescript-logger");
 var site_value_1 = require("./site.value");
 var list_js_1 = __importDefault(require("list.js"));
 require("select2");
-var sprites_data_helper_1 = require("./sprites.data.helper");
 var SELECTABLE_PARTS_LIST_ITEMS_PER_PAGE = 8;
 var FormPartsAdapter = (function () {
-    function FormPartsAdapter(appData) {
+    function FormPartsAdapter(appData, _sprite_data_helper) {
         this._parts_lists = {};
-        this._last_values = new LastSelectedValues();
-        this._sprite_data_helper = new sprites_data_helper_1.SpriteDataHelper();
         this.log = typescript_logger_1.LoggerManager.create('FormPartsAdapter');
         this._appData = appData;
+        this._sprite_data_helper = _sprite_data_helper;
     }
-    FormPartsAdapter.prototype.initDefaultValues = function () {
-        var _this = this;
-        return this._sprite_data_helper.setup(this.current_form, this.parts_list).then(function () {
-            for (var _i = 0, _a = _this.parts_list; _i < _a.length; _i++) {
-                var part = _a[_i];
-                if (!(part in _this.currentSelection.parts) || !_this.currentSelection.parts[part].flag_name) {
-                    _this.currentSelection.parts[part] = new application_data_1.CurrentSelectionPart();
-                    _this.currentSelection.parts[part].filter = application_data_1.ALL_FILTER;
-                    _this.currentSelection.parts[part].flag_name = _this._sprite_data_helper.getDefaultFlagName(_this.current_form);
-                    _this.currentSelection.parts[part].orientation = sprite_data_1.Orientation.Vertical;
-                }
-            }
-            _this._appData.saveCurrentSelection();
-        });
-    };
     FormPartsAdapter.prototype.init = function () {
-        var _this = this;
         this.initObservers();
-        if (!this.current_form && site_1.site.data.flags_config.forms.length > 0) {
-            var form_1 = site_1.site.data.flags_config.forms[0];
-            this.initDefaultValues().then(function () {
-                _this._appData.setForm(form_1, _this.parts_list, _this._sprite_data_helper.getDefaultFlagName(form_1));
-            });
-        }
-        else {
-            this.initDefaultValues().then(function () {
-                _this.updateUI();
-            });
-        }
+        this.updateUI();
     };
-    FormPartsAdapter.prototype.updateLastValues = function (value) {
-        var _a;
-        return __awaiter(this, void 0, void 0, function () {
-            var _i, _b, part;
-            return __generator(this, function (_c) {
-                this._last_values.form = value.form;
-                this._last_values.show_whole = value.show_whole;
-                for (_i = 0, _b = this.parts_list; _i < _b.length; _i++) {
-                    part = _b[_i];
-                    this._last_values.parts[part] = {
-                        filter: (_a = value.parts[part].filter) !== null && _a !== void 0 ? _a : application_data_1.ALL_FILTER,
-                        flag_name: value.parts[part].flag_name,
-                        orientation: value.parts[part].orientation
-                    };
-                }
-                return [2];
-            });
-        });
-    };
-    ;
     FormPartsAdapter.prototype.initObservers = function () {
         var that = this;
-        this._appData.currentSelectionObservable.attach(new (function () {
+        this._appData.currentSelectionFormObservable.attach(new (function () {
             function class_1() {
             }
             class_1.prototype.update = function (subject) {
-                var new_form = subject.data.form;
-                var old_form = that._last_values.form;
-                if (old_form !== new_form) {
-                    that._last_values.clear();
-                    that.initDefaultValues().then(function () {
-                        that.updateUI().then(function () { return that.updateLastValues(subject.data); });
-                    });
-                }
-                else {
-                    that.parts_list.map(function (part) {
-                        return new Promise(function (resolve, reject) {
-                            var _a;
-                            var new_filter = (part in subject.data.parts) ? subject.data.parts[part].filter : undefined;
-                            var new_flag_name = (part in subject.data.parts) ? subject.data.parts[part].flag_name : undefined;
-                            var new_orientation = (part in subject.data.parts) ? subject.data.parts[part].orientation : undefined;
-                            var new_show_whole = subject.data.show_whole;
-                            var old_filter = (part in that._last_values.parts) ? that._last_values.parts[part].filter : undefined;
-                            var old_flag_name = (part in that._last_values.parts) ? that._last_values.parts[part].flag_name : undefined;
-                            var old_orientation = (part in that._last_values.parts) ? that._last_values.parts[part].orientation : undefined;
-                            var old_show_whole = that._last_values.show_whole;
-                            if (old_filter !== new_filter) {
-                                that.updateFilter(part, subject.data.parts[part].filter);
-                            }
-                            if (old_flag_name !== new_flag_name || old_orientation !== new_orientation) {
-                                that.updateSelectedPartUI(old_form, part);
-                            }
-                            if (old_flag_name !== new_flag_name || old_orientation !== new_orientation || old_show_whole !== new_show_whole) {
-                                (_a = that._parts_lists[part]) === null || _a === void 0 ? void 0 : _a.update();
-                            }
-                            resolve(that.updateLastValues(subject.data));
-                        });
-                    });
-                }
+                that.updateUI();
             };
             return class_1;
+        }()));
+        for (var _i = 0, _a = this._appData.forms; _i < _a.length; _i++) {
+            var form = _a[_i];
+            this._appData.getCurrentSelectionPartsFilterObservables(form).forEach(function (obs) {
+                var form = obs.form;
+                var part = obs.part;
+                var observable = obs.observable;
+                observable.attach(new (function () {
+                    function class_2() {
+                    }
+                    class_2.prototype.update = function (subject) {
+                        if (that.current_form === form) {
+                            that.updateFilter(part, subject.data);
+                        }
+                    };
+                    return class_2;
+                }()));
+            });
+            this._appData.getCurrentSelectionPartsObservables(form).forEach(function (obs) {
+                var form = obs.form;
+                var part = obs.part;
+                var observable = obs.observable;
+                observable.attach(new (function () {
+                    function class_3() {
+                    }
+                    class_3.prototype.update = function (subject) {
+                        var _a;
+                        that.updateSelectedPartUI(form, part);
+                        if (that.current_form === form) {
+                            (_a = that._parts_lists[part]) === null || _a === void 0 ? void 0 : _a.update();
+                        }
+                    };
+                    return class_3;
+                }()));
+            });
+        }
+        this._appData.currentSelectionShowWholeObservable.attach(new (function () {
+            function class_4() {
+            }
+            class_4.prototype.update = function (subject) {
+                var _a;
+                var part = application_data_1.WHOLE_PART;
+                (_a = that._parts_lists[part]) === null || _a === void 0 ? void 0 : _a.update();
+            };
+            return class_4;
         }()));
     };
     FormPartsAdapter.prototype.updateUI = function () {
@@ -65178,23 +65183,9 @@ var FormPartsAdapter = (function () {
         }
         (_a = this._parts_lists[part]) === null || _a === void 0 ? void 0 : _a.update();
     };
-    Object.defineProperty(FormPartsAdapter.prototype, "currentSelection", {
-        get: function () {
-            return this._appData.currentSelection;
-        },
-        enumerable: false,
-        configurable: true
-    });
     Object.defineProperty(FormPartsAdapter.prototype, "current_form", {
         get: function () {
-            return this._appData.currentSelection.form;
-        },
-        enumerable: false,
-        configurable: true
-    });
-    Object.defineProperty(FormPartsAdapter.prototype, "parts_list", {
-        get: function () {
-            return (FormPartsAdapter.hasProperty(site_1.site.data.flags_config, this.current_form)) ? FormPartsAdapter.getUnsafeProperty(site_1.site.data.flags_config, this.current_form).parts : [];
+            return this._appData.currentSelectionForm;
         },
         enumerable: false,
         configurable: true
@@ -65203,6 +65194,13 @@ var FormPartsAdapter = (function () {
         get: function () {
             var ret = [application_data_1.ALL_FILTER];
             return ret.concat(site_1.site.data.flags_config.categories);
+        },
+        enumerable: false,
+        configurable: true
+    });
+    Object.defineProperty(FormPartsAdapter.prototype, "parts_list", {
+        get: function () {
+            return this._appData.getPartsList(this.current_form);
         },
         enumerable: false,
         configurable: true
@@ -65235,18 +65233,20 @@ var FormPartsAdapter = (function () {
         });
     };
     FormPartsAdapter.prototype.getCurrentSelectedSprite = function (form, part) {
-        var flag_name = this.getSelectedFlagName(part);
-        var orientation = this.getSelectedOrientation(part);
+        var flag_name = this.getSelectedFlagName(form, part);
+        var orientation = this.getSelectedOrientation(form, part);
         return (flag_name !== undefined && orientation !== undefined) ? this._sprite_data_helper.getSelectableSprite(form, part, flag_name, orientation) : undefined;
     };
-    FormPartsAdapter.prototype.getSelectedOrientation = function (part) {
-        return (part in this.currentSelection.parts) ? this.currentSelection.parts[part].orientation : undefined;
+    FormPartsAdapter.prototype.getSelectedOrientation = function (form, part) {
+        var _a;
+        return (_a = this._appData.getCurrentSelectionPartData(form, part)) === null || _a === void 0 ? void 0 : _a.orientation;
     };
-    FormPartsAdapter.prototype.getSelectedFlagName = function (part) {
-        return (part in this.currentSelection.parts) ? this.currentSelection.parts[part].flag_name : undefined;
+    FormPartsAdapter.prototype.getSelectedFlagName = function (form, part) {
+        var _a;
+        return (_a = this._appData.getCurrentSelectionPartData(form, part)) === null || _a === void 0 ? void 0 : _a.flag_name;
     };
-    FormPartsAdapter.prototype.getSelectedFilter = function (part) {
-        return (part in this.currentSelection.parts) ? this.currentSelection.parts[part].filter : undefined;
+    FormPartsAdapter.prototype.getSelectedFilter = function (form, part) {
+        return this._appData.getCurrentSelectionPartFilter(form, part);
     };
     FormPartsAdapter.prototype.updateUISetForm = function () {
         return __awaiter(this, void 0, void 0, function () {
@@ -65256,7 +65256,7 @@ var FormPartsAdapter = (function () {
                 for (_i = 0, _a = site_1.site.data.flags_config.forms; _i < _a.length; _i++) {
                     form = _a[_i];
                     form_name = site_1.site.data.strings.select_form[form];
-                    active = (this.currentSelection.form == form) ? 'active' : '';
+                    active = (this.current_form == form) ? 'active' : '';
                     btn = "<button type=\"button\" class=\"list-group-item " + active + "\" data-form=\"" + form + "\">\n                " + form_name + "\n            </button>";
                     $('#lstSelectForm').append(btn);
                 }
@@ -65313,7 +65313,7 @@ var FormPartsAdapter = (function () {
             var current_part = (sprite_data !== undefined) ? this.getSelectedPartHTML(form, part, sprite_data) : '';
             var partSettings = '';
             if (part == application_data_1.WHOLE_PART) {
-                partSettings = "<div class=\"form-check form-check-inline\">\n                    <input class=\"form-check-input\" type=\"checkbox\" id=\"chbShowWholePart\" value=\"" + this.currentSelection.show_whole + "\">\n                    <label class=\"form-check-label\" for=\"chbShowWholePart\">" + site_1.site.data.strings.parts_list.show_whole_label + "</label>\n                </div>";
+                partSettings = "<div class=\"form-check form-check-inline\">\n                    <input class=\"form-check-input\" type=\"checkbox\" id=\"chbShowWholePart\" value=\"" + this._appData.currentSelectionShowWhole + "\">\n                    <label class=\"form-check-label\" for=\"chbShowWholePart\">" + site_1.site.data.strings.parts_list.show_whole_label + "</label>\n                </div>";
             }
             var filters_id = FormPartsAdapter.getSelectFilterId(form, part);
             var filters = "<select class=\"custom-select\" id=\"" + filters_id + "\" data-placeholder=\"" + site_1.site.data.strings.parts_list.filter_label + "\" data-form=\"" + form + "\" data-part=\"" + part + "\">";
@@ -65321,7 +65321,7 @@ var FormPartsAdapter = (function () {
                 var filter = _d[_c];
                 var filter_label = site_1.site.data.strings.select_filter[filter];
                 if (filter_label) {
-                    var filter_selected = (this.getSelectedFilter(part) == filter) ? 'selected' : '';
+                    var filter_selected = (this.getSelectedFilter(form, part) == filter) ? 'selected' : '';
                     var filter_option = "<option " + filter_selected + "\" data-form=\"" + form + "\" data-part=\"" + part + "\" data-filter=\"" + filter + "\" value=\"" + filter + "\">\n                        " + filter_label + "\n                    </option>";
                     filters += filter_option;
                 }
@@ -65350,8 +65350,8 @@ var FormPartsAdapter = (function () {
         var disabled = '';
         var aria_disabled = '';
         if (part == application_data_1.WHOLE_PART) {
-            disabled = (!this.currentSelection.show_whole) ? 'disabled' : '';
-            aria_disabled = (!this.currentSelection.show_whole) ? 'aria-disabled="true"' : '';
+            disabled = (!this._appData.currentSelectionShowWhole) ? 'disabled' : '';
+            aria_disabled = (!this._appData.currentSelectionShowWhole) ? 'aria-disabled="true"' : '';
         }
         return "<li class=\"list-group-item current-selected-part active form part flag_name " + disabled + "\" " + aria_disabled + " data-form=\"" + form + "\" data-part=\"" + part + "\" data-flag-name=\"" + flag_name + "\" data-orientation=\"" + orientation + "\" id=\"" + id + "\">\n            <div class=\"row no-gutters\">\n                <div class=\"col-9 mx-2 my-auto text-left\"><span class=\"name\">" + flag_name + "</span></div>\n                <div class=\"col-1 mx-2 my-auto float-right text-right\"><span class=\"orientation_icon\">" + orientationIcon + "</span></div>\n            </div>\n        </li>";
     };
@@ -65422,16 +65422,16 @@ var FormPartsAdapter = (function () {
     FormPartsAdapter.prototype.initEventSetParts = function () {
         var that = this;
         var _loop_1 = function (part) {
-            var form = this_1.current_form;
             this_1._parts_lists[part].on('updated', function (list) {
-                var selected_flag_name = that.getSelectedFlagName(part);
+                var form = that.current_form;
+                var selected_flag_name = that.getSelectedFlagName(form, part);
                 list.items.forEach(function (it, index) {
                     var item = it.values();
                     var flag_name = item.flag_name;
                     var item_element = $(list.list).find("[data-index=\"" + index + "\"]");
                     item_element.removeAttr('data-flag_name');
                     item_element.data('flag-name', flag_name);
-                    var disable = part === application_data_1.WHOLE_PART && !that.currentSelection.show_whole;
+                    var disable = part === application_data_1.WHOLE_PART && !that._appData.currentSelectionShowWhole;
                     item_element.attr('aria-disabled', disable.toString());
                     item_element.prop('disabled', disable);
                     item_element.removeClass('active');
@@ -65449,9 +65449,9 @@ var FormPartsAdapter = (function () {
                         var selectable_flags = that._sprite_data_helper.getSelectableSpritesFlag(form, part, flag_name).filter(function (it) { return it.flags_fits; });
                         var selectable_flag_horizontal = selectable_flags.find(function (it) { return it.orientation == sprite_data_1.Orientation.Horizontal; });
                         var selectable_flag_vertical = selectable_flags.find(function (it) { return it.orientation == sprite_data_1.Orientation.Vertical; });
-                        var orientation = (_a = that.getSelectedOrientation(part)) !== null && _a !== void 0 ? _a : sprite_data_1.Orientation.Vertical;
+                        var orientation = (_a = that.getSelectedOrientation(form, part)) !== null && _a !== void 0 ? _a : sprite_data_1.Orientation.Vertical;
                         var new_orientation = orientation;
-                        if (that.getSelectedFlagName(part) !== flag_name) {
+                        if (that.getSelectedFlagName(form, part) !== flag_name) {
                             if (selectable_flag_horizontal && orientation === sprite_data_1.Orientation.Horizontal) {
                                 new_orientation = sprite_data_1.Orientation.Horizontal;
                             }
@@ -65464,7 +65464,7 @@ var FormPartsAdapter = (function () {
                             else if (selectable_flag_vertical) {
                                 new_orientation = sprite_data_1.Orientation.Vertical;
                             }
-                            that._appData.setPart(part, flag_name, new_orientation);
+                            that._appData.setPart(form, part, flag_name, new_orientation);
                         }
                         else {
                             if (selectable_flag_horizontal && orientation === sprite_data_1.Orientation.Vertical) {
@@ -65480,20 +65480,21 @@ var FormPartsAdapter = (function () {
                                 new_orientation = sprite_data_1.Orientation.Vertical;
                             }
                             if (orientation !== new_orientation) {
-                                that._appData.setPart(part, flag_name, new_orientation);
+                                that._appData.setPart(form, part, flag_name, new_orientation);
                             }
                         }
+                        that._appData.lastFlag = flag_name;
                     });
                 });
             });
-            $('#' + FormPartsAdapter.getSelectFilterId(form, part)).select2({
+            $('#' + FormPartsAdapter.getSelectFilterId(this_1.current_form, part)).select2({
                 theme: "bootstrap4"
             }).off('select2:select').on('select2:select', function () {
                 var _a;
                 var part = $(this).data('part');
                 var filter = (_a = $(this).val()) !== null && _a !== void 0 ? _a : application_data_1.ALL_FILTER;
                 that.log.debug('select filter', part, $(this).val());
-                that._appData.setPartFilter(part, filter);
+                that._appData.setPartFilter(that.current_form, part, filter);
             });
         };
         var this_1 = this;
@@ -65506,37 +65507,12 @@ var FormPartsAdapter = (function () {
             that._appData.setShowWhole(value);
         });
     };
-    FormPartsAdapter.hasProperty = function (obj, key) {
-        return key in obj;
-    };
-    FormPartsAdapter.getUnsafeProperty = function (obj, key) {
-        return key in obj ? obj[key] : undefined;
-    };
-    FormPartsAdapter.getProperty = function (obj, key) {
-        return obj[key];
-    };
-    FormPartsAdapter.setProperty = function (obj, key, value) {
-        obj[key] = value;
-    };
     return FormPartsAdapter;
 }());
 exports.FormPartsAdapter = FormPartsAdapter;
 ;
-var LastSelectedValues = (function () {
-    function LastSelectedValues() {
-        this.form = undefined;
-        this.show_whole = undefined;
-        this.parts = {};
-    }
-    LastSelectedValues.prototype.clear = function () {
-        this.form = undefined;
-        this.parts = {};
-        this.show_whole = undefined;
-    };
-    return LastSelectedValues;
-}());
 
-},{"./data/application.data":83,"./data/sprite.data":84,"./site":89,"./site.value":90,"./sprites.data.helper":92,"list.js":44,"select2":72,"typescript-logger":76}],87:[function(require,module,exports){
+},{"./data/application.data":83,"./data/sprite.data":84,"./site":88,"./site.value":89,"list.js":44,"select2":72,"typescript-logger":76}],86:[function(require,module,exports){
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 require("./site");
@@ -65550,7 +65526,7 @@ $(function () {
     app.init();
 });
 
-},{"./application":82,"./site":89,"typescript-logger":76}],88:[function(require,module,exports){
+},{"./application":82,"./site":88,"typescript-logger":76}],87:[function(require,module,exports){
 "use strict";
 var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
     function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
@@ -65805,7 +65781,7 @@ var DataListSubject = (function () {
 }());
 exports.DataListSubject = DataListSubject;
 
-},{"typescript-logger":76}],89:[function(require,module,exports){
+},{"typescript-logger":76}],88:[function(require,module,exports){
 'use strict';
 String.prototype.format = function () {
     var args = arguments;
@@ -65889,7 +65865,7 @@ module.exports = {
     clamp: clamp
 };
 
-},{}],90:[function(require,module,exports){
+},{}],89:[function(require,module,exports){
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.LIST_JS_PAGINATION = exports.PAGINATION_CLASS = void 0;
@@ -65903,7 +65879,7 @@ exports.LIST_JS_PAGINATION = [{
     }];
 ;
 
-},{}],91:[function(require,module,exports){
+},{}],90:[function(require,module,exports){
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.SpriteAdapter = void 0;
@@ -65925,10 +65901,10 @@ var SpriteAdapter = (function () {
         this._downloadButton = downloadButton;
         this._downloadFullButton = downloadFullButton;
     }
-    SpriteAdapter.prototype.init = function (resources) {
+    SpriteAdapter.prototype.init = function (form, resources) {
         var _this = this;
         this._resources = resources;
-        this.updateParts();
+        this.updateParts(form);
         this._grid = new PixiJSGrid(this._parts_container.width);
         this._pixiApp.stage.addChild(this._parts_container);
         this._pixiApp.stage.addChild(this._grid);
@@ -65949,13 +65925,26 @@ var SpriteAdapter = (function () {
         this.updateSprite();
         this.initObservers();
     };
-    SpriteAdapter.prototype.updateParts = function () {
+    SpriteAdapter.prototype.updatePart = function (form, part, part_data) {
+        var _a, _b;
+        this.setPart(form, (_a = part_data.flag_name) !== null && _a !== void 0 ? _a : 'None', part, (_b = part_data.orientation) !== null && _b !== void 0 ? _b : sprite_data_1.Orientation.Vertical, false);
+        this.updateSprite();
+        this.updateDownloadButton();
+    };
+    SpriteAdapter.prototype.updateParts = function (form) {
         var _a, _b;
         this._parts_container.removeChildren();
-        for (var part in this._appData.currentSelection.parts) {
-            this.setPart(this._appData.currentSelection.form, (_a = this._appData.currentSelection.parts[part].flag_name) !== null && _a !== void 0 ? _a : 'None', part, (_b = this._appData.currentSelection.parts[part].orientation) !== null && _b !== void 0 ? _b : sprite_data_1.Orientation.Vertical, false);
-            if (part in this._sprites && (part !== application_data_1.WHOLE_PART && !this._appData.currentSelection.show_whole) || (part == application_data_1.WHOLE_PART && this._appData.currentSelection.show_whole)) {
-                this._parts_container.addChild(this._sprites[part]);
+        for (var _i = 0, _c = this._appData.getPartsList(form); _i < _c.length; _i++) {
+            var part = _c[_i];
+            var part_data = this._appData.getCurrentSelectionPartData(form, part);
+            if (part_data !== undefined) {
+                this.setPart(form, (_a = part_data.flag_name) !== null && _a !== void 0 ? _a : 'None', part, (_b = part_data.orientation) !== null && _b !== void 0 ? _b : sprite_data_1.Orientation.Vertical, false);
+                if (part in this._sprites && (part !== application_data_1.WHOLE_PART && !this._appData.currentSelectionShowWhole) || (part == application_data_1.WHOLE_PART && this._appData.currentSelectionShowWhole)) {
+                    this._parts_container.addChild(this._sprites[part]);
+                }
+            }
+            else {
+                this.log.warn('updateParts', "no sprite data for " + part);
             }
         }
         this.updateSprite();
@@ -65965,7 +65954,7 @@ var SpriteAdapter = (function () {
         var _this = this;
         this._pixiApp.renderer.extract.canvas(this._parts_container).toBlob(function (b) {
             if (_this._downloadButton) {
-                var form = _this._appData.currentSelection.form;
+                var form = _this._appData.currentSelectionForm;
                 var aDownload = $(_this._downloadButton);
                 aDownload.attr('download', form);
                 aDownload.attr('href', URL.createObjectURL(b));
@@ -65973,7 +65962,7 @@ var SpriteAdapter = (function () {
         }, 'image/png');
         this._pixiApp.renderer.extract.canvas(this._pixiApp.stage).toBlob(function (b) {
             if (_this._downloadFullButton) {
-                var form = _this._appData.currentSelection.form;
+                var form = _this._appData.currentSelectionForm;
                 var aDownload = $(_this._downloadFullButton);
                 aDownload.attr('download', form);
                 aDownload.attr('href', URL.createObjectURL(b));
@@ -66044,7 +66033,7 @@ var SpriteAdapter = (function () {
 }());
 exports.SpriteAdapter = SpriteAdapter;
 
-},{"./data/application.data":83,"./data/sprite.data":84,"./site":89,"pixi.js":65,"typescript-logger":76}],92:[function(require,module,exports){
+},{"./data/application.data":83,"./data/sprite.data":84,"./site":88,"pixi.js":65,"typescript-logger":76}],91:[function(require,module,exports){
 "use strict";
 var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
@@ -66196,5 +66185,5 @@ var SpriteDataHelper = (function () {
 }());
 exports.SpriteDataHelper = SpriteDataHelper;
 
-},{"./data/sprite.data":84,"./site":89,"memory-cache":61}]},{},[87])
+},{"./data/sprite.data":84,"./site":88,"memory-cache":61}]},{},[86])
 //# sourceMappingURL=bundle.js.map

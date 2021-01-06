@@ -8,7 +8,6 @@ interface FlagConfigColorsPart extends FlagConfigColors {
     triangle?: FlagConfigColors;
 }
 
-export type Forms = 'paw';
 export type PawParts = 'left_part_1' | 'left_part_2' | 'right_part_1' | 'right_part_2' | 'center';
 
 export interface BaseFlagConfig {
@@ -25,7 +24,7 @@ export interface PawFlagConfig extends BaseFlagConfig, Record<PawParts, FlagConf
 
 export interface FlagsConfigData {
     categories: string[];
-    forms: Forms[];
+    forms: string[];
     transparent_colors: string[];
 
     paw: PawFlagConfig;

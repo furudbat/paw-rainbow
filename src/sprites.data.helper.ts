@@ -1,4 +1,5 @@
 import cache from 'memory-cache';
+import { AnyFlagConfig } from './data/flag-config.data';
 import { FlagData } from './data/flag.data';
 import { Orientation, SpriteData } from './data/sprite.data';
 import { site } from './site';
@@ -124,7 +125,6 @@ export class SpriteDataHelper {
         }
         return ret;
     }
-
 
     private warmUpCache(form: string, parts: string[]) {
         let promises = parts.map(part => {
