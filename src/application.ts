@@ -42,6 +42,9 @@ export class Application {
         Promise.all(this._appData.forms.map( form => {
             return this._sprite_data_helper.setup(form, this._appData.getPartsList(form));
         })).then(() => {
+            for (const form of this._appData.forms) {
+                this._appData.initDefaultValues(form, this._sprite_data_helper.getDefaultFlagName(form));
+            }
             this.initForm();
             this.initCanvas();
         });
@@ -115,8 +118,8 @@ export class Application {
 
     private async initFlagList() {
         const options: any /*List.ListOptions*/ = {
-            valueNames: [ 'flag_name' ],
-            page: 6,
+            valueNames: [ 'flag_info_image', 'flag_info_name', 'flag_info_description' ],
+            page: 8,
             pagination: LIST_JS_PAGINATION
         };
         const id = 'lstFlagInfo';

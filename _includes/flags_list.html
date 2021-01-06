@@ -1,23 +1,35 @@
 <div class="row mt-5">
-    <div class="col-4">
-        <div class="list-group list" id="lstFlagInfo" role="tablist">
+    <div class="col-4" id="lstFlagInfo">
+        <div class="input-group">
+            <div class="input-group-prepend">
+                <span class="input-group-text" id="searchHelpFlagInfo"><i class="fas fa-search d-inline"></i></span>
+            </div>
+            <input type="text" class="form-control fuzzy-search" id="searchFlagInfo" aria-label="{{site.data.strings.flag_info.search_label}}" aria-describedby="searchHelpFlagInfo" placeholder="{{site.data.strings.flag_info.search_label}}">
+        </div>
+
+        <div class="list-group list" role="tablist">
         {% for flag_info in site.data.flags_info %}
             {% assign id = flag_info.name | downcase | replace " ", "_" | replace "'", "" | replace "+", "" %}
             <a class="list-group-item list-group-item-action flag_name" id="list-{{- id -}}-list" data-toggle="list"
                 href="#list-{{- id -}}" role="tab" aria-controls="{{- id -}}">{{ flag_info.name }}</a>
         {% endfor %}
         </div>
+
+        <nav class="my-2" aria-label="{{site.data.strings.flag_info.pagination_label}}">
+            <ul class="pagination paginationBottom justify-content-center">
+            </ul>
+        </nav>
     </div>
     <div class="col-8">
         <div class="tab-content" id="nav-tabContent">
         {% for flag_info in site.data.flags_info %}
             {% assign id = flag_info.name | downcase | replace " ", "_" | replace "'", "" | replace "+", "" %}
             <div class="tab-pane fade" id="list-{{- id -}}" role="tabpanel" aria-labelledby="list-{{- id -}}-list">
-                <div class="d-block mx-auto"><img src="{{- flag_info.img -}}" class="card-img-top flag-info-image" alt="{{ flag_info.name }} flag image"></div>
+                <div class="d-block mx-auto"><img src="{{- flag_info.img -}}" class="card-img-top flag-info-image flag_info_image" alt="{{ flag_info.name }} flag image"></div>
                 <div class="card-body flag-info-body">
-                    <h5 class="card-title flag-info-name">{{ flag_info.name }}</h5>
-                    <p class="card-text flag-info-descroption">{{ flag_info.description }}</p>
-                    <a href="{{- flag_info.link -}}" class="card-link" target="_blank" rel="noopener noreferrer"></a>
+                    <h5 class="card-title flag_info_name">{{ flag_info.name }}</h5>
+                    <p class="card-text flag_info_description">{{ flag_info.description }}</p>
+                    <a href="{{- flag_info.link -}}" class="card-link flag_info_link" target="_blank" rel="noopener noreferrer"></a>
                 </div>
             </div>
         {% endfor %}

@@ -3,7 +3,6 @@ import { Orientation, SpriteData } from "./data/sprite.data";
 import { site } from "./site";
 import { LoggerManager } from 'typescript-logger';
 import { DataObserver, DataSubject } from './observer';
-import { AnyFlagConfig } from './data/flag-config.data';
 import { FlagData } from "./data/flag.data";
 import { LIST_JS_PAGINATION, PAGINATION_CLASS } from "./site.value";
 import List from 'list.js';
@@ -16,6 +15,7 @@ export class FormPartsAdapter {
     private _appData: ApplicationData;
     private _parts_lists: Record<string, List> = {};
     private _sprite_data_helper: SpriteDataHelper;
+    private _fallbackSetFormEnableButton: number | undefined = undefined;
 
     private log = LoggerManager.create('FormPartsAdapter');
 
@@ -34,6 +34,12 @@ export class FormPartsAdapter {
         this._appData.currentSelectionFormObservable.attach(new class implements DataObserver<string>{
             update(subject: DataSubject<string>): void {
                 that.updateUI();
+                $(this).prop('disabled', false);
+
+                if (that._fallbackSetFormEnableButton) {
+                    window.clearTimeout(that._fallbackSetFormEnableButton);
+                    that._fallbackSetFormEnableButton = undefined;
+                }
             }
         });
 
@@ -257,7 +263,7 @@ export class FormPartsAdapter {
                                 <div class="input-group-prepend">
                                     <span class="input-group-text" id="searchHelp${id}"><i class="fas fa-search d-inline"></i></span>
                                 </div>
-                                <input type="text" class="form-control fuzzy-search" aria-label="${site.data.strings.parts_list.search_label}" aria-describedby="searchHelp${id}" placeholder="${site.data.strings.parts_list.search_label}">
+                                <input type="text" class="form-control fuzzy-search" id="search${id}" aria-label="${site.data.strings.parts_list.search_label}" aria-describedby="searchHelp${id}" placeholder="${site.data.strings.parts_list.search_label}">
                             </div>
                         </div>
                     </div>
@@ -404,11 +410,18 @@ export class FormPartsAdapter {
         var that = this;
         $('#lstSelectForm').find('.list-group-item').off('click').on('click', function () {
             const form = $(this).data('form');
-            $(this).prop('disabled', true);
+            if (that.current_form !== form) {
+                $(this).prop('disabled', true);
+    
+                that._appData.setForm(form);
+                // enable button in observer handle
 
-            that._appData.setForm(form, that.parts_list, that._sprite_data_helper.getDefaultFlagName(form));
-
-            $(this).prop('disabled', false);
+                // fallback enable button
+                that._fallbackSetFormEnableButton = window.setTimeout(() => {
+                    $(this).prop('disabled', false);
+                    that._fallbackSetFormEnableButton = undefined;
+                }, 10000);
+            }
         });
     }
 
@@ -424,7 +437,6 @@ export class FormPartsAdapter {
                     const flag_name = item.flag_name;
                     const item_element = $(list.list).find(`[data-index="${index}"]`);
 
-                    item_element.removeAttr('data-flag_name');
                     item_element.data('flag-name', flag_name);
 
                     //that.log.debug('list items forEach', flag_name, item_element);
@@ -449,6 +461,8 @@ export class FormPartsAdapter {
                         const selectable_flags = that._sprite_data_helper.getSelectableSpritesFlag(form, part, flag_name).filter(it => it.flags_fits);
                         const selectable_flag_horizontal = selectable_flags.find(it => it.orientation == Orientation.Horizontal);
                         const selectable_flag_vertical = selectable_flags.find(it => it.orientation == Orientation.Vertical);
+
+                        that.log.debug('click item', form, part, flag_name, item, item_value);
 
                         const orientation = that.getSelectedOrientation(form, part) ?? Orientation.Vertical;
                         let new_orientation = orientation;

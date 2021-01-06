@@ -64498,6 +64498,10 @@ var Application = (function () {
                 Promise.all(this._appData.forms.map(function (form) {
                     return _this._sprite_data_helper.setup(form, _this._appData.getPartsList(form));
                 })).then(function () {
+                    for (var _i = 0, _a = _this._appData.forms; _i < _a.length; _i++) {
+                        var form = _a[_i];
+                        _this._appData.initDefaultValues(form, _this._sprite_data_helper.getDefaultFlagName(form));
+                    }
                     _this.initForm();
                     _this.initCanvas();
                 });
@@ -64584,8 +64588,8 @@ var Application = (function () {
             var options, id;
             return __generator(this, function (_a) {
                 options = {
-                    valueNames: ['flag_name'],
-                    page: 6,
+                    valueNames: ['flag_info_image', 'flag_info_name', 'flag_info_description'],
+                    page: 8,
                     pagination: site_value_1.LIST_JS_PAGINATION
                 };
                 id = 'lstFlagInfo';
@@ -64698,13 +64702,14 @@ var localforage_1 = __importDefault(require("localforage"));
 var observer_1 = require("../observer");
 var site_1 = require("../site");
 var sprite_data_1 = require("./sprite.data");
+var typescript_logger_1 = require("typescript-logger");
 var STORAGE_KEY_SETTINGS = 'settings';
 var STORAGE_KEY_THEME = 'theme';
 var STORAGE_KEY_VERSION = 'version';
 var STORAGE_KEY_CURRENT_SELECTION_FORM = 'current_selection_form';
 var STORAGE_KEY_CURRENT_SELECTION_SHOW_WHOLE = 'current_selection_show_whole';
 var STORAGE_KEY_CURRENT_SELECTION_PART = 'current_selection_part';
-var STORAGE_KEY_CURRENT_SELECTION_PART_FILTER = 'current_selection_part_filter';
+var STORAGE_KEY_CURRENT_SELECTION_PART_FILTER = 'current_selection_filter_part';
 var STORAGE_KEY_LAST_FLAG = 'last_flag';
 exports.DEFAULT_FLAG_NAME_NONE = 'None';
 exports.ALL_FILTER = 'all';
@@ -64742,6 +64747,7 @@ var ApplicationData = (function () {
         this._storeSession = localforage_1.default.createInstance({
             name: "session"
         });
+        this.log = typescript_logger_1.LoggerManager.create('ApplicationData');
         for (var _i = 0, _a = this.forms; _i < _a.length; _i++) {
             var form = _a[_i];
             this._currentSelectionPartsFilter[form] = {};
@@ -64752,6 +64758,7 @@ var ApplicationData = (function () {
                 this._currentSelectionParts[form][part] = new observer_1.DataSubject(new CurrentSelectionPart());
             }
         }
+        this.log.debug('app data', this._currentSelectionPartsFilter, this._currentSelectionParts, this);
     }
     ApplicationData.getStorageKeyCurrentSelectionPart = function (form, part) {
         return STORAGE_KEY_CURRENT_SELECTION_PART + "_" + form + "_" + part;
@@ -64958,54 +64965,67 @@ var ApplicationData = (function () {
             for (var _b = 0, _c = this.getPartsList(form); _b < _c.length; _b++) {
                 var part = _c[_b];
                 var part_key = ApplicationData.getStorageKeyCurrentSelectionPart(form, part);
-                var part_filter_key = ApplicationData.getStorageKeyCurrentSelectionPart(form, part);
+                var part_filter_key = ApplicationData.getStorageKeyCurrentSelectionPartFilter(form, part);
                 this._storeSession.setItem(part_key, this._currentSelectionParts[form][part].data);
                 this._storeSession.setItem(part_filter_key, this._currentSelectionPartsFilter[form][part].data);
             }
         }
         this._storeSession.setItem(STORAGE_KEY_VERSION, this._version);
     };
-    ApplicationData.prototype.initDefaultValues = function (default_flag_name) {
-        for (var _i = 0, _a = this.forms; _i < _a.length; _i++) {
-            var form = _a[_i];
-            for (var _b = 0, _c = this.getPartsList(form); _b < _c.length; _b++) {
-                var part = _c[_b];
-                if (!this._currentSelectionParts[form][part].data.flag_name) {
-                    this._currentSelectionParts[form][part] = new observer_1.DataSubject({
-                        flag_name: default_flag_name,
-                        orientation: sprite_data_1.Orientation.Vertical
-                    });
-                }
+    ApplicationData.prototype.initDefaultValues = function (form, default_flag_name) {
+        for (var _i = 0, _a = this.getPartsList(form); _i < _a.length; _i++) {
+            var part = _a[_i];
+            if (!this._currentSelectionParts[form][part].data.flag_name) {
+                this._currentSelectionParts[form][part].data.flag_name = default_flag_name;
+                this._currentSelectionParts[form][part].data.orientation = sprite_data_1.Orientation.Vertical;
             }
         }
+        this.log.debug('initDefaultValues', this._currentSelectionParts, this);
         this.saveCurrentSelection();
     };
     ApplicationData.prototype.setPartFlagName = function (form, part, flag_name) {
+        if (this._currentSelectionParts[form][part].data.flag_name === flag_name) {
+            return;
+        }
         this._currentSelectionParts[form][part].data.flag_name = flag_name;
         this.saveCurrentSelection();
         this._currentSelectionParts[form][part].notify();
     };
     ApplicationData.prototype.setPartOrientation = function (form, part, orientation) {
+        if (this._currentSelectionParts[form][part].data.orientation === orientation) {
+            return;
+        }
         this._currentSelectionParts[form][part].data.orientation = orientation;
         this.saveCurrentSelection();
         this._currentSelectionParts[form][part].notify();
     };
     ApplicationData.prototype.setPartFilter = function (form, part, filter) {
+        if (this._currentSelectionPartsFilter[form][part].data === filter) {
+            return;
+        }
         this._currentSelectionPartsFilter[form][part].data = filter;
         this.saveCurrentSelection();
     };
     ApplicationData.prototype.setPart = function (form, part, flag_name, orientation) {
+        if (this._currentSelectionParts[form][part].data.flag_name === flag_name && this._currentSelectionParts[form][part].data.orientation === orientation) {
+            return;
+        }
         this._currentSelectionParts[form][part].data.flag_name = flag_name;
         this._currentSelectionParts[form][part].data.orientation = orientation;
         this.saveCurrentSelection();
         this._currentSelectionParts[form][part].notify();
     };
-    ApplicationData.prototype.setForm = function (form, parts_list, default_flag_name) {
-        if (default_flag_name === void 0) { default_flag_name = ''; }
+    ApplicationData.prototype.setForm = function (form) {
+        if (this._currentSelectionForm.data === form) {
+            return;
+        }
         this._currentSelectionForm.data = form;
         this.saveCurrentSelection();
     };
     ApplicationData.prototype.setShowWhole = function (value) {
+        if (this._currentSelectionShowWhole.data === value) {
+            return;
+        }
         this._currentSelectionShowWhole.data = value;
         this.saveCurrentSelection();
     };
@@ -65039,7 +65059,7 @@ function setProperty(obj, key, value) {
 }
 exports.setProperty = setProperty;
 
-},{"../observer":87,"../site":88,"./sprite.data":84,"localforage":60}],84:[function(require,module,exports){
+},{"../observer":87,"../site":88,"./sprite.data":84,"localforage":60,"typescript-logger":76}],84:[function(require,module,exports){
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.Orientation = void 0;
@@ -65103,6 +65123,7 @@ var SELECTABLE_PARTS_LIST_ITEMS_PER_PAGE = 8;
 var FormPartsAdapter = (function () {
     function FormPartsAdapter(appData, _sprite_data_helper) {
         this._parts_lists = {};
+        this._fallbackSetFormEnableButton = undefined;
         this.log = typescript_logger_1.LoggerManager.create('FormPartsAdapter');
         this._appData = appData;
         this._sprite_data_helper = _sprite_data_helper;
@@ -65118,6 +65139,11 @@ var FormPartsAdapter = (function () {
             }
             class_1.prototype.update = function (subject) {
                 that.updateUI();
+                $(this).prop('disabled', false);
+                if (that._fallbackSetFormEnableButton) {
+                    window.clearTimeout(that._fallbackSetFormEnableButton);
+                    that._fallbackSetFormEnableButton = undefined;
+                }
             };
             return class_1;
         }()));
@@ -65328,7 +65354,7 @@ var FormPartsAdapter = (function () {
             }
             filters += "</select>";
             var id = this.getListId(form, part);
-            tab_content_content += "<div class=\"tab-pane fade " + show_active + "\" id=\"" + nav_link_id + "\" role=\"tabpanel\" aria-labelledby=\"" + nav_link_tab_id + "\">\n                <ul class=\"list-group mt-2 mb-4\">\n                    " + current_part + "\n                </ul>\n                <div class=\"my-1 part-settings\">\n                    " + partSettings + "\n                </div>\n                <div class=\"mt-2\" id=\"" + id + "\">\n                    <div class=\"row mt-2\">\n                        <div class=\"col-12\">\n                            <div class=\"input-group\">\n                                " + filters + "\n                            </div>\n                        </div>\n                    </div>\n                    <div class=\"row mt-2\">\n                        <div class=\"col-12\">\n                            <div class=\"input-group\">\n                                <div class=\"input-group-prepend\">\n                                    <span class=\"input-group-text\" id=\"searchHelp" + id + "\"><i class=\"fas fa-search d-inline\"></i></span>\n                                </div>\n                                <input type=\"text\" class=\"form-control fuzzy-search\" aria-label=\"" + site_1.site.data.strings.parts_list.search_label + "\" aria-describedby=\"searchHelp" + id + "\" placeholder=\"" + site_1.site.data.strings.parts_list.search_label + "\">\n                            </div>\n                        </div>\n                    </div>\n\n                    <div class=\"row mt-2\">\n                        <div class=\"col-12\">\n                            <div class=\"list-group list\"></div>\n\n                            <nav class=\"my-2\" aria-label=\"" + site_1.site.data.strings.parts_list.pagination_label + "\">\n                                <ul class=\"pagination " + site_value_1.PAGINATION_CLASS + " justify-content-center\">\n                                </ul>\n                            </nav>\n                        </div>\n                    </div>\n                </div>\n            </div>\n";
+            tab_content_content += "<div class=\"tab-pane fade " + show_active + "\" id=\"" + nav_link_id + "\" role=\"tabpanel\" aria-labelledby=\"" + nav_link_tab_id + "\">\n                <ul class=\"list-group mt-2 mb-4\">\n                    " + current_part + "\n                </ul>\n                <div class=\"my-1 part-settings\">\n                    " + partSettings + "\n                </div>\n                <div class=\"mt-2\" id=\"" + id + "\">\n                    <div class=\"row mt-2\">\n                        <div class=\"col-12\">\n                            <div class=\"input-group\">\n                                " + filters + "\n                            </div>\n                        </div>\n                    </div>\n                    <div class=\"row mt-2\">\n                        <div class=\"col-12\">\n                            <div class=\"input-group\">\n                                <div class=\"input-group-prepend\">\n                                    <span class=\"input-group-text\" id=\"searchHelp" + id + "\"><i class=\"fas fa-search d-inline\"></i></span>\n                                </div>\n                                <input type=\"text\" class=\"form-control fuzzy-search\" id=\"search" + id + "\" aria-label=\"" + site_1.site.data.strings.parts_list.search_label + "\" aria-describedby=\"searchHelp" + id + "\" placeholder=\"" + site_1.site.data.strings.parts_list.search_label + "\">\n                            </div>\n                        </div>\n                    </div>\n\n                    <div class=\"row mt-2\">\n                        <div class=\"col-12\">\n                            <div class=\"list-group list\"></div>\n\n                            <nav class=\"my-2\" aria-label=\"" + site_1.site.data.strings.parts_list.pagination_label + "\">\n                                <ul class=\"pagination " + site_value_1.PAGINATION_CLASS + " justify-content-center\">\n                                </ul>\n                            </nav>\n                        </div>\n                    </div>\n                </div>\n            </div>\n";
             var default_sprite_data = this._sprite_data_helper.getDefaultSprite(form, part);
             var part_icon = (default_sprite_data !== undefined) ? FormPartsAdapter.getSelectPartIconHTML(default_sprite_data) : '';
             nav_links += "<li class=\"nav-item\" role=\"presentation\">\n                <a class=\"nav-link " + active + "\" id=\"" + nav_link_tab_id + "\" data-toggle=\"pill\" href=\"#" + nav_link_id + "\" role=\"tab\" aria-controls=\"" + nav_link_id + "\" aria-selected=\"" + selected + "\">\n                    <span class=\"select-part-icon-container\">" + part_icon + "</span>\n                    " + part_label + "\n                </a>\n            </li>\n";
@@ -65413,10 +65439,16 @@ var FormPartsAdapter = (function () {
     FormPartsAdapter.prototype.initEventSetForm = function () {
         var that = this;
         $('#lstSelectForm').find('.list-group-item').off('click').on('click', function () {
+            var _this = this;
             var form = $(this).data('form');
-            $(this).prop('disabled', true);
-            that._appData.setForm(form, that.parts_list, that._sprite_data_helper.getDefaultFlagName(form));
-            $(this).prop('disabled', false);
+            if (that.current_form !== form) {
+                $(this).prop('disabled', true);
+                that._appData.setForm(form);
+                that._fallbackSetFormEnableButton = window.setTimeout(function () {
+                    $(_this).prop('disabled', false);
+                    that._fallbackSetFormEnableButton = undefined;
+                }, 10000);
+            }
         });
     };
     FormPartsAdapter.prototype.initEventSetParts = function () {
@@ -65429,7 +65461,6 @@ var FormPartsAdapter = (function () {
                     var item = it.values();
                     var flag_name = item.flag_name;
                     var item_element = $(list.list).find("[data-index=\"" + index + "\"]");
-                    item_element.removeAttr('data-flag_name');
                     item_element.data('flag-name', flag_name);
                     var disable = part === application_data_1.WHOLE_PART && !that._appData.currentSelectionShowWhole;
                     item_element.attr('aria-disabled', disable.toString());
@@ -65449,6 +65480,7 @@ var FormPartsAdapter = (function () {
                         var selectable_flags = that._sprite_data_helper.getSelectableSpritesFlag(form, part, flag_name).filter(function (it) { return it.flags_fits; });
                         var selectable_flag_horizontal = selectable_flags.find(function (it) { return it.orientation == sprite_data_1.Orientation.Horizontal; });
                         var selectable_flag_vertical = selectable_flags.find(function (it) { return it.orientation == sprite_data_1.Orientation.Vertical; });
+                        that.log.debug('click item', form, part, flag_name, item, item_value);
                         var orientation = (_a = that.getSelectedOrientation(form, part)) !== null && _a !== void 0 ? _a : sprite_data_1.Orientation.Vertical;
                         var new_orientation = orientation;
                         if (that.getSelectedFlagName(form, part) !== flag_name) {

@@ -4,6 +4,7 @@ import { DataSubject } from "../observer";
 import { site } from "../site";
 import { Orientation } from "./sprite.data";
 import { AnyFlagConfig } from './flag-config.data';
+import { LoggerManager } from 'typescript-logger';
 
 const STORAGE_KEY_SETTINGS = 'settings';
 const STORAGE_KEY_THEME = 'theme';
@@ -11,7 +12,7 @@ const STORAGE_KEY_VERSION = 'version';
 const STORAGE_KEY_CURRENT_SELECTION_FORM = 'current_selection_form';
 const STORAGE_KEY_CURRENT_SELECTION_SHOW_WHOLE = 'current_selection_show_whole';
 const STORAGE_KEY_CURRENT_SELECTION_PART = 'current_selection_part';
-const STORAGE_KEY_CURRENT_SELECTION_PART_FILTER = 'current_selection_part_filter';
+const STORAGE_KEY_CURRENT_SELECTION_PART_FILTER = 'current_selection_filter_part';
 const STORAGE_KEY_LAST_FLAG = 'last_flag';
 
 export const DEFAULT_FLAG_NAME_NONE = 'None';
@@ -45,6 +46,8 @@ export class ApplicationData {
         name: "session"
     });
 
+    private log = LoggerManager.create('ApplicationData');
+
     private static getStorageKeyCurrentSelectionPart(form: string, part: string) {
         return `${STORAGE_KEY_CURRENT_SELECTION_PART}_${form}_${part}`;
     }
@@ -61,6 +64,7 @@ export class ApplicationData {
                 this._currentSelectionParts[form][part] = new DataSubject<CurrentSelectionPart>(new CurrentSelectionPart());
             }
         }
+        this.log.debug('app data', this._currentSelectionPartsFilter, this._currentSelectionParts, this);
     }
 
     async loadFromStorage() {
@@ -206,7 +210,7 @@ export class ApplicationData {
         for(const form of this.forms) {
             for(const part of this.getPartsList(form)) {
                 const part_key = ApplicationData.getStorageKeyCurrentSelectionPart(form, part);
-                const part_filter_key = ApplicationData.getStorageKeyCurrentSelectionPart(form, part);
+                const part_filter_key = ApplicationData.getStorageKeyCurrentSelectionPartFilter(form, part);
 
                 this._storeSession.setItem(part_key, this._currentSelectionParts[form][part].data);
                 this._storeSession.setItem(part_filter_key, this._currentSelectionPartsFilter[form][part].data);
@@ -215,21 +219,22 @@ export class ApplicationData {
         this._storeSession.setItem(STORAGE_KEY_VERSION, this._version);
     }
 
-    public initDefaultValues(default_flag_name: string) {
-        for(const form of this.forms) {
-            for(const part of this.getPartsList(form)) {
-                if (!this._currentSelectionParts[form][part].data.flag_name) {
-                    this._currentSelectionParts[form][part] = new DataSubject<CurrentSelectionPart>({
-                        flag_name: default_flag_name,
-                        orientation: Orientation.Vertical
-                    });
-                }
+    public initDefaultValues(form: string, default_flag_name: string) {
+        for(const part of this.getPartsList(form)) {
+            if (!this._currentSelectionParts[form][part].data.flag_name) {
+                this._currentSelectionParts[form][part].data.flag_name = default_flag_name;
+                this._currentSelectionParts[form][part].data.orientation = Orientation.Vertical;
             }
         }
+        this.log.debug('initDefaultValues', this._currentSelectionParts, this);
         this.saveCurrentSelection();
     }
 
     public setPartFlagName(form: string, part: string, flag_name: string) {
+        if (this._currentSelectionParts[form][part].data.flag_name === flag_name) {
+            return;
+        }
+
         this._currentSelectionParts[form][part].data.flag_name = flag_name;
 
         this.saveCurrentSelection();
@@ -237,6 +242,10 @@ export class ApplicationData {
     }
 
     public setPartOrientation(form: string, part: string, orientation: Orientation) {
+        if (this._currentSelectionParts[form][part].data.orientation === orientation) {
+            return;
+        }
+        
         this._currentSelectionParts[form][part].data.orientation = orientation;
 
         this.saveCurrentSelection();
@@ -244,11 +253,19 @@ export class ApplicationData {
     }
 
     public setPartFilter(form: string, part: string, filter: string) {
+        if (this._currentSelectionPartsFilter[form][part].data === filter) {
+            return;
+        }
+
         this._currentSelectionPartsFilter[form][part].data = filter;
         this.saveCurrentSelection();
     }
 
     public setPart(form: string, part: string, flag_name: string, orientation: Orientation) {
+        if (this._currentSelectionParts[form][part].data.flag_name === flag_name && this._currentSelectionParts[form][part].data.orientation === orientation) {
+            return;
+        }
+
         this._currentSelectionParts[form][part].data.flag_name = flag_name;
         this._currentSelectionParts[form][part].data.orientation = orientation;
 
@@ -256,12 +273,20 @@ export class ApplicationData {
         this._currentSelectionParts[form][part].notify();
     }
 
-    public setForm(form: string, parts_list: string[], default_flag_name: string = '') {
+    public setForm(form: string) {
+        if (this._currentSelectionForm.data === form) {
+            return;
+        }
+        
         this._currentSelectionForm.data = form;
         this.saveCurrentSelection();
     }
 
     public setShowWhole(value: boolean) {
+        if (this._currentSelectionShowWhole.data === value) {
+            return;
+        }
+
         this._currentSelectionShowWhole.data = value;
         this.saveCurrentSelection();
     }

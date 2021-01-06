@@ -14,7 +14,8 @@ cp node_modules/jquery/dist/jquery.min.* assets/js
 mkdir assets/js/bootstrap
 mkdir assets/css/bootstrap
 cp -r node_modules/bootstrap/scss/* _sass/bootstrap
-cp node_modules/bootstrap/dist/js/bootstrap.bundle.min.* assets/js/bootstrap
+cp node_modules/bootstrap/dist/js/*.min.js assets/js/bootstrap
+cp node_modules/bootstrap/dist/js/*.min.js.map assets/js/bootstrap
 
 cp node_modules/bootstrap-toggle/js/*.min.js assets/js/bootstrap
 cp node_modules/bootstrap-toggle/css/*.min.css assets/css/bootstrap

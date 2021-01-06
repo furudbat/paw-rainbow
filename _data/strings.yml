@@ -20,7 +20,7 @@ select_parts:
   unknown: '???'
 parts_list:
   pagination_label: Part page navigation
-  search_label: Flag Search
+  search_label: Flag
   show_whole_label: Replace all parts
   filter_label: Filter Flags
 sprite:
@@ -35,6 +35,7 @@ flag_info:
       No Info.
   source_label: '[Source]'
   pagination_label: Flag List page navigation
+  search_label: Flag
 orientation:
   horizontal: Horizontal
   vertical: Vertical
