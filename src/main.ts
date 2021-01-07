@@ -1,4 +1,3 @@
-import './site'
 import { Application } from "./application";
 import { LoggerManager } from 'typescript-logger';
 

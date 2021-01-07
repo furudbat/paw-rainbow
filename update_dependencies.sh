@@ -43,3 +43,7 @@ cp node_modules/select2/dist/js/i18n/*.js assets/js/select2/i18n
 cp node_modules/select2/dist/css/*.min.css assets/css/select2
 cp node_modules/@ttskch/select2-bootstrap4-theme/dist/*.min.css assets/css/select2
 
+mkdir assets/css/spectrum-colorpicker2
+mkdir assets/js/spectrum-colorpicker2
+cp node_modules/spectrum-colorpicker2/dist/*.min.js assets/js/spectrum-colorpicker2
+cp node_modules/spectrum-colorpicker2/dist/*.min.css assets/css/spectrum-colorpicker2

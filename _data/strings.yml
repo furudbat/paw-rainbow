@@ -27,6 +27,8 @@ sprite:
   download: Download
   full_download: Full Download
   show_grid: Show Grid
+  craws_color_label: Craws Color
+  outlines_colors_label: Outlines Color
 flag_info:
   unknown:
     title: Unknown

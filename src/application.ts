@@ -1,13 +1,12 @@
-import { ApplicationData, CurrentSelectionPart, Theme } from './data/application.data';
+import { ApplicationData, Theme, DEFAULT_OUTLINE_COLOR, DEFAULT_CRAWS_COLOR } from './data/application.data';
 import { LoggerManager } from 'typescript-logger';
 import { Loader, Application as PixiApplication, LoaderResource } from 'pixi.js';
-import { site } from './site';
 import { SpriteAdapter } from './sprite.adapter';
 import { FormPartsAdapter } from './form-parts.adapter';
-import { DataObserver, DataSubject } from './observer';
-import List from 'list.js';
 import { LIST_JS_PAGINATION } from './site.value';
 import { SpriteDataHelper } from './sprites.data.helper';
+import { site } from './site';
+import List from 'list.js';
 
 export const CANVAS_WIDTH = 720;
 export const CANVAS_HEIGHT = 720;
@@ -70,24 +69,6 @@ export class Application {
     }
 
     private initObservers() {
-        var that = this;
-        this._appData.currentSelectionFormObservable.attach(new class implements DataObserver<string>{
-            update(subject: DataSubject<string>): void {
-                that._spriteAdapter?.updateParts(subject.data);
-            }
-        });
-        for (const form of this._appData.forms) {
-            this._appData.getCurrentSelectionPartsObservables(form).forEach(obs => {
-                const form = obs.form;
-                const part = obs.part;
-                const observable = obs.observable;
-                observable.attach(new class implements DataObserver<CurrentSelectionPart>{
-                    update(subject: DataSubject<CurrentSelectionPart>): void {
-                        that._spriteAdapter?.updatePart(form, part, subject.data);
-                    }
-                });
-            });
-        }
     }
 
     private async initSettings() {
@@ -111,8 +92,46 @@ export class Application {
         $('#chbShowGrid').on('change', function() {
             const checked = $(this).is(':checked');
             
-            that._appData.settings.show_grid = checked;
-            that._appData.settings = that._appData.settings;
+            if (checked) {
+                that._appData.showGrid();
+            } else {
+                that._appData.hideGrid();
+            }
+        });
+
+
+        if (!this._appData.settings.outline_color) {
+            this._appData.settings.outline_color = this._appData.getOutlineColor(this._appData.currentSelectionForm) ?? DEFAULT_OUTLINE_COLOR;
+        }
+        this._appData.settings.outline_color = this._appData.settings.outline_color ?? DEFAULT_CRAWS_COLOR;
+        this._appData.saveSettings();
+
+        $('#txtCrawsColor').spectrum({
+            color: this._appData.settings.craws_color,
+            showInput: true,
+            showInitial: true,
+            allowEmpty: true,
+            showAlpha: false,
+        }).on('hide.spectrum', function(e, color) {
+            const color_str = color.toHexString();
+            that._appData.setCrawsColor(color_str);
+        }).on('move.spectrum', function(e, color) {
+            const color_str = color.toHexString();
+            that._appData.setCrawsColor(color_str);
+        });
+
+        $('#txtOutlinesColor').spectrum({
+            color: this._appData.settings.outline_color,
+            showInput: true,
+            showInitial: true,
+            allowEmpty: false,
+            showAlpha: false,
+        }).on('hide.spectrum', function(e, color) {
+            const color_str = color.toHexString();
+            that._appData.setOutlineColor(color_str);
+        }).on('move.spectrum', function(e, color) {
+            const color_str = color.toHexString();
+            that._appData.setOutlineColor(color_str);
         });
     }
 
@@ -163,7 +182,7 @@ export class Application {
 
     private setupSpriteAdapters(loader: Loader, resources: Partial<Record<string, LoaderResource>>) {
         //this.log.debug('setupSpriteAdapters', loader, resources);
-        this._spriteAdapter?.init(this._appData.currentSelectionForm, resources);
+        this._spriteAdapter?.init(this._appData.currentSelectionFormData, resources);
     }
 
     private loadProgressHandler() {

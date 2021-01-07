@@ -34923,7 +34923,7 @@ exports.trimCanvas = trimCanvas;
 exports.uid = uid;
 
 
-},{"@pixi/constants":3,"@pixi/settings":26,"earcut":35,"eventemitter3":37,"url":80}],35:[function(require,module,exports){
+},{"@pixi/constants":3,"@pixi/settings":26,"earcut":35,"eventemitter3":37,"url":81}],35:[function(require,module,exports){
 'use strict';
 
 module.exports = earcut;
@@ -63320,6 +63320,1203 @@ exports.clearImmediate = typeof clearImmediate === "function" ? clearImmediate :
 }).call(this)}).call(this,require("timers").setImmediate,require("timers").clearImmediate)
 
 },{"process/browser.js":66,"timers":74}],75:[function(require,module,exports){
+// TinyColor v1.4.2
+// https://github.com/bgrins/TinyColor
+// Brian Grinstead, MIT License
+
+(function(Math) {
+
+var trimLeft = /^\s+/,
+    trimRight = /\s+$/,
+    tinyCounter = 0,
+    mathRound = Math.round,
+    mathMin = Math.min,
+    mathMax = Math.max,
+    mathRandom = Math.random;
+
+function tinycolor (color, opts) {
+
+    color = (color) ? color : '';
+    opts = opts || { };
+
+    // If input is already a tinycolor, return itself
+    if (color instanceof tinycolor) {
+       return color;
+    }
+    // If we are called as a function, call using new instead
+    if (!(this instanceof tinycolor)) {
+        return new tinycolor(color, opts);
+    }
+
+    var rgb = inputToRGB(color);
+    this._originalInput = color,
+    this._r = rgb.r,
+    this._g = rgb.g,
+    this._b = rgb.b,
+    this._a = rgb.a,
+    this._roundA = mathRound(100*this._a) / 100,
+    this._format = opts.format || rgb.format;
+    this._gradientType = opts.gradientType;
+
+    // Don't let the range of [0,255] come back in [0,1].
+    // Potentially lose a little bit of precision here, but will fix issues where
+    // .5 gets interpreted as half of the total, instead of half of 1
+    // If it was supposed to be 128, this was already taken care of by `inputToRgb`
+    if (this._r < 1) { this._r = mathRound(this._r); }
+    if (this._g < 1) { this._g = mathRound(this._g); }
+    if (this._b < 1) { this._b = mathRound(this._b); }
+
+    this._ok = rgb.ok;
+    this._tc_id = tinyCounter++;
+}
+
+tinycolor.prototype = {
+    isDark: function() {
+        return this.getBrightness() < 128;
+    },
+    isLight: function() {
+        return !this.isDark();
+    },
+    isValid: function() {
+        return this._ok;
+    },
+    getOriginalInput: function() {
+      return this._originalInput;
+    },
+    getFormat: function() {
+        return this._format;
+    },
+    getAlpha: function() {
+        return this._a;
+    },
+    getBrightness: function() {
+        //http://www.w3.org/TR/AERT#color-contrast
+        var rgb = this.toRgb();
+        return (rgb.r * 299 + rgb.g * 587 + rgb.b * 114) / 1000;
+    },
+    getLuminance: function() {
+        //http://www.w3.org/TR/2008/REC-WCAG20-20081211/#relativeluminancedef
+        var rgb = this.toRgb();
+        var RsRGB, GsRGB, BsRGB, R, G, B;
+        RsRGB = rgb.r/255;
+        GsRGB = rgb.g/255;
+        BsRGB = rgb.b/255;
+
+        if (RsRGB <= 0.03928) {R = RsRGB / 12.92;} else {R = Math.pow(((RsRGB + 0.055) / 1.055), 2.4);}
+        if (GsRGB <= 0.03928) {G = GsRGB / 12.92;} else {G = Math.pow(((GsRGB + 0.055) / 1.055), 2.4);}
+        if (BsRGB <= 0.03928) {B = BsRGB / 12.92;} else {B = Math.pow(((BsRGB + 0.055) / 1.055), 2.4);}
+        return (0.2126 * R) + (0.7152 * G) + (0.0722 * B);
+    },
+    setAlpha: function(value) {
+        this._a = boundAlpha(value);
+        this._roundA = mathRound(100*this._a) / 100;
+        return this;
+    },
+    toHsv: function() {
+        var hsv = rgbToHsv(this._r, this._g, this._b);
+        return { h: hsv.h * 360, s: hsv.s, v: hsv.v, a: this._a };
+    },
+    toHsvString: function() {
+        var hsv = rgbToHsv(this._r, this._g, this._b);
+        var h = mathRound(hsv.h * 360), s = mathRound(hsv.s * 100), v = mathRound(hsv.v * 100);
+        return (this._a == 1) ?
+          "hsv("  + h + ", " + s + "%, " + v + "%)" :
+          "hsva(" + h + ", " + s + "%, " + v + "%, "+ this._roundA + ")";
+    },
+    toHsl: function() {
+        var hsl = rgbToHsl(this._r, this._g, this._b);
+        return { h: hsl.h * 360, s: hsl.s, l: hsl.l, a: this._a };
+    },
+    toHslString: function() {
+        var hsl = rgbToHsl(this._r, this._g, this._b);
+        var h = mathRound(hsl.h * 360), s = mathRound(hsl.s * 100), l = mathRound(hsl.l * 100);
+        return (this._a == 1) ?
+          "hsl("  + h + ", " + s + "%, " + l + "%)" :
+          "hsla(" + h + ", " + s + "%, " + l + "%, "+ this._roundA + ")";
+    },
+    toHex: function(allow3Char) {
+        return rgbToHex(this._r, this._g, this._b, allow3Char);
+    },
+    toHexString: function(allow3Char) {
+        return '#' + this.toHex(allow3Char);
+    },
+    toHex8: function(allow4Char) {
+        return rgbaToHex(this._r, this._g, this._b, this._a, allow4Char);
+    },
+    toHex8String: function(allow4Char) {
+        return '#' + this.toHex8(allow4Char);
+    },
+    toRgb: function() {
+        return { r: mathRound(this._r), g: mathRound(this._g), b: mathRound(this._b), a: this._a };
+    },
+    toRgbString: function() {
+        return (this._a == 1) ?
+          "rgb("  + mathRound(this._r) + ", " + mathRound(this._g) + ", " + mathRound(this._b) + ")" :
+          "rgba(" + mathRound(this._r) + ", " + mathRound(this._g) + ", " + mathRound(this._b) + ", " + this._roundA + ")";
+    },
+    toPercentageRgb: function() {
+        return { r: mathRound(bound01(this._r, 255) * 100) + "%", g: mathRound(bound01(this._g, 255) * 100) + "%", b: mathRound(bound01(this._b, 255) * 100) + "%", a: this._a };
+    },
+    toPercentageRgbString: function() {
+        return (this._a == 1) ?
+          "rgb("  + mathRound(bound01(this._r, 255) * 100) + "%, " + mathRound(bound01(this._g, 255) * 100) + "%, " + mathRound(bound01(this._b, 255) * 100) + "%)" :
+          "rgba(" + mathRound(bound01(this._r, 255) * 100) + "%, " + mathRound(bound01(this._g, 255) * 100) + "%, " + mathRound(bound01(this._b, 255) * 100) + "%, " + this._roundA + ")";
+    },
+    toName: function() {
+        if (this._a === 0) {
+            return "transparent";
+        }
+
+        if (this._a < 1) {
+            return false;
+        }
+
+        return hexNames[rgbToHex(this._r, this._g, this._b, true)] || false;
+    },
+    toFilter: function(secondColor) {
+        var hex8String = '#' + rgbaToArgbHex(this._r, this._g, this._b, this._a);
+        var secondHex8String = hex8String;
+        var gradientType = this._gradientType ? "GradientType = 1, " : "";
+
+        if (secondColor) {
+            var s = tinycolor(secondColor);
+            secondHex8String = '#' + rgbaToArgbHex(s._r, s._g, s._b, s._a);
+        }
+
+        return "progid:DXImageTransform.Microsoft.gradient("+gradientType+"startColorstr="+hex8String+",endColorstr="+secondHex8String+")";
+    },
+    toString: function(format) {
+        var formatSet = !!format;
+        format = format || this._format;
+
+        var formattedString = false;
+        var hasAlpha = this._a < 1 && this._a >= 0;
+        var needsAlphaFormat = !formatSet && hasAlpha && (format === "hex" || format === "hex6" || format === "hex3" || format === "hex4" || format === "hex8" || format === "name");
+
+        if (needsAlphaFormat) {
+            // Special case for "transparent", all other non-alpha formats
+            // will return rgba when there is transparency.
+            if (format === "name" && this._a === 0) {
+                return this.toName();
+            }
+            return this.toRgbString();
+        }
+        if (format === "rgb") {
+            formattedString = this.toRgbString();
+        }
+        if (format === "prgb") {
+            formattedString = this.toPercentageRgbString();
+        }
+        if (format === "hex" || format === "hex6") {
+            formattedString = this.toHexString();
+        }
+        if (format === "hex3") {
+            formattedString = this.toHexString(true);
+        }
+        if (format === "hex4") {
+            formattedString = this.toHex8String(true);
+        }
+        if (format === "hex8") {
+            formattedString = this.toHex8String();
+        }
+        if (format === "name") {
+            formattedString = this.toName();
+        }
+        if (format === "hsl") {
+            formattedString = this.toHslString();
+        }
+        if (format === "hsv") {
+            formattedString = this.toHsvString();
+        }
+
+        return formattedString || this.toHexString();
+    },
+    clone: function() {
+        return tinycolor(this.toString());
+    },
+
+    _applyModification: function(fn, args) {
+        var color = fn.apply(null, [this].concat([].slice.call(args)));
+        this._r = color._r;
+        this._g = color._g;
+        this._b = color._b;
+        this.setAlpha(color._a);
+        return this;
+    },
+    lighten: function() {
+        return this._applyModification(lighten, arguments);
+    },
+    brighten: function() {
+        return this._applyModification(brighten, arguments);
+    },
+    darken: function() {
+        return this._applyModification(darken, arguments);
+    },
+    desaturate: function() {
+        return this._applyModification(desaturate, arguments);
+    },
+    saturate: function() {
+        return this._applyModification(saturate, arguments);
+    },
+    greyscale: function() {
+        return this._applyModification(greyscale, arguments);
+    },
+    spin: function() {
+        return this._applyModification(spin, arguments);
+    },
+
+    _applyCombination: function(fn, args) {
+        return fn.apply(null, [this].concat([].slice.call(args)));
+    },
+    analogous: function() {
+        return this._applyCombination(analogous, arguments);
+    },
+    complement: function() {
+        return this._applyCombination(complement, arguments);
+    },
+    monochromatic: function() {
+        return this._applyCombination(monochromatic, arguments);
+    },
+    splitcomplement: function() {
+        return this._applyCombination(splitcomplement, arguments);
+    },
+    triad: function() {
+        return this._applyCombination(triad, arguments);
+    },
+    tetrad: function() {
+        return this._applyCombination(tetrad, arguments);
+    }
+};
+
+// If input is an object, force 1 into "1.0" to handle ratios properly
+// String input requires "1.0" as input, so 1 will be treated as 1
+tinycolor.fromRatio = function(color, opts) {
+    if (typeof color == "object") {
+        var newColor = {};
+        for (var i in color) {
+            if (color.hasOwnProperty(i)) {
+                if (i === "a") {
+                    newColor[i] = color[i];
+                }
+                else {
+                    newColor[i] = convertToPercentage(color[i]);
+                }
+            }
+        }
+        color = newColor;
+    }
+
+    return tinycolor(color, opts);
+};
+
+// Given a string or object, convert that input to RGB
+// Possible string inputs:
+//
+//     "red"
+//     "#f00" or "f00"
+//     "#ff0000" or "ff0000"
+//     "#ff000000" or "ff000000"
+//     "rgb 255 0 0" or "rgb (255, 0, 0)"
+//     "rgb 1.0 0 0" or "rgb (1, 0, 0)"
+//     "rgba (255, 0, 0, 1)" or "rgba 255, 0, 0, 1"
+//     "rgba (1.0, 0, 0, 1)" or "rgba 1.0, 0, 0, 1"
+//     "hsl(0, 100%, 50%)" or "hsl 0 100% 50%"
+//     "hsla(0, 100%, 50%, 1)" or "hsla 0 100% 50%, 1"
+//     "hsv(0, 100%, 100%)" or "hsv 0 100% 100%"
+//
+function inputToRGB(color) {
+
+    var rgb = { r: 0, g: 0, b: 0 };
+    var a = 1;
+    var s = null;
+    var v = null;
+    var l = null;
+    var ok = false;
+    var format = false;
+
+    if (typeof color == "string") {
+        color = stringInputToObject(color);
+    }
+
+    if (typeof color == "object") {
+        if (isValidCSSUnit(color.r) && isValidCSSUnit(color.g) && isValidCSSUnit(color.b)) {
+            rgb = rgbToRgb(color.r, color.g, color.b);
+            ok = true;
+            format = String(color.r).substr(-1) === "%" ? "prgb" : "rgb";
+        }
+        else if (isValidCSSUnit(color.h) && isValidCSSUnit(color.s) && isValidCSSUnit(color.v)) {
+            s = convertToPercentage(color.s);
+            v = convertToPercentage(color.v);
+            rgb = hsvToRgb(color.h, s, v);
+            ok = true;
+            format = "hsv";
+        }
+        else if (isValidCSSUnit(color.h) && isValidCSSUnit(color.s) && isValidCSSUnit(color.l)) {
+            s = convertToPercentage(color.s);
+            l = convertToPercentage(color.l);
+            rgb = hslToRgb(color.h, s, l);
+            ok = true;
+            format = "hsl";
+        }
+
+        if (color.hasOwnProperty("a")) {
+            a = color.a;
+        }
+    }
+
+    a = boundAlpha(a);
+
+    return {
+        ok: ok,
+        format: color.format || format,
+        r: mathMin(255, mathMax(rgb.r, 0)),
+        g: mathMin(255, mathMax(rgb.g, 0)),
+        b: mathMin(255, mathMax(rgb.b, 0)),
+        a: a
+    };
+}
+
+
+// Conversion Functions
+// --------------------
+
+// `rgbToHsl`, `rgbToHsv`, `hslToRgb`, `hsvToRgb` modified from:
+// <http://mjijackson.com/2008/02/rgb-to-hsl-and-rgb-to-hsv-color-model-conversion-algorithms-in-javascript>
+
+// `rgbToRgb`
+// Handle bounds / percentage checking to conform to CSS color spec
+// <http://www.w3.org/TR/css3-color/>
+// *Assumes:* r, g, b in [0, 255] or [0, 1]
+// *Returns:* { r, g, b } in [0, 255]
+function rgbToRgb(r, g, b){
+    return {
+        r: bound01(r, 255) * 255,
+        g: bound01(g, 255) * 255,
+        b: bound01(b, 255) * 255
+    };
+}
+
+// `rgbToHsl`
+// Converts an RGB color value to HSL.
+// *Assumes:* r, g, and b are contained in [0, 255] or [0, 1]
+// *Returns:* { h, s, l } in [0,1]
+function rgbToHsl(r, g, b) {
+
+    r = bound01(r, 255);
+    g = bound01(g, 255);
+    b = bound01(b, 255);
+
+    var max = mathMax(r, g, b), min = mathMin(r, g, b);
+    var h, s, l = (max + min) / 2;
+
+    if(max == min) {
+        h = s = 0; // achromatic
+    }
+    else {
+        var d = max - min;
+        s = l > 0.5 ? d / (2 - max - min) : d / (max + min);
+        switch(max) {
+            case r: h = (g - b) / d + (g < b ? 6 : 0); break;
+            case g: h = (b - r) / d + 2; break;
+            case b: h = (r - g) / d + 4; break;
+        }
+
+        h /= 6;
+    }
+
+    return { h: h, s: s, l: l };
+}
+
+// `hslToRgb`
+// Converts an HSL color value to RGB.
+// *Assumes:* h is contained in [0, 1] or [0, 360] and s and l are contained [0, 1] or [0, 100]
+// *Returns:* { r, g, b } in the set [0, 255]
+function hslToRgb(h, s, l) {
+    var r, g, b;
+
+    h = bound01(h, 360);
+    s = bound01(s, 100);
+    l = bound01(l, 100);
+
+    function hue2rgb(p, q, t) {
+        if(t < 0) t += 1;
+        if(t > 1) t -= 1;
+        if(t < 1/6) return p + (q - p) * 6 * t;
+        if(t < 1/2) return q;
+        if(t < 2/3) return p + (q - p) * (2/3 - t) * 6;
+        return p;
+    }
+
+    if(s === 0) {
+        r = g = b = l; // achromatic
+    }
+    else {
+        var q = l < 0.5 ? l * (1 + s) : l + s - l * s;
+        var p = 2 * l - q;
+        r = hue2rgb(p, q, h + 1/3);
+        g = hue2rgb(p, q, h);
+        b = hue2rgb(p, q, h - 1/3);
+    }
+
+    return { r: r * 255, g: g * 255, b: b * 255 };
+}
+
+// `rgbToHsv`
+// Converts an RGB color value to HSV
+// *Assumes:* r, g, and b are contained in the set [0, 255] or [0, 1]
+// *Returns:* { h, s, v } in [0,1]
+function rgbToHsv(r, g, b) {
+
+    r = bound01(r, 255);
+    g = bound01(g, 255);
+    b = bound01(b, 255);
+
+    var max = mathMax(r, g, b), min = mathMin(r, g, b);
+    var h, s, v = max;
+
+    var d = max - min;
+    s = max === 0 ? 0 : d / max;
+
+    if(max == min) {
+        h = 0; // achromatic
+    }
+    else {
+        switch(max) {
+            case r: h = (g - b) / d + (g < b ? 6 : 0); break;
+            case g: h = (b - r) / d + 2; break;
+            case b: h = (r - g) / d + 4; break;
+        }
+        h /= 6;
+    }
+    return { h: h, s: s, v: v };
+}
+
+// `hsvToRgb`
+// Converts an HSV color value to RGB.
+// *Assumes:* h is contained in [0, 1] or [0, 360] and s and v are contained in [0, 1] or [0, 100]
+// *Returns:* { r, g, b } in the set [0, 255]
+ function hsvToRgb(h, s, v) {
+
+    h = bound01(h, 360) * 6;
+    s = bound01(s, 100);
+    v = bound01(v, 100);
+
+    var i = Math.floor(h),
+        f = h - i,
+        p = v * (1 - s),
+        q = v * (1 - f * s),
+        t = v * (1 - (1 - f) * s),
+        mod = i % 6,
+        r = [v, q, p, p, t, v][mod],
+        g = [t, v, v, q, p, p][mod],
+        b = [p, p, t, v, v, q][mod];
+
+    return { r: r * 255, g: g * 255, b: b * 255 };
+}
+
+// `rgbToHex`
+// Converts an RGB color to hex
+// Assumes r, g, and b are contained in the set [0, 255]
+// Returns a 3 or 6 character hex
+function rgbToHex(r, g, b, allow3Char) {
+
+    var hex = [
+        pad2(mathRound(r).toString(16)),
+        pad2(mathRound(g).toString(16)),
+        pad2(mathRound(b).toString(16))
+    ];
+
+    // Return a 3 character hex if possible
+    if (allow3Char && hex[0].charAt(0) == hex[0].charAt(1) && hex[1].charAt(0) == hex[1].charAt(1) && hex[2].charAt(0) == hex[2].charAt(1)) {
+        return hex[0].charAt(0) + hex[1].charAt(0) + hex[2].charAt(0);
+    }
+
+    return hex.join("");
+}
+
+// `rgbaToHex`
+// Converts an RGBA color plus alpha transparency to hex
+// Assumes r, g, b are contained in the set [0, 255] and
+// a in [0, 1]. Returns a 4 or 8 character rgba hex
+function rgbaToHex(r, g, b, a, allow4Char) {
+
+    var hex = [
+        pad2(mathRound(r).toString(16)),
+        pad2(mathRound(g).toString(16)),
+        pad2(mathRound(b).toString(16)),
+        pad2(convertDecimalToHex(a))
+    ];
+
+    // Return a 4 character hex if possible
+    if (allow4Char && hex[0].charAt(0) == hex[0].charAt(1) && hex[1].charAt(0) == hex[1].charAt(1) && hex[2].charAt(0) == hex[2].charAt(1) && hex[3].charAt(0) == hex[3].charAt(1)) {
+        return hex[0].charAt(0) + hex[1].charAt(0) + hex[2].charAt(0) + hex[3].charAt(0);
+    }
+
+    return hex.join("");
+}
+
+// `rgbaToArgbHex`
+// Converts an RGBA color to an ARGB Hex8 string
+// Rarely used, but required for "toFilter()"
+function rgbaToArgbHex(r, g, b, a) {
+
+    var hex = [
+        pad2(convertDecimalToHex(a)),
+        pad2(mathRound(r).toString(16)),
+        pad2(mathRound(g).toString(16)),
+        pad2(mathRound(b).toString(16))
+    ];
+
+    return hex.join("");
+}
+
+// `equals`
+// Can be called with any tinycolor input
+tinycolor.equals = function (color1, color2) {
+    if (!color1 || !color2) { return false; }
+    return tinycolor(color1).toRgbString() == tinycolor(color2).toRgbString();
+};
+
+tinycolor.random = function() {
+    return tinycolor.fromRatio({
+        r: mathRandom(),
+        g: mathRandom(),
+        b: mathRandom()
+    });
+};
+
+
+// Modification Functions
+// ----------------------
+// Thanks to less.js for some of the basics here
+// <https://github.com/cloudhead/less.js/blob/master/lib/less/functions.js>
+
+function desaturate(color, amount) {
+    amount = (amount === 0) ? 0 : (amount || 10);
+    var hsl = tinycolor(color).toHsl();
+    hsl.s -= amount / 100;
+    hsl.s = clamp01(hsl.s);
+    return tinycolor(hsl);
+}
+
+function saturate(color, amount) {
+    amount = (amount === 0) ? 0 : (amount || 10);
+    var hsl = tinycolor(color).toHsl();
+    hsl.s += amount / 100;
+    hsl.s = clamp01(hsl.s);
+    return tinycolor(hsl);
+}
+
+function greyscale(color) {
+    return tinycolor(color).desaturate(100);
+}
+
+function lighten (color, amount) {
+    amount = (amount === 0) ? 0 : (amount || 10);
+    var hsl = tinycolor(color).toHsl();
+    hsl.l += amount / 100;
+    hsl.l = clamp01(hsl.l);
+    return tinycolor(hsl);
+}
+
+function brighten(color, amount) {
+    amount = (amount === 0) ? 0 : (amount || 10);
+    var rgb = tinycolor(color).toRgb();
+    rgb.r = mathMax(0, mathMin(255, rgb.r - mathRound(255 * - (amount / 100))));
+    rgb.g = mathMax(0, mathMin(255, rgb.g - mathRound(255 * - (amount / 100))));
+    rgb.b = mathMax(0, mathMin(255, rgb.b - mathRound(255 * - (amount / 100))));
+    return tinycolor(rgb);
+}
+
+function darken (color, amount) {
+    amount = (amount === 0) ? 0 : (amount || 10);
+    var hsl = tinycolor(color).toHsl();
+    hsl.l -= amount / 100;
+    hsl.l = clamp01(hsl.l);
+    return tinycolor(hsl);
+}
+
+// Spin takes a positive or negative amount within [-360, 360] indicating the change of hue.
+// Values outside of this range will be wrapped into this range.
+function spin(color, amount) {
+    var hsl = tinycolor(color).toHsl();
+    var hue = (hsl.h + amount) % 360;
+    hsl.h = hue < 0 ? 360 + hue : hue;
+    return tinycolor(hsl);
+}
+
+// Combination Functions
+// ---------------------
+// Thanks to jQuery xColor for some of the ideas behind these
+// <https://github.com/infusion/jQuery-xcolor/blob/master/jquery.xcolor.js>
+
+function complement(color) {
+    var hsl = tinycolor(color).toHsl();
+    hsl.h = (hsl.h + 180) % 360;
+    return tinycolor(hsl);
+}
+
+function triad(color) {
+    var hsl = tinycolor(color).toHsl();
+    var h = hsl.h;
+    return [
+        tinycolor(color),
+        tinycolor({ h: (h + 120) % 360, s: hsl.s, l: hsl.l }),
+        tinycolor({ h: (h + 240) % 360, s: hsl.s, l: hsl.l })
+    ];
+}
+
+function tetrad(color) {
+    var hsl = tinycolor(color).toHsl();
+    var h = hsl.h;
+    return [
+        tinycolor(color),
+        tinycolor({ h: (h + 90) % 360, s: hsl.s, l: hsl.l }),
+        tinycolor({ h: (h + 180) % 360, s: hsl.s, l: hsl.l }),
+        tinycolor({ h: (h + 270) % 360, s: hsl.s, l: hsl.l })
+    ];
+}
+
+function splitcomplement(color) {
+    var hsl = tinycolor(color).toHsl();
+    var h = hsl.h;
+    return [
+        tinycolor(color),
+        tinycolor({ h: (h + 72) % 360, s: hsl.s, l: hsl.l}),
+        tinycolor({ h: (h + 216) % 360, s: hsl.s, l: hsl.l})
+    ];
+}
+
+function analogous(color, results, slices) {
+    results = results || 6;
+    slices = slices || 30;
+
+    var hsl = tinycolor(color).toHsl();
+    var part = 360 / slices;
+    var ret = [tinycolor(color)];
+
+    for (hsl.h = ((hsl.h - (part * results >> 1)) + 720) % 360; --results; ) {
+        hsl.h = (hsl.h + part) % 360;
+        ret.push(tinycolor(hsl));
+    }
+    return ret;
+}
+
+function monochromatic(color, results) {
+    results = results || 6;
+    var hsv = tinycolor(color).toHsv();
+    var h = hsv.h, s = hsv.s, v = hsv.v;
+    var ret = [];
+    var modification = 1 / results;
+
+    while (results--) {
+        ret.push(tinycolor({ h: h, s: s, v: v}));
+        v = (v + modification) % 1;
+    }
+
+    return ret;
+}
+
+// Utility Functions
+// ---------------------
+
+tinycolor.mix = function(color1, color2, amount) {
+    amount = (amount === 0) ? 0 : (amount || 50);
+
+    var rgb1 = tinycolor(color1).toRgb();
+    var rgb2 = tinycolor(color2).toRgb();
+
+    var p = amount / 100;
+
+    var rgba = {
+        r: ((rgb2.r - rgb1.r) * p) + rgb1.r,
+        g: ((rgb2.g - rgb1.g) * p) + rgb1.g,
+        b: ((rgb2.b - rgb1.b) * p) + rgb1.b,
+        a: ((rgb2.a - rgb1.a) * p) + rgb1.a
+    };
+
+    return tinycolor(rgba);
+};
+
+
+// Readability Functions
+// ---------------------
+// <http://www.w3.org/TR/2008/REC-WCAG20-20081211/#contrast-ratiodef (WCAG Version 2)
+
+// `contrast`
+// Analyze the 2 colors and returns the color contrast defined by (WCAG Version 2)
+tinycolor.readability = function(color1, color2) {
+    var c1 = tinycolor(color1);
+    var c2 = tinycolor(color2);
+    return (Math.max(c1.getLuminance(),c2.getLuminance())+0.05) / (Math.min(c1.getLuminance(),c2.getLuminance())+0.05);
+};
+
+// `isReadable`
+// Ensure that foreground and background color combinations meet WCAG2 guidelines.
+// The third argument is an optional Object.
+//      the 'level' property states 'AA' or 'AAA' - if missing or invalid, it defaults to 'AA';
+//      the 'size' property states 'large' or 'small' - if missing or invalid, it defaults to 'small'.
+// If the entire object is absent, isReadable defaults to {level:"AA",size:"small"}.
+
+// *Example*
+//    tinycolor.isReadable("#000", "#111") => false
+//    tinycolor.isReadable("#000", "#111",{level:"AA",size:"large"}) => false
+tinycolor.isReadable = function(color1, color2, wcag2) {
+    var readability = tinycolor.readability(color1, color2);
+    var wcag2Parms, out;
+
+    out = false;
+
+    wcag2Parms = validateWCAG2Parms(wcag2);
+    switch (wcag2Parms.level + wcag2Parms.size) {
+        case "AAsmall":
+        case "AAAlarge":
+            out = readability >= 4.5;
+            break;
+        case "AAlarge":
+            out = readability >= 3;
+            break;
+        case "AAAsmall":
+            out = readability >= 7;
+            break;
+    }
+    return out;
+
+};
+
+// `mostReadable`
+// Given a base color and a list of possible foreground or background
+// colors for that base, returns the most readable color.
+// Optionally returns Black or White if the most readable color is unreadable.
+// *Example*
+//    tinycolor.mostReadable(tinycolor.mostReadable("#123", ["#124", "#125"],{includeFallbackColors:false}).toHexString(); // "#112255"
+//    tinycolor.mostReadable(tinycolor.mostReadable("#123", ["#124", "#125"],{includeFallbackColors:true}).toHexString();  // "#ffffff"
+//    tinycolor.mostReadable("#a8015a", ["#faf3f3"],{includeFallbackColors:true,level:"AAA",size:"large"}).toHexString(); // "#faf3f3"
+//    tinycolor.mostReadable("#a8015a", ["#faf3f3"],{includeFallbackColors:true,level:"AAA",size:"small"}).toHexString(); // "#ffffff"
+tinycolor.mostReadable = function(baseColor, colorList, args) {
+    var bestColor = null;
+    var bestScore = 0;
+    var readability;
+    var includeFallbackColors, level, size ;
+    args = args || {};
+    includeFallbackColors = args.includeFallbackColors ;
+    level = args.level;
+    size = args.size;
+
+    for (var i= 0; i < colorList.length ; i++) {
+        readability = tinycolor.readability(baseColor, colorList[i]);
+        if (readability > bestScore) {
+            bestScore = readability;
+            bestColor = tinycolor(colorList[i]);
+        }
+    }
+
+    if (tinycolor.isReadable(baseColor, bestColor, {"level":level,"size":size}) || !includeFallbackColors) {
+        return bestColor;
+    }
+    else {
+        args.includeFallbackColors=false;
+        return tinycolor.mostReadable(baseColor,["#fff", "#000"],args);
+    }
+};
+
+
+// Big List of Colors
+// ------------------
+// <http://www.w3.org/TR/css3-color/#svg-color>
+var names = tinycolor.names = {
+    aliceblue: "f0f8ff",
+    antiquewhite: "faebd7",
+    aqua: "0ff",
+    aquamarine: "7fffd4",
+    azure: "f0ffff",
+    beige: "f5f5dc",
+    bisque: "ffe4c4",
+    black: "000",
+    blanchedalmond: "ffebcd",
+    blue: "00f",
+    blueviolet: "8a2be2",
+    brown: "a52a2a",
+    burlywood: "deb887",
+    burntsienna: "ea7e5d",
+    cadetblue: "5f9ea0",
+    chartreuse: "7fff00",
+    chocolate: "d2691e",
+    coral: "ff7f50",
+    cornflowerblue: "6495ed",
+    cornsilk: "fff8dc",
+    crimson: "dc143c",
+    cyan: "0ff",
+    darkblue: "00008b",
+    darkcyan: "008b8b",
+    darkgoldenrod: "b8860b",
+    darkgray: "a9a9a9",
+    darkgreen: "006400",
+    darkgrey: "a9a9a9",
+    darkkhaki: "bdb76b",
+    darkmagenta: "8b008b",
+    darkolivegreen: "556b2f",
+    darkorange: "ff8c00",
+    darkorchid: "9932cc",
+    darkred: "8b0000",
+    darksalmon: "e9967a",
+    darkseagreen: "8fbc8f",
+    darkslateblue: "483d8b",
+    darkslategray: "2f4f4f",
+    darkslategrey: "2f4f4f",
+    darkturquoise: "00ced1",
+    darkviolet: "9400d3",
+    deeppink: "ff1493",
+    deepskyblue: "00bfff",
+    dimgray: "696969",
+    dimgrey: "696969",
+    dodgerblue: "1e90ff",
+    firebrick: "b22222",
+    floralwhite: "fffaf0",
+    forestgreen: "228b22",
+    fuchsia: "f0f",
+    gainsboro: "dcdcdc",
+    ghostwhite: "f8f8ff",
+    gold: "ffd700",
+    goldenrod: "daa520",
+    gray: "808080",
+    green: "008000",
+    greenyellow: "adff2f",
+    grey: "808080",
+    honeydew: "f0fff0",
+    hotpink: "ff69b4",
+    indianred: "cd5c5c",
+    indigo: "4b0082",
+    ivory: "fffff0",
+    khaki: "f0e68c",
+    lavender: "e6e6fa",
+    lavenderblush: "fff0f5",
+    lawngreen: "7cfc00",
+    lemonchiffon: "fffacd",
+    lightblue: "add8e6",
+    lightcoral: "f08080",
+    lightcyan: "e0ffff",
+    lightgoldenrodyellow: "fafad2",
+    lightgray: "d3d3d3",
+    lightgreen: "90ee90",
+    lightgrey: "d3d3d3",
+    lightpink: "ffb6c1",
+    lightsalmon: "ffa07a",
+    lightseagreen: "20b2aa",
+    lightskyblue: "87cefa",
+    lightslategray: "789",
+    lightslategrey: "789",
+    lightsteelblue: "b0c4de",
+    lightyellow: "ffffe0",
+    lime: "0f0",
+    limegreen: "32cd32",
+    linen: "faf0e6",
+    magenta: "f0f",
+    maroon: "800000",
+    mediumaquamarine: "66cdaa",
+    mediumblue: "0000cd",
+    mediumorchid: "ba55d3",
+    mediumpurple: "9370db",
+    mediumseagreen: "3cb371",
+    mediumslateblue: "7b68ee",
+    mediumspringgreen: "00fa9a",
+    mediumturquoise: "48d1cc",
+    mediumvioletred: "c71585",
+    midnightblue: "191970",
+    mintcream: "f5fffa",
+    mistyrose: "ffe4e1",
+    moccasin: "ffe4b5",
+    navajowhite: "ffdead",
+    navy: "000080",
+    oldlace: "fdf5e6",
+    olive: "808000",
+    olivedrab: "6b8e23",
+    orange: "ffa500",
+    orangered: "ff4500",
+    orchid: "da70d6",
+    palegoldenrod: "eee8aa",
+    palegreen: "98fb98",
+    paleturquoise: "afeeee",
+    palevioletred: "db7093",
+    papayawhip: "ffefd5",
+    peachpuff: "ffdab9",
+    peru: "cd853f",
+    pink: "ffc0cb",
+    plum: "dda0dd",
+    powderblue: "b0e0e6",
+    purple: "800080",
+    rebeccapurple: "663399",
+    red: "f00",
+    rosybrown: "bc8f8f",
+    royalblue: "4169e1",
+    saddlebrown: "8b4513",
+    salmon: "fa8072",
+    sandybrown: "f4a460",
+    seagreen: "2e8b57",
+    seashell: "fff5ee",
+    sienna: "a0522d",
+    silver: "c0c0c0",
+    skyblue: "87ceeb",
+    slateblue: "6a5acd",
+    slategray: "708090",
+    slategrey: "708090",
+    snow: "fffafa",
+    springgreen: "00ff7f",
+    steelblue: "4682b4",
+    tan: "d2b48c",
+    teal: "008080",
+    thistle: "d8bfd8",
+    tomato: "ff6347",
+    turquoise: "40e0d0",
+    violet: "ee82ee",
+    wheat: "f5deb3",
+    white: "fff",
+    whitesmoke: "f5f5f5",
+    yellow: "ff0",
+    yellowgreen: "9acd32"
+};
+
+// Make it easy to access colors via `hexNames[hex]`
+var hexNames = tinycolor.hexNames = flip(names);
+
+
+// Utilities
+// ---------
+
+// `{ 'name1': 'val1' }` becomes `{ 'val1': 'name1' }`
+function flip(o) {
+    var flipped = { };
+    for (var i in o) {
+        if (o.hasOwnProperty(i)) {
+            flipped[o[i]] = i;
+        }
+    }
+    return flipped;
+}
+
+// Return a valid alpha value [0,1] with all invalid values being set to 1
+function boundAlpha(a) {
+    a = parseFloat(a);
+
+    if (isNaN(a) || a < 0 || a > 1) {
+        a = 1;
+    }
+
+    return a;
+}
+
+// Take input from [0, n] and return it as [0, 1]
+function bound01(n, max) {
+    if (isOnePointZero(n)) { n = "100%"; }
+
+    var processPercent = isPercentage(n);
+    n = mathMin(max, mathMax(0, parseFloat(n)));
+
+    // Automatically convert percentage into number
+    if (processPercent) {
+        n = parseInt(n * max, 10) / 100;
+    }
+
+    // Handle floating point rounding errors
+    if ((Math.abs(n - max) < 0.000001)) {
+        return 1;
+    }
+
+    // Convert into [0, 1] range if it isn't already
+    return (n % max) / parseFloat(max);
+}
+
+// Force a number between 0 and 1
+function clamp01(val) {
+    return mathMin(1, mathMax(0, val));
+}
+
+// Parse a base-16 hex value into a base-10 integer
+function parseIntFromHex(val) {
+    return parseInt(val, 16);
+}
+
+// Need to handle 1.0 as 100%, since once it is a number, there is no difference between it and 1
+// <http://stackoverflow.com/questions/7422072/javascript-how-to-detect-number-as-a-decimal-including-1-0>
+function isOnePointZero(n) {
+    return typeof n == "string" && n.indexOf('.') != -1 && parseFloat(n) === 1;
+}
+
+// Check to see if string passed in is a percentage
+function isPercentage(n) {
+    return typeof n === "string" && n.indexOf('%') != -1;
+}
+
+// Force a hex value to have 2 characters
+function pad2(c) {
+    return c.length == 1 ? '0' + c : '' + c;
+}
+
+// Replace a decimal with it's percentage value
+function convertToPercentage(n) {
+    if (n <= 1) {
+        n = (n * 100) + "%";
+    }
+
+    return n;
+}
+
+// Converts a decimal to a hex value
+function convertDecimalToHex(d) {
+    return Math.round(parseFloat(d) * 255).toString(16);
+}
+// Converts a hex value to a decimal
+function convertHexToDecimal(h) {
+    return (parseIntFromHex(h) / 255);
+}
+
+var matchers = (function() {
+
+    // <http://www.w3.org/TR/css3-values/#integers>
+    var CSS_INTEGER = "[-\\+]?\\d+%?";
+
+    // <http://www.w3.org/TR/css3-values/#number-value>
+    var CSS_NUMBER = "[-\\+]?\\d*\\.\\d+%?";
+
+    // Allow positive/negative integer/number.  Don't capture the either/or, just the entire outcome.
+    var CSS_UNIT = "(?:" + CSS_NUMBER + ")|(?:" + CSS_INTEGER + ")";
+
+    // Actual matching.
+    // Parentheses and commas are optional, but not required.
+    // Whitespace can take the place of commas or opening paren
+    var PERMISSIVE_MATCH3 = "[\\s|\\(]+(" + CSS_UNIT + ")[,|\\s]+(" + CSS_UNIT + ")[,|\\s]+(" + CSS_UNIT + ")\\s*\\)?";
+    var PERMISSIVE_MATCH4 = "[\\s|\\(]+(" + CSS_UNIT + ")[,|\\s]+(" + CSS_UNIT + ")[,|\\s]+(" + CSS_UNIT + ")[,|\\s]+(" + CSS_UNIT + ")\\s*\\)?";
+
+    return {
+        CSS_UNIT: new RegExp(CSS_UNIT),
+        rgb: new RegExp("rgb" + PERMISSIVE_MATCH3),
+        rgba: new RegExp("rgba" + PERMISSIVE_MATCH4),
+        hsl: new RegExp("hsl" + PERMISSIVE_MATCH3),
+        hsla: new RegExp("hsla" + PERMISSIVE_MATCH4),
+        hsv: new RegExp("hsv" + PERMISSIVE_MATCH3),
+        hsva: new RegExp("hsva" + PERMISSIVE_MATCH4),
+        hex3: /^#?([0-9a-fA-F]{1})([0-9a-fA-F]{1})([0-9a-fA-F]{1})$/,
+        hex6: /^#?([0-9a-fA-F]{2})([0-9a-fA-F]{2})([0-9a-fA-F]{2})$/,
+        hex4: /^#?([0-9a-fA-F]{1})([0-9a-fA-F]{1})([0-9a-fA-F]{1})([0-9a-fA-F]{1})$/,
+        hex8: /^#?([0-9a-fA-F]{2})([0-9a-fA-F]{2})([0-9a-fA-F]{2})([0-9a-fA-F]{2})$/
+    };
+})();
+
+// `isValidCSSUnit`
+// Take in a single string / number and check to see if it looks like a CSS unit
+// (see `matchers` above for definition).
+function isValidCSSUnit(color) {
+    return !!matchers.CSS_UNIT.exec(color);
+}
+
+// `stringInputToObject`
+// Permissive string parsing.  Take in a number of formats, and output an object
+// based on detected format.  Returns `{ r, g, b }` or `{ h, s, l }` or `{ h, s, v}`
+function stringInputToObject(color) {
+
+    color = color.replace(trimLeft,'').replace(trimRight, '').toLowerCase();
+    var named = false;
+    if (names[color]) {
+        color = names[color];
+        named = true;
+    }
+    else if (color == 'transparent') {
+        return { r: 0, g: 0, b: 0, a: 0, format: "name" };
+    }
+
+    // Try to match string input using regular expressions.
+    // Keep most of the number bounding out of this function - don't worry about [0,1] or [0,100] or [0,360]
+    // Just return an object and let the conversion functions handle that.
+    // This way the result will be the same whether the tinycolor is initialized with string or object.
+    var match;
+    if ((match = matchers.rgb.exec(color))) {
+        return { r: match[1], g: match[2], b: match[3] };
+    }
+    if ((match = matchers.rgba.exec(color))) {
+        return { r: match[1], g: match[2], b: match[3], a: match[4] };
+    }
+    if ((match = matchers.hsl.exec(color))) {
+        return { h: match[1], s: match[2], l: match[3] };
+    }
+    if ((match = matchers.hsla.exec(color))) {
+        return { h: match[1], s: match[2], l: match[3], a: match[4] };
+    }
+    if ((match = matchers.hsv.exec(color))) {
+        return { h: match[1], s: match[2], v: match[3] };
+    }
+    if ((match = matchers.hsva.exec(color))) {
+        return { h: match[1], s: match[2], v: match[3], a: match[4] };
+    }
+    if ((match = matchers.hex8.exec(color))) {
+        return {
+            r: parseIntFromHex(match[1]),
+            g: parseIntFromHex(match[2]),
+            b: parseIntFromHex(match[3]),
+            a: convertHexToDecimal(match[4]),
+            format: named ? "name" : "hex8"
+        };
+    }
+    if ((match = matchers.hex6.exec(color))) {
+        return {
+            r: parseIntFromHex(match[1]),
+            g: parseIntFromHex(match[2]),
+            b: parseIntFromHex(match[3]),
+            format: named ? "name" : "hex"
+        };
+    }
+    if ((match = matchers.hex4.exec(color))) {
+        return {
+            r: parseIntFromHex(match[1] + '' + match[1]),
+            g: parseIntFromHex(match[2] + '' + match[2]),
+            b: parseIntFromHex(match[3] + '' + match[3]),
+            a: convertHexToDecimal(match[4] + '' + match[4]),
+            format: named ? "name" : "hex8"
+        };
+    }
+    if ((match = matchers.hex3.exec(color))) {
+        return {
+            r: parseIntFromHex(match[1] + '' + match[1]),
+            g: parseIntFromHex(match[2] + '' + match[2]),
+            b: parseIntFromHex(match[3] + '' + match[3]),
+            format: named ? "name" : "hex"
+        };
+    }
+
+    return false;
+}
+
+function validateWCAG2Parms(parms) {
+    // return valid WCAG2 parms for isReadable.
+    // If input parms are invalid, return {"level":"AA", "size":"small"}
+    var level, size;
+    parms = parms || {"level":"AA", "size":"small"};
+    level = (parms.level || "AA").toUpperCase();
+    size = (parms.size || "small").toLowerCase();
+    if (level !== "AA" && level !== "AAA") {
+        level = "AA";
+    }
+    if (size !== "small" && size !== "large") {
+        size = "small";
+    }
+    return {"level":level, "size":size};
+}
+
+// Node: Export function
+if (typeof module !== "undefined" && module.exports) {
+    module.exports = tinycolor;
+}
+// AMD/requirejs: Define the module
+else if (typeof define === 'function' && define.amd) {
+    define(function () {return tinycolor;});
+}
+// Browser: Expose to window
+else {
+    window.tinycolor = tinycolor;
+}
+
+})(Math);
+
+},{}],76:[function(require,module,exports){
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 var level_1 = require("./level");
@@ -63404,7 +64601,7 @@ var Display = /** @class */ (function () {
 }());
 exports.Display = Display;
 
-},{"./level":77,"./loggerManager":79}],76:[function(require,module,exports){
+},{"./level":78,"./loggerManager":80}],77:[function(require,module,exports){
 "use strict";
 /**
  * @file Automatically generated by barrelsby.
@@ -63418,7 +64615,7 @@ __export(require("./level"));
 __export(require("./logger"));
 __export(require("./loggerManager"));
 
-},{"./display":75,"./level":77,"./logger":78,"./loggerManager":79}],77:[function(require,module,exports){
+},{"./display":76,"./level":78,"./logger":79,"./loggerManager":80}],78:[function(require,module,exports){
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 /**
@@ -63448,7 +64645,7 @@ var Level;
     Level[Level["ERROR"] = 4] = "ERROR";
 })(Level = exports.Level || (exports.Level = {}));
 
-},{}],78:[function(require,module,exports){
+},{}],79:[function(require,module,exports){
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 var level_1 = require("./level");
@@ -63550,7 +64747,7 @@ var Logger = /** @class */ (function () {
 }());
 exports.Logger = Logger;
 
-},{"./display":75,"./level":77}],79:[function(require,module,exports){
+},{"./display":76,"./level":78}],80:[function(require,module,exports){
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 var logger_1 = require("./logger");
@@ -63667,7 +64864,7 @@ var LoggerManager = /** @class */ (function () {
 }());
 exports.LoggerManager = LoggerManager;
 
-},{"./logger":78}],80:[function(require,module,exports){
+},{"./logger":79}],81:[function(require,module,exports){
 // Copyright Joyent, Inc. and other Node contributors.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a
@@ -64401,7 +65598,7 @@ Url.prototype.parseHost = function() {
   if (host) this.hostname = host;
 };
 
-},{"./util":81,"punycode":67,"querystring":70}],81:[function(require,module,exports){
+},{"./util":82,"punycode":67,"querystring":70}],82:[function(require,module,exports){
 'use strict';
 
 module.exports = {
@@ -64419,7 +65616,7 @@ module.exports = {
   }
 };
 
-},{}],82:[function(require,module,exports){
+},{}],83:[function(require,module,exports){
 "use strict";
 var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
     function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
@@ -64465,12 +65662,12 @@ exports.Application = exports.CANVAS_HEIGHT = exports.CANVAS_WIDTH = void 0;
 var application_data_1 = require("./data/application.data");
 var typescript_logger_1 = require("typescript-logger");
 var pixi_js_1 = require("pixi.js");
-var site_1 = require("./site");
 var sprite_adapter_1 = require("./sprite.adapter");
 var form_parts_adapter_1 = require("./form-parts.adapter");
-var list_js_1 = __importDefault(require("list.js"));
 var site_value_1 = require("./site.value");
 var sprites_data_helper_1 = require("./sprites.data.helper");
+var site_1 = require("./site");
+var list_js_1 = __importDefault(require("list.js"));
 exports.CANVAS_WIDTH = 720;
 exports.CANVAS_HEIGHT = 720;
 var Application = (function () {
@@ -64526,38 +65723,12 @@ var Application = (function () {
         }
     };
     Application.prototype.initObservers = function () {
-        var that = this;
-        this._appData.currentSelectionFormObservable.attach(new (function () {
-            function class_1() {
-            }
-            class_1.prototype.update = function (subject) {
-                var _a;
-                (_a = that._spriteAdapter) === null || _a === void 0 ? void 0 : _a.updateParts(subject.data);
-            };
-            return class_1;
-        }()));
-        for (var _i = 0, _a = this._appData.forms; _i < _a.length; _i++) {
-            var form = _a[_i];
-            this._appData.getCurrentSelectionPartsObservables(form).forEach(function (obs) {
-                var form = obs.form;
-                var part = obs.part;
-                var observable = obs.observable;
-                observable.attach(new (function () {
-                    function class_2() {
-                    }
-                    class_2.prototype.update = function (subject) {
-                        var _a;
-                        (_a = that._spriteAdapter) === null || _a === void 0 ? void 0 : _a.updatePart(form, part, subject.data);
-                    };
-                    return class_2;
-                }()));
-            });
-        }
     };
     Application.prototype.initSettings = function () {
+        var _a, _b;
         return __awaiter(this, void 0, void 0, function () {
             var that;
-            return __generator(this, function (_a) {
+            return __generator(this, function (_c) {
                 that = this;
                 $('#btnClearSession').on('click', function () {
                     that._appData.clearSessionStorage();
@@ -64576,8 +65747,43 @@ var Application = (function () {
                 $('#chbShowGrid').prop('checked', this._appData.settings.show_grid);
                 $('#chbShowGrid').on('change', function () {
                     var checked = $(this).is(':checked');
-                    that._appData.settings.show_grid = checked;
-                    that._appData.settings = that._appData.settings;
+                    if (checked) {
+                        that._appData.showGrid();
+                    }
+                    else {
+                        that._appData.hideGrid();
+                    }
+                });
+                if (!this._appData.settings.outline_color) {
+                    this._appData.settings.outline_color = (_a = this._appData.getOutlineColor(this._appData.currentSelectionForm)) !== null && _a !== void 0 ? _a : application_data_1.DEFAULT_OUTLINE_COLOR;
+                }
+                this._appData.settings.outline_color = (_b = this._appData.settings.outline_color) !== null && _b !== void 0 ? _b : application_data_1.DEFAULT_CRAWS_COLOR;
+                this._appData.saveSettings();
+                $('#txtCrawsColor').spectrum({
+                    color: this._appData.settings.craws_color,
+                    showInput: true,
+                    showInitial: true,
+                    allowEmpty: true,
+                    showAlpha: false,
+                }).on('hide.spectrum', function (e, color) {
+                    var color_str = color.toHexString();
+                    that._appData.setCrawsColor(color_str);
+                }).on('move.spectrum', function (e, color) {
+                    var color_str = color.toHexString();
+                    that._appData.setCrawsColor(color_str);
+                });
+                $('#txtOutlinesColor').spectrum({
+                    color: this._appData.settings.outline_color,
+                    showInput: true,
+                    showInitial: true,
+                    allowEmpty: false,
+                    showAlpha: false,
+                }).on('hide.spectrum', function (e, color) {
+                    var color_str = color.toHexString();
+                    that._appData.setOutlineColor(color_str);
+                }).on('move.spectrum', function (e, color) {
+                    var color_str = color.toHexString();
+                    that._appData.setOutlineColor(color_str);
                 });
                 return [2];
             });
@@ -64647,7 +65853,7 @@ var Application = (function () {
     };
     Application.prototype.setupSpriteAdapters = function (loader, resources) {
         var _a;
-        (_a = this._spriteAdapter) === null || _a === void 0 ? void 0 : _a.init(this._appData.currentSelectionForm, resources);
+        (_a = this._spriteAdapter) === null || _a === void 0 ? void 0 : _a.init(this._appData.currentSelectionFormData, resources);
     };
     Application.prototype.loadProgressHandler = function () {
     };
@@ -64655,7 +65861,7 @@ var Application = (function () {
 }());
 exports.Application = Application;
 
-},{"./data/application.data":83,"./form-parts.adapter":85,"./site":88,"./site.value":89,"./sprite.adapter":90,"./sprites.data.helper":91,"list.js":44,"pixi.js":65,"typescript-logger":76}],83:[function(require,module,exports){
+},{"./data/application.data":84,"./form-parts.adapter":86,"./site":89,"./site.value":90,"./sprite.adapter":91,"./sprites.data.helper":92,"list.js":44,"pixi.js":65,"typescript-logger":77}],84:[function(require,module,exports){
 "use strict";
 var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
     function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
@@ -64697,12 +65903,12 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.setProperty = exports.getProperty = exports.getUnsafeProperty = exports.hasProperty = exports.ApplicationData = exports.CurrentSelectionPart = exports.Settings = exports.Theme = exports.WHOLE_PART = exports.ALL_FILTER = exports.DEFAULT_FLAG_NAME_NONE = void 0;
+exports.setProperty = exports.getProperty = exports.getUnsafeProperty = exports.hasProperty = exports.ApplicationData = exports.CurrentSelectionForm = exports.CurrentSelectionPart = exports.Settings = exports.Theme = exports.DEFAULT_OUTLINE_COLOR = exports.DEFAULT_CRAWS_COLOR = exports.WHOLE_PART = exports.ALL_FILTER = exports.DEFAULT_FLAG_NAME_NONE = void 0;
 var localforage_1 = __importDefault(require("localforage"));
 var observer_1 = require("../observer");
-var site_1 = require("../site");
 var sprite_data_1 = require("./sprite.data");
 var typescript_logger_1 = require("typescript-logger");
+var site_1 = require("../site");
 var STORAGE_KEY_SETTINGS = 'settings';
 var STORAGE_KEY_THEME = 'theme';
 var STORAGE_KEY_VERSION = 'version';
@@ -64714,6 +65920,8 @@ var STORAGE_KEY_LAST_FLAG = 'last_flag';
 exports.DEFAULT_FLAG_NAME_NONE = 'None';
 exports.ALL_FILTER = 'all';
 exports.WHOLE_PART = 'whole';
+exports.DEFAULT_CRAWS_COLOR = '#FFFFFF';
+exports.DEFAULT_OUTLINE_COLOR = '#000000';
 var Theme;
 (function (Theme) {
     Theme["Light"] = "light";
@@ -64722,6 +65930,8 @@ var Theme;
 var Settings = (function () {
     function Settings() {
         this.show_grid = false;
+        this.outline_color = exports.DEFAULT_OUTLINE_COLOR;
+        this.craws_color = exports.DEFAULT_CRAWS_COLOR;
     }
     return Settings;
 }());
@@ -64734,15 +65944,23 @@ var CurrentSelectionPart = (function () {
     return CurrentSelectionPart;
 }());
 exports.CurrentSelectionPart = CurrentSelectionPart;
+var CurrentSelectionForm = (function () {
+    function CurrentSelectionForm() {
+        this.form = '';
+        this.parts = {};
+    }
+    return CurrentSelectionForm;
+}());
+exports.CurrentSelectionForm = CurrentSelectionForm;
 var ApplicationData = (function () {
     function ApplicationData() {
         this._settings = new observer_1.DataSubject(new Settings());
         this._theme = Theme.Dark;
         this._version = site_1.site.version;
-        this._currentSelectionForm = new observer_1.DataSubject('');
+        this._currentSelectionForm = new observer_1.DataSubject(new CurrentSelectionForm());
+        this._currentSelectionParts = {};
         this._currentSelectionShowWhole = new observer_1.DataSubject(false);
         this._currentSelectionPartsFilter = {};
-        this._currentSelectionParts = {};
         this._lastFlag = new observer_1.DataSubject('');
         this._storeSession = localforage_1.default.createInstance({
             name: "session"
@@ -64773,12 +65991,12 @@ var ApplicationData = (function () {
             return __generator(this, function (_v) {
                 switch (_v.label) {
                     case 0:
-                        _v.trys.push([0, 15, , 16]);
+                        _v.trys.push([0, 14, , 15]);
                         _j = this;
                         return [4, this._storeSession.getItem(STORAGE_KEY_VERSION)];
                     case 1:
                         _j._version = (_a = _v.sent()) !== null && _a !== void 0 ? _a : '';
-                        if (!(this._version !== '')) return [3, 4];
+                        if (!(this._version !== '')) return [3, 13];
                         _k = this._settings;
                         return [4, this._storeSession.getItem(STORAGE_KEY_SETTINGS)];
                     case 2:
@@ -64787,57 +66005,55 @@ var ApplicationData = (function () {
                         return [4, this._storeSession.getItem(STORAGE_KEY_THEME)];
                     case 3:
                         _l._theme = (_c = _v.sent()) !== null && _c !== void 0 ? _c : this._theme;
-                        _v.label = 4;
-                    case 4:
-                        this._version = site_1.site.version;
-                        this._storeSession.setItem(STORAGE_KEY_VERSION, this._version);
                         _m = this._lastFlag;
                         return [4, this._storeSession.getItem(STORAGE_KEY_LAST_FLAG)];
-                    case 5:
+                    case 4:
                         _m.data = (_d = _v.sent()) !== null && _d !== void 0 ? _d : this._lastFlag.data;
                         _o = this._currentSelectionForm;
                         return [4, this._storeSession.getItem(STORAGE_KEY_CURRENT_SELECTION_FORM)];
-                    case 6:
+                    case 5:
                         _o.data = (_e = _v.sent()) !== null && _e !== void 0 ? _e : this._currentSelectionForm.data;
                         _p = this._currentSelectionShowWhole;
                         return [4, this._storeSession.getItem(STORAGE_KEY_CURRENT_SELECTION_SHOW_WHOLE)];
-                    case 7:
+                    case 6:
                         _p.data = (_f = _v.sent()) !== null && _f !== void 0 ? _f : this._currentSelectionShowWhole.data;
                         _i = 0, _q = this.forms;
-                        _v.label = 8;
-                    case 8:
-                        if (!(_i < _q.length)) return [3, 14];
+                        _v.label = 7;
+                    case 7:
+                        if (!(_i < _q.length)) return [3, 13];
                         form = _q[_i];
                         _r = 0, _s = this.getPartsList(form);
-                        _v.label = 9;
-                    case 9:
-                        if (!(_r < _s.length)) return [3, 13];
+                        _v.label = 8;
+                    case 8:
+                        if (!(_r < _s.length)) return [3, 12];
                         part = _s[_r];
                         part_key = ApplicationData.getStorageKeyCurrentSelectionPart(form, part);
                         part_filter_key = ApplicationData.getStorageKeyCurrentSelectionPartFilter(form, part);
                         _t = this._currentSelectionParts[form][part];
                         return [4, this._storeSession.getItem(part_key)];
-                    case 10:
+                    case 9:
                         _t.data = (_g = _v.sent()) !== null && _g !== void 0 ? _g : this._currentSelectionParts[form][part].data;
                         _u = this._currentSelectionPartsFilter[form][part];
                         return [4, this._storeSession.getItem(part_filter_key)];
-                    case 11:
+                    case 10:
                         _u.data = (_h = _v.sent()) !== null && _h !== void 0 ? _h : this._currentSelectionPartsFilter[form][part].data;
-                        _v.label = 12;
-                    case 12:
+                        _v.label = 11;
+                    case 11:
                         _r++;
-                        return [3, 9];
-                    case 13:
-                        _i++;
                         return [3, 8];
-                    case 14:
+                    case 12:
+                        _i++;
+                        return [3, 7];
+                    case 13:
+                        this._version = site_1.site.version;
+                        this._storeSession.setItem(STORAGE_KEY_VERSION, this._version);
                         this.saveCurrentSelection();
-                        return [3, 16];
-                    case 15:
+                        return [3, 15];
+                    case 14:
                         err_1 = _v.sent();
                         console.error('loadFromStorage', err_1);
-                        return [3, 16];
-                    case 16: return [2];
+                        return [3, 15];
+                    case 15: return [2];
                 }
             });
         });
@@ -64895,14 +66111,24 @@ var ApplicationData = (function () {
         enumerable: false,
         configurable: true
     });
+    ApplicationData.prototype.updateFormData = function (form) {
+        this._currentSelectionForm.data.form = form;
+        this._currentSelectionForm.data.parts = {};
+        var that = this;
+        Object.keys(this._currentSelectionParts[form]).forEach(function (part) {
+            that._currentSelectionForm.data.parts[part] = that._currentSelectionParts[form][part].data;
+        });
+        return this._currentSelectionForm.data;
+    };
     Object.defineProperty(ApplicationData.prototype, "currentSelectionForm", {
         get: function () {
-            return this._currentSelectionForm.data;
+            return this._currentSelectionForm.data.form;
         },
-        set: function (value) {
-            this._storeSession.setItem(STORAGE_KEY_CURRENT_SELECTION_FORM, value);
+        set: function (form) {
+            var new_value = this.updateFormData(form);
+            this._storeSession.setItem(STORAGE_KEY_CURRENT_SELECTION_FORM, new_value);
             this._storeSession.setItem(STORAGE_KEY_VERSION, this._version);
-            this._currentSelectionForm.data = value;
+            this._currentSelectionForm.data = new_value;
         },
         enumerable: false,
         configurable: true
@@ -64910,6 +66136,13 @@ var ApplicationData = (function () {
     Object.defineProperty(ApplicationData.prototype, "currentSelectionFormObservable", {
         get: function () {
             return this._currentSelectionForm;
+        },
+        enumerable: false,
+        configurable: true
+    });
+    Object.defineProperty(ApplicationData.prototype, "currentSelectionFormData", {
+        get: function () {
+            return this._currentSelectionForm.data;
         },
         enumerable: false,
         configurable: true
@@ -64972,6 +66205,10 @@ var ApplicationData = (function () {
         }
         this._storeSession.setItem(STORAGE_KEY_VERSION, this._version);
     };
+    ApplicationData.prototype.saveSettings = function () {
+        this._storeSession.setItem(STORAGE_KEY_SETTINGS, this._settings.data);
+        this._storeSession.setItem(STORAGE_KEY_VERSION, this._version);
+    };
     ApplicationData.prototype.initDefaultValues = function (form, default_flag_name) {
         for (var _i = 0, _a = this.getPartsList(form); _i < _a.length; _i++) {
             var part = _a[_i];
@@ -64980,6 +66217,7 @@ var ApplicationData = (function () {
                 this._currentSelectionParts[form][part].data.orientation = sprite_data_1.Orientation.Vertical;
             }
         }
+        this.updateFormData(form);
         this.log.debug('initDefaultValues', this._currentSelectionParts, this);
         this.saveCurrentSelection();
     };
@@ -65016,10 +66254,10 @@ var ApplicationData = (function () {
         this._currentSelectionParts[form][part].notify();
     };
     ApplicationData.prototype.setForm = function (form) {
-        if (this._currentSelectionForm.data === form) {
+        if (this._currentSelectionForm.data.form === form) {
             return;
         }
-        this._currentSelectionForm.data = form;
+        this._currentSelectionForm.data = this.updateFormData(form);
         this.saveCurrentSelection();
     };
     ApplicationData.prototype.setShowWhole = function (value) {
@@ -65029,8 +66267,34 @@ var ApplicationData = (function () {
         this._currentSelectionShowWhole.data = value;
         this.saveCurrentSelection();
     };
+    ApplicationData.prototype.setCrawsColor = function (color) {
+        this._settings.data.craws_color = color;
+        this.saveSettings();
+        this._settings.notify();
+    };
+    ApplicationData.prototype.setOutlineColor = function (color) {
+        this._settings.data.outline_color = color;
+        this.saveSettings();
+        this._settings.notify();
+    };
+    ApplicationData.prototype.showGrid = function () {
+        this._settings.data.show_grid = true;
+        this.saveSettings();
+        this._settings.notify();
+    };
+    ApplicationData.prototype.hideGrid = function () {
+        this._settings.data.show_grid = false;
+        this.saveSettings();
+        this._settings.notify();
+    };
     ApplicationData.prototype.getPartsList = function (form) {
         return (hasProperty(site_1.site.data.flags_config, form)) ? getUnsafeProperty(site_1.site.data.flags_config, form).parts : [];
+    };
+    ApplicationData.prototype.getOutlineColor = function (form) {
+        return (hasProperty(site_1.site.data.flags_config, form)) ? getUnsafeProperty(site_1.site.data.flags_config, form).outline : undefined;
+    };
+    ApplicationData.prototype.getCrawColors = function (form) {
+        return (hasProperty(site_1.site.data.flags_config, form)) ? getUnsafeProperty(site_1.site.data.flags_config, form).craws : [];
     };
     Object.defineProperty(ApplicationData.prototype, "forms", {
         get: function () {
@@ -65059,7 +66323,7 @@ function setProperty(obj, key, value) {
 }
 exports.setProperty = setProperty;
 
-},{"../observer":87,"../site":88,"./sprite.data":84,"localforage":60,"typescript-logger":76}],84:[function(require,module,exports){
+},{"../observer":88,"../site":89,"./sprite.data":85,"localforage":60,"typescript-logger":77}],85:[function(require,module,exports){
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.Orientation = void 0;
@@ -65069,7 +66333,7 @@ var Orientation;
     Orientation["Vertical"] = "vertical";
 })(Orientation = exports.Orientation || (exports.Orientation = {}));
 
-},{}],85:[function(require,module,exports){
+},{}],86:[function(require,module,exports){
 "use strict";
 var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
     function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
@@ -65114,23 +66378,25 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.FormPartsAdapter = void 0;
 var application_data_1 = require("./data/application.data");
 var sprite_data_1 = require("./data/sprite.data");
-var site_1 = require("./site");
 var typescript_logger_1 = require("typescript-logger");
 var site_value_1 = require("./site.value");
 var list_js_1 = __importDefault(require("list.js"));
 require("select2");
+var site_1 = require("./site");
 var SELECTABLE_PARTS_LIST_ITEMS_PER_PAGE = 8;
 var FormPartsAdapter = (function () {
     function FormPartsAdapter(appData, _sprite_data_helper) {
         this._parts_lists = {};
         this._fallbackSetFormEnableButton = undefined;
+        this._currentForm = new application_data_1.CurrentSelectionForm();
         this.log = typescript_logger_1.LoggerManager.create('FormPartsAdapter');
         this._appData = appData;
         this._sprite_data_helper = _sprite_data_helper;
+        this._currentForm = this._appData.currentSelectionFormData;
     }
     FormPartsAdapter.prototype.init = function () {
         this.initObservers();
-        this.updateUI();
+        this.updateUI(this._appData.currentSelectionFormData);
     };
     FormPartsAdapter.prototype.initObservers = function () {
         var that = this;
@@ -65138,7 +66404,7 @@ var FormPartsAdapter = (function () {
             function class_1() {
             }
             class_1.prototype.update = function (subject) {
-                that.updateUI();
+                that.updateUI(subject.data);
                 $(this).prop('disabled', false);
                 if (that._fallbackSetFormEnableButton) {
                     window.clearTimeout(that._fallbackSetFormEnableButton);
@@ -65193,10 +66459,12 @@ var FormPartsAdapter = (function () {
             return class_4;
         }()));
     };
-    FormPartsAdapter.prototype.updateUI = function () {
+    FormPartsAdapter.prototype.updateUI = function (current_form) {
+        this._currentForm = current_form;
         return Promise.all([
-            this.updateUISetForm(),
-            this.updateUISetParts()
+            this.updateUISetForm(current_form.form),
+            this.updateUISetParts(current_form),
+            this.updateUIToolbox(current_form.form)
         ]);
     };
     FormPartsAdapter.prototype.updateFilter = function (part, filter) {
@@ -65209,13 +66477,6 @@ var FormPartsAdapter = (function () {
         }
         (_a = this._parts_lists[part]) === null || _a === void 0 ? void 0 : _a.update();
     };
-    Object.defineProperty(FormPartsAdapter.prototype, "current_form", {
-        get: function () {
-            return this._appData.currentSelectionForm;
-        },
-        enumerable: false,
-        configurable: true
-    });
     Object.defineProperty(FormPartsAdapter.prototype, "filter_list", {
         get: function () {
             var ret = [application_data_1.ALL_FILTER];
@@ -65224,9 +66485,16 @@ var FormPartsAdapter = (function () {
         enumerable: false,
         configurable: true
     });
+    Object.defineProperty(FormPartsAdapter.prototype, "current_form", {
+        get: function () {
+            return this._currentForm.form;
+        },
+        enumerable: false,
+        configurable: true
+    });
     Object.defineProperty(FormPartsAdapter.prototype, "parts_list", {
         get: function () {
-            return this._appData.getPartsList(this.current_form);
+            return Object.keys(this._currentForm.parts);
         },
         enumerable: false,
         configurable: true
@@ -65274,7 +66542,26 @@ var FormPartsAdapter = (function () {
     FormPartsAdapter.prototype.getSelectedFilter = function (form, part) {
         return this._appData.getCurrentSelectionPartFilter(form, part);
     };
-    FormPartsAdapter.prototype.updateUISetForm = function () {
+    FormPartsAdapter.prototype.updateUIToolbox = function (form) {
+        return __awaiter(this, void 0, void 0, function () {
+            return __generator(this, function (_a) {
+                if (this._appData.getOutlineColor(form)) {
+                    $('form-group-outlines-color').removeClass('d-none');
+                }
+                else {
+                    $('form-group-outlines-color').addClass('d-none');
+                }
+                if (this._appData.getCrawColors(form)) {
+                    $('form-group-craws-color').removeClass('d-none');
+                }
+                else {
+                    $('form-group-craws-color').addClass('d-none');
+                }
+                return [2];
+            });
+        });
+    };
+    FormPartsAdapter.prototype.updateUISetForm = function (current_form) {
         return __awaiter(this, void 0, void 0, function () {
             var _i, _a, form, form_name, active, btn;
             return __generator(this, function (_b) {
@@ -65282,7 +66569,7 @@ var FormPartsAdapter = (function () {
                 for (_i = 0, _a = site_1.site.data.flags_config.forms; _i < _a.length; _i++) {
                     form = _a[_i];
                     form_name = site_1.site.data.strings.select_form[form];
-                    active = (this.current_form == form) ? 'active' : '';
+                    active = (current_form == form) ? 'active' : '';
                     btn = "<button type=\"button\" class=\"list-group-item " + active + "\" data-form=\"" + form + "\">\n                " + form_name + "\n            </button>";
                     $('#lstSelectForm').append(btn);
                 }
@@ -65291,22 +66578,23 @@ var FormPartsAdapter = (function () {
             });
         });
     };
-    FormPartsAdapter.prototype.updateUISetParts = function () {
+    FormPartsAdapter.prototype.updateUISetParts = function (current_form) {
         return __awaiter(this, void 0, void 0, function () {
             var form, _i, _a, part, id, _b, _c, part;
             return __generator(this, function (_d) {
-                form = this.current_form;
+                form = current_form.form;
                 $('#lstSelectContainer').empty().html(this.getSelectablePartsHTML(form));
-                for (_i = 0, _a = this.parts_list; _i < _a.length; _i++) {
+                for (_i = 0, _a = Object.keys(current_form.parts); _i < _a.length; _i++) {
                     part = _a[_i];
                     id = this.getListId(form, part);
                     this._parts_lists[part] = this.getSelectablePartsList(form, part);
                 }
                 this.initEventSetParts();
-                for (_b = 0, _c = this.parts_list; _b < _c.length; _b++) {
+                for (_b = 0, _c = Object.keys(current_form.parts); _b < _c.length; _b++) {
                     part = _c[_b];
                     this._parts_lists[part].update();
                 }
+                $('#chbShowWholePart').prop('checked', this._appData.currentSelectionShowWhole);
                 return [2];
             });
         });
@@ -65320,10 +66608,16 @@ var FormPartsAdapter = (function () {
     FormPartsAdapter.getPartNavLinkTabId = function (part) {
         return "pills-parts-" + part + "-tab";
     };
+    FormPartsAdapter.getPartTabId = function (form) {
+        return "pills-tab-" + form + "-parts";
+    };
+    FormPartsAdapter.getPartTabContentId = function (form) {
+        return "pills-" + form + "-parts-tabContent";
+    };
     FormPartsAdapter.prototype.getSelectablePartsHTML = function (form) {
         var _a;
-        var nav_tabs_id = "pills-tab-" + form + "-parts";
-        var nav_tab_content_id = "pills-" + form + "-parts-tabContent";
+        var nav_tabs_id = FormPartsAdapter.getPartTabId(form);
+        var nav_tab_content_id = FormPartsAdapter.getPartTabContentId(form);
         var default_selected_part = (this.parts_list.length > 0) ? this.parts_list[0] : application_data_1.WHOLE_PART;
         var nav_links = '';
         var tab_content_content = '';
@@ -65333,6 +66627,7 @@ var FormPartsAdapter = (function () {
             var selected = part == default_selected_part;
             var active = (selected) ? 'active' : '';
             var show_active = (selected) ? 'show active' : '';
+            var part_border = (selected) ? 'border border-light rounded' : 'border border-dark rounded';
             var nav_link_id = FormPartsAdapter.getPartNavLinkId(part);
             var nav_link_tab_id = FormPartsAdapter.getPartNavLinkTabId(part);
             var sprite_data = this.getCurrentSelectedSprite(form, part);
@@ -65357,7 +66652,7 @@ var FormPartsAdapter = (function () {
             tab_content_content += "<div class=\"tab-pane fade " + show_active + "\" id=\"" + nav_link_id + "\" role=\"tabpanel\" aria-labelledby=\"" + nav_link_tab_id + "\">\n                <ul class=\"list-group mt-2 mb-4\">\n                    " + current_part + "\n                </ul>\n                <div class=\"my-1 part-settings\">\n                    " + partSettings + "\n                </div>\n                <div class=\"mt-2\" id=\"" + id + "\">\n                    <div class=\"row mt-2\">\n                        <div class=\"col-12\">\n                            <div class=\"input-group\">\n                                " + filters + "\n                            </div>\n                        </div>\n                    </div>\n                    <div class=\"row mt-2\">\n                        <div class=\"col-12\">\n                            <div class=\"input-group\">\n                                <div class=\"input-group-prepend\">\n                                    <span class=\"input-group-text\" id=\"searchHelp" + id + "\"><i class=\"fas fa-search d-inline\"></i></span>\n                                </div>\n                                <input type=\"text\" class=\"form-control fuzzy-search\" id=\"search" + id + "\" aria-label=\"" + site_1.site.data.strings.parts_list.search_label + "\" aria-describedby=\"searchHelp" + id + "\" placeholder=\"" + site_1.site.data.strings.parts_list.search_label + "\">\n                            </div>\n                        </div>\n                    </div>\n\n                    <div class=\"row mt-2\">\n                        <div class=\"col-12\">\n                            <div class=\"list-group list\"></div>\n\n                            <nav class=\"my-2\" aria-label=\"" + site_1.site.data.strings.parts_list.pagination_label + "\">\n                                <ul class=\"pagination " + site_value_1.PAGINATION_CLASS + " justify-content-center\">\n                                </ul>\n                            </nav>\n                        </div>\n                    </div>\n                </div>\n            </div>\n";
             var default_sprite_data = this._sprite_data_helper.getDefaultSprite(form, part);
             var part_icon = (default_sprite_data !== undefined) ? FormPartsAdapter.getSelectPartIconHTML(default_sprite_data) : '';
-            nav_links += "<li class=\"nav-item\" role=\"presentation\">\n                <a class=\"nav-link " + active + "\" id=\"" + nav_link_tab_id + "\" data-toggle=\"pill\" href=\"#" + nav_link_id + "\" role=\"tab\" aria-controls=\"" + nav_link_id + "\" aria-selected=\"" + selected + "\">\n                    <span class=\"select-part-icon-container\">" + part_icon + "</span>\n                    " + part_label + "\n                </a>\n            </li>\n";
+            nav_links += "<li class=\"nav-item " + part_border + "\" role=\"presentation\">\n                <a class=\"nav-link nav-link-parts text-center " + active + "\" id=\"" + nav_link_tab_id + "\" data-toggle=\"pill\" href=\"#" + nav_link_id + "\" role=\"tab\" aria-controls=\"" + nav_link_id + "\" aria-selected=\"" + selected + "\">\n                    <span class=\"select-part-icon-container\">" + part_icon + "</span>\n                    " + part_label + "\n                </a>\n            </li>\n";
         }
         var nav_tabs = "<ul class=\"nav nav-pills\" id=\"" + nav_tabs_id + "\" role=\"tablist\">\n            " + nav_links + "\n        </ul>";
         return nav_tabs + "\n                <div class=\"tab-content\" id=\"" + nav_tab_content_id + "\">\n                    " + tab_content_content + "\n                </div>";
@@ -65404,12 +66699,12 @@ var FormPartsAdapter = (function () {
             return array.filter(function (obj) { return !check.has(obj[key]) && check.add(obj[key]); });
         };
         var selectable_parts = removeDuplicateObjectFromArray(this._sprite_data_helper.getSelectableSpritesParts(form, part).filter(function (it) { return it.flags_fits; }), 'flag_name');
-        return selectable_parts.map(function (selectable_part, index) { return _this.getListItemPart(part, selectable_part, index); }).filter(function (it) { return it !== undefined; });
+        return selectable_parts.map(function (selectable_part, index) { return _this.getListItemPart(form, part, selectable_part, index); }).filter(function (it) { return it !== undefined; });
     };
-    FormPartsAdapter.prototype.getListItemPart = function (part, selectable_part, index) {
+    FormPartsAdapter.prototype.getListItemPart = function (form, part, selectable_part, index) {
         var selectable_flag = site_1.site.data.flags.find(function (it) { return it.name == selectable_part.flag_name; });
         if (selectable_flag !== undefined) {
-            return this.getListItemValue(this.current_form, part, selectable_flag, index);
+            return this.getListItemValue(form, part, selectable_flag, index);
         }
         return undefined;
     };
@@ -65441,7 +66736,7 @@ var FormPartsAdapter = (function () {
         $('#lstSelectForm').find('.list-group-item').off('click').on('click', function () {
             var _this = this;
             var form = $(this).data('form');
-            if (that.current_form !== form) {
+            if (that._appData.currentSelectionForm !== form) {
                 $(this).prop('disabled', true);
                 that._appData.setForm(form);
                 that._fallbackSetFormEnableButton = window.setTimeout(function () {
@@ -65455,7 +66750,7 @@ var FormPartsAdapter = (function () {
         var that = this;
         var _loop_1 = function (part) {
             this_1._parts_lists[part].on('updated', function (list) {
-                var form = that.current_form;
+                var form = that._appData.currentSelectionForm;
                 var selected_flag_name = that.getSelectedFlagName(form, part);
                 list.items.forEach(function (it, index) {
                     var item = it.values();
@@ -65538,16 +66833,21 @@ var FormPartsAdapter = (function () {
             var value = $(this).is(":checked");
             that._appData.setShowWhole(value);
         });
+        $('#' + FormPartsAdapter.getPartTabId(this.current_form)).on('shown.bs.tab', function (e) {
+            var new_tab = $(e.target);
+            var prev_tab = $(e.relatedTarget);
+            new_tab.parent('.nav-item.border').addClass('border-light').removeClass('border-dark');
+            prev_tab.parent('.nav-item.border').removeClass('border-light').addClass('border-dark');
+        });
     };
     return FormPartsAdapter;
 }());
 exports.FormPartsAdapter = FormPartsAdapter;
 ;
 
-},{"./data/application.data":83,"./data/sprite.data":84,"./site":88,"./site.value":89,"list.js":44,"select2":72,"typescript-logger":76}],86:[function(require,module,exports){
+},{"./data/application.data":84,"./data/sprite.data":85,"./site":89,"./site.value":90,"list.js":44,"select2":72,"typescript-logger":77}],87:[function(require,module,exports){
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-require("./site");
 var application_1 = require("./application");
 var typescript_logger_1 = require("typescript-logger");
 $(function () {
@@ -65558,7 +66858,7 @@ $(function () {
     app.init();
 });
 
-},{"./application":82,"./site":88,"typescript-logger":76}],87:[function(require,module,exports){
+},{"./application":83,"typescript-logger":77}],88:[function(require,module,exports){
 "use strict";
 var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
     function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
@@ -65813,7 +67113,7 @@ var DataListSubject = (function () {
 }());
 exports.DataListSubject = DataListSubject;
 
-},{"typescript-logger":76}],88:[function(require,module,exports){
+},{"typescript-logger":77}],89:[function(require,module,exports){
 'use strict';
 String.prototype.format = function () {
     var args = arguments;
@@ -65897,7 +67197,7 @@ module.exports = {
     clamp: clamp
 };
 
-},{}],89:[function(require,module,exports){
+},{}],90:[function(require,module,exports){
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.LIST_JS_PAGINATION = exports.PAGINATION_CLASS = void 0;
@@ -65911,8 +67211,11 @@ exports.LIST_JS_PAGINATION = [{
     }];
 ;
 
-},{}],90:[function(require,module,exports){
+},{}],91:[function(require,module,exports){
 "use strict";
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.SpriteAdapter = void 0;
 var pixi_js_1 = require("pixi.js");
@@ -65920,33 +67223,49 @@ var typescript_logger_1 = require("typescript-logger");
 var application_data_1 = require("./data/application.data");
 var sprite_data_1 = require("./data/sprite.data");
 var site_1 = require("./site");
+var tinycolor2_1 = __importDefault(require("tinycolor2"));
 var SpriteAdapter = (function () {
     function SpriteAdapter(pixiApp, appData, downloadButton, downloadFullButton) {
         if (downloadButton === void 0) { downloadButton = undefined; }
         if (downloadFullButton === void 0) { downloadFullButton = undefined; }
         this._sprites = {};
         this._parts_container = new pixi_js_1.Container();
-        this._grid = new PixiJSGrid(0);
+        this._grid_in = new PixiJSGrid(0);
+        this._grid_out = new PixiJSGrid(0);
+        this._grids = new pixi_js_1.Container();
+        this._currentForm = new application_data_1.CurrentSelectionForm();
+        this._show_grid = false;
         this.log = typescript_logger_1.LoggerManager.create('SpritePawPartsAdapter');
+        this.OUTLINE_SPRITE_NAME = 'outline';
+        this.CRAWS_SPRITE_NAME = 'craws';
         this._pixiApp = pixiApp;
         this._appData = appData;
         this._downloadButton = downloadButton;
         this._downloadFullButton = downloadFullButton;
+        this._currentForm = this._appData.currentSelectionFormData;
+        this._show_grid = this._appData.settings.show_grid;
     }
-    SpriteAdapter.prototype.init = function (form, resources) {
+    SpriteAdapter.prototype.init = function (current_form, resources) {
         var _this = this;
+        var form = current_form.form;
+        var parts = current_form.parts;
         this._resources = resources;
-        this.updateParts(form);
-        this._grid = new PixiJSGrid(this._parts_container.width);
+        this.updateParts(form, parts);
+        this._grid_out = new PixiJSGrid(this._parts_container.width);
+        this._grid_in = new PixiJSGrid(this._parts_container.width);
+        this._grids.addChild(this._grid_out);
+        this._grids.addChild(this._grid_in);
         this._pixiApp.stage.addChild(this._parts_container);
-        this._pixiApp.stage.addChild(this._grid);
+        this._pixiApp.stage.addChild(this._grids);
         this._pixiApp.ticker.add(function () {
             _this._pixiApp.renderer.render(_this._parts_container);
             if (_this._appData.settings.show_grid) {
-                _this._grid.drawGrid();
+                _this._grid_out.drawGrid();
+                _this._grid_in.drawGrid();
             }
             else {
-                _this._grid.clearGrid();
+                _this._grid_in.clearGrid();
+                _this._grid_out.clearGrid();
             }
         });
         var that = this;
@@ -65959,24 +67278,37 @@ var SpriteAdapter = (function () {
     };
     SpriteAdapter.prototype.updatePart = function (form, part, part_data) {
         var _a, _b;
-        this.setPart(form, (_a = part_data.flag_name) !== null && _a !== void 0 ? _a : 'None', part, (_b = part_data.orientation) !== null && _b !== void 0 ? _b : sprite_data_1.Orientation.Vertical, false);
+        this.setPart(form, (_a = part_data.flag_name) !== null && _a !== void 0 ? _a : application_data_1.DEFAULT_FLAG_NAME_NONE, part, (_b = part_data.orientation) !== null && _b !== void 0 ? _b : sprite_data_1.Orientation.Vertical, false);
         this.updateSprite();
         this.updateDownloadButton();
     };
-    SpriteAdapter.prototype.updateParts = function (form) {
+    SpriteAdapter.prototype.updateParts = function (form, parts) {
         var _a, _b;
         this._parts_container.removeChildren();
-        for (var _i = 0, _c = this._appData.getPartsList(form); _i < _c.length; _i++) {
+        for (var _i = 0, _c = Object.keys(parts); _i < _c.length; _i++) {
             var part = _c[_i];
-            var part_data = this._appData.getCurrentSelectionPartData(form, part);
+            var part_data = (part in parts) ? parts[part] : undefined;
+            var orientation_1 = (_a = part_data === null || part_data === void 0 ? void 0 : part_data.orientation) !== null && _a !== void 0 ? _a : sprite_data_1.Orientation.Vertical;
             if (part_data !== undefined) {
-                this.setPart(form, (_a = part_data.flag_name) !== null && _a !== void 0 ? _a : 'None', part, (_b = part_data.orientation) !== null && _b !== void 0 ? _b : sprite_data_1.Orientation.Vertical, false);
+                this.setPart(form, (_b = part_data.flag_name) !== null && _b !== void 0 ? _b : application_data_1.DEFAULT_FLAG_NAME_NONE, part, orientation_1, false);
                 if (part in this._sprites && (part !== application_data_1.WHOLE_PART && !this._appData.currentSelectionShowWhole) || (part == application_data_1.WHOLE_PART && this._appData.currentSelectionShowWhole)) {
                     this._parts_container.addChild(this._sprites[part]);
                 }
             }
             else {
                 this.log.warn('updateParts', "no sprite data for " + part);
+            }
+            if (this._appData.settings.craws_color) {
+                var craws_sprite = this.setCraws(form, part, orientation_1, this._appData.settings.craws_color);
+                if (craws_sprite) {
+                    this._parts_container.addChild(craws_sprite);
+                }
+            }
+            if (this._appData.settings.outline_color) {
+                var outline_sprite = this.setOutline(form, part, orientation_1, this._appData.settings.outline_color);
+                if (outline_sprite) {
+                    this._parts_container.addChild(outline_sprite);
+                }
             }
         }
         this.updateSprite();
@@ -66005,44 +67337,135 @@ var SpriteAdapter = (function () {
         if (update_sprite === void 0) { update_sprite = true; }
         if (this._resources !== undefined) {
             var sprite_data = site_1.site.data.sprites.find(function (it) { return it.flag_name == flag_name && it.form == form && it.part == part && it.orientation == orientation; });
-            if (sprite_data !== undefined) {
-                var resource = this._resources[sprite_data.sheet];
-                if (resource != undefined && resource.textures !== undefined) {
-                    var texture = resource.textures[sprite_data.id];
-                    if (!(part in this._sprites)) {
-                        this._sprites[part] = new pixi_js_1.Sprite(texture);
-                    }
-                    else {
-                        this._sprites[part].texture = texture;
-                    }
-                    this._sprites[part].texture.baseTexture.scaleMode = PIXI.SCALE_MODES.NEAREST;
-                    if (update_sprite) {
-                        this.updateSprite();
-                    }
-                    this._sprites[part].texture.baseTexture.update();
-                    this._sprites[part].texture.update();
-                    return true;
+            this.setPartSprite(sprite_data, form, flag_name, part, orientation, update_sprite);
+        }
+    };
+    SpriteAdapter.prototype.setCraws = function (form, part, orientation, color, update_sprite) {
+        if (color === void 0) { color = application_data_1.DEFAULT_CRAWS_COLOR; }
+        if (update_sprite === void 0) { update_sprite = true; }
+        if (this._resources !== undefined) {
+            var craws_sprite_data = site_1.site.data.sprites.find(function (it) { return it.craws && it.form == form && it.part == part && it.orientation == orientation; });
+            if (craws_sprite_data !== undefined) {
+                var ret = this.setSpriteTexture(this.CRAWS_SPRITE_NAME, craws_sprite_data, update_sprite);
+                if (ret) {
+                    ret.tint = parseInt("0x" + tinycolor2_1.default(color).toHex());
                 }
-                else {
-                    this.log.warn('setPart', sprite_data.sheet + " not found or no textures", this._resources[sprite_data.sheet]);
-                }
+                return ret;
             }
             else {
-                this.log.warn('setPart', flag_name + " " + part + " " + orientation + " not found in meta");
+                this.clearSpriteTexture(this.CRAWS_SPRITE_NAME);
             }
         }
-        return false;
+        return undefined;
+    };
+    SpriteAdapter.prototype.setOutline = function (form, part, orientation, color, update_sprite) {
+        if (color === void 0) { color = application_data_1.DEFAULT_OUTLINE_COLOR; }
+        if (update_sprite === void 0) { update_sprite = true; }
+        if (this._resources !== undefined) {
+            var outlines_sprite_data = site_1.site.data.sprites.find(function (it) { return it.outlines && it.form == form && it.part == part && it.orientation == orientation; });
+            if (outlines_sprite_data !== undefined) {
+                var ret = this.setSpriteTexture(this.OUTLINE_SPRITE_NAME, outlines_sprite_data, update_sprite);
+                if (ret) {
+                    ret.tint = parseInt("0x" + tinycolor2_1.default(color).toHex());
+                }
+                return ret;
+            }
+            else {
+                this.clearSpriteTexture(this.OUTLINE_SPRITE_NAME);
+            }
+        }
+        return undefined;
     };
     SpriteAdapter.prototype.initObservers = function () {
         var that = this;
-        this._appData.settingsObservable.attach(new (function () {
+        this._appData.currentSelectionFormObservable.attach(new (function () {
             function class_1() {
             }
             class_1.prototype.update = function (subject) {
-                that.updateGrid();
+                that._currentForm = subject.data;
+                that.updateParts(that._currentForm.form, that._currentForm.parts);
             };
             return class_1;
         }()));
+        for (var _i = 0, _a = this._appData.forms; _i < _a.length; _i++) {
+            var form = _a[_i];
+            this._appData.getCurrentSelectionPartsObservables(form).forEach(function (obs) {
+                var form = obs.form;
+                var part = obs.part;
+                var observable = obs.observable;
+                observable.attach(new (function () {
+                    function class_2() {
+                    }
+                    class_2.prototype.update = function (subject) {
+                        that.updatePart(form, part, subject.data);
+                    };
+                    return class_2;
+                }()));
+            });
+        }
+        this._appData.settingsObservable.attach(new (function () {
+            function class_3() {
+            }
+            class_3.prototype.update = function (subject) {
+                that._show_grid = subject.data.show_grid;
+                that.updateParts(that._currentForm.form, that._currentForm.parts);
+                that.updateGrid(subject.data.show_grid);
+            };
+            return class_3;
+        }()));
+        this._appData.currentSelectionShowWholeObservable.attach(new (function () {
+            function class_4() {
+            }
+            class_4.prototype.update = function (subject) {
+                that.updateParts(that._currentForm.form, that._currentForm.parts);
+            };
+            return class_4;
+        }()));
+    };
+    SpriteAdapter.prototype.setPartSprite = function (sprite_data, form, flag_name, part, orientation, update_sprite) {
+        if (update_sprite === void 0) { update_sprite = true; }
+        if (this._resources !== undefined) {
+            if (sprite_data !== undefined) {
+                return this.setSpriteTexture(part, sprite_data, update_sprite);
+            }
+            else {
+                this.clearSpriteTexture(part);
+                this.log.warn('setPart', flag_name + " " + part + " " + orientation + " not found in meta");
+            }
+        }
+        return undefined;
+    };
+    SpriteAdapter.prototype.clearSpriteTexture = function (sprite_name) {
+        if (sprite_name in this._sprites) {
+            this._parts_container.removeChild(this._sprites[sprite_name]);
+            delete this._sprites[sprite_name];
+        }
+    };
+    SpriteAdapter.prototype.setSpriteTexture = function (sprite_name, sprite_data, update_sprite) {
+        if (update_sprite === void 0) { update_sprite = true; }
+        if (this._resources !== undefined) {
+            var resource = this._resources[sprite_data.sheet];
+            if (resource != undefined && resource.textures !== undefined) {
+                var texture = resource.textures[sprite_data.id];
+                if (!(sprite_name in this._sprites)) {
+                    this._sprites[sprite_name] = new pixi_js_1.Sprite(texture);
+                }
+                else {
+                    this._sprites[sprite_name].texture = texture;
+                }
+                this._sprites[sprite_name].texture.baseTexture.scaleMode = PIXI.SCALE_MODES.NEAREST;
+                if (update_sprite) {
+                    this.updateSprite();
+                }
+                this._sprites[sprite_name].texture.baseTexture.update();
+                this._sprites[sprite_name].texture.update();
+                return this._sprites[sprite_name];
+            }
+            else {
+                this.log.warn('setSpriteTexture', sprite_data.sheet + " not found or no textures", this._resources[sprite_data.sheet]);
+            }
+        }
+        return undefined;
     };
     SpriteAdapter.prototype.updateSprite = function () {
         var offset_x = (this._pixiApp.screen.width >= 32) ? 16 : (this._pixiApp.screen.width >= 8) ? 8 : 0;
@@ -66054,27 +67477,43 @@ var SpriteAdapter = (function () {
         this._parts_container.position.set(this._pixiApp.screen.width / 2 - this._parts_container.width / 2, this._pixiApp.screen.height / 2 - this._parts_container.height / 2);
         this.log.debug('updateSprite: window', display_width, display_height);
         this.log.debug('updateSprite: sprites', this._parts_container.x, this._parts_container.y, this._parts_container.width, this._parts_container.height, this._parts_container);
-        this.updateGrid();
+        this._grid_in = new PixiJSGrid(this._parts_container.width);
+        this._grid_out = new PixiJSGrid(this._parts_container.width);
+        this.updateGrid(this._show_grid);
     };
-    SpriteAdapter.prototype.updateGrid = function () {
-        this._grid.position = this._parts_container.position;
-        this._grid.cellSize = this._parts_container.scale.x;
-        this._grid.blendMode = PIXI.BLEND_MODES.SUBTRACT;
+    SpriteAdapter.prototype.updateGrid = function (show_grid) {
+        this._show_grid = show_grid;
+        this._grids.position = this._parts_container.position;
+        this._grid_in.cellSize = this._parts_container.scale.x;
+        this._grid_out.cellSize = this._parts_container.scale.x;
+        this._grid_in.blendMode = PIXI.BLEND_MODES.SRC_OUT;
+        this._grid_out.blendMode = PIXI.BLEND_MODES.SUBTRACT;
+        this._grids.removeChildren();
+        if (this._show_grid) {
+            this._grids.addChild(this._grid_out);
+            this._grids.addChild(this._grid_in);
+            this._grid_out.drawGrid();
+            this._grid_in.drawGrid();
+        }
+        else {
+            this._grid_in.clearGrid();
+            this._grid_out.clearGrid();
+        }
     };
     return SpriteAdapter;
 }());
 exports.SpriteAdapter = SpriteAdapter;
 
-},{"./data/application.data":83,"./data/sprite.data":84,"./site":88,"pixi.js":65,"typescript-logger":76}],91:[function(require,module,exports){
+},{"./data/application.data":84,"./data/sprite.data":85,"./site":89,"pixi.js":65,"tinycolor2":75,"typescript-logger":77}],92:[function(require,module,exports){
 "use strict";
 var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.SpriteDataHelper = exports.FLAG_NAME_NONE_DEFAULT = void 0;
+var site_1 = require("./site");
 var memory_cache_1 = __importDefault(require("memory-cache"));
 var sprite_data_1 = require("./data/sprite.data");
-var site_1 = require("./site");
 exports.FLAG_NAME_NONE_DEFAULT = 'None';
 var SpriteDataHelper = (function () {
     function SpriteDataHelper() {
@@ -66217,5 +67656,5 @@ var SpriteDataHelper = (function () {
 }());
 exports.SpriteDataHelper = SpriteDataHelper;
 
-},{"./data/sprite.data":84,"./site":88,"memory-cache":61}]},{},[86])
+},{"./data/sprite.data":85,"./site":89,"memory-cache":61}]},{},[87])
 //# sourceMappingURL=bundle.js.map

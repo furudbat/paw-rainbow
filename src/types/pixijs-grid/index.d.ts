@@ -1,3 +1,9 @@
+// Type definitions for pixijs-grid
+// Project: https://github.com/LAG1996/pixijs-grid
+// Definitions by: furudbat <https://github.com/furudbat>
+// TypeScript Version: 2.3
+
+/// <reference types="pixi.js"/>
 
 declare interface PixiJSGridLineStyle {
     width: number;

@@ -27,6 +27,7 @@
     "pixi.js": "^5.3.6",
     "pixijs-grid": "^0.4.1",
     "select2": "^4.0.13",
+    "spectrum-colorpicker2": "^2.0.5",
     "typescript-logger": "^2.0.1"
   },
   "devDependencies": {
@@ -40,6 +41,7 @@
     "@types/memory-cache": "^0.2.1",
     "@types/node": "^14.14.10",
     "@types/select2": "^4.0.53",
+    "@types/tinycolor2": "^1.4.2",
     "browser-pack-flat": "^3.4.2",
     "browserify": "^16.5.2",
     "common-shakeify": "^0.6.2",
@@ -47,6 +49,7 @@
     "exorcist": "^1.0.1",
     "semver": "^6.3.0",
     "should": "*",
+    "tinycolor2": "^1.4.2",
     "ts-loader": "^8.0.3",
     "tsify": "^5.0.2",
     "typescript": "^4.0.2",

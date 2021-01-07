@@ -17,9 +17,14 @@
     "lib": [
       "dom",
       "es6"
-    ]
+    ],
+    "typeRoots": ["./node_modules/@types", "./src/types"]
+  },	
+  "globalDependencies": {
+	  "site.js": "file:./src/site.d.ts",
+	  "spectrum-colorpicker2": "file:./src/types/spectrum-colorpicker2/index.d.ts",
+	  "pixijs-grid": "file:./src/types/pixijs-grid/index.d.ts"
   },
-
   "include": [
     "src/**/*",
     "lib/**/*"

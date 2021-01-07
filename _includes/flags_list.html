@@ -1,5 +1,5 @@
 <div class="row mt-5">
-    <div class="col-4" id="lstFlagInfo">
+    <div class="col-3" id="lstFlagInfo">
         <div class="input-group">
             <div class="input-group-prepend">
                 <span class="input-group-text" id="searchHelpFlagInfo"><i class="fas fa-search d-inline"></i></span>
@@ -7,7 +7,7 @@
             <input type="text" class="form-control fuzzy-search" id="searchFlagInfo" aria-label="{{site.data.strings.flag_info.search_label}}" aria-describedby="searchHelpFlagInfo" placeholder="{{site.data.strings.flag_info.search_label}}">
         </div>
 
-        <div class="list-group list" role="tablist">
+        <div class="list-group list mt-1" role="tablist">
         {% for flag_info in site.data.flags_info %}
             {% assign id = flag_info.name | downcase | replace " ", "_" | replace "'", "" | replace "+", "" %}
             <a class="list-group-item list-group-item-action flag_name" id="list-{{- id -}}-list" data-toggle="list"
@@ -20,7 +20,7 @@
             </ul>
         </nav>
     </div>
-    <div class="col-8">
+    <div class="col-5">
         <div class="tab-content" id="nav-tabContent">
         {% for flag_info in site.data.flags_info %}
             {% assign id = flag_info.name | downcase | replace " ", "_" | replace "'", "" | replace "+", "" %}

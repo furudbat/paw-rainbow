@@ -1,13 +1,13 @@
-import { ALL_FILTER, ApplicationData, CurrentSelectionPart, WHOLE_PART } from "./data/application.data";
+import { ALL_FILTER, ApplicationData, CurrentSelectionForm, CurrentSelectionPart, WHOLE_PART } from "./data/application.data";
 import { Orientation, SpriteData } from "./data/sprite.data";
-import { site } from "./site";
 import { LoggerManager } from 'typescript-logger';
 import { DataObserver, DataSubject } from './observer';
 import { FlagData } from "./data/flag.data";
 import { LIST_JS_PAGINATION, PAGINATION_CLASS } from "./site.value";
+import { SpriteDataHelper } from "./sprites.data.helper";
 import List from 'list.js';
 import 'select2';
-import { SpriteDataHelper } from "./sprites.data.helper";
+import { site } from "./site";
 
 const SELECTABLE_PARTS_LIST_ITEMS_PER_PAGE = 8;
 
@@ -16,24 +16,26 @@ export class FormPartsAdapter {
     private _parts_lists: Record<string, List> = {};
     private _sprite_data_helper: SpriteDataHelper;
     private _fallbackSetFormEnableButton: number | undefined = undefined;
+    private _currentForm = new CurrentSelectionForm();
 
     private log = LoggerManager.create('FormPartsAdapter');
 
     constructor(appData: ApplicationData, _sprite_data_helper: SpriteDataHelper) {
         this._appData = appData;
         this._sprite_data_helper = _sprite_data_helper;
+        this._currentForm = this._appData.currentSelectionFormData;
     }
 
     public init() {
         this.initObservers();
-        this.updateUI();
+        this.updateUI(this._appData.currentSelectionFormData);
     }
 
     private initObservers() {
         var that = this;
-        this._appData.currentSelectionFormObservable.attach(new class implements DataObserver<string>{
-            update(subject: DataSubject<string>): void {
-                that.updateUI();
+        this._appData.currentSelectionFormObservable.attach(new class implements DataObserver<CurrentSelectionForm>{
+            update(subject: DataSubject<CurrentSelectionForm>): void {
+                that.updateUI(subject.data);
                 $(this).prop('disabled', false);
 
                 if (that._fallbackSetFormEnableButton) {
@@ -43,7 +45,7 @@ export class FormPartsAdapter {
             }
         });
 
-        for(const form of this._appData.forms) {
+        for (const form of this._appData.forms) {
             this._appData.getCurrentSelectionPartsFilterObservables(form).forEach(obs => {
                 const form = obs.form;
                 const part = obs.part;
@@ -51,14 +53,14 @@ export class FormPartsAdapter {
                 observable.attach(new class implements DataObserver<string>{
                     update(subject: DataSubject<string>): void {
                         //that.log.debug('update currentSelection filter', form, part, subject.data, that._last_values);
-    
+
                         if (that.current_form === form) {
                             that.updateFilter(part, subject.data);
                         }
                     }
                 });
             });
-    
+
             this._appData.getCurrentSelectionPartsObservables(form).forEach(obs => {
                 const form = obs.form;
                 const part = obs.part;
@@ -66,7 +68,7 @@ export class FormPartsAdapter {
                 observable.attach(new class implements DataObserver<CurrentSelectionPart>{
                     update(subject: DataSubject<CurrentSelectionPart>): void {
                         //that.log.debug('update currentSelection part', form, part, subject.data, that._last_values);
-    
+
                         that.updateSelectedPartUI(form, part);
                         if (that.current_form === form) {
                             that._parts_lists[part]?.update();
@@ -86,10 +88,12 @@ export class FormPartsAdapter {
         });
     }
 
-    public updateUI() {
+    public updateUI(current_form: CurrentSelectionForm) {
+        this._currentForm = current_form;
         return Promise.all([
-            this.updateUISetForm(),
-            this.updateUISetParts()
+            this.updateUISetForm(current_form.form),
+            this.updateUISetParts(current_form),
+            this.updateUIToolbox(current_form.form)
         ]);
     }
 
@@ -102,17 +106,17 @@ export class FormPartsAdapter {
         this._parts_lists[part]?.update();
     }
 
-    get current_form() {
-        return this._appData.currentSelectionForm;
-    }
-
     get filter_list() {
         let ret = [ALL_FILTER];
         return ret.concat(site.data.flags_config.categories);
     }
 
+    get current_form() {
+        return this._currentForm.form;
+    }
+
     get parts_list() {
-        return this._appData.getPartsList(this.current_form);
+        return Object.keys(this._currentForm.parts);
     }
 
     public getListId(form: string, part: string) {
@@ -135,14 +139,14 @@ export class FormPartsAdapter {
     private async updateSelectedPartUI(form: string, part: string) {
         const sprite_data = this.getCurrentSelectedSprite(form, part) ?? this._sprite_data_helper.getDefaultSprite(form, part);
         if (sprite_data !== undefined) {
-            $('#'+this.getCurrentSelectedPartId(form, part)).replaceWith(this.getSelectedPartHTML(form, part, sprite_data));
+            $('#' + this.getCurrentSelectedPartId(form, part)).replaceWith(this.getSelectedPartHTML(form, part, sprite_data));
         }
     }
 
     private getCurrentSelectedSprite(form: string, part: string) {
         const flag_name = this.getSelectedFlagName(form, part);
         const orientation = this.getSelectedOrientation(form, part);
-        return (flag_name !== undefined && orientation !== undefined)? this._sprite_data_helper.getSelectableSprite(form, part, flag_name, orientation) : undefined;
+        return (flag_name !== undefined && orientation !== undefined) ? this._sprite_data_helper.getSelectableSprite(form, part, flag_name, orientation) : undefined;
     }
 
     private getSelectedOrientation(form: string, part: string) {
@@ -155,12 +159,27 @@ export class FormPartsAdapter {
         return this._appData.getCurrentSelectionPartFilter(form, part);
     }
 
-    private async updateUISetForm() {
+
+    private async updateUIToolbox(form: string) {
+        if (this._appData.getOutlineColor(form)) {
+            $('form-group-outlines-color').removeClass('d-none');
+        } else {
+            $('form-group-outlines-color').addClass('d-none');
+        }
+
+        if (this._appData.getCrawColors(form)) {
+            $('form-group-craws-color').removeClass('d-none');
+        } else {
+            $('form-group-craws-color').addClass('d-none');
+        }
+    }
+
+    private async updateUISetForm(current_form: string) {
         $('#lstSelectForm').empty();
 
         for (const form of site.data.flags_config.forms) {
             const form_name = site.data.strings.select_form[form];
-            const active = (this.current_form == form) ? 'active' : '';
+            const active = (current_form == form) ? 'active' : '';
 
             const btn = `<button type="button" class="list-group-item ${active}" data-form="${form}">
                 ${form_name}
@@ -172,35 +191,43 @@ export class FormPartsAdapter {
         this.initEventSetForm();
     }
 
-    private async updateUISetParts() {
-        const form = this.current_form;
+    private async updateUISetParts(current_form: CurrentSelectionForm) {
+        const form = current_form.form;
         $('#lstSelectContainer').empty().html(this.getSelectablePartsHTML(form));
-        for (const part of this.parts_list) {
+        for (const part of Object.keys(current_form.parts)) {
             const id = this.getListId(form, part);
             this._parts_lists[part] = this.getSelectablePartsList(form, part);
         }
 
         this.initEventSetParts();
-        for (const part of this.parts_list) {
+        for (const part of Object.keys(current_form.parts)) {
             this._parts_lists[part].update();
         }
+
+        $('#chbShowWholePart').prop('checked', this._appData.currentSelectionShowWhole);
     }
 
     static getSelectFilterId(form: string, part: string) {
         return `lstSelectFilter${form}_${part}`;
     }
-    static getPartNavLinkId(part: string) { 
+    static getPartNavLinkId(part: string) {
         return `pills-parts-${part}`;
     }
-    static getPartNavLinkTabId(part: string) { 
-        return`pills-parts-${part}-tab`;
+    static getPartNavLinkTabId(part: string) {
+        return `pills-parts-${part}-tab`;
+    }
+    static getPartTabId(form: string) {
+        return `pills-tab-${form}-parts`;
+    }
+    static getPartTabContentId(form: string) {
+        return `pills-${form}-parts-tabContent`;
     }
 
     private getSelectablePartsHTML(form: string) {
-        const nav_tabs_id = `pills-tab-${form}-parts`;
-        const nav_tab_content_id = `pills-${form}-parts-tabContent`;
+        const nav_tabs_id = FormPartsAdapter.getPartTabId(form);
+        const nav_tab_content_id = FormPartsAdapter.getPartTabContentId(form);
 
-        const default_selected_part = (this.parts_list.length > 0)? this.parts_list[0] : WHOLE_PART;
+        const default_selected_part = (this.parts_list.length > 0) ? this.parts_list[0] : WHOLE_PART;
 
         let nav_links = '';
         let tab_content_content = '';
@@ -210,12 +237,13 @@ export class FormPartsAdapter {
             const selected = part == default_selected_part;
             const active = (selected) ? 'active' : '';
             const show_active = (selected) ? 'show active' : '';
+            const part_border = (selected) ? 'border border-light rounded' : 'border border-dark rounded';
 
             const nav_link_id = FormPartsAdapter.getPartNavLinkId(part);
             const nav_link_tab_id = FormPartsAdapter.getPartNavLinkTabId(part);
 
             const sprite_data = this.getCurrentSelectedSprite(form, part);
-            const current_part = (sprite_data !== undefined)? this.getSelectedPartHTML(form, part, sprite_data) : '';
+            const current_part = (sprite_data !== undefined) ? this.getSelectedPartHTML(form, part, sprite_data) : '';
 
             let partSettings = '';
             if (part == WHOLE_PART) {
@@ -224,13 +252,13 @@ export class FormPartsAdapter {
                     <label class="form-check-label" for="chbShowWholePart">${site.data.strings.parts_list.show_whole_label}</label>
                 </div>`;
             }
-            
+
             const filters_id = FormPartsAdapter.getSelectFilterId(form, part);
             let filters = `<select class="custom-select" id="${filters_id}" data-placeholder="${site.data.strings.parts_list.filter_label}" data-form="${form}" data-part="${part}">`;
-            for(const filter of this.filter_list) {
+            for (const filter of this.filter_list) {
                 const filter_label = site.data.strings.select_filter[filter];
                 if (filter_label) {
-                    const filter_selected = (this.getSelectedFilter(form, part) == filter)? 'selected' : '';
+                    const filter_selected = (this.getSelectedFilter(form, part) == filter) ? 'selected' : '';
 
                     const filter_option = `<option ${filter_selected}" data-form="${form}" data-part="${part}" data-filter="${filter}" value="${filter}">
                         ${filter_label}
@@ -282,9 +310,9 @@ export class FormPartsAdapter {
             </div>\n`;
 
             const default_sprite_data = this._sprite_data_helper.getDefaultSprite(form, part);
-            const part_icon = (default_sprite_data !== undefined)? FormPartsAdapter.getSelectPartIconHTML(default_sprite_data) : '';
-            nav_links += `<li class="nav-item" role="presentation">
-                <a class="nav-link ${active}" id="${nav_link_tab_id}" data-toggle="pill" href="#${nav_link_id}" role="tab" aria-controls="${nav_link_id}" aria-selected="${selected}">
+            const part_icon = (default_sprite_data !== undefined) ? FormPartsAdapter.getSelectPartIconHTML(default_sprite_data) : '';
+            nav_links += `<li class="nav-item ${part_border}" role="presentation">
+                <a class="nav-link nav-link-parts text-center ${active}" id="${nav_link_tab_id}" data-toggle="pill" href="#${nav_link_id}" role="tab" aria-controls="${nav_link_id}" aria-selected="${selected}">
                     <span class="select-part-icon-container">${part_icon}</span>
                     ${part_label}
                 </a>
@@ -306,21 +334,21 @@ export class FormPartsAdapter {
         return `btnCurrentPart${form}_${part}`;
     }
 
-    static getSelectPartIconHTML(sprite_data: SpriteData){
+    static getSelectPartIconHTML(sprite_data: SpriteData) {
         return `<img class="img-fluid select-part-icon mx-auto d-block" src="${site.base_url}/${sprite_data.filename}" alt="${sprite_data.flag_name} Part Icon">`;
     }
 
     private getSelectedPartHTML(form: string, part: string, selected_part: SpriteData) {
         const orientation = selected_part.orientation;
-        const orientationIcon = (orientation)? this.getListItemValueOrientationHTML(orientation) : '';
+        const orientationIcon = (orientation) ? this.getListItemValueOrientationHTML(orientation) : '';
         const flag_name = selected_part.flag_name;
         const id = this.getCurrentSelectedPartId(form, part);
 
         let disabled = '';
         let aria_disabled = '';
         if (part == WHOLE_PART) {
-            disabled = (!this._appData.currentSelectionShowWhole)? 'disabled' : '';
-            aria_disabled = (!this._appData.currentSelectionShowWhole)? 'aria-disabled="true"' : '';
+            disabled = (!this._appData.currentSelectionShowWhole) ? 'disabled' : '';
+            aria_disabled = (!this._appData.currentSelectionShowWhole) ? 'aria-disabled="true"' : '';
         }
 
         return `<li class="list-group-item current-selected-part active form part flag_name ${disabled}" ${aria_disabled} data-form="${form}" data-part="${part}" data-flag-name="${flag_name}" data-orientation="${orientation}" id="${id}">
@@ -340,7 +368,7 @@ export class FormPartsAdapter {
         </button>`;
         const valueNames = [
             'icon', 'name',
-            { data: ['form', 'part', 'flag_name', 'index']}
+            { data: ['form', 'part', 'flag_name', 'index'] }
         ];
         const options: any /*List.ListOptions*/ = {
             valueNames: valueNames,
@@ -362,14 +390,14 @@ export class FormPartsAdapter {
 
         const selectable_parts = removeDuplicateObjectFromArray(this._sprite_data_helper.getSelectableSpritesParts(form, part).filter(it => it.flags_fits), 'flag_name') as SpriteData[];
 
-        return selectable_parts.map((selectable_part, index) => this.getListItemPart(part, selectable_part, index)).filter(it => it !== undefined) as PartsListItemValue[];
+        return selectable_parts.map((selectable_part, index) => this.getListItemPart(form, part, selectable_part, index)).filter(it => it !== undefined) as PartsListItemValue[];
     }
 
-    private getListItemPart(part: string, selectable_part: SpriteData, index: number) {
+    private getListItemPart(form: string, part: string, selectable_part: SpriteData, index: number) {
         const selectable_flag = site.data.flags.find(it => it.name == selectable_part.flag_name);
 
         if (selectable_flag !== undefined) {
-            return this.getListItemValue(this.current_form, part, selectable_flag, index);
+            return this.getListItemValue(form, part, selectable_flag, index);
         }
 
         return undefined;
@@ -410,9 +438,9 @@ export class FormPartsAdapter {
         var that = this;
         $('#lstSelectForm').find('.list-group-item').off('click').on('click', function () {
             const form = $(this).data('form');
-            if (that.current_form !== form) {
+            if (that._appData.currentSelectionForm !== form) {
                 $(this).prop('disabled', true);
-    
+
                 that._appData.setForm(form);
                 // enable button in observer handle
 
@@ -428,8 +456,8 @@ export class FormPartsAdapter {
     private initEventSetParts() {
         var that = this;
         for (const part of this.parts_list) {
-            this._parts_lists[part].on('updated', function(list) {
-                const form = that.current_form;
+            this._parts_lists[part].on('updated', function (list) {
+                const form = that._appData.currentSelectionForm;
                 const selected_flag_name = that.getSelectedFlagName(form, part);
 
                 list.items.forEach(function (it: any, index: number) {
@@ -450,7 +478,7 @@ export class FormPartsAdapter {
                         item_element.addClass('active');
                     }
 
-                    item_element.off('click').on('click', function() {
+                    item_element.off('click').on('click', function () {
                         const index = parseInt($(this).data('index'));
                         const item = list.get('index', index)[0];
                         const item_value = item.values() as PartsListItemValue;
@@ -475,8 +503,8 @@ export class FormPartsAdapter {
                                 new_orientation = Orientation.Horizontal;
                             } else if (selectable_flag_vertical) {
                                 new_orientation = Orientation.Vertical;
-                            } 
-                            
+                            }
+
                             that._appData.setPart(form, part, flag_name, new_orientation);
                         } else {
                             if (selectable_flag_horizontal && orientation === Orientation.Vertical) {
@@ -488,19 +516,19 @@ export class FormPartsAdapter {
                             } else if (selectable_flag_vertical) {
                                 new_orientation = Orientation.Vertical;
                             }
-                            if (orientation !== new_orientation) {                            
+                            if (orientation !== new_orientation) {
                                 that._appData.setPart(form, part, flag_name, new_orientation);
                             }
                         }
-                        
+
                         that._appData.lastFlag = flag_name;
                     });
                 });
             });
 
-            $('#'+FormPartsAdapter.getSelectFilterId(this.current_form, part)).select2({
+            $('#' + FormPartsAdapter.getSelectFilterId(this.current_form, part)).select2({
                 theme: "bootstrap4"
-            }).off('select2:select').on('select2:select', function() {
+            }).off('select2:select').on('select2:select', function () {
                 const part = $(this).data('part');
                 const filter = $(this).val() as string ?? ALL_FILTER;
                 that.log.debug('select filter', part, $(this).val());
@@ -508,9 +536,17 @@ export class FormPartsAdapter {
             });
         }
 
-        $('#chbShowWholePart').on('change', function() {
+        $('#chbShowWholePart').on('change', function () {
             const value = $(this).is(":checked");
             that._appData.setShowWhole(value);
+        });
+
+        $('#' + FormPartsAdapter.getPartTabId(this.current_form)).on('shown.bs.tab', function (e) {
+            const new_tab = $(e.target);
+            const prev_tab = $(e.relatedTarget);
+
+            new_tab.parent('.nav-item.border').addClass('border-light').removeClass('border-dark');
+            prev_tab.parent('.nav-item.border').removeClass('border-light').addClass('border-dark');
         });
     }
 }

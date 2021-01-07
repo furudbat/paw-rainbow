@@ -1,10 +1,9 @@
-import { DataListSubject } from './../../_site/src/observer';
 import localForage from "localforage";
 import { DataSubject } from "../observer";
-import { site } from "../site";
 import { Orientation } from "./sprite.data";
 import { AnyFlagConfig } from './flag-config.data';
 import { LoggerManager } from 'typescript-logger';
+import { site } from "../site";
 
 const STORAGE_KEY_SETTINGS = 'settings';
 const STORAGE_KEY_THEME = 'theme';
@@ -18,6 +17,8 @@ const STORAGE_KEY_LAST_FLAG = 'last_flag';
 export const DEFAULT_FLAG_NAME_NONE = 'None';
 export const ALL_FILTER = 'all';
 export const WHOLE_PART = 'whole';
+export const DEFAULT_CRAWS_COLOR = '#FFFFFF';
+export const DEFAULT_OUTLINE_COLOR = '#000000';
 
 export enum Theme {
     Light = "light",
@@ -25,21 +26,29 @@ export enum Theme {
 }
 export class Settings {
     show_grid: boolean = false
+    outline_color: string = DEFAULT_OUTLINE_COLOR;
+    craws_color: string = DEFAULT_CRAWS_COLOR;
 }
 
 export class CurrentSelectionPart {
     flag_name: string = DEFAULT_FLAG_NAME_NONE;
     orientation: Orientation = Orientation.Vertical;
 }
+
+export class CurrentSelectionForm {
+    form: string = '';
+    parts: Record<string, CurrentSelectionPart> = {}
+}
+
 export class ApplicationData {
 
     private _settings: DataSubject<Settings> = new DataSubject<Settings>(new Settings());
     private _theme: Theme = Theme.Dark;
     private _version: string = site.version;
-    private _currentSelectionForm: DataSubject<string> = new DataSubject<string>('');
+    private _currentSelectionForm: DataSubject<CurrentSelectionForm> = new DataSubject<CurrentSelectionForm>(new CurrentSelectionForm());
+    private _currentSelectionParts: Record<string, Record<string, DataSubject<CurrentSelectionPart>>> = {};
     private _currentSelectionShowWhole: DataSubject<boolean> = new DataSubject<boolean>(false);
     private _currentSelectionPartsFilter: Record<string, Record<string, DataSubject<string>>> = {};
-    private _currentSelectionParts: Record<string, Record<string, DataSubject<CurrentSelectionPart>>> = {};
     private _lastFlag: DataSubject<string> = new DataSubject<string>('');
 
     private _storeSession = localForage.createInstance({
@@ -75,26 +84,25 @@ export class ApplicationData {
                 this._settings.data = await this._storeSession.getItem<Settings>(STORAGE_KEY_SETTINGS) ?? this._settings.data;
 
                 this._theme = await this._storeSession.getItem(STORAGE_KEY_THEME) ?? this._theme;
-            }
 
-            this._version = site.version;
-            this._storeSession.setItem(STORAGE_KEY_VERSION, this._version);
-
-            this._lastFlag.data = await this._storeSession.getItem<string>(STORAGE_KEY_LAST_FLAG) ?? this._lastFlag.data;
-
-            this._currentSelectionForm.data = await this._storeSession.getItem<string>(STORAGE_KEY_CURRENT_SELECTION_FORM) ?? this._currentSelectionForm.data;
-            this._currentSelectionShowWhole.data = await this._storeSession.getItem<boolean>(STORAGE_KEY_CURRENT_SELECTION_SHOW_WHOLE) ?? this._currentSelectionShowWhole.data;
-
-            for (const form of this.forms) {
-                for (const part of this.getPartsList(form)) {
-                    const part_key = ApplicationData.getStorageKeyCurrentSelectionPart(form, part);
-                    const part_filter_key = ApplicationData.getStorageKeyCurrentSelectionPartFilter(form, part);
+                this._lastFlag.data = await this._storeSession.getItem<string>(STORAGE_KEY_LAST_FLAG) ?? this._lastFlag.data;
     
-                    this._currentSelectionParts[form][part].data = await this._storeSession.getItem<CurrentSelectionPart>(part_key) ?? this._currentSelectionParts[form][part].data;
-                    this._currentSelectionPartsFilter[form][part].data = await this._storeSession.getItem<string>(part_filter_key) ?? this._currentSelectionPartsFilter[form][part].data;
+                this._currentSelectionForm.data = await this._storeSession.getItem<CurrentSelectionForm>(STORAGE_KEY_CURRENT_SELECTION_FORM) ?? this._currentSelectionForm.data;
+                this._currentSelectionShowWhole.data = await this._storeSession.getItem<boolean>(STORAGE_KEY_CURRENT_SELECTION_SHOW_WHOLE) ?? this._currentSelectionShowWhole.data;
+    
+                for (const form of this.forms) {
+                    for (const part of this.getPartsList(form)) {
+                        const part_key = ApplicationData.getStorageKeyCurrentSelectionPart(form, part);
+                        const part_filter_key = ApplicationData.getStorageKeyCurrentSelectionPartFilter(form, part);
+        
+                        this._currentSelectionParts[form][part].data = await this._storeSession.getItem<CurrentSelectionPart>(part_key) ?? this._currentSelectionParts[form][part].data;
+                        this._currentSelectionPartsFilter[form][part].data = await this._storeSession.getItem<string>(part_filter_key) ?? this._currentSelectionPartsFilter[form][part].data;
+                    }
                 }
             }
 
+            this._version = site.version;
+            this._storeSession.setItem<string>(STORAGE_KEY_VERSION, this._version);
             this.saveCurrentSelection();
         } catch (err) {
             // This code runs if there were any errors.
@@ -112,8 +120,8 @@ export class ApplicationData {
 
     set theme(value: Theme) {
         this._theme = value;
-        this._storeSession.setItem(STORAGE_KEY_THEME, value);
-        this._storeSession.setItem(STORAGE_KEY_VERSION, this._version);
+        this._storeSession.setItem<Theme>(STORAGE_KEY_THEME, value);
+        this._storeSession.setItem<string>(STORAGE_KEY_VERSION, this._version);
     }
 
     get lastFlagObservable() {
@@ -125,8 +133,8 @@ export class ApplicationData {
     }
 
     set lastFlag(value: string) {
-        this._storeSession.setItem(STORAGE_KEY_LAST_FLAG, value);
-        this._storeSession.setItem(STORAGE_KEY_VERSION, this._version);
+        this._storeSession.setItem<string>(STORAGE_KEY_LAST_FLAG, value);
+        this._storeSession.setItem<string>(STORAGE_KEY_VERSION, this._version);
         this._lastFlag.data = value;
     }
 
@@ -139,18 +147,30 @@ export class ApplicationData {
     }
 
     set settings(value: Settings) {
-        this._storeSession.setItem(STORAGE_KEY_SETTINGS, value);
-        this._storeSession.setItem(STORAGE_KEY_VERSION, this._version);
+        this._storeSession.setItem<Settings>(STORAGE_KEY_SETTINGS, value);
+        this._storeSession.setItem<string>(STORAGE_KEY_VERSION, this._version);
         this._settings.data = value;
     }
 
 
     /// add more getter and setter
 
-    set currentSelectionForm(value: string) {
-        this._storeSession.setItem(STORAGE_KEY_CURRENT_SELECTION_FORM, value);
-        this._storeSession.setItem(STORAGE_KEY_VERSION, this._version);
-        this._currentSelectionForm.data = value;
+    private updateFormData(form: string) {
+        this._currentSelectionForm.data.form = form;
+        this._currentSelectionForm.data.parts = {}
+        var that = this;
+        Object.keys(this._currentSelectionParts[form]).forEach(function(part) {
+            that._currentSelectionForm.data.parts[part] = that._currentSelectionParts[form][part].data;
+        });
+
+        return this._currentSelectionForm.data;
+    }
+
+    set currentSelectionForm(form: string) {
+        const new_value = this.updateFormData(form);
+        this._storeSession.setItem<CurrentSelectionForm>(STORAGE_KEY_CURRENT_SELECTION_FORM, new_value);
+        this._storeSession.setItem<string>(STORAGE_KEY_VERSION, this._version);
+        this._currentSelectionForm.data = new_value;
     }
 
     get currentSelectionFormObservable() {
@@ -158,13 +178,17 @@ export class ApplicationData {
     }
 
     get currentSelectionForm() {
+        return this._currentSelectionForm.data.form;
+    }
+
+    get currentSelectionFormData() {
         return this._currentSelectionForm.data;
     }
 
 
     set currentSelectionShowWhole(value: boolean) {
-        this._storeSession.setItem(STORAGE_KEY_CURRENT_SELECTION_SHOW_WHOLE, value);
-        this._storeSession.setItem(STORAGE_KEY_VERSION, this._version);
+        this._storeSession.setItem<boolean>(STORAGE_KEY_CURRENT_SELECTION_SHOW_WHOLE, value);
+        this._storeSession.setItem<string>(STORAGE_KEY_VERSION, this._version);
         this._currentSelectionShowWhole.data = value;
     }
 
@@ -205,18 +229,23 @@ export class ApplicationData {
     }
 
     public saveCurrentSelection() {
-        this._storeSession.setItem(STORAGE_KEY_CURRENT_SELECTION_FORM, this._currentSelectionForm.data);
-        this._storeSession.setItem(STORAGE_KEY_CURRENT_SELECTION_SHOW_WHOLE, this._currentSelectionShowWhole.data);
+        this._storeSession.setItem<CurrentSelectionForm>(STORAGE_KEY_CURRENT_SELECTION_FORM, this._currentSelectionForm.data);
+        this._storeSession.setItem<boolean>(STORAGE_KEY_CURRENT_SELECTION_SHOW_WHOLE, this._currentSelectionShowWhole.data);
         for(const form of this.forms) {
             for(const part of this.getPartsList(form)) {
                 const part_key = ApplicationData.getStorageKeyCurrentSelectionPart(form, part);
                 const part_filter_key = ApplicationData.getStorageKeyCurrentSelectionPartFilter(form, part);
 
-                this._storeSession.setItem(part_key, this._currentSelectionParts[form][part].data);
-                this._storeSession.setItem(part_filter_key, this._currentSelectionPartsFilter[form][part].data);
+                this._storeSession.setItem<CurrentSelectionPart>(part_key, this._currentSelectionParts[form][part].data);
+                this._storeSession.setItem<string>(part_filter_key, this._currentSelectionPartsFilter[form][part].data);
             }
         }
-        this._storeSession.setItem(STORAGE_KEY_VERSION, this._version);
+        this._storeSession.setItem<string>(STORAGE_KEY_VERSION, this._version);
+    }
+
+    public saveSettings() {
+        this._storeSession.setItem<Settings>(STORAGE_KEY_SETTINGS, this._settings.data);
+        this._storeSession.setItem<string>(STORAGE_KEY_VERSION, this._version);
     }
 
     public initDefaultValues(form: string, default_flag_name: string) {
@@ -226,6 +255,8 @@ export class ApplicationData {
                 this._currentSelectionParts[form][part].data.orientation = Orientation.Vertical;
             }
         }
+        this.updateFormData(form);
+
         this.log.debug('initDefaultValues', this._currentSelectionParts, this);
         this.saveCurrentSelection();
     }
@@ -274,11 +305,11 @@ export class ApplicationData {
     }
 
     public setForm(form: string) {
-        if (this._currentSelectionForm.data === form) {
+        if (this._currentSelectionForm.data.form === form) {
             return;
         }
         
-        this._currentSelectionForm.data = form;
+        this._currentSelectionForm.data = this.updateFormData(form);
         this.saveCurrentSelection();
     }
 
@@ -291,9 +322,40 @@ export class ApplicationData {
         this.saveCurrentSelection();
     }
 
+    public setCrawsColor(color: string) {
+        this._settings.data.craws_color = color;
+        this.saveSettings();
+        this._settings.notify();
+    }
+
+    public setOutlineColor(color: string) {
+        this._settings.data.outline_color = color;
+        this.saveSettings();
+        this._settings.notify();
+    }
+
+    public showGrid() {
+        this._settings.data.show_grid = true;
+        this.saveSettings();
+        this._settings.notify();
+    }
+
+    public hideGrid() {
+        this._settings.data.show_grid = false;
+        this.saveSettings();
+        this._settings.notify();
+    }
 
     public getPartsList(form: string) {
         return (hasProperty(site.data.flags_config, form)) ? (getUnsafeProperty(site.data.flags_config, form) as AnyFlagConfig).parts : [];
+    }
+
+    public getOutlineColor(form: string) {
+        return (hasProperty(site.data.flags_config, form)) ? (getUnsafeProperty(site.data.flags_config, form) as AnyFlagConfig).outline : undefined;
+    }
+
+    public getCrawColors(form: string) {
+        return (hasProperty(site.data.flags_config, form)) ? (getUnsafeProperty(site.data.flags_config, form) as AnyFlagConfig).craws : [];
     }
 
     get forms() {

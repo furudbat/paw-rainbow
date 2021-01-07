@@ -1,8 +1,7 @@
+import { site } from './site';
 import cache from 'memory-cache';
-import { AnyFlagConfig } from './data/flag-config.data';
 import { FlagData } from './data/flag.data';
 import { Orientation, SpriteData } from './data/sprite.data';
-import { site } from './site';
 
 export const FLAG_NAME_NONE_DEFAULT = 'None';
 

@@ -891,7 +891,7 @@ def generateCustomSpriteLine(output_map, paw_outlines_img, outline_color, flag, 
     
 def generateCustomSprite(in_img_filename, parts, category, form, colors_config, flags, transparent_colors, extra_name):
     output_name = category + '_' + form
-    outline_color = Color(colors_config['outline']) if 'outline' in colors_config else None
+    outline_color = Color('white')
     color_code_map = dict()
 
     paw_outlines_img = Image.new(mode = "RGBA", size= (0, 0))
