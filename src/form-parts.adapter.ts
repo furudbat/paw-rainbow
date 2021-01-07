@@ -232,91 +232,8 @@ export class FormPartsAdapter {
         let nav_links = '';
         let tab_content_content = '';
         for (const part of this.parts_list) {
-
-            const part_label = site.data.strings.select_parts[part] ?? site.data.strings.select_parts.unknown;
-            const selected = part == default_selected_part;
-            const active = (selected) ? 'active' : '';
-            const show_active = (selected) ? 'show active' : '';
-            const part_border = (selected) ? 'border border-light rounded' : 'border border-dark rounded';
-
-            const nav_link_id = FormPartsAdapter.getPartNavLinkId(part);
-            const nav_link_tab_id = FormPartsAdapter.getPartNavLinkTabId(part);
-
-            const sprite_data = this.getCurrentSelectedSprite(form, part);
-            const current_part = (sprite_data !== undefined) ? this.getSelectedPartHTML(form, part, sprite_data) : '';
-
-            let partSettings = '';
-            if (part == WHOLE_PART) {
-                partSettings = `<div class="form-check form-check-inline">
-                    <input class="form-check-input" type="checkbox" id="chbShowWholePart" value="${this._appData.currentSelectionShowWhole}">
-                    <label class="form-check-label" for="chbShowWholePart">${site.data.strings.parts_list.show_whole_label}</label>
-                </div>`;
-            }
-
-            const filters_id = FormPartsAdapter.getSelectFilterId(form, part);
-            let filters = `<select class="custom-select" id="${filters_id}" data-placeholder="${site.data.strings.parts_list.filter_label}" data-form="${form}" data-part="${part}">`;
-            for (const filter of this.filter_list) {
-                const filter_label = site.data.strings.select_filter[filter];
-                if (filter_label) {
-                    const filter_selected = (this.getSelectedFilter(form, part) == filter) ? 'selected' : '';
-
-                    const filter_option = `<option ${filter_selected}" data-form="${form}" data-part="${part}" data-filter="${filter}" value="${filter}">
-                        ${filter_label}
-                    </option>`;
-
-                    filters += filter_option;
-                }
-            }
-            filters += `</select>`;
-
-            const id = this.getListId(form, part);
-            tab_content_content += `<div class="tab-pane fade ${show_active}" id="${nav_link_id}" role="tabpanel" aria-labelledby="${nav_link_tab_id}">
-                <ul class="list-group mt-2 mb-4">
-                    ${current_part}
-                </ul>
-                <div class="my-1 part-settings">
-                    ${partSettings}
-                </div>
-                <div class="mt-2" id="${id}">
-                    <div class="row mt-2">
-                        <div class="col-12">
-                            <div class="input-group">
-                                ${filters}
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row mt-2">
-                        <div class="col-12">
-                            <div class="input-group">
-                                <div class="input-group-prepend">
-                                    <span class="input-group-text" id="searchHelp${id}"><i class="fas fa-search d-inline"></i></span>
-                                </div>
-                                <input type="text" class="form-control fuzzy-search" id="search${id}" aria-label="${site.data.strings.parts_list.search_label}" aria-describedby="searchHelp${id}" placeholder="${site.data.strings.parts_list.search_label}">
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="row mt-2">
-                        <div class="col-12">
-                            <div class="list-group list"></div>
-
-                            <nav class="my-2" aria-label="${site.data.strings.parts_list.pagination_label}">
-                                <ul class="pagination ${PAGINATION_CLASS} justify-content-center">
-                                </ul>
-                            </nav>
-                        </div>
-                    </div>
-                </div>
-            </div>\n`;
-
-            const default_sprite_data = this._sprite_data_helper.getDefaultSprite(form, part);
-            const part_icon = (default_sprite_data !== undefined) ? FormPartsAdapter.getSelectPartIconHTML(default_sprite_data) : '';
-            nav_links += `<li class="nav-item ${part_border}" role="presentation">
-                <a class="nav-link nav-link-parts text-center ${active}" id="${nav_link_tab_id}" data-toggle="pill" href="#${nav_link_id}" role="tab" aria-controls="${nav_link_id}" aria-selected="${selected}">
-                    <span class="select-part-icon-container">${part_icon}</span>
-                    ${part_label}
-                </a>
-            </li>\n`;
+            nav_links += this.getNavLinkHTML(form, part);
+            tab_content_content += this.genNavTabContent(form, part);
         }
 
 
@@ -328,6 +245,104 @@ export class FormPartsAdapter {
                 <div class="tab-content" id="${nav_tab_content_id}">
                     ${tab_content_content}
                 </div>`;
+    }
+
+    private getNavLinkHTML(form: string, part: string) {
+        const default_selected_part = (this.parts_list.length > 0) ? this.parts_list[0] : WHOLE_PART;
+
+        const part_label = site.data.strings.select_parts[part] ?? site.data.strings.select_parts.unknown;
+        const selected = part == default_selected_part;
+        const active = (selected) ? 'active' : '';
+        const part_border = (selected) ? 'border border-light rounded' : 'border border-dark rounded';
+        const nav_link_id = FormPartsAdapter.getPartNavLinkId(part);
+        const nav_link_tab_id = FormPartsAdapter.getPartNavLinkTabId(part);
+        const default_sprite_data = this._sprite_data_helper.getDefaultSprite(form, part);
+        const part_icon = (default_sprite_data !== undefined) ? FormPartsAdapter.getSelectPartIconHTML(default_sprite_data) : '';
+
+        return `<li class="nav-item ${part_border}" role="presentation">
+            <a class="nav-link nav-link-parts text-center ${active}" id="${nav_link_tab_id}" data-toggle="pill" href="#${nav_link_id}" role="tab" aria-controls="${nav_link_id}" aria-selected="${selected}">
+                <span class="select-part-icon-container">${part_icon}</span>
+                ${part_label}
+            </a>
+        </li>\n`;
+    }
+
+    private genNavTabContent(form: string, part: string) {
+        const default_selected_part = (this.parts_list.length > 0) ? this.parts_list[0] : WHOLE_PART;
+
+        const selected = part == default_selected_part;
+        const show_active = (selected) ? 'show active' : '';
+
+        const nav_link_id = FormPartsAdapter.getPartNavLinkId(part);
+        const nav_link_tab_id = FormPartsAdapter.getPartNavLinkTabId(part);
+
+        const sprite_data = this.getCurrentSelectedSprite(form, part);
+        const current_part = (sprite_data !== undefined) ? this.getSelectedPartHTML(form, part, sprite_data) : '';
+
+        const id = this.getListId(form, part);
+
+        let partSettings = '';
+        if (part == WHOLE_PART) {
+            partSettings = `<div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="chbShowWholePart" value="${this._appData.currentSelectionShowWhole}">
+                <label class="form-check-label" for="chbShowWholePart">${site.data.strings.parts_list.show_whole_label}</label>
+            </div>`;
+        }
+
+        const filters_id = FormPartsAdapter.getSelectFilterId(form, part);
+        let filters = `<select class="custom-select" id="${filters_id}" data-placeholder="${site.data.strings.parts_list.filter_label}" data-form="${form}" data-part="${part}">`;
+        for (const filter of this.filter_list) {
+            const filter_label = site.data.strings.select_filter[filter];
+            if (filter_label) {
+                const filter_selected = (this.getSelectedFilter(form, part) == filter) ? 'selected' : '';
+
+                const filter_option = `<option ${filter_selected}" data-form="${form}" data-part="${part}" data-filter="${filter}" value="${filter}">
+                    ${filter_label}
+                </option>`;
+
+                filters += filter_option;
+            }
+        }
+        filters += `</select>`;
+
+        return `<div class="tab-pane fade ${show_active}" id="${nav_link_id}" role="tabpanel" aria-labelledby="${nav_link_tab_id}">
+                <ul class="list-group mb-4">
+                    ${current_part}
+                </ul>
+                <div class="my-1 mb-2 part-settings">
+                    ${partSettings}
+                </div>
+                <div id="${id}">
+                    <div class="row mb-2">
+                        <div class="col-12">
+                            <div class="input-group">
+                                ${filters}
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mb-2">
+                        <div class="col-12">
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text" id="searchHelp${id}"><i class="fas fa-search d-inline"></i></span>
+                                </div>
+                                <input type="text" class="form-control fuzzy-search" id="search${id}" aria-label="${site.data.strings.parts_list.search_label}" aria-describedby="searchHelp${id}" placeholder="${site.data.strings.parts_list.search_label}">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="list-group list"></div>
+
+                            <nav class="my-2" aria-label="${site.data.strings.parts_list.pagination_label}">
+                                <ul class="pagination ${PAGINATION_CLASS} justify-content-center">
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>\n`;
     }
 
     private getCurrentSelectedPartId(form: string, part: string) {
@@ -360,18 +375,15 @@ export class FormPartsAdapter {
     }
 
     private getSelectablePartsList(form: string, part: string) {
-        const item = `<button type="button" class="list-group-item form part flag_name index">
-            <div class="row no-gutters">
-                <div class="col-2 my-auto"><span class="align-middle icon"></span></div>
-                <div class="col-7 mx-2 my-auto text-left"><span class="align-middle name"></span></div>
-            </div>
-        </button>`;
-        const valueNames = [
-            'icon', 'name',
-            { data: ['form', 'part', 'flag_name', 'index'] }
-        ];
+        const item = function (values: PartsListItemValue) {
+            return `<button type="button" class="list-group-item" data-form="${values.form}" data-part="${values.part}" data-flag-name="${values.flag_name}" data-index="${values.index}">
+                <div class="row no-gutters">
+                    <div class="col-2 my-auto"><span class="align-middle">${values.icon}</span></div>
+                    <div class="col-7 mx-2 my-auto text-left"><span class="align-middle">${values.name}</span></div>
+                </div>
+            </button>`;
+        };
         const options: any /*List.ListOptions*/ = {
-            valueNames: valueNames,
             item: item,
             page: SELECTABLE_PARTS_LIST_ITEMS_PER_PAGE,
             pagination: LIST_JS_PAGINATION

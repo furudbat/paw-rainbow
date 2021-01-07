@@ -1,4 +1,4 @@
-import { ApplicationData, Theme, DEFAULT_OUTLINE_COLOR, DEFAULT_CRAWS_COLOR } from './data/application.data';
+import { ApplicationData, Theme, DEFAULT_OUTLINE_COLOR, DEFAULT_CRAWS_COLOR, ImagePaletteData } from './data/application.data';
 import { LoggerManager } from 'typescript-logger';
 import { Loader, Application as PixiApplication, LoaderResource } from 'pixi.js';
 import { SpriteAdapter } from './sprite.adapter';
@@ -7,6 +7,8 @@ import { LIST_JS_PAGINATION } from './site.value';
 import { SpriteDataHelper } from './sprites.data.helper';
 import { site } from './site';
 import List from 'list.js';
+import { DataSubject } from './observer';
+import { ColorPaletteAdapter } from './colorpalette.adapter';
 
 export const CANVAS_WIDTH = 720;
 export const CANVAS_HEIGHT = 720;
@@ -15,8 +17,14 @@ export class Application {
     private _appData: ApplicationData = new ApplicationData();
     private _pixiApp?: PixiApplication;
     private _loader: Loader = new Loader();
+    private _parts_canvas: DataSubject<ImagePaletteData> = new DataSubject<ImagePaletteData>({
+        width: 0,
+        height: 0,
+        uint8Array: []
+    });
     private _formPartsAdapter?: FormPartsAdapter;
     private _spriteAdapter?: SpriteAdapter;
+    private _colorPaletteAdapter?: ColorPaletteAdapter;
     private _flagList?: List;
     private _sprite_data_helper: SpriteDataHelper = new SpriteDataHelper();
 
@@ -155,7 +163,8 @@ export class Application {
     }
 
     private async initCanvas() {
-        var that = this;
+        this._colorPaletteAdapter = new ColorPaletteAdapter(this._parts_canvas);
+
         this._pixiApp = new PixiApplication({
             width: CANVAS_WIDTH,
             height: CANVAS_HEIGHT,
@@ -164,24 +173,26 @@ export class Application {
             resizeTo: $('#spriteViewContainer')[0]
         });
         $('#spriteViewContainer').html(this._pixiApp.view);
-        this._spriteAdapter = new SpriteAdapter(this._pixiApp, this._appData, '#btnDownload', '#btnFullDownload');
+        this._spriteAdapter = new SpriteAdapter(this._pixiApp, this._appData, this._parts_canvas, '#btnDownload', '#btnFullDownload');
 
         let sprite_sheet_filenames = site.data.sprites.map(it => it.sheet);
         sprite_sheet_filenames = sprite_sheet_filenames.filter((filename: string, index: number) => {
             return sprite_sheet_filenames.indexOf(filename) === index;
         });
 
+        var that = this;
         this._loader.baseUrl = site.base_url;
         this._loader.onProgress.add(function () {
             that.loadProgressHandler();
         });
         this._loader.add(sprite_sheet_filenames).load(function (loader, resources) {
-            that.setupSpriteAdapters(loader, resources)
+            that.setupSpriteAdapters(loader, resources);
         });
     }
 
     private setupSpriteAdapters(loader: Loader, resources: Partial<Record<string, LoaderResource>>) {
         //this.log.debug('setupSpriteAdapters', loader, resources);
+        this._colorPaletteAdapter?.init();
         this._spriteAdapter?.init(this._appData.currentSelectionFormData, resources);
     }
 

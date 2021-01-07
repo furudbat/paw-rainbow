@@ -6,13 +6,15 @@
     {%- endif -%}
 </script>
 
-{% include main.html %}
+<section id="sectionMain" class="mb-5">
+    {% include main.html %}
+</section>
 
-<section id="sectionFlagList" class="mt-5">
+<section id="sectionFlagList" class="mb-5">
     {% include flags_list.html %}
 </section>
 
-<section id="sectionMisc" class="mt-5">
+<section id="sectionMisc" class="mb-5">
     <h2>{{ site.data.strings.misc.title }}</h2>
     <div class="row mx-1">
         <div class="col-lg-4">

@@ -1,11 +1,10 @@
 import { Container, Sprite, Application as PixiApplication, LoaderResource } from 'pixi.js';
 import { LoggerManager } from 'typescript-logger';
-import { ApplicationData, CurrentSelectionPart, Settings, WHOLE_PART, DEFAULT_FLAG_NAME_NONE, DEFAULT_CRAWS_COLOR, DEFAULT_OUTLINE_COLOR, CurrentSelectionForm } from './data/application.data';
+import { ApplicationData, CurrentSelectionPart, Settings, WHOLE_PART, DEFAULT_FLAG_NAME_NONE, DEFAULT_CRAWS_COLOR, DEFAULT_OUTLINE_COLOR, CurrentSelectionForm, ImagePaletteData } from './data/application.data';
 import { Orientation, SpriteData } from "./data/sprite.data";
 import { DataObserver, DataSubject } from './observer';
 import { site } from './site';
 import tinycolor from "tinycolor2";
-import { SpriteDataHelper } from './sprites.data.helper';
 
 type SpriteParts = Record<string, Sprite>;
 export class SpriteAdapter {
@@ -21,19 +20,21 @@ export class SpriteAdapter {
     private _grids: Container = new Container();
     private _currentForm = new CurrentSelectionForm();
     private _show_grid: boolean = false;
+    private _parts_canvas: DataSubject<ImagePaletteData>;
 
-    private log = LoggerManager.create('SpritePawPartsAdapter');
+    private log = LoggerManager.create('SpriteAdapter');
 
     private readonly OUTLINE_SPRITE_NAME = 'outline';
     private readonly CRAWS_SPRITE_NAME = 'craws';
 
-    constructor(pixiApp: PixiApplication, appData: ApplicationData, downloadButton: string | undefined = undefined, downloadFullButton: string | undefined = undefined) {
+    constructor(pixiApp: PixiApplication, appData: ApplicationData, parts_canvas: DataSubject<ImagePaletteData>, downloadButton: string | undefined = undefined, downloadFullButton: string | undefined = undefined) {
         this._pixiApp = pixiApp;
         this._appData = appData;
         this._downloadButton = downloadButton;
         this._downloadFullButton = downloadFullButton;
         this._currentForm = this._appData.currentSelectionFormData;
         this._show_grid = this._appData.settings.show_grid;
+        this._parts_canvas = parts_canvas;
     }
 
     public init(current_form: CurrentSelectionForm, resources: Partial<Record<string, LoaderResource>>) {
@@ -77,6 +78,7 @@ export class SpriteAdapter {
 
         this.updateSprite();
         this.updateDownloadButton();
+        this.notifyPartsCanvas();
     }
 
     public updateParts(form: string, parts: Record<string, CurrentSelectionPart>) {
@@ -111,6 +113,7 @@ export class SpriteAdapter {
 
         this.updateSprite();
         this.updateDownloadButton();
+        this.notifyPartsCanvas();
     }
 
     public updateDownloadButton() {
@@ -133,6 +136,14 @@ export class SpriteAdapter {
                 aDownload.attr('href', URL.createObjectURL(b));
             }
         }, 'image/png');
+    }
+
+    public notifyPartsCanvas() {
+        this._parts_canvas.data = {
+            width: this._parts_container.width,
+            height: this._parts_container.height,
+            uint8Array: this._pixiApp.renderer.extract.pixels(this._parts_container)
+        };
     }
 
     public setPart(form: string, flag_name: string, part: string, orientation: Orientation, update_sprite: boolean = true) {

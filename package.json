@@ -19,6 +19,7 @@
     "bootstrap": "^4.5.2",
     "bootstrap-toggle": "^2.2.2",
     "debug": "^4.3.1",
+    "image-q": "^2.1.2",
     "jquery": "^3.5.1",
     "jquery-ui": "^1.12.1",
     "list.js": "^2.3.0",

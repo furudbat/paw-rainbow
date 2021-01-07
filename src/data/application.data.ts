@@ -378,3 +378,9 @@ export function getProperty<T, K extends keyof T>(obj: T, key: K) {
 export function setProperty<T, K extends keyof T>(obj: T, key: K, value: T[K]) {
     obj[key] = value;
 }
+
+export interface ImagePaletteData {
+    uint8Array: number[] | Uint8Array | Uint8ClampedArray;
+    width: number; 
+    height: number;
+}
