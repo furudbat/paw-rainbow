@@ -1,0 +1,4561 @@
+{
+    "frames": {
+        "assets/img/sprites/pride_canine/pride_canine_nonecanine_horizontal_0.png": {
+            "flag_name": "None",
+            "part": "center",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_0",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_0.png",
+            "default": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_nonecanine_horizontal_0.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_nonecanine_horizontal_0.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_nonecanine_horizontal_1.png": {
+            "flag_name": "None",
+            "part": "left_part_1",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_1",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_1.png",
+            "default": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 22,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_nonecanine_horizontal_1.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_nonecanine_horizontal_1.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_nonecanine_horizontal_2.png": {
+            "flag_name": "None",
+            "part": "left_part_2",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_2",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_2.png",
+            "default": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 44,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_nonecanine_horizontal_2.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_nonecanine_horizontal_2.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_nonecanine_horizontal_3.png": {
+            "flag_name": "None",
+            "part": "right_part_1",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_3",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_3.png",
+            "default": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 66,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_nonecanine_horizontal_3.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_nonecanine_horizontal_3.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_nonecanine_horizontal_4.png": {
+            "flag_name": "None",
+            "part": "right_part_2",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_4",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_4.png",
+            "default": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 88,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_nonecanine_horizontal_4.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_nonecanine_horizontal_4.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_nonecanine_horizontal_5.png": {
+            "flag_name": "None",
+            "part": "whole",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_5.png",
+            "default": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 110,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_nonecanine_horizontal_5.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_nonecanine_horizontal_5.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_nonecanine_vertical_0.png": {
+            "flag_name": "None",
+            "part": "center",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_0",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_0.png",
+            "default": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 132,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_nonecanine_vertical_0.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_nonecanine_vertical_0.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_nonecanine_vertical_1.png": {
+            "flag_name": "None",
+            "part": "left_part_1",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_1",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_1.png",
+            "default": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 154,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_nonecanine_vertical_1.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_nonecanine_vertical_1.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_nonecanine_vertical_2.png": {
+            "flag_name": "None",
+            "part": "left_part_2",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_2",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_2.png",
+            "default": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 176,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_nonecanine_vertical_2.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_nonecanine_vertical_2.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_nonecanine_vertical_3.png": {
+            "flag_name": "None",
+            "part": "right_part_1",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_3",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_3.png",
+            "default": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 198,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_nonecanine_vertical_3.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_nonecanine_vertical_3.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_nonecanine_vertical_4.png": {
+            "flag_name": "None",
+            "part": "right_part_2",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_4",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_4.png",
+            "default": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 220,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_nonecanine_vertical_4.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_nonecanine_vertical_4.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_nonecanine_vertical_5.png": {
+            "flag_name": "None",
+            "part": "whole",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_5.png",
+            "default": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 242,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_nonecanine_vertical_5.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_nonecanine_vertical_5.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_maskcanine_horizontal_0.png": {
+            "flag_name": "Mask",
+            "part": "center",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_0",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_0.png",
+            "mask": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 0,
+                "y": 22,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_maskcanine_horizontal_0.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_maskcanine_horizontal_0.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_maskcanine_horizontal_1.png": {
+            "flag_name": "Mask",
+            "part": "left_part_1",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_1",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_1.png",
+            "mask": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 22,
+                "y": 22,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_maskcanine_horizontal_1.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_maskcanine_horizontal_1.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_maskcanine_horizontal_2.png": {
+            "flag_name": "Mask",
+            "part": "left_part_2",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_2",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_2.png",
+            "mask": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 44,
+                "y": 22,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_maskcanine_horizontal_2.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_maskcanine_horizontal_2.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_maskcanine_horizontal_3.png": {
+            "flag_name": "Mask",
+            "part": "right_part_1",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_3",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_3.png",
+            "mask": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 66,
+                "y": 22,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_maskcanine_horizontal_3.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_maskcanine_horizontal_3.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_maskcanine_horizontal_4.png": {
+            "flag_name": "Mask",
+            "part": "right_part_2",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_4",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_4.png",
+            "mask": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 88,
+                "y": 22,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_maskcanine_horizontal_4.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_maskcanine_horizontal_4.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_maskcanine_horizontal_5.png": {
+            "flag_name": "Mask",
+            "part": "whole",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_5.png",
+            "mask": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 110,
+                "y": 22,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_maskcanine_horizontal_5.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_maskcanine_horizontal_5.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_maskcanine_vertical_0.png": {
+            "flag_name": "Mask",
+            "part": "center",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_0",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_0.png",
+            "mask": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 132,
+                "y": 22,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_maskcanine_vertical_0.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_maskcanine_vertical_0.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_maskcanine_vertical_1.png": {
+            "flag_name": "Mask",
+            "part": "left_part_1",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_1",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_1.png",
+            "mask": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 154,
+                "y": 22,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_maskcanine_vertical_1.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_maskcanine_vertical_1.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_maskcanine_vertical_2.png": {
+            "flag_name": "Mask",
+            "part": "left_part_2",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_2",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_2.png",
+            "mask": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 176,
+                "y": 22,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_maskcanine_vertical_2.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_maskcanine_vertical_2.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_maskcanine_vertical_3.png": {
+            "flag_name": "Mask",
+            "part": "right_part_1",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_3",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_3.png",
+            "mask": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 198,
+                "y": 22,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_maskcanine_vertical_3.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_maskcanine_vertical_3.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_maskcanine_vertical_4.png": {
+            "flag_name": "Mask",
+            "part": "right_part_2",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_4",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_4.png",
+            "mask": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 220,
+                "y": 22,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_maskcanine_vertical_4.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_maskcanine_vertical_4.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_maskcanine_vertical_5.png": {
+            "flag_name": "Mask",
+            "part": "whole",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_5.png",
+            "mask": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 242,
+                "y": 22,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_maskcanine_vertical_5.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_maskcanine_vertical_5.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_rainbow_flag_lgbtcanine_horizontal_0.png": {
+            "flag_name": "Rainbow flag LGBT",
+            "part": "center",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_0",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 0,
+                "y": 44,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_rainbow_flag_lgbtcanine_horizontal_0.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_rainbow_flag_lgbtcanine_horizontal_0.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_rainbow_flag_lgbtcanine_horizontal_1.png": {
+            "flag_name": "Rainbow flag LGBT",
+            "part": "left_part_1",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_1",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 22,
+                "y": 44,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_rainbow_flag_lgbtcanine_horizontal_1.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_rainbow_flag_lgbtcanine_horizontal_1.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_rainbow_flag_lgbtcanine_horizontal_2.png": {
+            "flag_name": "Rainbow flag LGBT",
+            "part": "left_part_2",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_2",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 44,
+                "y": 44,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_rainbow_flag_lgbtcanine_horizontal_2.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_rainbow_flag_lgbtcanine_horizontal_2.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_rainbow_flag_lgbtcanine_horizontal_3.png": {
+            "flag_name": "Rainbow flag LGBT",
+            "part": "right_part_1",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_3",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 66,
+                "y": 44,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_rainbow_flag_lgbtcanine_horizontal_3.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_rainbow_flag_lgbtcanine_horizontal_3.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_rainbow_flag_lgbtcanine_horizontal_4.png": {
+            "flag_name": "Rainbow flag LGBT",
+            "part": "right_part_2",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_4",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 88,
+                "y": 44,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_rainbow_flag_lgbtcanine_horizontal_4.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_rainbow_flag_lgbtcanine_horizontal_4.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_rainbow_flag_lgbtcanine_horizontal_5.png": {
+            "flag_name": "Rainbow flag LGBT",
+            "part": "whole",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 110,
+                "y": 44,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_rainbow_flag_lgbtcanine_horizontal_5.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_rainbow_flag_lgbtcanine_horizontal_5.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_rainbow_flag_lgbtcanine_vertical_0.png": {
+            "flag_name": "Rainbow flag LGBT",
+            "part": "center",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_0",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 132,
+                "y": 44,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_rainbow_flag_lgbtcanine_vertical_0.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_rainbow_flag_lgbtcanine_vertical_0.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_rainbow_flag_lgbtcanine_vertical_1.png": {
+            "flag_name": "Rainbow flag LGBT",
+            "part": "left_part_1",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_1",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 154,
+                "y": 44,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_rainbow_flag_lgbtcanine_vertical_1.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_rainbow_flag_lgbtcanine_vertical_1.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_rainbow_flag_lgbtcanine_vertical_2.png": {
+            "flag_name": "Rainbow flag LGBT",
+            "part": "left_part_2",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_2",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 176,
+                "y": 44,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_rainbow_flag_lgbtcanine_vertical_2.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_rainbow_flag_lgbtcanine_vertical_2.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_rainbow_flag_lgbtcanine_vertical_3.png": {
+            "flag_name": "Rainbow flag LGBT",
+            "part": "right_part_1",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_3",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 198,
+                "y": 44,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_rainbow_flag_lgbtcanine_vertical_3.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_rainbow_flag_lgbtcanine_vertical_3.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_rainbow_flag_lgbtcanine_vertical_4.png": {
+            "flag_name": "Rainbow flag LGBT",
+            "part": "right_part_2",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_4",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 220,
+                "y": 44,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_rainbow_flag_lgbtcanine_vertical_4.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_rainbow_flag_lgbtcanine_vertical_4.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_rainbow_flag_lgbtcanine_vertical_5.png": {
+            "flag_name": "Rainbow flag LGBT",
+            "part": "whole",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 242,
+                "y": 44,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_rainbow_flag_lgbtcanine_vertical_5.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_rainbow_flag_lgbtcanine_vertical_5.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_philadelphia_rainbow_flag_people_of_colorcanine_horizontal_0.png": {
+            "flag_name": "Philadelphia Rainbow flag People of Color",
+            "part": "center",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_0",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 0,
+                "y": 66,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_philadelphia_rainbow_flag_people_of_colorcanine_horizontal_0.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_philadelphia_rainbow_flag_people_of_colorcanine_horizontal_0.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_philadelphia_rainbow_flag_people_of_colorcanine_horizontal_1.png": {
+            "flag_name": "Philadelphia Rainbow flag People of Color",
+            "part": "left_part_1",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_1",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 22,
+                "y": 66,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_philadelphia_rainbow_flag_people_of_colorcanine_horizontal_1.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_philadelphia_rainbow_flag_people_of_colorcanine_horizontal_1.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_philadelphia_rainbow_flag_people_of_colorcanine_horizontal_2.png": {
+            "flag_name": "Philadelphia Rainbow flag People of Color",
+            "part": "left_part_2",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_2",
+            "flags_fits": true,
+            "flags_fits_perfect": true,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 44,
+                "y": 66,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_philadelphia_rainbow_flag_people_of_colorcanine_horizontal_2.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_philadelphia_rainbow_flag_people_of_colorcanine_horizontal_2.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_philadelphia_rainbow_flag_people_of_colorcanine_horizontal_3.png": {
+            "flag_name": "Philadelphia Rainbow flag People of Color",
+            "part": "right_part_1",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_3",
+            "flags_fits": true,
+            "flags_fits_perfect": true,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 66,
+                "y": 66,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_philadelphia_rainbow_flag_people_of_colorcanine_horizontal_3.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_philadelphia_rainbow_flag_people_of_colorcanine_horizontal_3.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_philadelphia_rainbow_flag_people_of_colorcanine_horizontal_4.png": {
+            "flag_name": "Philadelphia Rainbow flag People of Color",
+            "part": "right_part_2",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_4",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 88,
+                "y": 66,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_philadelphia_rainbow_flag_people_of_colorcanine_horizontal_4.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_philadelphia_rainbow_flag_people_of_colorcanine_horizontal_4.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_philadelphia_rainbow_flag_people_of_colorcanine_horizontal_5.png": {
+            "flag_name": "Philadelphia Rainbow flag People of Color",
+            "part": "whole",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 110,
+                "y": 66,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_philadelphia_rainbow_flag_people_of_colorcanine_horizontal_5.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_philadelphia_rainbow_flag_people_of_colorcanine_horizontal_5.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_philadelphia_rainbow_flag_people_of_colorcanine_vertical_0.png": {
+            "flag_name": "Philadelphia Rainbow flag People of Color",
+            "part": "center",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_0",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 132,
+                "y": 66,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_philadelphia_rainbow_flag_people_of_colorcanine_vertical_0.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_philadelphia_rainbow_flag_people_of_colorcanine_vertical_0.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_philadelphia_rainbow_flag_people_of_colorcanine_vertical_1.png": {
+            "flag_name": "Philadelphia Rainbow flag People of Color",
+            "part": "left_part_1",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_1",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 154,
+                "y": 66,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_philadelphia_rainbow_flag_people_of_colorcanine_vertical_1.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_philadelphia_rainbow_flag_people_of_colorcanine_vertical_1.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_philadelphia_rainbow_flag_people_of_colorcanine_vertical_2.png": {
+            "flag_name": "Philadelphia Rainbow flag People of Color",
+            "part": "left_part_2",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_2",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 176,
+                "y": 66,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_philadelphia_rainbow_flag_people_of_colorcanine_vertical_2.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_philadelphia_rainbow_flag_people_of_colorcanine_vertical_2.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_philadelphia_rainbow_flag_people_of_colorcanine_vertical_3.png": {
+            "flag_name": "Philadelphia Rainbow flag People of Color",
+            "part": "right_part_1",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_3",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 198,
+                "y": 66,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_philadelphia_rainbow_flag_people_of_colorcanine_vertical_3.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_philadelphia_rainbow_flag_people_of_colorcanine_vertical_3.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_philadelphia_rainbow_flag_people_of_colorcanine_vertical_4.png": {
+            "flag_name": "Philadelphia Rainbow flag People of Color",
+            "part": "right_part_2",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_4",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 220,
+                "y": 66,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_philadelphia_rainbow_flag_people_of_colorcanine_vertical_4.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_philadelphia_rainbow_flag_people_of_colorcanine_vertical_4.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_philadelphia_rainbow_flag_people_of_colorcanine_vertical_5.png": {
+            "flag_name": "Philadelphia Rainbow flag People of Color",
+            "part": "whole",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 242,
+                "y": 66,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_philadelphia_rainbow_flag_people_of_colorcanine_vertical_5.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_philadelphia_rainbow_flag_people_of_colorcanine_vertical_5.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_lgbtq_rainbow_flag_progresscanine_horizontal_0.png": {
+            "flag_name": "LGBTQ+ Rainbow flag Progress",
+            "part": "center",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_0",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 0,
+                "y": 88,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_lgbtq_rainbow_flag_progresscanine_horizontal_0.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_lgbtq_rainbow_flag_progresscanine_horizontal_0.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_lgbtq_rainbow_flag_progresscanine_horizontal_1.png": {
+            "flag_name": "LGBTQ+ Rainbow flag Progress",
+            "part": "left_part_1",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_1",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 22,
+                "y": 88,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_lgbtq_rainbow_flag_progresscanine_horizontal_1.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_lgbtq_rainbow_flag_progresscanine_horizontal_1.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_lgbtq_rainbow_flag_progresscanine_horizontal_2.png": {
+            "flag_name": "LGBTQ+ Rainbow flag Progress",
+            "part": "left_part_2",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_2",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 44,
+                "y": 88,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_lgbtq_rainbow_flag_progresscanine_horizontal_2.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_lgbtq_rainbow_flag_progresscanine_horizontal_2.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_lgbtq_rainbow_flag_progresscanine_horizontal_3.png": {
+            "flag_name": "LGBTQ+ Rainbow flag Progress",
+            "part": "right_part_1",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_3",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 66,
+                "y": 88,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_lgbtq_rainbow_flag_progresscanine_horizontal_3.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_lgbtq_rainbow_flag_progresscanine_horizontal_3.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_lgbtq_rainbow_flag_progresscanine_horizontal_4.png": {
+            "flag_name": "LGBTQ+ Rainbow flag Progress",
+            "part": "right_part_2",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_4",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 88,
+                "y": 88,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_lgbtq_rainbow_flag_progresscanine_horizontal_4.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_lgbtq_rainbow_flag_progresscanine_horizontal_4.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_lgbtq_rainbow_flag_progresscanine_horizontal_5.png": {
+            "flag_name": "LGBTQ+ Rainbow flag Progress",
+            "part": "whole",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_5",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 110,
+                "y": 88,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_lgbtq_rainbow_flag_progresscanine_horizontal_5.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_lgbtq_rainbow_flag_progresscanine_horizontal_5.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_lgbtq_rainbow_flag_progresscanine_vertical_0.png": {
+            "flag_name": "LGBTQ+ Rainbow flag Progress",
+            "part": "center",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_0",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 132,
+                "y": 88,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_lgbtq_rainbow_flag_progresscanine_vertical_0.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_lgbtq_rainbow_flag_progresscanine_vertical_0.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_lgbtq_rainbow_flag_progresscanine_vertical_1.png": {
+            "flag_name": "LGBTQ+ Rainbow flag Progress",
+            "part": "left_part_1",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_1",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 154,
+                "y": 88,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_lgbtq_rainbow_flag_progresscanine_vertical_1.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_lgbtq_rainbow_flag_progresscanine_vertical_1.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_lgbtq_rainbow_flag_progresscanine_vertical_2.png": {
+            "flag_name": "LGBTQ+ Rainbow flag Progress",
+            "part": "left_part_2",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_2",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 176,
+                "y": 88,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_lgbtq_rainbow_flag_progresscanine_vertical_2.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_lgbtq_rainbow_flag_progresscanine_vertical_2.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_lgbtq_rainbow_flag_progresscanine_vertical_3.png": {
+            "flag_name": "LGBTQ+ Rainbow flag Progress",
+            "part": "right_part_1",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_3",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 198,
+                "y": 88,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_lgbtq_rainbow_flag_progresscanine_vertical_3.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_lgbtq_rainbow_flag_progresscanine_vertical_3.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_lgbtq_rainbow_flag_progresscanine_vertical_4.png": {
+            "flag_name": "LGBTQ+ Rainbow flag Progress",
+            "part": "right_part_2",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_4",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 220,
+                "y": 88,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_lgbtq_rainbow_flag_progresscanine_vertical_4.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_lgbtq_rainbow_flag_progresscanine_vertical_4.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_lgbtq_rainbow_flag_progresscanine_vertical_5.png": {
+            "flag_name": "LGBTQ+ Rainbow flag Progress",
+            "part": "whole",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 242,
+                "y": 88,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_lgbtq_rainbow_flag_progresscanine_vertical_5.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_lgbtq_rainbow_flag_progresscanine_vertical_5.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_achilleancanine_horizontal_0.png": {
+            "flag_name": "Achillean",
+            "part": "center",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_0",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 0,
+                "y": 110,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_achilleancanine_horizontal_0.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_achilleancanine_horizontal_0.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_achilleancanine_horizontal_1.png": {
+            "flag_name": "Achillean",
+            "part": "left_part_1",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_1",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 22,
+                "y": 110,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_achilleancanine_horizontal_1.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_achilleancanine_horizontal_1.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_achilleancanine_horizontal_2.png": {
+            "flag_name": "Achillean",
+            "part": "left_part_2",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_2",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 44,
+                "y": 110,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_achilleancanine_horizontal_2.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_achilleancanine_horizontal_2.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_achilleancanine_horizontal_3.png": {
+            "flag_name": "Achillean",
+            "part": "right_part_1",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_3",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 66,
+                "y": 110,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_achilleancanine_horizontal_3.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_achilleancanine_horizontal_3.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_achilleancanine_horizontal_4.png": {
+            "flag_name": "Achillean",
+            "part": "right_part_2",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_4",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 88,
+                "y": 110,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_achilleancanine_horizontal_4.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_achilleancanine_horizontal_4.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_achilleancanine_horizontal_5.png": {
+            "flag_name": "Achillean",
+            "part": "whole",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 110,
+                "y": 110,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_achilleancanine_horizontal_5.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_achilleancanine_horizontal_5.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_achilleancanine_vertical_0.png": {
+            "flag_name": "Achillean",
+            "part": "center",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_0",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 132,
+                "y": 110,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_achilleancanine_vertical_0.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_achilleancanine_vertical_0.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_achilleancanine_vertical_1.png": {
+            "flag_name": "Achillean",
+            "part": "left_part_1",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_1",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 154,
+                "y": 110,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_achilleancanine_vertical_1.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_achilleancanine_vertical_1.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_achilleancanine_vertical_2.png": {
+            "flag_name": "Achillean",
+            "part": "left_part_2",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_2",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 176,
+                "y": 110,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_achilleancanine_vertical_2.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_achilleancanine_vertical_2.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_achilleancanine_vertical_3.png": {
+            "flag_name": "Achillean",
+            "part": "right_part_1",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_3",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 198,
+                "y": 110,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_achilleancanine_vertical_3.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_achilleancanine_vertical_3.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_achilleancanine_vertical_4.png": {
+            "flag_name": "Achillean",
+            "part": "right_part_2",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_4",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 220,
+                "y": 110,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_achilleancanine_vertical_4.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_achilleancanine_vertical_4.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_achilleancanine_vertical_5.png": {
+            "flag_name": "Achillean",
+            "part": "whole",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 242,
+                "y": 110,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_achilleancanine_vertical_5.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_achilleancanine_vertical_5.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_androphilliacanine_horizontal_0.png": {
+            "flag_name": "Androphillia",
+            "part": "center",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_0",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 0,
+                "y": 132,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_androphilliacanine_horizontal_0.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_androphilliacanine_horizontal_0.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_androphilliacanine_horizontal_1.png": {
+            "flag_name": "Androphillia",
+            "part": "left_part_1",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_1",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 22,
+                "y": 132,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_androphilliacanine_horizontal_1.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_androphilliacanine_horizontal_1.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_androphilliacanine_horizontal_2.png": {
+            "flag_name": "Androphillia",
+            "part": "left_part_2",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_2",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 44,
+                "y": 132,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_androphilliacanine_horizontal_2.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_androphilliacanine_horizontal_2.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_androphilliacanine_horizontal_3.png": {
+            "flag_name": "Androphillia",
+            "part": "right_part_1",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_3",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 66,
+                "y": 132,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_androphilliacanine_horizontal_3.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_androphilliacanine_horizontal_3.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_androphilliacanine_horizontal_4.png": {
+            "flag_name": "Androphillia",
+            "part": "right_part_2",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_4",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 88,
+                "y": 132,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_androphilliacanine_horizontal_4.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_androphilliacanine_horizontal_4.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_androphilliacanine_horizontal_5.png": {
+            "flag_name": "Androphillia",
+            "part": "whole",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 110,
+                "y": 132,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_androphilliacanine_horizontal_5.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_androphilliacanine_horizontal_5.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_androphilliacanine_vertical_0.png": {
+            "flag_name": "Androphillia",
+            "part": "center",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_0",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 132,
+                "y": 132,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_androphilliacanine_vertical_0.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_androphilliacanine_vertical_0.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_androphilliacanine_vertical_1.png": {
+            "flag_name": "Androphillia",
+            "part": "left_part_1",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_1",
+            "flags_fits": true,
+            "flags_fits_perfect": true,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 154,
+                "y": 132,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_androphilliacanine_vertical_1.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_androphilliacanine_vertical_1.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_androphilliacanine_vertical_2.png": {
+            "flag_name": "Androphillia",
+            "part": "left_part_2",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_2",
+            "flags_fits": true,
+            "flags_fits_perfect": true,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 176,
+                "y": 132,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_androphilliacanine_vertical_2.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_androphilliacanine_vertical_2.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_androphilliacanine_vertical_3.png": {
+            "flag_name": "Androphillia",
+            "part": "right_part_1",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_3",
+            "flags_fits": true,
+            "flags_fits_perfect": true,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 198,
+                "y": 132,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_androphilliacanine_vertical_3.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_androphilliacanine_vertical_3.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_androphilliacanine_vertical_4.png": {
+            "flag_name": "Androphillia",
+            "part": "right_part_2",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_4",
+            "flags_fits": true,
+            "flags_fits_perfect": true,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 220,
+                "y": 132,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_androphilliacanine_vertical_4.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_androphilliacanine_vertical_4.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_androphilliacanine_vertical_5.png": {
+            "flag_name": "Androphillia",
+            "part": "whole",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 242,
+                "y": 132,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_androphilliacanine_vertical_5.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_androphilliacanine_vertical_5.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_gynephiliacanine_horizontal_0.png": {
+            "flag_name": "Gynephilia",
+            "part": "center",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_0",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 0,
+                "y": 154,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_gynephiliacanine_horizontal_0.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_gynephiliacanine_horizontal_0.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_gynephiliacanine_horizontal_1.png": {
+            "flag_name": "Gynephilia",
+            "part": "left_part_1",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_1",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 22,
+                "y": 154,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_gynephiliacanine_horizontal_1.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_gynephiliacanine_horizontal_1.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_gynephiliacanine_horizontal_2.png": {
+            "flag_name": "Gynephilia",
+            "part": "left_part_2",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_2",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 44,
+                "y": 154,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_gynephiliacanine_horizontal_2.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_gynephiliacanine_horizontal_2.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_gynephiliacanine_horizontal_3.png": {
+            "flag_name": "Gynephilia",
+            "part": "right_part_1",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_3",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 66,
+                "y": 154,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_gynephiliacanine_horizontal_3.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_gynephiliacanine_horizontal_3.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_gynephiliacanine_horizontal_4.png": {
+            "flag_name": "Gynephilia",
+            "part": "right_part_2",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_4",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 88,
+                "y": 154,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_gynephiliacanine_horizontal_4.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_gynephiliacanine_horizontal_4.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_gynephiliacanine_horizontal_5.png": {
+            "flag_name": "Gynephilia",
+            "part": "whole",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 110,
+                "y": 154,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_gynephiliacanine_horizontal_5.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_gynephiliacanine_horizontal_5.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_gynephiliacanine_vertical_0.png": {
+            "flag_name": "Gynephilia",
+            "part": "center",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_0",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 132,
+                "y": 154,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_gynephiliacanine_vertical_0.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_gynephiliacanine_vertical_0.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_gynephiliacanine_vertical_1.png": {
+            "flag_name": "Gynephilia",
+            "part": "left_part_1",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_1",
+            "flags_fits": true,
+            "flags_fits_perfect": true,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 154,
+                "y": 154,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_gynephiliacanine_vertical_1.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_gynephiliacanine_vertical_1.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_gynephiliacanine_vertical_2.png": {
+            "flag_name": "Gynephilia",
+            "part": "left_part_2",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_2",
+            "flags_fits": true,
+            "flags_fits_perfect": true,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 176,
+                "y": 154,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_gynephiliacanine_vertical_2.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_gynephiliacanine_vertical_2.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_gynephiliacanine_vertical_3.png": {
+            "flag_name": "Gynephilia",
+            "part": "right_part_1",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_3",
+            "flags_fits": true,
+            "flags_fits_perfect": true,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 198,
+                "y": 154,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_gynephiliacanine_vertical_3.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_gynephiliacanine_vertical_3.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_gynephiliacanine_vertical_4.png": {
+            "flag_name": "Gynephilia",
+            "part": "right_part_2",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_4",
+            "flags_fits": true,
+            "flags_fits_perfect": true,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 220,
+                "y": 154,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_gynephiliacanine_vertical_4.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_gynephiliacanine_vertical_4.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_gynephiliacanine_vertical_5.png": {
+            "flag_name": "Gynephilia",
+            "part": "whole",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 242,
+                "y": 154,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_gynephiliacanine_vertical_5.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_gynephiliacanine_vertical_5.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_queercanine_horizontal_0.png": {
+            "flag_name": "Queer",
+            "part": "center",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_0",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 0,
+                "y": 176,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_queercanine_horizontal_0.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_queercanine_horizontal_0.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_queercanine_horizontal_1.png": {
+            "flag_name": "Queer",
+            "part": "left_part_1",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_1",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 22,
+                "y": 176,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_queercanine_horizontal_1.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_queercanine_horizontal_1.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_queercanine_horizontal_2.png": {
+            "flag_name": "Queer",
+            "part": "left_part_2",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_2",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 44,
+                "y": 176,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_queercanine_horizontal_2.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_queercanine_horizontal_2.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_queercanine_horizontal_3.png": {
+            "flag_name": "Queer",
+            "part": "right_part_1",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_3",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 66,
+                "y": 176,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_queercanine_horizontal_3.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_queercanine_horizontal_3.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_queercanine_horizontal_4.png": {
+            "flag_name": "Queer",
+            "part": "right_part_2",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_4",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 88,
+                "y": 176,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_queercanine_horizontal_4.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_queercanine_horizontal_4.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_queercanine_horizontal_5.png": {
+            "flag_name": "Queer",
+            "part": "whole",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 110,
+                "y": 176,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_queercanine_horizontal_5.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_queercanine_horizontal_5.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_queercanine_vertical_0.png": {
+            "flag_name": "Queer",
+            "part": "center",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_0",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 132,
+                "y": 176,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_queercanine_vertical_0.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_queercanine_vertical_0.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_queercanine_vertical_1.png": {
+            "flag_name": "Queer",
+            "part": "left_part_1",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_1",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 154,
+                "y": 176,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_queercanine_vertical_1.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_queercanine_vertical_1.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_queercanine_vertical_2.png": {
+            "flag_name": "Queer",
+            "part": "left_part_2",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_2",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 176,
+                "y": 176,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_queercanine_vertical_2.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_queercanine_vertical_2.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_queercanine_vertical_3.png": {
+            "flag_name": "Queer",
+            "part": "right_part_1",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_3",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 198,
+                "y": 176,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_queercanine_vertical_3.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_queercanine_vertical_3.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_queercanine_vertical_4.png": {
+            "flag_name": "Queer",
+            "part": "right_part_2",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_4",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 220,
+                "y": 176,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_queercanine_vertical_4.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_queercanine_vertical_4.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_queercanine_vertical_5.png": {
+            "flag_name": "Queer",
+            "part": "whole",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 242,
+                "y": 176,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_queercanine_vertical_5.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_queercanine_vertical_5.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_questioningcanine_horizontal_0.png": {
+            "flag_name": "Questioning",
+            "part": "center",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_0",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 0,
+                "y": 198,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_questioningcanine_horizontal_0.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_questioningcanine_horizontal_0.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_questioningcanine_horizontal_1.png": {
+            "flag_name": "Questioning",
+            "part": "left_part_1",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_1",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 22,
+                "y": 198,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_questioningcanine_horizontal_1.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_questioningcanine_horizontal_1.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_questioningcanine_horizontal_2.png": {
+            "flag_name": "Questioning",
+            "part": "left_part_2",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_2",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 44,
+                "y": 198,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_questioningcanine_horizontal_2.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_questioningcanine_horizontal_2.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_questioningcanine_horizontal_3.png": {
+            "flag_name": "Questioning",
+            "part": "right_part_1",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_3",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 66,
+                "y": 198,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_questioningcanine_horizontal_3.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_questioningcanine_horizontal_3.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_questioningcanine_horizontal_4.png": {
+            "flag_name": "Questioning",
+            "part": "right_part_2",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_4",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 88,
+                "y": 198,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_questioningcanine_horizontal_4.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_questioningcanine_horizontal_4.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_questioningcanine_horizontal_5.png": {
+            "flag_name": "Questioning",
+            "part": "whole",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 110,
+                "y": 198,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_questioningcanine_horizontal_5.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_questioningcanine_horizontal_5.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_questioningcanine_vertical_0.png": {
+            "flag_name": "Questioning",
+            "part": "center",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_0",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 132,
+                "y": 198,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_questioningcanine_vertical_0.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_questioningcanine_vertical_0.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_questioningcanine_vertical_1.png": {
+            "flag_name": "Questioning",
+            "part": "left_part_1",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_1",
+            "flags_fits": true,
+            "flags_fits_perfect": true,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 154,
+                "y": 198,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_questioningcanine_vertical_1.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_questioningcanine_vertical_1.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_questioningcanine_vertical_2.png": {
+            "flag_name": "Questioning",
+            "part": "left_part_2",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_2",
+            "flags_fits": true,
+            "flags_fits_perfect": true,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 176,
+                "y": 198,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_questioningcanine_vertical_2.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_questioningcanine_vertical_2.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_questioningcanine_vertical_3.png": {
+            "flag_name": "Questioning",
+            "part": "right_part_1",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_3",
+            "flags_fits": true,
+            "flags_fits_perfect": true,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 198,
+                "y": 198,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_questioningcanine_vertical_3.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_questioningcanine_vertical_3.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_questioningcanine_vertical_4.png": {
+            "flag_name": "Questioning",
+            "part": "right_part_2",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_4",
+            "flags_fits": true,
+            "flags_fits_perfect": true,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 220,
+                "y": 198,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_questioningcanine_vertical_4.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_questioningcanine_vertical_4.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_questioningcanine_vertical_5.png": {
+            "flag_name": "Questioning",
+            "part": "whole",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 242,
+                "y": 198,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_questioningcanine_vertical_5.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_questioningcanine_vertical_5.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_diamoriccanine_horizontal_0.png": {
+            "flag_name": "Diamoric",
+            "part": "center",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_0",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 0,
+                "y": 220,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_diamoriccanine_horizontal_0.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_diamoriccanine_horizontal_0.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_diamoriccanine_horizontal_1.png": {
+            "flag_name": "Diamoric",
+            "part": "left_part_1",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_1",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 22,
+                "y": 220,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_diamoriccanine_horizontal_1.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_diamoriccanine_horizontal_1.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_diamoriccanine_horizontal_2.png": {
+            "flag_name": "Diamoric",
+            "part": "left_part_2",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_2",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 44,
+                "y": 220,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_diamoriccanine_horizontal_2.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_diamoriccanine_horizontal_2.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_diamoriccanine_horizontal_3.png": {
+            "flag_name": "Diamoric",
+            "part": "right_part_1",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_3",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 66,
+                "y": 220,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_diamoriccanine_horizontal_3.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_diamoriccanine_horizontal_3.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_diamoriccanine_horizontal_4.png": {
+            "flag_name": "Diamoric",
+            "part": "right_part_2",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_4",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 88,
+                "y": 220,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_diamoriccanine_horizontal_4.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_diamoriccanine_horizontal_4.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_diamoriccanine_horizontal_5.png": {
+            "flag_name": "Diamoric",
+            "part": "whole",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 110,
+                "y": 220,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_diamoriccanine_horizontal_5.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_diamoriccanine_horizontal_5.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_diamoriccanine_vertical_0.png": {
+            "flag_name": "Diamoric",
+            "part": "center",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_0",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 132,
+                "y": 220,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_diamoriccanine_vertical_0.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_diamoriccanine_vertical_0.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_diamoriccanine_vertical_1.png": {
+            "flag_name": "Diamoric",
+            "part": "left_part_1",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_1",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 154,
+                "y": 220,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_diamoriccanine_vertical_1.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_diamoriccanine_vertical_1.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_diamoriccanine_vertical_2.png": {
+            "flag_name": "Diamoric",
+            "part": "left_part_2",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_2",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 176,
+                "y": 220,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_diamoriccanine_vertical_2.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_diamoriccanine_vertical_2.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_diamoriccanine_vertical_3.png": {
+            "flag_name": "Diamoric",
+            "part": "right_part_1",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_3",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 198,
+                "y": 220,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_diamoriccanine_vertical_3.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_diamoriccanine_vertical_3.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_diamoriccanine_vertical_4.png": {
+            "flag_name": "Diamoric",
+            "part": "right_part_2",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_4",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 220,
+                "y": 220,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_diamoriccanine_vertical_4.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_diamoriccanine_vertical_4.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_diamoriccanine_vertical_5.png": {
+            "flag_name": "Diamoric",
+            "part": "whole",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 242,
+                "y": 220,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_diamoriccanine_vertical_5.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_diamoriccanine_vertical_5.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_sapphiccanine_horizontal_0.png": {
+            "flag_name": "Sapphic",
+            "part": "center",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_0",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 0,
+                "y": 242,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_sapphiccanine_horizontal_0.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_sapphiccanine_horizontal_0.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_sapphiccanine_horizontal_1.png": {
+            "flag_name": "Sapphic",
+            "part": "left_part_1",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_1",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 22,
+                "y": 242,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_sapphiccanine_horizontal_1.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_sapphiccanine_horizontal_1.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_sapphiccanine_horizontal_2.png": {
+            "flag_name": "Sapphic",
+            "part": "left_part_2",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_2",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 44,
+                "y": 242,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_sapphiccanine_horizontal_2.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_sapphiccanine_horizontal_2.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_sapphiccanine_horizontal_3.png": {
+            "flag_name": "Sapphic",
+            "part": "right_part_1",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_3",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 66,
+                "y": 242,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_sapphiccanine_horizontal_3.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_sapphiccanine_horizontal_3.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_sapphiccanine_horizontal_4.png": {
+            "flag_name": "Sapphic",
+            "part": "right_part_2",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_4",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 88,
+                "y": 242,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_sapphiccanine_horizontal_4.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_sapphiccanine_horizontal_4.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_sapphiccanine_horizontal_5.png": {
+            "flag_name": "Sapphic",
+            "part": "whole",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 110,
+                "y": 242,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_sapphiccanine_horizontal_5.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_sapphiccanine_horizontal_5.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_sapphiccanine_vertical_0.png": {
+            "flag_name": "Sapphic",
+            "part": "center",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_0",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 132,
+                "y": 242,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_sapphiccanine_vertical_0.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_sapphiccanine_vertical_0.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_sapphiccanine_vertical_1.png": {
+            "flag_name": "Sapphic",
+            "part": "left_part_1",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_1",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 154,
+                "y": 242,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_sapphiccanine_vertical_1.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_sapphiccanine_vertical_1.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_sapphiccanine_vertical_2.png": {
+            "flag_name": "Sapphic",
+            "part": "left_part_2",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_2",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 176,
+                "y": 242,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_sapphiccanine_vertical_2.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_sapphiccanine_vertical_2.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_sapphiccanine_vertical_3.png": {
+            "flag_name": "Sapphic",
+            "part": "right_part_1",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_3",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 198,
+                "y": 242,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_sapphiccanine_vertical_3.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_sapphiccanine_vertical_3.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_sapphiccanine_vertical_4.png": {
+            "flag_name": "Sapphic",
+            "part": "right_part_2",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_4",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 220,
+                "y": 242,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_sapphiccanine_vertical_4.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_sapphiccanine_vertical_4.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_sapphiccanine_vertical_5.png": {
+            "flag_name": "Sapphic",
+            "part": "whole",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 242,
+                "y": 242,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_sapphiccanine_vertical_5.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_sapphiccanine_vertical_5.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_pluraliancanine_horizontal_0.png": {
+            "flag_name": "Pluralian",
+            "part": "center",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_0",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 0,
+                "y": 264,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_pluraliancanine_horizontal_0.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_pluraliancanine_horizontal_0.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_pluraliancanine_horizontal_1.png": {
+            "flag_name": "Pluralian",
+            "part": "left_part_1",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_1",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 22,
+                "y": 264,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_pluraliancanine_horizontal_1.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_pluraliancanine_horizontal_1.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_pluraliancanine_horizontal_2.png": {
+            "flag_name": "Pluralian",
+            "part": "left_part_2",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_2",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 44,
+                "y": 264,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_pluraliancanine_horizontal_2.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_pluraliancanine_horizontal_2.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_pluraliancanine_horizontal_3.png": {
+            "flag_name": "Pluralian",
+            "part": "right_part_1",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_3",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 66,
+                "y": 264,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_pluraliancanine_horizontal_3.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_pluraliancanine_horizontal_3.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_pluraliancanine_horizontal_4.png": {
+            "flag_name": "Pluralian",
+            "part": "right_part_2",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_4",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 88,
+                "y": 264,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_pluraliancanine_horizontal_4.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_pluraliancanine_horizontal_4.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_pluraliancanine_horizontal_5.png": {
+            "flag_name": "Pluralian",
+            "part": "whole",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 110,
+                "y": 264,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_pluraliancanine_horizontal_5.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_pluraliancanine_horizontal_5.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_pluraliancanine_vertical_0.png": {
+            "flag_name": "Pluralian",
+            "part": "center",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_0",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 132,
+                "y": 264,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_pluraliancanine_vertical_0.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_pluraliancanine_vertical_0.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_pluraliancanine_vertical_1.png": {
+            "flag_name": "Pluralian",
+            "part": "left_part_1",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_1",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 154,
+                "y": 264,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_pluraliancanine_vertical_1.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_pluraliancanine_vertical_1.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_pluraliancanine_vertical_2.png": {
+            "flag_name": "Pluralian",
+            "part": "left_part_2",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_2",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 176,
+                "y": 264,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_pluraliancanine_vertical_2.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_pluraliancanine_vertical_2.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_pluraliancanine_vertical_3.png": {
+            "flag_name": "Pluralian",
+            "part": "right_part_1",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_3",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 198,
+                "y": 264,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_pluraliancanine_vertical_3.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_pluraliancanine_vertical_3.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_pluraliancanine_vertical_4.png": {
+            "flag_name": "Pluralian",
+            "part": "right_part_2",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_4",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 220,
+                "y": 264,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_pluraliancanine_vertical_4.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_pluraliancanine_vertical_4.png"
+        },
+        "assets/img/sprites/pride_canine/pride_canine_pluraliancanine_vertical_5.png": {
+            "flag_name": "Pluralian",
+            "part": "whole",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 242,
+                "y": 264,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/pride_canine/pride_canine_pluraliancanine_vertical_5.png",
+            "filename": "assets/img/sprites/pride_canine/pride_canine_pluraliancanine_vertical_5.png"
+        }
+    },
+    "meta": {
+        "size": {
+            "w": 264,
+            "h": 286
+        },
+        "image": "pride_canine.png",
+        "format": "RGBA8888",
+        "scale": 1
+    }
+}

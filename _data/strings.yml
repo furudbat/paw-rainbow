@@ -3,6 +3,8 @@ designer:
 select_form:
   label: Forms
   paw: Paw
+  canine: Canine (Dogs)
+  feline: Feline (Cats)
 select_filter:
   all: All
   pride: Pride

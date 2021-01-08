@@ -1,0 +1,2101 @@
+{
+    "frames": {
+        "assets/img/sprites/romantic_feline/romantic_feline_aromanticfeline_horizontal_0.png": {
+            "flag_name": "Aromantic",
+            "part": "center",
+            "orientation": "horizontal",
+            "mask_key": "feline_horizontal_0",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_horizontal_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/romantic_feline/romantic_feline_aromanticfeline_horizontal_0.png",
+            "filename": "assets/img/sprites/romantic_feline/romantic_feline_aromanticfeline_horizontal_0.png"
+        },
+        "assets/img/sprites/romantic_feline/romantic_feline_aromanticfeline_horizontal_1.png": {
+            "flag_name": "Aromantic",
+            "part": "left_part_1",
+            "orientation": "horizontal",
+            "mask_key": "feline_horizontal_1",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_horizontal_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 25,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/romantic_feline/romantic_feline_aromanticfeline_horizontal_1.png",
+            "filename": "assets/img/sprites/romantic_feline/romantic_feline_aromanticfeline_horizontal_1.png"
+        },
+        "assets/img/sprites/romantic_feline/romantic_feline_aromanticfeline_horizontal_2.png": {
+            "flag_name": "Aromantic",
+            "part": "left_part_2",
+            "orientation": "horizontal",
+            "mask_key": "feline_horizontal_2",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_horizontal_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 50,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/romantic_feline/romantic_feline_aromanticfeline_horizontal_2.png",
+            "filename": "assets/img/sprites/romantic_feline/romantic_feline_aromanticfeline_horizontal_2.png"
+        },
+        "assets/img/sprites/romantic_feline/romantic_feline_aromanticfeline_horizontal_3.png": {
+            "flag_name": "Aromantic",
+            "part": "right_part_1",
+            "orientation": "horizontal",
+            "mask_key": "feline_horizontal_3",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_horizontal_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 75,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/romantic_feline/romantic_feline_aromanticfeline_horizontal_3.png",
+            "filename": "assets/img/sprites/romantic_feline/romantic_feline_aromanticfeline_horizontal_3.png"
+        },
+        "assets/img/sprites/romantic_feline/romantic_feline_aromanticfeline_horizontal_4.png": {
+            "flag_name": "Aromantic",
+            "part": "right_part_2",
+            "orientation": "horizontal",
+            "mask_key": "feline_horizontal_4",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_horizontal_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 100,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/romantic_feline/romantic_feline_aromanticfeline_horizontal_4.png",
+            "filename": "assets/img/sprites/romantic_feline/romantic_feline_aromanticfeline_horizontal_4.png"
+        },
+        "assets/img/sprites/romantic_feline/romantic_feline_aromanticfeline_horizontal_5.png": {
+            "flag_name": "Aromantic",
+            "part": "whole",
+            "orientation": "horizontal",
+            "mask_key": "feline_horizontal_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_horizontal_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 125,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/romantic_feline/romantic_feline_aromanticfeline_horizontal_5.png",
+            "filename": "assets/img/sprites/romantic_feline/romantic_feline_aromanticfeline_horizontal_5.png"
+        },
+        "assets/img/sprites/romantic_feline/romantic_feline_aromanticfeline_vertical_0.png": {
+            "flag_name": "Aromantic",
+            "part": "center",
+            "orientation": "vertical",
+            "mask_key": "feline_vertical_0",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_vertical_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 150,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/romantic_feline/romantic_feline_aromanticfeline_vertical_0.png",
+            "filename": "assets/img/sprites/romantic_feline/romantic_feline_aromanticfeline_vertical_0.png"
+        },
+        "assets/img/sprites/romantic_feline/romantic_feline_aromanticfeline_vertical_1.png": {
+            "flag_name": "Aromantic",
+            "part": "left_part_1",
+            "orientation": "vertical",
+            "mask_key": "feline_vertical_1",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_vertical_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 175,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/romantic_feline/romantic_feline_aromanticfeline_vertical_1.png",
+            "filename": "assets/img/sprites/romantic_feline/romantic_feline_aromanticfeline_vertical_1.png"
+        },
+        "assets/img/sprites/romantic_feline/romantic_feline_aromanticfeline_vertical_2.png": {
+            "flag_name": "Aromantic",
+            "part": "left_part_2",
+            "orientation": "vertical",
+            "mask_key": "feline_vertical_2",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_vertical_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 200,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/romantic_feline/romantic_feline_aromanticfeline_vertical_2.png",
+            "filename": "assets/img/sprites/romantic_feline/romantic_feline_aromanticfeline_vertical_2.png"
+        },
+        "assets/img/sprites/romantic_feline/romantic_feline_aromanticfeline_vertical_3.png": {
+            "flag_name": "Aromantic",
+            "part": "right_part_1",
+            "orientation": "vertical",
+            "mask_key": "feline_vertical_3",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_vertical_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 225,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/romantic_feline/romantic_feline_aromanticfeline_vertical_3.png",
+            "filename": "assets/img/sprites/romantic_feline/romantic_feline_aromanticfeline_vertical_3.png"
+        },
+        "assets/img/sprites/romantic_feline/romantic_feline_aromanticfeline_vertical_4.png": {
+            "flag_name": "Aromantic",
+            "part": "right_part_2",
+            "orientation": "vertical",
+            "mask_key": "feline_vertical_4",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_vertical_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 250,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/romantic_feline/romantic_feline_aromanticfeline_vertical_4.png",
+            "filename": "assets/img/sprites/romantic_feline/romantic_feline_aromanticfeline_vertical_4.png"
+        },
+        "assets/img/sprites/romantic_feline/romantic_feline_aromanticfeline_vertical_5.png": {
+            "flag_name": "Aromantic",
+            "part": "whole",
+            "orientation": "vertical",
+            "mask_key": "feline_vertical_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_vertical_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 275,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/romantic_feline/romantic_feline_aromanticfeline_vertical_5.png",
+            "filename": "assets/img/sprites/romantic_feline/romantic_feline_aromanticfeline_vertical_5.png"
+        },
+        "assets/img/sprites/romantic_feline/romantic_feline_aromantic_spectrumfeline_horizontal_0.png": {
+            "flag_name": "Aromantic Spectrum",
+            "part": "center",
+            "orientation": "horizontal",
+            "mask_key": "feline_horizontal_0",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_horizontal_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 0,
+                "y": 25,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/romantic_feline/romantic_feline_aromantic_spectrumfeline_horizontal_0.png",
+            "filename": "assets/img/sprites/romantic_feline/romantic_feline_aromantic_spectrumfeline_horizontal_0.png"
+        },
+        "assets/img/sprites/romantic_feline/romantic_feline_aromantic_spectrumfeline_horizontal_1.png": {
+            "flag_name": "Aromantic Spectrum",
+            "part": "left_part_1",
+            "orientation": "horizontal",
+            "mask_key": "feline_horizontal_1",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_horizontal_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 25,
+                "y": 25,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/romantic_feline/romantic_feline_aromantic_spectrumfeline_horizontal_1.png",
+            "filename": "assets/img/sprites/romantic_feline/romantic_feline_aromantic_spectrumfeline_horizontal_1.png"
+        },
+        "assets/img/sprites/romantic_feline/romantic_feline_aromantic_spectrumfeline_horizontal_2.png": {
+            "flag_name": "Aromantic Spectrum",
+            "part": "left_part_2",
+            "orientation": "horizontal",
+            "mask_key": "feline_horizontal_2",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_horizontal_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 50,
+                "y": 25,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/romantic_feline/romantic_feline_aromantic_spectrumfeline_horizontal_2.png",
+            "filename": "assets/img/sprites/romantic_feline/romantic_feline_aromantic_spectrumfeline_horizontal_2.png"
+        },
+        "assets/img/sprites/romantic_feline/romantic_feline_aromantic_spectrumfeline_horizontal_3.png": {
+            "flag_name": "Aromantic Spectrum",
+            "part": "right_part_1",
+            "orientation": "horizontal",
+            "mask_key": "feline_horizontal_3",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_horizontal_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 75,
+                "y": 25,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/romantic_feline/romantic_feline_aromantic_spectrumfeline_horizontal_3.png",
+            "filename": "assets/img/sprites/romantic_feline/romantic_feline_aromantic_spectrumfeline_horizontal_3.png"
+        },
+        "assets/img/sprites/romantic_feline/romantic_feline_aromantic_spectrumfeline_horizontal_4.png": {
+            "flag_name": "Aromantic Spectrum",
+            "part": "right_part_2",
+            "orientation": "horizontal",
+            "mask_key": "feline_horizontal_4",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_horizontal_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 100,
+                "y": 25,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/romantic_feline/romantic_feline_aromantic_spectrumfeline_horizontal_4.png",
+            "filename": "assets/img/sprites/romantic_feline/romantic_feline_aromantic_spectrumfeline_horizontal_4.png"
+        },
+        "assets/img/sprites/romantic_feline/romantic_feline_aromantic_spectrumfeline_horizontal_5.png": {
+            "flag_name": "Aromantic Spectrum",
+            "part": "whole",
+            "orientation": "horizontal",
+            "mask_key": "feline_horizontal_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_horizontal_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 125,
+                "y": 25,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/romantic_feline/romantic_feline_aromantic_spectrumfeline_horizontal_5.png",
+            "filename": "assets/img/sprites/romantic_feline/romantic_feline_aromantic_spectrumfeline_horizontal_5.png"
+        },
+        "assets/img/sprites/romantic_feline/romantic_feline_aromantic_spectrumfeline_vertical_0.png": {
+            "flag_name": "Aromantic Spectrum",
+            "part": "center",
+            "orientation": "vertical",
+            "mask_key": "feline_vertical_0",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_vertical_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 150,
+                "y": 25,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/romantic_feline/romantic_feline_aromantic_spectrumfeline_vertical_0.png",
+            "filename": "assets/img/sprites/romantic_feline/romantic_feline_aromantic_spectrumfeline_vertical_0.png"
+        },
+        "assets/img/sprites/romantic_feline/romantic_feline_aromantic_spectrumfeline_vertical_1.png": {
+            "flag_name": "Aromantic Spectrum",
+            "part": "left_part_1",
+            "orientation": "vertical",
+            "mask_key": "feline_vertical_1",
+            "flags_fits": true,
+            "flags_fits_perfect": true,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_vertical_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 175,
+                "y": 25,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/romantic_feline/romantic_feline_aromantic_spectrumfeline_vertical_1.png",
+            "filename": "assets/img/sprites/romantic_feline/romantic_feline_aromantic_spectrumfeline_vertical_1.png"
+        },
+        "assets/img/sprites/romantic_feline/romantic_feline_aromantic_spectrumfeline_vertical_2.png": {
+            "flag_name": "Aromantic Spectrum",
+            "part": "left_part_2",
+            "orientation": "vertical",
+            "mask_key": "feline_vertical_2",
+            "flags_fits": true,
+            "flags_fits_perfect": true,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_vertical_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 200,
+                "y": 25,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/romantic_feline/romantic_feline_aromantic_spectrumfeline_vertical_2.png",
+            "filename": "assets/img/sprites/romantic_feline/romantic_feline_aromantic_spectrumfeline_vertical_2.png"
+        },
+        "assets/img/sprites/romantic_feline/romantic_feline_aromantic_spectrumfeline_vertical_3.png": {
+            "flag_name": "Aromantic Spectrum",
+            "part": "right_part_1",
+            "orientation": "vertical",
+            "mask_key": "feline_vertical_3",
+            "flags_fits": true,
+            "flags_fits_perfect": true,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_vertical_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 225,
+                "y": 25,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/romantic_feline/romantic_feline_aromantic_spectrumfeline_vertical_3.png",
+            "filename": "assets/img/sprites/romantic_feline/romantic_feline_aromantic_spectrumfeline_vertical_3.png"
+        },
+        "assets/img/sprites/romantic_feline/romantic_feline_aromantic_spectrumfeline_vertical_4.png": {
+            "flag_name": "Aromantic Spectrum",
+            "part": "right_part_2",
+            "orientation": "vertical",
+            "mask_key": "feline_vertical_4",
+            "flags_fits": true,
+            "flags_fits_perfect": true,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_vertical_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 250,
+                "y": 25,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/romantic_feline/romantic_feline_aromantic_spectrumfeline_vertical_4.png",
+            "filename": "assets/img/sprites/romantic_feline/romantic_feline_aromantic_spectrumfeline_vertical_4.png"
+        },
+        "assets/img/sprites/romantic_feline/romantic_feline_aromantic_spectrumfeline_vertical_5.png": {
+            "flag_name": "Aromantic Spectrum",
+            "part": "whole",
+            "orientation": "vertical",
+            "mask_key": "feline_vertical_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_vertical_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 275,
+                "y": 25,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/romantic_feline/romantic_feline_aromantic_spectrumfeline_vertical_5.png",
+            "filename": "assets/img/sprites/romantic_feline/romantic_feline_aromantic_spectrumfeline_vertical_5.png"
+        },
+        "assets/img/sprites/romantic_feline/romantic_feline_demiromanticfeline_horizontal_0.png": {
+            "flag_name": "Demiromantic",
+            "part": "center",
+            "orientation": "horizontal",
+            "mask_key": "feline_horizontal_0",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_horizontal_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 0,
+                "y": 50,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/romantic_feline/romantic_feline_demiromanticfeline_horizontal_0.png",
+            "filename": "assets/img/sprites/romantic_feline/romantic_feline_demiromanticfeline_horizontal_0.png"
+        },
+        "assets/img/sprites/romantic_feline/romantic_feline_demiromanticfeline_horizontal_1.png": {
+            "flag_name": "Demiromantic",
+            "part": "left_part_1",
+            "orientation": "horizontal",
+            "mask_key": "feline_horizontal_1",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_horizontal_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 25,
+                "y": 50,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/romantic_feline/romantic_feline_demiromanticfeline_horizontal_1.png",
+            "filename": "assets/img/sprites/romantic_feline/romantic_feline_demiromanticfeline_horizontal_1.png"
+        },
+        "assets/img/sprites/romantic_feline/romantic_feline_demiromanticfeline_horizontal_2.png": {
+            "flag_name": "Demiromantic",
+            "part": "left_part_2",
+            "orientation": "horizontal",
+            "mask_key": "feline_horizontal_2",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_horizontal_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 50,
+                "y": 50,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/romantic_feline/romantic_feline_demiromanticfeline_horizontal_2.png",
+            "filename": "assets/img/sprites/romantic_feline/romantic_feline_demiromanticfeline_horizontal_2.png"
+        },
+        "assets/img/sprites/romantic_feline/romantic_feline_demiromanticfeline_horizontal_3.png": {
+            "flag_name": "Demiromantic",
+            "part": "right_part_1",
+            "orientation": "horizontal",
+            "mask_key": "feline_horizontal_3",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_horizontal_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 75,
+                "y": 50,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/romantic_feline/romantic_feline_demiromanticfeline_horizontal_3.png",
+            "filename": "assets/img/sprites/romantic_feline/romantic_feline_demiromanticfeline_horizontal_3.png"
+        },
+        "assets/img/sprites/romantic_feline/romantic_feline_demiromanticfeline_horizontal_4.png": {
+            "flag_name": "Demiromantic",
+            "part": "right_part_2",
+            "orientation": "horizontal",
+            "mask_key": "feline_horizontal_4",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_horizontal_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 100,
+                "y": 50,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/romantic_feline/romantic_feline_demiromanticfeline_horizontal_4.png",
+            "filename": "assets/img/sprites/romantic_feline/romantic_feline_demiromanticfeline_horizontal_4.png"
+        },
+        "assets/img/sprites/romantic_feline/romantic_feline_demiromanticfeline_horizontal_5.png": {
+            "flag_name": "Demiromantic",
+            "part": "whole",
+            "orientation": "horizontal",
+            "mask_key": "feline_horizontal_5",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_horizontal_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 125,
+                "y": 50,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/romantic_feline/romantic_feline_demiromanticfeline_horizontal_5.png",
+            "filename": "assets/img/sprites/romantic_feline/romantic_feline_demiromanticfeline_horizontal_5.png"
+        },
+        "assets/img/sprites/romantic_feline/romantic_feline_demiromanticfeline_vertical_0.png": {
+            "flag_name": "Demiromantic",
+            "part": "center",
+            "orientation": "vertical",
+            "mask_key": "feline_vertical_0",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_vertical_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 150,
+                "y": 50,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/romantic_feline/romantic_feline_demiromanticfeline_vertical_0.png",
+            "filename": "assets/img/sprites/romantic_feline/romantic_feline_demiromanticfeline_vertical_0.png"
+        },
+        "assets/img/sprites/romantic_feline/romantic_feline_demiromanticfeline_vertical_1.png": {
+            "flag_name": "Demiromantic",
+            "part": "left_part_1",
+            "orientation": "vertical",
+            "mask_key": "feline_vertical_1",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_vertical_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 175,
+                "y": 50,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/romantic_feline/romantic_feline_demiromanticfeline_vertical_1.png",
+            "filename": "assets/img/sprites/romantic_feline/romantic_feline_demiromanticfeline_vertical_1.png"
+        },
+        "assets/img/sprites/romantic_feline/romantic_feline_demiromanticfeline_vertical_2.png": {
+            "flag_name": "Demiromantic",
+            "part": "left_part_2",
+            "orientation": "vertical",
+            "mask_key": "feline_vertical_2",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_vertical_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 200,
+                "y": 50,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/romantic_feline/romantic_feline_demiromanticfeline_vertical_2.png",
+            "filename": "assets/img/sprites/romantic_feline/romantic_feline_demiromanticfeline_vertical_2.png"
+        },
+        "assets/img/sprites/romantic_feline/romantic_feline_demiromanticfeline_vertical_3.png": {
+            "flag_name": "Demiromantic",
+            "part": "right_part_1",
+            "orientation": "vertical",
+            "mask_key": "feline_vertical_3",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_vertical_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 225,
+                "y": 50,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/romantic_feline/romantic_feline_demiromanticfeline_vertical_3.png",
+            "filename": "assets/img/sprites/romantic_feline/romantic_feline_demiromanticfeline_vertical_3.png"
+        },
+        "assets/img/sprites/romantic_feline/romantic_feline_demiromanticfeline_vertical_4.png": {
+            "flag_name": "Demiromantic",
+            "part": "right_part_2",
+            "orientation": "vertical",
+            "mask_key": "feline_vertical_4",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_vertical_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 250,
+                "y": 50,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/romantic_feline/romantic_feline_demiromanticfeline_vertical_4.png",
+            "filename": "assets/img/sprites/romantic_feline/romantic_feline_demiromanticfeline_vertical_4.png"
+        },
+        "assets/img/sprites/romantic_feline/romantic_feline_demiromanticfeline_vertical_5.png": {
+            "flag_name": "Demiromantic",
+            "part": "whole",
+            "orientation": "vertical",
+            "mask_key": "feline_vertical_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_vertical_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 275,
+                "y": 50,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/romantic_feline/romantic_feline_demiromanticfeline_vertical_5.png",
+            "filename": "assets/img/sprites/romantic_feline/romantic_feline_demiromanticfeline_vertical_5.png"
+        },
+        "assets/img/sprites/romantic_feline/romantic_feline_autoromanticfeline_horizontal_0.png": {
+            "flag_name": "Autoromantic",
+            "part": "center",
+            "orientation": "horizontal",
+            "mask_key": "feline_horizontal_0",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_horizontal_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 0,
+                "y": 75,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/romantic_feline/romantic_feline_autoromanticfeline_horizontal_0.png",
+            "filename": "assets/img/sprites/romantic_feline/romantic_feline_autoromanticfeline_horizontal_0.png"
+        },
+        "assets/img/sprites/romantic_feline/romantic_feline_autoromanticfeline_horizontal_1.png": {
+            "flag_name": "Autoromantic",
+            "part": "left_part_1",
+            "orientation": "horizontal",
+            "mask_key": "feline_horizontal_1",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_horizontal_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 25,
+                "y": 75,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/romantic_feline/romantic_feline_autoromanticfeline_horizontal_1.png",
+            "filename": "assets/img/sprites/romantic_feline/romantic_feline_autoromanticfeline_horizontal_1.png"
+        },
+        "assets/img/sprites/romantic_feline/romantic_feline_autoromanticfeline_horizontal_2.png": {
+            "flag_name": "Autoromantic",
+            "part": "left_part_2",
+            "orientation": "horizontal",
+            "mask_key": "feline_horizontal_2",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_horizontal_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 50,
+                "y": 75,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/romantic_feline/romantic_feline_autoromanticfeline_horizontal_2.png",
+            "filename": "assets/img/sprites/romantic_feline/romantic_feline_autoromanticfeline_horizontal_2.png"
+        },
+        "assets/img/sprites/romantic_feline/romantic_feline_autoromanticfeline_horizontal_3.png": {
+            "flag_name": "Autoromantic",
+            "part": "right_part_1",
+            "orientation": "horizontal",
+            "mask_key": "feline_horizontal_3",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_horizontal_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 75,
+                "y": 75,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/romantic_feline/romantic_feline_autoromanticfeline_horizontal_3.png",
+            "filename": "assets/img/sprites/romantic_feline/romantic_feline_autoromanticfeline_horizontal_3.png"
+        },
+        "assets/img/sprites/romantic_feline/romantic_feline_autoromanticfeline_horizontal_4.png": {
+            "flag_name": "Autoromantic",
+            "part": "right_part_2",
+            "orientation": "horizontal",
+            "mask_key": "feline_horizontal_4",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_horizontal_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 100,
+                "y": 75,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/romantic_feline/romantic_feline_autoromanticfeline_horizontal_4.png",
+            "filename": "assets/img/sprites/romantic_feline/romantic_feline_autoromanticfeline_horizontal_4.png"
+        },
+        "assets/img/sprites/romantic_feline/romantic_feline_autoromanticfeline_horizontal_5.png": {
+            "flag_name": "Autoromantic",
+            "part": "whole",
+            "orientation": "horizontal",
+            "mask_key": "feline_horizontal_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_horizontal_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 125,
+                "y": 75,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/romantic_feline/romantic_feline_autoromanticfeline_horizontal_5.png",
+            "filename": "assets/img/sprites/romantic_feline/romantic_feline_autoromanticfeline_horizontal_5.png"
+        },
+        "assets/img/sprites/romantic_feline/romantic_feline_autoromanticfeline_vertical_0.png": {
+            "flag_name": "Autoromantic",
+            "part": "center",
+            "orientation": "vertical",
+            "mask_key": "feline_vertical_0",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_vertical_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 150,
+                "y": 75,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/romantic_feline/romantic_feline_autoromanticfeline_vertical_0.png",
+            "filename": "assets/img/sprites/romantic_feline/romantic_feline_autoromanticfeline_vertical_0.png"
+        },
+        "assets/img/sprites/romantic_feline/romantic_feline_autoromanticfeline_vertical_1.png": {
+            "flag_name": "Autoromantic",
+            "part": "left_part_1",
+            "orientation": "vertical",
+            "mask_key": "feline_vertical_1",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_vertical_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 175,
+                "y": 75,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/romantic_feline/romantic_feline_autoromanticfeline_vertical_1.png",
+            "filename": "assets/img/sprites/romantic_feline/romantic_feline_autoromanticfeline_vertical_1.png"
+        },
+        "assets/img/sprites/romantic_feline/romantic_feline_autoromanticfeline_vertical_2.png": {
+            "flag_name": "Autoromantic",
+            "part": "left_part_2",
+            "orientation": "vertical",
+            "mask_key": "feline_vertical_2",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_vertical_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 200,
+                "y": 75,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/romantic_feline/romantic_feline_autoromanticfeline_vertical_2.png",
+            "filename": "assets/img/sprites/romantic_feline/romantic_feline_autoromanticfeline_vertical_2.png"
+        },
+        "assets/img/sprites/romantic_feline/romantic_feline_autoromanticfeline_vertical_3.png": {
+            "flag_name": "Autoromantic",
+            "part": "right_part_1",
+            "orientation": "vertical",
+            "mask_key": "feline_vertical_3",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_vertical_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 225,
+                "y": 75,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/romantic_feline/romantic_feline_autoromanticfeline_vertical_3.png",
+            "filename": "assets/img/sprites/romantic_feline/romantic_feline_autoromanticfeline_vertical_3.png"
+        },
+        "assets/img/sprites/romantic_feline/romantic_feline_autoromanticfeline_vertical_4.png": {
+            "flag_name": "Autoromantic",
+            "part": "right_part_2",
+            "orientation": "vertical",
+            "mask_key": "feline_vertical_4",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_vertical_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 250,
+                "y": 75,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/romantic_feline/romantic_feline_autoromanticfeline_vertical_4.png",
+            "filename": "assets/img/sprites/romantic_feline/romantic_feline_autoromanticfeline_vertical_4.png"
+        },
+        "assets/img/sprites/romantic_feline/romantic_feline_autoromanticfeline_vertical_5.png": {
+            "flag_name": "Autoromantic",
+            "part": "whole",
+            "orientation": "vertical",
+            "mask_key": "feline_vertical_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_vertical_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 275,
+                "y": 75,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/romantic_feline/romantic_feline_autoromanticfeline_vertical_5.png",
+            "filename": "assets/img/sprites/romantic_feline/romantic_feline_autoromanticfeline_vertical_5.png"
+        },
+        "assets/img/sprites/romantic_feline/romantic_feline_andromanticfeline_horizontal_0.png": {
+            "flag_name": "Andromantic",
+            "part": "center",
+            "orientation": "horizontal",
+            "mask_key": "feline_horizontal_0",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_horizontal_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 0,
+                "y": 100,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/romantic_feline/romantic_feline_andromanticfeline_horizontal_0.png",
+            "filename": "assets/img/sprites/romantic_feline/romantic_feline_andromanticfeline_horizontal_0.png"
+        },
+        "assets/img/sprites/romantic_feline/romantic_feline_andromanticfeline_horizontal_1.png": {
+            "flag_name": "Andromantic",
+            "part": "left_part_1",
+            "orientation": "horizontal",
+            "mask_key": "feline_horizontal_1",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_horizontal_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 25,
+                "y": 100,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/romantic_feline/romantic_feline_andromanticfeline_horizontal_1.png",
+            "filename": "assets/img/sprites/romantic_feline/romantic_feline_andromanticfeline_horizontal_1.png"
+        },
+        "assets/img/sprites/romantic_feline/romantic_feline_andromanticfeline_horizontal_2.png": {
+            "flag_name": "Andromantic",
+            "part": "left_part_2",
+            "orientation": "horizontal",
+            "mask_key": "feline_horizontal_2",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_horizontal_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 50,
+                "y": 100,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/romantic_feline/romantic_feline_andromanticfeline_horizontal_2.png",
+            "filename": "assets/img/sprites/romantic_feline/romantic_feline_andromanticfeline_horizontal_2.png"
+        },
+        "assets/img/sprites/romantic_feline/romantic_feline_andromanticfeline_horizontal_3.png": {
+            "flag_name": "Andromantic",
+            "part": "right_part_1",
+            "orientation": "horizontal",
+            "mask_key": "feline_horizontal_3",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_horizontal_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 75,
+                "y": 100,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/romantic_feline/romantic_feline_andromanticfeline_horizontal_3.png",
+            "filename": "assets/img/sprites/romantic_feline/romantic_feline_andromanticfeline_horizontal_3.png"
+        },
+        "assets/img/sprites/romantic_feline/romantic_feline_andromanticfeline_horizontal_4.png": {
+            "flag_name": "Andromantic",
+            "part": "right_part_2",
+            "orientation": "horizontal",
+            "mask_key": "feline_horizontal_4",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_horizontal_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 100,
+                "y": 100,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/romantic_feline/romantic_feline_andromanticfeline_horizontal_4.png",
+            "filename": "assets/img/sprites/romantic_feline/romantic_feline_andromanticfeline_horizontal_4.png"
+        },
+        "assets/img/sprites/romantic_feline/romantic_feline_andromanticfeline_horizontal_5.png": {
+            "flag_name": "Andromantic",
+            "part": "whole",
+            "orientation": "horizontal",
+            "mask_key": "feline_horizontal_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_horizontal_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 125,
+                "y": 100,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/romantic_feline/romantic_feline_andromanticfeline_horizontal_5.png",
+            "filename": "assets/img/sprites/romantic_feline/romantic_feline_andromanticfeline_horizontal_5.png"
+        },
+        "assets/img/sprites/romantic_feline/romantic_feline_andromanticfeline_vertical_0.png": {
+            "flag_name": "Andromantic",
+            "part": "center",
+            "orientation": "vertical",
+            "mask_key": "feline_vertical_0",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_vertical_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 150,
+                "y": 100,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/romantic_feline/romantic_feline_andromanticfeline_vertical_0.png",
+            "filename": "assets/img/sprites/romantic_feline/romantic_feline_andromanticfeline_vertical_0.png"
+        },
+        "assets/img/sprites/romantic_feline/romantic_feline_andromanticfeline_vertical_1.png": {
+            "flag_name": "Andromantic",
+            "part": "left_part_1",
+            "orientation": "vertical",
+            "mask_key": "feline_vertical_1",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_vertical_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 175,
+                "y": 100,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/romantic_feline/romantic_feline_andromanticfeline_vertical_1.png",
+            "filename": "assets/img/sprites/romantic_feline/romantic_feline_andromanticfeline_vertical_1.png"
+        },
+        "assets/img/sprites/romantic_feline/romantic_feline_andromanticfeline_vertical_2.png": {
+            "flag_name": "Andromantic",
+            "part": "left_part_2",
+            "orientation": "vertical",
+            "mask_key": "feline_vertical_2",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_vertical_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 200,
+                "y": 100,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/romantic_feline/romantic_feline_andromanticfeline_vertical_2.png",
+            "filename": "assets/img/sprites/romantic_feline/romantic_feline_andromanticfeline_vertical_2.png"
+        },
+        "assets/img/sprites/romantic_feline/romantic_feline_andromanticfeline_vertical_3.png": {
+            "flag_name": "Andromantic",
+            "part": "right_part_1",
+            "orientation": "vertical",
+            "mask_key": "feline_vertical_3",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_vertical_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 225,
+                "y": 100,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/romantic_feline/romantic_feline_andromanticfeline_vertical_3.png",
+            "filename": "assets/img/sprites/romantic_feline/romantic_feline_andromanticfeline_vertical_3.png"
+        },
+        "assets/img/sprites/romantic_feline/romantic_feline_andromanticfeline_vertical_4.png": {
+            "flag_name": "Andromantic",
+            "part": "right_part_2",
+            "orientation": "vertical",
+            "mask_key": "feline_vertical_4",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_vertical_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 250,
+                "y": 100,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/romantic_feline/romantic_feline_andromanticfeline_vertical_4.png",
+            "filename": "assets/img/sprites/romantic_feline/romantic_feline_andromanticfeline_vertical_4.png"
+        },
+        "assets/img/sprites/romantic_feline/romantic_feline_andromanticfeline_vertical_5.png": {
+            "flag_name": "Andromantic",
+            "part": "whole",
+            "orientation": "vertical",
+            "mask_key": "feline_vertical_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_vertical_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 275,
+                "y": 100,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/romantic_feline/romantic_feline_andromanticfeline_vertical_5.png",
+            "filename": "assets/img/sprites/romantic_feline/romantic_feline_andromanticfeline_vertical_5.png"
+        },
+        "assets/img/sprites/romantic_feline/romantic_feline_myrromanticfeline_horizontal_0.png": {
+            "flag_name": "Myrromantic",
+            "part": "center",
+            "orientation": "horizontal",
+            "mask_key": "feline_horizontal_0",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_horizontal_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 0,
+                "y": 125,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/romantic_feline/romantic_feline_myrromanticfeline_horizontal_0.png",
+            "filename": "assets/img/sprites/romantic_feline/romantic_feline_myrromanticfeline_horizontal_0.png"
+        },
+        "assets/img/sprites/romantic_feline/romantic_feline_myrromanticfeline_horizontal_1.png": {
+            "flag_name": "Myrromantic",
+            "part": "left_part_1",
+            "orientation": "horizontal",
+            "mask_key": "feline_horizontal_1",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_horizontal_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 25,
+                "y": 125,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/romantic_feline/romantic_feline_myrromanticfeline_horizontal_1.png",
+            "filename": "assets/img/sprites/romantic_feline/romantic_feline_myrromanticfeline_horizontal_1.png"
+        },
+        "assets/img/sprites/romantic_feline/romantic_feline_myrromanticfeline_horizontal_2.png": {
+            "flag_name": "Myrromantic",
+            "part": "left_part_2",
+            "orientation": "horizontal",
+            "mask_key": "feline_horizontal_2",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_horizontal_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 50,
+                "y": 125,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/romantic_feline/romantic_feline_myrromanticfeline_horizontal_2.png",
+            "filename": "assets/img/sprites/romantic_feline/romantic_feline_myrromanticfeline_horizontal_2.png"
+        },
+        "assets/img/sprites/romantic_feline/romantic_feline_myrromanticfeline_horizontal_3.png": {
+            "flag_name": "Myrromantic",
+            "part": "right_part_1",
+            "orientation": "horizontal",
+            "mask_key": "feline_horizontal_3",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_horizontal_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 75,
+                "y": 125,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/romantic_feline/romantic_feline_myrromanticfeline_horizontal_3.png",
+            "filename": "assets/img/sprites/romantic_feline/romantic_feline_myrromanticfeline_horizontal_3.png"
+        },
+        "assets/img/sprites/romantic_feline/romantic_feline_myrromanticfeline_horizontal_4.png": {
+            "flag_name": "Myrromantic",
+            "part": "right_part_2",
+            "orientation": "horizontal",
+            "mask_key": "feline_horizontal_4",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_horizontal_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 100,
+                "y": 125,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/romantic_feline/romantic_feline_myrromanticfeline_horizontal_4.png",
+            "filename": "assets/img/sprites/romantic_feline/romantic_feline_myrromanticfeline_horizontal_4.png"
+        },
+        "assets/img/sprites/romantic_feline/romantic_feline_myrromanticfeline_horizontal_5.png": {
+            "flag_name": "Myrromantic",
+            "part": "whole",
+            "orientation": "horizontal",
+            "mask_key": "feline_horizontal_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_horizontal_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 125,
+                "y": 125,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/romantic_feline/romantic_feline_myrromanticfeline_horizontal_5.png",
+            "filename": "assets/img/sprites/romantic_feline/romantic_feline_myrromanticfeline_horizontal_5.png"
+        },
+        "assets/img/sprites/romantic_feline/romantic_feline_myrromanticfeline_vertical_0.png": {
+            "flag_name": "Myrromantic",
+            "part": "center",
+            "orientation": "vertical",
+            "mask_key": "feline_vertical_0",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_vertical_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 150,
+                "y": 125,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/romantic_feline/romantic_feline_myrromanticfeline_vertical_0.png",
+            "filename": "assets/img/sprites/romantic_feline/romantic_feline_myrromanticfeline_vertical_0.png"
+        },
+        "assets/img/sprites/romantic_feline/romantic_feline_myrromanticfeline_vertical_1.png": {
+            "flag_name": "Myrromantic",
+            "part": "left_part_1",
+            "orientation": "vertical",
+            "mask_key": "feline_vertical_1",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_vertical_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 175,
+                "y": 125,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/romantic_feline/romantic_feline_myrromanticfeline_vertical_1.png",
+            "filename": "assets/img/sprites/romantic_feline/romantic_feline_myrromanticfeline_vertical_1.png"
+        },
+        "assets/img/sprites/romantic_feline/romantic_feline_myrromanticfeline_vertical_2.png": {
+            "flag_name": "Myrromantic",
+            "part": "left_part_2",
+            "orientation": "vertical",
+            "mask_key": "feline_vertical_2",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_vertical_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 200,
+                "y": 125,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/romantic_feline/romantic_feline_myrromanticfeline_vertical_2.png",
+            "filename": "assets/img/sprites/romantic_feline/romantic_feline_myrromanticfeline_vertical_2.png"
+        },
+        "assets/img/sprites/romantic_feline/romantic_feline_myrromanticfeline_vertical_3.png": {
+            "flag_name": "Myrromantic",
+            "part": "right_part_1",
+            "orientation": "vertical",
+            "mask_key": "feline_vertical_3",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_vertical_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 225,
+                "y": 125,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/romantic_feline/romantic_feline_myrromanticfeline_vertical_3.png",
+            "filename": "assets/img/sprites/romantic_feline/romantic_feline_myrromanticfeline_vertical_3.png"
+        },
+        "assets/img/sprites/romantic_feline/romantic_feline_myrromanticfeline_vertical_4.png": {
+            "flag_name": "Myrromantic",
+            "part": "right_part_2",
+            "orientation": "vertical",
+            "mask_key": "feline_vertical_4",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_vertical_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 250,
+                "y": 125,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/romantic_feline/romantic_feline_myrromanticfeline_vertical_4.png",
+            "filename": "assets/img/sprites/romantic_feline/romantic_feline_myrromanticfeline_vertical_4.png"
+        },
+        "assets/img/sprites/romantic_feline/romantic_feline_myrromanticfeline_vertical_5.png": {
+            "flag_name": "Myrromantic",
+            "part": "whole",
+            "orientation": "vertical",
+            "mask_key": "feline_vertical_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_vertical_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 275,
+                "y": 125,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/romantic_feline/romantic_feline_myrromanticfeline_vertical_5.png",
+            "filename": "assets/img/sprites/romantic_feline/romantic_feline_myrromanticfeline_vertical_5.png"
+        }
+    },
+    "meta": {
+        "size": {
+            "w": 300,
+            "h": 150
+        },
+        "image": "romantic_feline.png",
+        "format": "RGBA8888",
+        "scale": 1
+    }
+}

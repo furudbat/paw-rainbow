@@ -1,0 +1,4885 @@
+{
+    "frames": {
+        "assets/img/sprites/relationship_canine/relationship_canine_polyamorycanine_horizontal_0.png": {
+            "flag_name": "Polyamory",
+            "part": "center",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_0",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_polyamorycanine_horizontal_0.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_polyamorycanine_horizontal_0.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_polyamorycanine_horizontal_1.png": {
+            "flag_name": "Polyamory",
+            "part": "left_part_1",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_1",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 22,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_polyamorycanine_horizontal_1.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_polyamorycanine_horizontal_1.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_polyamorycanine_horizontal_2.png": {
+            "flag_name": "Polyamory",
+            "part": "left_part_2",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_2",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 44,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_polyamorycanine_horizontal_2.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_polyamorycanine_horizontal_2.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_polyamorycanine_horizontal_3.png": {
+            "flag_name": "Polyamory",
+            "part": "right_part_1",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_3",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 66,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_polyamorycanine_horizontal_3.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_polyamorycanine_horizontal_3.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_polyamorycanine_horizontal_4.png": {
+            "flag_name": "Polyamory",
+            "part": "right_part_2",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_4",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 88,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_polyamorycanine_horizontal_4.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_polyamorycanine_horizontal_4.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_polyamorycanine_horizontal_5.png": {
+            "flag_name": "Polyamory",
+            "part": "whole",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 110,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_polyamorycanine_horizontal_5.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_polyamorycanine_horizontal_5.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_polyamorycanine_vertical_0.png": {
+            "flag_name": "Polyamory",
+            "part": "center",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_0",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 132,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_polyamorycanine_vertical_0.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_polyamorycanine_vertical_0.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_polyamorycanine_vertical_1.png": {
+            "flag_name": "Polyamory",
+            "part": "left_part_1",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_1",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 154,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_polyamorycanine_vertical_1.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_polyamorycanine_vertical_1.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_polyamorycanine_vertical_2.png": {
+            "flag_name": "Polyamory",
+            "part": "left_part_2",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_2",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 176,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_polyamorycanine_vertical_2.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_polyamorycanine_vertical_2.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_polyamorycanine_vertical_3.png": {
+            "flag_name": "Polyamory",
+            "part": "right_part_1",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_3",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 198,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_polyamorycanine_vertical_3.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_polyamorycanine_vertical_3.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_polyamorycanine_vertical_4.png": {
+            "flag_name": "Polyamory",
+            "part": "right_part_2",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_4",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 220,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_polyamorycanine_vertical_4.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_polyamorycanine_vertical_4.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_polyamorycanine_vertical_5.png": {
+            "flag_name": "Polyamory",
+            "part": "whole",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 242,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_polyamorycanine_vertical_5.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_polyamorycanine_vertical_5.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_open_relationshipcanine_horizontal_0.png": {
+            "flag_name": "Open Relationship",
+            "part": "center",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_0",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 0,
+                "y": 22,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_open_relationshipcanine_horizontal_0.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_open_relationshipcanine_horizontal_0.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_open_relationshipcanine_horizontal_1.png": {
+            "flag_name": "Open Relationship",
+            "part": "left_part_1",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_1",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 22,
+                "y": 22,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_open_relationshipcanine_horizontal_1.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_open_relationshipcanine_horizontal_1.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_open_relationshipcanine_horizontal_2.png": {
+            "flag_name": "Open Relationship",
+            "part": "left_part_2",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_2",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 44,
+                "y": 22,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_open_relationshipcanine_horizontal_2.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_open_relationshipcanine_horizontal_2.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_open_relationshipcanine_horizontal_3.png": {
+            "flag_name": "Open Relationship",
+            "part": "right_part_1",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_3",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 66,
+                "y": 22,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_open_relationshipcanine_horizontal_3.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_open_relationshipcanine_horizontal_3.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_open_relationshipcanine_horizontal_4.png": {
+            "flag_name": "Open Relationship",
+            "part": "right_part_2",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_4",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 88,
+                "y": 22,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_open_relationshipcanine_horizontal_4.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_open_relationshipcanine_horizontal_4.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_open_relationshipcanine_horizontal_5.png": {
+            "flag_name": "Open Relationship",
+            "part": "whole",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 110,
+                "y": 22,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_open_relationshipcanine_horizontal_5.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_open_relationshipcanine_horizontal_5.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_open_relationshipcanine_vertical_0.png": {
+            "flag_name": "Open Relationship",
+            "part": "center",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_0",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 132,
+                "y": 22,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_open_relationshipcanine_vertical_0.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_open_relationshipcanine_vertical_0.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_open_relationshipcanine_vertical_1.png": {
+            "flag_name": "Open Relationship",
+            "part": "left_part_1",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_1",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 154,
+                "y": 22,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_open_relationshipcanine_vertical_1.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_open_relationshipcanine_vertical_1.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_open_relationshipcanine_vertical_2.png": {
+            "flag_name": "Open Relationship",
+            "part": "left_part_2",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_2",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 176,
+                "y": 22,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_open_relationshipcanine_vertical_2.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_open_relationshipcanine_vertical_2.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_open_relationshipcanine_vertical_3.png": {
+            "flag_name": "Open Relationship",
+            "part": "right_part_1",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_3",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 198,
+                "y": 22,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_open_relationshipcanine_vertical_3.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_open_relationshipcanine_vertical_3.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_open_relationshipcanine_vertical_4.png": {
+            "flag_name": "Open Relationship",
+            "part": "right_part_2",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_4",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 220,
+                "y": 22,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_open_relationshipcanine_vertical_4.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_open_relationshipcanine_vertical_4.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_open_relationshipcanine_vertical_5.png": {
+            "flag_name": "Open Relationship",
+            "part": "whole",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 242,
+                "y": 22,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_open_relationshipcanine_vertical_5.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_open_relationshipcanine_vertical_5.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_triadcanine_horizontal_0.png": {
+            "flag_name": "Triad",
+            "part": "center",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_0",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 0,
+                "y": 44,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_triadcanine_horizontal_0.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_triadcanine_horizontal_0.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_triadcanine_horizontal_1.png": {
+            "flag_name": "Triad",
+            "part": "left_part_1",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_1",
+            "flags_fits": true,
+            "flags_fits_perfect": true,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 22,
+                "y": 44,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_triadcanine_horizontal_1.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_triadcanine_horizontal_1.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_triadcanine_horizontal_2.png": {
+            "flag_name": "Triad",
+            "part": "left_part_2",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_2",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 44,
+                "y": 44,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_triadcanine_horizontal_2.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_triadcanine_horizontal_2.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_triadcanine_horizontal_3.png": {
+            "flag_name": "Triad",
+            "part": "right_part_1",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_3",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 66,
+                "y": 44,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_triadcanine_horizontal_3.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_triadcanine_horizontal_3.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_triadcanine_horizontal_4.png": {
+            "flag_name": "Triad",
+            "part": "right_part_2",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_4",
+            "flags_fits": true,
+            "flags_fits_perfect": true,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 88,
+                "y": 44,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_triadcanine_horizontal_4.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_triadcanine_horizontal_4.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_triadcanine_horizontal_5.png": {
+            "flag_name": "Triad",
+            "part": "whole",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 110,
+                "y": 44,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_triadcanine_horizontal_5.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_triadcanine_horizontal_5.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_triadcanine_vertical_0.png": {
+            "flag_name": "Triad",
+            "part": "center",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_0",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 132,
+                "y": 44,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_triadcanine_vertical_0.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_triadcanine_vertical_0.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_triadcanine_vertical_1.png": {
+            "flag_name": "Triad",
+            "part": "left_part_1",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_1",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 154,
+                "y": 44,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_triadcanine_vertical_1.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_triadcanine_vertical_1.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_triadcanine_vertical_2.png": {
+            "flag_name": "Triad",
+            "part": "left_part_2",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_2",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 176,
+                "y": 44,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_triadcanine_vertical_2.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_triadcanine_vertical_2.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_triadcanine_vertical_3.png": {
+            "flag_name": "Triad",
+            "part": "right_part_1",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_3",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 198,
+                "y": 44,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_triadcanine_vertical_3.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_triadcanine_vertical_3.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_triadcanine_vertical_4.png": {
+            "flag_name": "Triad",
+            "part": "right_part_2",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_4",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 220,
+                "y": 44,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_triadcanine_vertical_4.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_triadcanine_vertical_4.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_triadcanine_vertical_5.png": {
+            "flag_name": "Triad",
+            "part": "whole",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 242,
+                "y": 44,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_triadcanine_vertical_5.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_triadcanine_vertical_5.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_quadcanine_horizontal_0.png": {
+            "flag_name": "Quad",
+            "part": "center",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_0",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 0,
+                "y": 66,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_quadcanine_horizontal_0.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_quadcanine_horizontal_0.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_quadcanine_horizontal_1.png": {
+            "flag_name": "Quad",
+            "part": "left_part_1",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_1",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 22,
+                "y": 66,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_quadcanine_horizontal_1.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_quadcanine_horizontal_1.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_quadcanine_horizontal_2.png": {
+            "flag_name": "Quad",
+            "part": "left_part_2",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_2",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 44,
+                "y": 66,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_quadcanine_horizontal_2.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_quadcanine_horizontal_2.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_quadcanine_horizontal_3.png": {
+            "flag_name": "Quad",
+            "part": "right_part_1",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_3",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 66,
+                "y": 66,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_quadcanine_horizontal_3.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_quadcanine_horizontal_3.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_quadcanine_horizontal_4.png": {
+            "flag_name": "Quad",
+            "part": "right_part_2",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_4",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 88,
+                "y": 66,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_quadcanine_horizontal_4.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_quadcanine_horizontal_4.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_quadcanine_horizontal_5.png": {
+            "flag_name": "Quad",
+            "part": "whole",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 110,
+                "y": 66,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_quadcanine_horizontal_5.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_quadcanine_horizontal_5.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_quadcanine_vertical_0.png": {
+            "flag_name": "Quad",
+            "part": "center",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_0",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 132,
+                "y": 66,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_quadcanine_vertical_0.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_quadcanine_vertical_0.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_quadcanine_vertical_1.png": {
+            "flag_name": "Quad",
+            "part": "left_part_1",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_1",
+            "flags_fits": true,
+            "flags_fits_perfect": true,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 154,
+                "y": 66,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_quadcanine_vertical_1.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_quadcanine_vertical_1.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_quadcanine_vertical_2.png": {
+            "flag_name": "Quad",
+            "part": "left_part_2",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_2",
+            "flags_fits": true,
+            "flags_fits_perfect": true,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 176,
+                "y": 66,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_quadcanine_vertical_2.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_quadcanine_vertical_2.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_quadcanine_vertical_3.png": {
+            "flag_name": "Quad",
+            "part": "right_part_1",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_3",
+            "flags_fits": true,
+            "flags_fits_perfect": true,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 198,
+                "y": 66,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_quadcanine_vertical_3.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_quadcanine_vertical_3.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_quadcanine_vertical_4.png": {
+            "flag_name": "Quad",
+            "part": "right_part_2",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_4",
+            "flags_fits": true,
+            "flags_fits_perfect": true,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 220,
+                "y": 66,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_quadcanine_vertical_4.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_quadcanine_vertical_4.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_quadcanine_vertical_5.png": {
+            "flag_name": "Quad",
+            "part": "whole",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 242,
+                "y": 66,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_quadcanine_vertical_5.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_quadcanine_vertical_5.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_n_polyamorycanine_horizontal_0.png": {
+            "flag_name": "N Polyamory",
+            "part": "center",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_0",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 0,
+                "y": 88,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_n_polyamorycanine_horizontal_0.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_n_polyamorycanine_horizontal_0.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_n_polyamorycanine_horizontal_1.png": {
+            "flag_name": "N Polyamory",
+            "part": "left_part_1",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_1",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 22,
+                "y": 88,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_n_polyamorycanine_horizontal_1.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_n_polyamorycanine_horizontal_1.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_n_polyamorycanine_horizontal_2.png": {
+            "flag_name": "N Polyamory",
+            "part": "left_part_2",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_2",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 44,
+                "y": 88,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_n_polyamorycanine_horizontal_2.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_n_polyamorycanine_horizontal_2.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_n_polyamorycanine_horizontal_3.png": {
+            "flag_name": "N Polyamory",
+            "part": "right_part_1",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_3",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 66,
+                "y": 88,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_n_polyamorycanine_horizontal_3.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_n_polyamorycanine_horizontal_3.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_n_polyamorycanine_horizontal_4.png": {
+            "flag_name": "N Polyamory",
+            "part": "right_part_2",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_4",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 88,
+                "y": 88,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_n_polyamorycanine_horizontal_4.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_n_polyamorycanine_horizontal_4.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_n_polyamorycanine_horizontal_5.png": {
+            "flag_name": "N Polyamory",
+            "part": "whole",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 110,
+                "y": 88,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_n_polyamorycanine_horizontal_5.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_n_polyamorycanine_horizontal_5.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_n_polyamorycanine_vertical_0.png": {
+            "flag_name": "N Polyamory",
+            "part": "center",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_0",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 132,
+                "y": 88,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_n_polyamorycanine_vertical_0.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_n_polyamorycanine_vertical_0.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_n_polyamorycanine_vertical_1.png": {
+            "flag_name": "N Polyamory",
+            "part": "left_part_1",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_1",
+            "flags_fits": true,
+            "flags_fits_perfect": true,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 154,
+                "y": 88,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_n_polyamorycanine_vertical_1.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_n_polyamorycanine_vertical_1.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_n_polyamorycanine_vertical_2.png": {
+            "flag_name": "N Polyamory",
+            "part": "left_part_2",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_2",
+            "flags_fits": true,
+            "flags_fits_perfect": true,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 176,
+                "y": 88,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_n_polyamorycanine_vertical_2.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_n_polyamorycanine_vertical_2.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_n_polyamorycanine_vertical_3.png": {
+            "flag_name": "N Polyamory",
+            "part": "right_part_1",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_3",
+            "flags_fits": true,
+            "flags_fits_perfect": true,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 198,
+                "y": 88,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_n_polyamorycanine_vertical_3.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_n_polyamorycanine_vertical_3.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_n_polyamorycanine_vertical_4.png": {
+            "flag_name": "N Polyamory",
+            "part": "right_part_2",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_4",
+            "flags_fits": true,
+            "flags_fits_perfect": true,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 220,
+                "y": 88,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_n_polyamorycanine_vertical_4.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_n_polyamorycanine_vertical_4.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_n_polyamorycanine_vertical_5.png": {
+            "flag_name": "N Polyamory",
+            "part": "whole",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 242,
+                "y": 88,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_n_polyamorycanine_vertical_5.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_n_polyamorycanine_vertical_5.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_geographically_non_monogamycanine_horizontal_0.png": {
+            "flag_name": "Geographically Non-Monogamy",
+            "part": "center",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_0",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 0,
+                "y": 110,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_geographically_non_monogamycanine_horizontal_0.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_geographically_non_monogamycanine_horizontal_0.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_geographically_non_monogamycanine_horizontal_1.png": {
+            "flag_name": "Geographically Non-Monogamy",
+            "part": "left_part_1",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_1",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 22,
+                "y": 110,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_geographically_non_monogamycanine_horizontal_1.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_geographically_non_monogamycanine_horizontal_1.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_geographically_non_monogamycanine_horizontal_2.png": {
+            "flag_name": "Geographically Non-Monogamy",
+            "part": "left_part_2",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_2",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 44,
+                "y": 110,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_geographically_non_monogamycanine_horizontal_2.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_geographically_non_monogamycanine_horizontal_2.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_geographically_non_monogamycanine_horizontal_3.png": {
+            "flag_name": "Geographically Non-Monogamy",
+            "part": "right_part_1",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_3",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 66,
+                "y": 110,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_geographically_non_monogamycanine_horizontal_3.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_geographically_non_monogamycanine_horizontal_3.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_geographically_non_monogamycanine_horizontal_4.png": {
+            "flag_name": "Geographically Non-Monogamy",
+            "part": "right_part_2",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_4",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 88,
+                "y": 110,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_geographically_non_monogamycanine_horizontal_4.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_geographically_non_monogamycanine_horizontal_4.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_geographically_non_monogamycanine_horizontal_5.png": {
+            "flag_name": "Geographically Non-Monogamy",
+            "part": "whole",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 110,
+                "y": 110,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_geographically_non_monogamycanine_horizontal_5.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_geographically_non_monogamycanine_horizontal_5.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_geographically_non_monogamycanine_vertical_0.png": {
+            "flag_name": "Geographically Non-Monogamy",
+            "part": "center",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_0",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 132,
+                "y": 110,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_geographically_non_monogamycanine_vertical_0.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_geographically_non_monogamycanine_vertical_0.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_geographically_non_monogamycanine_vertical_1.png": {
+            "flag_name": "Geographically Non-Monogamy",
+            "part": "left_part_1",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_1",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 154,
+                "y": 110,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_geographically_non_monogamycanine_vertical_1.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_geographically_non_monogamycanine_vertical_1.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_geographically_non_monogamycanine_vertical_2.png": {
+            "flag_name": "Geographically Non-Monogamy",
+            "part": "left_part_2",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_2",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 176,
+                "y": 110,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_geographically_non_monogamycanine_vertical_2.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_geographically_non_monogamycanine_vertical_2.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_geographically_non_monogamycanine_vertical_3.png": {
+            "flag_name": "Geographically Non-Monogamy",
+            "part": "right_part_1",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_3",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 198,
+                "y": 110,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_geographically_non_monogamycanine_vertical_3.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_geographically_non_monogamycanine_vertical_3.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_geographically_non_monogamycanine_vertical_4.png": {
+            "flag_name": "Geographically Non-Monogamy",
+            "part": "right_part_2",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_4",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 220,
+                "y": 110,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_geographically_non_monogamycanine_vertical_4.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_geographically_non_monogamycanine_vertical_4.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_geographically_non_monogamycanine_vertical_5.png": {
+            "flag_name": "Geographically Non-Monogamy",
+            "part": "whole",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 242,
+                "y": 110,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_geographically_non_monogamycanine_vertical_5.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_geographically_non_monogamycanine_vertical_5.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_v_polyamorycanine_horizontal_0.png": {
+            "flag_name": "V Polyamory",
+            "part": "center",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_0",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 0,
+                "y": 132,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_v_polyamorycanine_horizontal_0.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_v_polyamorycanine_horizontal_0.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_v_polyamorycanine_horizontal_1.png": {
+            "flag_name": "V Polyamory",
+            "part": "left_part_1",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_1",
+            "flags_fits": true,
+            "flags_fits_perfect": true,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 22,
+                "y": 132,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_v_polyamorycanine_horizontal_1.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_v_polyamorycanine_horizontal_1.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_v_polyamorycanine_horizontal_2.png": {
+            "flag_name": "V Polyamory",
+            "part": "left_part_2",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_2",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 44,
+                "y": 132,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_v_polyamorycanine_horizontal_2.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_v_polyamorycanine_horizontal_2.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_v_polyamorycanine_horizontal_3.png": {
+            "flag_name": "V Polyamory",
+            "part": "right_part_1",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_3",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 66,
+                "y": 132,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_v_polyamorycanine_horizontal_3.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_v_polyamorycanine_horizontal_3.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_v_polyamorycanine_horizontal_4.png": {
+            "flag_name": "V Polyamory",
+            "part": "right_part_2",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_4",
+            "flags_fits": true,
+            "flags_fits_perfect": true,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 88,
+                "y": 132,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_v_polyamorycanine_horizontal_4.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_v_polyamorycanine_horizontal_4.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_v_polyamorycanine_horizontal_5.png": {
+            "flag_name": "V Polyamory",
+            "part": "whole",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 110,
+                "y": 132,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_v_polyamorycanine_horizontal_5.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_v_polyamorycanine_horizontal_5.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_v_polyamorycanine_vertical_0.png": {
+            "flag_name": "V Polyamory",
+            "part": "center",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_0",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 132,
+                "y": 132,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_v_polyamorycanine_vertical_0.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_v_polyamorycanine_vertical_0.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_v_polyamorycanine_vertical_1.png": {
+            "flag_name": "V Polyamory",
+            "part": "left_part_1",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_1",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 154,
+                "y": 132,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_v_polyamorycanine_vertical_1.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_v_polyamorycanine_vertical_1.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_v_polyamorycanine_vertical_2.png": {
+            "flag_name": "V Polyamory",
+            "part": "left_part_2",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_2",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 176,
+                "y": 132,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_v_polyamorycanine_vertical_2.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_v_polyamorycanine_vertical_2.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_v_polyamorycanine_vertical_3.png": {
+            "flag_name": "V Polyamory",
+            "part": "right_part_1",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_3",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 198,
+                "y": 132,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_v_polyamorycanine_vertical_3.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_v_polyamorycanine_vertical_3.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_v_polyamorycanine_vertical_4.png": {
+            "flag_name": "V Polyamory",
+            "part": "right_part_2",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_4",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 220,
+                "y": 132,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_v_polyamorycanine_vertical_4.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_v_polyamorycanine_vertical_4.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_v_polyamorycanine_vertical_5.png": {
+            "flag_name": "V Polyamory",
+            "part": "whole",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 242,
+                "y": 132,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_v_polyamorycanine_vertical_5.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_v_polyamorycanine_vertical_5.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_t_polyamorycanine_horizontal_0.png": {
+            "flag_name": "T Polyamory",
+            "part": "center",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_0",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 0,
+                "y": 154,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_t_polyamorycanine_horizontal_0.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_t_polyamorycanine_horizontal_0.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_t_polyamorycanine_horizontal_1.png": {
+            "flag_name": "T Polyamory",
+            "part": "left_part_1",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_1",
+            "flags_fits": true,
+            "flags_fits_perfect": true,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 22,
+                "y": 154,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_t_polyamorycanine_horizontal_1.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_t_polyamorycanine_horizontal_1.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_t_polyamorycanine_horizontal_2.png": {
+            "flag_name": "T Polyamory",
+            "part": "left_part_2",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_2",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 44,
+                "y": 154,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_t_polyamorycanine_horizontal_2.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_t_polyamorycanine_horizontal_2.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_t_polyamorycanine_horizontal_3.png": {
+            "flag_name": "T Polyamory",
+            "part": "right_part_1",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_3",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 66,
+                "y": 154,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_t_polyamorycanine_horizontal_3.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_t_polyamorycanine_horizontal_3.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_t_polyamorycanine_horizontal_4.png": {
+            "flag_name": "T Polyamory",
+            "part": "right_part_2",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_4",
+            "flags_fits": true,
+            "flags_fits_perfect": true,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 88,
+                "y": 154,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_t_polyamorycanine_horizontal_4.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_t_polyamorycanine_horizontal_4.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_t_polyamorycanine_horizontal_5.png": {
+            "flag_name": "T Polyamory",
+            "part": "whole",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 110,
+                "y": 154,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_t_polyamorycanine_horizontal_5.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_t_polyamorycanine_horizontal_5.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_t_polyamorycanine_vertical_0.png": {
+            "flag_name": "T Polyamory",
+            "part": "center",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_0",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 132,
+                "y": 154,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_t_polyamorycanine_vertical_0.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_t_polyamorycanine_vertical_0.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_t_polyamorycanine_vertical_1.png": {
+            "flag_name": "T Polyamory",
+            "part": "left_part_1",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_1",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 154,
+                "y": 154,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_t_polyamorycanine_vertical_1.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_t_polyamorycanine_vertical_1.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_t_polyamorycanine_vertical_2.png": {
+            "flag_name": "T Polyamory",
+            "part": "left_part_2",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_2",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 176,
+                "y": 154,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_t_polyamorycanine_vertical_2.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_t_polyamorycanine_vertical_2.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_t_polyamorycanine_vertical_3.png": {
+            "flag_name": "T Polyamory",
+            "part": "right_part_1",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_3",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 198,
+                "y": 154,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_t_polyamorycanine_vertical_3.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_t_polyamorycanine_vertical_3.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_t_polyamorycanine_vertical_4.png": {
+            "flag_name": "T Polyamory",
+            "part": "right_part_2",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_4",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 220,
+                "y": 154,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_t_polyamorycanine_vertical_4.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_t_polyamorycanine_vertical_4.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_t_polyamorycanine_vertical_5.png": {
+            "flag_name": "T Polyamory",
+            "part": "whole",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 242,
+                "y": 154,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_t_polyamorycanine_vertical_5.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_t_polyamorycanine_vertical_5.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_polyfidelitycanine_horizontal_0.png": {
+            "flag_name": "Polyfidelity",
+            "part": "center",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_0",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 0,
+                "y": 176,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_polyfidelitycanine_horizontal_0.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_polyfidelitycanine_horizontal_0.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_polyfidelitycanine_horizontal_1.png": {
+            "flag_name": "Polyfidelity",
+            "part": "left_part_1",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_1",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 22,
+                "y": 176,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_polyfidelitycanine_horizontal_1.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_polyfidelitycanine_horizontal_1.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_polyfidelitycanine_horizontal_2.png": {
+            "flag_name": "Polyfidelity",
+            "part": "left_part_2",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_2",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 44,
+                "y": 176,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_polyfidelitycanine_horizontal_2.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_polyfidelitycanine_horizontal_2.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_polyfidelitycanine_horizontal_3.png": {
+            "flag_name": "Polyfidelity",
+            "part": "right_part_1",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_3",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 66,
+                "y": 176,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_polyfidelitycanine_horizontal_3.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_polyfidelitycanine_horizontal_3.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_polyfidelitycanine_horizontal_4.png": {
+            "flag_name": "Polyfidelity",
+            "part": "right_part_2",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_4",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 88,
+                "y": 176,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_polyfidelitycanine_horizontal_4.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_polyfidelitycanine_horizontal_4.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_polyfidelitycanine_horizontal_5.png": {
+            "flag_name": "Polyfidelity",
+            "part": "whole",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 110,
+                "y": 176,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_polyfidelitycanine_horizontal_5.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_polyfidelitycanine_horizontal_5.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_polyfidelitycanine_vertical_0.png": {
+            "flag_name": "Polyfidelity",
+            "part": "center",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_0",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 132,
+                "y": 176,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_polyfidelitycanine_vertical_0.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_polyfidelitycanine_vertical_0.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_polyfidelitycanine_vertical_1.png": {
+            "flag_name": "Polyfidelity",
+            "part": "left_part_1",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_1",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 154,
+                "y": 176,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_polyfidelitycanine_vertical_1.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_polyfidelitycanine_vertical_1.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_polyfidelitycanine_vertical_2.png": {
+            "flag_name": "Polyfidelity",
+            "part": "left_part_2",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_2",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 176,
+                "y": 176,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_polyfidelitycanine_vertical_2.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_polyfidelitycanine_vertical_2.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_polyfidelitycanine_vertical_3.png": {
+            "flag_name": "Polyfidelity",
+            "part": "right_part_1",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_3",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 198,
+                "y": 176,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_polyfidelitycanine_vertical_3.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_polyfidelitycanine_vertical_3.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_polyfidelitycanine_vertical_4.png": {
+            "flag_name": "Polyfidelity",
+            "part": "right_part_2",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_4",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 220,
+                "y": 176,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_polyfidelitycanine_vertical_4.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_polyfidelitycanine_vertical_4.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_polyfidelitycanine_vertical_5.png": {
+            "flag_name": "Polyfidelity",
+            "part": "whole",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 242,
+                "y": 176,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_polyfidelitycanine_vertical_5.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_polyfidelitycanine_vertical_5.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_monogamycanine_horizontal_0.png": {
+            "flag_name": "Monogamy",
+            "part": "center",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_0",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 0,
+                "y": 198,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_monogamycanine_horizontal_0.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_monogamycanine_horizontal_0.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_monogamycanine_horizontal_1.png": {
+            "flag_name": "Monogamy",
+            "part": "left_part_1",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_1",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 22,
+                "y": 198,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_monogamycanine_horizontal_1.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_monogamycanine_horizontal_1.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_monogamycanine_horizontal_2.png": {
+            "flag_name": "Monogamy",
+            "part": "left_part_2",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_2",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 44,
+                "y": 198,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_monogamycanine_horizontal_2.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_monogamycanine_horizontal_2.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_monogamycanine_horizontal_3.png": {
+            "flag_name": "Monogamy",
+            "part": "right_part_1",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_3",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 66,
+                "y": 198,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_monogamycanine_horizontal_3.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_monogamycanine_horizontal_3.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_monogamycanine_horizontal_4.png": {
+            "flag_name": "Monogamy",
+            "part": "right_part_2",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_4",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 88,
+                "y": 198,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_monogamycanine_horizontal_4.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_monogamycanine_horizontal_4.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_monogamycanine_horizontal_5.png": {
+            "flag_name": "Monogamy",
+            "part": "whole",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 110,
+                "y": 198,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_monogamycanine_horizontal_5.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_monogamycanine_horizontal_5.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_monogamycanine_vertical_0.png": {
+            "flag_name": "Monogamy",
+            "part": "center",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_0",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 132,
+                "y": 198,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_monogamycanine_vertical_0.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_monogamycanine_vertical_0.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_monogamycanine_vertical_1.png": {
+            "flag_name": "Monogamy",
+            "part": "left_part_1",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_1",
+            "flags_fits": true,
+            "flags_fits_perfect": true,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 154,
+                "y": 198,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_monogamycanine_vertical_1.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_monogamycanine_vertical_1.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_monogamycanine_vertical_2.png": {
+            "flag_name": "Monogamy",
+            "part": "left_part_2",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_2",
+            "flags_fits": true,
+            "flags_fits_perfect": true,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 176,
+                "y": 198,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_monogamycanine_vertical_2.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_monogamycanine_vertical_2.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_monogamycanine_vertical_3.png": {
+            "flag_name": "Monogamy",
+            "part": "right_part_1",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_3",
+            "flags_fits": true,
+            "flags_fits_perfect": true,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 198,
+                "y": 198,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_monogamycanine_vertical_3.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_monogamycanine_vertical_3.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_monogamycanine_vertical_4.png": {
+            "flag_name": "Monogamy",
+            "part": "right_part_2",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_4",
+            "flags_fits": true,
+            "flags_fits_perfect": true,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 220,
+                "y": 198,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_monogamycanine_vertical_4.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_monogamycanine_vertical_4.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_monogamycanine_vertical_5.png": {
+            "flag_name": "Monogamy",
+            "part": "whole",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 242,
+                "y": 198,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_monogamycanine_vertical_5.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_monogamycanine_vertical_5.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_pluriadcanine_horizontal_0.png": {
+            "flag_name": "Pluriad",
+            "part": "center",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_0",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 0,
+                "y": 220,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_pluriadcanine_horizontal_0.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_pluriadcanine_horizontal_0.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_pluriadcanine_horizontal_1.png": {
+            "flag_name": "Pluriad",
+            "part": "left_part_1",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_1",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 22,
+                "y": 220,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_pluriadcanine_horizontal_1.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_pluriadcanine_horizontal_1.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_pluriadcanine_horizontal_2.png": {
+            "flag_name": "Pluriad",
+            "part": "left_part_2",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_2",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 44,
+                "y": 220,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_pluriadcanine_horizontal_2.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_pluriadcanine_horizontal_2.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_pluriadcanine_horizontal_3.png": {
+            "flag_name": "Pluriad",
+            "part": "right_part_1",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_3",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 66,
+                "y": 220,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_pluriadcanine_horizontal_3.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_pluriadcanine_horizontal_3.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_pluriadcanine_horizontal_4.png": {
+            "flag_name": "Pluriad",
+            "part": "right_part_2",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_4",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 88,
+                "y": 220,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_pluriadcanine_horizontal_4.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_pluriadcanine_horizontal_4.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_pluriadcanine_horizontal_5.png": {
+            "flag_name": "Pluriad",
+            "part": "whole",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 110,
+                "y": 220,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_pluriadcanine_horizontal_5.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_pluriadcanine_horizontal_5.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_pluriadcanine_vertical_0.png": {
+            "flag_name": "Pluriad",
+            "part": "center",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_0",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 132,
+                "y": 220,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_pluriadcanine_vertical_0.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_pluriadcanine_vertical_0.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_pluriadcanine_vertical_1.png": {
+            "flag_name": "Pluriad",
+            "part": "left_part_1",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_1",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 154,
+                "y": 220,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_pluriadcanine_vertical_1.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_pluriadcanine_vertical_1.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_pluriadcanine_vertical_2.png": {
+            "flag_name": "Pluriad",
+            "part": "left_part_2",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_2",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 176,
+                "y": 220,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_pluriadcanine_vertical_2.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_pluriadcanine_vertical_2.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_pluriadcanine_vertical_3.png": {
+            "flag_name": "Pluriad",
+            "part": "right_part_1",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_3",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 198,
+                "y": 220,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_pluriadcanine_vertical_3.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_pluriadcanine_vertical_3.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_pluriadcanine_vertical_4.png": {
+            "flag_name": "Pluriad",
+            "part": "right_part_2",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_4",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 220,
+                "y": 220,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_pluriadcanine_vertical_4.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_pluriadcanine_vertical_4.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_pluriadcanine_vertical_5.png": {
+            "flag_name": "Pluriad",
+            "part": "whole",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 242,
+                "y": 220,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_pluriadcanine_vertical_5.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_pluriadcanine_vertical_5.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_nonamorouscanine_horizontal_0.png": {
+            "flag_name": "Nonamorous",
+            "part": "center",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_0",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 0,
+                "y": 242,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_nonamorouscanine_horizontal_0.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_nonamorouscanine_horizontal_0.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_nonamorouscanine_horizontal_1.png": {
+            "flag_name": "Nonamorous",
+            "part": "left_part_1",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_1",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 22,
+                "y": 242,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_nonamorouscanine_horizontal_1.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_nonamorouscanine_horizontal_1.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_nonamorouscanine_horizontal_2.png": {
+            "flag_name": "Nonamorous",
+            "part": "left_part_2",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_2",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 44,
+                "y": 242,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_nonamorouscanine_horizontal_2.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_nonamorouscanine_horizontal_2.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_nonamorouscanine_horizontal_3.png": {
+            "flag_name": "Nonamorous",
+            "part": "right_part_1",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_3",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 66,
+                "y": 242,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_nonamorouscanine_horizontal_3.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_nonamorouscanine_horizontal_3.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_nonamorouscanine_horizontal_4.png": {
+            "flag_name": "Nonamorous",
+            "part": "right_part_2",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_4",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 88,
+                "y": 242,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_nonamorouscanine_horizontal_4.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_nonamorouscanine_horizontal_4.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_nonamorouscanine_horizontal_5.png": {
+            "flag_name": "Nonamorous",
+            "part": "whole",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 110,
+                "y": 242,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_nonamorouscanine_horizontal_5.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_nonamorouscanine_horizontal_5.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_nonamorouscanine_vertical_0.png": {
+            "flag_name": "Nonamorous",
+            "part": "center",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_0",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 132,
+                "y": 242,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_nonamorouscanine_vertical_0.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_nonamorouscanine_vertical_0.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_nonamorouscanine_vertical_1.png": {
+            "flag_name": "Nonamorous",
+            "part": "left_part_1",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_1",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 154,
+                "y": 242,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_nonamorouscanine_vertical_1.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_nonamorouscanine_vertical_1.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_nonamorouscanine_vertical_2.png": {
+            "flag_name": "Nonamorous",
+            "part": "left_part_2",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_2",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 176,
+                "y": 242,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_nonamorouscanine_vertical_2.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_nonamorouscanine_vertical_2.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_nonamorouscanine_vertical_3.png": {
+            "flag_name": "Nonamorous",
+            "part": "right_part_1",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_3",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 198,
+                "y": 242,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_nonamorouscanine_vertical_3.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_nonamorouscanine_vertical_3.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_nonamorouscanine_vertical_4.png": {
+            "flag_name": "Nonamorous",
+            "part": "right_part_2",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_4",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 220,
+                "y": 242,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_nonamorouscanine_vertical_4.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_nonamorouscanine_vertical_4.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_nonamorouscanine_vertical_5.png": {
+            "flag_name": "Nonamorous",
+            "part": "whole",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 242,
+                "y": 242,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_nonamorouscanine_vertical_5.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_nonamorouscanine_vertical_5.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_biamorouscanine_horizontal_0.png": {
+            "flag_name": "Biamorous",
+            "part": "center",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_0",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 0,
+                "y": 264,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_biamorouscanine_horizontal_0.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_biamorouscanine_horizontal_0.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_biamorouscanine_horizontal_1.png": {
+            "flag_name": "Biamorous",
+            "part": "left_part_1",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_1",
+            "flags_fits": true,
+            "flags_fits_perfect": true,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 22,
+                "y": 264,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_biamorouscanine_horizontal_1.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_biamorouscanine_horizontal_1.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_biamorouscanine_horizontal_2.png": {
+            "flag_name": "Biamorous",
+            "part": "left_part_2",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_2",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 44,
+                "y": 264,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_biamorouscanine_horizontal_2.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_biamorouscanine_horizontal_2.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_biamorouscanine_horizontal_3.png": {
+            "flag_name": "Biamorous",
+            "part": "right_part_1",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_3",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 66,
+                "y": 264,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_biamorouscanine_horizontal_3.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_biamorouscanine_horizontal_3.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_biamorouscanine_horizontal_4.png": {
+            "flag_name": "Biamorous",
+            "part": "right_part_2",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_4",
+            "flags_fits": true,
+            "flags_fits_perfect": true,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 88,
+                "y": 264,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_biamorouscanine_horizontal_4.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_biamorouscanine_horizontal_4.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_biamorouscanine_horizontal_5.png": {
+            "flag_name": "Biamorous",
+            "part": "whole",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 110,
+                "y": 264,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_biamorouscanine_horizontal_5.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_biamorouscanine_horizontal_5.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_biamorouscanine_vertical_0.png": {
+            "flag_name": "Biamorous",
+            "part": "center",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_0",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 132,
+                "y": 264,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_biamorouscanine_vertical_0.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_biamorouscanine_vertical_0.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_biamorouscanine_vertical_1.png": {
+            "flag_name": "Biamorous",
+            "part": "left_part_1",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_1",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 154,
+                "y": 264,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_biamorouscanine_vertical_1.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_biamorouscanine_vertical_1.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_biamorouscanine_vertical_2.png": {
+            "flag_name": "Biamorous",
+            "part": "left_part_2",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_2",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 176,
+                "y": 264,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_biamorouscanine_vertical_2.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_biamorouscanine_vertical_2.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_biamorouscanine_vertical_3.png": {
+            "flag_name": "Biamorous",
+            "part": "right_part_1",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_3",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 198,
+                "y": 264,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_biamorouscanine_vertical_3.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_biamorouscanine_vertical_3.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_biamorouscanine_vertical_4.png": {
+            "flag_name": "Biamorous",
+            "part": "right_part_2",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_4",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 220,
+                "y": 264,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_biamorouscanine_vertical_4.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_biamorouscanine_vertical_4.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_biamorouscanine_vertical_5.png": {
+            "flag_name": "Biamorous",
+            "part": "whole",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 242,
+                "y": 264,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_biamorouscanine_vertical_5.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_biamorouscanine_vertical_5.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_pluriancanine_horizontal_0.png": {
+            "flag_name": "Plurian",
+            "part": "center",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_0",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 0,
+                "y": 286,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_pluriancanine_horizontal_0.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_pluriancanine_horizontal_0.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_pluriancanine_horizontal_1.png": {
+            "flag_name": "Plurian",
+            "part": "left_part_1",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_1",
+            "flags_fits": true,
+            "flags_fits_perfect": true,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 22,
+                "y": 286,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_pluriancanine_horizontal_1.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_pluriancanine_horizontal_1.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_pluriancanine_horizontal_2.png": {
+            "flag_name": "Plurian",
+            "part": "left_part_2",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_2",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 44,
+                "y": 286,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_pluriancanine_horizontal_2.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_pluriancanine_horizontal_2.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_pluriancanine_horizontal_3.png": {
+            "flag_name": "Plurian",
+            "part": "right_part_1",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_3",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 66,
+                "y": 286,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_pluriancanine_horizontal_3.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_pluriancanine_horizontal_3.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_pluriancanine_horizontal_4.png": {
+            "flag_name": "Plurian",
+            "part": "right_part_2",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_4",
+            "flags_fits": true,
+            "flags_fits_perfect": true,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 88,
+                "y": 286,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_pluriancanine_horizontal_4.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_pluriancanine_horizontal_4.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_pluriancanine_horizontal_5.png": {
+            "flag_name": "Plurian",
+            "part": "whole",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 110,
+                "y": 286,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_pluriancanine_horizontal_5.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_pluriancanine_horizontal_5.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_pluriancanine_vertical_0.png": {
+            "flag_name": "Plurian",
+            "part": "center",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_0",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 132,
+                "y": 286,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_pluriancanine_vertical_0.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_pluriancanine_vertical_0.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_pluriancanine_vertical_1.png": {
+            "flag_name": "Plurian",
+            "part": "left_part_1",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_1",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 154,
+                "y": 286,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_pluriancanine_vertical_1.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_pluriancanine_vertical_1.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_pluriancanine_vertical_2.png": {
+            "flag_name": "Plurian",
+            "part": "left_part_2",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_2",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 176,
+                "y": 286,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_pluriancanine_vertical_2.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_pluriancanine_vertical_2.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_pluriancanine_vertical_3.png": {
+            "flag_name": "Plurian",
+            "part": "right_part_1",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_3",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 198,
+                "y": 286,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_pluriancanine_vertical_3.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_pluriancanine_vertical_3.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_pluriancanine_vertical_4.png": {
+            "flag_name": "Plurian",
+            "part": "right_part_2",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_4",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 220,
+                "y": 286,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_pluriancanine_vertical_4.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_pluriancanine_vertical_4.png"
+        },
+        "assets/img/sprites/relationship_canine/relationship_canine_pluriancanine_vertical_5.png": {
+            "flag_name": "Plurian",
+            "part": "whole",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 242,
+                "y": 286,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/relationship_canine/relationship_canine_pluriancanine_vertical_5.png",
+            "filename": "assets/img/sprites/relationship_canine/relationship_canine_pluriancanine_vertical_5.png"
+        }
+    },
+    "meta": {
+        "size": {
+            "w": 264,
+            "h": 308
+        },
+        "image": "relationship_canine.png",
+        "format": "RGBA8888",
+        "scale": 1
+    }
+}

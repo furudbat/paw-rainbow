@@ -27,5 +27,6 @@ export interface FlagsConfigData {
     forms: string[];
     transparent_colors: string[];
 
-    paw: PawFlagConfig;
+    canine: PawFlagConfig;
+    feline: PawFlagConfig;
 }

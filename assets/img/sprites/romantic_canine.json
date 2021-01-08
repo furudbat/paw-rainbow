@@ -1,0 +1,2101 @@
+{
+    "frames": {
+        "assets/img/sprites/romantic_canine/romantic_canine_aromanticcanine_horizontal_0.png": {
+            "flag_name": "Aromantic",
+            "part": "center",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_0",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/romantic_canine/romantic_canine_aromanticcanine_horizontal_0.png",
+            "filename": "assets/img/sprites/romantic_canine/romantic_canine_aromanticcanine_horizontal_0.png"
+        },
+        "assets/img/sprites/romantic_canine/romantic_canine_aromanticcanine_horizontal_1.png": {
+            "flag_name": "Aromantic",
+            "part": "left_part_1",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_1",
+            "flags_fits": true,
+            "flags_fits_perfect": true,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 22,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/romantic_canine/romantic_canine_aromanticcanine_horizontal_1.png",
+            "filename": "assets/img/sprites/romantic_canine/romantic_canine_aromanticcanine_horizontal_1.png"
+        },
+        "assets/img/sprites/romantic_canine/romantic_canine_aromanticcanine_horizontal_2.png": {
+            "flag_name": "Aromantic",
+            "part": "left_part_2",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_2",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 44,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/romantic_canine/romantic_canine_aromanticcanine_horizontal_2.png",
+            "filename": "assets/img/sprites/romantic_canine/romantic_canine_aromanticcanine_horizontal_2.png"
+        },
+        "assets/img/sprites/romantic_canine/romantic_canine_aromanticcanine_horizontal_3.png": {
+            "flag_name": "Aromantic",
+            "part": "right_part_1",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_3",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 66,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/romantic_canine/romantic_canine_aromanticcanine_horizontal_3.png",
+            "filename": "assets/img/sprites/romantic_canine/romantic_canine_aromanticcanine_horizontal_3.png"
+        },
+        "assets/img/sprites/romantic_canine/romantic_canine_aromanticcanine_horizontal_4.png": {
+            "flag_name": "Aromantic",
+            "part": "right_part_2",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_4",
+            "flags_fits": true,
+            "flags_fits_perfect": true,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 88,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/romantic_canine/romantic_canine_aromanticcanine_horizontal_4.png",
+            "filename": "assets/img/sprites/romantic_canine/romantic_canine_aromanticcanine_horizontal_4.png"
+        },
+        "assets/img/sprites/romantic_canine/romantic_canine_aromanticcanine_horizontal_5.png": {
+            "flag_name": "Aromantic",
+            "part": "whole",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 110,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/romantic_canine/romantic_canine_aromanticcanine_horizontal_5.png",
+            "filename": "assets/img/sprites/romantic_canine/romantic_canine_aromanticcanine_horizontal_5.png"
+        },
+        "assets/img/sprites/romantic_canine/romantic_canine_aromanticcanine_vertical_0.png": {
+            "flag_name": "Aromantic",
+            "part": "center",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_0",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 132,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/romantic_canine/romantic_canine_aromanticcanine_vertical_0.png",
+            "filename": "assets/img/sprites/romantic_canine/romantic_canine_aromanticcanine_vertical_0.png"
+        },
+        "assets/img/sprites/romantic_canine/romantic_canine_aromanticcanine_vertical_1.png": {
+            "flag_name": "Aromantic",
+            "part": "left_part_1",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_1",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 154,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/romantic_canine/romantic_canine_aromanticcanine_vertical_1.png",
+            "filename": "assets/img/sprites/romantic_canine/romantic_canine_aromanticcanine_vertical_1.png"
+        },
+        "assets/img/sprites/romantic_canine/romantic_canine_aromanticcanine_vertical_2.png": {
+            "flag_name": "Aromantic",
+            "part": "left_part_2",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_2",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 176,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/romantic_canine/romantic_canine_aromanticcanine_vertical_2.png",
+            "filename": "assets/img/sprites/romantic_canine/romantic_canine_aromanticcanine_vertical_2.png"
+        },
+        "assets/img/sprites/romantic_canine/romantic_canine_aromanticcanine_vertical_3.png": {
+            "flag_name": "Aromantic",
+            "part": "right_part_1",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_3",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 198,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/romantic_canine/romantic_canine_aromanticcanine_vertical_3.png",
+            "filename": "assets/img/sprites/romantic_canine/romantic_canine_aromanticcanine_vertical_3.png"
+        },
+        "assets/img/sprites/romantic_canine/romantic_canine_aromanticcanine_vertical_4.png": {
+            "flag_name": "Aromantic",
+            "part": "right_part_2",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_4",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 220,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/romantic_canine/romantic_canine_aromanticcanine_vertical_4.png",
+            "filename": "assets/img/sprites/romantic_canine/romantic_canine_aromanticcanine_vertical_4.png"
+        },
+        "assets/img/sprites/romantic_canine/romantic_canine_aromanticcanine_vertical_5.png": {
+            "flag_name": "Aromantic",
+            "part": "whole",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 242,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/romantic_canine/romantic_canine_aromanticcanine_vertical_5.png",
+            "filename": "assets/img/sprites/romantic_canine/romantic_canine_aromanticcanine_vertical_5.png"
+        },
+        "assets/img/sprites/romantic_canine/romantic_canine_aromantic_spectrumcanine_horizontal_0.png": {
+            "flag_name": "Aromantic Spectrum",
+            "part": "center",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_0",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 0,
+                "y": 22,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/romantic_canine/romantic_canine_aromantic_spectrumcanine_horizontal_0.png",
+            "filename": "assets/img/sprites/romantic_canine/romantic_canine_aromantic_spectrumcanine_horizontal_0.png"
+        },
+        "assets/img/sprites/romantic_canine/romantic_canine_aromantic_spectrumcanine_horizontal_1.png": {
+            "flag_name": "Aromantic Spectrum",
+            "part": "left_part_1",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_1",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 22,
+                "y": 22,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/romantic_canine/romantic_canine_aromantic_spectrumcanine_horizontal_1.png",
+            "filename": "assets/img/sprites/romantic_canine/romantic_canine_aromantic_spectrumcanine_horizontal_1.png"
+        },
+        "assets/img/sprites/romantic_canine/romantic_canine_aromantic_spectrumcanine_horizontal_2.png": {
+            "flag_name": "Aromantic Spectrum",
+            "part": "left_part_2",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_2",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 44,
+                "y": 22,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/romantic_canine/romantic_canine_aromantic_spectrumcanine_horizontal_2.png",
+            "filename": "assets/img/sprites/romantic_canine/romantic_canine_aromantic_spectrumcanine_horizontal_2.png"
+        },
+        "assets/img/sprites/romantic_canine/romantic_canine_aromantic_spectrumcanine_horizontal_3.png": {
+            "flag_name": "Aromantic Spectrum",
+            "part": "right_part_1",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_3",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 66,
+                "y": 22,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/romantic_canine/romantic_canine_aromantic_spectrumcanine_horizontal_3.png",
+            "filename": "assets/img/sprites/romantic_canine/romantic_canine_aromantic_spectrumcanine_horizontal_3.png"
+        },
+        "assets/img/sprites/romantic_canine/romantic_canine_aromantic_spectrumcanine_horizontal_4.png": {
+            "flag_name": "Aromantic Spectrum",
+            "part": "right_part_2",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_4",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 88,
+                "y": 22,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/romantic_canine/romantic_canine_aromantic_spectrumcanine_horizontal_4.png",
+            "filename": "assets/img/sprites/romantic_canine/romantic_canine_aromantic_spectrumcanine_horizontal_4.png"
+        },
+        "assets/img/sprites/romantic_canine/romantic_canine_aromantic_spectrumcanine_horizontal_5.png": {
+            "flag_name": "Aromantic Spectrum",
+            "part": "whole",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 110,
+                "y": 22,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/romantic_canine/romantic_canine_aromantic_spectrumcanine_horizontal_5.png",
+            "filename": "assets/img/sprites/romantic_canine/romantic_canine_aromantic_spectrumcanine_horizontal_5.png"
+        },
+        "assets/img/sprites/romantic_canine/romantic_canine_aromantic_spectrumcanine_vertical_0.png": {
+            "flag_name": "Aromantic Spectrum",
+            "part": "center",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_0",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 132,
+                "y": 22,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/romantic_canine/romantic_canine_aromantic_spectrumcanine_vertical_0.png",
+            "filename": "assets/img/sprites/romantic_canine/romantic_canine_aromantic_spectrumcanine_vertical_0.png"
+        },
+        "assets/img/sprites/romantic_canine/romantic_canine_aromantic_spectrumcanine_vertical_1.png": {
+            "flag_name": "Aromantic Spectrum",
+            "part": "left_part_1",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_1",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 154,
+                "y": 22,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/romantic_canine/romantic_canine_aromantic_spectrumcanine_vertical_1.png",
+            "filename": "assets/img/sprites/romantic_canine/romantic_canine_aromantic_spectrumcanine_vertical_1.png"
+        },
+        "assets/img/sprites/romantic_canine/romantic_canine_aromantic_spectrumcanine_vertical_2.png": {
+            "flag_name": "Aromantic Spectrum",
+            "part": "left_part_2",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_2",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 176,
+                "y": 22,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/romantic_canine/romantic_canine_aromantic_spectrumcanine_vertical_2.png",
+            "filename": "assets/img/sprites/romantic_canine/romantic_canine_aromantic_spectrumcanine_vertical_2.png"
+        },
+        "assets/img/sprites/romantic_canine/romantic_canine_aromantic_spectrumcanine_vertical_3.png": {
+            "flag_name": "Aromantic Spectrum",
+            "part": "right_part_1",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_3",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 198,
+                "y": 22,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/romantic_canine/romantic_canine_aromantic_spectrumcanine_vertical_3.png",
+            "filename": "assets/img/sprites/romantic_canine/romantic_canine_aromantic_spectrumcanine_vertical_3.png"
+        },
+        "assets/img/sprites/romantic_canine/romantic_canine_aromantic_spectrumcanine_vertical_4.png": {
+            "flag_name": "Aromantic Spectrum",
+            "part": "right_part_2",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_4",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 220,
+                "y": 22,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/romantic_canine/romantic_canine_aromantic_spectrumcanine_vertical_4.png",
+            "filename": "assets/img/sprites/romantic_canine/romantic_canine_aromantic_spectrumcanine_vertical_4.png"
+        },
+        "assets/img/sprites/romantic_canine/romantic_canine_aromantic_spectrumcanine_vertical_5.png": {
+            "flag_name": "Aromantic Spectrum",
+            "part": "whole",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 242,
+                "y": 22,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/romantic_canine/romantic_canine_aromantic_spectrumcanine_vertical_5.png",
+            "filename": "assets/img/sprites/romantic_canine/romantic_canine_aromantic_spectrumcanine_vertical_5.png"
+        },
+        "assets/img/sprites/romantic_canine/romantic_canine_demiromanticcanine_horizontal_0.png": {
+            "flag_name": "Demiromantic",
+            "part": "center",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_0",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 0,
+                "y": 44,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/romantic_canine/romantic_canine_demiromanticcanine_horizontal_0.png",
+            "filename": "assets/img/sprites/romantic_canine/romantic_canine_demiromanticcanine_horizontal_0.png"
+        },
+        "assets/img/sprites/romantic_canine/romantic_canine_demiromanticcanine_horizontal_1.png": {
+            "flag_name": "Demiromantic",
+            "part": "left_part_1",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_1",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 22,
+                "y": 44,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/romantic_canine/romantic_canine_demiromanticcanine_horizontal_1.png",
+            "filename": "assets/img/sprites/romantic_canine/romantic_canine_demiromanticcanine_horizontal_1.png"
+        },
+        "assets/img/sprites/romantic_canine/romantic_canine_demiromanticcanine_horizontal_2.png": {
+            "flag_name": "Demiromantic",
+            "part": "left_part_2",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_2",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 44,
+                "y": 44,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/romantic_canine/romantic_canine_demiromanticcanine_horizontal_2.png",
+            "filename": "assets/img/sprites/romantic_canine/romantic_canine_demiromanticcanine_horizontal_2.png"
+        },
+        "assets/img/sprites/romantic_canine/romantic_canine_demiromanticcanine_horizontal_3.png": {
+            "flag_name": "Demiromantic",
+            "part": "right_part_1",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_3",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 66,
+                "y": 44,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/romantic_canine/romantic_canine_demiromanticcanine_horizontal_3.png",
+            "filename": "assets/img/sprites/romantic_canine/romantic_canine_demiromanticcanine_horizontal_3.png"
+        },
+        "assets/img/sprites/romantic_canine/romantic_canine_demiromanticcanine_horizontal_4.png": {
+            "flag_name": "Demiromantic",
+            "part": "right_part_2",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_4",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 88,
+                "y": 44,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/romantic_canine/romantic_canine_demiromanticcanine_horizontal_4.png",
+            "filename": "assets/img/sprites/romantic_canine/romantic_canine_demiromanticcanine_horizontal_4.png"
+        },
+        "assets/img/sprites/romantic_canine/romantic_canine_demiromanticcanine_horizontal_5.png": {
+            "flag_name": "Demiromantic",
+            "part": "whole",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_5",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 110,
+                "y": 44,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/romantic_canine/romantic_canine_demiromanticcanine_horizontal_5.png",
+            "filename": "assets/img/sprites/romantic_canine/romantic_canine_demiromanticcanine_horizontal_5.png"
+        },
+        "assets/img/sprites/romantic_canine/romantic_canine_demiromanticcanine_vertical_0.png": {
+            "flag_name": "Demiromantic",
+            "part": "center",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_0",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 132,
+                "y": 44,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/romantic_canine/romantic_canine_demiromanticcanine_vertical_0.png",
+            "filename": "assets/img/sprites/romantic_canine/romantic_canine_demiromanticcanine_vertical_0.png"
+        },
+        "assets/img/sprites/romantic_canine/romantic_canine_demiromanticcanine_vertical_1.png": {
+            "flag_name": "Demiromantic",
+            "part": "left_part_1",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_1",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 154,
+                "y": 44,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/romantic_canine/romantic_canine_demiromanticcanine_vertical_1.png",
+            "filename": "assets/img/sprites/romantic_canine/romantic_canine_demiromanticcanine_vertical_1.png"
+        },
+        "assets/img/sprites/romantic_canine/romantic_canine_demiromanticcanine_vertical_2.png": {
+            "flag_name": "Demiromantic",
+            "part": "left_part_2",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_2",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 176,
+                "y": 44,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/romantic_canine/romantic_canine_demiromanticcanine_vertical_2.png",
+            "filename": "assets/img/sprites/romantic_canine/romantic_canine_demiromanticcanine_vertical_2.png"
+        },
+        "assets/img/sprites/romantic_canine/romantic_canine_demiromanticcanine_vertical_3.png": {
+            "flag_name": "Demiromantic",
+            "part": "right_part_1",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_3",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 198,
+                "y": 44,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/romantic_canine/romantic_canine_demiromanticcanine_vertical_3.png",
+            "filename": "assets/img/sprites/romantic_canine/romantic_canine_demiromanticcanine_vertical_3.png"
+        },
+        "assets/img/sprites/romantic_canine/romantic_canine_demiromanticcanine_vertical_4.png": {
+            "flag_name": "Demiromantic",
+            "part": "right_part_2",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_4",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 220,
+                "y": 44,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/romantic_canine/romantic_canine_demiromanticcanine_vertical_4.png",
+            "filename": "assets/img/sprites/romantic_canine/romantic_canine_demiromanticcanine_vertical_4.png"
+        },
+        "assets/img/sprites/romantic_canine/romantic_canine_demiromanticcanine_vertical_5.png": {
+            "flag_name": "Demiromantic",
+            "part": "whole",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 242,
+                "y": 44,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/romantic_canine/romantic_canine_demiromanticcanine_vertical_5.png",
+            "filename": "assets/img/sprites/romantic_canine/romantic_canine_demiromanticcanine_vertical_5.png"
+        },
+        "assets/img/sprites/romantic_canine/romantic_canine_autoromanticcanine_horizontal_0.png": {
+            "flag_name": "Autoromantic",
+            "part": "center",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_0",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 0,
+                "y": 66,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/romantic_canine/romantic_canine_autoromanticcanine_horizontal_0.png",
+            "filename": "assets/img/sprites/romantic_canine/romantic_canine_autoromanticcanine_horizontal_0.png"
+        },
+        "assets/img/sprites/romantic_canine/romantic_canine_autoromanticcanine_horizontal_1.png": {
+            "flag_name": "Autoromantic",
+            "part": "left_part_1",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_1",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 22,
+                "y": 66,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/romantic_canine/romantic_canine_autoromanticcanine_horizontal_1.png",
+            "filename": "assets/img/sprites/romantic_canine/romantic_canine_autoromanticcanine_horizontal_1.png"
+        },
+        "assets/img/sprites/romantic_canine/romantic_canine_autoromanticcanine_horizontal_2.png": {
+            "flag_name": "Autoromantic",
+            "part": "left_part_2",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_2",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 44,
+                "y": 66,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/romantic_canine/romantic_canine_autoromanticcanine_horizontal_2.png",
+            "filename": "assets/img/sprites/romantic_canine/romantic_canine_autoromanticcanine_horizontal_2.png"
+        },
+        "assets/img/sprites/romantic_canine/romantic_canine_autoromanticcanine_horizontal_3.png": {
+            "flag_name": "Autoromantic",
+            "part": "right_part_1",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_3",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 66,
+                "y": 66,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/romantic_canine/romantic_canine_autoromanticcanine_horizontal_3.png",
+            "filename": "assets/img/sprites/romantic_canine/romantic_canine_autoromanticcanine_horizontal_3.png"
+        },
+        "assets/img/sprites/romantic_canine/romantic_canine_autoromanticcanine_horizontal_4.png": {
+            "flag_name": "Autoromantic",
+            "part": "right_part_2",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_4",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 88,
+                "y": 66,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/romantic_canine/romantic_canine_autoromanticcanine_horizontal_4.png",
+            "filename": "assets/img/sprites/romantic_canine/romantic_canine_autoromanticcanine_horizontal_4.png"
+        },
+        "assets/img/sprites/romantic_canine/romantic_canine_autoromanticcanine_horizontal_5.png": {
+            "flag_name": "Autoromantic",
+            "part": "whole",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 110,
+                "y": 66,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/romantic_canine/romantic_canine_autoromanticcanine_horizontal_5.png",
+            "filename": "assets/img/sprites/romantic_canine/romantic_canine_autoromanticcanine_horizontal_5.png"
+        },
+        "assets/img/sprites/romantic_canine/romantic_canine_autoromanticcanine_vertical_0.png": {
+            "flag_name": "Autoromantic",
+            "part": "center",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_0",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 132,
+                "y": 66,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/romantic_canine/romantic_canine_autoromanticcanine_vertical_0.png",
+            "filename": "assets/img/sprites/romantic_canine/romantic_canine_autoromanticcanine_vertical_0.png"
+        },
+        "assets/img/sprites/romantic_canine/romantic_canine_autoromanticcanine_vertical_1.png": {
+            "flag_name": "Autoromantic",
+            "part": "left_part_1",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_1",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 154,
+                "y": 66,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/romantic_canine/romantic_canine_autoromanticcanine_vertical_1.png",
+            "filename": "assets/img/sprites/romantic_canine/romantic_canine_autoromanticcanine_vertical_1.png"
+        },
+        "assets/img/sprites/romantic_canine/romantic_canine_autoromanticcanine_vertical_2.png": {
+            "flag_name": "Autoromantic",
+            "part": "left_part_2",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_2",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 176,
+                "y": 66,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/romantic_canine/romantic_canine_autoromanticcanine_vertical_2.png",
+            "filename": "assets/img/sprites/romantic_canine/romantic_canine_autoromanticcanine_vertical_2.png"
+        },
+        "assets/img/sprites/romantic_canine/romantic_canine_autoromanticcanine_vertical_3.png": {
+            "flag_name": "Autoromantic",
+            "part": "right_part_1",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_3",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 198,
+                "y": 66,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/romantic_canine/romantic_canine_autoromanticcanine_vertical_3.png",
+            "filename": "assets/img/sprites/romantic_canine/romantic_canine_autoromanticcanine_vertical_3.png"
+        },
+        "assets/img/sprites/romantic_canine/romantic_canine_autoromanticcanine_vertical_4.png": {
+            "flag_name": "Autoromantic",
+            "part": "right_part_2",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_4",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 220,
+                "y": 66,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/romantic_canine/romantic_canine_autoromanticcanine_vertical_4.png",
+            "filename": "assets/img/sprites/romantic_canine/romantic_canine_autoromanticcanine_vertical_4.png"
+        },
+        "assets/img/sprites/romantic_canine/romantic_canine_autoromanticcanine_vertical_5.png": {
+            "flag_name": "Autoromantic",
+            "part": "whole",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 242,
+                "y": 66,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/romantic_canine/romantic_canine_autoromanticcanine_vertical_5.png",
+            "filename": "assets/img/sprites/romantic_canine/romantic_canine_autoromanticcanine_vertical_5.png"
+        },
+        "assets/img/sprites/romantic_canine/romantic_canine_andromanticcanine_horizontal_0.png": {
+            "flag_name": "Andromantic",
+            "part": "center",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_0",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 0,
+                "y": 88,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/romantic_canine/romantic_canine_andromanticcanine_horizontal_0.png",
+            "filename": "assets/img/sprites/romantic_canine/romantic_canine_andromanticcanine_horizontal_0.png"
+        },
+        "assets/img/sprites/romantic_canine/romantic_canine_andromanticcanine_horizontal_1.png": {
+            "flag_name": "Andromantic",
+            "part": "left_part_1",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_1",
+            "flags_fits": true,
+            "flags_fits_perfect": true,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 22,
+                "y": 88,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/romantic_canine/romantic_canine_andromanticcanine_horizontal_1.png",
+            "filename": "assets/img/sprites/romantic_canine/romantic_canine_andromanticcanine_horizontal_1.png"
+        },
+        "assets/img/sprites/romantic_canine/romantic_canine_andromanticcanine_horizontal_2.png": {
+            "flag_name": "Andromantic",
+            "part": "left_part_2",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_2",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 44,
+                "y": 88,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/romantic_canine/romantic_canine_andromanticcanine_horizontal_2.png",
+            "filename": "assets/img/sprites/romantic_canine/romantic_canine_andromanticcanine_horizontal_2.png"
+        },
+        "assets/img/sprites/romantic_canine/romantic_canine_andromanticcanine_horizontal_3.png": {
+            "flag_name": "Andromantic",
+            "part": "right_part_1",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_3",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 66,
+                "y": 88,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/romantic_canine/romantic_canine_andromanticcanine_horizontal_3.png",
+            "filename": "assets/img/sprites/romantic_canine/romantic_canine_andromanticcanine_horizontal_3.png"
+        },
+        "assets/img/sprites/romantic_canine/romantic_canine_andromanticcanine_horizontal_4.png": {
+            "flag_name": "Andromantic",
+            "part": "right_part_2",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_4",
+            "flags_fits": true,
+            "flags_fits_perfect": true,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 88,
+                "y": 88,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/romantic_canine/romantic_canine_andromanticcanine_horizontal_4.png",
+            "filename": "assets/img/sprites/romantic_canine/romantic_canine_andromanticcanine_horizontal_4.png"
+        },
+        "assets/img/sprites/romantic_canine/romantic_canine_andromanticcanine_horizontal_5.png": {
+            "flag_name": "Andromantic",
+            "part": "whole",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 110,
+                "y": 88,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/romantic_canine/romantic_canine_andromanticcanine_horizontal_5.png",
+            "filename": "assets/img/sprites/romantic_canine/romantic_canine_andromanticcanine_horizontal_5.png"
+        },
+        "assets/img/sprites/romantic_canine/romantic_canine_andromanticcanine_vertical_0.png": {
+            "flag_name": "Andromantic",
+            "part": "center",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_0",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 132,
+                "y": 88,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/romantic_canine/romantic_canine_andromanticcanine_vertical_0.png",
+            "filename": "assets/img/sprites/romantic_canine/romantic_canine_andromanticcanine_vertical_0.png"
+        },
+        "assets/img/sprites/romantic_canine/romantic_canine_andromanticcanine_vertical_1.png": {
+            "flag_name": "Andromantic",
+            "part": "left_part_1",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_1",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 154,
+                "y": 88,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/romantic_canine/romantic_canine_andromanticcanine_vertical_1.png",
+            "filename": "assets/img/sprites/romantic_canine/romantic_canine_andromanticcanine_vertical_1.png"
+        },
+        "assets/img/sprites/romantic_canine/romantic_canine_andromanticcanine_vertical_2.png": {
+            "flag_name": "Andromantic",
+            "part": "left_part_2",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_2",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 176,
+                "y": 88,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/romantic_canine/romantic_canine_andromanticcanine_vertical_2.png",
+            "filename": "assets/img/sprites/romantic_canine/romantic_canine_andromanticcanine_vertical_2.png"
+        },
+        "assets/img/sprites/romantic_canine/romantic_canine_andromanticcanine_vertical_3.png": {
+            "flag_name": "Andromantic",
+            "part": "right_part_1",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_3",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 198,
+                "y": 88,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/romantic_canine/romantic_canine_andromanticcanine_vertical_3.png",
+            "filename": "assets/img/sprites/romantic_canine/romantic_canine_andromanticcanine_vertical_3.png"
+        },
+        "assets/img/sprites/romantic_canine/romantic_canine_andromanticcanine_vertical_4.png": {
+            "flag_name": "Andromantic",
+            "part": "right_part_2",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_4",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 220,
+                "y": 88,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/romantic_canine/romantic_canine_andromanticcanine_vertical_4.png",
+            "filename": "assets/img/sprites/romantic_canine/romantic_canine_andromanticcanine_vertical_4.png"
+        },
+        "assets/img/sprites/romantic_canine/romantic_canine_andromanticcanine_vertical_5.png": {
+            "flag_name": "Andromantic",
+            "part": "whole",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 242,
+                "y": 88,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/romantic_canine/romantic_canine_andromanticcanine_vertical_5.png",
+            "filename": "assets/img/sprites/romantic_canine/romantic_canine_andromanticcanine_vertical_5.png"
+        },
+        "assets/img/sprites/romantic_canine/romantic_canine_myrromanticcanine_horizontal_0.png": {
+            "flag_name": "Myrromantic",
+            "part": "center",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_0",
+            "flags_fits": true,
+            "flags_fits_perfect": true,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 0,
+                "y": 110,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/romantic_canine/romantic_canine_myrromanticcanine_horizontal_0.png",
+            "filename": "assets/img/sprites/romantic_canine/romantic_canine_myrromanticcanine_horizontal_0.png"
+        },
+        "assets/img/sprites/romantic_canine/romantic_canine_myrromanticcanine_horizontal_1.png": {
+            "flag_name": "Myrromantic",
+            "part": "left_part_1",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_1",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 22,
+                "y": 110,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/romantic_canine/romantic_canine_myrromanticcanine_horizontal_1.png",
+            "filename": "assets/img/sprites/romantic_canine/romantic_canine_myrromanticcanine_horizontal_1.png"
+        },
+        "assets/img/sprites/romantic_canine/romantic_canine_myrromanticcanine_horizontal_2.png": {
+            "flag_name": "Myrromantic",
+            "part": "left_part_2",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_2",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 44,
+                "y": 110,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/romantic_canine/romantic_canine_myrromanticcanine_horizontal_2.png",
+            "filename": "assets/img/sprites/romantic_canine/romantic_canine_myrromanticcanine_horizontal_2.png"
+        },
+        "assets/img/sprites/romantic_canine/romantic_canine_myrromanticcanine_horizontal_3.png": {
+            "flag_name": "Myrromantic",
+            "part": "right_part_1",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_3",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 66,
+                "y": 110,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/romantic_canine/romantic_canine_myrromanticcanine_horizontal_3.png",
+            "filename": "assets/img/sprites/romantic_canine/romantic_canine_myrromanticcanine_horizontal_3.png"
+        },
+        "assets/img/sprites/romantic_canine/romantic_canine_myrromanticcanine_horizontal_4.png": {
+            "flag_name": "Myrromantic",
+            "part": "right_part_2",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_4",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 88,
+                "y": 110,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/romantic_canine/romantic_canine_myrromanticcanine_horizontal_4.png",
+            "filename": "assets/img/sprites/romantic_canine/romantic_canine_myrromanticcanine_horizontal_4.png"
+        },
+        "assets/img/sprites/romantic_canine/romantic_canine_myrromanticcanine_horizontal_5.png": {
+            "flag_name": "Myrromantic",
+            "part": "whole",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 110,
+                "y": 110,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/romantic_canine/romantic_canine_myrromanticcanine_horizontal_5.png",
+            "filename": "assets/img/sprites/romantic_canine/romantic_canine_myrromanticcanine_horizontal_5.png"
+        },
+        "assets/img/sprites/romantic_canine/romantic_canine_myrromanticcanine_vertical_0.png": {
+            "flag_name": "Myrromantic",
+            "part": "center",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_0",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 132,
+                "y": 110,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/romantic_canine/romantic_canine_myrromanticcanine_vertical_0.png",
+            "filename": "assets/img/sprites/romantic_canine/romantic_canine_myrromanticcanine_vertical_0.png"
+        },
+        "assets/img/sprites/romantic_canine/romantic_canine_myrromanticcanine_vertical_1.png": {
+            "flag_name": "Myrromantic",
+            "part": "left_part_1",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_1",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 154,
+                "y": 110,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/romantic_canine/romantic_canine_myrromanticcanine_vertical_1.png",
+            "filename": "assets/img/sprites/romantic_canine/romantic_canine_myrromanticcanine_vertical_1.png"
+        },
+        "assets/img/sprites/romantic_canine/romantic_canine_myrromanticcanine_vertical_2.png": {
+            "flag_name": "Myrromantic",
+            "part": "left_part_2",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_2",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 176,
+                "y": 110,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/romantic_canine/romantic_canine_myrromanticcanine_vertical_2.png",
+            "filename": "assets/img/sprites/romantic_canine/romantic_canine_myrromanticcanine_vertical_2.png"
+        },
+        "assets/img/sprites/romantic_canine/romantic_canine_myrromanticcanine_vertical_3.png": {
+            "flag_name": "Myrromantic",
+            "part": "right_part_1",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_3",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 198,
+                "y": 110,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/romantic_canine/romantic_canine_myrromanticcanine_vertical_3.png",
+            "filename": "assets/img/sprites/romantic_canine/romantic_canine_myrromanticcanine_vertical_3.png"
+        },
+        "assets/img/sprites/romantic_canine/romantic_canine_myrromanticcanine_vertical_4.png": {
+            "flag_name": "Myrromantic",
+            "part": "right_part_2",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_4",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 220,
+                "y": 110,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/romantic_canine/romantic_canine_myrromanticcanine_vertical_4.png",
+            "filename": "assets/img/sprites/romantic_canine/romantic_canine_myrromanticcanine_vertical_4.png"
+        },
+        "assets/img/sprites/romantic_canine/romantic_canine_myrromanticcanine_vertical_5.png": {
+            "flag_name": "Myrromantic",
+            "part": "whole",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 242,
+                "y": 110,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/romantic_canine/romantic_canine_myrromanticcanine_vertical_5.png",
+            "filename": "assets/img/sprites/romantic_canine/romantic_canine_myrromanticcanine_vertical_5.png"
+        }
+    },
+    "meta": {
+        "size": {
+            "w": 264,
+            "h": 132
+        },
+        "image": "romantic_canine.png",
+        "format": "RGBA8888",
+        "scale": 1
+    }
+}

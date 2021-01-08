@@ -1,0 +1,5233 @@
+{
+    "frames": {
+        "assets/img/sprites/sexual_canine/sexual_canine_asexualcanine_horizontal_0.png": {
+            "flag_name": "Asexual",
+            "part": "center",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_0",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_asexualcanine_horizontal_0.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_asexualcanine_horizontal_0.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_asexualcanine_horizontal_1.png": {
+            "flag_name": "Asexual",
+            "part": "left_part_1",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_1",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 22,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_asexualcanine_horizontal_1.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_asexualcanine_horizontal_1.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_asexualcanine_horizontal_2.png": {
+            "flag_name": "Asexual",
+            "part": "left_part_2",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_2",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 44,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_asexualcanine_horizontal_2.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_asexualcanine_horizontal_2.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_asexualcanine_horizontal_3.png": {
+            "flag_name": "Asexual",
+            "part": "right_part_1",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_3",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 66,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_asexualcanine_horizontal_3.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_asexualcanine_horizontal_3.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_asexualcanine_horizontal_4.png": {
+            "flag_name": "Asexual",
+            "part": "right_part_2",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_4",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 88,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_asexualcanine_horizontal_4.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_asexualcanine_horizontal_4.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_asexualcanine_horizontal_5.png": {
+            "flag_name": "Asexual",
+            "part": "whole",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 110,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_asexualcanine_horizontal_5.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_asexualcanine_horizontal_5.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_asexualcanine_vertical_0.png": {
+            "flag_name": "Asexual",
+            "part": "center",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_0",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 132,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_asexualcanine_vertical_0.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_asexualcanine_vertical_0.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_asexualcanine_vertical_1.png": {
+            "flag_name": "Asexual",
+            "part": "left_part_1",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_1",
+            "flags_fits": true,
+            "flags_fits_perfect": true,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 154,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_asexualcanine_vertical_1.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_asexualcanine_vertical_1.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_asexualcanine_vertical_2.png": {
+            "flag_name": "Asexual",
+            "part": "left_part_2",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_2",
+            "flags_fits": true,
+            "flags_fits_perfect": true,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 176,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_asexualcanine_vertical_2.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_asexualcanine_vertical_2.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_asexualcanine_vertical_3.png": {
+            "flag_name": "Asexual",
+            "part": "right_part_1",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_3",
+            "flags_fits": true,
+            "flags_fits_perfect": true,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 198,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_asexualcanine_vertical_3.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_asexualcanine_vertical_3.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_asexualcanine_vertical_4.png": {
+            "flag_name": "Asexual",
+            "part": "right_part_2",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_4",
+            "flags_fits": true,
+            "flags_fits_perfect": true,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 220,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_asexualcanine_vertical_4.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_asexualcanine_vertical_4.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_asexualcanine_vertical_5.png": {
+            "flag_name": "Asexual",
+            "part": "whole",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 242,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_asexualcanine_vertical_5.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_asexualcanine_vertical_5.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_asexual_spectrumcanine_horizontal_0.png": {
+            "flag_name": "Asexual Spectrum",
+            "part": "center",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_0",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 0,
+                "y": 22,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_asexual_spectrumcanine_horizontal_0.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_asexual_spectrumcanine_horizontal_0.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_asexual_spectrumcanine_horizontal_1.png": {
+            "flag_name": "Asexual Spectrum",
+            "part": "left_part_1",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_1",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 22,
+                "y": 22,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_asexual_spectrumcanine_horizontal_1.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_asexual_spectrumcanine_horizontal_1.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_asexual_spectrumcanine_horizontal_2.png": {
+            "flag_name": "Asexual Spectrum",
+            "part": "left_part_2",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_2",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 44,
+                "y": 22,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_asexual_spectrumcanine_horizontal_2.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_asexual_spectrumcanine_horizontal_2.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_asexual_spectrumcanine_horizontal_3.png": {
+            "flag_name": "Asexual Spectrum",
+            "part": "right_part_1",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_3",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 66,
+                "y": 22,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_asexual_spectrumcanine_horizontal_3.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_asexual_spectrumcanine_horizontal_3.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_asexual_spectrumcanine_horizontal_4.png": {
+            "flag_name": "Asexual Spectrum",
+            "part": "right_part_2",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_4",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 88,
+                "y": 22,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_asexual_spectrumcanine_horizontal_4.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_asexual_spectrumcanine_horizontal_4.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_asexual_spectrumcanine_horizontal_5.png": {
+            "flag_name": "Asexual Spectrum",
+            "part": "whole",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 110,
+                "y": 22,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_asexual_spectrumcanine_horizontal_5.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_asexual_spectrumcanine_horizontal_5.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_asexual_spectrumcanine_vertical_0.png": {
+            "flag_name": "Asexual Spectrum",
+            "part": "center",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_0",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 132,
+                "y": 22,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_asexual_spectrumcanine_vertical_0.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_asexual_spectrumcanine_vertical_0.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_asexual_spectrumcanine_vertical_1.png": {
+            "flag_name": "Asexual Spectrum",
+            "part": "left_part_1",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_1",
+            "flags_fits": true,
+            "flags_fits_perfect": true,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 154,
+                "y": 22,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_asexual_spectrumcanine_vertical_1.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_asexual_spectrumcanine_vertical_1.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_asexual_spectrumcanine_vertical_2.png": {
+            "flag_name": "Asexual Spectrum",
+            "part": "left_part_2",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_2",
+            "flags_fits": true,
+            "flags_fits_perfect": true,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 176,
+                "y": 22,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_asexual_spectrumcanine_vertical_2.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_asexual_spectrumcanine_vertical_2.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_asexual_spectrumcanine_vertical_3.png": {
+            "flag_name": "Asexual Spectrum",
+            "part": "right_part_1",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_3",
+            "flags_fits": true,
+            "flags_fits_perfect": true,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 198,
+                "y": 22,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_asexual_spectrumcanine_vertical_3.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_asexual_spectrumcanine_vertical_3.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_asexual_spectrumcanine_vertical_4.png": {
+            "flag_name": "Asexual Spectrum",
+            "part": "right_part_2",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_4",
+            "flags_fits": true,
+            "flags_fits_perfect": true,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 220,
+                "y": 22,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_asexual_spectrumcanine_vertical_4.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_asexual_spectrumcanine_vertical_4.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_asexual_spectrumcanine_vertical_5.png": {
+            "flag_name": "Asexual Spectrum",
+            "part": "whole",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 242,
+                "y": 22,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_asexual_spectrumcanine_vertical_5.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_asexual_spectrumcanine_vertical_5.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_bisexualcanine_horizontal_0.png": {
+            "flag_name": "Bisexual",
+            "part": "center",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_0",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 0,
+                "y": 44,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_bisexualcanine_horizontal_0.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_bisexualcanine_horizontal_0.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_bisexualcanine_horizontal_1.png": {
+            "flag_name": "Bisexual",
+            "part": "left_part_1",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_1",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 22,
+                "y": 44,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_bisexualcanine_horizontal_1.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_bisexualcanine_horizontal_1.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_bisexualcanine_horizontal_2.png": {
+            "flag_name": "Bisexual",
+            "part": "left_part_2",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_2",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 44,
+                "y": 44,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_bisexualcanine_horizontal_2.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_bisexualcanine_horizontal_2.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_bisexualcanine_horizontal_3.png": {
+            "flag_name": "Bisexual",
+            "part": "right_part_1",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_3",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 66,
+                "y": 44,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_bisexualcanine_horizontal_3.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_bisexualcanine_horizontal_3.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_bisexualcanine_horizontal_4.png": {
+            "flag_name": "Bisexual",
+            "part": "right_part_2",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_4",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 88,
+                "y": 44,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_bisexualcanine_horizontal_4.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_bisexualcanine_horizontal_4.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_bisexualcanine_horizontal_5.png": {
+            "flag_name": "Bisexual",
+            "part": "whole",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 110,
+                "y": 44,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_bisexualcanine_horizontal_5.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_bisexualcanine_horizontal_5.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_bisexualcanine_vertical_0.png": {
+            "flag_name": "Bisexual",
+            "part": "center",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_0",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 132,
+                "y": 44,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_bisexualcanine_vertical_0.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_bisexualcanine_vertical_0.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_bisexualcanine_vertical_1.png": {
+            "flag_name": "Bisexual",
+            "part": "left_part_1",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_1",
+            "flags_fits": true,
+            "flags_fits_perfect": true,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 154,
+                "y": 44,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_bisexualcanine_vertical_1.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_bisexualcanine_vertical_1.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_bisexualcanine_vertical_2.png": {
+            "flag_name": "Bisexual",
+            "part": "left_part_2",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_2",
+            "flags_fits": true,
+            "flags_fits_perfect": true,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 176,
+                "y": 44,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_bisexualcanine_vertical_2.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_bisexualcanine_vertical_2.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_bisexualcanine_vertical_3.png": {
+            "flag_name": "Bisexual",
+            "part": "right_part_1",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_3",
+            "flags_fits": true,
+            "flags_fits_perfect": true,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 198,
+                "y": 44,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_bisexualcanine_vertical_3.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_bisexualcanine_vertical_3.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_bisexualcanine_vertical_4.png": {
+            "flag_name": "Bisexual",
+            "part": "right_part_2",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_4",
+            "flags_fits": true,
+            "flags_fits_perfect": true,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 220,
+                "y": 44,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_bisexualcanine_vertical_4.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_bisexualcanine_vertical_4.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_bisexualcanine_vertical_5.png": {
+            "flag_name": "Bisexual",
+            "part": "whole",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 242,
+                "y": 44,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_bisexualcanine_vertical_5.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_bisexualcanine_vertical_5.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_pansexualcanine_horizontal_0.png": {
+            "flag_name": "Pansexual",
+            "part": "center",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_0",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 0,
+                "y": 66,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_pansexualcanine_horizontal_0.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_pansexualcanine_horizontal_0.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_pansexualcanine_horizontal_1.png": {
+            "flag_name": "Pansexual",
+            "part": "left_part_1",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_1",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 22,
+                "y": 66,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_pansexualcanine_horizontal_1.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_pansexualcanine_horizontal_1.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_pansexualcanine_horizontal_2.png": {
+            "flag_name": "Pansexual",
+            "part": "left_part_2",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_2",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 44,
+                "y": 66,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_pansexualcanine_horizontal_2.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_pansexualcanine_horizontal_2.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_pansexualcanine_horizontal_3.png": {
+            "flag_name": "Pansexual",
+            "part": "right_part_1",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_3",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 66,
+                "y": 66,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_pansexualcanine_horizontal_3.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_pansexualcanine_horizontal_3.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_pansexualcanine_horizontal_4.png": {
+            "flag_name": "Pansexual",
+            "part": "right_part_2",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_4",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 88,
+                "y": 66,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_pansexualcanine_horizontal_4.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_pansexualcanine_horizontal_4.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_pansexualcanine_horizontal_5.png": {
+            "flag_name": "Pansexual",
+            "part": "whole",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 110,
+                "y": 66,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_pansexualcanine_horizontal_5.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_pansexualcanine_horizontal_5.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_pansexualcanine_vertical_0.png": {
+            "flag_name": "Pansexual",
+            "part": "center",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_0",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 132,
+                "y": 66,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_pansexualcanine_vertical_0.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_pansexualcanine_vertical_0.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_pansexualcanine_vertical_1.png": {
+            "flag_name": "Pansexual",
+            "part": "left_part_1",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_1",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 154,
+                "y": 66,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_pansexualcanine_vertical_1.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_pansexualcanine_vertical_1.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_pansexualcanine_vertical_2.png": {
+            "flag_name": "Pansexual",
+            "part": "left_part_2",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_2",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 176,
+                "y": 66,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_pansexualcanine_vertical_2.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_pansexualcanine_vertical_2.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_pansexualcanine_vertical_3.png": {
+            "flag_name": "Pansexual",
+            "part": "right_part_1",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_3",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 198,
+                "y": 66,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_pansexualcanine_vertical_3.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_pansexualcanine_vertical_3.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_pansexualcanine_vertical_4.png": {
+            "flag_name": "Pansexual",
+            "part": "right_part_2",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_4",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 220,
+                "y": 66,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_pansexualcanine_vertical_4.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_pansexualcanine_vertical_4.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_pansexualcanine_vertical_5.png": {
+            "flag_name": "Pansexual",
+            "part": "whole",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 242,
+                "y": 66,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_pansexualcanine_vertical_5.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_pansexualcanine_vertical_5.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_lesbiancanine_horizontal_0.png": {
+            "flag_name": "Lesbian",
+            "part": "center",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_0",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 0,
+                "y": 88,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_lesbiancanine_horizontal_0.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_lesbiancanine_horizontal_0.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_lesbiancanine_horizontal_1.png": {
+            "flag_name": "Lesbian",
+            "part": "left_part_1",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_1",
+            "flags_fits": true,
+            "flags_fits_perfect": true,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 22,
+                "y": 88,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_lesbiancanine_horizontal_1.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_lesbiancanine_horizontal_1.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_lesbiancanine_horizontal_2.png": {
+            "flag_name": "Lesbian",
+            "part": "left_part_2",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_2",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 44,
+                "y": 88,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_lesbiancanine_horizontal_2.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_lesbiancanine_horizontal_2.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_lesbiancanine_horizontal_3.png": {
+            "flag_name": "Lesbian",
+            "part": "right_part_1",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_3",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 66,
+                "y": 88,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_lesbiancanine_horizontal_3.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_lesbiancanine_horizontal_3.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_lesbiancanine_horizontal_4.png": {
+            "flag_name": "Lesbian",
+            "part": "right_part_2",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_4",
+            "flags_fits": true,
+            "flags_fits_perfect": true,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 88,
+                "y": 88,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_lesbiancanine_horizontal_4.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_lesbiancanine_horizontal_4.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_lesbiancanine_horizontal_5.png": {
+            "flag_name": "Lesbian",
+            "part": "whole",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 110,
+                "y": 88,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_lesbiancanine_horizontal_5.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_lesbiancanine_horizontal_5.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_lesbiancanine_vertical_0.png": {
+            "flag_name": "Lesbian",
+            "part": "center",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_0",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 132,
+                "y": 88,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_lesbiancanine_vertical_0.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_lesbiancanine_vertical_0.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_lesbiancanine_vertical_1.png": {
+            "flag_name": "Lesbian",
+            "part": "left_part_1",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_1",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 154,
+                "y": 88,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_lesbiancanine_vertical_1.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_lesbiancanine_vertical_1.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_lesbiancanine_vertical_2.png": {
+            "flag_name": "Lesbian",
+            "part": "left_part_2",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_2",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 176,
+                "y": 88,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_lesbiancanine_vertical_2.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_lesbiancanine_vertical_2.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_lesbiancanine_vertical_3.png": {
+            "flag_name": "Lesbian",
+            "part": "right_part_1",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_3",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 198,
+                "y": 88,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_lesbiancanine_vertical_3.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_lesbiancanine_vertical_3.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_lesbiancanine_vertical_4.png": {
+            "flag_name": "Lesbian",
+            "part": "right_part_2",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_4",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 220,
+                "y": 88,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_lesbiancanine_vertical_4.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_lesbiancanine_vertical_4.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_lesbiancanine_vertical_5.png": {
+            "flag_name": "Lesbian",
+            "part": "whole",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 242,
+                "y": 88,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_lesbiancanine_vertical_5.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_lesbiancanine_vertical_5.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_gay_mencanine_horizontal_0.png": {
+            "flag_name": "Gay Men",
+            "part": "center",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_0",
+            "flags_fits": true,
+            "flags_fits_perfect": true,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 0,
+                "y": 110,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_gay_mencanine_horizontal_0.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_gay_mencanine_horizontal_0.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_gay_mencanine_horizontal_1.png": {
+            "flag_name": "Gay Men",
+            "part": "left_part_1",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_1",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 22,
+                "y": 110,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_gay_mencanine_horizontal_1.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_gay_mencanine_horizontal_1.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_gay_mencanine_horizontal_2.png": {
+            "flag_name": "Gay Men",
+            "part": "left_part_2",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_2",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 44,
+                "y": 110,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_gay_mencanine_horizontal_2.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_gay_mencanine_horizontal_2.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_gay_mencanine_horizontal_3.png": {
+            "flag_name": "Gay Men",
+            "part": "right_part_1",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_3",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 66,
+                "y": 110,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_gay_mencanine_horizontal_3.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_gay_mencanine_horizontal_3.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_gay_mencanine_horizontal_4.png": {
+            "flag_name": "Gay Men",
+            "part": "right_part_2",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_4",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 88,
+                "y": 110,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_gay_mencanine_horizontal_4.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_gay_mencanine_horizontal_4.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_gay_mencanine_horizontal_5.png": {
+            "flag_name": "Gay Men",
+            "part": "whole",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 110,
+                "y": 110,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_gay_mencanine_horizontal_5.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_gay_mencanine_horizontal_5.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_gay_mencanine_vertical_0.png": {
+            "flag_name": "Gay Men",
+            "part": "center",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_0",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 132,
+                "y": 110,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_gay_mencanine_vertical_0.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_gay_mencanine_vertical_0.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_gay_mencanine_vertical_1.png": {
+            "flag_name": "Gay Men",
+            "part": "left_part_1",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_1",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 154,
+                "y": 110,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_gay_mencanine_vertical_1.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_gay_mencanine_vertical_1.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_gay_mencanine_vertical_2.png": {
+            "flag_name": "Gay Men",
+            "part": "left_part_2",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_2",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 176,
+                "y": 110,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_gay_mencanine_vertical_2.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_gay_mencanine_vertical_2.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_gay_mencanine_vertical_3.png": {
+            "flag_name": "Gay Men",
+            "part": "right_part_1",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_3",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 198,
+                "y": 110,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_gay_mencanine_vertical_3.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_gay_mencanine_vertical_3.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_gay_mencanine_vertical_4.png": {
+            "flag_name": "Gay Men",
+            "part": "right_part_2",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_4",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 220,
+                "y": 110,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_gay_mencanine_vertical_4.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_gay_mencanine_vertical_4.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_gay_mencanine_vertical_5.png": {
+            "flag_name": "Gay Men",
+            "part": "whole",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 242,
+                "y": 110,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_gay_mencanine_vertical_5.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_gay_mencanine_vertical_5.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_demisexualcanine_horizontal_0.png": {
+            "flag_name": "Demisexual",
+            "part": "center",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_0",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 0,
+                "y": 132,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_demisexualcanine_horizontal_0.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_demisexualcanine_horizontal_0.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_demisexualcanine_horizontal_1.png": {
+            "flag_name": "Demisexual",
+            "part": "left_part_1",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_1",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 22,
+                "y": 132,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_demisexualcanine_horizontal_1.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_demisexualcanine_horizontal_1.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_demisexualcanine_horizontal_2.png": {
+            "flag_name": "Demisexual",
+            "part": "left_part_2",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_2",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 44,
+                "y": 132,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_demisexualcanine_horizontal_2.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_demisexualcanine_horizontal_2.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_demisexualcanine_horizontal_3.png": {
+            "flag_name": "Demisexual",
+            "part": "right_part_1",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_3",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 66,
+                "y": 132,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_demisexualcanine_horizontal_3.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_demisexualcanine_horizontal_3.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_demisexualcanine_horizontal_4.png": {
+            "flag_name": "Demisexual",
+            "part": "right_part_2",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_4",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 88,
+                "y": 132,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_demisexualcanine_horizontal_4.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_demisexualcanine_horizontal_4.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_demisexualcanine_horizontal_5.png": {
+            "flag_name": "Demisexual",
+            "part": "whole",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_5",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 110,
+                "y": 132,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_demisexualcanine_horizontal_5.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_demisexualcanine_horizontal_5.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_demisexualcanine_vertical_0.png": {
+            "flag_name": "Demisexual",
+            "part": "center",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_0",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 132,
+                "y": 132,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_demisexualcanine_vertical_0.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_demisexualcanine_vertical_0.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_demisexualcanine_vertical_1.png": {
+            "flag_name": "Demisexual",
+            "part": "left_part_1",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_1",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 154,
+                "y": 132,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_demisexualcanine_vertical_1.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_demisexualcanine_vertical_1.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_demisexualcanine_vertical_2.png": {
+            "flag_name": "Demisexual",
+            "part": "left_part_2",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_2",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 176,
+                "y": 132,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_demisexualcanine_vertical_2.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_demisexualcanine_vertical_2.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_demisexualcanine_vertical_3.png": {
+            "flag_name": "Demisexual",
+            "part": "right_part_1",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_3",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 198,
+                "y": 132,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_demisexualcanine_vertical_3.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_demisexualcanine_vertical_3.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_demisexualcanine_vertical_4.png": {
+            "flag_name": "Demisexual",
+            "part": "right_part_2",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_4",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 220,
+                "y": 132,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_demisexualcanine_vertical_4.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_demisexualcanine_vertical_4.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_demisexualcanine_vertical_5.png": {
+            "flag_name": "Demisexual",
+            "part": "whole",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 242,
+                "y": 132,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_demisexualcanine_vertical_5.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_demisexualcanine_vertical_5.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_polysexualcanine_horizontal_0.png": {
+            "flag_name": "Polysexual",
+            "part": "center",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_0",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 0,
+                "y": 154,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_polysexualcanine_horizontal_0.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_polysexualcanine_horizontal_0.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_polysexualcanine_horizontal_1.png": {
+            "flag_name": "Polysexual",
+            "part": "left_part_1",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_1",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 22,
+                "y": 154,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_polysexualcanine_horizontal_1.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_polysexualcanine_horizontal_1.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_polysexualcanine_horizontal_2.png": {
+            "flag_name": "Polysexual",
+            "part": "left_part_2",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_2",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 44,
+                "y": 154,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_polysexualcanine_horizontal_2.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_polysexualcanine_horizontal_2.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_polysexualcanine_horizontal_3.png": {
+            "flag_name": "Polysexual",
+            "part": "right_part_1",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_3",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 66,
+                "y": 154,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_polysexualcanine_horizontal_3.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_polysexualcanine_horizontal_3.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_polysexualcanine_horizontal_4.png": {
+            "flag_name": "Polysexual",
+            "part": "right_part_2",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_4",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 88,
+                "y": 154,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_polysexualcanine_horizontal_4.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_polysexualcanine_horizontal_4.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_polysexualcanine_horizontal_5.png": {
+            "flag_name": "Polysexual",
+            "part": "whole",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 110,
+                "y": 154,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_polysexualcanine_horizontal_5.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_polysexualcanine_horizontal_5.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_polysexualcanine_vertical_0.png": {
+            "flag_name": "Polysexual",
+            "part": "center",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_0",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 132,
+                "y": 154,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_polysexualcanine_vertical_0.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_polysexualcanine_vertical_0.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_polysexualcanine_vertical_1.png": {
+            "flag_name": "Polysexual",
+            "part": "left_part_1",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_1",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 154,
+                "y": 154,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_polysexualcanine_vertical_1.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_polysexualcanine_vertical_1.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_polysexualcanine_vertical_2.png": {
+            "flag_name": "Polysexual",
+            "part": "left_part_2",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_2",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 176,
+                "y": 154,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_polysexualcanine_vertical_2.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_polysexualcanine_vertical_2.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_polysexualcanine_vertical_3.png": {
+            "flag_name": "Polysexual",
+            "part": "right_part_1",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_3",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 198,
+                "y": 154,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_polysexualcanine_vertical_3.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_polysexualcanine_vertical_3.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_polysexualcanine_vertical_4.png": {
+            "flag_name": "Polysexual",
+            "part": "right_part_2",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_4",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 220,
+                "y": 154,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_polysexualcanine_vertical_4.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_polysexualcanine_vertical_4.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_polysexualcanine_vertical_5.png": {
+            "flag_name": "Polysexual",
+            "part": "whole",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 242,
+                "y": 154,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_polysexualcanine_vertical_5.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_polysexualcanine_vertical_5.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_greysexualcanine_horizontal_0.png": {
+            "flag_name": "Greysexual",
+            "part": "center",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_0",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 0,
+                "y": 176,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_greysexualcanine_horizontal_0.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_greysexualcanine_horizontal_0.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_greysexualcanine_horizontal_1.png": {
+            "flag_name": "Greysexual",
+            "part": "left_part_1",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_1",
+            "flags_fits": true,
+            "flags_fits_perfect": true,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 22,
+                "y": 176,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_greysexualcanine_horizontal_1.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_greysexualcanine_horizontal_1.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_greysexualcanine_horizontal_2.png": {
+            "flag_name": "Greysexual",
+            "part": "left_part_2",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_2",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 44,
+                "y": 176,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_greysexualcanine_horizontal_2.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_greysexualcanine_horizontal_2.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_greysexualcanine_horizontal_3.png": {
+            "flag_name": "Greysexual",
+            "part": "right_part_1",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_3",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 66,
+                "y": 176,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_greysexualcanine_horizontal_3.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_greysexualcanine_horizontal_3.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_greysexualcanine_horizontal_4.png": {
+            "flag_name": "Greysexual",
+            "part": "right_part_2",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_4",
+            "flags_fits": true,
+            "flags_fits_perfect": true,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 88,
+                "y": 176,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_greysexualcanine_horizontal_4.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_greysexualcanine_horizontal_4.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_greysexualcanine_horizontal_5.png": {
+            "flag_name": "Greysexual",
+            "part": "whole",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 110,
+                "y": 176,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_greysexualcanine_horizontal_5.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_greysexualcanine_horizontal_5.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_greysexualcanine_vertical_0.png": {
+            "flag_name": "Greysexual",
+            "part": "center",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_0",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 132,
+                "y": 176,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_greysexualcanine_vertical_0.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_greysexualcanine_vertical_0.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_greysexualcanine_vertical_1.png": {
+            "flag_name": "Greysexual",
+            "part": "left_part_1",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_1",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 154,
+                "y": 176,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_greysexualcanine_vertical_1.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_greysexualcanine_vertical_1.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_greysexualcanine_vertical_2.png": {
+            "flag_name": "Greysexual",
+            "part": "left_part_2",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_2",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 176,
+                "y": 176,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_greysexualcanine_vertical_2.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_greysexualcanine_vertical_2.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_greysexualcanine_vertical_3.png": {
+            "flag_name": "Greysexual",
+            "part": "right_part_1",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_3",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 198,
+                "y": 176,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_greysexualcanine_vertical_3.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_greysexualcanine_vertical_3.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_greysexualcanine_vertical_4.png": {
+            "flag_name": "Greysexual",
+            "part": "right_part_2",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_4",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 220,
+                "y": 176,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_greysexualcanine_vertical_4.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_greysexualcanine_vertical_4.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_greysexualcanine_vertical_5.png": {
+            "flag_name": "Greysexual",
+            "part": "whole",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 242,
+                "y": 176,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_greysexualcanine_vertical_5.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_greysexualcanine_vertical_5.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_autosexualcanine_horizontal_0.png": {
+            "flag_name": "Autosexual",
+            "part": "center",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_0",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 0,
+                "y": 198,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_autosexualcanine_horizontal_0.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_autosexualcanine_horizontal_0.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_autosexualcanine_horizontal_1.png": {
+            "flag_name": "Autosexual",
+            "part": "left_part_1",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_1",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 22,
+                "y": 198,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_autosexualcanine_horizontal_1.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_autosexualcanine_horizontal_1.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_autosexualcanine_horizontal_2.png": {
+            "flag_name": "Autosexual",
+            "part": "left_part_2",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_2",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 44,
+                "y": 198,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_autosexualcanine_horizontal_2.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_autosexualcanine_horizontal_2.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_autosexualcanine_horizontal_3.png": {
+            "flag_name": "Autosexual",
+            "part": "right_part_1",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_3",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 66,
+                "y": 198,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_autosexualcanine_horizontal_3.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_autosexualcanine_horizontal_3.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_autosexualcanine_horizontal_4.png": {
+            "flag_name": "Autosexual",
+            "part": "right_part_2",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_4",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 88,
+                "y": 198,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_autosexualcanine_horizontal_4.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_autosexualcanine_horizontal_4.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_autosexualcanine_horizontal_5.png": {
+            "flag_name": "Autosexual",
+            "part": "whole",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 110,
+                "y": 198,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_autosexualcanine_horizontal_5.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_autosexualcanine_horizontal_5.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_autosexualcanine_vertical_0.png": {
+            "flag_name": "Autosexual",
+            "part": "center",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_0",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 132,
+                "y": 198,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_autosexualcanine_vertical_0.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_autosexualcanine_vertical_0.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_autosexualcanine_vertical_1.png": {
+            "flag_name": "Autosexual",
+            "part": "left_part_1",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_1",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 154,
+                "y": 198,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_autosexualcanine_vertical_1.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_autosexualcanine_vertical_1.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_autosexualcanine_vertical_2.png": {
+            "flag_name": "Autosexual",
+            "part": "left_part_2",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_2",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 176,
+                "y": 198,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_autosexualcanine_vertical_2.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_autosexualcanine_vertical_2.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_autosexualcanine_vertical_3.png": {
+            "flag_name": "Autosexual",
+            "part": "right_part_1",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_3",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 198,
+                "y": 198,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_autosexualcanine_vertical_3.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_autosexualcanine_vertical_3.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_autosexualcanine_vertical_4.png": {
+            "flag_name": "Autosexual",
+            "part": "right_part_2",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_4",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 220,
+                "y": 198,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_autosexualcanine_vertical_4.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_autosexualcanine_vertical_4.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_autosexualcanine_vertical_5.png": {
+            "flag_name": "Autosexual",
+            "part": "whole",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 242,
+                "y": 198,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_autosexualcanine_vertical_5.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_autosexualcanine_vertical_5.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_androsexualcanine_horizontal_0.png": {
+            "flag_name": "Androsexual",
+            "part": "center",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_0",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 0,
+                "y": 220,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_androsexualcanine_horizontal_0.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_androsexualcanine_horizontal_0.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_androsexualcanine_horizontal_1.png": {
+            "flag_name": "Androsexual",
+            "part": "left_part_1",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_1",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 22,
+                "y": 220,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_androsexualcanine_horizontal_1.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_androsexualcanine_horizontal_1.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_androsexualcanine_horizontal_2.png": {
+            "flag_name": "Androsexual",
+            "part": "left_part_2",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_2",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 44,
+                "y": 220,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_androsexualcanine_horizontal_2.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_androsexualcanine_horizontal_2.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_androsexualcanine_horizontal_3.png": {
+            "flag_name": "Androsexual",
+            "part": "right_part_1",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_3",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 66,
+                "y": 220,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_androsexualcanine_horizontal_3.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_androsexualcanine_horizontal_3.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_androsexualcanine_horizontal_4.png": {
+            "flag_name": "Androsexual",
+            "part": "right_part_2",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_4",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 88,
+                "y": 220,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_androsexualcanine_horizontal_4.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_androsexualcanine_horizontal_4.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_androsexualcanine_horizontal_5.png": {
+            "flag_name": "Androsexual",
+            "part": "whole",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 110,
+                "y": 220,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_androsexualcanine_horizontal_5.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_androsexualcanine_horizontal_5.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_androsexualcanine_vertical_0.png": {
+            "flag_name": "Androsexual",
+            "part": "center",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_0",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 132,
+                "y": 220,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_androsexualcanine_vertical_0.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_androsexualcanine_vertical_0.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_androsexualcanine_vertical_1.png": {
+            "flag_name": "Androsexual",
+            "part": "left_part_1",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_1",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 154,
+                "y": 220,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_androsexualcanine_vertical_1.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_androsexualcanine_vertical_1.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_androsexualcanine_vertical_2.png": {
+            "flag_name": "Androsexual",
+            "part": "left_part_2",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_2",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 176,
+                "y": 220,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_androsexualcanine_vertical_2.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_androsexualcanine_vertical_2.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_androsexualcanine_vertical_3.png": {
+            "flag_name": "Androsexual",
+            "part": "right_part_1",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_3",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 198,
+                "y": 220,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_androsexualcanine_vertical_3.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_androsexualcanine_vertical_3.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_androsexualcanine_vertical_4.png": {
+            "flag_name": "Androsexual",
+            "part": "right_part_2",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_4",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 220,
+                "y": 220,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_androsexualcanine_vertical_4.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_androsexualcanine_vertical_4.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_androsexualcanine_vertical_5.png": {
+            "flag_name": "Androsexual",
+            "part": "whole",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 242,
+                "y": 220,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_androsexualcanine_vertical_5.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_androsexualcanine_vertical_5.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_myrsexualcanine_horizontal_0.png": {
+            "flag_name": "Myrsexual",
+            "part": "center",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_0",
+            "flags_fits": true,
+            "flags_fits_perfect": true,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 0,
+                "y": 242,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_myrsexualcanine_horizontal_0.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_myrsexualcanine_horizontal_0.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_myrsexualcanine_horizontal_1.png": {
+            "flag_name": "Myrsexual",
+            "part": "left_part_1",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_1",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 22,
+                "y": 242,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_myrsexualcanine_horizontal_1.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_myrsexualcanine_horizontal_1.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_myrsexualcanine_horizontal_2.png": {
+            "flag_name": "Myrsexual",
+            "part": "left_part_2",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_2",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 44,
+                "y": 242,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_myrsexualcanine_horizontal_2.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_myrsexualcanine_horizontal_2.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_myrsexualcanine_horizontal_3.png": {
+            "flag_name": "Myrsexual",
+            "part": "right_part_1",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_3",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 66,
+                "y": 242,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_myrsexualcanine_horizontal_3.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_myrsexualcanine_horizontal_3.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_myrsexualcanine_horizontal_4.png": {
+            "flag_name": "Myrsexual",
+            "part": "right_part_2",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_4",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 88,
+                "y": 242,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_myrsexualcanine_horizontal_4.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_myrsexualcanine_horizontal_4.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_myrsexualcanine_horizontal_5.png": {
+            "flag_name": "Myrsexual",
+            "part": "whole",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 110,
+                "y": 242,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_myrsexualcanine_horizontal_5.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_myrsexualcanine_horizontal_5.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_myrsexualcanine_vertical_0.png": {
+            "flag_name": "Myrsexual",
+            "part": "center",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_0",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 132,
+                "y": 242,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_myrsexualcanine_vertical_0.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_myrsexualcanine_vertical_0.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_myrsexualcanine_vertical_1.png": {
+            "flag_name": "Myrsexual",
+            "part": "left_part_1",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_1",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 154,
+                "y": 242,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_myrsexualcanine_vertical_1.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_myrsexualcanine_vertical_1.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_myrsexualcanine_vertical_2.png": {
+            "flag_name": "Myrsexual",
+            "part": "left_part_2",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_2",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 176,
+                "y": 242,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_myrsexualcanine_vertical_2.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_myrsexualcanine_vertical_2.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_myrsexualcanine_vertical_3.png": {
+            "flag_name": "Myrsexual",
+            "part": "right_part_1",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_3",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 198,
+                "y": 242,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_myrsexualcanine_vertical_3.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_myrsexualcanine_vertical_3.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_myrsexualcanine_vertical_4.png": {
+            "flag_name": "Myrsexual",
+            "part": "right_part_2",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_4",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 220,
+                "y": 242,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_myrsexualcanine_vertical_4.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_myrsexualcanine_vertical_4.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_myrsexualcanine_vertical_5.png": {
+            "flag_name": "Myrsexual",
+            "part": "whole",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 242,
+                "y": 242,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_myrsexualcanine_vertical_5.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_myrsexualcanine_vertical_5.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_omnisexualcanine_horizontal_0.png": {
+            "flag_name": "Omnisexual",
+            "part": "center",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_0",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 0,
+                "y": 264,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_omnisexualcanine_horizontal_0.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_omnisexualcanine_horizontal_0.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_omnisexualcanine_horizontal_1.png": {
+            "flag_name": "Omnisexual",
+            "part": "left_part_1",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_1",
+            "flags_fits": true,
+            "flags_fits_perfect": true,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 22,
+                "y": 264,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_omnisexualcanine_horizontal_1.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_omnisexualcanine_horizontal_1.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_omnisexualcanine_horizontal_2.png": {
+            "flag_name": "Omnisexual",
+            "part": "left_part_2",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_2",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 44,
+                "y": 264,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_omnisexualcanine_horizontal_2.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_omnisexualcanine_horizontal_2.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_omnisexualcanine_horizontal_3.png": {
+            "flag_name": "Omnisexual",
+            "part": "right_part_1",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_3",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 66,
+                "y": 264,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_omnisexualcanine_horizontal_3.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_omnisexualcanine_horizontal_3.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_omnisexualcanine_horizontal_4.png": {
+            "flag_name": "Omnisexual",
+            "part": "right_part_2",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_4",
+            "flags_fits": true,
+            "flags_fits_perfect": true,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 88,
+                "y": 264,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_omnisexualcanine_horizontal_4.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_omnisexualcanine_horizontal_4.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_omnisexualcanine_horizontal_5.png": {
+            "flag_name": "Omnisexual",
+            "part": "whole",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 110,
+                "y": 264,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_omnisexualcanine_horizontal_5.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_omnisexualcanine_horizontal_5.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_omnisexualcanine_vertical_0.png": {
+            "flag_name": "Omnisexual",
+            "part": "center",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_0",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 132,
+                "y": 264,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_omnisexualcanine_vertical_0.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_omnisexualcanine_vertical_0.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_omnisexualcanine_vertical_1.png": {
+            "flag_name": "Omnisexual",
+            "part": "left_part_1",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_1",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 154,
+                "y": 264,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_omnisexualcanine_vertical_1.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_omnisexualcanine_vertical_1.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_omnisexualcanine_vertical_2.png": {
+            "flag_name": "Omnisexual",
+            "part": "left_part_2",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_2",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 176,
+                "y": 264,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_omnisexualcanine_vertical_2.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_omnisexualcanine_vertical_2.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_omnisexualcanine_vertical_3.png": {
+            "flag_name": "Omnisexual",
+            "part": "right_part_1",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_3",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 198,
+                "y": 264,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_omnisexualcanine_vertical_3.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_omnisexualcanine_vertical_3.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_omnisexualcanine_vertical_4.png": {
+            "flag_name": "Omnisexual",
+            "part": "right_part_2",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_4",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 220,
+                "y": 264,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_omnisexualcanine_vertical_4.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_omnisexualcanine_vertical_4.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_omnisexualcanine_vertical_5.png": {
+            "flag_name": "Omnisexual",
+            "part": "whole",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 242,
+                "y": 264,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_omnisexualcanine_vertical_5.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_omnisexualcanine_vertical_5.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_gaycanine_horizontal_0.png": {
+            "flag_name": "Gay",
+            "part": "center",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_0",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 0,
+                "y": 286,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_gaycanine_horizontal_0.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_gaycanine_horizontal_0.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_gaycanine_horizontal_1.png": {
+            "flag_name": "Gay",
+            "part": "left_part_1",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_1",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 22,
+                "y": 286,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_gaycanine_horizontal_1.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_gaycanine_horizontal_1.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_gaycanine_horizontal_2.png": {
+            "flag_name": "Gay",
+            "part": "left_part_2",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_2",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 44,
+                "y": 286,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_gaycanine_horizontal_2.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_gaycanine_horizontal_2.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_gaycanine_horizontal_3.png": {
+            "flag_name": "Gay",
+            "part": "right_part_1",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_3",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 66,
+                "y": 286,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_gaycanine_horizontal_3.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_gaycanine_horizontal_3.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_gaycanine_horizontal_4.png": {
+            "flag_name": "Gay",
+            "part": "right_part_2",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_4",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 88,
+                "y": 286,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_gaycanine_horizontal_4.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_gaycanine_horizontal_4.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_gaycanine_horizontal_5.png": {
+            "flag_name": "Gay",
+            "part": "whole",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 110,
+                "y": 286,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_gaycanine_horizontal_5.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_gaycanine_horizontal_5.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_gaycanine_vertical_0.png": {
+            "flag_name": "Gay",
+            "part": "center",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_0",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 132,
+                "y": 286,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_gaycanine_vertical_0.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_gaycanine_vertical_0.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_gaycanine_vertical_1.png": {
+            "flag_name": "Gay",
+            "part": "left_part_1",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_1",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 154,
+                "y": 286,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_gaycanine_vertical_1.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_gaycanine_vertical_1.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_gaycanine_vertical_2.png": {
+            "flag_name": "Gay",
+            "part": "left_part_2",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_2",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 176,
+                "y": 286,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_gaycanine_vertical_2.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_gaycanine_vertical_2.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_gaycanine_vertical_3.png": {
+            "flag_name": "Gay",
+            "part": "right_part_1",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_3",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 198,
+                "y": 286,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_gaycanine_vertical_3.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_gaycanine_vertical_3.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_gaycanine_vertical_4.png": {
+            "flag_name": "Gay",
+            "part": "right_part_2",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_4",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 220,
+                "y": 286,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_gaycanine_vertical_4.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_gaycanine_vertical_4.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_gaycanine_vertical_5.png": {
+            "flag_name": "Gay",
+            "part": "whole",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 242,
+                "y": 286,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_gaycanine_vertical_5.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_gaycanine_vertical_5.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_proculsexualcanine_horizontal_0.png": {
+            "flag_name": "Proculsexual",
+            "part": "center",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_0",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 0,
+                "y": 308,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_proculsexualcanine_horizontal_0.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_proculsexualcanine_horizontal_0.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_proculsexualcanine_horizontal_1.png": {
+            "flag_name": "Proculsexual",
+            "part": "left_part_1",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_1",
+            "flags_fits": true,
+            "flags_fits_perfect": true,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 22,
+                "y": 308,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_proculsexualcanine_horizontal_1.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_proculsexualcanine_horizontal_1.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_proculsexualcanine_horizontal_2.png": {
+            "flag_name": "Proculsexual",
+            "part": "left_part_2",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_2",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 44,
+                "y": 308,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_proculsexualcanine_horizontal_2.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_proculsexualcanine_horizontal_2.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_proculsexualcanine_horizontal_3.png": {
+            "flag_name": "Proculsexual",
+            "part": "right_part_1",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_3",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 66,
+                "y": 308,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_proculsexualcanine_horizontal_3.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_proculsexualcanine_horizontal_3.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_proculsexualcanine_horizontal_4.png": {
+            "flag_name": "Proculsexual",
+            "part": "right_part_2",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_4",
+            "flags_fits": true,
+            "flags_fits_perfect": true,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 88,
+                "y": 308,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_proculsexualcanine_horizontal_4.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_proculsexualcanine_horizontal_4.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_proculsexualcanine_horizontal_5.png": {
+            "flag_name": "Proculsexual",
+            "part": "whole",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 110,
+                "y": 308,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_proculsexualcanine_horizontal_5.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_proculsexualcanine_horizontal_5.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_proculsexualcanine_vertical_0.png": {
+            "flag_name": "Proculsexual",
+            "part": "center",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_0",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 132,
+                "y": 308,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_proculsexualcanine_vertical_0.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_proculsexualcanine_vertical_0.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_proculsexualcanine_vertical_1.png": {
+            "flag_name": "Proculsexual",
+            "part": "left_part_1",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_1",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 154,
+                "y": 308,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_proculsexualcanine_vertical_1.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_proculsexualcanine_vertical_1.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_proculsexualcanine_vertical_2.png": {
+            "flag_name": "Proculsexual",
+            "part": "left_part_2",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_2",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 176,
+                "y": 308,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_proculsexualcanine_vertical_2.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_proculsexualcanine_vertical_2.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_proculsexualcanine_vertical_3.png": {
+            "flag_name": "Proculsexual",
+            "part": "right_part_1",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_3",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 198,
+                "y": 308,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_proculsexualcanine_vertical_3.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_proculsexualcanine_vertical_3.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_proculsexualcanine_vertical_4.png": {
+            "flag_name": "Proculsexual",
+            "part": "right_part_2",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_4",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 220,
+                "y": 308,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_proculsexualcanine_vertical_4.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_proculsexualcanine_vertical_4.png"
+        },
+        "assets/img/sprites/sexual_canine/sexual_canine_proculsexualcanine_vertical_5.png": {
+            "flag_name": "Proculsexual",
+            "part": "whole",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 242,
+                "y": 308,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_canine/sexual_canine_proculsexualcanine_vertical_5.png",
+            "filename": "assets/img/sprites/sexual_canine/sexual_canine_proculsexualcanine_vertical_5.png"
+        }
+    },
+    "meta": {
+        "size": {
+            "w": 264,
+            "h": 330
+        },
+        "image": "sexual_canine.png",
+        "format": "RGBA8888",
+        "scale": 1
+    }
+}

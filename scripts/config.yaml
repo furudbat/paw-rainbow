@@ -2,7 +2,8 @@ transparent_colors:
   - '#bfa88f'
   - '#ffff00'
 forms:
-  - paw
+  - canine
+  - feline
 categories:
   - 'pride'
   - 'sexual'
@@ -10,8 +11,8 @@ categories:
   - 'relationship'
   - 'romantic'
   - 'sub_culture'
-paw:
-  base_filename: './paw.png'
+canine:
+  base_filename: './canine.png'
   outline: '#000000'
   extra_outline: '#1a1a1a'
   outlines:
@@ -23,6 +24,8 @@ paw:
     - 'left_part_2'
     - 'right_part_1'
     - 'right_part_2'
+  craws:
+    - '#ffff00'
   left_part_1:
     horizontal:
       - '#bc7c7c'
@@ -99,8 +102,8 @@ paw:
         - '#5c285c'
     triangle:
       vertical:
-        - [ '#8c8c8c', '#424242' ]
         - [ '#858585' ]
+        - [ '#8c8c8c', '#424242' ]
     circle:
       horizontal:
         - '#626262'
@@ -108,8 +111,93 @@ paw:
       vertical:
         - '#626262'
         - '#424242'
-  craws:
-    - '#ffff00'
+feline:
+  base_filename: './feline.png'
+  outline: '#000000'
+  extra_outline: '#1a1a1a'
+  outlines:
+    - '#000000'
+    - '#1a1a1a'
+  parts:
+    - 'center'
+    - 'left_part_1'
+    - 'left_part_2'
+    - 'right_part_1'
+    - 'right_part_2'
+  left_part_1:
+    horizontal:
+      - '#894949'
+      - '#b93939'
+    vertical:
+      - '#894949'
+      - '#ac2c2c'
+    circle:
+      horizontal:
+        - '#939393'
+      vertical:
+        - '#939393'
+  left_part_2:
+    horizontal:
+      - '#498949'
+      - '#39b939'
+      - '#498949'
+      - '#39b939'
+    vertical:
+      - '#498949'
+      - '#2cac2c'
+    circle:
+      horizontal:
+        - '#939393'
+      vertical:
+        - '#939393'
+  right_part_1:
+    horizontal:
+      - '#498989'
+      - '#39b9b9'
+    vertical:
+      - '#498989'
+      - '#2cacac'
+    circle:
+      horizontal:
+        - '#939393'
+      vertical:
+        - '#939393'
+  right_part_2:
+    horizontal:
+      - '#494989'
+      - '#3939b9'
+      - '#494989'
+      - '#3939b9'
+    vertical:
+      - '#494989'
+      - '#2c2cac'
+    circle:
+      horizontal:
+        - '#939393'
+      vertical:
+        - '#939393'
+  center:
+    horizontal:
+      - '#894989'
+      - '#b939b9'
+    vertical:
+      - '#894989'
+      - '#ac2cac'
+      - '#763676'
+    line:
+      vertical:
+        - '#763676'
+    triangle:
+      vertical:
+        - [ '#4d4d4d', '#737373' ]
+        - [ '#595959' ]
+    circle:
+      horizontal:
+        - '#939393'
+        - '#4d4d4d'
+      vertical:
+        - '#939393'
+        - '#4d4d4d'
 
 
 

@@ -1,0 +1,373 @@
+{
+    "frames": {
+        "assets/img/sprites/craws_feline/craws_feline_mask_horizontal_0_craws.png": {
+            "flag_name": "Mask",
+            "part": "center",
+            "orientation": "horizontal",
+            "craws_key": "_horizontal_0_craws",
+            "mask_key": "_horizontal_0_craws",
+            "craws": true,
+            "mask": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/craws_feline/craws_feline_mask_horizontal_0_craws.png",
+            "filename": "assets/img/sprites/craws_feline/craws_feline_mask_horizontal_0_craws.png",
+            "mask_filename": "assets/img/sprites/craws_feline/craws_feline_mask_horizontal_0_craws.png"
+        },
+        "assets/img/sprites/craws_feline/craws_feline_mask_horizontal_1_craws.png": {
+            "flag_name": "Mask",
+            "part": "left_part_1",
+            "orientation": "horizontal",
+            "craws_key": "_horizontal_1_craws",
+            "mask_key": "_horizontal_1_craws",
+            "craws": true,
+            "mask": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 25,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/craws_feline/craws_feline_mask_horizontal_1_craws.png",
+            "filename": "assets/img/sprites/craws_feline/craws_feline_mask_horizontal_1_craws.png",
+            "mask_filename": "assets/img/sprites/craws_feline/craws_feline_mask_horizontal_1_craws.png"
+        },
+        "assets/img/sprites/craws_feline/craws_feline_mask_horizontal_2_craws.png": {
+            "flag_name": "Mask",
+            "part": "left_part_2",
+            "orientation": "horizontal",
+            "craws_key": "_horizontal_2_craws",
+            "mask_key": "_horizontal_2_craws",
+            "craws": true,
+            "mask": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 50,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/craws_feline/craws_feline_mask_horizontal_2_craws.png",
+            "filename": "assets/img/sprites/craws_feline/craws_feline_mask_horizontal_2_craws.png",
+            "mask_filename": "assets/img/sprites/craws_feline/craws_feline_mask_horizontal_2_craws.png"
+        },
+        "assets/img/sprites/craws_feline/craws_feline_mask_horizontal_3_craws.png": {
+            "flag_name": "Mask",
+            "part": "right_part_1",
+            "orientation": "horizontal",
+            "craws_key": "_horizontal_3_craws",
+            "mask_key": "_horizontal_3_craws",
+            "craws": true,
+            "mask": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 75,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/craws_feline/craws_feline_mask_horizontal_3_craws.png",
+            "filename": "assets/img/sprites/craws_feline/craws_feline_mask_horizontal_3_craws.png",
+            "mask_filename": "assets/img/sprites/craws_feline/craws_feline_mask_horizontal_3_craws.png"
+        },
+        "assets/img/sprites/craws_feline/craws_feline_mask_horizontal_4_craws.png": {
+            "flag_name": "Mask",
+            "part": "right_part_2",
+            "orientation": "horizontal",
+            "craws_key": "_horizontal_4_craws",
+            "mask_key": "_horizontal_4_craws",
+            "craws": true,
+            "mask": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 100,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/craws_feline/craws_feline_mask_horizontal_4_craws.png",
+            "filename": "assets/img/sprites/craws_feline/craws_feline_mask_horizontal_4_craws.png",
+            "mask_filename": "assets/img/sprites/craws_feline/craws_feline_mask_horizontal_4_craws.png"
+        },
+        "assets/img/sprites/craws_feline/craws_feline_mask_horizontal_5_craws.png": {
+            "flag_name": "Mask",
+            "part": "whole",
+            "orientation": "horizontal",
+            "craws_key": "_horizontal_5_craws",
+            "mask_key": "_horizontal_5_craws",
+            "craws": true,
+            "mask": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 125,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/craws_feline/craws_feline_mask_horizontal_5_craws.png",
+            "filename": "assets/img/sprites/craws_feline/craws_feline_mask_horizontal_5_craws.png",
+            "mask_filename": "assets/img/sprites/craws_feline/craws_feline_mask_horizontal_5_craws.png"
+        },
+        "assets/img/sprites/craws_feline/craws_feline_mask_vertical_0_craws.png": {
+            "flag_name": "Mask",
+            "part": "center",
+            "orientation": "vertical",
+            "craws_key": "_vertical_0_craws",
+            "mask_key": "_vertical_0_craws",
+            "craws": true,
+            "mask": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 150,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/craws_feline/craws_feline_mask_vertical_0_craws.png",
+            "filename": "assets/img/sprites/craws_feline/craws_feline_mask_vertical_0_craws.png",
+            "mask_filename": "assets/img/sprites/craws_feline/craws_feline_mask_vertical_0_craws.png"
+        },
+        "assets/img/sprites/craws_feline/craws_feline_mask_vertical_1_craws.png": {
+            "flag_name": "Mask",
+            "part": "left_part_1",
+            "orientation": "vertical",
+            "craws_key": "_vertical_1_craws",
+            "mask_key": "_vertical_1_craws",
+            "craws": true,
+            "mask": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 175,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/craws_feline/craws_feline_mask_vertical_1_craws.png",
+            "filename": "assets/img/sprites/craws_feline/craws_feline_mask_vertical_1_craws.png",
+            "mask_filename": "assets/img/sprites/craws_feline/craws_feline_mask_vertical_1_craws.png"
+        },
+        "assets/img/sprites/craws_feline/craws_feline_mask_vertical_2_craws.png": {
+            "flag_name": "Mask",
+            "part": "left_part_2",
+            "orientation": "vertical",
+            "craws_key": "_vertical_2_craws",
+            "mask_key": "_vertical_2_craws",
+            "craws": true,
+            "mask": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 200,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/craws_feline/craws_feline_mask_vertical_2_craws.png",
+            "filename": "assets/img/sprites/craws_feline/craws_feline_mask_vertical_2_craws.png",
+            "mask_filename": "assets/img/sprites/craws_feline/craws_feline_mask_vertical_2_craws.png"
+        },
+        "assets/img/sprites/craws_feline/craws_feline_mask_vertical_3_craws.png": {
+            "flag_name": "Mask",
+            "part": "right_part_1",
+            "orientation": "vertical",
+            "craws_key": "_vertical_3_craws",
+            "mask_key": "_vertical_3_craws",
+            "craws": true,
+            "mask": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 225,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/craws_feline/craws_feline_mask_vertical_3_craws.png",
+            "filename": "assets/img/sprites/craws_feline/craws_feline_mask_vertical_3_craws.png",
+            "mask_filename": "assets/img/sprites/craws_feline/craws_feline_mask_vertical_3_craws.png"
+        },
+        "assets/img/sprites/craws_feline/craws_feline_mask_vertical_4_craws.png": {
+            "flag_name": "Mask",
+            "part": "right_part_2",
+            "orientation": "vertical",
+            "craws_key": "_vertical_4_craws",
+            "mask_key": "_vertical_4_craws",
+            "craws": true,
+            "mask": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 250,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/craws_feline/craws_feline_mask_vertical_4_craws.png",
+            "filename": "assets/img/sprites/craws_feline/craws_feline_mask_vertical_4_craws.png",
+            "mask_filename": "assets/img/sprites/craws_feline/craws_feline_mask_vertical_4_craws.png"
+        },
+        "assets/img/sprites/craws_feline/craws_feline_mask_vertical_5_craws.png": {
+            "flag_name": "Mask",
+            "part": "whole",
+            "orientation": "vertical",
+            "craws_key": "_vertical_5_craws",
+            "mask_key": "_vertical_5_craws",
+            "craws": true,
+            "mask": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 275,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/craws_feline/craws_feline_mask_vertical_5_craws.png",
+            "filename": "assets/img/sprites/craws_feline/craws_feline_mask_vertical_5_craws.png",
+            "mask_filename": "assets/img/sprites/craws_feline/craws_feline_mask_vertical_5_craws.png"
+        }
+    },
+    "meta": {
+        "size": {
+            "w": 300,
+            "h": 25
+        },
+        "image": "craws_feline.png",
+        "format": "RGBA8888",
+        "scale": 1
+    }
+}

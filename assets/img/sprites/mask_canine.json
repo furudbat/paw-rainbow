@@ -1,0 +1,361 @@
+{
+    "frames": {
+        "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_0.png": {
+            "flag_name": "Mask",
+            "part": "center",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_0",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_0.png",
+            "filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_0.png"
+        },
+        "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_1.png": {
+            "flag_name": "Mask",
+            "part": "left_part_1",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_1",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 22,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_1.png",
+            "filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_1.png"
+        },
+        "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_2.png": {
+            "flag_name": "Mask",
+            "part": "left_part_2",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_2",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 44,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_2.png",
+            "filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_2.png"
+        },
+        "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_3.png": {
+            "flag_name": "Mask",
+            "part": "right_part_1",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_3",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 66,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_3.png",
+            "filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_3.png"
+        },
+        "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_4.png": {
+            "flag_name": "Mask",
+            "part": "right_part_2",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_4",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 88,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_4.png",
+            "filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_4.png"
+        },
+        "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_5.png": {
+            "flag_name": "Mask",
+            "part": "whole",
+            "orientation": "horizontal",
+            "mask_key": "canine_horizontal_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 110,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_5.png",
+            "filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_horizontal_5.png"
+        },
+        "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_0.png": {
+            "flag_name": "Mask",
+            "part": "center",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_0",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 132,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_0.png",
+            "filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_0.png"
+        },
+        "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_1.png": {
+            "flag_name": "Mask",
+            "part": "left_part_1",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_1",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 154,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_1.png",
+            "filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_1.png"
+        },
+        "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_2.png": {
+            "flag_name": "Mask",
+            "part": "left_part_2",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_2",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 176,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_2.png",
+            "filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_2.png"
+        },
+        "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_3.png": {
+            "flag_name": "Mask",
+            "part": "right_part_1",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_3",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 198,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_3.png",
+            "filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_3.png"
+        },
+        "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_4.png": {
+            "flag_name": "Mask",
+            "part": "right_part_2",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_4",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 220,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_4.png",
+            "filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_4.png"
+        },
+        "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_5.png": {
+            "flag_name": "Mask",
+            "part": "whole",
+            "orientation": "vertical",
+            "mask_key": "canine_vertical_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 242,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_5.png",
+            "filename": "assets/img/sprites/mask_canine/mask_canine_maskcanine_vertical_5.png"
+        }
+    },
+    "meta": {
+        "size": {
+            "w": 264,
+            "h": 22
+        },
+        "image": "mask_canine.png",
+        "format": "RGBA8888",
+        "scale": 1
+    }
+}

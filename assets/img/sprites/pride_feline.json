@@ -1,0 +1,4561 @@
+{
+    "frames": {
+        "assets/img/sprites/pride_feline/pride_feline_nonefeline_horizontal_0.png": {
+            "flag_name": "None",
+            "part": "center",
+            "orientation": "horizontal",
+            "mask_key": "feline_horizontal_0",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_horizontal_0.png",
+            "default": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_nonefeline_horizontal_0.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_nonefeline_horizontal_0.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_nonefeline_horizontal_1.png": {
+            "flag_name": "None",
+            "part": "left_part_1",
+            "orientation": "horizontal",
+            "mask_key": "feline_horizontal_1",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_horizontal_1.png",
+            "default": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 25,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_nonefeline_horizontal_1.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_nonefeline_horizontal_1.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_nonefeline_horizontal_2.png": {
+            "flag_name": "None",
+            "part": "left_part_2",
+            "orientation": "horizontal",
+            "mask_key": "feline_horizontal_2",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_horizontal_2.png",
+            "default": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 50,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_nonefeline_horizontal_2.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_nonefeline_horizontal_2.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_nonefeline_horizontal_3.png": {
+            "flag_name": "None",
+            "part": "right_part_1",
+            "orientation": "horizontal",
+            "mask_key": "feline_horizontal_3",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_horizontal_3.png",
+            "default": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 75,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_nonefeline_horizontal_3.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_nonefeline_horizontal_3.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_nonefeline_horizontal_4.png": {
+            "flag_name": "None",
+            "part": "right_part_2",
+            "orientation": "horizontal",
+            "mask_key": "feline_horizontal_4",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_horizontal_4.png",
+            "default": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 100,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_nonefeline_horizontal_4.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_nonefeline_horizontal_4.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_nonefeline_horizontal_5.png": {
+            "flag_name": "None",
+            "part": "whole",
+            "orientation": "horizontal",
+            "mask_key": "feline_horizontal_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_horizontal_5.png",
+            "default": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 125,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_nonefeline_horizontal_5.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_nonefeline_horizontal_5.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_nonefeline_vertical_0.png": {
+            "flag_name": "None",
+            "part": "center",
+            "orientation": "vertical",
+            "mask_key": "feline_vertical_0",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_vertical_0.png",
+            "default": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 150,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_nonefeline_vertical_0.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_nonefeline_vertical_0.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_nonefeline_vertical_1.png": {
+            "flag_name": "None",
+            "part": "left_part_1",
+            "orientation": "vertical",
+            "mask_key": "feline_vertical_1",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_vertical_1.png",
+            "default": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 175,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_nonefeline_vertical_1.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_nonefeline_vertical_1.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_nonefeline_vertical_2.png": {
+            "flag_name": "None",
+            "part": "left_part_2",
+            "orientation": "vertical",
+            "mask_key": "feline_vertical_2",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_vertical_2.png",
+            "default": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 200,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_nonefeline_vertical_2.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_nonefeline_vertical_2.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_nonefeline_vertical_3.png": {
+            "flag_name": "None",
+            "part": "right_part_1",
+            "orientation": "vertical",
+            "mask_key": "feline_vertical_3",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_vertical_3.png",
+            "default": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 225,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_nonefeline_vertical_3.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_nonefeline_vertical_3.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_nonefeline_vertical_4.png": {
+            "flag_name": "None",
+            "part": "right_part_2",
+            "orientation": "vertical",
+            "mask_key": "feline_vertical_4",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_vertical_4.png",
+            "default": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 250,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_nonefeline_vertical_4.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_nonefeline_vertical_4.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_nonefeline_vertical_5.png": {
+            "flag_name": "None",
+            "part": "whole",
+            "orientation": "vertical",
+            "mask_key": "feline_vertical_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_vertical_5.png",
+            "default": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 275,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_nonefeline_vertical_5.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_nonefeline_vertical_5.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_maskfeline_horizontal_0.png": {
+            "flag_name": "Mask",
+            "part": "center",
+            "orientation": "horizontal",
+            "mask_key": "feline_horizontal_0",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_horizontal_0.png",
+            "mask": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 0,
+                "y": 25,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_maskfeline_horizontal_0.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_maskfeline_horizontal_0.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_maskfeline_horizontal_1.png": {
+            "flag_name": "Mask",
+            "part": "left_part_1",
+            "orientation": "horizontal",
+            "mask_key": "feline_horizontal_1",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_horizontal_1.png",
+            "mask": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 25,
+                "y": 25,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_maskfeline_horizontal_1.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_maskfeline_horizontal_1.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_maskfeline_horizontal_2.png": {
+            "flag_name": "Mask",
+            "part": "left_part_2",
+            "orientation": "horizontal",
+            "mask_key": "feline_horizontal_2",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_horizontal_2.png",
+            "mask": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 50,
+                "y": 25,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_maskfeline_horizontal_2.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_maskfeline_horizontal_2.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_maskfeline_horizontal_3.png": {
+            "flag_name": "Mask",
+            "part": "right_part_1",
+            "orientation": "horizontal",
+            "mask_key": "feline_horizontal_3",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_horizontal_3.png",
+            "mask": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 75,
+                "y": 25,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_maskfeline_horizontal_3.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_maskfeline_horizontal_3.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_maskfeline_horizontal_4.png": {
+            "flag_name": "Mask",
+            "part": "right_part_2",
+            "orientation": "horizontal",
+            "mask_key": "feline_horizontal_4",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_horizontal_4.png",
+            "mask": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 100,
+                "y": 25,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_maskfeline_horizontal_4.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_maskfeline_horizontal_4.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_maskfeline_horizontal_5.png": {
+            "flag_name": "Mask",
+            "part": "whole",
+            "orientation": "horizontal",
+            "mask_key": "feline_horizontal_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_horizontal_5.png",
+            "mask": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 125,
+                "y": 25,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_maskfeline_horizontal_5.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_maskfeline_horizontal_5.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_maskfeline_vertical_0.png": {
+            "flag_name": "Mask",
+            "part": "center",
+            "orientation": "vertical",
+            "mask_key": "feline_vertical_0",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_vertical_0.png",
+            "mask": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 150,
+                "y": 25,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_maskfeline_vertical_0.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_maskfeline_vertical_0.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_maskfeline_vertical_1.png": {
+            "flag_name": "Mask",
+            "part": "left_part_1",
+            "orientation": "vertical",
+            "mask_key": "feline_vertical_1",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_vertical_1.png",
+            "mask": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 175,
+                "y": 25,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_maskfeline_vertical_1.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_maskfeline_vertical_1.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_maskfeline_vertical_2.png": {
+            "flag_name": "Mask",
+            "part": "left_part_2",
+            "orientation": "vertical",
+            "mask_key": "feline_vertical_2",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_vertical_2.png",
+            "mask": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 200,
+                "y": 25,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_maskfeline_vertical_2.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_maskfeline_vertical_2.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_maskfeline_vertical_3.png": {
+            "flag_name": "Mask",
+            "part": "right_part_1",
+            "orientation": "vertical",
+            "mask_key": "feline_vertical_3",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_vertical_3.png",
+            "mask": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 225,
+                "y": 25,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_maskfeline_vertical_3.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_maskfeline_vertical_3.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_maskfeline_vertical_4.png": {
+            "flag_name": "Mask",
+            "part": "right_part_2",
+            "orientation": "vertical",
+            "mask_key": "feline_vertical_4",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_vertical_4.png",
+            "mask": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 250,
+                "y": 25,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_maskfeline_vertical_4.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_maskfeline_vertical_4.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_maskfeline_vertical_5.png": {
+            "flag_name": "Mask",
+            "part": "whole",
+            "orientation": "vertical",
+            "mask_key": "feline_vertical_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_vertical_5.png",
+            "mask": true,
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 275,
+                "y": 25,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_maskfeline_vertical_5.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_maskfeline_vertical_5.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_rainbow_flag_lgbtfeline_horizontal_0.png": {
+            "flag_name": "Rainbow flag LGBT",
+            "part": "center",
+            "orientation": "horizontal",
+            "mask_key": "feline_horizontal_0",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_horizontal_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 0,
+                "y": 50,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_rainbow_flag_lgbtfeline_horizontal_0.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_rainbow_flag_lgbtfeline_horizontal_0.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_rainbow_flag_lgbtfeline_horizontal_1.png": {
+            "flag_name": "Rainbow flag LGBT",
+            "part": "left_part_1",
+            "orientation": "horizontal",
+            "mask_key": "feline_horizontal_1",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_horizontal_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 25,
+                "y": 50,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_rainbow_flag_lgbtfeline_horizontal_1.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_rainbow_flag_lgbtfeline_horizontal_1.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_rainbow_flag_lgbtfeline_horizontal_2.png": {
+            "flag_name": "Rainbow flag LGBT",
+            "part": "left_part_2",
+            "orientation": "horizontal",
+            "mask_key": "feline_horizontal_2",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_horizontal_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 50,
+                "y": 50,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_rainbow_flag_lgbtfeline_horizontal_2.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_rainbow_flag_lgbtfeline_horizontal_2.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_rainbow_flag_lgbtfeline_horizontal_3.png": {
+            "flag_name": "Rainbow flag LGBT",
+            "part": "right_part_1",
+            "orientation": "horizontal",
+            "mask_key": "feline_horizontal_3",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_horizontal_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 75,
+                "y": 50,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_rainbow_flag_lgbtfeline_horizontal_3.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_rainbow_flag_lgbtfeline_horizontal_3.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_rainbow_flag_lgbtfeline_horizontal_4.png": {
+            "flag_name": "Rainbow flag LGBT",
+            "part": "right_part_2",
+            "orientation": "horizontal",
+            "mask_key": "feline_horizontal_4",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_horizontal_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 100,
+                "y": 50,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_rainbow_flag_lgbtfeline_horizontal_4.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_rainbow_flag_lgbtfeline_horizontal_4.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_rainbow_flag_lgbtfeline_horizontal_5.png": {
+            "flag_name": "Rainbow flag LGBT",
+            "part": "whole",
+            "orientation": "horizontal",
+            "mask_key": "feline_horizontal_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_horizontal_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 125,
+                "y": 50,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_rainbow_flag_lgbtfeline_horizontal_5.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_rainbow_flag_lgbtfeline_horizontal_5.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_rainbow_flag_lgbtfeline_vertical_0.png": {
+            "flag_name": "Rainbow flag LGBT",
+            "part": "center",
+            "orientation": "vertical",
+            "mask_key": "feline_vertical_0",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_vertical_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 150,
+                "y": 50,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_rainbow_flag_lgbtfeline_vertical_0.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_rainbow_flag_lgbtfeline_vertical_0.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_rainbow_flag_lgbtfeline_vertical_1.png": {
+            "flag_name": "Rainbow flag LGBT",
+            "part": "left_part_1",
+            "orientation": "vertical",
+            "mask_key": "feline_vertical_1",
+            "flags_fits": true,
+            "flags_fits_perfect": true,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_vertical_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 175,
+                "y": 50,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_rainbow_flag_lgbtfeline_vertical_1.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_rainbow_flag_lgbtfeline_vertical_1.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_rainbow_flag_lgbtfeline_vertical_2.png": {
+            "flag_name": "Rainbow flag LGBT",
+            "part": "left_part_2",
+            "orientation": "vertical",
+            "mask_key": "feline_vertical_2",
+            "flags_fits": true,
+            "flags_fits_perfect": true,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_vertical_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 200,
+                "y": 50,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_rainbow_flag_lgbtfeline_vertical_2.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_rainbow_flag_lgbtfeline_vertical_2.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_rainbow_flag_lgbtfeline_vertical_3.png": {
+            "flag_name": "Rainbow flag LGBT",
+            "part": "right_part_1",
+            "orientation": "vertical",
+            "mask_key": "feline_vertical_3",
+            "flags_fits": true,
+            "flags_fits_perfect": true,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_vertical_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 225,
+                "y": 50,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_rainbow_flag_lgbtfeline_vertical_3.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_rainbow_flag_lgbtfeline_vertical_3.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_rainbow_flag_lgbtfeline_vertical_4.png": {
+            "flag_name": "Rainbow flag LGBT",
+            "part": "right_part_2",
+            "orientation": "vertical",
+            "mask_key": "feline_vertical_4",
+            "flags_fits": true,
+            "flags_fits_perfect": true,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_vertical_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 250,
+                "y": 50,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_rainbow_flag_lgbtfeline_vertical_4.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_rainbow_flag_lgbtfeline_vertical_4.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_rainbow_flag_lgbtfeline_vertical_5.png": {
+            "flag_name": "Rainbow flag LGBT",
+            "part": "whole",
+            "orientation": "vertical",
+            "mask_key": "feline_vertical_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_vertical_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 275,
+                "y": 50,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_rainbow_flag_lgbtfeline_vertical_5.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_rainbow_flag_lgbtfeline_vertical_5.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_philadelphia_rainbow_flag_people_of_colorfeline_horizontal_0.png": {
+            "flag_name": "Philadelphia Rainbow flag People of Color",
+            "part": "center",
+            "orientation": "horizontal",
+            "mask_key": "feline_horizontal_0",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_horizontal_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 0,
+                "y": 75,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_philadelphia_rainbow_flag_people_of_colorfeline_horizontal_0.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_philadelphia_rainbow_flag_people_of_colorfeline_horizontal_0.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_philadelphia_rainbow_flag_people_of_colorfeline_horizontal_1.png": {
+            "flag_name": "Philadelphia Rainbow flag People of Color",
+            "part": "left_part_1",
+            "orientation": "horizontal",
+            "mask_key": "feline_horizontal_1",
+            "flags_fits": true,
+            "flags_fits_perfect": true,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_horizontal_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 25,
+                "y": 75,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_philadelphia_rainbow_flag_people_of_colorfeline_horizontal_1.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_philadelphia_rainbow_flag_people_of_colorfeline_horizontal_1.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_philadelphia_rainbow_flag_people_of_colorfeline_horizontal_2.png": {
+            "flag_name": "Philadelphia Rainbow flag People of Color",
+            "part": "left_part_2",
+            "orientation": "horizontal",
+            "mask_key": "feline_horizontal_2",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_horizontal_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 50,
+                "y": 75,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_philadelphia_rainbow_flag_people_of_colorfeline_horizontal_2.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_philadelphia_rainbow_flag_people_of_colorfeline_horizontal_2.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_philadelphia_rainbow_flag_people_of_colorfeline_horizontal_3.png": {
+            "flag_name": "Philadelphia Rainbow flag People of Color",
+            "part": "right_part_1",
+            "orientation": "horizontal",
+            "mask_key": "feline_horizontal_3",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_horizontal_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 75,
+                "y": 75,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_philadelphia_rainbow_flag_people_of_colorfeline_horizontal_3.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_philadelphia_rainbow_flag_people_of_colorfeline_horizontal_3.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_philadelphia_rainbow_flag_people_of_colorfeline_horizontal_4.png": {
+            "flag_name": "Philadelphia Rainbow flag People of Color",
+            "part": "right_part_2",
+            "orientation": "horizontal",
+            "mask_key": "feline_horizontal_4",
+            "flags_fits": true,
+            "flags_fits_perfect": true,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_horizontal_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 100,
+                "y": 75,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_philadelphia_rainbow_flag_people_of_colorfeline_horizontal_4.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_philadelphia_rainbow_flag_people_of_colorfeline_horizontal_4.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_philadelphia_rainbow_flag_people_of_colorfeline_horizontal_5.png": {
+            "flag_name": "Philadelphia Rainbow flag People of Color",
+            "part": "whole",
+            "orientation": "horizontal",
+            "mask_key": "feline_horizontal_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_horizontal_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 125,
+                "y": 75,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_philadelphia_rainbow_flag_people_of_colorfeline_horizontal_5.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_philadelphia_rainbow_flag_people_of_colorfeline_horizontal_5.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_philadelphia_rainbow_flag_people_of_colorfeline_vertical_0.png": {
+            "flag_name": "Philadelphia Rainbow flag People of Color",
+            "part": "center",
+            "orientation": "vertical",
+            "mask_key": "feline_vertical_0",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_vertical_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 150,
+                "y": 75,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_philadelphia_rainbow_flag_people_of_colorfeline_vertical_0.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_philadelphia_rainbow_flag_people_of_colorfeline_vertical_0.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_philadelphia_rainbow_flag_people_of_colorfeline_vertical_1.png": {
+            "flag_name": "Philadelphia Rainbow flag People of Color",
+            "part": "left_part_1",
+            "orientation": "vertical",
+            "mask_key": "feline_vertical_1",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_vertical_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 175,
+                "y": 75,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_philadelphia_rainbow_flag_people_of_colorfeline_vertical_1.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_philadelphia_rainbow_flag_people_of_colorfeline_vertical_1.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_philadelphia_rainbow_flag_people_of_colorfeline_vertical_2.png": {
+            "flag_name": "Philadelphia Rainbow flag People of Color",
+            "part": "left_part_2",
+            "orientation": "vertical",
+            "mask_key": "feline_vertical_2",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_vertical_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 200,
+                "y": 75,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_philadelphia_rainbow_flag_people_of_colorfeline_vertical_2.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_philadelphia_rainbow_flag_people_of_colorfeline_vertical_2.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_philadelphia_rainbow_flag_people_of_colorfeline_vertical_3.png": {
+            "flag_name": "Philadelphia Rainbow flag People of Color",
+            "part": "right_part_1",
+            "orientation": "vertical",
+            "mask_key": "feline_vertical_3",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_vertical_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 225,
+                "y": 75,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_philadelphia_rainbow_flag_people_of_colorfeline_vertical_3.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_philadelphia_rainbow_flag_people_of_colorfeline_vertical_3.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_philadelphia_rainbow_flag_people_of_colorfeline_vertical_4.png": {
+            "flag_name": "Philadelphia Rainbow flag People of Color",
+            "part": "right_part_2",
+            "orientation": "vertical",
+            "mask_key": "feline_vertical_4",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_vertical_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 250,
+                "y": 75,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_philadelphia_rainbow_flag_people_of_colorfeline_vertical_4.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_philadelphia_rainbow_flag_people_of_colorfeline_vertical_4.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_philadelphia_rainbow_flag_people_of_colorfeline_vertical_5.png": {
+            "flag_name": "Philadelphia Rainbow flag People of Color",
+            "part": "whole",
+            "orientation": "vertical",
+            "mask_key": "feline_vertical_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_vertical_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 275,
+                "y": 75,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_philadelphia_rainbow_flag_people_of_colorfeline_vertical_5.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_philadelphia_rainbow_flag_people_of_colorfeline_vertical_5.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_lgbtq_rainbow_flag_progressfeline_horizontal_0.png": {
+            "flag_name": "LGBTQ+ Rainbow flag Progress",
+            "part": "center",
+            "orientation": "horizontal",
+            "mask_key": "feline_horizontal_0",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_horizontal_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 0,
+                "y": 100,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_lgbtq_rainbow_flag_progressfeline_horizontal_0.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_lgbtq_rainbow_flag_progressfeline_horizontal_0.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_lgbtq_rainbow_flag_progressfeline_horizontal_1.png": {
+            "flag_name": "LGBTQ+ Rainbow flag Progress",
+            "part": "left_part_1",
+            "orientation": "horizontal",
+            "mask_key": "feline_horizontal_1",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_horizontal_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 25,
+                "y": 100,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_lgbtq_rainbow_flag_progressfeline_horizontal_1.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_lgbtq_rainbow_flag_progressfeline_horizontal_1.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_lgbtq_rainbow_flag_progressfeline_horizontal_2.png": {
+            "flag_name": "LGBTQ+ Rainbow flag Progress",
+            "part": "left_part_2",
+            "orientation": "horizontal",
+            "mask_key": "feline_horizontal_2",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_horizontal_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 50,
+                "y": 100,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_lgbtq_rainbow_flag_progressfeline_horizontal_2.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_lgbtq_rainbow_flag_progressfeline_horizontal_2.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_lgbtq_rainbow_flag_progressfeline_horizontal_3.png": {
+            "flag_name": "LGBTQ+ Rainbow flag Progress",
+            "part": "right_part_1",
+            "orientation": "horizontal",
+            "mask_key": "feline_horizontal_3",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_horizontal_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 75,
+                "y": 100,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_lgbtq_rainbow_flag_progressfeline_horizontal_3.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_lgbtq_rainbow_flag_progressfeline_horizontal_3.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_lgbtq_rainbow_flag_progressfeline_horizontal_4.png": {
+            "flag_name": "LGBTQ+ Rainbow flag Progress",
+            "part": "right_part_2",
+            "orientation": "horizontal",
+            "mask_key": "feline_horizontal_4",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_horizontal_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 100,
+                "y": 100,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_lgbtq_rainbow_flag_progressfeline_horizontal_4.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_lgbtq_rainbow_flag_progressfeline_horizontal_4.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_lgbtq_rainbow_flag_progressfeline_horizontal_5.png": {
+            "flag_name": "LGBTQ+ Rainbow flag Progress",
+            "part": "whole",
+            "orientation": "horizontal",
+            "mask_key": "feline_horizontal_5",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_horizontal_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 125,
+                "y": 100,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_lgbtq_rainbow_flag_progressfeline_horizontal_5.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_lgbtq_rainbow_flag_progressfeline_horizontal_5.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_lgbtq_rainbow_flag_progressfeline_vertical_0.png": {
+            "flag_name": "LGBTQ+ Rainbow flag Progress",
+            "part": "center",
+            "orientation": "vertical",
+            "mask_key": "feline_vertical_0",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_vertical_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 150,
+                "y": 100,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_lgbtq_rainbow_flag_progressfeline_vertical_0.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_lgbtq_rainbow_flag_progressfeline_vertical_0.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_lgbtq_rainbow_flag_progressfeline_vertical_1.png": {
+            "flag_name": "LGBTQ+ Rainbow flag Progress",
+            "part": "left_part_1",
+            "orientation": "vertical",
+            "mask_key": "feline_vertical_1",
+            "flags_fits": false,
+            "flags_fits_perfect": true,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_vertical_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 175,
+                "y": 100,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_lgbtq_rainbow_flag_progressfeline_vertical_1.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_lgbtq_rainbow_flag_progressfeline_vertical_1.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_lgbtq_rainbow_flag_progressfeline_vertical_2.png": {
+            "flag_name": "LGBTQ+ Rainbow flag Progress",
+            "part": "left_part_2",
+            "orientation": "vertical",
+            "mask_key": "feline_vertical_2",
+            "flags_fits": false,
+            "flags_fits_perfect": true,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_vertical_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 200,
+                "y": 100,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_lgbtq_rainbow_flag_progressfeline_vertical_2.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_lgbtq_rainbow_flag_progressfeline_vertical_2.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_lgbtq_rainbow_flag_progressfeline_vertical_3.png": {
+            "flag_name": "LGBTQ+ Rainbow flag Progress",
+            "part": "right_part_1",
+            "orientation": "vertical",
+            "mask_key": "feline_vertical_3",
+            "flags_fits": false,
+            "flags_fits_perfect": true,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_vertical_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 225,
+                "y": 100,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_lgbtq_rainbow_flag_progressfeline_vertical_3.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_lgbtq_rainbow_flag_progressfeline_vertical_3.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_lgbtq_rainbow_flag_progressfeline_vertical_4.png": {
+            "flag_name": "LGBTQ+ Rainbow flag Progress",
+            "part": "right_part_2",
+            "orientation": "vertical",
+            "mask_key": "feline_vertical_4",
+            "flags_fits": false,
+            "flags_fits_perfect": true,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_vertical_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 250,
+                "y": 100,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_lgbtq_rainbow_flag_progressfeline_vertical_4.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_lgbtq_rainbow_flag_progressfeline_vertical_4.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_lgbtq_rainbow_flag_progressfeline_vertical_5.png": {
+            "flag_name": "LGBTQ+ Rainbow flag Progress",
+            "part": "whole",
+            "orientation": "vertical",
+            "mask_key": "feline_vertical_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_vertical_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 275,
+                "y": 100,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_lgbtq_rainbow_flag_progressfeline_vertical_5.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_lgbtq_rainbow_flag_progressfeline_vertical_5.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_achilleanfeline_horizontal_0.png": {
+            "flag_name": "Achillean",
+            "part": "center",
+            "orientation": "horizontal",
+            "mask_key": "feline_horizontal_0",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_horizontal_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 0,
+                "y": 125,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_achilleanfeline_horizontal_0.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_achilleanfeline_horizontal_0.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_achilleanfeline_horizontal_1.png": {
+            "flag_name": "Achillean",
+            "part": "left_part_1",
+            "orientation": "horizontal",
+            "mask_key": "feline_horizontal_1",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_horizontal_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 25,
+                "y": 125,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_achilleanfeline_horizontal_1.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_achilleanfeline_horizontal_1.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_achilleanfeline_horizontal_2.png": {
+            "flag_name": "Achillean",
+            "part": "left_part_2",
+            "orientation": "horizontal",
+            "mask_key": "feline_horizontal_2",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_horizontal_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 50,
+                "y": 125,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_achilleanfeline_horizontal_2.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_achilleanfeline_horizontal_2.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_achilleanfeline_horizontal_3.png": {
+            "flag_name": "Achillean",
+            "part": "right_part_1",
+            "orientation": "horizontal",
+            "mask_key": "feline_horizontal_3",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_horizontal_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 75,
+                "y": 125,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_achilleanfeline_horizontal_3.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_achilleanfeline_horizontal_3.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_achilleanfeline_horizontal_4.png": {
+            "flag_name": "Achillean",
+            "part": "right_part_2",
+            "orientation": "horizontal",
+            "mask_key": "feline_horizontal_4",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_horizontal_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 100,
+                "y": 125,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_achilleanfeline_horizontal_4.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_achilleanfeline_horizontal_4.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_achilleanfeline_horizontal_5.png": {
+            "flag_name": "Achillean",
+            "part": "whole",
+            "orientation": "horizontal",
+            "mask_key": "feline_horizontal_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_horizontal_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 125,
+                "y": 125,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_achilleanfeline_horizontal_5.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_achilleanfeline_horizontal_5.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_achilleanfeline_vertical_0.png": {
+            "flag_name": "Achillean",
+            "part": "center",
+            "orientation": "vertical",
+            "mask_key": "feline_vertical_0",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_vertical_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 150,
+                "y": 125,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_achilleanfeline_vertical_0.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_achilleanfeline_vertical_0.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_achilleanfeline_vertical_1.png": {
+            "flag_name": "Achillean",
+            "part": "left_part_1",
+            "orientation": "vertical",
+            "mask_key": "feline_vertical_1",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_vertical_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 175,
+                "y": 125,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_achilleanfeline_vertical_1.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_achilleanfeline_vertical_1.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_achilleanfeline_vertical_2.png": {
+            "flag_name": "Achillean",
+            "part": "left_part_2",
+            "orientation": "vertical",
+            "mask_key": "feline_vertical_2",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_vertical_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 200,
+                "y": 125,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_achilleanfeline_vertical_2.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_achilleanfeline_vertical_2.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_achilleanfeline_vertical_3.png": {
+            "flag_name": "Achillean",
+            "part": "right_part_1",
+            "orientation": "vertical",
+            "mask_key": "feline_vertical_3",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_vertical_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 225,
+                "y": 125,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_achilleanfeline_vertical_3.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_achilleanfeline_vertical_3.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_achilleanfeline_vertical_4.png": {
+            "flag_name": "Achillean",
+            "part": "right_part_2",
+            "orientation": "vertical",
+            "mask_key": "feline_vertical_4",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_vertical_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 250,
+                "y": 125,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_achilleanfeline_vertical_4.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_achilleanfeline_vertical_4.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_achilleanfeline_vertical_5.png": {
+            "flag_name": "Achillean",
+            "part": "whole",
+            "orientation": "vertical",
+            "mask_key": "feline_vertical_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_vertical_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 275,
+                "y": 125,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_achilleanfeline_vertical_5.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_achilleanfeline_vertical_5.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_androphilliafeline_horizontal_0.png": {
+            "flag_name": "Androphillia",
+            "part": "center",
+            "orientation": "horizontal",
+            "mask_key": "feline_horizontal_0",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_horizontal_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 0,
+                "y": 150,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_androphilliafeline_horizontal_0.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_androphilliafeline_horizontal_0.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_androphilliafeline_horizontal_1.png": {
+            "flag_name": "Androphillia",
+            "part": "left_part_1",
+            "orientation": "horizontal",
+            "mask_key": "feline_horizontal_1",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_horizontal_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 25,
+                "y": 150,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_androphilliafeline_horizontal_1.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_androphilliafeline_horizontal_1.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_androphilliafeline_horizontal_2.png": {
+            "flag_name": "Androphillia",
+            "part": "left_part_2",
+            "orientation": "horizontal",
+            "mask_key": "feline_horizontal_2",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_horizontal_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 50,
+                "y": 150,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_androphilliafeline_horizontal_2.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_androphilliafeline_horizontal_2.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_androphilliafeline_horizontal_3.png": {
+            "flag_name": "Androphillia",
+            "part": "right_part_1",
+            "orientation": "horizontal",
+            "mask_key": "feline_horizontal_3",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_horizontal_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 75,
+                "y": 150,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_androphilliafeline_horizontal_3.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_androphilliafeline_horizontal_3.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_androphilliafeline_horizontal_4.png": {
+            "flag_name": "Androphillia",
+            "part": "right_part_2",
+            "orientation": "horizontal",
+            "mask_key": "feline_horizontal_4",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_horizontal_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 100,
+                "y": 150,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_androphilliafeline_horizontal_4.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_androphilliafeline_horizontal_4.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_androphilliafeline_horizontal_5.png": {
+            "flag_name": "Androphillia",
+            "part": "whole",
+            "orientation": "horizontal",
+            "mask_key": "feline_horizontal_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_horizontal_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 125,
+                "y": 150,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_androphilliafeline_horizontal_5.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_androphilliafeline_horizontal_5.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_androphilliafeline_vertical_0.png": {
+            "flag_name": "Androphillia",
+            "part": "center",
+            "orientation": "vertical",
+            "mask_key": "feline_vertical_0",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_vertical_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 150,
+                "y": 150,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_androphilliafeline_vertical_0.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_androphilliafeline_vertical_0.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_androphilliafeline_vertical_1.png": {
+            "flag_name": "Androphillia",
+            "part": "left_part_1",
+            "orientation": "vertical",
+            "mask_key": "feline_vertical_1",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_vertical_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 175,
+                "y": 150,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_androphilliafeline_vertical_1.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_androphilliafeline_vertical_1.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_androphilliafeline_vertical_2.png": {
+            "flag_name": "Androphillia",
+            "part": "left_part_2",
+            "orientation": "vertical",
+            "mask_key": "feline_vertical_2",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_vertical_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 200,
+                "y": 150,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_androphilliafeline_vertical_2.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_androphilliafeline_vertical_2.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_androphilliafeline_vertical_3.png": {
+            "flag_name": "Androphillia",
+            "part": "right_part_1",
+            "orientation": "vertical",
+            "mask_key": "feline_vertical_3",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_vertical_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 225,
+                "y": 150,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_androphilliafeline_vertical_3.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_androphilliafeline_vertical_3.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_androphilliafeline_vertical_4.png": {
+            "flag_name": "Androphillia",
+            "part": "right_part_2",
+            "orientation": "vertical",
+            "mask_key": "feline_vertical_4",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_vertical_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 250,
+                "y": 150,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_androphilliafeline_vertical_4.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_androphilliafeline_vertical_4.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_androphilliafeline_vertical_5.png": {
+            "flag_name": "Androphillia",
+            "part": "whole",
+            "orientation": "vertical",
+            "mask_key": "feline_vertical_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_vertical_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 275,
+                "y": 150,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_androphilliafeline_vertical_5.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_androphilliafeline_vertical_5.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_gynephiliafeline_horizontal_0.png": {
+            "flag_name": "Gynephilia",
+            "part": "center",
+            "orientation": "horizontal",
+            "mask_key": "feline_horizontal_0",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_horizontal_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 0,
+                "y": 175,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_gynephiliafeline_horizontal_0.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_gynephiliafeline_horizontal_0.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_gynephiliafeline_horizontal_1.png": {
+            "flag_name": "Gynephilia",
+            "part": "left_part_1",
+            "orientation": "horizontal",
+            "mask_key": "feline_horizontal_1",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_horizontal_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 25,
+                "y": 175,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_gynephiliafeline_horizontal_1.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_gynephiliafeline_horizontal_1.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_gynephiliafeline_horizontal_2.png": {
+            "flag_name": "Gynephilia",
+            "part": "left_part_2",
+            "orientation": "horizontal",
+            "mask_key": "feline_horizontal_2",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_horizontal_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 50,
+                "y": 175,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_gynephiliafeline_horizontal_2.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_gynephiliafeline_horizontal_2.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_gynephiliafeline_horizontal_3.png": {
+            "flag_name": "Gynephilia",
+            "part": "right_part_1",
+            "orientation": "horizontal",
+            "mask_key": "feline_horizontal_3",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_horizontal_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 75,
+                "y": 175,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_gynephiliafeline_horizontal_3.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_gynephiliafeline_horizontal_3.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_gynephiliafeline_horizontal_4.png": {
+            "flag_name": "Gynephilia",
+            "part": "right_part_2",
+            "orientation": "horizontal",
+            "mask_key": "feline_horizontal_4",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_horizontal_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 100,
+                "y": 175,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_gynephiliafeline_horizontal_4.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_gynephiliafeline_horizontal_4.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_gynephiliafeline_horizontal_5.png": {
+            "flag_name": "Gynephilia",
+            "part": "whole",
+            "orientation": "horizontal",
+            "mask_key": "feline_horizontal_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_horizontal_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 125,
+                "y": 175,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_gynephiliafeline_horizontal_5.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_gynephiliafeline_horizontal_5.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_gynephiliafeline_vertical_0.png": {
+            "flag_name": "Gynephilia",
+            "part": "center",
+            "orientation": "vertical",
+            "mask_key": "feline_vertical_0",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_vertical_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 150,
+                "y": 175,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_gynephiliafeline_vertical_0.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_gynephiliafeline_vertical_0.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_gynephiliafeline_vertical_1.png": {
+            "flag_name": "Gynephilia",
+            "part": "left_part_1",
+            "orientation": "vertical",
+            "mask_key": "feline_vertical_1",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_vertical_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 175,
+                "y": 175,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_gynephiliafeline_vertical_1.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_gynephiliafeline_vertical_1.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_gynephiliafeline_vertical_2.png": {
+            "flag_name": "Gynephilia",
+            "part": "left_part_2",
+            "orientation": "vertical",
+            "mask_key": "feline_vertical_2",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_vertical_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 200,
+                "y": 175,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_gynephiliafeline_vertical_2.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_gynephiliafeline_vertical_2.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_gynephiliafeline_vertical_3.png": {
+            "flag_name": "Gynephilia",
+            "part": "right_part_1",
+            "orientation": "vertical",
+            "mask_key": "feline_vertical_3",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_vertical_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 225,
+                "y": 175,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_gynephiliafeline_vertical_3.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_gynephiliafeline_vertical_3.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_gynephiliafeline_vertical_4.png": {
+            "flag_name": "Gynephilia",
+            "part": "right_part_2",
+            "orientation": "vertical",
+            "mask_key": "feline_vertical_4",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_vertical_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 250,
+                "y": 175,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_gynephiliafeline_vertical_4.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_gynephiliafeline_vertical_4.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_gynephiliafeline_vertical_5.png": {
+            "flag_name": "Gynephilia",
+            "part": "whole",
+            "orientation": "vertical",
+            "mask_key": "feline_vertical_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_vertical_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 275,
+                "y": 175,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_gynephiliafeline_vertical_5.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_gynephiliafeline_vertical_5.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_queerfeline_horizontal_0.png": {
+            "flag_name": "Queer",
+            "part": "center",
+            "orientation": "horizontal",
+            "mask_key": "feline_horizontal_0",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_horizontal_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 0,
+                "y": 200,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_queerfeline_horizontal_0.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_queerfeline_horizontal_0.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_queerfeline_horizontal_1.png": {
+            "flag_name": "Queer",
+            "part": "left_part_1",
+            "orientation": "horizontal",
+            "mask_key": "feline_horizontal_1",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_horizontal_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 25,
+                "y": 200,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_queerfeline_horizontal_1.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_queerfeline_horizontal_1.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_queerfeline_horizontal_2.png": {
+            "flag_name": "Queer",
+            "part": "left_part_2",
+            "orientation": "horizontal",
+            "mask_key": "feline_horizontal_2",
+            "flags_fits": true,
+            "flags_fits_perfect": true,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_horizontal_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 50,
+                "y": 200,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_queerfeline_horizontal_2.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_queerfeline_horizontal_2.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_queerfeline_horizontal_3.png": {
+            "flag_name": "Queer",
+            "part": "right_part_1",
+            "orientation": "horizontal",
+            "mask_key": "feline_horizontal_3",
+            "flags_fits": true,
+            "flags_fits_perfect": true,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_horizontal_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 75,
+                "y": 200,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_queerfeline_horizontal_3.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_queerfeline_horizontal_3.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_queerfeline_horizontal_4.png": {
+            "flag_name": "Queer",
+            "part": "right_part_2",
+            "orientation": "horizontal",
+            "mask_key": "feline_horizontal_4",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_horizontal_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 100,
+                "y": 200,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_queerfeline_horizontal_4.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_queerfeline_horizontal_4.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_queerfeline_horizontal_5.png": {
+            "flag_name": "Queer",
+            "part": "whole",
+            "orientation": "horizontal",
+            "mask_key": "feline_horizontal_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_horizontal_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 125,
+                "y": 200,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_queerfeline_horizontal_5.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_queerfeline_horizontal_5.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_queerfeline_vertical_0.png": {
+            "flag_name": "Queer",
+            "part": "center",
+            "orientation": "vertical",
+            "mask_key": "feline_vertical_0",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_vertical_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 150,
+                "y": 200,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_queerfeline_vertical_0.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_queerfeline_vertical_0.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_queerfeline_vertical_1.png": {
+            "flag_name": "Queer",
+            "part": "left_part_1",
+            "orientation": "vertical",
+            "mask_key": "feline_vertical_1",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_vertical_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 175,
+                "y": 200,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_queerfeline_vertical_1.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_queerfeline_vertical_1.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_queerfeline_vertical_2.png": {
+            "flag_name": "Queer",
+            "part": "left_part_2",
+            "orientation": "vertical",
+            "mask_key": "feline_vertical_2",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_vertical_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 200,
+                "y": 200,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_queerfeline_vertical_2.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_queerfeline_vertical_2.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_queerfeline_vertical_3.png": {
+            "flag_name": "Queer",
+            "part": "right_part_1",
+            "orientation": "vertical",
+            "mask_key": "feline_vertical_3",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_vertical_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 225,
+                "y": 200,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_queerfeline_vertical_3.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_queerfeline_vertical_3.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_queerfeline_vertical_4.png": {
+            "flag_name": "Queer",
+            "part": "right_part_2",
+            "orientation": "vertical",
+            "mask_key": "feline_vertical_4",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_vertical_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 250,
+                "y": 200,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_queerfeline_vertical_4.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_queerfeline_vertical_4.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_queerfeline_vertical_5.png": {
+            "flag_name": "Queer",
+            "part": "whole",
+            "orientation": "vertical",
+            "mask_key": "feline_vertical_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_vertical_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 275,
+                "y": 200,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_queerfeline_vertical_5.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_queerfeline_vertical_5.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_questioningfeline_horizontal_0.png": {
+            "flag_name": "Questioning",
+            "part": "center",
+            "orientation": "horizontal",
+            "mask_key": "feline_horizontal_0",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_horizontal_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 0,
+                "y": 225,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_questioningfeline_horizontal_0.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_questioningfeline_horizontal_0.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_questioningfeline_horizontal_1.png": {
+            "flag_name": "Questioning",
+            "part": "left_part_1",
+            "orientation": "horizontal",
+            "mask_key": "feline_horizontal_1",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_horizontal_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 25,
+                "y": 225,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_questioningfeline_horizontal_1.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_questioningfeline_horizontal_1.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_questioningfeline_horizontal_2.png": {
+            "flag_name": "Questioning",
+            "part": "left_part_2",
+            "orientation": "horizontal",
+            "mask_key": "feline_horizontal_2",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_horizontal_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 50,
+                "y": 225,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_questioningfeline_horizontal_2.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_questioningfeline_horizontal_2.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_questioningfeline_horizontal_3.png": {
+            "flag_name": "Questioning",
+            "part": "right_part_1",
+            "orientation": "horizontal",
+            "mask_key": "feline_horizontal_3",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_horizontal_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 75,
+                "y": 225,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_questioningfeline_horizontal_3.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_questioningfeline_horizontal_3.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_questioningfeline_horizontal_4.png": {
+            "flag_name": "Questioning",
+            "part": "right_part_2",
+            "orientation": "horizontal",
+            "mask_key": "feline_horizontal_4",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_horizontal_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 100,
+                "y": 225,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_questioningfeline_horizontal_4.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_questioningfeline_horizontal_4.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_questioningfeline_horizontal_5.png": {
+            "flag_name": "Questioning",
+            "part": "whole",
+            "orientation": "horizontal",
+            "mask_key": "feline_horizontal_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_horizontal_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 125,
+                "y": 225,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_questioningfeline_horizontal_5.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_questioningfeline_horizontal_5.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_questioningfeline_vertical_0.png": {
+            "flag_name": "Questioning",
+            "part": "center",
+            "orientation": "vertical",
+            "mask_key": "feline_vertical_0",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_vertical_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 150,
+                "y": 225,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_questioningfeline_vertical_0.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_questioningfeline_vertical_0.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_questioningfeline_vertical_1.png": {
+            "flag_name": "Questioning",
+            "part": "left_part_1",
+            "orientation": "vertical",
+            "mask_key": "feline_vertical_1",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_vertical_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 175,
+                "y": 225,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_questioningfeline_vertical_1.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_questioningfeline_vertical_1.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_questioningfeline_vertical_2.png": {
+            "flag_name": "Questioning",
+            "part": "left_part_2",
+            "orientation": "vertical",
+            "mask_key": "feline_vertical_2",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_vertical_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 200,
+                "y": 225,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_questioningfeline_vertical_2.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_questioningfeline_vertical_2.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_questioningfeline_vertical_3.png": {
+            "flag_name": "Questioning",
+            "part": "right_part_1",
+            "orientation": "vertical",
+            "mask_key": "feline_vertical_3",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_vertical_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 225,
+                "y": 225,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_questioningfeline_vertical_3.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_questioningfeline_vertical_3.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_questioningfeline_vertical_4.png": {
+            "flag_name": "Questioning",
+            "part": "right_part_2",
+            "orientation": "vertical",
+            "mask_key": "feline_vertical_4",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_vertical_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 250,
+                "y": 225,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_questioningfeline_vertical_4.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_questioningfeline_vertical_4.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_questioningfeline_vertical_5.png": {
+            "flag_name": "Questioning",
+            "part": "whole",
+            "orientation": "vertical",
+            "mask_key": "feline_vertical_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_vertical_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 275,
+                "y": 225,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_questioningfeline_vertical_5.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_questioningfeline_vertical_5.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_diamoricfeline_horizontal_0.png": {
+            "flag_name": "Diamoric",
+            "part": "center",
+            "orientation": "horizontal",
+            "mask_key": "feline_horizontal_0",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_horizontal_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 0,
+                "y": 250,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_diamoricfeline_horizontal_0.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_diamoricfeline_horizontal_0.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_diamoricfeline_horizontal_1.png": {
+            "flag_name": "Diamoric",
+            "part": "left_part_1",
+            "orientation": "horizontal",
+            "mask_key": "feline_horizontal_1",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_horizontal_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 25,
+                "y": 250,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_diamoricfeline_horizontal_1.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_diamoricfeline_horizontal_1.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_diamoricfeline_horizontal_2.png": {
+            "flag_name": "Diamoric",
+            "part": "left_part_2",
+            "orientation": "horizontal",
+            "mask_key": "feline_horizontal_2",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_horizontal_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 50,
+                "y": 250,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_diamoricfeline_horizontal_2.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_diamoricfeline_horizontal_2.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_diamoricfeline_horizontal_3.png": {
+            "flag_name": "Diamoric",
+            "part": "right_part_1",
+            "orientation": "horizontal",
+            "mask_key": "feline_horizontal_3",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_horizontal_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 75,
+                "y": 250,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_diamoricfeline_horizontal_3.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_diamoricfeline_horizontal_3.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_diamoricfeline_horizontal_4.png": {
+            "flag_name": "Diamoric",
+            "part": "right_part_2",
+            "orientation": "horizontal",
+            "mask_key": "feline_horizontal_4",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_horizontal_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 100,
+                "y": 250,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_diamoricfeline_horizontal_4.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_diamoricfeline_horizontal_4.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_diamoricfeline_horizontal_5.png": {
+            "flag_name": "Diamoric",
+            "part": "whole",
+            "orientation": "horizontal",
+            "mask_key": "feline_horizontal_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_horizontal_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 125,
+                "y": 250,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_diamoricfeline_horizontal_5.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_diamoricfeline_horizontal_5.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_diamoricfeline_vertical_0.png": {
+            "flag_name": "Diamoric",
+            "part": "center",
+            "orientation": "vertical",
+            "mask_key": "feline_vertical_0",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_vertical_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 150,
+                "y": 250,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_diamoricfeline_vertical_0.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_diamoricfeline_vertical_0.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_diamoricfeline_vertical_1.png": {
+            "flag_name": "Diamoric",
+            "part": "left_part_1",
+            "orientation": "vertical",
+            "mask_key": "feline_vertical_1",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_vertical_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 175,
+                "y": 250,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_diamoricfeline_vertical_1.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_diamoricfeline_vertical_1.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_diamoricfeline_vertical_2.png": {
+            "flag_name": "Diamoric",
+            "part": "left_part_2",
+            "orientation": "vertical",
+            "mask_key": "feline_vertical_2",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_vertical_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 200,
+                "y": 250,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_diamoricfeline_vertical_2.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_diamoricfeline_vertical_2.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_diamoricfeline_vertical_3.png": {
+            "flag_name": "Diamoric",
+            "part": "right_part_1",
+            "orientation": "vertical",
+            "mask_key": "feline_vertical_3",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_vertical_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 225,
+                "y": 250,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_diamoricfeline_vertical_3.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_diamoricfeline_vertical_3.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_diamoricfeline_vertical_4.png": {
+            "flag_name": "Diamoric",
+            "part": "right_part_2",
+            "orientation": "vertical",
+            "mask_key": "feline_vertical_4",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_vertical_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 250,
+                "y": 250,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_diamoricfeline_vertical_4.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_diamoricfeline_vertical_4.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_diamoricfeline_vertical_5.png": {
+            "flag_name": "Diamoric",
+            "part": "whole",
+            "orientation": "vertical",
+            "mask_key": "feline_vertical_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_vertical_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 275,
+                "y": 250,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_diamoricfeline_vertical_5.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_diamoricfeline_vertical_5.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_sapphicfeline_horizontal_0.png": {
+            "flag_name": "Sapphic",
+            "part": "center",
+            "orientation": "horizontal",
+            "mask_key": "feline_horizontal_0",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_horizontal_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 0,
+                "y": 275,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_sapphicfeline_horizontal_0.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_sapphicfeline_horizontal_0.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_sapphicfeline_horizontal_1.png": {
+            "flag_name": "Sapphic",
+            "part": "left_part_1",
+            "orientation": "horizontal",
+            "mask_key": "feline_horizontal_1",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_horizontal_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 25,
+                "y": 275,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_sapphicfeline_horizontal_1.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_sapphicfeline_horizontal_1.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_sapphicfeline_horizontal_2.png": {
+            "flag_name": "Sapphic",
+            "part": "left_part_2",
+            "orientation": "horizontal",
+            "mask_key": "feline_horizontal_2",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_horizontal_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 50,
+                "y": 275,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_sapphicfeline_horizontal_2.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_sapphicfeline_horizontal_2.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_sapphicfeline_horizontal_3.png": {
+            "flag_name": "Sapphic",
+            "part": "right_part_1",
+            "orientation": "horizontal",
+            "mask_key": "feline_horizontal_3",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_horizontal_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 75,
+                "y": 275,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_sapphicfeline_horizontal_3.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_sapphicfeline_horizontal_3.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_sapphicfeline_horizontal_4.png": {
+            "flag_name": "Sapphic",
+            "part": "right_part_2",
+            "orientation": "horizontal",
+            "mask_key": "feline_horizontal_4",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_horizontal_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 100,
+                "y": 275,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_sapphicfeline_horizontal_4.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_sapphicfeline_horizontal_4.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_sapphicfeline_horizontal_5.png": {
+            "flag_name": "Sapphic",
+            "part": "whole",
+            "orientation": "horizontal",
+            "mask_key": "feline_horizontal_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_horizontal_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 125,
+                "y": 275,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_sapphicfeline_horizontal_5.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_sapphicfeline_horizontal_5.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_sapphicfeline_vertical_0.png": {
+            "flag_name": "Sapphic",
+            "part": "center",
+            "orientation": "vertical",
+            "mask_key": "feline_vertical_0",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_vertical_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 150,
+                "y": 275,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_sapphicfeline_vertical_0.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_sapphicfeline_vertical_0.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_sapphicfeline_vertical_1.png": {
+            "flag_name": "Sapphic",
+            "part": "left_part_1",
+            "orientation": "vertical",
+            "mask_key": "feline_vertical_1",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_vertical_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 175,
+                "y": 275,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_sapphicfeline_vertical_1.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_sapphicfeline_vertical_1.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_sapphicfeline_vertical_2.png": {
+            "flag_name": "Sapphic",
+            "part": "left_part_2",
+            "orientation": "vertical",
+            "mask_key": "feline_vertical_2",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_vertical_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 200,
+                "y": 275,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_sapphicfeline_vertical_2.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_sapphicfeline_vertical_2.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_sapphicfeline_vertical_3.png": {
+            "flag_name": "Sapphic",
+            "part": "right_part_1",
+            "orientation": "vertical",
+            "mask_key": "feline_vertical_3",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_vertical_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 225,
+                "y": 275,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_sapphicfeline_vertical_3.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_sapphicfeline_vertical_3.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_sapphicfeline_vertical_4.png": {
+            "flag_name": "Sapphic",
+            "part": "right_part_2",
+            "orientation": "vertical",
+            "mask_key": "feline_vertical_4",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_vertical_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 250,
+                "y": 275,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_sapphicfeline_vertical_4.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_sapphicfeline_vertical_4.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_sapphicfeline_vertical_5.png": {
+            "flag_name": "Sapphic",
+            "part": "whole",
+            "orientation": "vertical",
+            "mask_key": "feline_vertical_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_vertical_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 275,
+                "y": 275,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_sapphicfeline_vertical_5.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_sapphicfeline_vertical_5.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_pluralianfeline_horizontal_0.png": {
+            "flag_name": "Pluralian",
+            "part": "center",
+            "orientation": "horizontal",
+            "mask_key": "feline_horizontal_0",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_horizontal_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 0,
+                "y": 300,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_pluralianfeline_horizontal_0.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_pluralianfeline_horizontal_0.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_pluralianfeline_horizontal_1.png": {
+            "flag_name": "Pluralian",
+            "part": "left_part_1",
+            "orientation": "horizontal",
+            "mask_key": "feline_horizontal_1",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_horizontal_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 25,
+                "y": 300,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_pluralianfeline_horizontal_1.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_pluralianfeline_horizontal_1.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_pluralianfeline_horizontal_2.png": {
+            "flag_name": "Pluralian",
+            "part": "left_part_2",
+            "orientation": "horizontal",
+            "mask_key": "feline_horizontal_2",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_horizontal_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 50,
+                "y": 300,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_pluralianfeline_horizontal_2.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_pluralianfeline_horizontal_2.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_pluralianfeline_horizontal_3.png": {
+            "flag_name": "Pluralian",
+            "part": "right_part_1",
+            "orientation": "horizontal",
+            "mask_key": "feline_horizontal_3",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_horizontal_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 75,
+                "y": 300,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_pluralianfeline_horizontal_3.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_pluralianfeline_horizontal_3.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_pluralianfeline_horizontal_4.png": {
+            "flag_name": "Pluralian",
+            "part": "right_part_2",
+            "orientation": "horizontal",
+            "mask_key": "feline_horizontal_4",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_horizontal_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 100,
+                "y": 300,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_pluralianfeline_horizontal_4.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_pluralianfeline_horizontal_4.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_pluralianfeline_horizontal_5.png": {
+            "flag_name": "Pluralian",
+            "part": "whole",
+            "orientation": "horizontal",
+            "mask_key": "feline_horizontal_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_horizontal_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 125,
+                "y": 300,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_pluralianfeline_horizontal_5.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_pluralianfeline_horizontal_5.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_pluralianfeline_vertical_0.png": {
+            "flag_name": "Pluralian",
+            "part": "center",
+            "orientation": "vertical",
+            "mask_key": "feline_vertical_0",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_vertical_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 150,
+                "y": 300,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_pluralianfeline_vertical_0.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_pluralianfeline_vertical_0.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_pluralianfeline_vertical_1.png": {
+            "flag_name": "Pluralian",
+            "part": "left_part_1",
+            "orientation": "vertical",
+            "mask_key": "feline_vertical_1",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_vertical_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 175,
+                "y": 300,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_pluralianfeline_vertical_1.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_pluralianfeline_vertical_1.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_pluralianfeline_vertical_2.png": {
+            "flag_name": "Pluralian",
+            "part": "left_part_2",
+            "orientation": "vertical",
+            "mask_key": "feline_vertical_2",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_vertical_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 200,
+                "y": 300,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_pluralianfeline_vertical_2.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_pluralianfeline_vertical_2.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_pluralianfeline_vertical_3.png": {
+            "flag_name": "Pluralian",
+            "part": "right_part_1",
+            "orientation": "vertical",
+            "mask_key": "feline_vertical_3",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_vertical_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 225,
+                "y": 300,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_pluralianfeline_vertical_3.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_pluralianfeline_vertical_3.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_pluralianfeline_vertical_4.png": {
+            "flag_name": "Pluralian",
+            "part": "right_part_2",
+            "orientation": "vertical",
+            "mask_key": "feline_vertical_4",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_vertical_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 250,
+                "y": 300,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_pluralianfeline_vertical_4.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_pluralianfeline_vertical_4.png"
+        },
+        "assets/img/sprites/pride_feline/pride_feline_pluralianfeline_vertical_5.png": {
+            "flag_name": "Pluralian",
+            "part": "whole",
+            "orientation": "vertical",
+            "mask_key": "feline_vertical_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_vertical_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 25
+            },
+            "frame": {
+                "x": 275,
+                "y": 300,
+                "w": 25,
+                "h": 25
+            },
+            "id": "assets/img/sprites/pride_feline/pride_feline_pluralianfeline_vertical_5.png",
+            "filename": "assets/img/sprites/pride_feline/pride_feline_pluralianfeline_vertical_5.png"
+        }
+    },
+    "meta": {
+        "size": {
+            "w": 300,
+            "h": 325
+        },
+        "image": "pride_feline.png",
+        "format": "RGBA8888",
+        "scale": 1
+    }
+}

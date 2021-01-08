@@ -446,7 +446,7 @@ def getFlagColorPaletteStriped(flag_colors, stripes, orientation):
 
     return flag_color_palette
 
-def generateSpriteLine(output_map, paw_outlines_img, outline_color, flag, parts, orientation, color_code_map, mask_output):
+def generateSpriteLine(output_map, paw_outlines_img, outline_color, form, flag, parts, orientation, color_code_map, mask_output):
     assert (orientation == "horizontal" or orientation == "vertical"), 'orientation must be "horizontal" or "vertical"'
 
     paw_width = paw_outlines_img.size[0]
@@ -463,7 +463,7 @@ def generateSpriteLine(output_map, paw_outlines_img, outline_color, flag, parts,
         flag_name = flag['name']
 
         key_name = flag_name.lower().replace(' ', '_').replace("'", '').replace('+', '').replace('-', '_').replace('/', '_').replace('\\', '_')
-        mask_key = '_' + orientation + '_' + str(frame_counter)
+        mask_key = form + '_' + orientation + '_' + str(frame_counter)
         key = key_name + mask_key
         if not key in output_map:
             output_map[key] = { 'flag_name': flag_name, 'part': part, 'orientation': orientation, 'mask_key': mask_key }
@@ -778,7 +778,7 @@ def generateSprite(in_img_filename, parts, category, form, colors_config, flags,
 
         frame_width = 0
         frame_height = 0
-        for key, value in generateSpriteLine(output_map, paw_outlines_img, outline_color, flag, new_parts, 'horizontal', color_code_map, mask_output).items():
+        for key, value in generateSpriteLine(output_map, paw_outlines_img, outline_color, form, flag, new_parts, 'horizontal', color_code_map, mask_output).items():
             output_flages_map[key] = value
             frame_width = value.size[0]
             frame_height = value.size[1]
@@ -792,7 +792,7 @@ def generateSprite(in_img_filename, parts, category, form, colors_config, flags,
 
         frame_width = 0
         frame_height = 0
-        for key, value in generateSpriteLine(output_map, paw_outlines_img, outline_color, flag, new_parts, 'vertical', color_code_map, mask_output).items():
+        for key, value in generateSpriteLine(output_map, paw_outlines_img, outline_color, form, flag, new_parts, 'vertical', color_code_map, mask_output).items():
             output_flages_map[key] = value
             frame_width = value.size[0]
             frame_height = value.size[1]

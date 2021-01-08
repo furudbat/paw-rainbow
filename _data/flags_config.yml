@@ -1,14 +1,5 @@
-categories:
-- pride
-- sexual
-- gender
-- relationship
-- romantic
-- sub_culture
-forms:
-- paw
-paw:
-  base_filename: ./paw.png
+canine:
+  base_filename: ./canine.png
   center:
     circle:
       horizontal:
@@ -27,9 +18,9 @@ paw:
       - '#5c285c'
     triangle:
       vertical:
+      - - '#858585'
       - - '#8c8c8c'
         - '#424242'
-      - - '#858585'
     vertical:
     - '#965696'
     - '#533953'
@@ -109,6 +100,105 @@ paw:
     vertical:
     - '#5f5fa0'
     - '#3333b3'
+categories:
+- pride
+- sexual
+- gender
+- relationship
+- romantic
+- sub_culture
+feline:
+  base_filename: ./feline.png
+  center:
+    circle:
+      horizontal:
+      - '#939393'
+      - '#4d4d4d'
+      vertical:
+      - '#939393'
+      - '#4d4d4d'
+    horizontal:
+    - '#894989'
+    - '#b939b9'
+    line:
+      vertical:
+      - '#763676'
+    triangle:
+      vertical:
+      - - '#4d4d4d'
+        - '#737373'
+      - - '#595959'
+    vertical:
+    - '#894989'
+    - '#ac2cac'
+    - '#763676'
+  extra_outline: '#1a1a1a'
+  left_part_1:
+    circle:
+      horizontal:
+      - '#939393'
+      vertical:
+      - '#939393'
+    horizontal:
+    - '#894949'
+    - '#b93939'
+    vertical:
+    - '#894949'
+    - '#ac2c2c'
+  left_part_2:
+    circle:
+      horizontal:
+      - '#939393'
+      vertical:
+      - '#939393'
+    horizontal:
+    - '#498949'
+    - '#39b939'
+    - '#498949'
+    - '#39b939'
+    vertical:
+    - '#498949'
+    - '#2cac2c'
+  outline: '#000000'
+  outlines:
+  - '#000000'
+  - '#1a1a1a'
+  parts:
+  - center
+  - left_part_1
+  - left_part_2
+  - right_part_1
+  - right_part_2
+  - whole
+  right_part_1:
+    circle:
+      horizontal:
+      - '#939393'
+      vertical:
+      - '#939393'
+    horizontal:
+    - '#498989'
+    - '#39b9b9'
+    vertical:
+    - '#498989'
+    - '#2cacac'
+  right_part_2:
+    circle:
+      horizontal:
+      - '#939393'
+      vertical:
+      - '#939393'
+    horizontal:
+    - '#494989'
+    - '#3939b9'
+    - '#494989'
+    - '#3939b9'
+    vertical:
+    - '#494989'
+    - '#2c2cac'
+forms:
+- canine
+- feline
 transparent_colors:
 - '#bfa88f'
 - '#ffff00'

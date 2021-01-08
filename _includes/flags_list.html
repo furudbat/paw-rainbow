@@ -23,7 +23,7 @@
         <div class="tab-content" id="nav-tabContent">
         {% for flag_info in site.data.flags_info %}
             <div class="tab-pane fade" id="list-{{- flag_info.id -}}" role="tabpanel" aria-labelledby="list-{{- flag_info.id -}}-list">
-                <div class="d-block mx-auto"><img src="{{- flag_info.img -}}" class="card-img-top flag-info-image flag_info_image" alt="{{ flag_info.name }} flag image"></div>
+                <div class="d-block mx-auto"><img src="{{- flag_info.img -}}" class="card-img-top flag-info-image flag_info_image" alt="{{ flag_info.name }} flag image" loading="lazy"></div>
                 <div class="card-body flag-info-body">
                     <h3 class="card-title flag_info_name">{{ flag_info.name }}</h3>
                     <p class="card-text flag_info_description">{{ flag_info.description }}</p>
