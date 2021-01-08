@@ -70853,12 +70853,14 @@ var Application = (function () {
     };
     Application.prototype.initFlagList = function () {
         return __awaiter(this, void 0, void 0, function () {
-            var options, id;
+            var pagination, options, id;
             return __generator(this, function (_a) {
+                pagination = site_value_1.LIST_JS_PAGINATION;
+                pagination[0].innerWindow = 3;
                 options = {
                     valueNames: ['flag_info_image', 'flag_info_name', 'flag_info_description'],
                     page: 8,
-                    pagination: site_value_1.LIST_JS_PAGINATION
+                    pagination: pagination
                 };
                 id = 'lstFlagInfo';
                 this._flagList = new list_js_1.default(id, options);
@@ -71898,19 +71900,18 @@ var FormPartsAdapter = (function () {
     FormPartsAdapter.prototype.getListItemValueOrientationHTML = function (orientation) {
         switch (orientation) {
             case sprite_data_1.Orientation.Horizontal:
-                return "<span class=\"orientation-container\">\n                    <i class=\"fas fa-bars\"></i><span class=\"sr-only\">" + site_1.site.data.strings.orientation.horizontal + "</span>\n                </span>";
+                return "<span class=\"orientation-container\">\n                    " + site_1.site.data.strings.orientation.horizontal_icon + "\n                </span>";
             case sprite_data_1.Orientation.Vertical:
-                return "<span class=\"orientation-container\">\n                    <i class=\"fas fa-bars fa-rotate-90\"></i><span class=\"sr-only\">" + site_1.site.data.strings.orientation.vertical + "</span>\n                </span>";
+                return "<span class=\"orientation-container\">\n                    " + site_1.site.data.strings.orientation.vertical_icon + "\n                </span>";
         }
     };
     FormPartsAdapter.prototype.getListItemValueFlipHTML = function (flip, orientation) {
         var flip_class = (flip) ? 'flipped' : '';
-        var icon = (flip) ? '<i class="fas fa-arrow-right"></i>' : '<i class="fas fa-arrow-left"></i>';
         switch (orientation) {
             case sprite_data_1.Orientation.Horizontal:
-                return "<span class=\"flip-container " + flip_class + "\">\n                    " + icon + "<span class=\"sr-only\">" + site_1.site.data.strings.flip.horizontal + "</span>\n                </span>";
+                return "<span class=\"flip-container " + flip_class + "\">\n                    " + site_1.site.data.strings.orientation.horizontal_flip_icon + "\n                </span>";
             case sprite_data_1.Orientation.Vertical:
-                return "<span class=\"flip-container " + flip_class + "\">\n                    " + icon + "<span class=\"sr-only\">" + site_1.site.data.strings.flip.vertical + "</span>\n                </span>";
+                return "<span class=\"flip-container " + flip_class + "\">\n                    " + site_1.site.data.strings.orientation.vertical_flip_icon + "\n                </span>";
         }
     };
     FormPartsAdapter.prototype.getSelectedPartHTML = function (form, part, selected_part, flip) {

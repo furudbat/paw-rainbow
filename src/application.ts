@@ -144,10 +144,12 @@ export class Application {
     }
 
     private async initFlagList() {
+        let pagination = LIST_JS_PAGINATION;
+        pagination[0].innerWindow = 3;
         const options: any /*List.ListOptions*/ = {
             valueNames: [ 'flag_info_image', 'flag_info_name', 'flag_info_description' ],
             page: 8,
-            pagination: LIST_JS_PAGINATION
+            pagination: pagination
         };
         const id = 'lstFlagInfo';
         this._flagList = new List(id, options);

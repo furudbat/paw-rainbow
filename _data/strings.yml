@@ -1,3 +1,5 @@
+designer:
+  title: Rainbow Paw Designer
 select_form:
   label: Forms
   paw: Paw
@@ -25,11 +27,12 @@ parts_list:
   filter_label: Filter Flags
 sprite:
   download: Download
-  full_download: Full Download
+  full_download: Download bigger version
   show_grid: Show Grid
   craws_color_label: Craws Color
   outlines_colors_label: Outlines Color
 flag_info:
+  title: Pride Flags List
   unknown:
     title: Unknown
     img: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAQCAYAAAB3AH1ZAAAAKElEQVR4nGOMjIz8zzCAgGkgLR91wKgDRh0w6oBRB4w6YNQBDAwMDAD0jgIqLFpokwAAAABJRU5ErkJggg==
@@ -47,6 +50,10 @@ color_palette:
 orientation:
   horizontal: Horizontal
   vertical: Vertical
+  horizontal_icon: <i class="fas fa-bars"></i><span class="sr-only">Horizontal</span>
+  vertical_icon: <i class="fas fa-bars fa-rotate-90"></i><span class="sr-only">Vertical</span>
+  horizontal_flip_icon: <i class="fas fa-arrow-right"></i><span class="sr-only">Horizontal</span>
+  vertical_flip_icon: <i class="fas fa-arrow-left"></i><span class="sr-only">Vertical</span>
 flip:
   horizontal: Flip Horizontal
   vertical: Flip Vertical

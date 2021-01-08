@@ -390,26 +390,25 @@ export class FormPartsAdapter {
         switch (orientation) {
             case Orientation.Horizontal:
                 return `<span class="orientation-container">
-                    <i class="fas fa-bars"></i><span class="sr-only">${site.data.strings.orientation.horizontal}</span>
+                    ${site.data.strings.orientation.horizontal_icon}
                 </span>`;
             case Orientation.Vertical:
                 return `<span class="orientation-container">
-                    <i class="fas fa-bars fa-rotate-90"></i><span class="sr-only">${site.data.strings.orientation.vertical}</span>
+                    ${site.data.strings.orientation.vertical_icon}
                 </span>`;
         }
     }
 
     private getListItemValueFlipHTML(flip: boolean, orientation: Orientation) {
         const flip_class = (flip)? 'flipped' : '';
-        const icon = (flip)? '<i class="fas fa-arrow-right"></i>' : '<i class="fas fa-arrow-left"></i>';
         switch (orientation) {
             case Orientation.Horizontal:
                 return `<span class="flip-container ${flip_class}">
-                    ${icon}<span class="sr-only">${site.data.strings.flip.horizontal}</span>
+                    ${site.data.strings.orientation.horizontal_flip_icon}
                 </span>`;
             case Orientation.Vertical:
                 return `<span class="flip-container ${flip_class}">
-                    ${icon}<span class="sr-only">${site.data.strings.flip.vertical}</span>
+                    ${site.data.strings.orientation.vertical_flip_icon}
                 </span>`;
         }
     }

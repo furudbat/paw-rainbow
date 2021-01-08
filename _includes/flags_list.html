@@ -1,5 +1,5 @@
-<div class="row mt-5">
-    <div class="col-3" id="lstFlagInfo">
+<div class="row">
+    <div class="col-2" id="lstFlagInfo">
         <div class="input-group">
             <div class="input-group-prepend">
                 <span class="input-group-text" id="searchHelpFlagInfo"><i class="fas fa-search d-inline"></i></span>
@@ -19,13 +19,13 @@
             </ul>
         </nav>
     </div>
-    <div class="col-5">
+    <div class="col-6 mt-3">
         <div class="tab-content" id="nav-tabContent">
         {% for flag_info in site.data.flags_info %}
             <div class="tab-pane fade" id="list-{{- flag_info.id -}}" role="tabpanel" aria-labelledby="list-{{- flag_info.id -}}-list">
                 <div class="d-block mx-auto"><img src="{{- flag_info.img -}}" class="card-img-top flag-info-image flag_info_image" alt="{{ flag_info.name }} flag image"></div>
                 <div class="card-body flag-info-body">
-                    <h5 class="card-title flag_info_name">{{ flag_info.name }}</h5>
+                    <h3 class="card-title flag_info_name">{{ flag_info.name }}</h3>
                     <p class="card-text flag_info_description">{{ flag_info.description }}</p>
                     <a href="{{- flag_info.link -}}" class="card-link flag_info_link" target="_blank" rel="noopener noreferrer">{{ site.data.strings.flag_info.source_label }}</a>
                 </div>

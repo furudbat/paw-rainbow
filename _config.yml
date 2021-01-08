@@ -23,6 +23,7 @@ baseurl: "/rainbow-paw-pads" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: furudbat
 github_username:  furudbat
+furaffinity_username: hircreacc
 author: FurudBat
 github_link: "https://github.com/furudbat/paw-rainbow"
 theme: jekyll-theme-midnight
