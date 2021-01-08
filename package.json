@@ -8,7 +8,7 @@
     "url": "https://github.com/furudbat/paw-rainbow.git"
   },
   "scripts": {
-    "build": "browserify src/main.ts -p [ tsify ] -t [ envify --NODE_ENV production ] -t unassertify -t uglifyify -p common-shakeify | uglifyjs -cm > ./assets/js/app/bundle.min.js",
+    "build": "browserify src/main.ts -p [ tsify ] -t [ envify --NODE_ENV production ] -t unassertify -t uglifyify -p common-shakeify | uglifyjs -m > ./assets/js/app/bundle.min.js",
     "build-dev": "browserify src/main.ts --debug -p [ tsify ] -t [ envify --NODE_ENV development ] | exorcist ./assets/js/app/bundle.js.map > ./assets/js/app/bundle.js",
     "start": "bundle exec jekyll serve",
     "start-prod": "JEKYLL_ENV=production bundle exec jekyll serve"

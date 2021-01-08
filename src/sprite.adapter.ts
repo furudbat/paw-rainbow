@@ -88,6 +88,11 @@ export class SpriteAdapter {
             const orientation = part_data.orientation ?? Orientation.Vertical;
             const flip = part_data.flip ?? false;
 
+            if(!part_data.flag_name) {
+                this.log.warn('updateParts', 'part_data.flag_name is empty, use default None');
+                this.log.debug('updateParts', {form, parts}, part_data);
+            }
+
             if (part_data !== undefined) {
                 this.setPart(form, part, part_data.flag_name ?? DEFAULT_FLAG_NAME_NONE, orientation, flip, false);
                 if (part in this._sprites && (part !== WHOLE_PART && !this._appData.currentSelectionShowWhole) || (part == WHOLE_PART && this._appData.currentSelectionShowWhole)) {

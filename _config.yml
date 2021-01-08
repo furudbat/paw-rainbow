@@ -16,9 +16,8 @@
 title: Rainbow Paw Pads
 email: "hircreacc@gmail.com"
 description: >- 
-  LGBT+ Pixel-Paws
-short_description: >- # this means to ignore newlines until "baseurl:"
-  LGBT+ Pixel-Paws
+  LGBT+ Pixel-Paws Designer
+short_description: 
 baseurl: "/rainbow-paw-pads" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: furudbat

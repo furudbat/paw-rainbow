@@ -76,7 +76,6 @@ export class ApplicationData {
                 this._currentSelectionParts[form][part] = new DataSubject<CurrentSelectionPart>(new CurrentSelectionPart());
             }
         }
-        this.log.debug('app data', this._currentSelectionPartsFilter, this._currentSelectionParts, this);
     }
 
     async loadFromStorage() {
@@ -97,14 +96,16 @@ export class ApplicationData {
                     for (const part of this.getPartsList(form)) {
                         const part_key = ApplicationData.getStorageKeyCurrentSelectionPart(form, part);
                         const part_filter_key = ApplicationData.getStorageKeyCurrentSelectionPartFilter(form, part);
+
+                        /// @NOTE: data is broken is prod code, "Cannot read property 'data' of undefined"
+                        /// uglifyjs seems to break strings ?, constants like "part" are wrong ... remove "-c" option from uglifyjs
         
-                        this._currentSelectionParts[form][part].data = await this._storeSession.getItem<CurrentSelectionPart>(part_key) ?? this._currentSelectionParts[form][part].data;
                         this._currentSelectionPartsFilter[form][part].data = await this._storeSession.getItem<string>(part_filter_key) ?? this._currentSelectionPartsFilter[form][part].data;
+                        this._currentSelectionParts[form][part].data = await this._storeSession.getItem<CurrentSelectionPart>(part_key) ?? this._currentSelectionParts[form][part].data;
                     }
                 }
 
                 this.log.debug('loadFromStorage', this._currentSelectionForm, this._currentSelectionParts, this._currentSelectionPartsFilter, this);
-                this.saveCurrentSelection();
             }
 
             this._version = site.version;
@@ -254,15 +255,17 @@ export class ApplicationData {
     }
 
     public initDefaultValues(form: string, default_flag_name: string) {
+        this.log.info('before initDefaultValues', this._currentSelectionParts, this);
+
         for(const part of this.getPartsList(form)) {
-            if (!this._currentSelectionParts[form][part].data.flag_name) {
+            if (this._currentSelectionParts[form][part].data.flag_name === '') {
                 this._currentSelectionParts[form][part].data.flag_name = default_flag_name;
                 this._currentSelectionParts[form][part].data.orientation = Orientation.Vertical;
             }
         }
         this.updateFormData(form);
 
-        this.log.debug('initDefaultValues', this._currentSelectionParts, this);
+        this.log.info('after initDefaultValues', this._currentSelectionParts, this);
         this.saveCurrentSelection();
     }
 

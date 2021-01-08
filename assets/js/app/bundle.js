@@ -71163,7 +71163,6 @@ var ApplicationData = (function () {
                 this._currentSelectionParts[form][part] = new observer_1.DataSubject(new CurrentSelectionPart());
             }
         }
-        this.log.debug('app data', this._currentSelectionPartsFilter, this._currentSelectionParts, this);
     }
     ApplicationData.getStorageKeyCurrentSelectionPart = function (form, part) {
         return STORAGE_KEY_CURRENT_SELECTION_PART + "_" + form + "_" + part;
@@ -71216,14 +71215,14 @@ var ApplicationData = (function () {
                         part = _s[_r];
                         part_key = ApplicationData.getStorageKeyCurrentSelectionPart(form, part);
                         part_filter_key = ApplicationData.getStorageKeyCurrentSelectionPartFilter(form, part);
-                        _t = this._currentSelectionParts[form][part];
-                        return [4, this._storeSession.getItem(part_key)];
-                    case 9:
-                        _t.data = (_g = _v.sent()) !== null && _g !== void 0 ? _g : this._currentSelectionParts[form][part].data;
-                        _u = this._currentSelectionPartsFilter[form][part];
+                        _t = this._currentSelectionPartsFilter[form][part];
                         return [4, this._storeSession.getItem(part_filter_key)];
+                    case 9:
+                        _t.data = (_g = _v.sent()) !== null && _g !== void 0 ? _g : this._currentSelectionPartsFilter[form][part].data;
+                        _u = this._currentSelectionParts[form][part];
+                        return [4, this._storeSession.getItem(part_key)];
                     case 10:
-                        _u.data = (_h = _v.sent()) !== null && _h !== void 0 ? _h : this._currentSelectionPartsFilter[form][part].data;
+                        _u.data = (_h = _v.sent()) !== null && _h !== void 0 ? _h : this._currentSelectionParts[form][part].data;
                         _v.label = 11;
                     case 11:
                         _r++;
@@ -71233,7 +71232,6 @@ var ApplicationData = (function () {
                         return [3, 7];
                     case 13:
                         this.log.debug('loadFromStorage', this._currentSelectionForm, this._currentSelectionParts, this._currentSelectionPartsFilter, this);
-                        this.saveCurrentSelection();
                         _v.label = 14;
                     case 14:
                         this._version = site_1.site.version;
@@ -71400,15 +71398,16 @@ var ApplicationData = (function () {
         this._storeSession.setItem(STORAGE_KEY_VERSION, this._version);
     };
     ApplicationData.prototype.initDefaultValues = function (form, default_flag_name) {
+        this.log.info('before initDefaultValues', this._currentSelectionParts, this);
         for (var _i = 0, _a = this.getPartsList(form); _i < _a.length; _i++) {
             var part = _a[_i];
-            if (!this._currentSelectionParts[form][part].data.flag_name) {
+            if (this._currentSelectionParts[form][part].data.flag_name === '') {
                 this._currentSelectionParts[form][part].data.flag_name = default_flag_name;
                 this._currentSelectionParts[form][part].data.orientation = sprite_data_1.Orientation.Vertical;
             }
         }
         this.updateFormData(form);
-        this.log.debug('initDefaultValues', this._currentSelectionParts, this);
+        this.log.info('after initDefaultValues', this._currentSelectionParts, this);
         this.saveCurrentSelection();
     };
     ApplicationData.prototype.setPartFlagName = function (form, part, flag_name) {
@@ -72605,6 +72604,10 @@ var SpriteAdapter = (function () {
             var part_data = parts[part];
             var orientation_1 = (_a = part_data.orientation) !== null && _a !== void 0 ? _a : sprite_data_1.Orientation.Vertical;
             var flip = (_b = part_data.flip) !== null && _b !== void 0 ? _b : false;
+            if (!part_data.flag_name) {
+                this.log.warn('updateParts', 'part_data.flag_name is empty, use default None');
+                this.log.debug('updateParts', { form: form, parts: parts }, part_data);
+            }
             if (part_data !== undefined) {
                 this.setPart(form, part, (_c = part_data.flag_name) !== null && _c !== void 0 ? _c : application_data_1.DEFAULT_FLAG_NAME_NONE, orientation_1, flip, false);
                 if (part in this._sprites && (part !== application_data_1.WHOLE_PART && !this._appData.currentSelectionShowWhole) || (part == application_data_1.WHOLE_PART && this._appData.currentSelectionShowWhole)) {
