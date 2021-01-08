@@ -2,11 +2,11 @@
     "frames": {
         "assets/img/sprites/romantic_paw/romantic_paw_aromantic_horizontal_0.png": {
             "flag_name": "Aromantic",
-            "part": "left_part_1",
+            "part": "center",
             "orientation": "horizontal",
             "mask_key": "_horizontal_0",
             "flags_fits": true,
-            "flags_fits_perfect": true,
+            "flags_fits_perfect": false,
             "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_0.png",
             "rotated": false,
             "trimmed": false,
@@ -31,11 +31,11 @@
         },
         "assets/img/sprites/romantic_paw/romantic_paw_aromantic_horizontal_1.png": {
             "flag_name": "Aromantic",
-            "part": "left_part_2",
+            "part": "left_part_1",
             "orientation": "horizontal",
             "mask_key": "_horizontal_1",
             "flags_fits": true,
-            "flags_fits_perfect": false,
+            "flags_fits_perfect": true,
             "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_1.png",
             "rotated": false,
             "trimmed": false,
@@ -60,7 +60,7 @@
         },
         "assets/img/sprites/romantic_paw/romantic_paw_aromantic_horizontal_2.png": {
             "flag_name": "Aromantic",
-            "part": "right_part_1",
+            "part": "left_part_2",
             "orientation": "horizontal",
             "mask_key": "_horizontal_2",
             "flags_fits": true,
@@ -89,11 +89,11 @@
         },
         "assets/img/sprites/romantic_paw/romantic_paw_aromantic_horizontal_3.png": {
             "flag_name": "Aromantic",
-            "part": "right_part_2",
+            "part": "right_part_1",
             "orientation": "horizontal",
             "mask_key": "_horizontal_3",
             "flags_fits": true,
-            "flags_fits_perfect": true,
+            "flags_fits_perfect": false,
             "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_3.png",
             "rotated": false,
             "trimmed": false,
@@ -118,11 +118,11 @@
         },
         "assets/img/sprites/romantic_paw/romantic_paw_aromantic_horizontal_4.png": {
             "flag_name": "Aromantic",
-            "part": "center",
+            "part": "right_part_2",
             "orientation": "horizontal",
             "mask_key": "_horizontal_4",
             "flags_fits": true,
-            "flags_fits_perfect": false,
+            "flags_fits_perfect": true,
             "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_4.png",
             "rotated": false,
             "trimmed": false,
@@ -176,10 +176,10 @@
         },
         "assets/img/sprites/romantic_paw/romantic_paw_aromantic_vertical_0.png": {
             "flag_name": "Aromantic",
-            "part": "left_part_1",
+            "part": "center",
             "orientation": "vertical",
             "mask_key": "_vertical_0",
-            "flags_fits": false,
+            "flags_fits": true,
             "flags_fits_perfect": false,
             "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png",
             "rotated": false,
@@ -205,7 +205,7 @@
         },
         "assets/img/sprites/romantic_paw/romantic_paw_aromantic_vertical_1.png": {
             "flag_name": "Aromantic",
-            "part": "left_part_2",
+            "part": "left_part_1",
             "orientation": "vertical",
             "mask_key": "_vertical_1",
             "flags_fits": false,
@@ -234,7 +234,7 @@
         },
         "assets/img/sprites/romantic_paw/romantic_paw_aromantic_vertical_2.png": {
             "flag_name": "Aromantic",
-            "part": "right_part_1",
+            "part": "left_part_2",
             "orientation": "vertical",
             "mask_key": "_vertical_2",
             "flags_fits": false,
@@ -263,7 +263,7 @@
         },
         "assets/img/sprites/romantic_paw/romantic_paw_aromantic_vertical_3.png": {
             "flag_name": "Aromantic",
-            "part": "right_part_2",
+            "part": "right_part_1",
             "orientation": "vertical",
             "mask_key": "_vertical_3",
             "flags_fits": false,
@@ -292,10 +292,10 @@
         },
         "assets/img/sprites/romantic_paw/romantic_paw_aromantic_vertical_4.png": {
             "flag_name": "Aromantic",
-            "part": "center",
+            "part": "right_part_2",
             "orientation": "vertical",
             "mask_key": "_vertical_4",
-            "flags_fits": true,
+            "flags_fits": false,
             "flags_fits_perfect": false,
             "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_4.png",
             "rotated": false,
@@ -348,12 +348,12 @@
             "id": "assets/img/sprites/romantic_paw/romantic_paw_aromantic_vertical_5.png",
             "filename": "assets/img/sprites/romantic_paw/romantic_paw_aromantic_vertical_5.png"
         },
-        "assets/img/sprites/romantic_paw/romantic_paw_demiromantic_horizontal_0.png": {
-            "flag_name": "Demiromantic",
-            "part": "left_part_1",
+        "assets/img/sprites/romantic_paw/romantic_paw_aromantic_spectrum_horizontal_0.png": {
+            "flag_name": "Aromantic Spectrum",
+            "part": "center",
             "orientation": "horizontal",
             "mask_key": "_horizontal_0",
-            "flags_fits": false,
+            "flags_fits": true,
             "flags_fits_perfect": false,
             "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_0.png",
             "rotated": false,
@@ -374,12 +374,12 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/romantic_paw/romantic_paw_demiromantic_horizontal_0.png",
-            "filename": "assets/img/sprites/romantic_paw/romantic_paw_demiromantic_horizontal_0.png"
+            "id": "assets/img/sprites/romantic_paw/romantic_paw_aromantic_spectrum_horizontal_0.png",
+            "filename": "assets/img/sprites/romantic_paw/romantic_paw_aromantic_spectrum_horizontal_0.png"
         },
-        "assets/img/sprites/romantic_paw/romantic_paw_demiromantic_horizontal_1.png": {
-            "flag_name": "Demiromantic",
-            "part": "left_part_2",
+        "assets/img/sprites/romantic_paw/romantic_paw_aromantic_spectrum_horizontal_1.png": {
+            "flag_name": "Aromantic Spectrum",
+            "part": "left_part_1",
             "orientation": "horizontal",
             "mask_key": "_horizontal_1",
             "flags_fits": false,
@@ -403,15 +403,15 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/romantic_paw/romantic_paw_demiromantic_horizontal_1.png",
-            "filename": "assets/img/sprites/romantic_paw/romantic_paw_demiromantic_horizontal_1.png"
+            "id": "assets/img/sprites/romantic_paw/romantic_paw_aromantic_spectrum_horizontal_1.png",
+            "filename": "assets/img/sprites/romantic_paw/romantic_paw_aromantic_spectrum_horizontal_1.png"
         },
-        "assets/img/sprites/romantic_paw/romantic_paw_demiromantic_horizontal_2.png": {
-            "flag_name": "Demiromantic",
-            "part": "right_part_1",
+        "assets/img/sprites/romantic_paw/romantic_paw_aromantic_spectrum_horizontal_2.png": {
+            "flag_name": "Aromantic Spectrum",
+            "part": "left_part_2",
             "orientation": "horizontal",
             "mask_key": "_horizontal_2",
-            "flags_fits": false,
+            "flags_fits": true,
             "flags_fits_perfect": false,
             "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_2.png",
             "rotated": false,
@@ -432,15 +432,15 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/romantic_paw/romantic_paw_demiromantic_horizontal_2.png",
-            "filename": "assets/img/sprites/romantic_paw/romantic_paw_demiromantic_horizontal_2.png"
+            "id": "assets/img/sprites/romantic_paw/romantic_paw_aromantic_spectrum_horizontal_2.png",
+            "filename": "assets/img/sprites/romantic_paw/romantic_paw_aromantic_spectrum_horizontal_2.png"
         },
-        "assets/img/sprites/romantic_paw/romantic_paw_demiromantic_horizontal_3.png": {
-            "flag_name": "Demiromantic",
-            "part": "right_part_2",
+        "assets/img/sprites/romantic_paw/romantic_paw_aromantic_spectrum_horizontal_3.png": {
+            "flag_name": "Aromantic Spectrum",
+            "part": "right_part_1",
             "orientation": "horizontal",
             "mask_key": "_horizontal_3",
-            "flags_fits": false,
+            "flags_fits": true,
             "flags_fits_perfect": false,
             "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_3.png",
             "rotated": false,
@@ -461,12 +461,12 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/romantic_paw/romantic_paw_demiromantic_horizontal_3.png",
-            "filename": "assets/img/sprites/romantic_paw/romantic_paw_demiromantic_horizontal_3.png"
+            "id": "assets/img/sprites/romantic_paw/romantic_paw_aromantic_spectrum_horizontal_3.png",
+            "filename": "assets/img/sprites/romantic_paw/romantic_paw_aromantic_spectrum_horizontal_3.png"
         },
-        "assets/img/sprites/romantic_paw/romantic_paw_demiromantic_horizontal_4.png": {
-            "flag_name": "Demiromantic",
-            "part": "center",
+        "assets/img/sprites/romantic_paw/romantic_paw_aromantic_spectrum_horizontal_4.png": {
+            "flag_name": "Aromantic Spectrum",
+            "part": "right_part_2",
             "orientation": "horizontal",
             "mask_key": "_horizontal_4",
             "flags_fits": false,
@@ -487,6 +487,354 @@
             "frame": {
                 "x": 88,
                 "y": 22,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/romantic_paw/romantic_paw_aromantic_spectrum_horizontal_4.png",
+            "filename": "assets/img/sprites/romantic_paw/romantic_paw_aromantic_spectrum_horizontal_4.png"
+        },
+        "assets/img/sprites/romantic_paw/romantic_paw_aromantic_spectrum_horizontal_5.png": {
+            "flag_name": "Aromantic Spectrum",
+            "part": "whole",
+            "orientation": "horizontal",
+            "mask_key": "_horizontal_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 110,
+                "y": 22,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/romantic_paw/romantic_paw_aromantic_spectrum_horizontal_5.png",
+            "filename": "assets/img/sprites/romantic_paw/romantic_paw_aromantic_spectrum_horizontal_5.png"
+        },
+        "assets/img/sprites/romantic_paw/romantic_paw_aromantic_spectrum_vertical_0.png": {
+            "flag_name": "Aromantic Spectrum",
+            "part": "center",
+            "orientation": "vertical",
+            "mask_key": "_vertical_0",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 132,
+                "y": 22,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/romantic_paw/romantic_paw_aromantic_spectrum_vertical_0.png",
+            "filename": "assets/img/sprites/romantic_paw/romantic_paw_aromantic_spectrum_vertical_0.png"
+        },
+        "assets/img/sprites/romantic_paw/romantic_paw_aromantic_spectrum_vertical_1.png": {
+            "flag_name": "Aromantic Spectrum",
+            "part": "left_part_1",
+            "orientation": "vertical",
+            "mask_key": "_vertical_1",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 154,
+                "y": 22,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/romantic_paw/romantic_paw_aromantic_spectrum_vertical_1.png",
+            "filename": "assets/img/sprites/romantic_paw/romantic_paw_aromantic_spectrum_vertical_1.png"
+        },
+        "assets/img/sprites/romantic_paw/romantic_paw_aromantic_spectrum_vertical_2.png": {
+            "flag_name": "Aromantic Spectrum",
+            "part": "left_part_2",
+            "orientation": "vertical",
+            "mask_key": "_vertical_2",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 176,
+                "y": 22,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/romantic_paw/romantic_paw_aromantic_spectrum_vertical_2.png",
+            "filename": "assets/img/sprites/romantic_paw/romantic_paw_aromantic_spectrum_vertical_2.png"
+        },
+        "assets/img/sprites/romantic_paw/romantic_paw_aromantic_spectrum_vertical_3.png": {
+            "flag_name": "Aromantic Spectrum",
+            "part": "right_part_1",
+            "orientation": "vertical",
+            "mask_key": "_vertical_3",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 198,
+                "y": 22,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/romantic_paw/romantic_paw_aromantic_spectrum_vertical_3.png",
+            "filename": "assets/img/sprites/romantic_paw/romantic_paw_aromantic_spectrum_vertical_3.png"
+        },
+        "assets/img/sprites/romantic_paw/romantic_paw_aromantic_spectrum_vertical_4.png": {
+            "flag_name": "Aromantic Spectrum",
+            "part": "right_part_2",
+            "orientation": "vertical",
+            "mask_key": "_vertical_4",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 220,
+                "y": 22,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/romantic_paw/romantic_paw_aromantic_spectrum_vertical_4.png",
+            "filename": "assets/img/sprites/romantic_paw/romantic_paw_aromantic_spectrum_vertical_4.png"
+        },
+        "assets/img/sprites/romantic_paw/romantic_paw_aromantic_spectrum_vertical_5.png": {
+            "flag_name": "Aromantic Spectrum",
+            "part": "whole",
+            "orientation": "vertical",
+            "mask_key": "_vertical_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 242,
+                "y": 22,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/romantic_paw/romantic_paw_aromantic_spectrum_vertical_5.png",
+            "filename": "assets/img/sprites/romantic_paw/romantic_paw_aromantic_spectrum_vertical_5.png"
+        },
+        "assets/img/sprites/romantic_paw/romantic_paw_demiromantic_horizontal_0.png": {
+            "flag_name": "Demiromantic",
+            "part": "center",
+            "orientation": "horizontal",
+            "mask_key": "_horizontal_0",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 0,
+                "y": 44,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/romantic_paw/romantic_paw_demiromantic_horizontal_0.png",
+            "filename": "assets/img/sprites/romantic_paw/romantic_paw_demiromantic_horizontal_0.png"
+        },
+        "assets/img/sprites/romantic_paw/romantic_paw_demiromantic_horizontal_1.png": {
+            "flag_name": "Demiromantic",
+            "part": "left_part_1",
+            "orientation": "horizontal",
+            "mask_key": "_horizontal_1",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 22,
+                "y": 44,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/romantic_paw/romantic_paw_demiromantic_horizontal_1.png",
+            "filename": "assets/img/sprites/romantic_paw/romantic_paw_demiromantic_horizontal_1.png"
+        },
+        "assets/img/sprites/romantic_paw/romantic_paw_demiromantic_horizontal_2.png": {
+            "flag_name": "Demiromantic",
+            "part": "left_part_2",
+            "orientation": "horizontal",
+            "mask_key": "_horizontal_2",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 44,
+                "y": 44,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/romantic_paw/romantic_paw_demiromantic_horizontal_2.png",
+            "filename": "assets/img/sprites/romantic_paw/romantic_paw_demiromantic_horizontal_2.png"
+        },
+        "assets/img/sprites/romantic_paw/romantic_paw_demiromantic_horizontal_3.png": {
+            "flag_name": "Demiromantic",
+            "part": "right_part_1",
+            "orientation": "horizontal",
+            "mask_key": "_horizontal_3",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 66,
+                "y": 44,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/romantic_paw/romantic_paw_demiromantic_horizontal_3.png",
+            "filename": "assets/img/sprites/romantic_paw/romantic_paw_demiromantic_horizontal_3.png"
+        },
+        "assets/img/sprites/romantic_paw/romantic_paw_demiromantic_horizontal_4.png": {
+            "flag_name": "Demiromantic",
+            "part": "right_part_2",
+            "orientation": "horizontal",
+            "mask_key": "_horizontal_4",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 88,
+                "y": 44,
                 "w": 22,
                 "h": 22
             },
@@ -515,7 +863,7 @@
             },
             "frame": {
                 "x": 110,
-                "y": 22,
+                "y": 44,
                 "w": 22,
                 "h": 22
             },
@@ -524,10 +872,10 @@
         },
         "assets/img/sprites/romantic_paw/romantic_paw_demiromantic_vertical_0.png": {
             "flag_name": "Demiromantic",
-            "part": "left_part_1",
+            "part": "center",
             "orientation": "vertical",
             "mask_key": "_vertical_0",
-            "flags_fits": false,
+            "flags_fits": true,
             "flags_fits_perfect": false,
             "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png",
             "rotated": false,
@@ -544,7 +892,7 @@
             },
             "frame": {
                 "x": 132,
-                "y": 22,
+                "y": 44,
                 "w": 22,
                 "h": 22
             },
@@ -553,7 +901,7 @@
         },
         "assets/img/sprites/romantic_paw/romantic_paw_demiromantic_vertical_1.png": {
             "flag_name": "Demiromantic",
-            "part": "left_part_2",
+            "part": "left_part_1",
             "orientation": "vertical",
             "mask_key": "_vertical_1",
             "flags_fits": false,
@@ -573,7 +921,7 @@
             },
             "frame": {
                 "x": 154,
-                "y": 22,
+                "y": 44,
                 "w": 22,
                 "h": 22
             },
@@ -582,7 +930,7 @@
         },
         "assets/img/sprites/romantic_paw/romantic_paw_demiromantic_vertical_2.png": {
             "flag_name": "Demiromantic",
-            "part": "right_part_1",
+            "part": "left_part_2",
             "orientation": "vertical",
             "mask_key": "_vertical_2",
             "flags_fits": false,
@@ -602,7 +950,7 @@
             },
             "frame": {
                 "x": 176,
-                "y": 22,
+                "y": 44,
                 "w": 22,
                 "h": 22
             },
@@ -611,7 +959,7 @@
         },
         "assets/img/sprites/romantic_paw/romantic_paw_demiromantic_vertical_3.png": {
             "flag_name": "Demiromantic",
-            "part": "right_part_2",
+            "part": "right_part_1",
             "orientation": "vertical",
             "mask_key": "_vertical_3",
             "flags_fits": false,
@@ -631,7 +979,7 @@
             },
             "frame": {
                 "x": 198,
-                "y": 22,
+                "y": 44,
                 "w": 22,
                 "h": 22
             },
@@ -640,10 +988,10 @@
         },
         "assets/img/sprites/romantic_paw/romantic_paw_demiromantic_vertical_4.png": {
             "flag_name": "Demiromantic",
-            "part": "center",
+            "part": "right_part_2",
             "orientation": "vertical",
             "mask_key": "_vertical_4",
-            "flags_fits": true,
+            "flags_fits": false,
             "flags_fits_perfect": false,
             "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_4.png",
             "rotated": false,
@@ -660,7 +1008,7 @@
             },
             "frame": {
                 "x": 220,
-                "y": 22,
+                "y": 44,
                 "w": 22,
                 "h": 22
             },
@@ -689,7 +1037,7 @@
             },
             "frame": {
                 "x": 242,
-                "y": 22,
+                "y": 44,
                 "w": 22,
                 "h": 22
             },
@@ -698,7 +1046,7 @@
         },
         "assets/img/sprites/romantic_paw/romantic_paw_autoromantic_horizontal_0.png": {
             "flag_name": "Autoromantic",
-            "part": "left_part_1",
+            "part": "center",
             "orientation": "horizontal",
             "mask_key": "_horizontal_0",
             "flags_fits": true,
@@ -718,7 +1066,7 @@
             },
             "frame": {
                 "x": 0,
-                "y": 44,
+                "y": 66,
                 "w": 22,
                 "h": 22
             },
@@ -727,7 +1075,7 @@
         },
         "assets/img/sprites/romantic_paw/romantic_paw_autoromantic_horizontal_1.png": {
             "flag_name": "Autoromantic",
-            "part": "left_part_2",
+            "part": "left_part_1",
             "orientation": "horizontal",
             "mask_key": "_horizontal_1",
             "flags_fits": true,
@@ -747,7 +1095,7 @@
             },
             "frame": {
                 "x": 22,
-                "y": 44,
+                "y": 66,
                 "w": 22,
                 "h": 22
             },
@@ -756,7 +1104,7 @@
         },
         "assets/img/sprites/romantic_paw/romantic_paw_autoromantic_horizontal_2.png": {
             "flag_name": "Autoromantic",
-            "part": "right_part_1",
+            "part": "left_part_2",
             "orientation": "horizontal",
             "mask_key": "_horizontal_2",
             "flags_fits": true,
@@ -776,7 +1124,7 @@
             },
             "frame": {
                 "x": 44,
-                "y": 44,
+                "y": 66,
                 "w": 22,
                 "h": 22
             },
@@ -785,7 +1133,7 @@
         },
         "assets/img/sprites/romantic_paw/romantic_paw_autoromantic_horizontal_3.png": {
             "flag_name": "Autoromantic",
-            "part": "right_part_2",
+            "part": "right_part_1",
             "orientation": "horizontal",
             "mask_key": "_horizontal_3",
             "flags_fits": true,
@@ -805,7 +1153,7 @@
             },
             "frame": {
                 "x": 66,
-                "y": 44,
+                "y": 66,
                 "w": 22,
                 "h": 22
             },
@@ -814,7 +1162,7 @@
         },
         "assets/img/sprites/romantic_paw/romantic_paw_autoromantic_horizontal_4.png": {
             "flag_name": "Autoromantic",
-            "part": "center",
+            "part": "right_part_2",
             "orientation": "horizontal",
             "mask_key": "_horizontal_4",
             "flags_fits": true,
@@ -834,7 +1182,7 @@
             },
             "frame": {
                 "x": 88,
-                "y": 44,
+                "y": 66,
                 "w": 22,
                 "h": 22
             },
@@ -863,7 +1211,7 @@
             },
             "frame": {
                 "x": 110,
-                "y": 44,
+                "y": 66,
                 "w": 22,
                 "h": 22
             },
@@ -872,7 +1220,7 @@
         },
         "assets/img/sprites/romantic_paw/romantic_paw_autoromantic_vertical_0.png": {
             "flag_name": "Autoromantic",
-            "part": "left_part_1",
+            "part": "center",
             "orientation": "vertical",
             "mask_key": "_vertical_0",
             "flags_fits": true,
@@ -892,7 +1240,7 @@
             },
             "frame": {
                 "x": 132,
-                "y": 44,
+                "y": 66,
                 "w": 22,
                 "h": 22
             },
@@ -901,7 +1249,7 @@
         },
         "assets/img/sprites/romantic_paw/romantic_paw_autoromantic_vertical_1.png": {
             "flag_name": "Autoromantic",
-            "part": "left_part_2",
+            "part": "left_part_1",
             "orientation": "vertical",
             "mask_key": "_vertical_1",
             "flags_fits": true,
@@ -921,7 +1269,7 @@
             },
             "frame": {
                 "x": 154,
-                "y": 44,
+                "y": 66,
                 "w": 22,
                 "h": 22
             },
@@ -930,7 +1278,7 @@
         },
         "assets/img/sprites/romantic_paw/romantic_paw_autoromantic_vertical_2.png": {
             "flag_name": "Autoromantic",
-            "part": "right_part_1",
+            "part": "left_part_2",
             "orientation": "vertical",
             "mask_key": "_vertical_2",
             "flags_fits": true,
@@ -950,7 +1298,7 @@
             },
             "frame": {
                 "x": 176,
-                "y": 44,
+                "y": 66,
                 "w": 22,
                 "h": 22
             },
@@ -959,7 +1307,7 @@
         },
         "assets/img/sprites/romantic_paw/romantic_paw_autoromantic_vertical_3.png": {
             "flag_name": "Autoromantic",
-            "part": "right_part_2",
+            "part": "right_part_1",
             "orientation": "vertical",
             "mask_key": "_vertical_3",
             "flags_fits": true,
@@ -979,7 +1327,7 @@
             },
             "frame": {
                 "x": 198,
-                "y": 44,
+                "y": 66,
                 "w": 22,
                 "h": 22
             },
@@ -988,7 +1336,7 @@
         },
         "assets/img/sprites/romantic_paw/romantic_paw_autoromantic_vertical_4.png": {
             "flag_name": "Autoromantic",
-            "part": "center",
+            "part": "right_part_2",
             "orientation": "vertical",
             "mask_key": "_vertical_4",
             "flags_fits": true,
@@ -1008,7 +1356,7 @@
             },
             "frame": {
                 "x": 220,
-                "y": 44,
+                "y": 66,
                 "w": 22,
                 "h": 22
             },
@@ -1037,7 +1385,7 @@
             },
             "frame": {
                 "x": 242,
-                "y": 44,
+                "y": 66,
                 "w": 22,
                 "h": 22
             },
@@ -1046,11 +1394,11 @@
         },
         "assets/img/sprites/romantic_paw/romantic_paw_andromantic_horizontal_0.png": {
             "flag_name": "Andromantic",
-            "part": "left_part_1",
+            "part": "center",
             "orientation": "horizontal",
             "mask_key": "_horizontal_0",
             "flags_fits": true,
-            "flags_fits_perfect": true,
+            "flags_fits_perfect": false,
             "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_0.png",
             "rotated": false,
             "trimmed": false,
@@ -1066,7 +1414,7 @@
             },
             "frame": {
                 "x": 0,
-                "y": 66,
+                "y": 88,
                 "w": 22,
                 "h": 22
             },
@@ -1075,11 +1423,11 @@
         },
         "assets/img/sprites/romantic_paw/romantic_paw_andromantic_horizontal_1.png": {
             "flag_name": "Andromantic",
-            "part": "left_part_2",
+            "part": "left_part_1",
             "orientation": "horizontal",
             "mask_key": "_horizontal_1",
             "flags_fits": true,
-            "flags_fits_perfect": false,
+            "flags_fits_perfect": true,
             "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_1.png",
             "rotated": false,
             "trimmed": false,
@@ -1095,7 +1443,7 @@
             },
             "frame": {
                 "x": 22,
-                "y": 66,
+                "y": 88,
                 "w": 22,
                 "h": 22
             },
@@ -1104,7 +1452,7 @@
         },
         "assets/img/sprites/romantic_paw/romantic_paw_andromantic_horizontal_2.png": {
             "flag_name": "Andromantic",
-            "part": "right_part_1",
+            "part": "left_part_2",
             "orientation": "horizontal",
             "mask_key": "_horizontal_2",
             "flags_fits": true,
@@ -1124,7 +1472,7 @@
             },
             "frame": {
                 "x": 44,
-                "y": 66,
+                "y": 88,
                 "w": 22,
                 "h": 22
             },
@@ -1133,11 +1481,11 @@
         },
         "assets/img/sprites/romantic_paw/romantic_paw_andromantic_horizontal_3.png": {
             "flag_name": "Andromantic",
-            "part": "right_part_2",
+            "part": "right_part_1",
             "orientation": "horizontal",
             "mask_key": "_horizontal_3",
             "flags_fits": true,
-            "flags_fits_perfect": true,
+            "flags_fits_perfect": false,
             "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_3.png",
             "rotated": false,
             "trimmed": false,
@@ -1153,7 +1501,7 @@
             },
             "frame": {
                 "x": 66,
-                "y": 66,
+                "y": 88,
                 "w": 22,
                 "h": 22
             },
@@ -1162,11 +1510,11 @@
         },
         "assets/img/sprites/romantic_paw/romantic_paw_andromantic_horizontal_4.png": {
             "flag_name": "Andromantic",
-            "part": "center",
+            "part": "right_part_2",
             "orientation": "horizontal",
             "mask_key": "_horizontal_4",
             "flags_fits": true,
-            "flags_fits_perfect": false,
+            "flags_fits_perfect": true,
             "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_4.png",
             "rotated": false,
             "trimmed": false,
@@ -1182,7 +1530,7 @@
             },
             "frame": {
                 "x": 88,
-                "y": 66,
+                "y": 88,
                 "w": 22,
                 "h": 22
             },
@@ -1211,7 +1559,7 @@
             },
             "frame": {
                 "x": 110,
-                "y": 66,
+                "y": 88,
                 "w": 22,
                 "h": 22
             },
@@ -1220,10 +1568,10 @@
         },
         "assets/img/sprites/romantic_paw/romantic_paw_andromantic_vertical_0.png": {
             "flag_name": "Andromantic",
-            "part": "left_part_1",
+            "part": "center",
             "orientation": "vertical",
             "mask_key": "_vertical_0",
-            "flags_fits": false,
+            "flags_fits": true,
             "flags_fits_perfect": false,
             "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png",
             "rotated": false,
@@ -1240,7 +1588,7 @@
             },
             "frame": {
                 "x": 132,
-                "y": 66,
+                "y": 88,
                 "w": 22,
                 "h": 22
             },
@@ -1249,7 +1597,7 @@
         },
         "assets/img/sprites/romantic_paw/romantic_paw_andromantic_vertical_1.png": {
             "flag_name": "Andromantic",
-            "part": "left_part_2",
+            "part": "left_part_1",
             "orientation": "vertical",
             "mask_key": "_vertical_1",
             "flags_fits": false,
@@ -1269,7 +1617,7 @@
             },
             "frame": {
                 "x": 154,
-                "y": 66,
+                "y": 88,
                 "w": 22,
                 "h": 22
             },
@@ -1278,7 +1626,7 @@
         },
         "assets/img/sprites/romantic_paw/romantic_paw_andromantic_vertical_2.png": {
             "flag_name": "Andromantic",
-            "part": "right_part_1",
+            "part": "left_part_2",
             "orientation": "vertical",
             "mask_key": "_vertical_2",
             "flags_fits": false,
@@ -1298,7 +1646,7 @@
             },
             "frame": {
                 "x": 176,
-                "y": 66,
+                "y": 88,
                 "w": 22,
                 "h": 22
             },
@@ -1307,7 +1655,7 @@
         },
         "assets/img/sprites/romantic_paw/romantic_paw_andromantic_vertical_3.png": {
             "flag_name": "Andromantic",
-            "part": "right_part_2",
+            "part": "right_part_1",
             "orientation": "vertical",
             "mask_key": "_vertical_3",
             "flags_fits": false,
@@ -1327,7 +1675,7 @@
             },
             "frame": {
                 "x": 198,
-                "y": 66,
+                "y": 88,
                 "w": 22,
                 "h": 22
             },
@@ -1336,10 +1684,10 @@
         },
         "assets/img/sprites/romantic_paw/romantic_paw_andromantic_vertical_4.png": {
             "flag_name": "Andromantic",
-            "part": "center",
+            "part": "right_part_2",
             "orientation": "vertical",
             "mask_key": "_vertical_4",
-            "flags_fits": true,
+            "flags_fits": false,
             "flags_fits_perfect": false,
             "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_4.png",
             "rotated": false,
@@ -1356,7 +1704,7 @@
             },
             "frame": {
                 "x": 220,
-                "y": 66,
+                "y": 88,
                 "w": 22,
                 "h": 22
             },
@@ -1385,7 +1733,7 @@
             },
             "frame": {
                 "x": 242,
-                "y": 66,
+                "y": 88,
                 "w": 22,
                 "h": 22
             },
@@ -1394,11 +1742,11 @@
         },
         "assets/img/sprites/romantic_paw/romantic_paw_myrromantic_horizontal_0.png": {
             "flag_name": "Myrromantic",
-            "part": "left_part_1",
+            "part": "center",
             "orientation": "horizontal",
             "mask_key": "_horizontal_0",
-            "flags_fits": false,
-            "flags_fits_perfect": false,
+            "flags_fits": true,
+            "flags_fits_perfect": true,
             "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_0.png",
             "rotated": false,
             "trimmed": false,
@@ -1414,7 +1762,7 @@
             },
             "frame": {
                 "x": 0,
-                "y": 88,
+                "y": 110,
                 "w": 22,
                 "h": 22
             },
@@ -1423,10 +1771,10 @@
         },
         "assets/img/sprites/romantic_paw/romantic_paw_myrromantic_horizontal_1.png": {
             "flag_name": "Myrromantic",
-            "part": "left_part_2",
+            "part": "left_part_1",
             "orientation": "horizontal",
             "mask_key": "_horizontal_1",
-            "flags_fits": true,
+            "flags_fits": false,
             "flags_fits_perfect": false,
             "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_1.png",
             "rotated": false,
@@ -1443,7 +1791,7 @@
             },
             "frame": {
                 "x": 22,
-                "y": 88,
+                "y": 110,
                 "w": 22,
                 "h": 22
             },
@@ -1452,7 +1800,7 @@
         },
         "assets/img/sprites/romantic_paw/romantic_paw_myrromantic_horizontal_2.png": {
             "flag_name": "Myrromantic",
-            "part": "right_part_1",
+            "part": "left_part_2",
             "orientation": "horizontal",
             "mask_key": "_horizontal_2",
             "flags_fits": true,
@@ -1472,7 +1820,7 @@
             },
             "frame": {
                 "x": 44,
-                "y": 88,
+                "y": 110,
                 "w": 22,
                 "h": 22
             },
@@ -1481,10 +1829,10 @@
         },
         "assets/img/sprites/romantic_paw/romantic_paw_myrromantic_horizontal_3.png": {
             "flag_name": "Myrromantic",
-            "part": "right_part_2",
+            "part": "right_part_1",
             "orientation": "horizontal",
             "mask_key": "_horizontal_3",
-            "flags_fits": false,
+            "flags_fits": true,
             "flags_fits_perfect": false,
             "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_3.png",
             "rotated": false,
@@ -1501,7 +1849,7 @@
             },
             "frame": {
                 "x": 66,
-                "y": 88,
+                "y": 110,
                 "w": 22,
                 "h": 22
             },
@@ -1510,11 +1858,11 @@
         },
         "assets/img/sprites/romantic_paw/romantic_paw_myrromantic_horizontal_4.png": {
             "flag_name": "Myrromantic",
-            "part": "center",
+            "part": "right_part_2",
             "orientation": "horizontal",
             "mask_key": "_horizontal_4",
-            "flags_fits": true,
-            "flags_fits_perfect": true,
+            "flags_fits": false,
+            "flags_fits_perfect": false,
             "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_4.png",
             "rotated": false,
             "trimmed": false,
@@ -1530,7 +1878,7 @@
             },
             "frame": {
                 "x": 88,
-                "y": 88,
+                "y": 110,
                 "w": 22,
                 "h": 22
             },
@@ -1559,7 +1907,7 @@
             },
             "frame": {
                 "x": 110,
-                "y": 88,
+                "y": 110,
                 "w": 22,
                 "h": 22
             },
@@ -1568,10 +1916,10 @@
         },
         "assets/img/sprites/romantic_paw/romantic_paw_myrromantic_vertical_0.png": {
             "flag_name": "Myrromantic",
-            "part": "left_part_1",
+            "part": "center",
             "orientation": "vertical",
             "mask_key": "_vertical_0",
-            "flags_fits": false,
+            "flags_fits": true,
             "flags_fits_perfect": false,
             "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png",
             "rotated": false,
@@ -1588,7 +1936,7 @@
             },
             "frame": {
                 "x": 132,
-                "y": 88,
+                "y": 110,
                 "w": 22,
                 "h": 22
             },
@@ -1597,7 +1945,7 @@
         },
         "assets/img/sprites/romantic_paw/romantic_paw_myrromantic_vertical_1.png": {
             "flag_name": "Myrromantic",
-            "part": "left_part_2",
+            "part": "left_part_1",
             "orientation": "vertical",
             "mask_key": "_vertical_1",
             "flags_fits": false,
@@ -1617,7 +1965,7 @@
             },
             "frame": {
                 "x": 154,
-                "y": 88,
+                "y": 110,
                 "w": 22,
                 "h": 22
             },
@@ -1626,7 +1974,7 @@
         },
         "assets/img/sprites/romantic_paw/romantic_paw_myrromantic_vertical_2.png": {
             "flag_name": "Myrromantic",
-            "part": "right_part_1",
+            "part": "left_part_2",
             "orientation": "vertical",
             "mask_key": "_vertical_2",
             "flags_fits": false,
@@ -1646,7 +1994,7 @@
             },
             "frame": {
                 "x": 176,
-                "y": 88,
+                "y": 110,
                 "w": 22,
                 "h": 22
             },
@@ -1655,7 +2003,7 @@
         },
         "assets/img/sprites/romantic_paw/romantic_paw_myrromantic_vertical_3.png": {
             "flag_name": "Myrromantic",
-            "part": "right_part_2",
+            "part": "right_part_1",
             "orientation": "vertical",
             "mask_key": "_vertical_3",
             "flags_fits": false,
@@ -1675,7 +2023,7 @@
             },
             "frame": {
                 "x": 198,
-                "y": 88,
+                "y": 110,
                 "w": 22,
                 "h": 22
             },
@@ -1684,10 +2032,10 @@
         },
         "assets/img/sprites/romantic_paw/romantic_paw_myrromantic_vertical_4.png": {
             "flag_name": "Myrromantic",
-            "part": "center",
+            "part": "right_part_2",
             "orientation": "vertical",
             "mask_key": "_vertical_4",
-            "flags_fits": true,
+            "flags_fits": false,
             "flags_fits_perfect": false,
             "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_4.png",
             "rotated": false,
@@ -1704,7 +2052,7 @@
             },
             "frame": {
                 "x": 220,
-                "y": 88,
+                "y": 110,
                 "w": 22,
                 "h": 22
             },
@@ -1733,7 +2081,7 @@
             },
             "frame": {
                 "x": 242,
-                "y": 88,
+                "y": 110,
                 "w": 22,
                 "h": 22
             },
@@ -1744,7 +2092,7 @@
     "meta": {
         "size": {
             "w": 264,
-            "h": 110
+            "h": 132
         },
         "image": "romantic_paw.png",
         "format": "RGBA8888",

@@ -1,3 +1,25 @@
+- name: Woman/Female
+  colors:
+    - '#fe8dbf'
+    - '#fec6de'
+    - '#FFFFFF'
+    - '#fec6de'
+    - '#fe8dbf'
+  link: https://lgbta.wikia.org/wiki/Woman
+- name: Man/Male
+  colors:
+    - '#74dfff'
+    - '#cdf5fe'
+    - '#FFFFFF'
+    - '#cdf5fe'
+    - '#74dfff'
+  link: https://lgbta.wikia.org/wiki/Man
+- name: Cisgender
+  colors:
+    - '#bfbfbf'
+    - '#e0dcdd'
+    - '#bfbfbf'
+  link: https://lgbta.wikia.org/wiki/Cisgender
 - name: Agender
   colors:
     - '#010001'
@@ -7,7 +29,7 @@
     - '#FFFFFF'
     - '#b9b9b9'
     - '#010001'
-  link: https://lgbta.wikia.org/wiki/Agender
+  link: https://nonbinary.wiki/wiki/Agender
 - name: Androgynous 
   colors:
     - '#9b979e'
@@ -26,12 +48,14 @@
     - '#eaaeba'
     - '#7ccdf6'
   link: https://lgbta.wikia.org/wiki/Transgender
+  img: https://upload.wikimedia.org/wikipedia/commons/b/b0/Transgender_Pride_flag.svg
 - name: Genderqueer 
   colors:
     - '#b39bd9'
     - '#ffffff'
     - '#738d46'
-  link: https://lgbta.wikia.org/wiki/Genderqueer
+  link: https://nonbinary.wiki/wiki/Genderqueer
+  img: https://upload.wikimedia.org/wikipedia/commons/1/1f/Genderqueer_Pride_Flag.svg
 - name: Genderfluid 
   colors:
     - '#ed7ea3'
@@ -39,14 +63,16 @@
     - '#af30d0'
     - '#010001'
     - '#313fb8'
-  link: https://lgbta.wikia.org/wiki/Genderfluid
+  link: https://nonbinary.wiki/wiki/Genderfluid
+  img: https://upload.wikimedia.org/wikipedia/commons/b/b8/Genderfluidity_Pride-Flag.svg
 - name: Non-Binary 
   colors:
     - '#fdf35e'
     - '#ffffff'
     - '#915fc9'
     - '#2d2d2d'
-  link: https://lgbta.wikia.org/wiki/Non-Binary
+  link: https://nonbinary.wiki/wiki/Nonbinary
+  img: https://upload.wikimedia.org/wikipedia/commons/7/75/Nonbinary_flag.svg
 - name: Demigender
   colors:
     - '#7e7f7f'
@@ -92,7 +118,15 @@
     - '#ffffff'
     - '#36ab4f'
     - '#010001'
-  link: https://lgbta.wikia.org/wiki/Neutrois
+  link: https://nonbinary.wiki/wiki/Neutrois
+- name: Gender neutral
+  colors:
+    - '#21b14c'
+    - '#c0f68e'
+    - '#ffffff'
+    - '#fbfd96'
+    - '#fbf030'
+  link: https://nonbinary.wiki/wiki/Gender_neutral
 - name: Pangender
   colors:
     - '#f43a61'
@@ -103,7 +137,7 @@
     - '#fdcfff'
     - '#ffc3a9'
     - '#fff484'
-  link: https://lgbta.wikia.org/wiki/Pangender
+  link: https://nonbinary.wiki/wiki/Pangender
 - name: Bigender
   colors:
     - '#c479a0'
@@ -113,7 +147,7 @@
     - '#d6c7e7'
     - '#eda5cb'
     - '#c479a0'
-  link: https://lgbta.wikia.org/wiki/Bigender
+  link: https://nonbinary.wiki/wiki/Bigender
 - name: Polygender
   colors:
     - '#010001'
@@ -121,7 +155,7 @@
     - '#ed93c6'
     - '#f6ec82'
     - '#64bae7'
-  link: https://lgbta.wikia.org/wiki/Polygender
+  link: https://nonbinary.wiki/wiki/Polygender
 - name: Alexigender
   colors:
     - '#7d04ec'
@@ -129,14 +163,6 @@
     - '#5400d3'
     - '#010001'
   link: https://lgbta.wikia.org/wiki/Alexigender
-- name: Genderfluid
-  colors:
-    - '#f3759c'
-    - '#ffffff'
-    - '#8b4e9f'
-    - '#010001'
-    - '#3b50a5'
-  link: https://lgbta.wikia.org/wiki/Genderfluid
 - name: Gender Questioning
   colors:
     - '#ff98bd'
@@ -156,13 +182,14 @@
   colors:
     - '#fed800'
   circle: '#7902ac'
-  link: https://lgbta.wikia.org/wiki/Intersex
+  link: https://nonbinary.wiki/wiki/Intersex
+  img: https://upload.wikimedia.org/wikipedia/commons/3/38/Intersex_Pride_Flag.svg
 - name: Maverique
   colors:
     - '#fef333'
     - '#ffffff'
     - '#f39622'
-  link: https://lgbta.wikia.org/wiki/Maverique
+  link: https://nonbinary.wiki/wiki/Maverique
 - name: Trigender
   colors:
     - '#ff94c5'
@@ -170,4 +197,10 @@
     - '#68d867'
     - '#9680ff'
     - '#ff94c5'
-  link: https://lgbta.wikia.org/wiki/Trigender
+  link: https://nonbinary.wiki/wiki/Trigender
+- name: Neopronouns
+  colors:
+    - '#bdec63'
+    - '#fdffff'
+    - '#38087a'
+  link: https://lgbta.wikia.org/wiki/Neopronouns

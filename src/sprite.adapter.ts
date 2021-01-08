@@ -1,6 +1,6 @@
 import { Container, Sprite, Application as PixiApplication, LoaderResource } from 'pixi.js';
 import { LoggerManager } from 'typescript-logger';
-import { ApplicationData, CurrentSelectionPart, Settings, WHOLE_PART, DEFAULT_FLAG_NAME_NONE, DEFAULT_CRAWS_COLOR, DEFAULT_OUTLINE_COLOR, CurrentSelectionForm, ImagePaletteData } from './data/application.data';
+import { ApplicationData, CurrentSelectionPart, Settings, WHOLE_PART, DEFAULT_FLAG_NAME_NONE, DEFAULT_CRAWS_COLOR, DEFAULT_OUTLINE_COLOR, CurrentSelectionForm, ImagePaletteData, ENABLE_FLIP_FEATURE } from './data/application.data';
 import { Orientation, SpriteData } from "./data/sprite.data";
 import { DataObserver, DataSubject } from './observer';
 import { site } from './site';
@@ -74,7 +74,7 @@ export class SpriteAdapter {
     }
 
     public updatePart(form: string, part: string, part_data: CurrentSelectionPart) {
-        this.setPart(form, part_data.flag_name ?? DEFAULT_FLAG_NAME_NONE, part, part_data.orientation ?? Orientation.Vertical, false);
+        this.setPart(form, part, part_data.flag_name ?? DEFAULT_FLAG_NAME_NONE, part_data.orientation, part_data.flip, false);
 
         this.updateSprite();
         this.updateDownloadButton();
@@ -84,11 +84,12 @@ export class SpriteAdapter {
     public updateParts(form: string, parts: Record<string, CurrentSelectionPart>) {
         this._parts_container.removeChildren();
         for(const part of Object.keys(parts)) {
-            const part_data = (part in parts)? parts[part] : undefined;
-            const orientation = part_data?.orientation ?? Orientation.Vertical;
+            const part_data = parts[part];
+            const orientation = part_data.orientation ?? Orientation.Vertical;
+            const flip = part_data.flip ?? false;
 
             if (part_data !== undefined) {
-                this.setPart(form, part_data.flag_name ?? DEFAULT_FLAG_NAME_NONE, part, orientation, false);
+                this.setPart(form, part, part_data.flag_name ?? DEFAULT_FLAG_NAME_NONE, orientation, flip, false);
                 if (part in this._sprites && (part !== WHOLE_PART && !this._appData.currentSelectionShowWhole) || (part == WHOLE_PART && this._appData.currentSelectionShowWhole)) {
                     this._parts_container.addChild(this._sprites[part]);
                 }
@@ -97,14 +98,14 @@ export class SpriteAdapter {
             }
 
             if (this._appData.settings.craws_color) {
-                const craws_sprite = this.setCraws(form, part, orientation, this._appData.settings.craws_color);
+                const craws_sprite = this.setCraws(form, part, orientation, flip, this._appData.settings.craws_color, false);
                 if (craws_sprite) {
                     this._parts_container.addChild(craws_sprite);
                 }
             }
 
             if (this._appData.settings.outline_color) {
-                const outline_sprite = this.setOutline(form, part, orientation, this._appData.settings.outline_color);
+                const outline_sprite = this.setOutline(form, part, orientation, flip, this._appData.settings.outline_color, false);
                 if (outline_sprite) {
                     this._parts_container.addChild(outline_sprite);
                 }
@@ -146,18 +147,18 @@ export class SpriteAdapter {
         };
     }
 
-    public setPart(form: string, flag_name: string, part: string, orientation: Orientation, update_sprite: boolean = true) {
+    public setPart(form: string, part: string, flag_name: string, orientation: Orientation, flip: boolean, update_sprite: boolean = true) {
         if (this._resources !== undefined) {
             const sprite_data = site.data.sprites.find(it => it.flag_name == flag_name && it.form == form && it.part == part && it.orientation == orientation);
-            this.setPartSprite(sprite_data, form, flag_name, part, orientation, update_sprite);
+            this.setPartSprite(sprite_data, form, flag_name, part, orientation, flip, update_sprite);
         }
     }
 
-    public setCraws(form: string, part: string, orientation: Orientation, color: string = DEFAULT_CRAWS_COLOR, update_sprite: boolean = true) {
+    public setCraws(form: string, part: string, orientation: Orientation, flip: boolean, color: string = DEFAULT_CRAWS_COLOR, update_sprite: boolean = true) {
         if (this._resources !== undefined) {
             const craws_sprite_data = site.data.sprites.find(it => it.craws && it.form == form && it.part == part && it.orientation == orientation);
             if(craws_sprite_data !== undefined) {
-                let ret = this.setSpriteTexture(this.CRAWS_SPRITE_NAME, craws_sprite_data, update_sprite);
+                let ret = this.setSpriteTexture(this.CRAWS_SPRITE_NAME, craws_sprite_data, orientation, flip, update_sprite);
                 if (ret) {
                     ret.tint = parseInt("0x"+tinycolor(color).toHex());
                 }
@@ -170,11 +171,11 @@ export class SpriteAdapter {
         return undefined;
     }
 
-    public setOutline(form: string, part: string, orientation: Orientation, color: string = DEFAULT_OUTLINE_COLOR, update_sprite: boolean = true) {
+    public setOutline(form: string, part: string, orientation: Orientation, flip: boolean, color: string = DEFAULT_OUTLINE_COLOR, update_sprite: boolean = true) {
         if (this._resources !== undefined) {
             const outlines_sprite_data = site.data.sprites.find(it => it.outlines && it.form == form && it.part == part && it.orientation == orientation);
             if(outlines_sprite_data !== undefined) {
-                let ret = this.setSpriteTexture(this.OUTLINE_SPRITE_NAME, outlines_sprite_data, update_sprite);
+                let ret = this.setSpriteTexture(this.OUTLINE_SPRITE_NAME, outlines_sprite_data, orientation, flip, update_sprite);
                 if (ret) {
                     ret.tint = parseInt("0x"+tinycolor(color).toHex());
                 }
@@ -222,10 +223,10 @@ export class SpriteAdapter {
         });
     }
 
-    private setPartSprite(sprite_data: SpriteData | undefined, form: string, flag_name: string, part: string, orientation: Orientation, update_sprite: boolean = true) {
+    private setPartSprite(sprite_data: SpriteData | undefined, form: string, flag_name: string, part: string, orientation: Orientation, flip: boolean, update_sprite: boolean = true) {
         if (this._resources !== undefined) {
             if (sprite_data !== undefined) {
-                return this.setSpriteTexture(part, sprite_data, update_sprite)
+                return this.setSpriteTexture(part, sprite_data, orientation, flip, update_sprite)
             } else {
                 this.clearSpriteTexture(part);
                 this.log.warn('setPart', `${flag_name} ${part} ${orientation} not found in meta`);
@@ -242,7 +243,7 @@ export class SpriteAdapter {
         }
     }
 
-    private setSpriteTexture(sprite_name: string, sprite_data: SpriteData, update_sprite: boolean = true) {
+    private setSpriteTexture(sprite_name: string, sprite_data: SpriteData, orientation: Orientation, flip: boolean, update_sprite: boolean = true) {
         if (this._resources !== undefined) {
             const resource = this._resources[sprite_data.sheet];
             if (resource != undefined && resource.textures !== undefined) {
@@ -255,11 +256,30 @@ export class SpriteAdapter {
                 }
                 this._sprites[sprite_name].texture.baseTexture.scaleMode = PIXI.SCALE_MODES.NEAREST;
 
+                if (ENABLE_FLIP_FEATURE) {
+                    this._sprites[sprite_name].scale.x = 1;
+                    this._sprites[sprite_name].scale.y = 1;
+                    this._sprites[sprite_name].anchor.x = 0.5;
+                    this._sprites[sprite_name].anchor.y = 0.5;
+                    switch(orientation) {
+                        case Orientation.Horizontal:
+                            this._sprites[sprite_name].scale.x = (flip)? -1 : 1;
+                            break;
+                        case Orientation.Vertical:
+                            this._sprites[sprite_name].scale.y = (flip)? -1 : 1;
+                            break;
+                    }
+                    this._sprites[sprite_name].x = this._sprites[sprite_name].width/2;
+                    this._sprites[sprite_name].y = this._sprites[sprite_name].height/2;
+                }
+
                 if (update_sprite) {
                     this.updateSprite();
                 }
                 this._sprites[sprite_name].texture.baseTexture.update();
                 this._sprites[sprite_name].texture.update();
+
+                this.log.debug('setSpriteTexture', {sprite_name, orientation, flip, update_sprite}, this._sprites[sprite_name]);
 
                 return this._sprites[sprite_name];
             } else {

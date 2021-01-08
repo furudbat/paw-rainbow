@@ -20,6 +20,8 @@ export const WHOLE_PART = 'whole';
 export const DEFAULT_CRAWS_COLOR = '#FFFFFF';
 export const DEFAULT_OUTLINE_COLOR = '#000000';
 
+export const ENABLE_FLIP_FEATURE = false;
+
 export enum Theme {
     Light = "light",
     Dark = "dark"
@@ -33,6 +35,7 @@ export class Settings {
 export class CurrentSelectionPart {
     flag_name: string = DEFAULT_FLAG_NAME_NONE;
     orientation: Orientation = Orientation.Vertical;
+    flip: boolean = false;
 }
 
 export class CurrentSelectionForm {
@@ -99,11 +102,13 @@ export class ApplicationData {
                         this._currentSelectionPartsFilter[form][part].data = await this._storeSession.getItem<string>(part_filter_key) ?? this._currentSelectionPartsFilter[form][part].data;
                     }
                 }
+
+                this.log.debug('loadFromStorage', this._currentSelectionForm, this._currentSelectionParts, this._currentSelectionPartsFilter, this);
+                this.saveCurrentSelection();
             }
 
             this._version = site.version;
             this._storeSession.setItem<string>(STORAGE_KEY_VERSION, this._version);
-            this.saveCurrentSelection();
         } catch (err) {
             // This code runs if there were any errors.
             console.error('loadFromStorage', err);
@@ -283,6 +288,17 @@ export class ApplicationData {
         this._currentSelectionParts[form][part].notify();
     }
 
+    public setPartFlip(form: string, part: string, flip: boolean) {
+        if (this._currentSelectionParts[form][part].data.flip === flip) {
+            return;
+        }
+        
+        this._currentSelectionParts[form][part].data.flip = flip;
+
+        this.saveCurrentSelection();
+        this._currentSelectionParts[form][part].notify();
+    }
+
     public setPartFilter(form: string, part: string, filter: string) {
         if (this._currentSelectionPartsFilter[form][part].data === filter) {
             return;
@@ -292,13 +308,18 @@ export class ApplicationData {
         this.saveCurrentSelection();
     }
 
-    public setPart(form: string, part: string, flag_name: string, orientation: Orientation) {
-        if (this._currentSelectionParts[form][part].data.flag_name === flag_name && this._currentSelectionParts[form][part].data.orientation === orientation) {
+    public setPart(form: string, part: string, flag_name: string, orientation: Orientation, flip: boolean | undefined = undefined) {
+        if (this._currentSelectionParts[form][part].data.flag_name === flag_name && 
+            this._currentSelectionParts[form][part].data.orientation === orientation && 
+            this._currentSelectionParts[form][part].data.flip === flip) {
             return;
         }
 
         this._currentSelectionParts[form][part].data.flag_name = flag_name;
         this._currentSelectionParts[form][part].data.orientation = orientation;
+        if (flip !== undefined) {
+            this._currentSelectionParts[form][part].data.flip = flip;
+        }
 
         this.saveCurrentSelection();
         this._currentSelectionParts[form][part].notify();

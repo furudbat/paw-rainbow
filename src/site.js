@@ -105,6 +105,11 @@ function clamp(num, min, max) {
     return Math.min(Math.max(num, min), max);
 }
 
+function removeDuplicateObjectFromArray (array, key) {
+    let check = new Set();
+    return array.filter(obj => !check.has(obj[key]) && check.add(obj[key]));
+}
+
 module.exports = {
     site,
     USE_CACHE,
@@ -112,5 +117,6 @@ module.exports = {
     isOnScreen,
     countlines,
     makeDoubleClick,
-    clamp
+    clamp,
+    removeDuplicateObjectFromArray
 };

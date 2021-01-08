@@ -1,45 +1,101 @@
-- description: <p>The rainbow flag (also known as the gay pride flag or LGBT pride
-    flag) is a symbol of lesbian, gay, bisexual, transgender, and queer (LGBTQ) pride
-    and LGBTQ social movements. Other older uses of rainbow flags include a symbol
-    of peace. The colors reflect the diversity of the LGBTQ community, as the flag
-    is often used as a symbol of gay pride during LGBTQ rights marches. While this
-    use of the rainbow flag originated in San Francisco, it is now used worldwide.</p>
-  img: //upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Rainbow_flag_and_blue_skies.jpg/800px-Rainbow_flag_and_blue_skies.jpg
-  link: https://en.wikipedia.org/wiki/Rainbow_flag_(LGBT)
-  name: LGBT+ Pride
-- link: https://lgbta.wikia.org/wiki/Sapphic
-  name: Sapphic
-- description: <p>Pluralian, also known as multisexual or mspec (multisexual spectrum),
-    is an umbrella term for people who are attracted to multiple genders. It is similar
-    to the terms achillean, sapphic, and diamoric. Some sexualities included in the
-    pluralian umbrella are bisexual, pansexual, omnisexual, as well as any other orientation
-    that involves attraction to more than one gender.</p>
-  img: https://static.wikia.nocookie.net/lgbta/images/8/86/Pluralian_flag.png
-  link: https://lgbta.wikia.org/wiki/Pluralian
-  name: Pluralian
-- link: https://lgbta.wikia.org/wiki/Achillean
+- description: <p>Achillean, also known as men loving men (MLM), apollian, chaeronean,
+    and chaeronic, refers to a man or man-aligned person who is attracted to other
+    men or man-aligned people. One may or may not be attracted to other genders as
+    well. This attraction does not need to be exclusive, as the label is used in a
+    way to unify all men who love other men, including gay (vincian) men, bisexual
+    men, pansexual men, etc, promoting solidarity among men of all identities.</p>
+  id: achillean
+  img: https://static.wikia.nocookie.net/lgbta/images/e/e3/Achilleanflag.png
+  link: https://lgbta.wikia.org/wiki/Achillean
   name: Achillean
-- description: <p>Queer is an identity, and often considered a movement, for people
-    for sexual and gender minorities, and people who fall outside of and/or reject
-    the cultural norms around sexuality, gender identity, and/or gender expression.
-    The word queer can mean different things to different people, but the most common
-    definition is someone who isn't straight and/or cisgender (cishet). The Queer
-    Movement has largely been about anti-conformity and the rejection of binaries
-    and being pushed into boxes. Similar to the term queer is the term variant.</p>
-  img: https://static.wikia.nocookie.net/lgbta/images/c/cf/Queerflag.png
-  link: https://lgbta.wikia.org/wiki/Queer
-  name: Queer
-- description: <p>Questioning is the process of wondering what one's gender, sexual
-    orientation, romantic orientation, or other identity is. Questioning can happen
-    at any age, and can take anywhere from days to years. Questioning is normal for
-    anyone, whether they turn out to actually be LGBTQ+ or not. Questioning can refer
-    to both the process of questioning one's gender or sexuality as well as a person
-    who is in the process of questioning. The opposite of questioning is disambiguan.</p>
-  img: data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D
-  link: https://lgbta.wikia.org/wiki/Questioning
-  name: Questioning
-- link: https://lgbta.wikia.org/wiki/Diamoric
-  name: Diamoric
+- description: <p>Agender is also called genderblank, genderfree, genderless, gendervoid,
+    non-gendered, ungendered, or null gender. Agender is an identity under the nonbinary
+    and transgender umbrella terms. Agender individuals find that they have no gender
+    identity, although some define this more as having a gender identity that is neutral.</p>
+  id: agender
+  img: https://static.miraheze.org/nonbinarywiki/8/83/Agender.png
+  link: https://nonbinary.wiki/wiki/Agender
+  name: Agender
+- description: <p>Alexigender, (can also be called congender or confugender) is a
+    micro-label for genderfluid individuates that know they move between genders but
+    never know exactly what gender they are at a certain time. These people might
+    understand if they're feeling more feminine, masculine, androgynous, or neutral
+    at a certain time, but not know the exact term for what gender they feel. They
+    might also understand if they never feel masculine, neutral, androgynous, or feminine,
+    but still not understand what that means. These people can use any pronouns.</p>
+  id: alexigender
+  img: https://static.wikia.nocookie.net/lgbta/images/1/11/Alexigender.png
+  link: https://lgbta.wikia.org/wiki/Alexigender
+  name: Alexigender
+- description: <p>Androgynous refers to the act of having or showing qualities that
+    are associated with both femininity and masculinity. It can involve behaviors,
+    presentations, and roles which were/are typically culturally associated with being
+    a man and being a woman. Androgynous can be used as a description of one's gender,
+    one's gender presentation, or both.</p>
+  id: androgynous
+  img: https://static.wikia.nocookie.net/lgbta/images/1/15/Androgynous.png
+  link: https://lgbta.wikia.org/wiki/Androgynous
+  name: Androgynous
+- description: <p>Andromantic, or androromantic, is a term with several possible definitions.
+    First, is the romantic attraction to men. This means that heteroromantic women,
+    gay men, and non-binary people attracted to men can be considered androromantics.
+    The second possible definition is the attraction to people who present masculinely,
+    regardless of their actual gender. Thirdly, is the attraction only to people with
+    "male anatomy" regardless of whether that person identifies as male, however this
+    definition is transphobic as it reduces people to their genitals.</p>
+  id: andromantic
+  img: https://static.wikia.nocookie.net/lgbta/images/6/61/Androromantic_Flag.png
+  link: https://lgbta.wikia.org/wiki/Andromantic
+  name: Andromantic
+- description: <p>Androphilia and gynephilia are terms used in behavioral science
+    to describe sexual orientation, as an alternative to a gender binary homosexual
+    and heterosexual conceptualization. Androphilia describes sexual attraction to
+    men or masculinity; gynephilia describes the sexual attraction to women or femininity.
+    Ambiphilia describes the combination of both androphilia and gynephilia in a given
+    individual, or bisexuality.</p><p>The terms are objectively used for identifying
+    a person's object of attraction without attributing a sex assignment or gender
+    identity to the person.[citation needed] This can avoid bias inherent in normative
+    conceptualizations of human sexuality, avoid confusion and offense when describing
+    people in non-western cultures, as well as when describing intersex and transgender
+    people, especially those who are nonbinary or otherwise falling outside the gender
+    binary.[citation needed]</p>
+  id: androphillia
+  img: https://upload.wikimedia.org/wikipedia/commons/6/65/Androphilia-gynephilia.jpg
+  link: https://en.wikipedia.org/wiki/Androphilia_and_gynephilia
+  name: Androphillia
+- description: <p>Androsexual is a term with several possible definitions. First,
+    is the exclusive attraction to men. This means that heterosexual women, gay men,
+    and non-binary people attracted to men can be considered androsexuals. The second
+    possible definition is the attraction to people who present masculinely, regardless
+    of their actual gender. Thirdly, is the attraction to "male anatomy" regardless
+    of whether that person identifies as male, however this definition is considered
+    transphobic as it reduces people to their genitals.</p>
+  id: androsexual
+  img: https://static.wikia.nocookie.net/lgbta/images/e/e0/Androsexual.png
+  link: https://lgbta.wikia.org/wiki/Androsexual
+  name: Androsexual
+- description: <p>Aromantic (often shortened to aro) means someone who generally does
+    not experience romantic attraction. Romantic attraction is defined as the desire
+    to be in a romantic relationship and/or do romantic acts with a specific person.
+    For non-aromantic people (alloromantics) romantic attraction is involuntary and
+    even occurs when someone doesn't know the other person (though one might not act
+    on it). Aromantic people do not have an innate desire to be in a romantic relationship.
+    They might also feel disconnected from the idea of romance.</p>
+  id: aromantic
+  img: https://upload.wikimedia.org/wikipedia/commons/a/ad/Aromantic_Pride_Flag.svg
+  link: https://lgbta.wikia.org/wiki/Aromantic
+  name: Aromantic
+- description: <p>The Aromantic Spectrum or Aromantic Umbrella is a group of romantic
+    orientations that all fall under the umbrella term of aromantic. People on the
+    aromantic spectrum may lack romantic attraction or feel it so little that they
+    relate more to the aromantic experience. The common link between people on the
+    aromantic spectrum is that they do not feel the "standard" amount of romantic
+    attraction or they don't feel it in the "standard" way, that alloromantic people
+    do.</p>
+  id: aromantic_spectrum
+  img: https://static.wikia.nocookie.net/lgbta/images/0/04/Aromantic_spectrum.png
+  link: https://lgbta.wikia.org/wiki/Aromantic_Spectrum
+  name: Aromantic Spectrum
 - description: '<p>Asexuality is a part of the asexual spectrum, and is defined by
     a lack of sexual attraction. Asexual experiences may also include: not wanting
     to have sex, not being interested in sex, not experiencing a sex drive/libido,
@@ -49,9 +105,68 @@
     doesn''t know the other person (though one might not act on it). Asexual people
     do not have an innate desire to have sex with anyone. They might also feel disconnected
     from the idea of sex.</p>'
-  img: https://static.wikia.nocookie.net/lgbta/images/b/bc/Aceflag.png
+  id: asexual
+  img: https://upload.wikimedia.org/wikipedia/commons/9/9e/Asexual_Pride_Flag.svg
   link: https://lgbta.wikia.org/wiki/Asexual
   name: Asexual
+- description: <p>The Asexual Spectrum or Asexual Umbrella is a group of sexual orientations
+    that all fall under the umbrella term of asexual. People on the asexual spectrum
+    may completely lack sexual attraction or feel it so little that they relate more
+    to the asexual experience than to the allosexual experience. The common link between
+    people on the asexual spectrum is that they don't feel the "standard" amount of
+    sexual attraction or they don't feel it in the "standard" way, that allosexual
+    people do.</p>
+  id: asexual_spectrum
+  img: https://static.wikia.nocookie.net/lgbta/images/1/16/Acespec.png
+  link: https://lgbta.wikia.org/wiki/Asexual_Spectrum
+  name: Asexual Spectrum
+- description: <p>Autoromanticism is when one experiences romantic attraction, exclusive
+    or not, towards themself. It can occur in multiple forms as follows:</p><p>‘’it
+    can be a form of aromanticism when exclusive or paired with other arospec identities.
+    The sexual counterpart to autoromantic is autosexual.</p>
+  id: autoromantic
+  img: https://static.wikia.nocookie.net/lgbta/images/9/9f/Autoromantic_.jpg
+  link: https://lgbta.wikia.org/wiki/Autoromantic
+  name: Autoromantic
+- description: <p>Autosexual, sometimes called Narcissexual, is when one experiences
+    sexual attraction exclusively towards themself; and can occur in many forms as
+    follows:</p><p>The romantic counterpart to autosexual is autoromantic.</p>
+  id: autosexual
+  img: https://static.wikia.nocookie.net/lgbta/images/9/98/Autosexualflag.png
+  link: https://lgbta.wikia.org/wiki/Autosexual
+  name: Autosexual
+- description: <p>Bear is a sub-cultural term used by gay men, referring to a subset
+    of men who embrace and subvert traditional masculinity and defy the stereotypes
+    typically applied to gay men, who are usually seen as feminine due to their attraction
+    to men. Bears may be defined by physical appearance, tastes, expression of traditionally
+    gendered traits, or personal affilation.</p>
+  id: bears
+  img: https://upload.wikimedia.org/wikipedia/commons/c/c2/Bear_Brotherhood_flag.svg
+  link: https://lgbta.wikia.org/wiki/Bear
+  name: Bears
+- description: <p>Biamory refers to someone who is only capable of feeling attraction
+    towards or being in a relationship with exactly two individuals at a time. These
+    two individuals could be of any gender, depending on the person's sexuality and
+    romantic orientation.</p>
+  id: biamorous
+  img: https://static.wikia.nocookie.net/lgbta/images/b/b9/Biamorous.jpg
+  link: https://lgbta.wikia.org/wiki/Biamorous
+  name: Biamorous
+- description: <p>Bigender, or bi-gender, is a gender identity under the multigender,
+    nonbinary, and transgender umbrella terms. Bigender people have two distinct gender
+    identities, either at the same time, or at different times. The latter is a form
+    of genderfluid identity, and may involve only two distinct genders, or it may
+    involve "shades of gray between the two." The two genders of a bigender person
+    can be the two binary genders, female and male. This is what people usually assume
+    bigender means. However, some people who identify as bigender have a different
+    pair of genders. For example, their two genders might be female and neutrois.
+    Or the two genders might be both nonbinary, such as agender and aporagender. Bigender
+    is recognized by the American Psychological Association (APA) as a subset of the
+    transgender group.</p>
+  id: bigender
+  img: https://static.miraheze.org/nonbinarywiki/f/f2/Bigender.png
+  link: https://nonbinary.wiki/wiki/Bigender
+  name: Bigender
 - description: <p>Bisexual (often shortened to Bi) refers to someone who is attracted
     to two or more genders. It is also sometimes worded as the attraction to genders
     both the same as and different than one's own. This is most commonly understood
@@ -60,118 +175,47 @@
     to any genders. They can be attracted to any number of genders, anywhere from
     two gender to all genders. Bisexual people may or may not have a preference and
     may or may not feel a difference between genders.</p>
-  img: https://static.wikia.nocookie.net/lgbta/images/8/85/Biangles.svg
+  id: bisexual
+  img: https://upload.wikimedia.org/wikipedia/commons/2/2a/Bisexual_Pride_Flag.svg
   link: https://lgbta.wikia.org/wiki/Bisexual
   name: Bisexual
-- img: https://static.wikia.nocookie.net/lgbta/images/f/f2/Alt%C3%A9rnate_Pansexual_Flag.webp
-  link: https://lgbta.wikia.org/wiki/Pansexual
-  name: Pansexual
-- img: data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D
+- description: <p>Lesbian is the term for a gay woman, meaning a woman, woman-aligned
+    and/or feminine-aligned non-binary person who is attracted to women, woman-aligned
+    and/or feminine-aligned non-binary people. The term is also sometimes used by
+    abinary non-binary people who are attracted to women, women-aligned people, feminine
+    aligned people, and other non-binary people who identify as lesbians.</p>
+  id: butch_lesbian
+  img: https://static.wikia.nocookie.net/lgbta/images/4/47/Lesbian_flag.jpg
   link: https://lgbta.wikia.org/wiki/Lesbian
-  name: Lesbian
-- img: https://static.wikia.nocookie.net/lgbta/images/b/bf/C1c31a6a5cb184159f0a6bbcd465c9b8.jpg
-  link: https://lgbta.wikia.org/wiki/Vincian
-  name: Gay Men
-- description: <p>Demisexual is a sexual orientation on the asexual spectrum defined
-    as someone who does not experience sexual attraction until they have formed a
-    deep emotional connection with someone. The connection can be romantic, platonic,
-    or some other form of connection. Forming an emotional bond with someone does
-    not mean that one is automatically attracted to said person, as it just means
-    there's now a possibility for one to feel attraction.</p>
-  img: https://static.wikia.nocookie.net/lgbta/images/8/86/Demiflag.png
-  link: https://lgbta.wikia.org/wiki/Demisexual
-  name: Demisexual
-- img: https://static.wikia.nocookie.net/lgbta/images/4/48/Polyromantic.png
-  link: https://lgbta.wikia.org/wiki/Polysexual
-  name: Polysexual
-- description: <p>Greysexual or grey-asexual (also spelled graysexual or gray-asexual)
-    is a sexual orientation on the asexual spectrum, referring to those who relate
-    with asexuality, yet feel that there are parts of their experience that aren't
-    fully described by the word asexual. Greysexual can be used as a specific identity,
-    or as an umbrella term for any ace-spec identity that isn't purely asexual, including
-    demisexual and others.</p>
-  img: https://static.wikia.nocookie.net/lgbta/images/1/1d/Greysexual.png
-  link: https://lgbta.wikia.org/wiki/Greyasexual
-  name: Greysexual
-- description: <p>Autosexual, sometimes called Narcissexual, is when one experiences
-    sexual attraction exclusively towards themself; and can occur in many forms as
-    follows:</p>
-  img: https://static.wikia.nocookie.net/lgbta/images/9/98/Autosexualflag.png
-  link: https://lgbta.wikia.org/wiki/Autosexual
-  name: Autosexual
-- description: <p>Androsexual is a term with several possible definitions. First,
-    is the exclusive attraction to men. This means that heterosexual women, gay men,
-    and non-binary people attracted to men can be considered androsexuals. The second
-    possible definition is the attraction to people who present masculinely, regardless
-    of their actual gender. Thirdly, is the attraction to "male anatomy" regardless
-    of whether that person identifies as male, however this definition is considered
-    transphobic as it reduces people to their genitals.</p>
-  img: https://static.wikia.nocookie.net/lgbta/images/e/e0/Androsexual.png
-  link: https://lgbta.wikia.org/wiki/Androsexual
-  name: Androsexual
-- description: <p>Myrsexual is a sexuality on the asexual spectrum in which one experiences
-    multiple ace-spec identities. These identities could rapidly fluctuate or they
-    could be experienced at the same time. An example would be someone who is demisexual
-    and greyasexual at the same time. This can often create confusion when finding
-    one's place on the asexual spectrum.</p>
-  img: https://static.wikia.nocookie.net/lgbta/images/9/93/Myrsexual.png
-  link: https://lgbta.wikia.org/wiki/Myrsexual
-  name: Myrsexual
-- img: https://static.wikia.nocookie.net/lgbta/images/5/5c/Alternate_omnisexual_flag..webp
-  link: https://lgbta.wikia.org/wiki/Omnisexual
-  name: Omnisexual
-- description: <p>Agender is complete genderlessness, or the lack of gender.[1] It
-    is a non-binary identity in which one is not male, female, or any other gender.
-    They may identify as most strongly as just a person, rather then as any given
-    gender.</p>
-  img: https://static.wikia.nocookie.net/lgbta/images/a/a7/Agender_flag.png
-  link: https://lgbta.wikia.org/wiki/Agender
-  name: Agender
-- description: <p>Androgynous refers to the act of having or showing qualities that
-    are associated with both femininity and masculinity. It can involve behaviors,
-    presentations, and roles which were/are typically culturally associated with being
-    a man and being a woman. Androgynous can be used as a description of one's gender,
-    one's gender presentation, or both.</p>
-  img: https://static.wikia.nocookie.net/lgbta/images/1/15/Androgynous.png
-  link: https://lgbta.wikia.org/wiki/Androgynous
-  name: Androgynous
-- description: <p>Transgender (often shortened to trans) is a term referring to people
-    who do not identify as the gender assigned to them at birth. It commonly refers
-    to men who were assigned female at birth (trans men), and women who were assigned
-    male at birth (trans women), these examples being known as binary trans people.
-    All non-binary people are inherently included under the term trans, because their
-    gender is not what was assigned to them at birth. Although, some non-binary people
-    choose not to identify as trans.</p>
-  img: https://static.wikia.nocookie.net/lgbta/images/c/cd/Transgender.png
-  link: https://lgbta.wikia.org/wiki/Transgender
-  name: Transgender
-- description: <p>Genderqueer is a term for people who feel that they have a queer
-    or non-normative experience with gender, either through their gender identity,
-    their gender presentation, or other experiences of gender. It is often used interchangeably
-    with non-binary to mean a gender that is not strictly male or female. This definition
-    can be used as a gender identity on its own or as an umbrella term.</p>
-  img: https://static.wikia.nocookie.net/lgbta/images/e/e0/Genderqueerflag.png
-  link: https://lgbta.wikia.org/wiki/Genderqueer
-  name: Genderqueer
-- description: <p>Genderfluid refers to someone whose gender identity changes over
-    time. A genderfluid person can identify as any gender, or combination of genders
-    at any given time. Their gender can change at random or it may vary in response
-    to different circumstances. One's gender can change over the course of hours,
-    days, weeks, months, or years. For some people their gender changes on a somewhat
-    consistent 'schedule', for other their gender changes at random times. Some genderfluid
-    people can be fluid between all genders, or a large amount of genders. Other genderfluid
-    people are fluid between a small handful of genders.</p>
-  img: https://static.wikia.nocookie.net/lgbta/images/2/2a/Genderfluidflag.jpg
-  link: https://lgbta.wikia.org/wiki/Genderfluid
-  name: Genderfluid
-- description: <p>Non-binary (sometimes shortened to NB) refers to someone whose gender
-    does not fall strictly within the category of binary genders (man or woman) that
-    is used in western society. Anyone who is not always, solely, 100% male or always,
-    solely, 100% female can be considered non-binary. Some non-binary people may identify
-    with one or both of the binary genders, at least in part.</p>
-  img: https://static.wikia.nocookie.net/lgbta/images/f/f2/Enbyflag.png
-  link: https://lgbta.wikia.org/wiki/Non-Binary
-  name: Non-Binary
+  name: Butch Lesbian
+- description: <p>Cisgender (often shortened to cis) is the opposite of transgender,
+    meaning someone who identifies with the gender they were assigned at birth. The
+    term is not an identity by itself, rather it is a term used, primarily by the
+    transgender community as a way to describe those who are not trans.</p>
+  id: cisgender
+  img: https://static.wikia.nocookie.net/lgbta/images/8/8d/Cisgender.jpg
+  link: https://lgbta.wikia.org/wiki/Cisgender
+  name: Cisgender
+- description: <p>Demiboy (also known as Demiman, Demimale, Demiguy, Demidude, or
+    Demibloke) is a gender in which one is partially, but not fully, a man, boy, or
+    otherwise masculine gender. One may or may not identify as another gender in addition
+    to being partially a boy. The other part of one's gender can be any gender or
+    combination of genders, including a lack of gender. Demigender people may also
+    identify as non-binary. If a demiboy is not assigned male at birth they may also
+    consider themselves transmasculine.</p>
+  id: demiboy
+  img: https://static.wikia.nocookie.net/lgbta/images/3/34/Demiboyflag.png
+  link: https://lgbta.wikia.org/wiki/Demiboy
+  name: Demiboy
+- description: <p>Demiflux is a form of demigender where one part of one's gender
+    is static, and the other part fluctuates in intensity. For example, the static
+    part could be female, but the other part could be male. The male part can fluctuate,
+    going from fully male, partly male (demiboy), to no intensity (agender), while
+    the female part is always present and does not fluctuate.</p>
+  id: demiflux
+  img: https://static.wikia.nocookie.net/lgbta/images/e/e2/Demiflux.jpg
+  link: https://lgbta.wikia.org/wiki/Demiflux
+  name: Demiflux
 - description: <p>Demigender is a gender, or set of genders, in which one is partially,
     but not fully a gender. It can also be for people who feel the barest connections
     to a gender, but not enough to fully identify as that gender. Demigender people
@@ -179,121 +223,375 @@
     also be an identity in itself, for people who feel connection to the concept of
     gender. Demigender people often identify as non-binary and may also identify as
     transgender.</p>
+  id: demigender
   img: https://static.wikia.nocookie.net/lgbta/images/0/07/59E15382-D6B5-4AEF-8E7E-7137A88DBD88.png
   link: https://lgbta.wikia.org/wiki/Demigender
   name: Demigender
-- description: <p>Demiboy (also known as Demiman, or Demimale, Demiguy, or Demidude)
-    is a gender in which one is partially, but not fully, a man, boy, or otherwise
-    masculine gender. One may or may not identify as another gender in addition to
-    being partially a boy. The other part of one's gender can be any gender or combination
-    of genders, including a lack of gender. Demigender people may also identify as
-    non-binary. If a demiboy is not assigned male at birth they may also consider
-    themselves transmasculine.</p>
-  img: https://static.wikia.nocookie.net/lgbta/images/3/34/Demiboyflag.png
-  link: https://lgbta.wikia.org/wiki/Demiboy
-  name: Demiboy
 - description: <p>Demigirl (also known as Demiwoman, Demifemale, or Demigal) is a
     gender in which one is partially, but not fully a girl, woman, or otherwise feminine.
     They may or may not identify as another gender in addition to being partially
     a girl. Demigender people may also identify as non-binary. If a demigirl is not
     assigned female at birth they may also consider themselves transfeminine.</p>
+  id: demigirl
   img: https://static.wikia.nocookie.net/lgbta/images/8/80/Demigirl.png
   link: https://lgbta.wikia.org/wiki/Demigirl
   name: Demigirl
-- description: <p>Demiflux is a form of demigender where one part of one's gender
-    is static, and the other part fluctuates in intensity. For example, the static
-    part could be female, but the other part could be male. The male part can fluctuate,
-    going from fully male, partly male (demiboy), to no intensity (agender), while
-    the female part is always present and does not fluctuate.</p>
-  img: https://static.wikia.nocookie.net/lgbta/images/e/e2/Demiflux.jpg
-  link: https://lgbta.wikia.org/wiki/Demiflux
-  name: Demiflux
-- description: <p>Neutrois is a non-binary gender identity that is associated with
-    having a neutral or null gender. It is an umbrella term, with each person experiencing
-    neutrois differently. Common definitions include feeling neutrally gendered- feeling
-    neither male, female, nor anything in between, but still feeling strongly gendered
-    (similar to maverique or aporagender). Another common definite is feeling null-gendered,
-    genderless or agender- some genderless individuals may identify as both agender
-    and neutrois, while others may prefer one term or the other. Neutrois and agender
-    are occasionally used interchangeably. Neutrois individuals may also identify
-    as transgender.</p>
-  img: https://static.wikia.nocookie.net/lgbta/images/c/c9/Neutroisflag.png
-  link: https://lgbta.wikia.org/wiki/Neutrois
-  name: Neutrois
-- description: <p>Pangender is a form on multigender in which someone experiences
-    all genders. It is a non-binary gender which refers to a vast and diverse amount
-    of genders in the same individual that can extend infinitely (within the person's
-    own culture and life experience). A pangender person can experience these genders
-    at the same time or they may be fluid between them. The intensity of their gender(s)
-    may fluctuate.</p>
-  img: https://static.wikia.nocookie.net/lgbta/images/f/fa/Pangenderflag.png
-  link: https://lgbta.wikia.org/wiki/Pangender
-  name: Pangender
-- description: <p>Bigender is a non-binary gender identity in which someone has two
-    distinct gender identities. They could feel both genders at the same time or be
-    fluid between them, in which case they may also identify as genderfluid. The two
-    genders they experience can be male, female, and/or any non-binary identities.
-    Bigender people do not have to experience both genders in equal amounts.</p>
-  img: https://static.wikia.nocookie.net/lgbta/images/f/f2/Bigender.png
-  link: https://lgbta.wikia.org/wiki/Bigender
-  name: Bigender
-- description: <p>Polygender is a term that is refers to having multiple genders.
-    It is sometimes used interchangeably with multigender. However some people define
-    polygender as having more than two genders, so bigender is included in multigender
-    but is not included in polygender. The genders can be experienced fluidly or static.</p>
-  img: https://static.wikia.nocookie.net/lgbta/images/8/87/Polygender.png
-  link: https://lgbta.wikia.org/wiki/Polygender
-  name: Polygender
-- description: <p>Alexigender, (can also be called congender or confugender) is a
-    micro-label for genderfluid individuates that know they move between genders but
-    never know exactly what gender they are at a certain time. These people might
-    understand if they're feeling more feminine, masculine, androgynous, or neutral
-    at a certain time, but not know the exact term for what gender they feel. They
-    might also understand if they never feel masculine, neutral, androgynous, or feminine,
-    but still not understand what that means. These people can use any pronouns.</p>
-  img: https://static.wikia.nocookie.net/lgbta/images/1/11/Alexigender.png
-  link: https://lgbta.wikia.org/wiki/Alexigender
-  name: Alexigender
-- description: <p>Genderfluid refers to someone whose gender identity changes over
-    time. A genderfluid person can identify as any gender, or combination of genders
-    at any given time. Their gender can change at random or it may vary in response
-    to different circumstances. One's gender can change over the course of hours,
-    days, weeks, months, or years. For some people their gender changes on a somewhat
-    consistent 'schedule', for other their gender changes at random times. Some genderfluid
-    people can be fluid between all genders, or a large amount of genders. Other genderfluid
-    people are fluid between a small handful of genders.</p>
-  img: https://static.wikia.nocookie.net/lgbta/images/2/2a/Genderfluidflag.jpg
-  link: https://lgbta.wikia.org/wiki/Genderfluid
-  name: Genderfluid
-- description: <p>See also Gender questioning.</p>
+- description: <p>Demiromantic is a romantic orientation on the aromantic spectrum
+    defined as someone who does not experience romantic attraction until they have
+    formed a deep emotional connection with someone. The connection can be sexual,
+    platonic, or some other form of connection. Forming an emotional bond with someone
+    does not mean that one is automatically attracted to said person, as it just means
+    there's now a possibility for one to feel attraction.</p>
+  id: demiromantic
+  img: https://static.wikia.nocookie.net/lgbta/images/1/15/Demiaroflag.png
+  link: https://lgbta.wikia.org/wiki/Demiromantic
+  name: Demiromantic
+- description: <p>Demisexual is a sexual orientation on the asexual spectrum defined
+    as someone who does not experience sexual attraction until they have formed a
+    deep emotional connection with someone. The connection can be romantic, platonic,
+    or some other form of connection. Forming an emotional bond with someone does
+    not mean that one is automatically attracted to said person, as it just means
+    there's now a possibility for one to feel attraction.</p>
+  id: demisexual
+  img: https://upload.wikimedia.org/wikipedia/commons/a/a7/Demisexual_Pride_Flag.svg
+  link: https://lgbta.wikia.org/wiki/Demisexual
+  name: Demisexual
+- description: <p>Diamoric, also known as adonian, adonic and cypric, is a term used
+    by some non-binary people to describe their orientation, which does not fit into
+    the similar/opposite gender attraction dichotomy due to being a uniquely non-binary
+    experience. The term does not specify what gender(s) one is attracted to, it only
+    specifies that one is non-binary and experiences attraction in a non-binary specific
+    way.</p>
+  id: diamoric
+  img: https://static.wikia.nocookie.net/lgbta/images/4/41/Diamoricflag.png
+  link: https://lgbta.wikia.org/wiki/Diamoric
+  name: Diamoric
+- description: <p>Gay refers to the attraction towards or desire for the same gender
+    (or similar genders to one's own). Terms such as homosexual and homoromantic can
+    be considered synonyms or subcategories of the gay umbrella.</p>
+  id: gay
+  img: https://static.wikia.nocookie.net/lgbta/images/4/48/Gay_Pride_Flag.svg
+  link: https://lgbta.wikia.org/wiki/Gay
+  name: Gay
+- description: <p>Vincian, also called Patroclian and Wildean, is one of multiple
+    terms used to describe gay men or men-aligned people. It is unclear what the exact
+    meaning of the term was intended to be. Some people treat it as a variant of achillean
+    (referring to any MLM attraction, exclusive or not). Some people use it as the
+    masculine equivalent of lesbian (referring to exclusive attraction).</p>
+  id: gay_men
+  img: https://static.wikia.nocookie.net/lgbta/images/6/62/Mlm_%28seven-stripe_version%29.svg
+  link: https://lgbta.wikia.org/wiki/Vincian
+  name: Gay Men
+- description: <p>Questioning means that someone is still figuring out their gender
+    identity, sexual orientation, or gender expression. Some people use questioning
+    as an identity, if they still have not exactly figured out what their gender or
+    sexual orientation is, or if they have no desire to figure it out and are happy
+    with the label questioning. The only person who truly knows the answer to the
+    gender question is you.</p>
+  id: gender_questioning
   img: https://static.miraheze.org/nonbinarywiki/thumb/9/94/Gender_Questioning_proposed_flag.png/800px-Gender_Questioning_proposed_flag.png
   link: https://nonbinary.wiki/wiki/Questioning
   name: Gender Questioning
-- description: <p>Intersex is a term for those born with physical sex characteristics
-    that cannot be traditionally classified as male or female.[1] Variations may appear
-    in a person’s chromosomes, natural hormones, genitalia, or gonads, secondary sex
-    characteristics, or some combination of these things. Intersexuality is observed
-    in many animals including humans. According to the ISNA it is estimated that as
-    many as 1.7% of people are born with intersex traits.[2][3]</p>
-  img: https://static.wikia.nocookie.net/lgbta/images/3/32/Intersexflag.jpg
-  link: https://lgbta.wikia.org/wiki/Intersex
+- description: <p>Gender neutral aka neutral gender is an identity under the nonbinary
+    and transgender umbrellas. Gender neutral individuals have a neutral gender identity
+    or expression, or identify with the preference for gender neutral language and
+    pronouns. This is similar to and often overlaps with the experience of being agender,
+    genderless, or having no gender identity. Neutrois identity is often described
+    as being a neutral gender identity.</p>
+  id: gender_neutral
+  img: https://static.miraheze.org/nonbinarywiki/6/6b/Gender_neutral_flag_2.png
+  link: https://nonbinary.wiki/wiki/Gender_neutral
+  name: Gender neutral
+- description: <p>Genderfluid aka Gender-fluid, Gender Fluid, or Fluid Gender, is
+    an identity under the multigender, nonbinary, and transgender umbrellas. Genderfluid
+    individuals have different gender identities at different times. A genderfluid
+    individual's gender identity could be multiple genders at once and then switch
+    to none at all, or move between single gender identities, or some other combination
+    therein. For some genderfluid people, these changes happen as often as several
+    times a day and for others, monthly, or less often. Some genderfluid people regularly
+    move between only a few specific genders, perhaps as few as two (which could also
+    fit under the label bigender), whereas other genderfluid people never know what
+    they'll feel like next.</p>
+  id: genderfluid
+  img: https://upload.wikimedia.org/wikipedia/commons/b/b8/Genderfluidity_Pride-Flag.svg
+  link: https://nonbinary.wiki/wiki/Genderfluid
+  name: Genderfluid
+- description: <p>Genderqueer, also called GenderQueer or gender queer, is an umbrella
+    term that refers both to non-normative gender identity and gender expression.
+    The label may also be used by individuals wishing to identify as holding queer
+    or non-normative gender without being any more specific about the nature of their
+    gender.</p>
+  id: genderqueer
+  img: https://upload.wikimedia.org/wikipedia/commons/1/1f/Genderqueer_Pride_Flag.svg
+  link: https://nonbinary.wiki/wiki/Genderqueer
+  name: Genderqueer
+- description: <p>Geographical Non-Monogamy is a relationship or arrangement in which
+    ones partners permit one another to have other sexual partners while they are
+    physically apart. Sometimes this carries an understanding that when the couple
+    is physically together again, the relationship will become monogamous, though
+    not necessarily for everyone. Some examples where this might occur would include:</p>
+  id: geographically_non_monogamy
+  img: https://static.wikia.nocookie.net/lgbta/images/7/71/Geographical_non-monogamy.jpg
+  link: https://lgbta.wikia.org/wiki/Geographically_Non-Monogamy
+  name: Geographically Non-Monogamy
+- description: <p>Greysexual or grey-asexual (also spelled graysexual or gray-asexual)
+    is a sexual orientation on the asexual spectrum, referring to those who relate
+    with asexuality, yet feel that there are parts of their experience that aren't
+    fully described by the word asexual. Greysexual can be used as a specific identity,
+    or as an umbrella term for any ace-spec identity that isn't purely asexual, including
+    demisexual and others.</p>
+  id: greysexual
+  img: https://static.wikia.nocookie.net/lgbta/images/1/1d/Greysexual.png
+  link: https://lgbta.wikia.org/wiki/Greyasexual
+  name: Greysexual
+- description: <p>Androphilia and gynephilia are terms used in behavioral science
+    to describe sexual orientation, as an alternative to a gender binary homosexual
+    and heterosexual conceptualization. Androphilia describes sexual attraction to
+    men or masculinity; gynephilia describes the sexual attraction to women or femininity.
+    Ambiphilia describes the combination of both androphilia and gynephilia in a given
+    individual, or bisexuality.</p><p>The terms are objectively used for identifying
+    a person's object of attraction without attributing a sex assignment or gender
+    identity to the person.[citation needed] This can avoid bias inherent in normative
+    conceptualizations of human sexuality, avoid confusion and offense when describing
+    people in non-western cultures, as well as when describing intersex and transgender
+    people, especially those who are nonbinary or otherwise falling outside the gender
+    binary.[citation needed]</p>
+  id: gynephilia
+  img: https://upload.wikimedia.org/wikipedia/commons/6/65/Androphilia-gynephilia.jpg
+  link: https://en.wikipedia.org/wiki/Androphilia_and_gynephilia
+  name: Gynephilia
+- description: <p>Intersex people are people born with any variation in sex characteristics
+    including chromosomes, gonads, sex hormones, or genitals that do not fit the typical
+    definitions of male or female bodies.</p>
+  id: intersex
+  img: https://upload.wikimedia.org/wikipedia/commons/3/38/Intersex_Pride_Flag.svg
+  link: https://nonbinary.wiki/wiki/Intersex
   name: Intersex
-- description: <p>Maverique is a non-binary gender that is defined as being completely
-    independent from male, female, masculine, feminine, neutral, or anything in between
-    or derived from any of them. It is also not a lack of gender. It is characterized
-    by autonomy and inner conviction regarding a sense of gender which is unorthodox,
-    unconventional and entirely independent of conventional concepts of gender. Despite
-    this maveriques have a distinct and firm sense of gender.</p>
-  img: https://static.wikia.nocookie.net/lgbta/images/b/b9/Maveriqueflag.png
-  link: https://lgbta.wikia.org/wiki/Maverique
+- description: <p>The rainbow flag (also known as the gay pride flag or LGBT pride
+    flag) is a symbol of lesbian, gay, bisexual, transgender, and queer (LGBTQ) pride
+    and LGBTQ social movements. Other older uses of rainbow flags include a symbol
+    of peace. The colors reflect the diversity of the LGBTQ community, as the flag
+    is often used as a symbol of gay pride during LGBTQ rights marches. While this
+    use of the rainbow flag originated in San Francisco, it is now used worldwide.</p>
+  id: lgbtq_rainbow_flag_progress
+  img: https://upload.wikimedia.org/wikipedia/commons/0/0b/Rainbow_flag_%28%22Progress%22_variant_by_Daniel_Quasar%29_at_EuroPride_2019_%28Vienna%29.jpg
+  link: https://en.wikipedia.org/wiki/Rainbow_flag_(LGBT)
+  name: LGBTQ+ Rainbow flag Progress
+- description: <p>The Leather Pride Flag is a symbol used by the leather subculture
+    since the 1990s. It was designed by Tony DeBlase in 1989, and was quickly embraced
+    by the gay Leather community. It has since become associated with Leather in general
+    and also with related groups.</p>
+  id: leather_fetish
+  img: https://upload.wikimedia.org/wikipedia/commons/7/7e/Leather%2C_Latex%2C_and_BDSM_pride_-_Light.svg
+  link: https://lgbt.wikia.org/wiki/Leather_Pride_flag
+  name: Leather/Fetish
+- description: <p>Lesbian is the term for a gay woman, meaning a woman, woman-aligned
+    and/or feminine-aligned non-binary person who is attracted to women, woman-aligned
+    and/or feminine-aligned non-binary people. The term is also sometimes used by
+    abinary non-binary people who are attracted to women, women-aligned people, feminine
+    aligned people, and other non-binary people who identify as lesbians.</p>
+  id: lesbian
+  img: https://upload.wikimedia.org/wikipedia/commons/3/35/Lesbian_Pride_Flag_2019.svg
+  link: https://lgbta.wikia.org/wiki/Lesbian
+  name: Lesbian
+- description: <p>Lesbian is the term for a gay woman, meaning a woman, woman-aligned
+    and/or feminine-aligned non-binary person who is attracted to women, woman-aligned
+    and/or feminine-aligned non-binary people. The term is also sometimes used by
+    abinary non-binary people who are attracted to women, women-aligned people, feminine
+    aligned people, and other non-binary people who identify as lesbians.</p>
+  id: lipstick_lesbian
+  img: https://static.wikia.nocookie.net/lgbta/images/a/ae/Lesbianflag.png/revision/latest/scale-to-width-down/1000
+  link: https://lgbta.wikia.org/wiki/Lesbian
+  name: Lipstick Lesbian
+- description: <p>Man, also known as Male, Guy, or Boy (diminutive) is a gender which
+    is part of the gender binary. It is associated with masculinity and a connection
+    to boyhood or male-ness (as defined in one's society). In includes both cisgender,
+    transgender, and genderqueer men. Some non-binary people may have a partial connection
+    to being a man or male-ness, in which case they may identify as a non-binary man,
+    man-aligned and/or miaspec.</p>
+  id: man_male
+  img: https://static.wikia.nocookie.net/lgbta/images/c/c5/Man.jpg
+  link: https://lgbta.wikia.org/wiki/Man
+  name: Man/Male
+- description: <p>Maverique is a gender identity that falls under the nonbinary umbrella
+    term. It is defined as an identity that is not the absence of gender, or an apathy
+    towards gender, but a present feeling of gender. This feeling of gender is completely
+    independent from male, female, neutral, or anything derived from any of them.
+    However, maveriques can be multigender with their other genders being related
+    to maleness, femaleness, or neutrality.</p>
+  id: maverique
+  img: https://static.miraheze.org/nonbinarywiki/e/e2/Maverique.png
+  link: https://nonbinary.wiki/wiki/Maverique
   name: Maverique
-- description: <p>Trigender is a form of multigender in which someone has three distinct
-    gender identities. These three gender identities can be any gender, so long as
-    it is not more or less than three. Trigender people may experience these genders
-    simultaneously or fluidly.</p>
-  img: https://static.wikia.nocookie.net/lgbta/images/b/b9/Trigenderflag.png
-  link: https://lgbta.wikia.org/wiki/Trigender
-  name: Trigender
+- description: <p>Monogamy or Monoamory is the act of being in or desiring an exclusive
+    relationship between exactly two people. Neither of the participants in a monogamous
+    relationship are part of a relationship with more than two open and it is not
+    an open relationship. The term monogamous is commonly used by polyamorous people
+    to describe relationships with only two people.</p>
+  id: monogamy
+  img: https://static.wikia.nocookie.net/lgbta/images/3/38/Tumblr_inline_oc6j28tYJV1t8mmlv_1280.png
+  link: https://lgbta.wikia.org/wiki/Monogamy
+  name: Monogamy
+- description: <p>Myrromantic is a romantic orientation on the aromantic spectrum
+    in which one experiences multiple aro-spec identities. These identities could
+    rapidly fluctuate or they could be experienced at the same time. An example would
+    be someone who is demiromantic and greyromantic at the same time. This can often
+    create confusion when finding one's place on the aromantic spectrum.</p>
+  id: myrromantic
+  img: https://static.wikia.nocookie.net/lgbta/images/8/84/Myrromantic_flag.png
+  link: https://lgbta.wikia.org/wiki/Myrromantic
+  name: Myrromantic
+- description: <p>Myrsexual is a sexuality on the asexual spectrum in which one experiences
+    multiple ace-spec identities. These identities could rapidly fluctuate or they
+    could be experienced at the same time. An example would be someone who is demisexual
+    and greyasexual at the same time. This can often create confusion when finding
+    one's place on the asexual spectrum.</p>
+  id: myrsexual
+  img: https://static.wikia.nocookie.net/lgbta/images/9/93/Myrsexual.png
+  link: https://lgbta.wikia.org/wiki/Myrsexual
+  name: Myrsexual
+- description: '<p>N Polyamory, also called a "Fluid Chain", is a type of quad polyamorous
+    relationship structure. It is a relationship involving four people, generally
+    two preestablished couples, where one member of one couple is also involved with
+    one member of the other couple. For example: A and B are dating. C and D are dating.
+    B and C are also dating. However, C is not dating A, and B is not dating D. A
+    and D are also not dating.</p>'
+  id: n_polyamory
+  img: https://static.wikia.nocookie.net/lgbta/images/0/07/N_Polyamory.png
+  link: https://lgbta.wikia.org/wiki/N_Polyamory
+  name: N Polyamory
+- description: <p>Neopronouns are any set of singular third-person pronouns that are
+    not officially recognized in the language they are used in, typically created
+    with the intent of being a gender neutral pronoun set. In English, and many other
+    Indo-European languages, third-person pronouns can be gendered. In English, "she/her" is
+    most often used by women, "he/him" most often by men, and "they/them" by non-binary
+    people. However, some people deviate from this convention.</p>
+  id: neopronouns
+  img: https://static.wikia.nocookie.net/lgbta/images/b/bc/Neopronounflag.png
+  link: https://lgbta.wikia.org/wiki/Neopronouns
+  name: Neopronouns
+- description: <p>Neutrois is an identity under the nonbinary and transgender umbrellas.
+    Generally speaking, neutrois is a transsexual identity, meaning that it involves
+    gender dysphoria and a desire to make a physical transition to a gender neutral
+    presentation. However, as a result of the diversity of people who identify as
+    neutrois, some of them say they don't have one or more of those traits, and are
+    no less neutrois for it. What is agreed upon is that neutrois is a nonbinary gender
+    identity, and that people of any gender assigned at birth can have this identity.
+    Also, a person of any cultural or ethnic background can call themself neutrois.</p>
+  id: neutrois
+  img: https://static.miraheze.org/nonbinarywiki/c/c1/Neutrois.png
+  link: https://nonbinary.wiki/wiki/Neutrois
+  name: Neutrois
+- description: '<p>Nonbinary (also spelled non-binary) means any gender identity that
+    is not strictly male or female all the time, and so does not fit within the gender
+    binary. For some people, "nonbinary" is as specific as they want to get about
+    labeling their gender. For others, they call themselves a more specific gender
+    identity under the nonbinary umbrella. Many people who call themselves nonbinary
+    also consider themselves genderqueer. However, the terms have different meanings
+    and connotations: genderqueer means any gender identity or expression which is,
+    itself, queer.</p>'
+  id: non_binary
+  img: https://upload.wikimedia.org/wikipedia/commons/7/75/Nonbinary_flag.svg
+  link: https://nonbinary.wiki/wiki/Nonbinary
+  name: Non-Binary
+- description: <p>Nonamory is a lifestyle choice that does not include intimate, long
+    term partnerships. One does not need or want a boyfriend, girlfriend, or partner.
+    They do not need or want a queerplatonic partner, or platonic life-partner. One
+    can be nonamorous regardless of romantic orientation, however it is most common
+    among aromantic and aro-spec people. Among non-aromantic people nonamory can be
+    used to refer to someone who does not want a romantic relationship. Among aromantics
+    it is most commonly used to refer to an aro-spec person who does not desire queerplatonic
+    relationships, or similar long term partnerships. Some nonamorous people also
+    do not desire significant platonic relationships, and may identify as aplatonic.</p>
+  id: nonamorous
+  img: https://static.wikia.nocookie.net/lgbta/images/2/23/Nonamorous.jpg
+  link: https://lgbta.wikia.org/wiki/Nonamorous
+  name: Nonamorous
+- description: <p>Omnisexual (often shortened to omni) is an orientation defined as
+    the sexual attraction to all genders, though gender often still plays a role in
+    one's attraction. Some people who identify as omnisexual may have a preference
+    to which gender they feel most attracted to. For others they may be equally attracted
+    to all genders, but they may feel the act of being attracted to one gender feels
+    different than the act of being attracted to another gender. They might also find
+    certain traits only attractive in certain genders.</p>
+  id: omnisexual
+  img: https://static.wikia.nocookie.net/lgbta/images/e/e9/Omniflag.png
+  link: https://lgbta.wikia.org/wiki/Omnisexual
+  name: Omnisexual
+- description: <p>An Open Relationship, also known as Non-Exclusive Monogamy is a
+    relationship or marriage in which one or more parties have permission to have
+    intimate (typically sexual) relations with others outside that relationship or
+    marriage. In such a relationship there is a primary emotional and intimate relationship
+    between partners, and those partners agree to (at least the possibility of) intimacy
+    with other people. This is opposed to the traditionally "closed" relationship,
+    where all parties agree on being with one another exclusively.</p>
+  id: open_relationship
+  img: https://static.wikia.nocookie.net/lgbta/images/c/cf/Open_relationship.png
+  link: https://lgbta.wikia.org/wiki/Open_Relationship
+  name: Open Relationship
+- description: <p>Otter is a term used by gay men, referring to a subset of men who
+    blend the physical and social traits of both bears and twinks, both invoking and
+    defying traditional masculinity. Otters may be defined by physical appearance,
+    tastes, expression of traditionally gendered traits, and/or personal affiliation.</p>
+  id: otters
+  img: https://static.wikia.nocookie.net/lgbta/images/9/9f/Otter.png
+  link: https://lgbta.wikia.org/wiki/Otter
+  name: Otters
+- description: <p>Pangender, or omnigender, is a gender identity in which a person
+    either identifies as a countless number of separate identities that they are fluid
+    between over time, or that they identify as one all encompassing identity. The
+    genders that a pangender person has only includes genders within the person's
+    own culture and life experience (e.g. their genders would not include Fa'afafine
+    unless they are Samoan; their genders would not include bordergender unless they
+    have Borderline Personality Disorder).</p>
+  id: pangender
+  img: https://static.miraheze.org/nonbinarywiki/b/bd/Pangender.png
+  link: https://nonbinary.wiki/wiki/Pangender
+  name: Pangender
+- description: <p>Pansexual (often shortened to pan) is the attraction to people regardless
+    of gender. As a result, they are attracted to all genders. Pansexual people may
+    be described as being "gender blind" showing that gender is not a factor in their
+    attraction to a person.</p>
+  id: pansexual
+  img: https://upload.wikimedia.org/wikipedia/commons/a/a2/Pansexuality_Pride_Flag.svg
+  link: https://lgbta.wikia.org/wiki/Pansexual
+  name: Pansexual
+- description: <p>The rainbow flag (also known as the gay pride flag or LGBT pride
+    flag) is a symbol of lesbian, gay, bisexual, transgender, and queer (LGBTQ) pride
+    and LGBTQ social movements. Other older uses of rainbow flags include a symbol
+    of peace. The colors reflect the diversity of the LGBTQ community, as the flag
+    is often used as a symbol of gay pride during LGBTQ rights marches. While this
+    use of the rainbow flag originated in San Francisco, it is now used worldwide.</p>
+  id: philadelphia_rainbow_flag_people_of_color
+  img: https://upload.wikimedia.org/wikipedia/commons/e/e0/Philadelphia_Pride_Flag.svg
+  link: https://en.wikipedia.org/wiki/Rainbow_flag_(LGBT)
+  name: Philadelphia Rainbow flag People of Color
+- description: <p>Pluralian, also known as multisexual or mspec (multisexual spectrum),
+    is an umbrella term for people who are attracted to multiple genders. It is similar
+    to the terms achillean, sapphic, and diamoric. Some sexualities included in the
+    pluralian umbrella are bisexual, pansexual, omnisexual, as well as any other orientation
+    that involves attraction to more than one gender.</p>
+  id: pluralian
+  img: https://static.wikia.nocookie.net/lgbta/images/8/86/Pluralian_flag.png
+  link: https://lgbta.wikia.org/wiki/Pluralian
+  name: Pluralian
+- description: <p>Pluriad or Plurad is an umbrella term for any relationship involving
+    more than two people where all of the members are actively involved with all other
+    members of the relationship. It encompasses triad, quad (full quad), pentad, hexad,
+    heptad, octad, ennead, nonad, decad, etc.</p>
+  id: pluriad
+  img: https://static.wikia.nocookie.net/lgbta/images/6/6f/Pluriad.png
+  link: https://lgbta.wikia.org/wiki/Pluriad
+  name: Pluriad
+- description: <p>Plurian, Pluriaffectionate, or Multiaffectionate is a term for someone
+    who experiences plural attraction. Plurians can be attracted for have the capacity
+    to love more than one person and/or gender. It includes pluralian/multisexual
+    people, who are attracted to multiple genders, as well as polyamorous people and
+    polyaffectionate people, who are attracted to multiple people.</p>
+  id: plurian
+  img: https://static.wikia.nocookie.net/lgbta/images/7/76/Plurian.png
+  link: https://lgbta.wikia.org/wiki/Plurian
+  name: Plurian
 - description: <p>Polyamory is the capability or desire to be in a relationship with
     more than one person at once. Polyamorous can be used both as a description of
     a relationship with more than two people and as description of people who desire
@@ -304,67 +602,10 @@
     as an open relationship or it can be three or more people who are all in a relationship
     with each other. Polyamorous is not a sexuality on its own, but more of a description
     on how one can experience attraction. Polyamorous people can have any sexuality.</p>
+  id: polyamory
   img: https://static.wikia.nocookie.net/lgbta/images/8/81/Polyamorous_Flag_2020.svg
   link: https://lgbta.wikia.org/wiki/Polyamorous
   name: Polyamory
-- description: <p>An Open Relationship, also known as Non-Exclusive Monogamy is a
-    relationship or marriage in which one or more parties have permission to have
-    intimate (typically sexual) relations with others outside that relationship or
-    marriage. In such a relationship there is a primary emotional and intimate relationship
-    between partners, and those partners agree to (at least the possibility of) intimacy
-    with other people. This is opposed to the traditionally "closed" relationship,
-    where all parties agree on being with one another exclusively.</p>
-  img: https://static.wikia.nocookie.net/lgbta/images/c/cf/Open_relationship.png
-  link: https://lgbta.wikia.org/wiki/Open_Relationship
-  name: Open Relationship
-- description: <p>A Triad, also called a Triangle or Delta, is a possible polyamorous
-    relationship structure which involves three people who are all actively involved
-    with the other two people. The type of relationship is sometimes called a throuple,
-    a portmanteau of "three" and "couple".</p>
-  img: https://static.wikia.nocookie.net/lgbta/images/d/d3/Triad.png
-  link: https://lgbta.wikia.org/wiki/Triad
-  name: Triad
-- description: <p>Quad Polyamory is a term for any polyamorous relationship structure
-    that involves four people. Each of the people in the relationship may be involved
-    with one, two, or all three other people in the relationship.</p>
-  img: https://static.wikia.nocookie.net/lgbta/images/8/8f/Quad_Polyamory.png
-  link: https://lgbta.wikia.org/wiki/Quad_Polyamory
-  name: Quad
-- description: '<p>N Polyamory, also called a "Fluid Chain", is a type of quad polyamorous
-    relationship structure. It is a relationship involving four people, generally
-    two preestablished couples, where one member of one couple is also involved with
-    one member of the other couple. For example: A and B are dating. C and D are dating.
-    B and C are also dating. However, C is not dating A, and B is not dating D. A
-    and D are also not dating.</p>'
-  img: https://static.wikia.nocookie.net/lgbta/images/0/07/N_Polyamory.png
-  link: https://lgbta.wikia.org/wiki/N_Polyamory
-  name: N Polyamory
-- description: <p>Geographical Non-Monogamy is a relationship or arrangement in which
-    ones partners permit one another to have other sexual partners while they are
-    physically apart. Sometimes this carries an understanding that when the couple
-    is physically together again, the relationship will become monogamous, though
-    not necessarily for everyone. Some examples where this might occur would include:</p>
-  img: https://static.wikia.nocookie.net/lgbta/images/7/71/Geographical_non-monogamy.jpg
-  link: https://lgbta.wikia.org/wiki/Geographically_Non-Monogamy
-  name: Geographically Non-Monogamy
-- description: '<p>V Polyamory or Vee Polyamory is a term to describe a type of polyamorous
-    relationship which involves three people, where one person is in a relationship
-    with two partners who are not in a relationship with each other. For example:
-    A is dating B and C, but B and C are not dating each other. It is not the same
-    a cheating because all people involved are aware of all other parties and consent
-    to it. The two people on the "ends of V", may or may not identify as polyamorous,
-    but still consent to their partner having another partner.</p>'
-  img: https://static.wikia.nocookie.net/lgbta/images/9/90/V_Polyamory.png
-  link: https://lgbta.wikia.org/wiki/V_Polyamory
-  name: V Polyamory
-- description: '<p>T Polyamory is a term to describe a possible polyamorous relationship
-    structure which involves three people where the third person''s involvement causes
-    the other two to be involved with each other. For example: A is dating B and C.
-    A''s involvement means that B and C also date each other. Without A''s involvement,
-    B and C would no longer date.</p>'
-  img: https://static.wikia.nocookie.net/lgbta/images/8/83/T_Polyamory.png
-  link: https://lgbta.wikia.org/wiki/T_Polyamory
-  name: T Polyamory
 - description: <p>Polyfidelity, also known as Polyexclusivity, is an approach to polyamory
     where all members of the relationship are equal and agree to have relations with
     other members of the group. They may or may not be open to adding new members.
@@ -375,129 +616,163 @@
     as being similar to monogamy in terms of exclusivity. Some groups may not accept
     new members; other groups may accept new members only by unanimous consensus of
     the existing members.</p>
+  id: polyfidelity
   img: https://static.wikia.nocookie.net/lgbta/images/5/58/Polyfidelity.png
   link: https://lgbta.wikia.org/wiki/Polyfidelity
   name: Polyfidelity
-- description: <p>Monogamy or Monoamory is the act of being in or desiring an exclusive
-    relationship between exactly two people. Neither of the participants in a monogamous
-    relationship are part of a relationship with more than two open and it is not
-    an open relationship. The term monogamous is commonly used by polyamorous people
-    to describe relationships with only two people.</p>
-  img: https://static.wikia.nocookie.net/lgbta/images/3/38/Tumblr_inline_oc6j28tYJV1t8mmlv_1280.png
-  link: https://lgbta.wikia.org/wiki/Monogamy
-  name: Monogamy
-- description: <p>Pluriad or Plurad is an umbrella term for any relationship involving
-    more than two people where all of the members are actively involved with all other
-    members of the relationship. It encompasses triad, quad (full quad), pentad, hexad,
-    heptad, octad, ennead, nonad, decad, etc.</p>
-  img: https://static.wikia.nocookie.net/lgbta/images/6/6f/Pluriad.png
-  link: https://lgbta.wikia.org/wiki/Pluriad
-  name: Pluriad
-- description: <p>Nonamory is a lifestyle choice that does not include intimate, long
-    term partnerships. One does not need or want a boyfriend, girlfriend, or partner.
-    They do not need or want a queerplatonic partner, or platonic life-partner. One
-    can be nonamorous regardless of romantic orientation, however it is most common
-    among aromantic and aro-spec people. Among non-aromantic people nonamory can be
-    used to refer to someone who does not want a romantic relationship. Among aromantics
-    it is most commonly used to refer to an aro-spec person who does not desire queerplatonic
-    relationships, or similar long term partnerships. Some nonamorous people also
-    do not desire significant platonic relationships, and may identify as aplatonic.</p>
-  img: https://static.wikia.nocookie.net/lgbta/images/2/23/Nonamorous.jpg
-  link: https://lgbta.wikia.org/wiki/Nonamorous
-  name: Nonamorous
-- description: <p>Biamory refers to someone who is only capable of feeling attraction
-    towards or being in a relationship with exactly two individuals at a time.[1]
-    These two individuals could be of any gender, depending on the person's sexuality
-    and romantic orientation.</p>
-  img: https://static.wikia.nocookie.net/lgbta/images/b/b9/Biamorous.jpg
-  link: https://lgbta.wikia.org/wiki/Biamorous
-  name: Biamorous
-- description: <p>Plurian, Pluriaffectionate, or Multiaffectionate is a term for someone
-    who experiences plural attraction. Plurians can be attracted for have the capacity
-    to love more than one person and/or gender. It includes pluralian/multisexual
-    people, who are attracted to multiple genders, as well as polyamorous people and
-    polyaffectionate people, who are attracted to multiple people.[1]</p>
-  img: https://static.wikia.nocookie.net/lgbta/images/7/76/Plurian.png
-  link: https://lgbta.wikia.org/wiki/Plurian
-  name: Plurian
-- description: <p>Aromantic (often shortened to aro) means someone who generally does
-    not experience romantic attraction. Romantic attraction is defined as the desire
-    to be in a romantic relationship and/or do romantic acts with a specific person.
-    For non-aromantic people (alloromantics) romantic attraction is involuntary and
-    even occurs when someone doesn't know the other person (though one might not act
-    on it). Aromantic people do not have an innate desire to be in a romantic relationship.
-    They might also feel disconnected from the idea of romance.</p>
-  img: https://static.wikia.nocookie.net/lgbta/images/2/2a/Aroflag.jpg
-  link: https://lgbta.wikia.org/wiki/Aromantic
-  name: Aromantic
-- description: <p>Demiromantic is a romantic orientation on the aromantic spectrum
-    defined as someone who does not experience romantic attraction until they have
-    formed a deep emotional connection with someone. The connection can be sexual,
-    platonic, or some other form of connection. Forming an emotional bond with someone
-    does not mean that one is automatically attracted to said person, as it just means
-    there's now a possibly for one to feel attraction.</p>
-  img: https://static.wikia.nocookie.net/lgbta/images/1/15/Demiaroflag.png
-  link: https://lgbta.wikia.org/wiki/Demiromantic
-  name: Demiromantic
-- description: <p>Autoromanticism is when one experiences romantic attraction, exclusive
-    or not, towards themself. It can occur in multiple forms as follows:</p>
-  img: https://static.wikia.nocookie.net/lgbta/images/9/9f/Autoromantic_.jpg
-  link: https://lgbta.wikia.org/wiki/Autoromantic
-  name: Autoromantic
-- description: <p>Andromantic, or androromantic, is a term with several possible definitions.
-    First, is the romantic attraction to men. This means that heteroromantic women,
-    gay men, and non-binary people attracted to men can be considered androromantics.
-    The second possible definition is the attraction to people who present masculinely,
-    regardless of their actual gender. Thirdly, is the attraction only to people with
-    "male anatomy" regardless of whether that person identifies as male, however this
-    definition is transphobic as it reduces people to their genitals.</p>
-  img: https://static.wikia.nocookie.net/lgbta/images/6/61/Androromantic_Flag.png
-  link: https://lgbta.wikia.org/wiki/Andromantic
-  name: Andromantic
-- description: <p>Myrromantic is a romantic orientation on the aromantic spectrum
-    in which one experiences multiple aro-spec identities. These identities could
-    rapidly fluctuate or they could be experienced at the same time. An example would
-    be someone who is demiromantic and greyromantic at the same time. This can often
-    create confusion when finding one's place on the aromantic spectrum.</p>
-  img: https://static.wikia.nocookie.net/lgbta/images/8/84/Myrromantic_flag.png
-  link: https://lgbta.wikia.org/wiki/Myrromantic
-  name: Myrromantic
+- description: <p>Polygender, poly-gender, or polygendered (from Greek poly "many"
+    + gender) is a nonbinary gender identity in which a person feels that they have
+    more than one gender identity, or that they express "characteristics of multiple
+    genders, deliberately refuting the concept of only two genders," as it was described
+    in 1995, so it was in use by at least that year, if not earlier. Polygender is
+    one of the common nonbinary identities today. In 1998, the word polygender was
+    used in a transgender community on the Internet called Sphere as an umbrella term
+    for trans people whose genders were outside the binary:</p>
+  id: polygender
+  img: https://static.miraheze.org/nonbinarywiki/8/87/Polygender.png
+  link: https://nonbinary.wiki/wiki/Polygender
+  name: Polygender
+- description: <p>Polysexuality, also spelled plysexuality or polisexuality, is the
+    sexual attraction to many, but not all, genders. For example, a polysexual person
+    could be attracted to all genders except men, or they could be attracted only
+    non-binary people, genderfluid people and male-aligned people. Polysexual general
+    implies that one is attracted to more than two genders. This can be any number
+    of genders, up to all genders besides one. Polysexual people may or may not have
+    a preference and may or may not experience a difference between genders.</p>
+  id: polysexual
+  img: https://upload.wikimedia.org/wikipedia/commons/a/ae/Polysexuality_Pride_Flag.svg
+  link: https://lgbta.wikia.org/wiki/Polysexual
+  name: Polysexual
+- description: <p>Proculsexual is an ace-spec identity that describes someone who
+    only feels sexual attraction to people who they're sure they can never be in a
+    relationship with, such as fictional characters, celebrities, or people who they
+    know would never reciprocate their feelings. Fictosexual falls under the umbrella
+    of proculsexual. Many asexual people may fantasize about relationships with celebrities
+    or fictional characters, however proculsexual refers to people who feel strong
+    attraction towards these people for an extended period of time, rather than just
+    daydreaming about them, and only feels attraction to people they know they cannot
+    be in a relationship with.</p>
+  id: proculsexual
+  img: https://static.wikia.nocookie.net/lgbta/images/f/f3/Proculsexual.png
+  link: https://lgbta.wikia.org/wiki/Proculsexual
+  name: Proculsexual
+- description: <p>Quad Polyamory is a term for any polyamorous relationship structure
+    that involves four people. Each of the people in the relationship may be involved
+    with one, two, or all three other people in the relationship.</p>
+  id: quad
+  img: https://static.wikia.nocookie.net/lgbta/images/8/8f/Quad_Polyamory.png
+  link: https://lgbta.wikia.org/wiki/Quad_Polyamory
+  name: Quad
+- description: <p>Queer is an identity, and often considered a movement, for people
+    for sexual and gender minorities, and people who fall outside of and/or reject
+    the cultural norms around sexuality, gender identity, and/or gender expression.
+    The word queer can mean different things to different people, but the most common
+    definition is someone who isn't straight and/or cisgender (cishet). The Queer
+    Movement has largely been about anti-conformity and the rejection of binaries
+    and being pushed into boxes. Similar to the term queer is the term variant.</p>
+  id: queer
+  img: https://static.wikia.nocookie.net/lgbta/images/c/cf/Queerflag.png
+  link: https://lgbta.wikia.org/wiki/Queer
+  name: Queer
+- description: <p>Questioning is the process of wondering what one's gender, sexual
+    orientation, romantic orientation, or other identity is. Questioning can happen
+    at any age, and can take anywhere from days to years. Questioning is normal for
+    anyone, whether they turn out to actually be LGBTQ+ or not. Questioning can refer
+    to both the process of questioning one's gender or sexuality as well as a person
+    who is in the process of questioning. The opposite of questioning is disambiguan.</p>
+  id: questioning
+  img: https://static.wikia.nocookie.net/lgbta/images/6/6d/Questioning.png
+  link: https://lgbta.wikia.org/wiki/Questioning
+  name: Questioning
 - description: <p>The rainbow flag (also known as the gay pride flag or LGBT pride
     flag) is a symbol of lesbian, gay, bisexual, transgender, and queer (LGBTQ) pride
     and LGBTQ social movements. Other older uses of rainbow flags include a symbol
     of peace. The colors reflect the diversity of the LGBTQ community, as the flag
     is often used as a symbol of gay pride during LGBTQ rights marches. While this
     use of the rainbow flag originated in San Francisco, it is now used worldwide.</p>
-  img: //upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Rainbow_flag_and_blue_skies.jpg/800px-Rainbow_flag_and_blue_skies.jpg
+  id: rainbow_flag_lgbt
+  img: https://upload.wikimedia.org/wikipedia/commons/4/48/Gay_Pride_Flag.svg
   link: https://en.wikipedia.org/wiki/Rainbow_flag_(LGBT)
-  name: People of Color Pride
-- img: data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D
-  link: https://lgbta.wikia.org/wiki/Lesbian
-  name: Lipstick Lesbian
-- img: data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D
-  link: https://lgbta.wikia.org/wiki/Lesbian
-  name: Butch Lesbian
-- description: <p>Bear is a sub-cultural term used by gay men, referring to a subset
-    of men who embrace and subvert traditional masculinity and defy the stereotypes
-    typically applied to gay men, who are usually seen as feminine due to their attraction
-    to men. Bears may be defined by physical appearance, tastes, expression of traditionally
-    gendered traits, or personal affilation.</p>
-  img: https://static.wikia.nocookie.net/lgbta/images/a/a4/Bear.png
-  link: https://lgbta.wikia.org/wiki/Bear
-  name: Bears
-- description: <p>Otter is a term used by gay men, referring to a subset of men who
-    blend the physical and social traits of both bears and twinks, both invoking and
-    defying traditional masculinity. Otters may be defined by physical appearance,
-    tastes, expression of traditionally gendered traits, and/or personal affiliation.</p>
-  img: https://static.wikia.nocookie.net/lgbta/images/9/9f/Otter.png
-  link: https://lgbta.wikia.org/wiki/Otter
-  name: Otters
+  name: Rainbow flag LGBT
+- description: <p>A Sapphic person (also known as Woman Loving Woman (WLW), LBPQ (Lesbian,
+    Bisexual, Pansexual, Queer), and Difemina) is a woman, or woman-aligned person
+    who is attracted to other women or woman-aligned people. They may or may not be
+    attracted to other genders as well. This attraction does not need to be exclusive,
+    as the label is used as a way to unify all women who love other women such as,
+    lesbians, bisexual women, pansexual women, etc, promoting solidarity among women
+    of all identities.</p>
+  id: sapphic
+  img: https://static.wikia.nocookie.net/lgbta/images/f/ff/Sapphicflag.png
+  link: https://lgbta.wikia.org/wiki/Sapphic
+  name: Sapphic
+- description: '<p>T Polyamory is a term to describe a possible polyamorous relationship
+    structure which involves three people where the third person''s involvement causes
+    the other two to be involved with each other. For example: A is dating B and C.
+    A''s involvement means that B and C also date each other. Without A''s involvement,
+    B and C would no longer date.</p>'
+  id: t_polyamory
+  img: https://static.wikia.nocookie.net/lgbta/images/8/83/T_Polyamory.png
+  link: https://lgbta.wikia.org/wiki/T_Polyamory
+  name: T Polyamory
+- description: <p>Transgender (often shortened to trans) is a term referring to people
+    who do not identify as the gender assigned to them at birth. It commonly refers
+    to men who were assigned female at birth (trans men), and women who were assigned
+    male at birth (trans women), these examples being known as binary trans people.
+    All non-binary people are also inherently included under the term trans, because
+    their gender is not what was assigned to them at birth. Although, some non-binary
+    people choose not to identify as trans.</p>
+  id: transgender
+  img: https://upload.wikimedia.org/wikipedia/commons/b/b0/Transgender_Pride_flag.svg
+  link: https://lgbta.wikia.org/wiki/Transgender
+  name: Transgender
+- description: <p>A Triad, also called a Triangle or Delta, is a possible polyamorous
+    relationship structure which involves three people who are all actively involved
+    with the other two people. The type of relationship is sometimes called a throuple,
+    a portmanteau of "three" and "couple".</p>
+  id: triad
+  img: https://static.wikia.nocookie.net/lgbta/images/d/d3/Triad.png
+  link: https://lgbta.wikia.org/wiki/Triad
+  name: Triad
+- description: <p>Trigender people experience three genders, at the same time, or
+    moving between the three at different times. These three genders can be any gender,
+    either binary or nonbinary. A trigender person may change from expressing one
+    gender to another, depending on that person's mood or situation. Someone who identifies
+    as trigender may feel that their gender is a combination of several genders happening
+    at the same time. Trigender falls under the general categories of multigender
+    (having many genders) and sometimes genderfluid (having genders that change from
+    time to time). It can also be considered a type of genderqueer or nonbinary identity,
+    which goes beyond the Western binary gender system, much as can be seen in cultures
+    that recognize individuals' right to define their own sense of self</p>
+  id: trigender
+  img: https://static.miraheze.org/nonbinarywiki/4/40/Trigender.png
+  link: https://nonbinary.wiki/wiki/Trigender
+  name: Trigender
 - description: <p>Twink is a term used by gay men, referring to a subset of men who
     defy traditional masculinity, embracing traits that are generally seen as gendered
     and feminine. Twinks may be defined by physical appearance, tastes, expression
     of traditionally gendered traits, or personal affilation.</p>
+  id: twinks
   img: https://static.wikia.nocookie.net/lgbta/images/3/37/512px-Twink_Pride_Flag_%28proposed%29.svg.png
   link: https://lgbta.wikia.org/wiki/Twink
   name: Twinks
-- link: https://lgbt.wikia.org/wiki/Leather_Pride_flag
-  name: Leather/Fetish
+- description: '<p>V Polyamory or Vee Polyamory is a term to describe a type of polyamorous
+    relationship which involves three people, where one person is in a relationship
+    with two partners who are not in a relationship with each other. For example:
+    A is dating B and C, but B and C are not dating each other. It is not the same
+    a cheating because all people involved are aware of all other parties and consent
+    to it. The two people on the "ends of V", may or may not identify as polyamorous,
+    but still consent to their partner having another partner.</p>'
+  id: v_polyamory
+  img: https://static.wikia.nocookie.net/lgbta/images/9/90/V_Polyamory.png
+  link: https://lgbta.wikia.org/wiki/V_Polyamory
+  name: V Polyamory
+- description: <p>Woman, also known as Female, Gal, or Girl (diminutive) is a gender
+    which is part of the gender binary. It is associated with femininity and a connection
+    to girlhood or female-ness (as defined in one's society). It includes cisgender,
+    transgender, and genderqueer women. Some non-binary people also may have a partial
+    connection to being a woman or female-ness, in which case they identify as a non-binary
+    woman, woman-aligned, and/or fiaspec.</p>
+  id: woman_female
+  img: https://static.wikia.nocookie.net/lgbta/images/4/49/Woman.jpg
+  link: https://lgbta.wikia.org/wiki/Woman
+  name: Woman/Female

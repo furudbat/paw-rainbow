@@ -194,6 +194,7 @@ export class Application {
         //this.log.debug('setupSpriteAdapters', loader, resources);
         this._colorPaletteAdapter?.init();
         this._spriteAdapter?.init(this._appData.currentSelectionFormData, resources);
+        this._spriteAdapter?.updateParts(this._appData.currentSelectionFormData.form, this._appData.currentSelectionFormData.parts);
     }
 
     private loadProgressHandler() {

@@ -99,7 +99,8 @@ ul.pagination {
 }
 
 .flag-info-image {
-    height: 100%;
+    min-height: 120px;
+    max-height: 200px;
     width: auto;
 }
 
@@ -107,8 +108,10 @@ ul.pagination {
     width: 130px;
 }
 
+/*
 .color-palette-item {
     .sp-original-input-container {
         width: 80%;
     }
 }
+*/

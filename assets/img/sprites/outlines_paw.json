@@ -2,7 +2,7 @@
     "frames": {
         "assets/img/sprites/outlines_paw/outlines_paw_mask_horizontal_0_outlines.png": {
             "flag_name": "Mask",
-            "part": "left_part_1",
+            "part": "center",
             "orientation": "horizontal",
             "outlines_key": "_horizontal_0_outlines",
             "mask_key": "_horizontal_0_outlines",
@@ -32,7 +32,7 @@
         },
         "assets/img/sprites/outlines_paw/outlines_paw_mask_horizontal_1_outlines.png": {
             "flag_name": "Mask",
-            "part": "left_part_2",
+            "part": "left_part_1",
             "orientation": "horizontal",
             "outlines_key": "_horizontal_1_outlines",
             "mask_key": "_horizontal_1_outlines",
@@ -62,7 +62,7 @@
         },
         "assets/img/sprites/outlines_paw/outlines_paw_mask_horizontal_2_outlines.png": {
             "flag_name": "Mask",
-            "part": "right_part_1",
+            "part": "left_part_2",
             "orientation": "horizontal",
             "outlines_key": "_horizontal_2_outlines",
             "mask_key": "_horizontal_2_outlines",
@@ -92,7 +92,7 @@
         },
         "assets/img/sprites/outlines_paw/outlines_paw_mask_horizontal_3_outlines.png": {
             "flag_name": "Mask",
-            "part": "right_part_2",
+            "part": "right_part_1",
             "orientation": "horizontal",
             "outlines_key": "_horizontal_3_outlines",
             "mask_key": "_horizontal_3_outlines",
@@ -122,7 +122,7 @@
         },
         "assets/img/sprites/outlines_paw/outlines_paw_mask_horizontal_4_outlines.png": {
             "flag_name": "Mask",
-            "part": "center",
+            "part": "right_part_2",
             "orientation": "horizontal",
             "outlines_key": "_horizontal_4_outlines",
             "mask_key": "_horizontal_4_outlines",
@@ -182,7 +182,7 @@
         },
         "assets/img/sprites/outlines_paw/outlines_paw_mask_vertical_0_outlines.png": {
             "flag_name": "Mask",
-            "part": "left_part_1",
+            "part": "center",
             "orientation": "vertical",
             "outlines_key": "_vertical_0_outlines",
             "mask_key": "_vertical_0_outlines",
@@ -212,7 +212,7 @@
         },
         "assets/img/sprites/outlines_paw/outlines_paw_mask_vertical_1_outlines.png": {
             "flag_name": "Mask",
-            "part": "left_part_2",
+            "part": "left_part_1",
             "orientation": "vertical",
             "outlines_key": "_vertical_1_outlines",
             "mask_key": "_vertical_1_outlines",
@@ -242,7 +242,7 @@
         },
         "assets/img/sprites/outlines_paw/outlines_paw_mask_vertical_2_outlines.png": {
             "flag_name": "Mask",
-            "part": "right_part_1",
+            "part": "left_part_2",
             "orientation": "vertical",
             "outlines_key": "_vertical_2_outlines",
             "mask_key": "_vertical_2_outlines",
@@ -272,7 +272,7 @@
         },
         "assets/img/sprites/outlines_paw/outlines_paw_mask_vertical_3_outlines.png": {
             "flag_name": "Mask",
-            "part": "right_part_2",
+            "part": "right_part_1",
             "orientation": "vertical",
             "outlines_key": "_vertical_3_outlines",
             "mask_key": "_vertical_3_outlines",
@@ -302,7 +302,7 @@
         },
         "assets/img/sprites/outlines_paw/outlines_paw_mask_vertical_4_outlines.png": {
             "flag_name": "Mask",
-            "part": "center",
+            "part": "right_part_2",
             "orientation": "vertical",
             "outlines_key": "_vertical_4_outlines",
             "mask_key": "_vertical_4_outlines",

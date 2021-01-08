@@ -6,6 +6,16 @@
     - '#b3b2b3'
     - '#010001'
   link: https://lgbta.wikia.org/wiki/Aromantic
+  img: https://upload.wikimedia.org/wikipedia/commons/a/ad/Aromantic_Pride_Flag.svg
+- name: Aromantic Spectrum
+  colors:
+    - '#409e51'
+    - '#98ce7c'
+    - '#f3fcd0'
+    - '#196164'
+    - '#05212a'
+    - '#ffecee'
+  link: https://lgbta.wikia.org/wiki/Aromantic_Spectrum
 - name: Demiromantic
   colors:
     - '#ffffff'

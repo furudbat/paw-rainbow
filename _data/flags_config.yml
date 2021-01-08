@@ -75,11 +75,11 @@ paw:
   - '#000000'
   - '#1a1a1a'
   parts:
+  - center
   - left_part_1
   - left_part_2
   - right_part_1
   - right_part_2
-  - center
   - whole
   right_part_1:
     circle:

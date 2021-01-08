@@ -2,7 +2,7 @@
     "frames": {
         "assets/img/sprites/sexual_paw/sexual_paw_asexual_horizontal_0.png": {
             "flag_name": "Asexual",
-            "part": "left_part_1",
+            "part": "center",
             "orientation": "horizontal",
             "mask_key": "_horizontal_0",
             "flags_fits": true,
@@ -31,7 +31,7 @@
         },
         "assets/img/sprites/sexual_paw/sexual_paw_asexual_horizontal_1.png": {
             "flag_name": "Asexual",
-            "part": "left_part_2",
+            "part": "left_part_1",
             "orientation": "horizontal",
             "mask_key": "_horizontal_1",
             "flags_fits": true,
@@ -60,7 +60,7 @@
         },
         "assets/img/sprites/sexual_paw/sexual_paw_asexual_horizontal_2.png": {
             "flag_name": "Asexual",
-            "part": "right_part_1",
+            "part": "left_part_2",
             "orientation": "horizontal",
             "mask_key": "_horizontal_2",
             "flags_fits": true,
@@ -89,7 +89,7 @@
         },
         "assets/img/sprites/sexual_paw/sexual_paw_asexual_horizontal_3.png": {
             "flag_name": "Asexual",
-            "part": "right_part_2",
+            "part": "right_part_1",
             "orientation": "horizontal",
             "mask_key": "_horizontal_3",
             "flags_fits": true,
@@ -118,7 +118,7 @@
         },
         "assets/img/sprites/sexual_paw/sexual_paw_asexual_horizontal_4.png": {
             "flag_name": "Asexual",
-            "part": "center",
+            "part": "right_part_2",
             "orientation": "horizontal",
             "mask_key": "_horizontal_4",
             "flags_fits": true,
@@ -176,11 +176,11 @@
         },
         "assets/img/sprites/sexual_paw/sexual_paw_asexual_vertical_0.png": {
             "flag_name": "Asexual",
-            "part": "left_part_1",
+            "part": "center",
             "orientation": "vertical",
             "mask_key": "_vertical_0",
             "flags_fits": true,
-            "flags_fits_perfect": true,
+            "flags_fits_perfect": false,
             "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png",
             "rotated": false,
             "trimmed": false,
@@ -205,7 +205,7 @@
         },
         "assets/img/sprites/sexual_paw/sexual_paw_asexual_vertical_1.png": {
             "flag_name": "Asexual",
-            "part": "left_part_2",
+            "part": "left_part_1",
             "orientation": "vertical",
             "mask_key": "_vertical_1",
             "flags_fits": true,
@@ -234,7 +234,7 @@
         },
         "assets/img/sprites/sexual_paw/sexual_paw_asexual_vertical_2.png": {
             "flag_name": "Asexual",
-            "part": "right_part_1",
+            "part": "left_part_2",
             "orientation": "vertical",
             "mask_key": "_vertical_2",
             "flags_fits": true,
@@ -263,7 +263,7 @@
         },
         "assets/img/sprites/sexual_paw/sexual_paw_asexual_vertical_3.png": {
             "flag_name": "Asexual",
-            "part": "right_part_2",
+            "part": "right_part_1",
             "orientation": "vertical",
             "mask_key": "_vertical_3",
             "flags_fits": true,
@@ -292,11 +292,11 @@
         },
         "assets/img/sprites/sexual_paw/sexual_paw_asexual_vertical_4.png": {
             "flag_name": "Asexual",
-            "part": "center",
+            "part": "right_part_2",
             "orientation": "vertical",
             "mask_key": "_vertical_4",
             "flags_fits": true,
-            "flags_fits_perfect": false,
+            "flags_fits_perfect": true,
             "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_4.png",
             "rotated": false,
             "trimmed": false,
@@ -348,13 +348,13 @@
             "id": "assets/img/sprites/sexual_paw/sexual_paw_asexual_vertical_5.png",
             "filename": "assets/img/sprites/sexual_paw/sexual_paw_asexual_vertical_5.png"
         },
-        "assets/img/sprites/sexual_paw/sexual_paw_bisexual_horizontal_0.png": {
-            "flag_name": "Bisexual",
-            "part": "left_part_1",
+        "assets/img/sprites/sexual_paw/sexual_paw_asexual_spectrum_horizontal_0.png": {
+            "flag_name": "Asexual Spectrum",
+            "part": "center",
             "orientation": "horizontal",
             "mask_key": "_horizontal_0",
             "flags_fits": true,
-            "flags_fits_perfect": true,
+            "flags_fits_perfect": false,
             "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_0.png",
             "rotated": false,
             "trimmed": false,
@@ -374,12 +374,12 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/sexual_paw/sexual_paw_bisexual_horizontal_0.png",
-            "filename": "assets/img/sprites/sexual_paw/sexual_paw_bisexual_horizontal_0.png"
+            "id": "assets/img/sprites/sexual_paw/sexual_paw_asexual_spectrum_horizontal_0.png",
+            "filename": "assets/img/sprites/sexual_paw/sexual_paw_asexual_spectrum_horizontal_0.png"
         },
-        "assets/img/sprites/sexual_paw/sexual_paw_bisexual_horizontal_1.png": {
-            "flag_name": "Bisexual",
-            "part": "left_part_2",
+        "assets/img/sprites/sexual_paw/sexual_paw_asexual_spectrum_horizontal_1.png": {
+            "flag_name": "Asexual Spectrum",
+            "part": "left_part_1",
             "orientation": "horizontal",
             "mask_key": "_horizontal_1",
             "flags_fits": true,
@@ -403,12 +403,12 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/sexual_paw/sexual_paw_bisexual_horizontal_1.png",
-            "filename": "assets/img/sprites/sexual_paw/sexual_paw_bisexual_horizontal_1.png"
+            "id": "assets/img/sprites/sexual_paw/sexual_paw_asexual_spectrum_horizontal_1.png",
+            "filename": "assets/img/sprites/sexual_paw/sexual_paw_asexual_spectrum_horizontal_1.png"
         },
-        "assets/img/sprites/sexual_paw/sexual_paw_bisexual_horizontal_2.png": {
-            "flag_name": "Bisexual",
-            "part": "right_part_1",
+        "assets/img/sprites/sexual_paw/sexual_paw_asexual_spectrum_horizontal_2.png": {
+            "flag_name": "Asexual Spectrum",
+            "part": "left_part_2",
             "orientation": "horizontal",
             "mask_key": "_horizontal_2",
             "flags_fits": true,
@@ -432,16 +432,16 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/sexual_paw/sexual_paw_bisexual_horizontal_2.png",
-            "filename": "assets/img/sprites/sexual_paw/sexual_paw_bisexual_horizontal_2.png"
+            "id": "assets/img/sprites/sexual_paw/sexual_paw_asexual_spectrum_horizontal_2.png",
+            "filename": "assets/img/sprites/sexual_paw/sexual_paw_asexual_spectrum_horizontal_2.png"
         },
-        "assets/img/sprites/sexual_paw/sexual_paw_bisexual_horizontal_3.png": {
-            "flag_name": "Bisexual",
-            "part": "right_part_2",
+        "assets/img/sprites/sexual_paw/sexual_paw_asexual_spectrum_horizontal_3.png": {
+            "flag_name": "Asexual Spectrum",
+            "part": "right_part_1",
             "orientation": "horizontal",
             "mask_key": "_horizontal_3",
             "flags_fits": true,
-            "flags_fits_perfect": true,
+            "flags_fits_perfect": false,
             "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_3.png",
             "rotated": false,
             "trimmed": false,
@@ -461,12 +461,12 @@
                 "w": 22,
                 "h": 22
             },
-            "id": "assets/img/sprites/sexual_paw/sexual_paw_bisexual_horizontal_3.png",
-            "filename": "assets/img/sprites/sexual_paw/sexual_paw_bisexual_horizontal_3.png"
+            "id": "assets/img/sprites/sexual_paw/sexual_paw_asexual_spectrum_horizontal_3.png",
+            "filename": "assets/img/sprites/sexual_paw/sexual_paw_asexual_spectrum_horizontal_3.png"
         },
-        "assets/img/sprites/sexual_paw/sexual_paw_bisexual_horizontal_4.png": {
-            "flag_name": "Bisexual",
-            "part": "center",
+        "assets/img/sprites/sexual_paw/sexual_paw_asexual_spectrum_horizontal_4.png": {
+            "flag_name": "Asexual Spectrum",
+            "part": "right_part_2",
             "orientation": "horizontal",
             "mask_key": "_horizontal_4",
             "flags_fits": true,
@@ -487,6 +487,354 @@
             "frame": {
                 "x": 88,
                 "y": 22,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_paw/sexual_paw_asexual_spectrum_horizontal_4.png",
+            "filename": "assets/img/sprites/sexual_paw/sexual_paw_asexual_spectrum_horizontal_4.png"
+        },
+        "assets/img/sprites/sexual_paw/sexual_paw_asexual_spectrum_horizontal_5.png": {
+            "flag_name": "Asexual Spectrum",
+            "part": "whole",
+            "orientation": "horizontal",
+            "mask_key": "_horizontal_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 110,
+                "y": 22,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_paw/sexual_paw_asexual_spectrum_horizontal_5.png",
+            "filename": "assets/img/sprites/sexual_paw/sexual_paw_asexual_spectrum_horizontal_5.png"
+        },
+        "assets/img/sprites/sexual_paw/sexual_paw_asexual_spectrum_vertical_0.png": {
+            "flag_name": "Asexual Spectrum",
+            "part": "center",
+            "orientation": "vertical",
+            "mask_key": "_vertical_0",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 132,
+                "y": 22,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_paw/sexual_paw_asexual_spectrum_vertical_0.png",
+            "filename": "assets/img/sprites/sexual_paw/sexual_paw_asexual_spectrum_vertical_0.png"
+        },
+        "assets/img/sprites/sexual_paw/sexual_paw_asexual_spectrum_vertical_1.png": {
+            "flag_name": "Asexual Spectrum",
+            "part": "left_part_1",
+            "orientation": "vertical",
+            "mask_key": "_vertical_1",
+            "flags_fits": true,
+            "flags_fits_perfect": true,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 154,
+                "y": 22,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_paw/sexual_paw_asexual_spectrum_vertical_1.png",
+            "filename": "assets/img/sprites/sexual_paw/sexual_paw_asexual_spectrum_vertical_1.png"
+        },
+        "assets/img/sprites/sexual_paw/sexual_paw_asexual_spectrum_vertical_2.png": {
+            "flag_name": "Asexual Spectrum",
+            "part": "left_part_2",
+            "orientation": "vertical",
+            "mask_key": "_vertical_2",
+            "flags_fits": true,
+            "flags_fits_perfect": true,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 176,
+                "y": 22,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_paw/sexual_paw_asexual_spectrum_vertical_2.png",
+            "filename": "assets/img/sprites/sexual_paw/sexual_paw_asexual_spectrum_vertical_2.png"
+        },
+        "assets/img/sprites/sexual_paw/sexual_paw_asexual_spectrum_vertical_3.png": {
+            "flag_name": "Asexual Spectrum",
+            "part": "right_part_1",
+            "orientation": "vertical",
+            "mask_key": "_vertical_3",
+            "flags_fits": true,
+            "flags_fits_perfect": true,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 198,
+                "y": 22,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_paw/sexual_paw_asexual_spectrum_vertical_3.png",
+            "filename": "assets/img/sprites/sexual_paw/sexual_paw_asexual_spectrum_vertical_3.png"
+        },
+        "assets/img/sprites/sexual_paw/sexual_paw_asexual_spectrum_vertical_4.png": {
+            "flag_name": "Asexual Spectrum",
+            "part": "right_part_2",
+            "orientation": "vertical",
+            "mask_key": "_vertical_4",
+            "flags_fits": true,
+            "flags_fits_perfect": true,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 220,
+                "y": 22,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_paw/sexual_paw_asexual_spectrum_vertical_4.png",
+            "filename": "assets/img/sprites/sexual_paw/sexual_paw_asexual_spectrum_vertical_4.png"
+        },
+        "assets/img/sprites/sexual_paw/sexual_paw_asexual_spectrum_vertical_5.png": {
+            "flag_name": "Asexual Spectrum",
+            "part": "whole",
+            "orientation": "vertical",
+            "mask_key": "_vertical_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 242,
+                "y": 22,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_paw/sexual_paw_asexual_spectrum_vertical_5.png",
+            "filename": "assets/img/sprites/sexual_paw/sexual_paw_asexual_spectrum_vertical_5.png"
+        },
+        "assets/img/sprites/sexual_paw/sexual_paw_bisexual_horizontal_0.png": {
+            "flag_name": "Bisexual",
+            "part": "center",
+            "orientation": "horizontal",
+            "mask_key": "_horizontal_0",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 0,
+                "y": 44,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_paw/sexual_paw_bisexual_horizontal_0.png",
+            "filename": "assets/img/sprites/sexual_paw/sexual_paw_bisexual_horizontal_0.png"
+        },
+        "assets/img/sprites/sexual_paw/sexual_paw_bisexual_horizontal_1.png": {
+            "flag_name": "Bisexual",
+            "part": "left_part_1",
+            "orientation": "horizontal",
+            "mask_key": "_horizontal_1",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 22,
+                "y": 44,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_paw/sexual_paw_bisexual_horizontal_1.png",
+            "filename": "assets/img/sprites/sexual_paw/sexual_paw_bisexual_horizontal_1.png"
+        },
+        "assets/img/sprites/sexual_paw/sexual_paw_bisexual_horizontal_2.png": {
+            "flag_name": "Bisexual",
+            "part": "left_part_2",
+            "orientation": "horizontal",
+            "mask_key": "_horizontal_2",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 44,
+                "y": 44,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_paw/sexual_paw_bisexual_horizontal_2.png",
+            "filename": "assets/img/sprites/sexual_paw/sexual_paw_bisexual_horizontal_2.png"
+        },
+        "assets/img/sprites/sexual_paw/sexual_paw_bisexual_horizontal_3.png": {
+            "flag_name": "Bisexual",
+            "part": "right_part_1",
+            "orientation": "horizontal",
+            "mask_key": "_horizontal_3",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 66,
+                "y": 44,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_paw/sexual_paw_bisexual_horizontal_3.png",
+            "filename": "assets/img/sprites/sexual_paw/sexual_paw_bisexual_horizontal_3.png"
+        },
+        "assets/img/sprites/sexual_paw/sexual_paw_bisexual_horizontal_4.png": {
+            "flag_name": "Bisexual",
+            "part": "right_part_2",
+            "orientation": "horizontal",
+            "mask_key": "_horizontal_4",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 88,
+                "y": 44,
                 "w": 22,
                 "h": 22
             },
@@ -515,7 +863,7 @@
             },
             "frame": {
                 "x": 110,
-                "y": 22,
+                "y": 44,
                 "w": 22,
                 "h": 22
             },
@@ -524,10 +872,10 @@
         },
         "assets/img/sprites/sexual_paw/sexual_paw_bisexual_vertical_0.png": {
             "flag_name": "Bisexual",
-            "part": "left_part_1",
+            "part": "center",
             "orientation": "vertical",
             "mask_key": "_vertical_0",
-            "flags_fits": false,
+            "flags_fits": true,
             "flags_fits_perfect": false,
             "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png",
             "rotated": false,
@@ -544,7 +892,7 @@
             },
             "frame": {
                 "x": 132,
-                "y": 22,
+                "y": 44,
                 "w": 22,
                 "h": 22
             },
@@ -553,11 +901,11 @@
         },
         "assets/img/sprites/sexual_paw/sexual_paw_bisexual_vertical_1.png": {
             "flag_name": "Bisexual",
-            "part": "left_part_2",
+            "part": "left_part_1",
             "orientation": "vertical",
             "mask_key": "_vertical_1",
-            "flags_fits": false,
-            "flags_fits_perfect": false,
+            "flags_fits": true,
+            "flags_fits_perfect": true,
             "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_1.png",
             "rotated": false,
             "trimmed": false,
@@ -573,7 +921,7 @@
             },
             "frame": {
                 "x": 154,
-                "y": 22,
+                "y": 44,
                 "w": 22,
                 "h": 22
             },
@@ -582,11 +930,11 @@
         },
         "assets/img/sprites/sexual_paw/sexual_paw_bisexual_vertical_2.png": {
             "flag_name": "Bisexual",
-            "part": "right_part_1",
+            "part": "left_part_2",
             "orientation": "vertical",
             "mask_key": "_vertical_2",
-            "flags_fits": false,
-            "flags_fits_perfect": false,
+            "flags_fits": true,
+            "flags_fits_perfect": true,
             "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_2.png",
             "rotated": false,
             "trimmed": false,
@@ -602,7 +950,7 @@
             },
             "frame": {
                 "x": 176,
-                "y": 22,
+                "y": 44,
                 "w": 22,
                 "h": 22
             },
@@ -611,11 +959,11 @@
         },
         "assets/img/sprites/sexual_paw/sexual_paw_bisexual_vertical_3.png": {
             "flag_name": "Bisexual",
-            "part": "right_part_2",
+            "part": "right_part_1",
             "orientation": "vertical",
             "mask_key": "_vertical_3",
-            "flags_fits": false,
-            "flags_fits_perfect": false,
+            "flags_fits": true,
+            "flags_fits_perfect": true,
             "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_3.png",
             "rotated": false,
             "trimmed": false,
@@ -631,7 +979,7 @@
             },
             "frame": {
                 "x": 198,
-                "y": 22,
+                "y": 44,
                 "w": 22,
                 "h": 22
             },
@@ -640,11 +988,11 @@
         },
         "assets/img/sprites/sexual_paw/sexual_paw_bisexual_vertical_4.png": {
             "flag_name": "Bisexual",
-            "part": "center",
+            "part": "right_part_2",
             "orientation": "vertical",
             "mask_key": "_vertical_4",
             "flags_fits": true,
-            "flags_fits_perfect": false,
+            "flags_fits_perfect": true,
             "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_4.png",
             "rotated": false,
             "trimmed": false,
@@ -660,7 +1008,7 @@
             },
             "frame": {
                 "x": 220,
-                "y": 22,
+                "y": 44,
                 "w": 22,
                 "h": 22
             },
@@ -689,7 +1037,7 @@
             },
             "frame": {
                 "x": 242,
-                "y": 22,
+                "y": 44,
                 "w": 22,
                 "h": 22
             },
@@ -698,7 +1046,7 @@
         },
         "assets/img/sprites/sexual_paw/sexual_paw_pansexual_horizontal_0.png": {
             "flag_name": "Pansexual",
-            "part": "left_part_1",
+            "part": "center",
             "orientation": "horizontal",
             "mask_key": "_horizontal_0",
             "flags_fits": true,
@@ -718,7 +1066,7 @@
             },
             "frame": {
                 "x": 0,
-                "y": 44,
+                "y": 66,
                 "w": 22,
                 "h": 22
             },
@@ -727,7 +1075,7 @@
         },
         "assets/img/sprites/sexual_paw/sexual_paw_pansexual_horizontal_1.png": {
             "flag_name": "Pansexual",
-            "part": "left_part_2",
+            "part": "left_part_1",
             "orientation": "horizontal",
             "mask_key": "_horizontal_1",
             "flags_fits": true,
@@ -747,7 +1095,7 @@
             },
             "frame": {
                 "x": 22,
-                "y": 44,
+                "y": 66,
                 "w": 22,
                 "h": 22
             },
@@ -756,7 +1104,7 @@
         },
         "assets/img/sprites/sexual_paw/sexual_paw_pansexual_horizontal_2.png": {
             "flag_name": "Pansexual",
-            "part": "right_part_1",
+            "part": "left_part_2",
             "orientation": "horizontal",
             "mask_key": "_horizontal_2",
             "flags_fits": true,
@@ -776,7 +1124,7 @@
             },
             "frame": {
                 "x": 44,
-                "y": 44,
+                "y": 66,
                 "w": 22,
                 "h": 22
             },
@@ -785,7 +1133,7 @@
         },
         "assets/img/sprites/sexual_paw/sexual_paw_pansexual_horizontal_3.png": {
             "flag_name": "Pansexual",
-            "part": "right_part_2",
+            "part": "right_part_1",
             "orientation": "horizontal",
             "mask_key": "_horizontal_3",
             "flags_fits": true,
@@ -805,7 +1153,7 @@
             },
             "frame": {
                 "x": 66,
-                "y": 44,
+                "y": 66,
                 "w": 22,
                 "h": 22
             },
@@ -814,7 +1162,7 @@
         },
         "assets/img/sprites/sexual_paw/sexual_paw_pansexual_horizontal_4.png": {
             "flag_name": "Pansexual",
-            "part": "center",
+            "part": "right_part_2",
             "orientation": "horizontal",
             "mask_key": "_horizontal_4",
             "flags_fits": true,
@@ -834,7 +1182,7 @@
             },
             "frame": {
                 "x": 88,
-                "y": 44,
+                "y": 66,
                 "w": 22,
                 "h": 22
             },
@@ -863,7 +1211,7 @@
             },
             "frame": {
                 "x": 110,
-                "y": 44,
+                "y": 66,
                 "w": 22,
                 "h": 22
             },
@@ -872,7 +1220,7 @@
         },
         "assets/img/sprites/sexual_paw/sexual_paw_pansexual_vertical_0.png": {
             "flag_name": "Pansexual",
-            "part": "left_part_1",
+            "part": "center",
             "orientation": "vertical",
             "mask_key": "_vertical_0",
             "flags_fits": true,
@@ -892,7 +1240,7 @@
             },
             "frame": {
                 "x": 132,
-                "y": 44,
+                "y": 66,
                 "w": 22,
                 "h": 22
             },
@@ -901,7 +1249,7 @@
         },
         "assets/img/sprites/sexual_paw/sexual_paw_pansexual_vertical_1.png": {
             "flag_name": "Pansexual",
-            "part": "left_part_2",
+            "part": "left_part_1",
             "orientation": "vertical",
             "mask_key": "_vertical_1",
             "flags_fits": true,
@@ -921,7 +1269,7 @@
             },
             "frame": {
                 "x": 154,
-                "y": 44,
+                "y": 66,
                 "w": 22,
                 "h": 22
             },
@@ -930,7 +1278,7 @@
         },
         "assets/img/sprites/sexual_paw/sexual_paw_pansexual_vertical_2.png": {
             "flag_name": "Pansexual",
-            "part": "right_part_1",
+            "part": "left_part_2",
             "orientation": "vertical",
             "mask_key": "_vertical_2",
             "flags_fits": true,
@@ -950,7 +1298,7 @@
             },
             "frame": {
                 "x": 176,
-                "y": 44,
+                "y": 66,
                 "w": 22,
                 "h": 22
             },
@@ -959,7 +1307,7 @@
         },
         "assets/img/sprites/sexual_paw/sexual_paw_pansexual_vertical_3.png": {
             "flag_name": "Pansexual",
-            "part": "right_part_2",
+            "part": "right_part_1",
             "orientation": "vertical",
             "mask_key": "_vertical_3",
             "flags_fits": true,
@@ -979,7 +1327,7 @@
             },
             "frame": {
                 "x": 198,
-                "y": 44,
+                "y": 66,
                 "w": 22,
                 "h": 22
             },
@@ -988,7 +1336,7 @@
         },
         "assets/img/sprites/sexual_paw/sexual_paw_pansexual_vertical_4.png": {
             "flag_name": "Pansexual",
-            "part": "center",
+            "part": "right_part_2",
             "orientation": "vertical",
             "mask_key": "_vertical_4",
             "flags_fits": true,
@@ -1008,7 +1356,7 @@
             },
             "frame": {
                 "x": 220,
-                "y": 44,
+                "y": 66,
                 "w": 22,
                 "h": 22
             },
@@ -1037,7 +1385,7 @@
             },
             "frame": {
                 "x": 242,
-                "y": 44,
+                "y": 66,
                 "w": 22,
                 "h": 22
             },
@@ -1046,11 +1394,11 @@
         },
         "assets/img/sprites/sexual_paw/sexual_paw_lesbian_horizontal_0.png": {
             "flag_name": "Lesbian",
-            "part": "left_part_1",
+            "part": "center",
             "orientation": "horizontal",
             "mask_key": "_horizontal_0",
             "flags_fits": true,
-            "flags_fits_perfect": true,
+            "flags_fits_perfect": false,
             "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_0.png",
             "rotated": false,
             "trimmed": false,
@@ -1066,7 +1414,7 @@
             },
             "frame": {
                 "x": 0,
-                "y": 66,
+                "y": 88,
                 "w": 22,
                 "h": 22
             },
@@ -1075,11 +1423,11 @@
         },
         "assets/img/sprites/sexual_paw/sexual_paw_lesbian_horizontal_1.png": {
             "flag_name": "Lesbian",
-            "part": "left_part_2",
+            "part": "left_part_1",
             "orientation": "horizontal",
             "mask_key": "_horizontal_1",
             "flags_fits": true,
-            "flags_fits_perfect": false,
+            "flags_fits_perfect": true,
             "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_1.png",
             "rotated": false,
             "trimmed": false,
@@ -1095,7 +1443,7 @@
             },
             "frame": {
                 "x": 22,
-                "y": 66,
+                "y": 88,
                 "w": 22,
                 "h": 22
             },
@@ -1104,7 +1452,7 @@
         },
         "assets/img/sprites/sexual_paw/sexual_paw_lesbian_horizontal_2.png": {
             "flag_name": "Lesbian",
-            "part": "right_part_1",
+            "part": "left_part_2",
             "orientation": "horizontal",
             "mask_key": "_horizontal_2",
             "flags_fits": true,
@@ -1124,7 +1472,7 @@
             },
             "frame": {
                 "x": 44,
-                "y": 66,
+                "y": 88,
                 "w": 22,
                 "h": 22
             },
@@ -1133,11 +1481,11 @@
         },
         "assets/img/sprites/sexual_paw/sexual_paw_lesbian_horizontal_3.png": {
             "flag_name": "Lesbian",
-            "part": "right_part_2",
+            "part": "right_part_1",
             "orientation": "horizontal",
             "mask_key": "_horizontal_3",
             "flags_fits": true,
-            "flags_fits_perfect": true,
+            "flags_fits_perfect": false,
             "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_3.png",
             "rotated": false,
             "trimmed": false,
@@ -1153,7 +1501,7 @@
             },
             "frame": {
                 "x": 66,
-                "y": 66,
+                "y": 88,
                 "w": 22,
                 "h": 22
             },
@@ -1162,11 +1510,11 @@
         },
         "assets/img/sprites/sexual_paw/sexual_paw_lesbian_horizontal_4.png": {
             "flag_name": "Lesbian",
-            "part": "center",
+            "part": "right_part_2",
             "orientation": "horizontal",
             "mask_key": "_horizontal_4",
             "flags_fits": true,
-            "flags_fits_perfect": false,
+            "flags_fits_perfect": true,
             "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_4.png",
             "rotated": false,
             "trimmed": false,
@@ -1182,7 +1530,7 @@
             },
             "frame": {
                 "x": 88,
-                "y": 66,
+                "y": 88,
                 "w": 22,
                 "h": 22
             },
@@ -1211,7 +1559,7 @@
             },
             "frame": {
                 "x": 110,
-                "y": 66,
+                "y": 88,
                 "w": 22,
                 "h": 22
             },
@@ -1220,10 +1568,10 @@
         },
         "assets/img/sprites/sexual_paw/sexual_paw_lesbian_vertical_0.png": {
             "flag_name": "Lesbian",
-            "part": "left_part_1",
+            "part": "center",
             "orientation": "vertical",
             "mask_key": "_vertical_0",
-            "flags_fits": false,
+            "flags_fits": true,
             "flags_fits_perfect": false,
             "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png",
             "rotated": false,
@@ -1240,7 +1588,7 @@
             },
             "frame": {
                 "x": 132,
-                "y": 66,
+                "y": 88,
                 "w": 22,
                 "h": 22
             },
@@ -1249,7 +1597,7 @@
         },
         "assets/img/sprites/sexual_paw/sexual_paw_lesbian_vertical_1.png": {
             "flag_name": "Lesbian",
-            "part": "left_part_2",
+            "part": "left_part_1",
             "orientation": "vertical",
             "mask_key": "_vertical_1",
             "flags_fits": false,
@@ -1269,7 +1617,7 @@
             },
             "frame": {
                 "x": 154,
-                "y": 66,
+                "y": 88,
                 "w": 22,
                 "h": 22
             },
@@ -1278,7 +1626,7 @@
         },
         "assets/img/sprites/sexual_paw/sexual_paw_lesbian_vertical_2.png": {
             "flag_name": "Lesbian",
-            "part": "right_part_1",
+            "part": "left_part_2",
             "orientation": "vertical",
             "mask_key": "_vertical_2",
             "flags_fits": false,
@@ -1298,7 +1646,7 @@
             },
             "frame": {
                 "x": 176,
-                "y": 66,
+                "y": 88,
                 "w": 22,
                 "h": 22
             },
@@ -1307,7 +1655,7 @@
         },
         "assets/img/sprites/sexual_paw/sexual_paw_lesbian_vertical_3.png": {
             "flag_name": "Lesbian",
-            "part": "right_part_2",
+            "part": "right_part_1",
             "orientation": "vertical",
             "mask_key": "_vertical_3",
             "flags_fits": false,
@@ -1327,7 +1675,7 @@
             },
             "frame": {
                 "x": 198,
-                "y": 66,
+                "y": 88,
                 "w": 22,
                 "h": 22
             },
@@ -1336,10 +1684,10 @@
         },
         "assets/img/sprites/sexual_paw/sexual_paw_lesbian_vertical_4.png": {
             "flag_name": "Lesbian",
-            "part": "center",
+            "part": "right_part_2",
             "orientation": "vertical",
             "mask_key": "_vertical_4",
-            "flags_fits": true,
+            "flags_fits": false,
             "flags_fits_perfect": false,
             "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_4.png",
             "rotated": false,
@@ -1356,7 +1704,7 @@
             },
             "frame": {
                 "x": 220,
-                "y": 66,
+                "y": 88,
                 "w": 22,
                 "h": 22
             },
@@ -1385,7 +1733,7 @@
             },
             "frame": {
                 "x": 242,
-                "y": 66,
+                "y": 88,
                 "w": 22,
                 "h": 22
             },
@@ -1394,11 +1742,11 @@
         },
         "assets/img/sprites/sexual_paw/sexual_paw_gay_men_horizontal_0.png": {
             "flag_name": "Gay Men",
-            "part": "left_part_1",
+            "part": "center",
             "orientation": "horizontal",
             "mask_key": "_horizontal_0",
-            "flags_fits": false,
-            "flags_fits_perfect": false,
+            "flags_fits": true,
+            "flags_fits_perfect": true,
             "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_0.png",
             "rotated": false,
             "trimmed": false,
@@ -1414,7 +1762,7 @@
             },
             "frame": {
                 "x": 0,
-                "y": 88,
+                "y": 110,
                 "w": 22,
                 "h": 22
             },
@@ -1423,10 +1771,10 @@
         },
         "assets/img/sprites/sexual_paw/sexual_paw_gay_men_horizontal_1.png": {
             "flag_name": "Gay Men",
-            "part": "left_part_2",
+            "part": "left_part_1",
             "orientation": "horizontal",
             "mask_key": "_horizontal_1",
-            "flags_fits": true,
+            "flags_fits": false,
             "flags_fits_perfect": false,
             "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_1.png",
             "rotated": false,
@@ -1443,7 +1791,7 @@
             },
             "frame": {
                 "x": 22,
-                "y": 88,
+                "y": 110,
                 "w": 22,
                 "h": 22
             },
@@ -1452,7 +1800,7 @@
         },
         "assets/img/sprites/sexual_paw/sexual_paw_gay_men_horizontal_2.png": {
             "flag_name": "Gay Men",
-            "part": "right_part_1",
+            "part": "left_part_2",
             "orientation": "horizontal",
             "mask_key": "_horizontal_2",
             "flags_fits": true,
@@ -1472,7 +1820,7 @@
             },
             "frame": {
                 "x": 44,
-                "y": 88,
+                "y": 110,
                 "w": 22,
                 "h": 22
             },
@@ -1481,10 +1829,10 @@
         },
         "assets/img/sprites/sexual_paw/sexual_paw_gay_men_horizontal_3.png": {
             "flag_name": "Gay Men",
-            "part": "right_part_2",
+            "part": "right_part_1",
             "orientation": "horizontal",
             "mask_key": "_horizontal_3",
-            "flags_fits": false,
+            "flags_fits": true,
             "flags_fits_perfect": false,
             "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_3.png",
             "rotated": false,
@@ -1501,7 +1849,7 @@
             },
             "frame": {
                 "x": 66,
-                "y": 88,
+                "y": 110,
                 "w": 22,
                 "h": 22
             },
@@ -1510,11 +1858,11 @@
         },
         "assets/img/sprites/sexual_paw/sexual_paw_gay_men_horizontal_4.png": {
             "flag_name": "Gay Men",
-            "part": "center",
+            "part": "right_part_2",
             "orientation": "horizontal",
             "mask_key": "_horizontal_4",
-            "flags_fits": true,
-            "flags_fits_perfect": true,
+            "flags_fits": false,
+            "flags_fits_perfect": false,
             "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_4.png",
             "rotated": false,
             "trimmed": false,
@@ -1530,7 +1878,7 @@
             },
             "frame": {
                 "x": 88,
-                "y": 88,
+                "y": 110,
                 "w": 22,
                 "h": 22
             },
@@ -1559,7 +1907,7 @@
             },
             "frame": {
                 "x": 110,
-                "y": 88,
+                "y": 110,
                 "w": 22,
                 "h": 22
             },
@@ -1568,10 +1916,10 @@
         },
         "assets/img/sprites/sexual_paw/sexual_paw_gay_men_vertical_0.png": {
             "flag_name": "Gay Men",
-            "part": "left_part_1",
+            "part": "center",
             "orientation": "vertical",
             "mask_key": "_vertical_0",
-            "flags_fits": false,
+            "flags_fits": true,
             "flags_fits_perfect": false,
             "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png",
             "rotated": false,
@@ -1588,7 +1936,7 @@
             },
             "frame": {
                 "x": 132,
-                "y": 88,
+                "y": 110,
                 "w": 22,
                 "h": 22
             },
@@ -1597,7 +1945,7 @@
         },
         "assets/img/sprites/sexual_paw/sexual_paw_gay_men_vertical_1.png": {
             "flag_name": "Gay Men",
-            "part": "left_part_2",
+            "part": "left_part_1",
             "orientation": "vertical",
             "mask_key": "_vertical_1",
             "flags_fits": false,
@@ -1617,7 +1965,7 @@
             },
             "frame": {
                 "x": 154,
-                "y": 88,
+                "y": 110,
                 "w": 22,
                 "h": 22
             },
@@ -1626,7 +1974,7 @@
         },
         "assets/img/sprites/sexual_paw/sexual_paw_gay_men_vertical_2.png": {
             "flag_name": "Gay Men",
-            "part": "right_part_1",
+            "part": "left_part_2",
             "orientation": "vertical",
             "mask_key": "_vertical_2",
             "flags_fits": false,
@@ -1646,7 +1994,7 @@
             },
             "frame": {
                 "x": 176,
-                "y": 88,
+                "y": 110,
                 "w": 22,
                 "h": 22
             },
@@ -1655,7 +2003,7 @@
         },
         "assets/img/sprites/sexual_paw/sexual_paw_gay_men_vertical_3.png": {
             "flag_name": "Gay Men",
-            "part": "right_part_2",
+            "part": "right_part_1",
             "orientation": "vertical",
             "mask_key": "_vertical_3",
             "flags_fits": false,
@@ -1675,7 +2023,7 @@
             },
             "frame": {
                 "x": 198,
-                "y": 88,
+                "y": 110,
                 "w": 22,
                 "h": 22
             },
@@ -1684,10 +2032,10 @@
         },
         "assets/img/sprites/sexual_paw/sexual_paw_gay_men_vertical_4.png": {
             "flag_name": "Gay Men",
-            "part": "center",
+            "part": "right_part_2",
             "orientation": "vertical",
             "mask_key": "_vertical_4",
-            "flags_fits": true,
+            "flags_fits": false,
             "flags_fits_perfect": false,
             "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_4.png",
             "rotated": false,
@@ -1704,7 +2052,7 @@
             },
             "frame": {
                 "x": 220,
-                "y": 88,
+                "y": 110,
                 "w": 22,
                 "h": 22
             },
@@ -1733,7 +2081,7 @@
             },
             "frame": {
                 "x": 242,
-                "y": 88,
+                "y": 110,
                 "w": 22,
                 "h": 22
             },
@@ -1742,7 +2090,7 @@
         },
         "assets/img/sprites/sexual_paw/sexual_paw_demisexual_horizontal_0.png": {
             "flag_name": "Demisexual",
-            "part": "left_part_1",
+            "part": "center",
             "orientation": "horizontal",
             "mask_key": "_horizontal_0",
             "flags_fits": false,
@@ -1762,7 +2110,7 @@
             },
             "frame": {
                 "x": 0,
-                "y": 110,
+                "y": 132,
                 "w": 22,
                 "h": 22
             },
@@ -1771,7 +2119,7 @@
         },
         "assets/img/sprites/sexual_paw/sexual_paw_demisexual_horizontal_1.png": {
             "flag_name": "Demisexual",
-            "part": "left_part_2",
+            "part": "left_part_1",
             "orientation": "horizontal",
             "mask_key": "_horizontal_1",
             "flags_fits": false,
@@ -1791,7 +2139,7 @@
             },
             "frame": {
                 "x": 22,
-                "y": 110,
+                "y": 132,
                 "w": 22,
                 "h": 22
             },
@@ -1800,7 +2148,7 @@
         },
         "assets/img/sprites/sexual_paw/sexual_paw_demisexual_horizontal_2.png": {
             "flag_name": "Demisexual",
-            "part": "right_part_1",
+            "part": "left_part_2",
             "orientation": "horizontal",
             "mask_key": "_horizontal_2",
             "flags_fits": false,
@@ -1820,7 +2168,7 @@
             },
             "frame": {
                 "x": 44,
-                "y": 110,
+                "y": 132,
                 "w": 22,
                 "h": 22
             },
@@ -1829,7 +2177,7 @@
         },
         "assets/img/sprites/sexual_paw/sexual_paw_demisexual_horizontal_3.png": {
             "flag_name": "Demisexual",
-            "part": "right_part_2",
+            "part": "right_part_1",
             "orientation": "horizontal",
             "mask_key": "_horizontal_3",
             "flags_fits": false,
@@ -1849,7 +2197,7 @@
             },
             "frame": {
                 "x": 66,
-                "y": 110,
+                "y": 132,
                 "w": 22,
                 "h": 22
             },
@@ -1858,7 +2206,7 @@
         },
         "assets/img/sprites/sexual_paw/sexual_paw_demisexual_horizontal_4.png": {
             "flag_name": "Demisexual",
-            "part": "center",
+            "part": "right_part_2",
             "orientation": "horizontal",
             "mask_key": "_horizontal_4",
             "flags_fits": false,
@@ -1878,7 +2226,7 @@
             },
             "frame": {
                 "x": 88,
-                "y": 110,
+                "y": 132,
                 "w": 22,
                 "h": 22
             },
@@ -1907,7 +2255,7 @@
             },
             "frame": {
                 "x": 110,
-                "y": 110,
+                "y": 132,
                 "w": 22,
                 "h": 22
             },
@@ -1916,10 +2264,10 @@
         },
         "assets/img/sprites/sexual_paw/sexual_paw_demisexual_vertical_0.png": {
             "flag_name": "Demisexual",
-            "part": "left_part_1",
+            "part": "center",
             "orientation": "vertical",
             "mask_key": "_vertical_0",
-            "flags_fits": false,
+            "flags_fits": true,
             "flags_fits_perfect": false,
             "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png",
             "rotated": false,
@@ -1936,7 +2284,7 @@
             },
             "frame": {
                 "x": 132,
-                "y": 110,
+                "y": 132,
                 "w": 22,
                 "h": 22
             },
@@ -1945,7 +2293,7 @@
         },
         "assets/img/sprites/sexual_paw/sexual_paw_demisexual_vertical_1.png": {
             "flag_name": "Demisexual",
-            "part": "left_part_2",
+            "part": "left_part_1",
             "orientation": "vertical",
             "mask_key": "_vertical_1",
             "flags_fits": false,
@@ -1965,7 +2313,7 @@
             },
             "frame": {
                 "x": 154,
-                "y": 110,
+                "y": 132,
                 "w": 22,
                 "h": 22
             },
@@ -1974,7 +2322,7 @@
         },
         "assets/img/sprites/sexual_paw/sexual_paw_demisexual_vertical_2.png": {
             "flag_name": "Demisexual",
-            "part": "right_part_1",
+            "part": "left_part_2",
             "orientation": "vertical",
             "mask_key": "_vertical_2",
             "flags_fits": false,
@@ -1994,7 +2342,7 @@
             },
             "frame": {
                 "x": 176,
-                "y": 110,
+                "y": 132,
                 "w": 22,
                 "h": 22
             },
@@ -2003,7 +2351,7 @@
         },
         "assets/img/sprites/sexual_paw/sexual_paw_demisexual_vertical_3.png": {
             "flag_name": "Demisexual",
-            "part": "right_part_2",
+            "part": "right_part_1",
             "orientation": "vertical",
             "mask_key": "_vertical_3",
             "flags_fits": false,
@@ -2023,7 +2371,7 @@
             },
             "frame": {
                 "x": 198,
-                "y": 110,
+                "y": 132,
                 "w": 22,
                 "h": 22
             },
@@ -2032,10 +2380,10 @@
         },
         "assets/img/sprites/sexual_paw/sexual_paw_demisexual_vertical_4.png": {
             "flag_name": "Demisexual",
-            "part": "center",
+            "part": "right_part_2",
             "orientation": "vertical",
             "mask_key": "_vertical_4",
-            "flags_fits": true,
+            "flags_fits": false,
             "flags_fits_perfect": false,
             "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_4.png",
             "rotated": false,
@@ -2052,7 +2400,7 @@
             },
             "frame": {
                 "x": 220,
-                "y": 110,
+                "y": 132,
                 "w": 22,
                 "h": 22
             },
@@ -2081,7 +2429,7 @@
             },
             "frame": {
                 "x": 242,
-                "y": 110,
+                "y": 132,
                 "w": 22,
                 "h": 22
             },
@@ -2090,7 +2438,7 @@
         },
         "assets/img/sprites/sexual_paw/sexual_paw_polysexual_horizontal_0.png": {
             "flag_name": "Polysexual",
-            "part": "left_part_1",
+            "part": "center",
             "orientation": "horizontal",
             "mask_key": "_horizontal_0",
             "flags_fits": true,
@@ -2110,7 +2458,7 @@
             },
             "frame": {
                 "x": 0,
-                "y": 132,
+                "y": 154,
                 "w": 22,
                 "h": 22
             },
@@ -2119,7 +2467,7 @@
         },
         "assets/img/sprites/sexual_paw/sexual_paw_polysexual_horizontal_1.png": {
             "flag_name": "Polysexual",
-            "part": "left_part_2",
+            "part": "left_part_1",
             "orientation": "horizontal",
             "mask_key": "_horizontal_1",
             "flags_fits": true,
@@ -2139,7 +2487,7 @@
             },
             "frame": {
                 "x": 22,
-                "y": 132,
+                "y": 154,
                 "w": 22,
                 "h": 22
             },
@@ -2148,7 +2496,7 @@
         },
         "assets/img/sprites/sexual_paw/sexual_paw_polysexual_horizontal_2.png": {
             "flag_name": "Polysexual",
-            "part": "right_part_1",
+            "part": "left_part_2",
             "orientation": "horizontal",
             "mask_key": "_horizontal_2",
             "flags_fits": true,
@@ -2168,7 +2516,7 @@
             },
             "frame": {
                 "x": 44,
-                "y": 132,
+                "y": 154,
                 "w": 22,
                 "h": 22
             },
@@ -2177,7 +2525,7 @@
         },
         "assets/img/sprites/sexual_paw/sexual_paw_polysexual_horizontal_3.png": {
             "flag_name": "Polysexual",
-            "part": "right_part_2",
+            "part": "right_part_1",
             "orientation": "horizontal",
             "mask_key": "_horizontal_3",
             "flags_fits": true,
@@ -2197,7 +2545,7 @@
             },
             "frame": {
                 "x": 66,
-                "y": 132,
+                "y": 154,
                 "w": 22,
                 "h": 22
             },
@@ -2206,7 +2554,7 @@
         },
         "assets/img/sprites/sexual_paw/sexual_paw_polysexual_horizontal_4.png": {
             "flag_name": "Polysexual",
-            "part": "center",
+            "part": "right_part_2",
             "orientation": "horizontal",
             "mask_key": "_horizontal_4",
             "flags_fits": true,
@@ -2226,7 +2574,7 @@
             },
             "frame": {
                 "x": 88,
-                "y": 132,
+                "y": 154,
                 "w": 22,
                 "h": 22
             },
@@ -2255,7 +2603,7 @@
             },
             "frame": {
                 "x": 110,
-                "y": 132,
+                "y": 154,
                 "w": 22,
                 "h": 22
             },
@@ -2264,7 +2612,7 @@
         },
         "assets/img/sprites/sexual_paw/sexual_paw_polysexual_vertical_0.png": {
             "flag_name": "Polysexual",
-            "part": "left_part_1",
+            "part": "center",
             "orientation": "vertical",
             "mask_key": "_vertical_0",
             "flags_fits": true,
@@ -2284,7 +2632,7 @@
             },
             "frame": {
                 "x": 132,
-                "y": 132,
+                "y": 154,
                 "w": 22,
                 "h": 22
             },
@@ -2293,7 +2641,7 @@
         },
         "assets/img/sprites/sexual_paw/sexual_paw_polysexual_vertical_1.png": {
             "flag_name": "Polysexual",
-            "part": "left_part_2",
+            "part": "left_part_1",
             "orientation": "vertical",
             "mask_key": "_vertical_1",
             "flags_fits": true,
@@ -2313,7 +2661,7 @@
             },
             "frame": {
                 "x": 154,
-                "y": 132,
+                "y": 154,
                 "w": 22,
                 "h": 22
             },
@@ -2322,7 +2670,7 @@
         },
         "assets/img/sprites/sexual_paw/sexual_paw_polysexual_vertical_2.png": {
             "flag_name": "Polysexual",
-            "part": "right_part_1",
+            "part": "left_part_2",
             "orientation": "vertical",
             "mask_key": "_vertical_2",
             "flags_fits": true,
@@ -2342,7 +2690,7 @@
             },
             "frame": {
                 "x": 176,
-                "y": 132,
+                "y": 154,
                 "w": 22,
                 "h": 22
             },
@@ -2351,7 +2699,7 @@
         },
         "assets/img/sprites/sexual_paw/sexual_paw_polysexual_vertical_3.png": {
             "flag_name": "Polysexual",
-            "part": "right_part_2",
+            "part": "right_part_1",
             "orientation": "vertical",
             "mask_key": "_vertical_3",
             "flags_fits": true,
@@ -2371,7 +2719,7 @@
             },
             "frame": {
                 "x": 198,
-                "y": 132,
+                "y": 154,
                 "w": 22,
                 "h": 22
             },
@@ -2380,7 +2728,7 @@
         },
         "assets/img/sprites/sexual_paw/sexual_paw_polysexual_vertical_4.png": {
             "flag_name": "Polysexual",
-            "part": "center",
+            "part": "right_part_2",
             "orientation": "vertical",
             "mask_key": "_vertical_4",
             "flags_fits": true,
@@ -2400,7 +2748,7 @@
             },
             "frame": {
                 "x": 220,
-                "y": 132,
+                "y": 154,
                 "w": 22,
                 "h": 22
             },
@@ -2429,7 +2777,7 @@
             },
             "frame": {
                 "x": 242,
-                "y": 132,
+                "y": 154,
                 "w": 22,
                 "h": 22
             },
@@ -2438,11 +2786,11 @@
         },
         "assets/img/sprites/sexual_paw/sexual_paw_greysexual_horizontal_0.png": {
             "flag_name": "Greysexual",
-            "part": "left_part_1",
+            "part": "center",
             "orientation": "horizontal",
             "mask_key": "_horizontal_0",
             "flags_fits": true,
-            "flags_fits_perfect": true,
+            "flags_fits_perfect": false,
             "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_0.png",
             "rotated": false,
             "trimmed": false,
@@ -2458,7 +2806,7 @@
             },
             "frame": {
                 "x": 0,
-                "y": 154,
+                "y": 176,
                 "w": 22,
                 "h": 22
             },
@@ -2467,11 +2815,11 @@
         },
         "assets/img/sprites/sexual_paw/sexual_paw_greysexual_horizontal_1.png": {
             "flag_name": "Greysexual",
-            "part": "left_part_2",
+            "part": "left_part_1",
             "orientation": "horizontal",
             "mask_key": "_horizontal_1",
             "flags_fits": true,
-            "flags_fits_perfect": false,
+            "flags_fits_perfect": true,
             "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_1.png",
             "rotated": false,
             "trimmed": false,
@@ -2487,7 +2835,7 @@
             },
             "frame": {
                 "x": 22,
-                "y": 154,
+                "y": 176,
                 "w": 22,
                 "h": 22
             },
@@ -2496,7 +2844,7 @@
         },
         "assets/img/sprites/sexual_paw/sexual_paw_greysexual_horizontal_2.png": {
             "flag_name": "Greysexual",
-            "part": "right_part_1",
+            "part": "left_part_2",
             "orientation": "horizontal",
             "mask_key": "_horizontal_2",
             "flags_fits": true,
@@ -2516,7 +2864,7 @@
             },
             "frame": {
                 "x": 44,
-                "y": 154,
+                "y": 176,
                 "w": 22,
                 "h": 22
             },
@@ -2525,11 +2873,11 @@
         },
         "assets/img/sprites/sexual_paw/sexual_paw_greysexual_horizontal_3.png": {
             "flag_name": "Greysexual",
-            "part": "right_part_2",
+            "part": "right_part_1",
             "orientation": "horizontal",
             "mask_key": "_horizontal_3",
             "flags_fits": true,
-            "flags_fits_perfect": true,
+            "flags_fits_perfect": false,
             "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_3.png",
             "rotated": false,
             "trimmed": false,
@@ -2545,7 +2893,7 @@
             },
             "frame": {
                 "x": 66,
-                "y": 154,
+                "y": 176,
                 "w": 22,
                 "h": 22
             },
@@ -2554,11 +2902,11 @@
         },
         "assets/img/sprites/sexual_paw/sexual_paw_greysexual_horizontal_4.png": {
             "flag_name": "Greysexual",
-            "part": "center",
+            "part": "right_part_2",
             "orientation": "horizontal",
             "mask_key": "_horizontal_4",
             "flags_fits": true,
-            "flags_fits_perfect": false,
+            "flags_fits_perfect": true,
             "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_4.png",
             "rotated": false,
             "trimmed": false,
@@ -2574,7 +2922,7 @@
             },
             "frame": {
                 "x": 88,
-                "y": 154,
+                "y": 176,
                 "w": 22,
                 "h": 22
             },
@@ -2603,7 +2951,7 @@
             },
             "frame": {
                 "x": 110,
-                "y": 154,
+                "y": 176,
                 "w": 22,
                 "h": 22
             },
@@ -2612,10 +2960,10 @@
         },
         "assets/img/sprites/sexual_paw/sexual_paw_greysexual_vertical_0.png": {
             "flag_name": "Greysexual",
-            "part": "left_part_1",
+            "part": "center",
             "orientation": "vertical",
             "mask_key": "_vertical_0",
-            "flags_fits": false,
+            "flags_fits": true,
             "flags_fits_perfect": false,
             "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png",
             "rotated": false,
@@ -2632,7 +2980,7 @@
             },
             "frame": {
                 "x": 132,
-                "y": 154,
+                "y": 176,
                 "w": 22,
                 "h": 22
             },
@@ -2641,7 +2989,7 @@
         },
         "assets/img/sprites/sexual_paw/sexual_paw_greysexual_vertical_1.png": {
             "flag_name": "Greysexual",
-            "part": "left_part_2",
+            "part": "left_part_1",
             "orientation": "vertical",
             "mask_key": "_vertical_1",
             "flags_fits": false,
@@ -2661,7 +3009,7 @@
             },
             "frame": {
                 "x": 154,
-                "y": 154,
+                "y": 176,
                 "w": 22,
                 "h": 22
             },
@@ -2670,7 +3018,7 @@
         },
         "assets/img/sprites/sexual_paw/sexual_paw_greysexual_vertical_2.png": {
             "flag_name": "Greysexual",
-            "part": "right_part_1",
+            "part": "left_part_2",
             "orientation": "vertical",
             "mask_key": "_vertical_2",
             "flags_fits": false,
@@ -2690,7 +3038,7 @@
             },
             "frame": {
                 "x": 176,
-                "y": 154,
+                "y": 176,
                 "w": 22,
                 "h": 22
             },
@@ -2699,7 +3047,7 @@
         },
         "assets/img/sprites/sexual_paw/sexual_paw_greysexual_vertical_3.png": {
             "flag_name": "Greysexual",
-            "part": "right_part_2",
+            "part": "right_part_1",
             "orientation": "vertical",
             "mask_key": "_vertical_3",
             "flags_fits": false,
@@ -2719,7 +3067,7 @@
             },
             "frame": {
                 "x": 198,
-                "y": 154,
+                "y": 176,
                 "w": 22,
                 "h": 22
             },
@@ -2728,10 +3076,10 @@
         },
         "assets/img/sprites/sexual_paw/sexual_paw_greysexual_vertical_4.png": {
             "flag_name": "Greysexual",
-            "part": "center",
+            "part": "right_part_2",
             "orientation": "vertical",
             "mask_key": "_vertical_4",
-            "flags_fits": true,
+            "flags_fits": false,
             "flags_fits_perfect": false,
             "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_4.png",
             "rotated": false,
@@ -2748,7 +3096,7 @@
             },
             "frame": {
                 "x": 220,
-                "y": 154,
+                "y": 176,
                 "w": 22,
                 "h": 22
             },
@@ -2777,7 +3125,7 @@
             },
             "frame": {
                 "x": 242,
-                "y": 154,
+                "y": 176,
                 "w": 22,
                 "h": 22
             },
@@ -2786,7 +3134,7 @@
         },
         "assets/img/sprites/sexual_paw/sexual_paw_autosexual_horizontal_0.png": {
             "flag_name": "Autosexual",
-            "part": "left_part_1",
+            "part": "center",
             "orientation": "horizontal",
             "mask_key": "_horizontal_0",
             "flags_fits": true,
@@ -2806,7 +3154,7 @@
             },
             "frame": {
                 "x": 0,
-                "y": 176,
+                "y": 198,
                 "w": 22,
                 "h": 22
             },
@@ -2815,7 +3163,7 @@
         },
         "assets/img/sprites/sexual_paw/sexual_paw_autosexual_horizontal_1.png": {
             "flag_name": "Autosexual",
-            "part": "left_part_2",
+            "part": "left_part_1",
             "orientation": "horizontal",
             "mask_key": "_horizontal_1",
             "flags_fits": true,
@@ -2835,7 +3183,7 @@
             },
             "frame": {
                 "x": 22,
-                "y": 176,
+                "y": 198,
                 "w": 22,
                 "h": 22
             },
@@ -2844,7 +3192,7 @@
         },
         "assets/img/sprites/sexual_paw/sexual_paw_autosexual_horizontal_2.png": {
             "flag_name": "Autosexual",
-            "part": "right_part_1",
+            "part": "left_part_2",
             "orientation": "horizontal",
             "mask_key": "_horizontal_2",
             "flags_fits": true,
@@ -2864,7 +3212,7 @@
             },
             "frame": {
                 "x": 44,
-                "y": 176,
+                "y": 198,
                 "w": 22,
                 "h": 22
             },
@@ -2873,7 +3221,7 @@
         },
         "assets/img/sprites/sexual_paw/sexual_paw_autosexual_horizontal_3.png": {
             "flag_name": "Autosexual",
-            "part": "right_part_2",
+            "part": "right_part_1",
             "orientation": "horizontal",
             "mask_key": "_horizontal_3",
             "flags_fits": true,
@@ -2893,7 +3241,7 @@
             },
             "frame": {
                 "x": 66,
-                "y": 176,
+                "y": 198,
                 "w": 22,
                 "h": 22
             },
@@ -2902,7 +3250,7 @@
         },
         "assets/img/sprites/sexual_paw/sexual_paw_autosexual_horizontal_4.png": {
             "flag_name": "Autosexual",
-            "part": "center",
+            "part": "right_part_2",
             "orientation": "horizontal",
             "mask_key": "_horizontal_4",
             "flags_fits": true,
@@ -2922,7 +3270,7 @@
             },
             "frame": {
                 "x": 88,
-                "y": 176,
+                "y": 198,
                 "w": 22,
                 "h": 22
             },
@@ -2951,7 +3299,7 @@
             },
             "frame": {
                 "x": 110,
-                "y": 176,
+                "y": 198,
                 "w": 22,
                 "h": 22
             },
@@ -2960,7 +3308,7 @@
         },
         "assets/img/sprites/sexual_paw/sexual_paw_autosexual_vertical_0.png": {
             "flag_name": "Autosexual",
-            "part": "left_part_1",
+            "part": "center",
             "orientation": "vertical",
             "mask_key": "_vertical_0",
             "flags_fits": true,
@@ -2980,7 +3328,7 @@
             },
             "frame": {
                 "x": 132,
-                "y": 176,
+                "y": 198,
                 "w": 22,
                 "h": 22
             },
@@ -2989,7 +3337,7 @@
         },
         "assets/img/sprites/sexual_paw/sexual_paw_autosexual_vertical_1.png": {
             "flag_name": "Autosexual",
-            "part": "left_part_2",
+            "part": "left_part_1",
             "orientation": "vertical",
             "mask_key": "_vertical_1",
             "flags_fits": true,
@@ -3009,7 +3357,7 @@
             },
             "frame": {
                 "x": 154,
-                "y": 176,
+                "y": 198,
                 "w": 22,
                 "h": 22
             },
@@ -3018,7 +3366,7 @@
         },
         "assets/img/sprites/sexual_paw/sexual_paw_autosexual_vertical_2.png": {
             "flag_name": "Autosexual",
-            "part": "right_part_1",
+            "part": "left_part_2",
             "orientation": "vertical",
             "mask_key": "_vertical_2",
             "flags_fits": true,
@@ -3038,7 +3386,7 @@
             },
             "frame": {
                 "x": 176,
-                "y": 176,
+                "y": 198,
                 "w": 22,
                 "h": 22
             },
@@ -3047,7 +3395,7 @@
         },
         "assets/img/sprites/sexual_paw/sexual_paw_autosexual_vertical_3.png": {
             "flag_name": "Autosexual",
-            "part": "right_part_2",
+            "part": "right_part_1",
             "orientation": "vertical",
             "mask_key": "_vertical_3",
             "flags_fits": true,
@@ -3067,7 +3415,7 @@
             },
             "frame": {
                 "x": 198,
-                "y": 176,
+                "y": 198,
                 "w": 22,
                 "h": 22
             },
@@ -3076,7 +3424,7 @@
         },
         "assets/img/sprites/sexual_paw/sexual_paw_autosexual_vertical_4.png": {
             "flag_name": "Autosexual",
-            "part": "center",
+            "part": "right_part_2",
             "orientation": "vertical",
             "mask_key": "_vertical_4",
             "flags_fits": true,
@@ -3096,7 +3444,7 @@
             },
             "frame": {
                 "x": 220,
-                "y": 176,
+                "y": 198,
                 "w": 22,
                 "h": 22
             },
@@ -3125,7 +3473,7 @@
             },
             "frame": {
                 "x": 242,
-                "y": 176,
+                "y": 198,
                 "w": 22,
                 "h": 22
             },
@@ -3134,7 +3482,7 @@
         },
         "assets/img/sprites/sexual_paw/sexual_paw_androsexual_horizontal_0.png": {
             "flag_name": "Androsexual",
-            "part": "left_part_1",
+            "part": "center",
             "orientation": "horizontal",
             "mask_key": "_horizontal_0",
             "flags_fits": true,
@@ -3154,7 +3502,7 @@
             },
             "frame": {
                 "x": 0,
-                "y": 198,
+                "y": 220,
                 "w": 22,
                 "h": 22
             },
@@ -3163,7 +3511,7 @@
         },
         "assets/img/sprites/sexual_paw/sexual_paw_androsexual_horizontal_1.png": {
             "flag_name": "Androsexual",
-            "part": "left_part_2",
+            "part": "left_part_1",
             "orientation": "horizontal",
             "mask_key": "_horizontal_1",
             "flags_fits": true,
@@ -3183,7 +3531,7 @@
             },
             "frame": {
                 "x": 22,
-                "y": 198,
+                "y": 220,
                 "w": 22,
                 "h": 22
             },
@@ -3192,7 +3540,7 @@
         },
         "assets/img/sprites/sexual_paw/sexual_paw_androsexual_horizontal_2.png": {
             "flag_name": "Androsexual",
-            "part": "right_part_1",
+            "part": "left_part_2",
             "orientation": "horizontal",
             "mask_key": "_horizontal_2",
             "flags_fits": true,
@@ -3212,7 +3560,7 @@
             },
             "frame": {
                 "x": 44,
-                "y": 198,
+                "y": 220,
                 "w": 22,
                 "h": 22
             },
@@ -3221,7 +3569,7 @@
         },
         "assets/img/sprites/sexual_paw/sexual_paw_androsexual_horizontal_3.png": {
             "flag_name": "Androsexual",
-            "part": "right_part_2",
+            "part": "right_part_1",
             "orientation": "horizontal",
             "mask_key": "_horizontal_3",
             "flags_fits": true,
@@ -3241,7 +3589,7 @@
             },
             "frame": {
                 "x": 66,
-                "y": 198,
+                "y": 220,
                 "w": 22,
                 "h": 22
             },
@@ -3250,7 +3598,7 @@
         },
         "assets/img/sprites/sexual_paw/sexual_paw_androsexual_horizontal_4.png": {
             "flag_name": "Androsexual",
-            "part": "center",
+            "part": "right_part_2",
             "orientation": "horizontal",
             "mask_key": "_horizontal_4",
             "flags_fits": true,
@@ -3270,7 +3618,7 @@
             },
             "frame": {
                 "x": 88,
-                "y": 198,
+                "y": 220,
                 "w": 22,
                 "h": 22
             },
@@ -3299,7 +3647,7 @@
             },
             "frame": {
                 "x": 110,
-                "y": 198,
+                "y": 220,
                 "w": 22,
                 "h": 22
             },
@@ -3308,7 +3656,7 @@
         },
         "assets/img/sprites/sexual_paw/sexual_paw_androsexual_vertical_0.png": {
             "flag_name": "Androsexual",
-            "part": "left_part_1",
+            "part": "center",
             "orientation": "vertical",
             "mask_key": "_vertical_0",
             "flags_fits": true,
@@ -3328,7 +3676,7 @@
             },
             "frame": {
                 "x": 132,
-                "y": 198,
+                "y": 220,
                 "w": 22,
                 "h": 22
             },
@@ -3337,7 +3685,7 @@
         },
         "assets/img/sprites/sexual_paw/sexual_paw_androsexual_vertical_1.png": {
             "flag_name": "Androsexual",
-            "part": "left_part_2",
+            "part": "left_part_1",
             "orientation": "vertical",
             "mask_key": "_vertical_1",
             "flags_fits": true,
@@ -3357,7 +3705,7 @@
             },
             "frame": {
                 "x": 154,
-                "y": 198,
+                "y": 220,
                 "w": 22,
                 "h": 22
             },
@@ -3366,7 +3714,7 @@
         },
         "assets/img/sprites/sexual_paw/sexual_paw_androsexual_vertical_2.png": {
             "flag_name": "Androsexual",
-            "part": "right_part_1",
+            "part": "left_part_2",
             "orientation": "vertical",
             "mask_key": "_vertical_2",
             "flags_fits": true,
@@ -3386,7 +3734,7 @@
             },
             "frame": {
                 "x": 176,
-                "y": 198,
+                "y": 220,
                 "w": 22,
                 "h": 22
             },
@@ -3395,7 +3743,7 @@
         },
         "assets/img/sprites/sexual_paw/sexual_paw_androsexual_vertical_3.png": {
             "flag_name": "Androsexual",
-            "part": "right_part_2",
+            "part": "right_part_1",
             "orientation": "vertical",
             "mask_key": "_vertical_3",
             "flags_fits": true,
@@ -3415,7 +3763,7 @@
             },
             "frame": {
                 "x": 198,
-                "y": 198,
+                "y": 220,
                 "w": 22,
                 "h": 22
             },
@@ -3424,7 +3772,7 @@
         },
         "assets/img/sprites/sexual_paw/sexual_paw_androsexual_vertical_4.png": {
             "flag_name": "Androsexual",
-            "part": "center",
+            "part": "right_part_2",
             "orientation": "vertical",
             "mask_key": "_vertical_4",
             "flags_fits": true,
@@ -3444,7 +3792,7 @@
             },
             "frame": {
                 "x": 220,
-                "y": 198,
+                "y": 220,
                 "w": 22,
                 "h": 22
             },
@@ -3473,7 +3821,7 @@
             },
             "frame": {
                 "x": 242,
-                "y": 198,
+                "y": 220,
                 "w": 22,
                 "h": 22
             },
@@ -3482,11 +3830,11 @@
         },
         "assets/img/sprites/sexual_paw/sexual_paw_myrsexual_horizontal_0.png": {
             "flag_name": "Myrsexual",
-            "part": "left_part_1",
+            "part": "center",
             "orientation": "horizontal",
             "mask_key": "_horizontal_0",
-            "flags_fits": false,
-            "flags_fits_perfect": false,
+            "flags_fits": true,
+            "flags_fits_perfect": true,
             "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_0.png",
             "rotated": false,
             "trimmed": false,
@@ -3502,7 +3850,7 @@
             },
             "frame": {
                 "x": 0,
-                "y": 220,
+                "y": 242,
                 "w": 22,
                 "h": 22
             },
@@ -3511,10 +3859,10 @@
         },
         "assets/img/sprites/sexual_paw/sexual_paw_myrsexual_horizontal_1.png": {
             "flag_name": "Myrsexual",
-            "part": "left_part_2",
+            "part": "left_part_1",
             "orientation": "horizontal",
             "mask_key": "_horizontal_1",
-            "flags_fits": true,
+            "flags_fits": false,
             "flags_fits_perfect": false,
             "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_1.png",
             "rotated": false,
@@ -3531,7 +3879,7 @@
             },
             "frame": {
                 "x": 22,
-                "y": 220,
+                "y": 242,
                 "w": 22,
                 "h": 22
             },
@@ -3540,7 +3888,7 @@
         },
         "assets/img/sprites/sexual_paw/sexual_paw_myrsexual_horizontal_2.png": {
             "flag_name": "Myrsexual",
-            "part": "right_part_1",
+            "part": "left_part_2",
             "orientation": "horizontal",
             "mask_key": "_horizontal_2",
             "flags_fits": true,
@@ -3560,7 +3908,7 @@
             },
             "frame": {
                 "x": 44,
-                "y": 220,
+                "y": 242,
                 "w": 22,
                 "h": 22
             },
@@ -3569,10 +3917,10 @@
         },
         "assets/img/sprites/sexual_paw/sexual_paw_myrsexual_horizontal_3.png": {
             "flag_name": "Myrsexual",
-            "part": "right_part_2",
+            "part": "right_part_1",
             "orientation": "horizontal",
             "mask_key": "_horizontal_3",
-            "flags_fits": false,
+            "flags_fits": true,
             "flags_fits_perfect": false,
             "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_3.png",
             "rotated": false,
@@ -3589,7 +3937,7 @@
             },
             "frame": {
                 "x": 66,
-                "y": 220,
+                "y": 242,
                 "w": 22,
                 "h": 22
             },
@@ -3598,11 +3946,11 @@
         },
         "assets/img/sprites/sexual_paw/sexual_paw_myrsexual_horizontal_4.png": {
             "flag_name": "Myrsexual",
-            "part": "center",
+            "part": "right_part_2",
             "orientation": "horizontal",
             "mask_key": "_horizontal_4",
-            "flags_fits": true,
-            "flags_fits_perfect": true,
+            "flags_fits": false,
+            "flags_fits_perfect": false,
             "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_4.png",
             "rotated": false,
             "trimmed": false,
@@ -3618,7 +3966,7 @@
             },
             "frame": {
                 "x": 88,
-                "y": 220,
+                "y": 242,
                 "w": 22,
                 "h": 22
             },
@@ -3647,7 +3995,7 @@
             },
             "frame": {
                 "x": 110,
-                "y": 220,
+                "y": 242,
                 "w": 22,
                 "h": 22
             },
@@ -3656,10 +4004,10 @@
         },
         "assets/img/sprites/sexual_paw/sexual_paw_myrsexual_vertical_0.png": {
             "flag_name": "Myrsexual",
-            "part": "left_part_1",
+            "part": "center",
             "orientation": "vertical",
             "mask_key": "_vertical_0",
-            "flags_fits": false,
+            "flags_fits": true,
             "flags_fits_perfect": false,
             "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png",
             "rotated": false,
@@ -3676,7 +4024,7 @@
             },
             "frame": {
                 "x": 132,
-                "y": 220,
+                "y": 242,
                 "w": 22,
                 "h": 22
             },
@@ -3685,7 +4033,7 @@
         },
         "assets/img/sprites/sexual_paw/sexual_paw_myrsexual_vertical_1.png": {
             "flag_name": "Myrsexual",
-            "part": "left_part_2",
+            "part": "left_part_1",
             "orientation": "vertical",
             "mask_key": "_vertical_1",
             "flags_fits": false,
@@ -3705,7 +4053,7 @@
             },
             "frame": {
                 "x": 154,
-                "y": 220,
+                "y": 242,
                 "w": 22,
                 "h": 22
             },
@@ -3714,7 +4062,7 @@
         },
         "assets/img/sprites/sexual_paw/sexual_paw_myrsexual_vertical_2.png": {
             "flag_name": "Myrsexual",
-            "part": "right_part_1",
+            "part": "left_part_2",
             "orientation": "vertical",
             "mask_key": "_vertical_2",
             "flags_fits": false,
@@ -3734,7 +4082,7 @@
             },
             "frame": {
                 "x": 176,
-                "y": 220,
+                "y": 242,
                 "w": 22,
                 "h": 22
             },
@@ -3743,7 +4091,7 @@
         },
         "assets/img/sprites/sexual_paw/sexual_paw_myrsexual_vertical_3.png": {
             "flag_name": "Myrsexual",
-            "part": "right_part_2",
+            "part": "right_part_1",
             "orientation": "vertical",
             "mask_key": "_vertical_3",
             "flags_fits": false,
@@ -3763,7 +4111,7 @@
             },
             "frame": {
                 "x": 198,
-                "y": 220,
+                "y": 242,
                 "w": 22,
                 "h": 22
             },
@@ -3772,10 +4120,10 @@
         },
         "assets/img/sprites/sexual_paw/sexual_paw_myrsexual_vertical_4.png": {
             "flag_name": "Myrsexual",
-            "part": "center",
+            "part": "right_part_2",
             "orientation": "vertical",
             "mask_key": "_vertical_4",
-            "flags_fits": true,
+            "flags_fits": false,
             "flags_fits_perfect": false,
             "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_4.png",
             "rotated": false,
@@ -3792,7 +4140,7 @@
             },
             "frame": {
                 "x": 220,
-                "y": 220,
+                "y": 242,
                 "w": 22,
                 "h": 22
             },
@@ -3821,7 +4169,7 @@
             },
             "frame": {
                 "x": 242,
-                "y": 220,
+                "y": 242,
                 "w": 22,
                 "h": 22
             },
@@ -3830,11 +4178,11 @@
         },
         "assets/img/sprites/sexual_paw/sexual_paw_omnisexual_horizontal_0.png": {
             "flag_name": "Omnisexual",
-            "part": "left_part_1",
+            "part": "center",
             "orientation": "horizontal",
             "mask_key": "_horizontal_0",
             "flags_fits": true,
-            "flags_fits_perfect": true,
+            "flags_fits_perfect": false,
             "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_0.png",
             "rotated": false,
             "trimmed": false,
@@ -3850,7 +4198,7 @@
             },
             "frame": {
                 "x": 0,
-                "y": 242,
+                "y": 264,
                 "w": 22,
                 "h": 22
             },
@@ -3859,11 +4207,11 @@
         },
         "assets/img/sprites/sexual_paw/sexual_paw_omnisexual_horizontal_1.png": {
             "flag_name": "Omnisexual",
-            "part": "left_part_2",
+            "part": "left_part_1",
             "orientation": "horizontal",
             "mask_key": "_horizontal_1",
             "flags_fits": true,
-            "flags_fits_perfect": false,
+            "flags_fits_perfect": true,
             "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_1.png",
             "rotated": false,
             "trimmed": false,
@@ -3879,7 +4227,7 @@
             },
             "frame": {
                 "x": 22,
-                "y": 242,
+                "y": 264,
                 "w": 22,
                 "h": 22
             },
@@ -3888,7 +4236,7 @@
         },
         "assets/img/sprites/sexual_paw/sexual_paw_omnisexual_horizontal_2.png": {
             "flag_name": "Omnisexual",
-            "part": "right_part_1",
+            "part": "left_part_2",
             "orientation": "horizontal",
             "mask_key": "_horizontal_2",
             "flags_fits": true,
@@ -3908,7 +4256,7 @@
             },
             "frame": {
                 "x": 44,
-                "y": 242,
+                "y": 264,
                 "w": 22,
                 "h": 22
             },
@@ -3917,11 +4265,11 @@
         },
         "assets/img/sprites/sexual_paw/sexual_paw_omnisexual_horizontal_3.png": {
             "flag_name": "Omnisexual",
-            "part": "right_part_2",
+            "part": "right_part_1",
             "orientation": "horizontal",
             "mask_key": "_horizontal_3",
             "flags_fits": true,
-            "flags_fits_perfect": true,
+            "flags_fits_perfect": false,
             "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_3.png",
             "rotated": false,
             "trimmed": false,
@@ -3937,7 +4285,7 @@
             },
             "frame": {
                 "x": 66,
-                "y": 242,
+                "y": 264,
                 "w": 22,
                 "h": 22
             },
@@ -3946,11 +4294,11 @@
         },
         "assets/img/sprites/sexual_paw/sexual_paw_omnisexual_horizontal_4.png": {
             "flag_name": "Omnisexual",
-            "part": "center",
+            "part": "right_part_2",
             "orientation": "horizontal",
             "mask_key": "_horizontal_4",
             "flags_fits": true,
-            "flags_fits_perfect": false,
+            "flags_fits_perfect": true,
             "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_4.png",
             "rotated": false,
             "trimmed": false,
@@ -3966,7 +4314,7 @@
             },
             "frame": {
                 "x": 88,
-                "y": 242,
+                "y": 264,
                 "w": 22,
                 "h": 22
             },
@@ -3995,7 +4343,7 @@
             },
             "frame": {
                 "x": 110,
-                "y": 242,
+                "y": 264,
                 "w": 22,
                 "h": 22
             },
@@ -4004,10 +4352,10 @@
         },
         "assets/img/sprites/sexual_paw/sexual_paw_omnisexual_vertical_0.png": {
             "flag_name": "Omnisexual",
-            "part": "left_part_1",
+            "part": "center",
             "orientation": "vertical",
             "mask_key": "_vertical_0",
-            "flags_fits": false,
+            "flags_fits": true,
             "flags_fits_perfect": false,
             "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png",
             "rotated": false,
@@ -4024,7 +4372,7 @@
             },
             "frame": {
                 "x": 132,
-                "y": 242,
+                "y": 264,
                 "w": 22,
                 "h": 22
             },
@@ -4033,7 +4381,7 @@
         },
         "assets/img/sprites/sexual_paw/sexual_paw_omnisexual_vertical_1.png": {
             "flag_name": "Omnisexual",
-            "part": "left_part_2",
+            "part": "left_part_1",
             "orientation": "vertical",
             "mask_key": "_vertical_1",
             "flags_fits": false,
@@ -4053,7 +4401,7 @@
             },
             "frame": {
                 "x": 154,
-                "y": 242,
+                "y": 264,
                 "w": 22,
                 "h": 22
             },
@@ -4062,7 +4410,7 @@
         },
         "assets/img/sprites/sexual_paw/sexual_paw_omnisexual_vertical_2.png": {
             "flag_name": "Omnisexual",
-            "part": "right_part_1",
+            "part": "left_part_2",
             "orientation": "vertical",
             "mask_key": "_vertical_2",
             "flags_fits": false,
@@ -4082,7 +4430,7 @@
             },
             "frame": {
                 "x": 176,
-                "y": 242,
+                "y": 264,
                 "w": 22,
                 "h": 22
             },
@@ -4091,7 +4439,7 @@
         },
         "assets/img/sprites/sexual_paw/sexual_paw_omnisexual_vertical_3.png": {
             "flag_name": "Omnisexual",
-            "part": "right_part_2",
+            "part": "right_part_1",
             "orientation": "vertical",
             "mask_key": "_vertical_3",
             "flags_fits": false,
@@ -4111,7 +4459,7 @@
             },
             "frame": {
                 "x": 198,
-                "y": 242,
+                "y": 264,
                 "w": 22,
                 "h": 22
             },
@@ -4120,10 +4468,10 @@
         },
         "assets/img/sprites/sexual_paw/sexual_paw_omnisexual_vertical_4.png": {
             "flag_name": "Omnisexual",
-            "part": "center",
+            "part": "right_part_2",
             "orientation": "vertical",
             "mask_key": "_vertical_4",
-            "flags_fits": true,
+            "flags_fits": false,
             "flags_fits_perfect": false,
             "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_4.png",
             "rotated": false,
@@ -4140,7 +4488,7 @@
             },
             "frame": {
                 "x": 220,
-                "y": 242,
+                "y": 264,
                 "w": 22,
                 "h": 22
             },
@@ -4169,18 +4517,714 @@
             },
             "frame": {
                 "x": 242,
-                "y": 242,
+                "y": 264,
                 "w": 22,
                 "h": 22
             },
             "id": "assets/img/sprites/sexual_paw/sexual_paw_omnisexual_vertical_5.png",
             "filename": "assets/img/sprites/sexual_paw/sexual_paw_omnisexual_vertical_5.png"
+        },
+        "assets/img/sprites/sexual_paw/sexual_paw_gay_horizontal_0.png": {
+            "flag_name": "Gay",
+            "part": "center",
+            "orientation": "horizontal",
+            "mask_key": "_horizontal_0",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 0,
+                "y": 286,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_paw/sexual_paw_gay_horizontal_0.png",
+            "filename": "assets/img/sprites/sexual_paw/sexual_paw_gay_horizontal_0.png"
+        },
+        "assets/img/sprites/sexual_paw/sexual_paw_gay_horizontal_1.png": {
+            "flag_name": "Gay",
+            "part": "left_part_1",
+            "orientation": "horizontal",
+            "mask_key": "_horizontal_1",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 22,
+                "y": 286,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_paw/sexual_paw_gay_horizontal_1.png",
+            "filename": "assets/img/sprites/sexual_paw/sexual_paw_gay_horizontal_1.png"
+        },
+        "assets/img/sprites/sexual_paw/sexual_paw_gay_horizontal_2.png": {
+            "flag_name": "Gay",
+            "part": "left_part_2",
+            "orientation": "horizontal",
+            "mask_key": "_horizontal_2",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 44,
+                "y": 286,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_paw/sexual_paw_gay_horizontal_2.png",
+            "filename": "assets/img/sprites/sexual_paw/sexual_paw_gay_horizontal_2.png"
+        },
+        "assets/img/sprites/sexual_paw/sexual_paw_gay_horizontal_3.png": {
+            "flag_name": "Gay",
+            "part": "right_part_1",
+            "orientation": "horizontal",
+            "mask_key": "_horizontal_3",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 66,
+                "y": 286,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_paw/sexual_paw_gay_horizontal_3.png",
+            "filename": "assets/img/sprites/sexual_paw/sexual_paw_gay_horizontal_3.png"
+        },
+        "assets/img/sprites/sexual_paw/sexual_paw_gay_horizontal_4.png": {
+            "flag_name": "Gay",
+            "part": "right_part_2",
+            "orientation": "horizontal",
+            "mask_key": "_horizontal_4",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 88,
+                "y": 286,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_paw/sexual_paw_gay_horizontal_4.png",
+            "filename": "assets/img/sprites/sexual_paw/sexual_paw_gay_horizontal_4.png"
+        },
+        "assets/img/sprites/sexual_paw/sexual_paw_gay_horizontal_5.png": {
+            "flag_name": "Gay",
+            "part": "whole",
+            "orientation": "horizontal",
+            "mask_key": "_horizontal_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 110,
+                "y": 286,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_paw/sexual_paw_gay_horizontal_5.png",
+            "filename": "assets/img/sprites/sexual_paw/sexual_paw_gay_horizontal_5.png"
+        },
+        "assets/img/sprites/sexual_paw/sexual_paw_gay_vertical_0.png": {
+            "flag_name": "Gay",
+            "part": "center",
+            "orientation": "vertical",
+            "mask_key": "_vertical_0",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 132,
+                "y": 286,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_paw/sexual_paw_gay_vertical_0.png",
+            "filename": "assets/img/sprites/sexual_paw/sexual_paw_gay_vertical_0.png"
+        },
+        "assets/img/sprites/sexual_paw/sexual_paw_gay_vertical_1.png": {
+            "flag_name": "Gay",
+            "part": "left_part_1",
+            "orientation": "vertical",
+            "mask_key": "_vertical_1",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 154,
+                "y": 286,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_paw/sexual_paw_gay_vertical_1.png",
+            "filename": "assets/img/sprites/sexual_paw/sexual_paw_gay_vertical_1.png"
+        },
+        "assets/img/sprites/sexual_paw/sexual_paw_gay_vertical_2.png": {
+            "flag_name": "Gay",
+            "part": "left_part_2",
+            "orientation": "vertical",
+            "mask_key": "_vertical_2",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 176,
+                "y": 286,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_paw/sexual_paw_gay_vertical_2.png",
+            "filename": "assets/img/sprites/sexual_paw/sexual_paw_gay_vertical_2.png"
+        },
+        "assets/img/sprites/sexual_paw/sexual_paw_gay_vertical_3.png": {
+            "flag_name": "Gay",
+            "part": "right_part_1",
+            "orientation": "vertical",
+            "mask_key": "_vertical_3",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 198,
+                "y": 286,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_paw/sexual_paw_gay_vertical_3.png",
+            "filename": "assets/img/sprites/sexual_paw/sexual_paw_gay_vertical_3.png"
+        },
+        "assets/img/sprites/sexual_paw/sexual_paw_gay_vertical_4.png": {
+            "flag_name": "Gay",
+            "part": "right_part_2",
+            "orientation": "vertical",
+            "mask_key": "_vertical_4",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 220,
+                "y": 286,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_paw/sexual_paw_gay_vertical_4.png",
+            "filename": "assets/img/sprites/sexual_paw/sexual_paw_gay_vertical_4.png"
+        },
+        "assets/img/sprites/sexual_paw/sexual_paw_gay_vertical_5.png": {
+            "flag_name": "Gay",
+            "part": "whole",
+            "orientation": "vertical",
+            "mask_key": "_vertical_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 242,
+                "y": 286,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_paw/sexual_paw_gay_vertical_5.png",
+            "filename": "assets/img/sprites/sexual_paw/sexual_paw_gay_vertical_5.png"
+        },
+        "assets/img/sprites/sexual_paw/sexual_paw_proculsexual_horizontal_0.png": {
+            "flag_name": "Proculsexual",
+            "part": "center",
+            "orientation": "horizontal",
+            "mask_key": "_horizontal_0",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 0,
+                "y": 308,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_paw/sexual_paw_proculsexual_horizontal_0.png",
+            "filename": "assets/img/sprites/sexual_paw/sexual_paw_proculsexual_horizontal_0.png"
+        },
+        "assets/img/sprites/sexual_paw/sexual_paw_proculsexual_horizontal_1.png": {
+            "flag_name": "Proculsexual",
+            "part": "left_part_1",
+            "orientation": "horizontal",
+            "mask_key": "_horizontal_1",
+            "flags_fits": true,
+            "flags_fits_perfect": true,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 22,
+                "y": 308,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_paw/sexual_paw_proculsexual_horizontal_1.png",
+            "filename": "assets/img/sprites/sexual_paw/sexual_paw_proculsexual_horizontal_1.png"
+        },
+        "assets/img/sprites/sexual_paw/sexual_paw_proculsexual_horizontal_2.png": {
+            "flag_name": "Proculsexual",
+            "part": "left_part_2",
+            "orientation": "horizontal",
+            "mask_key": "_horizontal_2",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 44,
+                "y": 308,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_paw/sexual_paw_proculsexual_horizontal_2.png",
+            "filename": "assets/img/sprites/sexual_paw/sexual_paw_proculsexual_horizontal_2.png"
+        },
+        "assets/img/sprites/sexual_paw/sexual_paw_proculsexual_horizontal_3.png": {
+            "flag_name": "Proculsexual",
+            "part": "right_part_1",
+            "orientation": "horizontal",
+            "mask_key": "_horizontal_3",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 66,
+                "y": 308,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_paw/sexual_paw_proculsexual_horizontal_3.png",
+            "filename": "assets/img/sprites/sexual_paw/sexual_paw_proculsexual_horizontal_3.png"
+        },
+        "assets/img/sprites/sexual_paw/sexual_paw_proculsexual_horizontal_4.png": {
+            "flag_name": "Proculsexual",
+            "part": "right_part_2",
+            "orientation": "horizontal",
+            "mask_key": "_horizontal_4",
+            "flags_fits": true,
+            "flags_fits_perfect": true,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 88,
+                "y": 308,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_paw/sexual_paw_proculsexual_horizontal_4.png",
+            "filename": "assets/img/sprites/sexual_paw/sexual_paw_proculsexual_horizontal_4.png"
+        },
+        "assets/img/sprites/sexual_paw/sexual_paw_proculsexual_horizontal_5.png": {
+            "flag_name": "Proculsexual",
+            "part": "whole",
+            "orientation": "horizontal",
+            "mask_key": "_horizontal_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 110,
+                "y": 308,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_paw/sexual_paw_proculsexual_horizontal_5.png",
+            "filename": "assets/img/sprites/sexual_paw/sexual_paw_proculsexual_horizontal_5.png"
+        },
+        "assets/img/sprites/sexual_paw/sexual_paw_proculsexual_vertical_0.png": {
+            "flag_name": "Proculsexual",
+            "part": "center",
+            "orientation": "vertical",
+            "mask_key": "_vertical_0",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 132,
+                "y": 308,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_paw/sexual_paw_proculsexual_vertical_0.png",
+            "filename": "assets/img/sprites/sexual_paw/sexual_paw_proculsexual_vertical_0.png"
+        },
+        "assets/img/sprites/sexual_paw/sexual_paw_proculsexual_vertical_1.png": {
+            "flag_name": "Proculsexual",
+            "part": "left_part_1",
+            "orientation": "vertical",
+            "mask_key": "_vertical_1",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_1.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 154,
+                "y": 308,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_paw/sexual_paw_proculsexual_vertical_1.png",
+            "filename": "assets/img/sprites/sexual_paw/sexual_paw_proculsexual_vertical_1.png"
+        },
+        "assets/img/sprites/sexual_paw/sexual_paw_proculsexual_vertical_2.png": {
+            "flag_name": "Proculsexual",
+            "part": "left_part_2",
+            "orientation": "vertical",
+            "mask_key": "_vertical_2",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_2.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 176,
+                "y": 308,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_paw/sexual_paw_proculsexual_vertical_2.png",
+            "filename": "assets/img/sprites/sexual_paw/sexual_paw_proculsexual_vertical_2.png"
+        },
+        "assets/img/sprites/sexual_paw/sexual_paw_proculsexual_vertical_3.png": {
+            "flag_name": "Proculsexual",
+            "part": "right_part_1",
+            "orientation": "vertical",
+            "mask_key": "_vertical_3",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_3.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 198,
+                "y": 308,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_paw/sexual_paw_proculsexual_vertical_3.png",
+            "filename": "assets/img/sprites/sexual_paw/sexual_paw_proculsexual_vertical_3.png"
+        },
+        "assets/img/sprites/sexual_paw/sexual_paw_proculsexual_vertical_4.png": {
+            "flag_name": "Proculsexual",
+            "part": "right_part_2",
+            "orientation": "vertical",
+            "mask_key": "_vertical_4",
+            "flags_fits": false,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_4.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 220,
+                "y": 308,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_paw/sexual_paw_proculsexual_vertical_4.png",
+            "filename": "assets/img/sprites/sexual_paw/sexual_paw_proculsexual_vertical_4.png"
+        },
+        "assets/img/sprites/sexual_paw/sexual_paw_proculsexual_vertical_5.png": {
+            "flag_name": "Proculsexual",
+            "part": "whole",
+            "orientation": "vertical",
+            "mask_key": "_vertical_5",
+            "flags_fits": true,
+            "flags_fits_perfect": false,
+            "mask_filename": "assets/img/sprites/mask_paw/mask_paw_mask_vertical_5.png",
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            },
+            "frame": {
+                "x": 242,
+                "y": 308,
+                "w": 22,
+                "h": 22
+            },
+            "id": "assets/img/sprites/sexual_paw/sexual_paw_proculsexual_vertical_5.png",
+            "filename": "assets/img/sprites/sexual_paw/sexual_paw_proculsexual_vertical_5.png"
         }
     },
     "meta": {
         "size": {
             "w": 264,
-            "h": 264
+            "h": 330
         },
         "image": "sexual_paw.png",
         "format": "RGBA8888",

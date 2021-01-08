@@ -5,20 +5,29 @@
     - '#ffffff'
     - '#800080'
   link: https://lgbta.wikia.org/wiki/Asexual
+  img: https://upload.wikimedia.org/wikipedia/commons/9/9e/Asexual_Pride_Flag.svg
+- name: Asexual Spectrum
+  colors:
+    - '#010001'
+    - '#7557af'
+    - '#ffffff'
+    - '#ffedec'
+  link: https://lgbta.wikia.org/wiki/Asexual_Spectrum
 - name: Bisexual
   colors:
+    - '#141846'
     - '#d60270'
-    - '#d60270'
-    - '#9b4f96'
-    - '#0038a8'
+    - '#d992b3'
     - '#0038a8'
   link: https://lgbta.wikia.org/wiki/Bisexual
+  img: https://upload.wikimedia.org/wikipedia/commons/2/2a/Bisexual_Pride_Flag.svg
 - name: Pansexual
   colors:
     - '#e93d8c'
     - '#f9da49'
     - '#55b1f9'
   link: https://lgbta.wikia.org/wiki/Pansexual
+  img: https://upload.wikimedia.org/wikipedia/commons/a/a2/Pansexuality_Pride_Flag.svg
 - name: Lesbian
   colors:
     - '#d72d01'
@@ -27,6 +36,7 @@
     - '#d462a6'
     - '#a40163'
   link: https://lgbta.wikia.org/wiki/Lesbian
+  img: https://upload.wikimedia.org/wikipedia/commons/3/35/Lesbian_Pride_Flag_2019.svg
 - name: Gay Men
   colors:
     - '#007071'
@@ -45,12 +55,14 @@
     - '#010001'
   line: '#67236d'
   link: https://lgbta.wikia.org/wiki/Demisexual
+  img: https://upload.wikimedia.org/wikipedia/commons/a/a7/Demisexual_Pride_Flag.svg
 - name: Polysexual
   colors:
     - '#c84793'
     - '#4bb166'
     - '#4288c8'
   link: https://lgbta.wikia.org/wiki/Polysexual
+  img: https://upload.wikimedia.org/wikipedia/commons/a/ae/Polysexuality_Pride_Flag.svg
 - name: Greysexual
   colors:
     - '#6a0c80'
@@ -88,3 +100,20 @@
     - '#675dff'
     - '#8da5ff'
   link: https://lgbta.wikia.org/wiki/Omnisexual
+- name: Gay
+  colors:
+    - '#f00000'
+    - '#ff8000'
+    - '#ffff00'
+    - '#007940'
+    - '#4040ff'
+    - '#a000c0'
+  link: https://lgbta.wikia.org/wiki/Gay
+- name: Proculsexual
+  colors:
+    - '#c0c0c0'
+    - '#d60000'
+    - '#d3b037'
+    - '#d60000'
+    - '#c0c0c0'
+  link: https://lgbta.wikia.org/wiki/Proculsexual

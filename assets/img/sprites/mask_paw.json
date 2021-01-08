@@ -2,7 +2,7 @@
     "frames": {
         "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_0.png": {
             "flag_name": "Mask",
-            "part": "left_part_1",
+            "part": "center",
             "orientation": "horizontal",
             "mask_key": "_horizontal_0",
             "flags_fits": true,
@@ -31,7 +31,7 @@
         },
         "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_1.png": {
             "flag_name": "Mask",
-            "part": "left_part_2",
+            "part": "left_part_1",
             "orientation": "horizontal",
             "mask_key": "_horizontal_1",
             "flags_fits": true,
@@ -60,7 +60,7 @@
         },
         "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_2.png": {
             "flag_name": "Mask",
-            "part": "right_part_1",
+            "part": "left_part_2",
             "orientation": "horizontal",
             "mask_key": "_horizontal_2",
             "flags_fits": true,
@@ -89,7 +89,7 @@
         },
         "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_3.png": {
             "flag_name": "Mask",
-            "part": "right_part_2",
+            "part": "right_part_1",
             "orientation": "horizontal",
             "mask_key": "_horizontal_3",
             "flags_fits": true,
@@ -118,7 +118,7 @@
         },
         "assets/img/sprites/mask_paw/mask_paw_mask_horizontal_4.png": {
             "flag_name": "Mask",
-            "part": "center",
+            "part": "right_part_2",
             "orientation": "horizontal",
             "mask_key": "_horizontal_4",
             "flags_fits": true,
@@ -176,7 +176,7 @@
         },
         "assets/img/sprites/mask_paw/mask_paw_mask_vertical_0.png": {
             "flag_name": "Mask",
-            "part": "left_part_1",
+            "part": "center",
             "orientation": "vertical",
             "mask_key": "_vertical_0",
             "flags_fits": true,
@@ -205,7 +205,7 @@
         },
         "assets/img/sprites/mask_paw/mask_paw_mask_vertical_1.png": {
             "flag_name": "Mask",
-            "part": "left_part_2",
+            "part": "left_part_1",
             "orientation": "vertical",
             "mask_key": "_vertical_1",
             "flags_fits": true,
@@ -234,7 +234,7 @@
         },
         "assets/img/sprites/mask_paw/mask_paw_mask_vertical_2.png": {
             "flag_name": "Mask",
-            "part": "right_part_1",
+            "part": "left_part_2",
             "orientation": "vertical",
             "mask_key": "_vertical_2",
             "flags_fits": true,
@@ -263,7 +263,7 @@
         },
         "assets/img/sprites/mask_paw/mask_paw_mask_vertical_3.png": {
             "flag_name": "Mask",
-            "part": "right_part_2",
+            "part": "right_part_1",
             "orientation": "vertical",
             "mask_key": "_vertical_3",
             "flags_fits": true,
@@ -292,7 +292,7 @@
         },
         "assets/img/sprites/mask_paw/mask_paw_mask_vertical_4.png": {
             "flag_name": "Mask",
-            "part": "center",
+            "part": "right_part_2",
             "orientation": "vertical",
             "mask_key": "_vertical_4",
             "flags_fits": true,

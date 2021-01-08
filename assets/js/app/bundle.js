@@ -70915,9 +70915,10 @@ var Application = (function () {
         });
     };
     Application.prototype.setupSpriteAdapters = function (loader, resources) {
-        var _a, _b;
+        var _a, _b, _c;
         (_a = this._colorPaletteAdapter) === null || _a === void 0 ? void 0 : _a.init();
         (_b = this._spriteAdapter) === null || _b === void 0 ? void 0 : _b.init(this._appData.currentSelectionFormData, resources);
+        (_c = this._spriteAdapter) === null || _c === void 0 ? void 0 : _c.updateParts(this._appData.currentSelectionFormData.form, this._appData.currentSelectionFormData.parts);
     };
     Application.prototype.loadProgressHandler = function () {
     };
@@ -70983,10 +70984,10 @@ var ColorPaletteAdapter = (function () {
         this.updatePalette(this._canvas.data);
         this.initObservers();
         var options = {
-            page: 8,
+            page: 9,
             pagination: site_value_1.LIST_JS_PAGINATION,
             item: function (values) {
-                return "<li class=\"list-group-item color-palette-item\" data-color=\"" + values.color + "\" data-index=\"" + values.index + "\">\n                    <div class=\"input-group\">\n                        <input type=\"text\" class=\"form-control color-palette-item-input\" value=\"" + values.color + "\">\n                        <div class=\"input-group-append\">\n                            <button type=\"button\" class=\"btn btn-danger color-palette-item-delete\" data-color=\"" + values.color + "\" data-index=\"" + values.index + "\">\n                                <i class=\"fas fa-minus\"></i><span class=\"sr-only\">" + site_1.site.data.strings.color_palette.delete_label + "</span>\n                            </button>\n                        </div>\n                    </div>\n                </li>";
+                return "<li class=\"list-group-item color-palette-item\" data-color=\"" + values.color + "\" data-index=\"" + values.index + "\">\n                    <div class=\"input-group\">\n                        <input type=\"text\" class=\"form-control color-palette-item-input\" value=\"" + values.color + "\" readonly disabled>\n                    </div>\n                </li>";
             }
         };
         var id = 'lstColorPalette';
@@ -70997,10 +70998,6 @@ var ColorPaletteAdapter = (function () {
                 showInitial: true,
                 allowEmpty: false,
                 showAlpha: false,
-            });
-            $(list.list).find('.color-palette-item-delete').off('click').on('click', function () {
-                var _a;
-                (_a = that._colorPaletteList) === null || _a === void 0 ? void 0 : _a.remove('index', $(this).data('index'));
             });
         });
     };
@@ -71032,7 +71029,8 @@ var ColorPaletteAdapter = (function () {
                                 index: index
                             };
                         });
-                        this.log.debug('updatePalette', palette, palette.getPointContainer(), palette.getPointContainer().getPointArray(), values);
+                        values = site_1.removeDuplicateObjectFromArray(values, 'color');
+                        this.log.debug('updatePalette', { palette: palette }, palette.getPointContainer(), palette.getPointContainer().getPointArray(), values);
                         if (this._colorPaletteList) {
                             this._colorPaletteList.clear();
                             this._colorPaletteList.add(values);
@@ -71088,7 +71086,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.setProperty = exports.getProperty = exports.getUnsafeProperty = exports.hasProperty = exports.ApplicationData = exports.CurrentSelectionForm = exports.CurrentSelectionPart = exports.Settings = exports.Theme = exports.DEFAULT_OUTLINE_COLOR = exports.DEFAULT_CRAWS_COLOR = exports.WHOLE_PART = exports.ALL_FILTER = exports.DEFAULT_FLAG_NAME_NONE = void 0;
+exports.setProperty = exports.getProperty = exports.getUnsafeProperty = exports.hasProperty = exports.ApplicationData = exports.CurrentSelectionForm = exports.CurrentSelectionPart = exports.Settings = exports.Theme = exports.ENABLE_FLIP_FEATURE = exports.DEFAULT_OUTLINE_COLOR = exports.DEFAULT_CRAWS_COLOR = exports.WHOLE_PART = exports.ALL_FILTER = exports.DEFAULT_FLAG_NAME_NONE = void 0;
 var localforage_1 = __importDefault(require("localforage"));
 var observer_1 = require("../observer");
 var sprite_data_1 = require("./sprite.data");
@@ -71107,6 +71105,7 @@ exports.ALL_FILTER = 'all';
 exports.WHOLE_PART = 'whole';
 exports.DEFAULT_CRAWS_COLOR = '#FFFFFF';
 exports.DEFAULT_OUTLINE_COLOR = '#000000';
+exports.ENABLE_FLIP_FEATURE = false;
 var Theme;
 (function (Theme) {
     Theme["Light"] = "light";
@@ -71125,6 +71124,7 @@ var CurrentSelectionPart = (function () {
     function CurrentSelectionPart() {
         this.flag_name = exports.DEFAULT_FLAG_NAME_NONE;
         this.orientation = sprite_data_1.Orientation.Vertical;
+        this.flip = false;
     }
     return CurrentSelectionPart;
 }());
@@ -71176,12 +71176,12 @@ var ApplicationData = (function () {
             return __generator(this, function (_v) {
                 switch (_v.label) {
                     case 0:
-                        _v.trys.push([0, 14, , 15]);
+                        _v.trys.push([0, 15, , 16]);
                         _j = this;
                         return [4, this._storeSession.getItem(STORAGE_KEY_VERSION)];
                     case 1:
                         _j._version = (_a = _v.sent()) !== null && _a !== void 0 ? _a : '';
-                        if (!(this._version !== '')) return [3, 13];
+                        if (!(this._version !== '')) return [3, 14];
                         _k = this._settings;
                         return [4, this._storeSession.getItem(STORAGE_KEY_SETTINGS)];
                     case 2:
@@ -71230,15 +71230,18 @@ var ApplicationData = (function () {
                         _i++;
                         return [3, 7];
                     case 13:
+                        this.log.debug('loadFromStorage', this._currentSelectionForm, this._currentSelectionParts, this._currentSelectionPartsFilter, this);
+                        this.saveCurrentSelection();
+                        _v.label = 14;
+                    case 14:
                         this._version = site_1.site.version;
                         this._storeSession.setItem(STORAGE_KEY_VERSION, this._version);
-                        this.saveCurrentSelection();
-                        return [3, 15];
-                    case 14:
+                        return [3, 16];
+                    case 15:
                         err_1 = _v.sent();
                         console.error('loadFromStorage', err_1);
-                        return [3, 15];
-                    case 15: return [2];
+                        return [3, 16];
+                    case 16: return [2];
                 }
             });
         });
@@ -71422,6 +71425,14 @@ var ApplicationData = (function () {
         this.saveCurrentSelection();
         this._currentSelectionParts[form][part].notify();
     };
+    ApplicationData.prototype.setPartFlip = function (form, part, flip) {
+        if (this._currentSelectionParts[form][part].data.flip === flip) {
+            return;
+        }
+        this._currentSelectionParts[form][part].data.flip = flip;
+        this.saveCurrentSelection();
+        this._currentSelectionParts[form][part].notify();
+    };
     ApplicationData.prototype.setPartFilter = function (form, part, filter) {
         if (this._currentSelectionPartsFilter[form][part].data === filter) {
             return;
@@ -71429,12 +71440,18 @@ var ApplicationData = (function () {
         this._currentSelectionPartsFilter[form][part].data = filter;
         this.saveCurrentSelection();
     };
-    ApplicationData.prototype.setPart = function (form, part, flag_name, orientation) {
-        if (this._currentSelectionParts[form][part].data.flag_name === flag_name && this._currentSelectionParts[form][part].data.orientation === orientation) {
+    ApplicationData.prototype.setPart = function (form, part, flag_name, orientation, flip) {
+        if (flip === void 0) { flip = undefined; }
+        if (this._currentSelectionParts[form][part].data.flag_name === flag_name &&
+            this._currentSelectionParts[form][part].data.orientation === orientation &&
+            this._currentSelectionParts[form][part].data.flip === flip) {
             return;
         }
         this._currentSelectionParts[form][part].data.flag_name = flag_name;
         this._currentSelectionParts[form][part].data.orientation = orientation;
+        if (flip !== undefined) {
+            this._currentSelectionParts[form][part].data.flip = flip;
+        }
         this.saveCurrentSelection();
         this._currentSelectionParts[form][part].notify();
     };
@@ -71568,7 +71585,7 @@ var site_value_1 = require("./site.value");
 var list_js_1 = __importDefault(require("list.js"));
 require("select2");
 var site_1 = require("./site");
-var SELECTABLE_PARTS_LIST_ITEMS_PER_PAGE = 8;
+var SELECTABLE_PARTS_LIST_ITEMS_PER_PAGE = 7;
 var FormPartsAdapter = (function () {
     function FormPartsAdapter(appData, _sprite_data_helper) {
         this._parts_lists = {};
@@ -71698,19 +71715,6 @@ var FormPartsAdapter = (function () {
         var srcset = srcset_arr.join(',');
         return "<img srcset=\"" + srcset + "\" class=\"img-fluid " + classstr + "\" src=\"" + src + "\" alt=\"" + flag.name + " Icon\">";
     };
-    FormPartsAdapter.prototype.updateSelectedPartUI = function (form, part) {
-        var _a;
-        return __awaiter(this, void 0, void 0, function () {
-            var sprite_data;
-            return __generator(this, function (_b) {
-                sprite_data = (_a = this.getCurrentSelectedSprite(form, part)) !== null && _a !== void 0 ? _a : this._sprite_data_helper.getDefaultSprite(form, part);
-                if (sprite_data !== undefined) {
-                    $('#' + this.getCurrentSelectedPartId(form, part)).replaceWith(this.getSelectedPartHTML(form, part, sprite_data));
-                }
-                return [2];
-            });
-        });
-    };
     FormPartsAdapter.prototype.getCurrentSelectedSprite = function (form, part) {
         var flag_name = this.getSelectedFlagName(form, part);
         var orientation = this.getSelectedOrientation(form, part);
@@ -71723,6 +71727,10 @@ var FormPartsAdapter = (function () {
     FormPartsAdapter.prototype.getSelectedFlagName = function (form, part) {
         var _a;
         return (_a = this._appData.getCurrentSelectionPartData(form, part)) === null || _a === void 0 ? void 0 : _a.flag_name;
+    };
+    FormPartsAdapter.prototype.getSelectedFlip = function (form, part) {
+        var _a;
+        return (_a = this._appData.getCurrentSelectionPartData(form, part)) === null || _a === void 0 ? void 0 : _a.flip;
     };
     FormPartsAdapter.prototype.getSelectedFilter = function (form, part) {
         return this._appData.getCurrentSelectionPartFilter(form, part);
@@ -71773,6 +71781,7 @@ var FormPartsAdapter = (function () {
                     part = _a[_i];
                     id = this.getListId(form, part);
                     this._parts_lists[part] = this.getSelectablePartsList(form, part);
+                    this.initSelectedPartEvents(form, part);
                 }
                 this.initEventSetParts();
                 for (_b = 0, _c = Object.keys(current_form.parts); _b < _c.length; _b++) {
@@ -71810,7 +71819,7 @@ var FormPartsAdapter = (function () {
             nav_links += this.getNavLinkHTML(form, part);
             tab_content_content += this.genNavTabContent(form, part);
         }
-        var nav_tabs = "<ul class=\"nav nav-pills\" id=\"" + nav_tabs_id + "\" role=\"tablist\">\n            " + nav_links + "\n        </ul>";
+        var nav_tabs = "<ul class=\"nav nav-pills mb-2\" id=\"" + nav_tabs_id + "\" role=\"tablist\">\n            " + nav_links + "\n        </ul>";
         return nav_tabs + "\n                <div class=\"tab-content\" id=\"" + nav_tab_content_id + "\">\n                    " + tab_content_content + "\n                </div>";
     };
     FormPartsAdapter.prototype.getNavLinkHTML = function (form, part) {
@@ -71827,13 +71836,15 @@ var FormPartsAdapter = (function () {
         return "<li class=\"nav-item " + part_border + "\" role=\"presentation\">\n            <a class=\"nav-link nav-link-parts text-center " + active + "\" id=\"" + nav_link_tab_id + "\" data-toggle=\"pill\" href=\"#" + nav_link_id + "\" role=\"tab\" aria-controls=\"" + nav_link_id + "\" aria-selected=\"" + selected + "\">\n                <span class=\"select-part-icon-container\">" + part_icon + "</span>\n                " + part_label + "\n            </a>\n        </li>\n";
     };
     FormPartsAdapter.prototype.genNavTabContent = function (form, part) {
+        var _a;
         var default_selected_part = (this.parts_list.length > 0) ? this.parts_list[0] : application_data_1.WHOLE_PART;
         var selected = part == default_selected_part;
         var show_active = (selected) ? 'show active' : '';
         var nav_link_id = FormPartsAdapter.getPartNavLinkId(part);
         var nav_link_tab_id = FormPartsAdapter.getPartNavLinkTabId(part);
         var sprite_data = this.getCurrentSelectedSprite(form, part);
-        var current_part = (sprite_data !== undefined) ? this.getSelectedPartHTML(form, part, sprite_data) : '';
+        var flip = (_a = this.getSelectedFlip(form, part)) !== null && _a !== void 0 ? _a : false;
+        var current_part = (sprite_data !== undefined) ? this.getSelectedPartHTML(form, part, sprite_data, flip) : '';
         var id = this.getListId(form, part);
         var partSettings = '';
         if (part == application_data_1.WHOLE_PART) {
@@ -71841,8 +71852,8 @@ var FormPartsAdapter = (function () {
         }
         var filters_id = FormPartsAdapter.getSelectFilterId(form, part);
         var filters = "<select class=\"custom-select\" id=\"" + filters_id + "\" data-placeholder=\"" + site_1.site.data.strings.parts_list.filter_label + "\" data-form=\"" + form + "\" data-part=\"" + part + "\">";
-        for (var _i = 0, _a = this.filter_list; _i < _a.length; _i++) {
-            var filter = _a[_i];
+        for (var _i = 0, _b = this.filter_list; _i < _b.length; _i++) {
+            var filter = _b[_i];
             var filter_label = site_1.site.data.strings.select_filter[filter];
             if (filter_label) {
                 var filter_selected = (this.getSelectedFilter(form, part) == filter) ? 'selected' : '';
@@ -71859,19 +71870,6 @@ var FormPartsAdapter = (function () {
     FormPartsAdapter.getSelectPartIconHTML = function (sprite_data) {
         return "<img class=\"img-fluid select-part-icon mx-auto d-block\" src=\"" + site_1.site.base_url + "/" + sprite_data.filename + "\" alt=\"" + sprite_data.flag_name + " Part Icon\">";
     };
-    FormPartsAdapter.prototype.getSelectedPartHTML = function (form, part, selected_part) {
-        var orientation = selected_part.orientation;
-        var orientationIcon = (orientation) ? this.getListItemValueOrientationHTML(orientation) : '';
-        var flag_name = selected_part.flag_name;
-        var id = this.getCurrentSelectedPartId(form, part);
-        var disabled = '';
-        var aria_disabled = '';
-        if (part == application_data_1.WHOLE_PART) {
-            disabled = (!this._appData.currentSelectionShowWhole) ? 'disabled' : '';
-            aria_disabled = (!this._appData.currentSelectionShowWhole) ? 'aria-disabled="true"' : '';
-        }
-        return "<li class=\"list-group-item current-selected-part active form part flag_name " + disabled + "\" " + aria_disabled + " data-form=\"" + form + "\" data-part=\"" + part + "\" data-flag-name=\"" + flag_name + "\" data-orientation=\"" + orientation + "\" id=\"" + id + "\">\n            <div class=\"row no-gutters\">\n                <div class=\"col-9 mx-2 my-auto text-left\"><span class=\"name\">" + flag_name + "</span></div>\n                <div class=\"col-1 mx-2 my-auto float-right text-right\"><span class=\"orientation_icon\">" + orientationIcon + "</span></div>\n            </div>\n        </li>";
-    };
     FormPartsAdapter.prototype.getSelectablePartsList = function (form, part) {
         var item = function (values) {
             return "<button type=\"button\" class=\"list-group-item\" data-form=\"" + values.form + "\" data-part=\"" + values.part + "\" data-flag-name=\"" + values.flag_name + "\" data-index=\"" + values.index + "\">\n                <div class=\"row no-gutters\">\n                    <div class=\"col-2 my-auto\"><span class=\"align-middle\">" + values.icon + "</span></div>\n                    <div class=\"col-7 mx-2 my-auto text-left\"><span class=\"align-middle\">" + values.name + "</span></div>\n                </div>\n            </button>";
@@ -71887,11 +71885,7 @@ var FormPartsAdapter = (function () {
     };
     FormPartsAdapter.prototype.getSelectablePartListValues = function (form, part) {
         var _this = this;
-        var removeDuplicateObjectFromArray = function (array, key) {
-            var check = new Set();
-            return array.filter(function (obj) { return !check.has(obj[key]) && check.add(obj[key]); });
-        };
-        var selectable_parts = removeDuplicateObjectFromArray(this._sprite_data_helper.getSelectableSpritesParts(form, part).filter(function (it) { return it.flags_fits; }), 'flag_name');
+        var selectable_parts = site_1.removeDuplicateObjectFromArray(this._sprite_data_helper.getSelectableSpritesParts(form, part).filter(function (it) { return it.flags_fits; }), 'flag_name');
         return selectable_parts.map(function (selectable_part, index) { return _this.getListItemPart(form, part, selectable_part, index); }).filter(function (it) { return it !== undefined; });
     };
     FormPartsAdapter.prototype.getListItemPart = function (form, part, selectable_part, index) {
@@ -71908,6 +71902,74 @@ var FormPartsAdapter = (function () {
             case sprite_data_1.Orientation.Vertical:
                 return "<span class=\"orientation-container\">\n                    <i class=\"fas fa-bars fa-rotate-90\"></i><span class=\"sr-only\">" + site_1.site.data.strings.orientation.vertical + "</span>\n                </span>";
         }
+    };
+    FormPartsAdapter.prototype.getListItemValueFlipHTML = function (flip, orientation) {
+        var flip_class = (flip) ? 'flipped' : '';
+        var icon = (flip) ? '<i class="fas fa-arrow-right"></i>' : '<i class="fas fa-arrow-left"></i>';
+        switch (orientation) {
+            case sprite_data_1.Orientation.Horizontal:
+                return "<span class=\"flip-container " + flip_class + "\">\n                    " + icon + "<span class=\"sr-only\">" + site_1.site.data.strings.flip.horizontal + "</span>\n                </span>";
+            case sprite_data_1.Orientation.Vertical:
+                return "<span class=\"flip-container " + flip_class + "\">\n                    " + icon + "<span class=\"sr-only\">" + site_1.site.data.strings.flip.vertical + "</span>\n                </span>";
+        }
+    };
+    FormPartsAdapter.prototype.getSelectedPartHTML = function (form, part, selected_part, flip) {
+        var orientation = selected_part.orientation;
+        var flag_name = selected_part.flag_name;
+        var id = this.getCurrentSelectedPartId(form, part);
+        var orientationIcon = this.getListItemValueOrientationHTML(orientation);
+        var flipIcon = this.getListItemValueFlipHTML(flip, orientation);
+        var disabled = '';
+        var aria_disabled = '';
+        if (part == application_data_1.WHOLE_PART) {
+            disabled = (!this._appData.currentSelectionShowWhole) ? 'disabled' : '';
+            aria_disabled = (!this._appData.currentSelectionShowWhole) ? 'aria-disabled="true"' : '';
+        }
+        var flipButton = '';
+        if (application_data_1.ENABLE_FLIP_FEATURE) {
+            flipButton = "<button type=\"button\" class=\"btn btn-link mx-2 current-selected-part-flip\" data-form=\"" + form + "\" data-part=\"" + part + "\" data-flag-name=\"" + flag_name + "\" data-orientation=\"" + orientation + "\" data-flip=\"" + flip + "\">\n                <span class=\"flip_icon\">" + flipIcon + "</span>\n            </button>";
+        }
+        return "<li class=\"list-group-item current-selected-part active form part flag_name " + disabled + "\" " + aria_disabled + " data-form=\"" + form + "\" data-part=\"" + part + "\" data-flag-name=\"" + flag_name + "\" data-orientation=\"" + orientation + "\" data-flip=\"" + flip + "\" id=\"" + id + "\">\n            <div class=\"row no-gutters\">\n                <div class=\"col-10 my-auto text-left\"><span class=\"name mx-2\">" + flag_name + "</span></div>\n                <div class=\"col-1 my-auto text-right\">\n                    " + flipButton + "\n                </div>\n                <div class=\"col-1 my-auto text-right\">\n                    <button type=\"button\" class=\"btn btn-link mx-2 current-selected-part-orientation\" data-form=\"" + form + "\" data-part=\"" + part + "\" data-flag-name=\"" + flag_name + "\" data-orientation=\"" + orientation + "\" data-flip=\"" + flip + "\">\n                        <span class=\"orientation_icon\">" + orientationIcon + "</span>\n                    </button>\n                </div>\n            </div>\n        </li>";
+    };
+    FormPartsAdapter.prototype.updateSelectedPartUI = function (form, part) {
+        var _a, _b;
+        return __awaiter(this, void 0, void 0, function () {
+            var sprite_data, flip;
+            return __generator(this, function (_c) {
+                sprite_data = (_a = this.getCurrentSelectedSprite(form, part)) !== null && _a !== void 0 ? _a : this._sprite_data_helper.getDefaultSprite(form, part);
+                flip = (_b = this.getSelectedFlip(form, part)) !== null && _b !== void 0 ? _b : false;
+                if (sprite_data !== undefined) {
+                    $('#' + this.getCurrentSelectedPartId(form, part)).replaceWith(this.getSelectedPartHTML(form, part, sprite_data, flip));
+                    this.initSelectedPartEvents(form, part);
+                }
+                return [2];
+            });
+        });
+    };
+    FormPartsAdapter.prototype.initSelectedPartEvents = function (form, part) {
+        var id_selector = '#' + this.getCurrentSelectedPartId(form, part);
+        var that = this;
+        if (application_data_1.ENABLE_FLIP_FEATURE) {
+            $(id_selector).find('.current-selected-part-flip').on('click', function () {
+                var form = $(this).data('form');
+                var part = $(this).data('part');
+                var flag_name = $(this).data('flag-name');
+                var orientation = $(this).data('orientation');
+                var new_flip = that.setNewFlip(form, part, flag_name);
+                var flipIcon = that.getListItemValueFlipHTML(new_flip, orientation);
+                $(this).data('flip', new_flip);
+                $(this).find('.flip_icon').html(flipIcon);
+            });
+        }
+        $(id_selector).find('.current-selected-part-orientation').on('click', function () {
+            var form = $(this).data('form');
+            var part = $(this).data('part');
+            var flag_name = $(this).data('flag-name');
+            var new_orientation = that.setNewOrientation(form, part, flag_name);
+            var orientationIcon = that.getListItemValueOrientationHTML(new_orientation);
+            $(this).data('orientation', new_orientation);
+            $(this).find('.orientation_icon').html(orientationIcon);
+        });
     };
     FormPartsAdapter.prototype.getListItemValue = function (form, part, flag, index) {
         var icon = (flag !== undefined) ? this.getIconImgHTML(flag) : '';
@@ -71958,51 +72020,14 @@ var FormPartsAdapter = (function () {
                         item_element.addClass('active');
                     }
                     item_element.off('click').on('click', function () {
-                        var _a;
                         var index = parseInt($(this).data('index'));
                         var item = list.get('index', index)[0];
                         var item_value = item.values();
                         var form = item_value.form;
                         var flag_name = item_value.flag_name;
                         var part = item_value.part;
-                        var selectable_flags = that._sprite_data_helper.getSelectableSpritesFlag(form, part, flag_name).filter(function (it) { return it.flags_fits; });
-                        var selectable_flag_horizontal = selectable_flags.find(function (it) { return it.orientation == sprite_data_1.Orientation.Horizontal; });
-                        var selectable_flag_vertical = selectable_flags.find(function (it) { return it.orientation == sprite_data_1.Orientation.Vertical; });
-                        that.log.debug('click item', form, part, flag_name, item, item_value);
-                        var orientation = (_a = that.getSelectedOrientation(form, part)) !== null && _a !== void 0 ? _a : sprite_data_1.Orientation.Vertical;
-                        var new_orientation = orientation;
-                        if (that.getSelectedFlagName(form, part) !== flag_name) {
-                            if (selectable_flag_horizontal && orientation === sprite_data_1.Orientation.Horizontal) {
-                                new_orientation = sprite_data_1.Orientation.Horizontal;
-                            }
-                            else if (selectable_flag_vertical && orientation === sprite_data_1.Orientation.Vertical) {
-                                new_orientation = sprite_data_1.Orientation.Vertical;
-                            }
-                            else if (selectable_flag_horizontal) {
-                                new_orientation = sprite_data_1.Orientation.Horizontal;
-                            }
-                            else if (selectable_flag_vertical) {
-                                new_orientation = sprite_data_1.Orientation.Vertical;
-                            }
-                            that._appData.setPart(form, part, flag_name, new_orientation);
-                        }
-                        else {
-                            if (selectable_flag_horizontal && orientation === sprite_data_1.Orientation.Vertical) {
-                                new_orientation = sprite_data_1.Orientation.Horizontal;
-                            }
-                            else if (selectable_flag_vertical && orientation === sprite_data_1.Orientation.Horizontal) {
-                                new_orientation = sprite_data_1.Orientation.Vertical;
-                            }
-                            else if (selectable_flag_horizontal) {
-                                new_orientation = sprite_data_1.Orientation.Horizontal;
-                            }
-                            else if (selectable_flag_vertical) {
-                                new_orientation = sprite_data_1.Orientation.Vertical;
-                            }
-                            if (orientation !== new_orientation) {
-                                that._appData.setPart(form, part, flag_name, new_orientation);
-                            }
-                        }
+                        that.log.debug('click item', { form: form, part: part, flag_name: flag_name, item: item, item_value: item_value });
+                        that.setNewPart(form, part, flag_name);
                         that._appData.lastFlag = flag_name;
                     });
                 });
@@ -72013,7 +72038,7 @@ var FormPartsAdapter = (function () {
                 var _a;
                 var part = $(this).data('part');
                 var filter = (_a = $(this).val()) !== null && _a !== void 0 ? _a : application_data_1.ALL_FILTER;
-                that.log.debug('select filter', part, $(this).val());
+                that.log.debug('select filter', { part: part }, $(this).val());
                 that._appData.setPartFilter(that.current_form, part, filter);
             });
         };
@@ -72032,6 +72057,95 @@ var FormPartsAdapter = (function () {
             new_tab.parent('.nav-item.border').addClass('border-light').removeClass('border-dark');
             prev_tab.parent('.nav-item.border').removeClass('border-light').addClass('border-dark');
         });
+    };
+    FormPartsAdapter.prototype.setNewPart = function (form, part, flag_name) {
+        var _a;
+        var selectable_flags = this._sprite_data_helper.getSelectableSpritesFlag(form, part, flag_name).filter(function (it) { return it.flags_fits; });
+        var selectable_flag_horizontal = selectable_flags.find(function (it) { return it.orientation == sprite_data_1.Orientation.Horizontal; });
+        var selectable_flag_vertical = selectable_flags.find(function (it) { return it.orientation == sprite_data_1.Orientation.Vertical; });
+        var orientation = (_a = this.getSelectedOrientation(form, part)) !== null && _a !== void 0 ? _a : sprite_data_1.Orientation.Vertical;
+        var new_orientation = orientation;
+        if (this.getSelectedFlagName(form, part) !== flag_name) {
+            if (selectable_flag_horizontal && orientation === sprite_data_1.Orientation.Horizontal) {
+                new_orientation = sprite_data_1.Orientation.Horizontal;
+            }
+            else if (selectable_flag_vertical && orientation === sprite_data_1.Orientation.Vertical) {
+                new_orientation = sprite_data_1.Orientation.Vertical;
+            }
+            else if (selectable_flag_horizontal) {
+                new_orientation = sprite_data_1.Orientation.Horizontal;
+            }
+            else if (selectable_flag_vertical) {
+                new_orientation = sprite_data_1.Orientation.Vertical;
+            }
+            this._appData.setPart(form, part, flag_name, new_orientation);
+        }
+        else {
+            if (selectable_flag_horizontal && orientation === sprite_data_1.Orientation.Vertical) {
+                new_orientation = sprite_data_1.Orientation.Horizontal;
+            }
+            else if (selectable_flag_vertical && orientation === sprite_data_1.Orientation.Horizontal) {
+                new_orientation = sprite_data_1.Orientation.Vertical;
+            }
+            else if (selectable_flag_horizontal) {
+                new_orientation = sprite_data_1.Orientation.Horizontal;
+            }
+            else if (selectable_flag_vertical) {
+                new_orientation = sprite_data_1.Orientation.Vertical;
+            }
+            if (orientation !== new_orientation) {
+                this._appData.setPart(form, part, flag_name, new_orientation);
+            }
+        }
+        return new_orientation;
+    };
+    FormPartsAdapter.prototype.setNewOrientation = function (form, part, flag_name) {
+        var _a;
+        var selectable_flags = this._sprite_data_helper.getSelectableSpritesFlag(form, part, flag_name).filter(function (it) { return it.flags_fits; });
+        var selectable_flag_horizontal = selectable_flags.find(function (it) { return it.orientation == sprite_data_1.Orientation.Horizontal; });
+        var selectable_flag_vertical = selectable_flags.find(function (it) { return it.orientation == sprite_data_1.Orientation.Vertical; });
+        var orientation = (_a = this.getSelectedOrientation(form, part)) !== null && _a !== void 0 ? _a : sprite_data_1.Orientation.Vertical;
+        var new_orientation = orientation;
+        if (this.getSelectedFlagName(form, part) !== flag_name) {
+            if (selectable_flag_horizontal && orientation === sprite_data_1.Orientation.Horizontal) {
+                new_orientation = sprite_data_1.Orientation.Horizontal;
+            }
+            else if (selectable_flag_vertical && orientation === sprite_data_1.Orientation.Vertical) {
+                new_orientation = sprite_data_1.Orientation.Vertical;
+            }
+            else if (selectable_flag_horizontal) {
+                new_orientation = sprite_data_1.Orientation.Horizontal;
+            }
+            else if (selectable_flag_vertical) {
+                new_orientation = sprite_data_1.Orientation.Vertical;
+            }
+            this._appData.setPartOrientation(form, part, new_orientation);
+        }
+        else {
+            if (selectable_flag_horizontal && orientation === sprite_data_1.Orientation.Vertical) {
+                new_orientation = sprite_data_1.Orientation.Horizontal;
+            }
+            else if (selectable_flag_vertical && orientation === sprite_data_1.Orientation.Horizontal) {
+                new_orientation = sprite_data_1.Orientation.Vertical;
+            }
+            else if (selectable_flag_horizontal) {
+                new_orientation = sprite_data_1.Orientation.Horizontal;
+            }
+            else if (selectable_flag_vertical) {
+                new_orientation = sprite_data_1.Orientation.Vertical;
+            }
+            if (orientation !== new_orientation) {
+                this._appData.setPartOrientation(form, part, new_orientation);
+            }
+        }
+        return new_orientation;
+    };
+    FormPartsAdapter.prototype.setNewFlip = function (form, part, flag_name) {
+        var _a;
+        var flip = (_a = this.getSelectedFlip(form, part)) !== null && _a !== void 0 ? _a : false;
+        var new_flip = !flip;
+        this._appData.setPartFlip(form, part, new_flip);
+        return new_flip;
     };
     return FormPartsAdapter;
 }());
@@ -72380,6 +72494,10 @@ Number.prototype.clamp = function (min, max) {
 function clamp(num, min, max) {
     return Math.min(Math.max(num, min), max);
 }
+function removeDuplicateObjectFromArray(array, key) {
+    var check = new Set();
+    return array.filter(function (obj) { return !check.has(obj[key]) && check.add(obj[key]); });
+}
 module.exports = {
     site: site,
     USE_CACHE: USE_CACHE,
@@ -72387,7 +72505,8 @@ module.exports = {
     isOnScreen: isOnScreen,
     countlines: countlines,
     makeDoubleClick: makeDoubleClick,
-    clamp: clamp
+    clamp: clamp,
+    removeDuplicateObjectFromArray: removeDuplicateObjectFromArray
 };
 
 },{}],92:[function(require,module,exports){
@@ -72471,21 +72590,22 @@ var SpriteAdapter = (function () {
         this.initObservers();
     };
     SpriteAdapter.prototype.updatePart = function (form, part, part_data) {
-        var _a, _b;
-        this.setPart(form, (_a = part_data.flag_name) !== null && _a !== void 0 ? _a : application_data_1.DEFAULT_FLAG_NAME_NONE, part, (_b = part_data.orientation) !== null && _b !== void 0 ? _b : sprite_data_1.Orientation.Vertical, false);
+        var _a;
+        this.setPart(form, part, (_a = part_data.flag_name) !== null && _a !== void 0 ? _a : application_data_1.DEFAULT_FLAG_NAME_NONE, part_data.orientation, part_data.flip, false);
         this.updateSprite();
         this.updateDownloadButton();
         this.notifyPartsCanvas();
     };
     SpriteAdapter.prototype.updateParts = function (form, parts) {
-        var _a, _b;
+        var _a, _b, _c;
         this._parts_container.removeChildren();
-        for (var _i = 0, _c = Object.keys(parts); _i < _c.length; _i++) {
-            var part = _c[_i];
-            var part_data = (part in parts) ? parts[part] : undefined;
-            var orientation_1 = (_a = part_data === null || part_data === void 0 ? void 0 : part_data.orientation) !== null && _a !== void 0 ? _a : sprite_data_1.Orientation.Vertical;
+        for (var _i = 0, _d = Object.keys(parts); _i < _d.length; _i++) {
+            var part = _d[_i];
+            var part_data = parts[part];
+            var orientation_1 = (_a = part_data.orientation) !== null && _a !== void 0 ? _a : sprite_data_1.Orientation.Vertical;
+            var flip = (_b = part_data.flip) !== null && _b !== void 0 ? _b : false;
             if (part_data !== undefined) {
-                this.setPart(form, (_b = part_data.flag_name) !== null && _b !== void 0 ? _b : application_data_1.DEFAULT_FLAG_NAME_NONE, part, orientation_1, false);
+                this.setPart(form, part, (_c = part_data.flag_name) !== null && _c !== void 0 ? _c : application_data_1.DEFAULT_FLAG_NAME_NONE, orientation_1, flip, false);
                 if (part in this._sprites && (part !== application_data_1.WHOLE_PART && !this._appData.currentSelectionShowWhole) || (part == application_data_1.WHOLE_PART && this._appData.currentSelectionShowWhole)) {
                     this._parts_container.addChild(this._sprites[part]);
                 }
@@ -72494,13 +72614,13 @@ var SpriteAdapter = (function () {
                 this.log.warn('updateParts', "no sprite data for " + part);
             }
             if (this._appData.settings.craws_color) {
-                var craws_sprite = this.setCraws(form, part, orientation_1, this._appData.settings.craws_color);
+                var craws_sprite = this.setCraws(form, part, orientation_1, flip, this._appData.settings.craws_color, false);
                 if (craws_sprite) {
                     this._parts_container.addChild(craws_sprite);
                 }
             }
             if (this._appData.settings.outline_color) {
-                var outline_sprite = this.setOutline(form, part, orientation_1, this._appData.settings.outline_color);
+                var outline_sprite = this.setOutline(form, part, orientation_1, flip, this._appData.settings.outline_color, false);
                 if (outline_sprite) {
                     this._parts_container.addChild(outline_sprite);
                 }
@@ -72536,20 +72656,20 @@ var SpriteAdapter = (function () {
             uint8Array: this._pixiApp.renderer.extract.pixels(this._parts_container)
         };
     };
-    SpriteAdapter.prototype.setPart = function (form, flag_name, part, orientation, update_sprite) {
+    SpriteAdapter.prototype.setPart = function (form, part, flag_name, orientation, flip, update_sprite) {
         if (update_sprite === void 0) { update_sprite = true; }
         if (this._resources !== undefined) {
             var sprite_data = site_1.site.data.sprites.find(function (it) { return it.flag_name == flag_name && it.form == form && it.part == part && it.orientation == orientation; });
-            this.setPartSprite(sprite_data, form, flag_name, part, orientation, update_sprite);
+            this.setPartSprite(sprite_data, form, flag_name, part, orientation, flip, update_sprite);
         }
     };
-    SpriteAdapter.prototype.setCraws = function (form, part, orientation, color, update_sprite) {
+    SpriteAdapter.prototype.setCraws = function (form, part, orientation, flip, color, update_sprite) {
         if (color === void 0) { color = application_data_1.DEFAULT_CRAWS_COLOR; }
         if (update_sprite === void 0) { update_sprite = true; }
         if (this._resources !== undefined) {
             var craws_sprite_data = site_1.site.data.sprites.find(function (it) { return it.craws && it.form == form && it.part == part && it.orientation == orientation; });
             if (craws_sprite_data !== undefined) {
-                var ret = this.setSpriteTexture(this.CRAWS_SPRITE_NAME, craws_sprite_data, update_sprite);
+                var ret = this.setSpriteTexture(this.CRAWS_SPRITE_NAME, craws_sprite_data, orientation, flip, update_sprite);
                 if (ret) {
                     ret.tint = parseInt("0x" + tinycolor2_1.default(color).toHex());
                 }
@@ -72561,13 +72681,13 @@ var SpriteAdapter = (function () {
         }
         return undefined;
     };
-    SpriteAdapter.prototype.setOutline = function (form, part, orientation, color, update_sprite) {
+    SpriteAdapter.prototype.setOutline = function (form, part, orientation, flip, color, update_sprite) {
         if (color === void 0) { color = application_data_1.DEFAULT_OUTLINE_COLOR; }
         if (update_sprite === void 0) { update_sprite = true; }
         if (this._resources !== undefined) {
             var outlines_sprite_data = site_1.site.data.sprites.find(function (it) { return it.outlines && it.form == form && it.part == part && it.orientation == orientation; });
             if (outlines_sprite_data !== undefined) {
-                var ret = this.setSpriteTexture(this.OUTLINE_SPRITE_NAME, outlines_sprite_data, update_sprite);
+                var ret = this.setSpriteTexture(this.OUTLINE_SPRITE_NAME, outlines_sprite_data, orientation, flip, update_sprite);
                 if (ret) {
                     ret.tint = parseInt("0x" + tinycolor2_1.default(color).toHex());
                 }
@@ -72625,11 +72745,11 @@ var SpriteAdapter = (function () {
             return class_4;
         }()));
     };
-    SpriteAdapter.prototype.setPartSprite = function (sprite_data, form, flag_name, part, orientation, update_sprite) {
+    SpriteAdapter.prototype.setPartSprite = function (sprite_data, form, flag_name, part, orientation, flip, update_sprite) {
         if (update_sprite === void 0) { update_sprite = true; }
         if (this._resources !== undefined) {
             if (sprite_data !== undefined) {
-                return this.setSpriteTexture(part, sprite_data, update_sprite);
+                return this.setSpriteTexture(part, sprite_data, orientation, flip, update_sprite);
             }
             else {
                 this.clearSpriteTexture(part);
@@ -72644,7 +72764,7 @@ var SpriteAdapter = (function () {
             delete this._sprites[sprite_name];
         }
     };
-    SpriteAdapter.prototype.setSpriteTexture = function (sprite_name, sprite_data, update_sprite) {
+    SpriteAdapter.prototype.setSpriteTexture = function (sprite_name, sprite_data, orientation, flip, update_sprite) {
         if (update_sprite === void 0) { update_sprite = true; }
         if (this._resources !== undefined) {
             var resource = this._resources[sprite_data.sheet];
@@ -72657,11 +72777,28 @@ var SpriteAdapter = (function () {
                     this._sprites[sprite_name].texture = texture;
                 }
                 this._sprites[sprite_name].texture.baseTexture.scaleMode = PIXI.SCALE_MODES.NEAREST;
+                if (application_data_1.ENABLE_FLIP_FEATURE) {
+                    this._sprites[sprite_name].scale.x = 1;
+                    this._sprites[sprite_name].scale.y = 1;
+                    this._sprites[sprite_name].anchor.x = 0.5;
+                    this._sprites[sprite_name].anchor.y = 0.5;
+                    switch (orientation) {
+                        case sprite_data_1.Orientation.Horizontal:
+                            this._sprites[sprite_name].scale.x = (flip) ? -1 : 1;
+                            break;
+                        case sprite_data_1.Orientation.Vertical:
+                            this._sprites[sprite_name].scale.y = (flip) ? -1 : 1;
+                            break;
+                    }
+                    this._sprites[sprite_name].x = this._sprites[sprite_name].width / 2;
+                    this._sprites[sprite_name].y = this._sprites[sprite_name].height / 2;
+                }
                 if (update_sprite) {
                     this.updateSprite();
                 }
                 this._sprites[sprite_name].texture.baseTexture.update();
                 this._sprites[sprite_name].texture.update();
+                this.log.debug('setSpriteTexture', { sprite_name: sprite_name, orientation: orientation, flip: flip, update_sprite: update_sprite }, this._sprites[sprite_name]);
                 return this._sprites[sprite_name];
             }
             else {

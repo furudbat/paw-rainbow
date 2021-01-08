@@ -6,7 +6,7 @@
   colors:
     - '#010101'
   mask: true
-- name: LGBT+ Pride
+- name: Rainbow flag LGBT
   colors:
     - '#f00000'
     - '#ff8000'
@@ -15,19 +15,20 @@
     - '#4040ff'
     - '#a000c0'
   link: https://en.wikipedia.org/wiki/Rainbow_flag_(LGBT)
-- name: Sapphic
+  img: https://upload.wikimedia.org/wikipedia/commons/4/48/Gay_Pride_Flag.svg
+- name: Philadelphia Rainbow flag People of Color
   colors:
-    - '#fe8ba8'
-    - '#fbf1ff'
-    - '#fe8ba8'
-  link: https://lgbta.wikia.org/wiki/Sapphic
-- name: Pluralian
-  colors:
-    - '#7f39eb'
-    - '#fbf1ff'
-    - '#7f39eb'
-  link: https://lgbta.wikia.org/wiki/Pluralian
-- name: Progress
+    - '#000000'
+    - '#72501e'
+    - '#d12d1f'
+    - '#ef9236'
+    - '#fced4f'
+    - '#3a7f30'
+    - '#1c50f6'
+    - '#6b1783'
+  link: https://en.wikipedia.org/wiki/Rainbow_flag_(LGBT)
+  img: https://upload.wikimedia.org/wikipedia/commons/e/e0/Philadelphia_Pride_Flag.svg
+- name: LGBTQ+ Rainbow flag Progress
   colors:
     - '#c32b1f'
     - '#e2a037'
@@ -41,6 +42,8 @@
     - '#7cc0ea'
     - '#603917'
     - '#010001'
+  link: https://en.wikipedia.org/wiki/Rainbow_flag_(LGBT)
+  img: https://upload.wikimedia.org/wikipedia/commons/0/0b/Rainbow_flag_%28%22Progress%22_variant_by_Daniel_Quasar%29_at_EuroPride_2019_%28Vienna%29.jpg
 - name: Achillean
   colors:
     - '#9ac5ec'
@@ -53,12 +56,16 @@
     - '#ffffff'
     - '#ffffff'
     - '#007f01'
+  link: https://en.wikipedia.org/wiki/Androphilia_and_gynephilia
+  img: https://upload.wikimedia.org/wikipedia/commons/6/65/Androphilia-gynephilia.jpg
 - name: Gynephilia
   colors:
     - '#010001'
     - '#ffffff'
     - '#ffffff'
     - '#ff0077'
+  link: https://en.wikipedia.org/wiki/Androphilia_and_gynephilia
+  img: https://upload.wikimedia.org/wikipedia/commons/6/65/Androphilia-gynephilia.jpg
 - name: Queer
   colors:
     - '#010001'
@@ -84,3 +91,15 @@
     - '#ffffff'
     - '#91f292'
   link: https://lgbta.wikia.org/wiki/Diamoric
+- name: Sapphic
+  colors:
+    - '#fe8ba8'
+    - '#fbf1ff'
+    - '#fe8ba8'
+  link: https://lgbta.wikia.org/wiki/Sapphic
+- name: Pluralian
+  colors:
+    - '#7f39eb'
+    - '#fbf1ff'
+    - '#7f39eb'
+  link: https://lgbta.wikia.org/wiki/Pluralian

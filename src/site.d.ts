@@ -7,3 +7,4 @@ export declare function isOnScreen(element: JQuery<HTMLElement> | string, factor
 export declare function countlines(str: string): number
 export declare function makeDoubleClick(element: JQuery<HTMLElement> | string, doDoubleClickAction: (e: any) => void, doClickAction: (e: any) => void): void
 export declare function clamp(num: number, min: number, max: number): number;
+export declare function removeDuplicateObjectFromArray<T>(array: T[], key: string): T[];

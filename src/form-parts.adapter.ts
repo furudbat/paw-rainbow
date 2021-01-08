@@ -1,4 +1,4 @@
-import { ALL_FILTER, ApplicationData, CurrentSelectionForm, CurrentSelectionPart, WHOLE_PART } from "./data/application.data";
+import { ALL_FILTER, ApplicationData, CurrentSelectionForm, CurrentSelectionPart, ENABLE_FLIP_FEATURE, WHOLE_PART } from "./data/application.data";
 import { Orientation, SpriteData } from "./data/sprite.data";
 import { LoggerManager } from 'typescript-logger';
 import { DataObserver, DataSubject } from './observer';
@@ -7,9 +7,9 @@ import { LIST_JS_PAGINATION, PAGINATION_CLASS } from "./site.value";
 import { SpriteDataHelper } from "./sprites.data.helper";
 import List from 'list.js';
 import 'select2';
-import { site } from "./site";
+import { removeDuplicateObjectFromArray, site } from "./site";
 
-const SELECTABLE_PARTS_LIST_ITEMS_PER_PAGE = 8;
+const SELECTABLE_PARTS_LIST_ITEMS_PER_PAGE = 7;
 
 export class FormPartsAdapter {
     private _appData: ApplicationData;
@@ -136,13 +136,6 @@ export class FormPartsAdapter {
         return `<img srcset="${srcset}" class="img-fluid ${classstr}" src="${src}" alt="${flag.name} Icon">`;
     }
 
-    private async updateSelectedPartUI(form: string, part: string) {
-        const sprite_data = this.getCurrentSelectedSprite(form, part) ?? this._sprite_data_helper.getDefaultSprite(form, part);
-        if (sprite_data !== undefined) {
-            $('#' + this.getCurrentSelectedPartId(form, part)).replaceWith(this.getSelectedPartHTML(form, part, sprite_data));
-        }
-    }
-
     private getCurrentSelectedSprite(form: string, part: string) {
         const flag_name = this.getSelectedFlagName(form, part);
         const orientation = this.getSelectedOrientation(form, part);
@@ -154,6 +147,9 @@ export class FormPartsAdapter {
     }
     private getSelectedFlagName(form: string, part: string) {
         return this._appData.getCurrentSelectionPartData(form, part)?.flag_name;
+    }
+    private getSelectedFlip(form: string, part: string) {
+        return this._appData.getCurrentSelectionPartData(form, part)?.flip;
     }
     private getSelectedFilter(form: string, part: string) {
         return this._appData.getCurrentSelectionPartFilter(form, part);
@@ -197,6 +193,7 @@ export class FormPartsAdapter {
         for (const part of Object.keys(current_form.parts)) {
             const id = this.getListId(form, part);
             this._parts_lists[part] = this.getSelectablePartsList(form, part);
+            this.initSelectedPartEvents(form, part);
         }
 
         this.initEventSetParts();
@@ -237,7 +234,7 @@ export class FormPartsAdapter {
         }
 
 
-        const nav_tabs = `<ul class="nav nav-pills" id="${nav_tabs_id}" role="tablist">
+        const nav_tabs = `<ul class="nav nav-pills mb-2" id="${nav_tabs_id}" role="tablist">
             ${nav_links}
         </ul>`;
 
@@ -277,7 +274,8 @@ export class FormPartsAdapter {
         const nav_link_tab_id = FormPartsAdapter.getPartNavLinkTabId(part);
 
         const sprite_data = this.getCurrentSelectedSprite(form, part);
-        const current_part = (sprite_data !== undefined) ? this.getSelectedPartHTML(form, part, sprite_data) : '';
+        const flip = this.getSelectedFlip(form, part) ?? false;
+        const current_part = (sprite_data !== undefined) ? this.getSelectedPartHTML(form, part, sprite_data, flip) : '';
 
         const id = this.getListId(form, part);
 
@@ -353,27 +351,6 @@ export class FormPartsAdapter {
         return `<img class="img-fluid select-part-icon mx-auto d-block" src="${site.base_url}/${sprite_data.filename}" alt="${sprite_data.flag_name} Part Icon">`;
     }
 
-    private getSelectedPartHTML(form: string, part: string, selected_part: SpriteData) {
-        const orientation = selected_part.orientation;
-        const orientationIcon = (orientation) ? this.getListItemValueOrientationHTML(orientation) : '';
-        const flag_name = selected_part.flag_name;
-        const id = this.getCurrentSelectedPartId(form, part);
-
-        let disabled = '';
-        let aria_disabled = '';
-        if (part == WHOLE_PART) {
-            disabled = (!this._appData.currentSelectionShowWhole) ? 'disabled' : '';
-            aria_disabled = (!this._appData.currentSelectionShowWhole) ? 'aria-disabled="true"' : '';
-        }
-
-        return `<li class="list-group-item current-selected-part active form part flag_name ${disabled}" ${aria_disabled} data-form="${form}" data-part="${part}" data-flag-name="${flag_name}" data-orientation="${orientation}" id="${id}">
-            <div class="row no-gutters">
-                <div class="col-9 mx-2 my-auto text-left"><span class="name">${flag_name}</span></div>
-                <div class="col-1 mx-2 my-auto float-right text-right"><span class="orientation_icon">${orientationIcon}</span></div>
-            </div>
-        </li>`;
-    }
-
     private getSelectablePartsList(form: string, part: string) {
         const item = function (values: PartsListItemValue) {
             return `<button type="button" class="list-group-item" data-form="${values.form}" data-part="${values.part}" data-flag-name="${values.flag_name}" data-index="${values.index}">
@@ -395,13 +372,7 @@ export class FormPartsAdapter {
     }
 
     private getSelectablePartListValues(form: string, part: string) {
-        const removeDuplicateObjectFromArray = function (array: any[], key: string) {
-            let check = new Set();
-            return array.filter(obj => !check.has(obj[key]) && check.add(obj[key]));
-        };
-
-        const selectable_parts = removeDuplicateObjectFromArray(this._sprite_data_helper.getSelectableSpritesParts(form, part).filter(it => it.flags_fits), 'flag_name') as SpriteData[];
-
+        const selectable_parts = removeDuplicateObjectFromArray(this._sprite_data_helper.getSelectableSpritesParts(form, part).filter(it => it.flags_fits), 'flag_name');
         return selectable_parts.map((selectable_part, index) => this.getListItemPart(form, part, selectable_part, index)).filter(it => it !== undefined) as PartsListItemValue[];
     }
 
@@ -426,6 +397,96 @@ export class FormPartsAdapter {
                     <i class="fas fa-bars fa-rotate-90"></i><span class="sr-only">${site.data.strings.orientation.vertical}</span>
                 </span>`;
         }
+    }
+
+    private getListItemValueFlipHTML(flip: boolean, orientation: Orientation) {
+        const flip_class = (flip)? 'flipped' : '';
+        const icon = (flip)? '<i class="fas fa-arrow-right"></i>' : '<i class="fas fa-arrow-left"></i>';
+        switch (orientation) {
+            case Orientation.Horizontal:
+                return `<span class="flip-container ${flip_class}">
+                    ${icon}<span class="sr-only">${site.data.strings.flip.horizontal}</span>
+                </span>`;
+            case Orientation.Vertical:
+                return `<span class="flip-container ${flip_class}">
+                    ${icon}<span class="sr-only">${site.data.strings.flip.vertical}</span>
+                </span>`;
+        }
+    }
+
+    private getSelectedPartHTML(form: string, part: string, selected_part: SpriteData, flip: boolean) {
+        const orientation = selected_part.orientation;
+        const flag_name = selected_part.flag_name;
+        const id = this.getCurrentSelectedPartId(form, part);
+        const orientationIcon = this.getListItemValueOrientationHTML(orientation);
+        const flipIcon = this.getListItemValueFlipHTML(flip, orientation);
+
+        let disabled = '';
+        let aria_disabled = '';
+        if (part == WHOLE_PART) {
+            disabled = (!this._appData.currentSelectionShowWhole) ? 'disabled' : '';
+            aria_disabled = (!this._appData.currentSelectionShowWhole) ? 'aria-disabled="true"' : '';
+        }
+
+        let flipButton = '';
+        if (ENABLE_FLIP_FEATURE) {
+            flipButton = `<button type="button" class="btn btn-link mx-2 current-selected-part-flip" data-form="${form}" data-part="${part}" data-flag-name="${flag_name}" data-orientation="${orientation}" data-flip="${flip}">
+                <span class="flip_icon">${flipIcon}</span>
+            </button>`;
+        }
+
+        return `<li class="list-group-item current-selected-part active form part flag_name ${disabled}" ${aria_disabled} data-form="${form}" data-part="${part}" data-flag-name="${flag_name}" data-orientation="${orientation}" data-flip="${flip}" id="${id}">
+            <div class="row no-gutters">
+                <div class="col-10 my-auto text-left"><span class="name mx-2">${flag_name}</span></div>
+                <div class="col-1 my-auto text-right">
+                    ${flipButton}
+                </div>
+                <div class="col-1 my-auto text-right">
+                    <button type="button" class="btn btn-link mx-2 current-selected-part-orientation" data-form="${form}" data-part="${part}" data-flag-name="${flag_name}" data-orientation="${orientation}" data-flip="${flip}">
+                        <span class="orientation_icon">${orientationIcon}</span>
+                    </button>
+                </div>
+            </div>
+        </li>`;
+    }
+
+    private async updateSelectedPartUI(form: string, part: string) {
+        const sprite_data = this.getCurrentSelectedSprite(form, part) ?? this._sprite_data_helper.getDefaultSprite(form, part);
+        const flip = this.getSelectedFlip(form, part) ?? false;
+
+        if (sprite_data !== undefined) {
+            $('#' + this.getCurrentSelectedPartId(form, part)).replaceWith(this.getSelectedPartHTML(form, part, sprite_data, flip));
+            this.initSelectedPartEvents(form, part);
+        }
+    }
+
+    private initSelectedPartEvents(form: string, part: string) {
+        const id_selector = '#' + this.getCurrentSelectedPartId(form, part);
+
+        var that = this;
+        if (ENABLE_FLIP_FEATURE) {
+            $(id_selector).find('.current-selected-part-flip').on('click', function() {
+                const form = $(this).data('form');
+                const part = $(this).data('part');
+                const flag_name = $(this).data('flag-name');
+                const orientation = $(this).data('orientation');
+
+                const new_flip = that.setNewFlip(form, part, flag_name);
+                const flipIcon = that.getListItemValueFlipHTML(new_flip, orientation);
+                $(this).data('flip', new_flip);
+                $(this).find('.flip_icon').html(flipIcon);
+            });
+        }
+        $(id_selector).find('.current-selected-part-orientation').on('click', function() {
+            const form = $(this).data('form');
+            const part = $(this).data('part');
+            const flag_name = $(this).data('flag-name');
+
+            const new_orientation = that.setNewOrientation(form, part, flag_name);
+            const orientationIcon = that.getListItemValueOrientationHTML(new_orientation);
+            $(this).data('orientation', new_orientation);
+            $(this).find('.orientation_icon').html(orientationIcon);
+        });
     }
 
     private getListItemValue(form: string, part: string, flag: FlagData, index: number): PartsListItemValue {
@@ -498,40 +559,9 @@ export class FormPartsAdapter {
                         const flag_name = item_value.flag_name;
                         const part = item_value.part;
 
-                        const selectable_flags = that._sprite_data_helper.getSelectableSpritesFlag(form, part, flag_name).filter(it => it.flags_fits);
-                        const selectable_flag_horizontal = selectable_flags.find(it => it.orientation == Orientation.Horizontal);
-                        const selectable_flag_vertical = selectable_flags.find(it => it.orientation == Orientation.Vertical);
+                        that.log.debug('click item', {form, part, flag_name, item, item_value});
 
-                        that.log.debug('click item', form, part, flag_name, item, item_value);
-
-                        const orientation = that.getSelectedOrientation(form, part) ?? Orientation.Vertical;
-                        let new_orientation = orientation;
-                        if (that.getSelectedFlagName(form, part) !== flag_name) {
-                            if (selectable_flag_horizontal && orientation === Orientation.Horizontal) {
-                                new_orientation = Orientation.Horizontal;
-                            } else if (selectable_flag_vertical && orientation === Orientation.Vertical) {
-                                new_orientation = Orientation.Vertical;
-                            } else if (selectable_flag_horizontal) {
-                                new_orientation = Orientation.Horizontal;
-                            } else if (selectable_flag_vertical) {
-                                new_orientation = Orientation.Vertical;
-                            }
-
-                            that._appData.setPart(form, part, flag_name, new_orientation);
-                        } else {
-                            if (selectable_flag_horizontal && orientation === Orientation.Vertical) {
-                                new_orientation = Orientation.Horizontal;
-                            } else if (selectable_flag_vertical && orientation === Orientation.Horizontal) {
-                                new_orientation = Orientation.Vertical;
-                            } else if (selectable_flag_horizontal) {
-                                new_orientation = Orientation.Horizontal;
-                            } else if (selectable_flag_vertical) {
-                                new_orientation = Orientation.Vertical;
-                            }
-                            if (orientation !== new_orientation) {
-                                that._appData.setPart(form, part, flag_name, new_orientation);
-                            }
-                        }
+                        that.setNewPart(form, part, flag_name);
 
                         that._appData.lastFlag = flag_name;
                     });
@@ -543,7 +573,7 @@ export class FormPartsAdapter {
             }).off('select2:select').on('select2:select', function () {
                 const part = $(this).data('part');
                 const filter = $(this).val() as string ?? ALL_FILTER;
-                that.log.debug('select filter', part, $(this).val());
+                that.log.debug('select filter', {part}, $(this).val());
                 that._appData.setPartFilter(that.current_form, part, filter);
             });
         }
@@ -560,6 +590,91 @@ export class FormPartsAdapter {
             new_tab.parent('.nav-item.border').addClass('border-light').removeClass('border-dark');
             prev_tab.parent('.nav-item.border').removeClass('border-light').addClass('border-dark');
         });
+    }
+
+
+    private setNewPart(form: string, part: string, flag_name: string) {
+        const selectable_flags = this._sprite_data_helper.getSelectableSpritesFlag(form, part, flag_name).filter(it => it.flags_fits);
+        const selectable_flag_horizontal = selectable_flags.find(it => it.orientation == Orientation.Horizontal);
+        const selectable_flag_vertical = selectable_flags.find(it => it.orientation == Orientation.Vertical);
+        const orientation = this.getSelectedOrientation(form, part) ?? Orientation.Vertical;
+        let new_orientation = orientation;
+
+        if (this.getSelectedFlagName(form, part) !== flag_name) {
+            if (selectable_flag_horizontal && orientation === Orientation.Horizontal) {
+                new_orientation = Orientation.Horizontal;
+            } else if (selectable_flag_vertical && orientation === Orientation.Vertical) {
+                new_orientation = Orientation.Vertical;
+            } else if (selectable_flag_horizontal) {
+                new_orientation = Orientation.Horizontal;
+            } else if (selectable_flag_vertical) {
+                new_orientation = Orientation.Vertical;
+            }
+
+            this._appData.setPart(form, part, flag_name, new_orientation);
+        } else {
+            if (selectable_flag_horizontal && orientation === Orientation.Vertical) {
+                new_orientation = Orientation.Horizontal;
+            } else if (selectable_flag_vertical && orientation === Orientation.Horizontal) {
+                new_orientation = Orientation.Vertical;
+            } else if (selectable_flag_horizontal) {
+                new_orientation = Orientation.Horizontal;
+            } else if (selectable_flag_vertical) {
+                new_orientation = Orientation.Vertical;
+            }
+            if (orientation !== new_orientation) {
+                this._appData.setPart(form, part, flag_name, new_orientation);
+            }
+        }
+
+        return new_orientation;
+    }
+
+    private setNewOrientation(form: string, part: string, flag_name: string) {
+        const selectable_flags = this._sprite_data_helper.getSelectableSpritesFlag(form, part, flag_name).filter(it => it.flags_fits);
+        const selectable_flag_horizontal = selectable_flags.find(it => it.orientation == Orientation.Horizontal);
+        const selectable_flag_vertical = selectable_flags.find(it => it.orientation == Orientation.Vertical);
+        const orientation = this.getSelectedOrientation(form, part) ?? Orientation.Vertical;
+        let new_orientation = orientation;
+
+        if (this.getSelectedFlagName(form, part) !== flag_name) {
+            if (selectable_flag_horizontal && orientation === Orientation.Horizontal) {
+                new_orientation = Orientation.Horizontal;
+            } else if (selectable_flag_vertical && orientation === Orientation.Vertical) {
+                new_orientation = Orientation.Vertical;
+            } else if (selectable_flag_horizontal) {
+                new_orientation = Orientation.Horizontal;
+            } else if (selectable_flag_vertical) {
+                new_orientation = Orientation.Vertical;
+            }
+
+            this._appData.setPartOrientation(form, part, new_orientation);
+        } else {
+            if (selectable_flag_horizontal && orientation === Orientation.Vertical) {
+                new_orientation = Orientation.Horizontal;
+            } else if (selectable_flag_vertical && orientation === Orientation.Horizontal) {
+                new_orientation = Orientation.Vertical;
+            } else if (selectable_flag_horizontal) {
+                new_orientation = Orientation.Horizontal;
+            } else if (selectable_flag_vertical) {
+                new_orientation = Orientation.Vertical;
+            }
+            if (orientation !== new_orientation) {
+                this._appData.setPartOrientation(form, part, new_orientation);
+            }
+        }
+
+        return new_orientation;
+    }
+
+    private setNewFlip(form: string, part: string, flag_name: string) {
+        const flip = this.getSelectedFlip(form, part) ?? false;
+
+        const new_flip = !flip;
+        
+        this._appData.setPartFlip(form, part, new_flip);
+
+        return new_flip; 
     }
 }
 

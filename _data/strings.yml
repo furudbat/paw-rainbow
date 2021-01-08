@@ -4,10 +4,10 @@ select_form:
 select_filter:
   all: All
   pride: Pride
-  sexual: Sexual
-  gender: Gender
+  sexual: Sexual orientation
+  gender: Gender identity
   relationship: Relationship
-  romantic: Romantic
+  romantic: Romantic orientation
   sub_culture: Subculture
 select_parts:
   label: Parts
@@ -43,9 +43,13 @@ color_palette:
   search_label: Color Search
   pagination_label: Color Palette page navigation
   delete_label: Delete Color
+  add_label: Add Color
 orientation:
   horizontal: Horizontal
   vertical: Vertical
+flip:
+  horizontal: Flip Horizontal
+  vertical: Flip Vertical
 misc:
   title: Misc
   clear_session: Clear Session
