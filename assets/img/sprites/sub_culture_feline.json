@@ -13,18 +13,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sub_culture_feline/sub_culture_feline_lipstick_lesbianfeline_horizontal_0.png",
             "filename": "assets/img/sprites/sub_culture_feline/sub_culture_feline_lipstick_lesbianfeline_horizontal_0.png"
@@ -34,7 +34,7 @@
             "part": "left_part_1",
             "orientation": "horizontal",
             "mask_key": "feline_horizontal_1",
-            "flags_fits": true,
+            "flags_fits": false,
             "flags_fits_perfect": false,
             "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_horizontal_1.png",
             "rotated": false,
@@ -42,18 +42,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 25,
+                "x": 23,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sub_culture_feline/sub_culture_feline_lipstick_lesbianfeline_horizontal_1.png",
             "filename": "assets/img/sprites/sub_culture_feline/sub_culture_feline_lipstick_lesbianfeline_horizontal_1.png"
@@ -64,25 +64,25 @@
             "orientation": "horizontal",
             "mask_key": "feline_horizontal_2",
             "flags_fits": true,
-            "flags_fits_perfect": false,
+            "flags_fits_perfect": true,
             "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_horizontal_2.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 50,
+                "x": 46,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sub_culture_feline/sub_culture_feline_lipstick_lesbianfeline_horizontal_2.png",
             "filename": "assets/img/sprites/sub_culture_feline/sub_culture_feline_lipstick_lesbianfeline_horizontal_2.png"
@@ -93,25 +93,25 @@
             "orientation": "horizontal",
             "mask_key": "feline_horizontal_3",
             "flags_fits": true,
-            "flags_fits_perfect": false,
+            "flags_fits_perfect": true,
             "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_horizontal_3.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 75,
+                "x": 69,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sub_culture_feline/sub_culture_feline_lipstick_lesbianfeline_horizontal_3.png",
             "filename": "assets/img/sprites/sub_culture_feline/sub_culture_feline_lipstick_lesbianfeline_horizontal_3.png"
@@ -121,7 +121,7 @@
             "part": "right_part_2",
             "orientation": "horizontal",
             "mask_key": "feline_horizontal_4",
-            "flags_fits": true,
+            "flags_fits": false,
             "flags_fits_perfect": false,
             "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_horizontal_4.png",
             "rotated": false,
@@ -129,18 +129,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 100,
+                "x": 92,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sub_culture_feline/sub_culture_feline_lipstick_lesbianfeline_horizontal_4.png",
             "filename": "assets/img/sprites/sub_culture_feline/sub_culture_feline_lipstick_lesbianfeline_horizontal_4.png"
@@ -158,18 +158,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 125,
+                "x": 115,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sub_culture_feline/sub_culture_feline_lipstick_lesbianfeline_horizontal_5.png",
             "filename": "assets/img/sprites/sub_culture_feline/sub_culture_feline_lipstick_lesbianfeline_horizontal_5.png"
@@ -187,18 +187,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 150,
+                "x": 138,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sub_culture_feline/sub_culture_feline_lipstick_lesbianfeline_vertical_0.png",
             "filename": "assets/img/sprites/sub_culture_feline/sub_culture_feline_lipstick_lesbianfeline_vertical_0.png"
@@ -216,18 +216,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 175,
+                "x": 161,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sub_culture_feline/sub_culture_feline_lipstick_lesbianfeline_vertical_1.png",
             "filename": "assets/img/sprites/sub_culture_feline/sub_culture_feline_lipstick_lesbianfeline_vertical_1.png"
@@ -245,18 +245,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 200,
+                "x": 184,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sub_culture_feline/sub_culture_feline_lipstick_lesbianfeline_vertical_2.png",
             "filename": "assets/img/sprites/sub_culture_feline/sub_culture_feline_lipstick_lesbianfeline_vertical_2.png"
@@ -274,18 +274,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 225,
+                "x": 207,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sub_culture_feline/sub_culture_feline_lipstick_lesbianfeline_vertical_3.png",
             "filename": "assets/img/sprites/sub_culture_feline/sub_culture_feline_lipstick_lesbianfeline_vertical_3.png"
@@ -303,18 +303,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 250,
+                "x": 230,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sub_culture_feline/sub_culture_feline_lipstick_lesbianfeline_vertical_4.png",
             "filename": "assets/img/sprites/sub_culture_feline/sub_culture_feline_lipstick_lesbianfeline_vertical_4.png"
@@ -332,18 +332,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 275,
+                "x": 253,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sub_culture_feline/sub_culture_feline_lipstick_lesbianfeline_vertical_5.png",
             "filename": "assets/img/sprites/sub_culture_feline/sub_culture_feline_lipstick_lesbianfeline_vertical_5.png"
@@ -361,18 +361,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
                 "x": 0,
-                "y": 25,
-                "w": 25,
-                "h": 25
+                "y": 23,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sub_culture_feline/sub_culture_feline_butch_lesbianfeline_horizontal_0.png",
             "filename": "assets/img/sprites/sub_culture_feline/sub_culture_feline_butch_lesbianfeline_horizontal_0.png"
@@ -382,7 +382,7 @@
             "part": "left_part_1",
             "orientation": "horizontal",
             "mask_key": "feline_horizontal_1",
-            "flags_fits": true,
+            "flags_fits": false,
             "flags_fits_perfect": false,
             "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_horizontal_1.png",
             "rotated": false,
@@ -390,18 +390,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 25,
-                "y": 25,
-                "w": 25,
-                "h": 25
+                "x": 23,
+                "y": 23,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sub_culture_feline/sub_culture_feline_butch_lesbianfeline_horizontal_1.png",
             "filename": "assets/img/sprites/sub_culture_feline/sub_culture_feline_butch_lesbianfeline_horizontal_1.png"
@@ -412,25 +412,25 @@
             "orientation": "horizontal",
             "mask_key": "feline_horizontal_2",
             "flags_fits": true,
-            "flags_fits_perfect": false,
+            "flags_fits_perfect": true,
             "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_horizontal_2.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 50,
-                "y": 25,
-                "w": 25,
-                "h": 25
+                "x": 46,
+                "y": 23,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sub_culture_feline/sub_culture_feline_butch_lesbianfeline_horizontal_2.png",
             "filename": "assets/img/sprites/sub_culture_feline/sub_culture_feline_butch_lesbianfeline_horizontal_2.png"
@@ -441,25 +441,25 @@
             "orientation": "horizontal",
             "mask_key": "feline_horizontal_3",
             "flags_fits": true,
-            "flags_fits_perfect": false,
+            "flags_fits_perfect": true,
             "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_horizontal_3.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 75,
-                "y": 25,
-                "w": 25,
-                "h": 25
+                "x": 69,
+                "y": 23,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sub_culture_feline/sub_culture_feline_butch_lesbianfeline_horizontal_3.png",
             "filename": "assets/img/sprites/sub_culture_feline/sub_culture_feline_butch_lesbianfeline_horizontal_3.png"
@@ -469,7 +469,7 @@
             "part": "right_part_2",
             "orientation": "horizontal",
             "mask_key": "feline_horizontal_4",
-            "flags_fits": true,
+            "flags_fits": false,
             "flags_fits_perfect": false,
             "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_horizontal_4.png",
             "rotated": false,
@@ -477,18 +477,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 100,
-                "y": 25,
-                "w": 25,
-                "h": 25
+                "x": 92,
+                "y": 23,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sub_culture_feline/sub_culture_feline_butch_lesbianfeline_horizontal_4.png",
             "filename": "assets/img/sprites/sub_culture_feline/sub_culture_feline_butch_lesbianfeline_horizontal_4.png"
@@ -506,18 +506,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 125,
-                "y": 25,
-                "w": 25,
-                "h": 25
+                "x": 115,
+                "y": 23,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sub_culture_feline/sub_culture_feline_butch_lesbianfeline_horizontal_5.png",
             "filename": "assets/img/sprites/sub_culture_feline/sub_culture_feline_butch_lesbianfeline_horizontal_5.png"
@@ -535,18 +535,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 150,
-                "y": 25,
-                "w": 25,
-                "h": 25
+                "x": 138,
+                "y": 23,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sub_culture_feline/sub_culture_feline_butch_lesbianfeline_vertical_0.png",
             "filename": "assets/img/sprites/sub_culture_feline/sub_culture_feline_butch_lesbianfeline_vertical_0.png"
@@ -564,18 +564,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 175,
-                "y": 25,
-                "w": 25,
-                "h": 25
+                "x": 161,
+                "y": 23,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sub_culture_feline/sub_culture_feline_butch_lesbianfeline_vertical_1.png",
             "filename": "assets/img/sprites/sub_culture_feline/sub_culture_feline_butch_lesbianfeline_vertical_1.png"
@@ -593,18 +593,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 200,
-                "y": 25,
-                "w": 25,
-                "h": 25
+                "x": 184,
+                "y": 23,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sub_culture_feline/sub_culture_feline_butch_lesbianfeline_vertical_2.png",
             "filename": "assets/img/sprites/sub_culture_feline/sub_culture_feline_butch_lesbianfeline_vertical_2.png"
@@ -622,18 +622,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 225,
-                "y": 25,
-                "w": 25,
-                "h": 25
+                "x": 207,
+                "y": 23,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sub_culture_feline/sub_culture_feline_butch_lesbianfeline_vertical_3.png",
             "filename": "assets/img/sprites/sub_culture_feline/sub_culture_feline_butch_lesbianfeline_vertical_3.png"
@@ -651,18 +651,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 250,
-                "y": 25,
-                "w": 25,
-                "h": 25
+                "x": 230,
+                "y": 23,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sub_culture_feline/sub_culture_feline_butch_lesbianfeline_vertical_4.png",
             "filename": "assets/img/sprites/sub_culture_feline/sub_culture_feline_butch_lesbianfeline_vertical_4.png"
@@ -680,18 +680,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 275,
-                "y": 25,
-                "w": 25,
-                "h": 25
+                "x": 253,
+                "y": 23,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sub_culture_feline/sub_culture_feline_butch_lesbianfeline_vertical_5.png",
             "filename": "assets/img/sprites/sub_culture_feline/sub_culture_feline_butch_lesbianfeline_vertical_5.png"
@@ -702,25 +702,25 @@
             "orientation": "horizontal",
             "mask_key": "feline_horizontal_0",
             "flags_fits": true,
-            "flags_fits_perfect": false,
+            "flags_fits_perfect": true,
             "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_horizontal_0.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
                 "x": 0,
-                "y": 50,
-                "w": 25,
-                "h": 25
+                "y": 46,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sub_culture_feline/sub_culture_feline_bearsfeline_horizontal_0.png",
             "filename": "assets/img/sprites/sub_culture_feline/sub_culture_feline_bearsfeline_horizontal_0.png"
@@ -730,26 +730,26 @@
             "part": "left_part_1",
             "orientation": "horizontal",
             "mask_key": "feline_horizontal_1",
-            "flags_fits": true,
-            "flags_fits_perfect": true,
+            "flags_fits": false,
+            "flags_fits_perfect": false,
             "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_horizontal_1.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 25,
-                "y": 50,
-                "w": 25,
-                "h": 25
+                "x": 23,
+                "y": 46,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sub_culture_feline/sub_culture_feline_bearsfeline_horizontal_1.png",
             "filename": "assets/img/sprites/sub_culture_feline/sub_culture_feline_bearsfeline_horizontal_1.png"
@@ -759,7 +759,7 @@
             "part": "left_part_2",
             "orientation": "horizontal",
             "mask_key": "feline_horizontal_2",
-            "flags_fits": true,
+            "flags_fits": false,
             "flags_fits_perfect": false,
             "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_horizontal_2.png",
             "rotated": false,
@@ -767,18 +767,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 50,
-                "y": 50,
-                "w": 25,
-                "h": 25
+                "x": 46,
+                "y": 46,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sub_culture_feline/sub_culture_feline_bearsfeline_horizontal_2.png",
             "filename": "assets/img/sprites/sub_culture_feline/sub_culture_feline_bearsfeline_horizontal_2.png"
@@ -788,7 +788,7 @@
             "part": "right_part_1",
             "orientation": "horizontal",
             "mask_key": "feline_horizontal_3",
-            "flags_fits": true,
+            "flags_fits": false,
             "flags_fits_perfect": false,
             "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_horizontal_3.png",
             "rotated": false,
@@ -796,18 +796,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 75,
-                "y": 50,
-                "w": 25,
-                "h": 25
+                "x": 69,
+                "y": 46,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sub_culture_feline/sub_culture_feline_bearsfeline_horizontal_3.png",
             "filename": "assets/img/sprites/sub_culture_feline/sub_culture_feline_bearsfeline_horizontal_3.png"
@@ -817,26 +817,26 @@
             "part": "right_part_2",
             "orientation": "horizontal",
             "mask_key": "feline_horizontal_4",
-            "flags_fits": true,
-            "flags_fits_perfect": true,
+            "flags_fits": false,
+            "flags_fits_perfect": false,
             "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_horizontal_4.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 100,
-                "y": 50,
-                "w": 25,
-                "h": 25
+                "x": 92,
+                "y": 46,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sub_culture_feline/sub_culture_feline_bearsfeline_horizontal_4.png",
             "filename": "assets/img/sprites/sub_culture_feline/sub_culture_feline_bearsfeline_horizontal_4.png"
@@ -854,18 +854,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 125,
-                "y": 50,
-                "w": 25,
-                "h": 25
+                "x": 115,
+                "y": 46,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sub_culture_feline/sub_culture_feline_bearsfeline_horizontal_5.png",
             "filename": "assets/img/sprites/sub_culture_feline/sub_culture_feline_bearsfeline_horizontal_5.png"
@@ -883,18 +883,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 150,
-                "y": 50,
-                "w": 25,
-                "h": 25
+                "x": 138,
+                "y": 46,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sub_culture_feline/sub_culture_feline_bearsfeline_vertical_0.png",
             "filename": "assets/img/sprites/sub_culture_feline/sub_culture_feline_bearsfeline_vertical_0.png"
@@ -912,18 +912,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 175,
-                "y": 50,
-                "w": 25,
-                "h": 25
+                "x": 161,
+                "y": 46,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sub_culture_feline/sub_culture_feline_bearsfeline_vertical_1.png",
             "filename": "assets/img/sprites/sub_culture_feline/sub_culture_feline_bearsfeline_vertical_1.png"
@@ -941,18 +941,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 200,
-                "y": 50,
-                "w": 25,
-                "h": 25
+                "x": 184,
+                "y": 46,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sub_culture_feline/sub_culture_feline_bearsfeline_vertical_2.png",
             "filename": "assets/img/sprites/sub_culture_feline/sub_culture_feline_bearsfeline_vertical_2.png"
@@ -970,18 +970,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 225,
-                "y": 50,
-                "w": 25,
-                "h": 25
+                "x": 207,
+                "y": 46,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sub_culture_feline/sub_culture_feline_bearsfeline_vertical_3.png",
             "filename": "assets/img/sprites/sub_culture_feline/sub_culture_feline_bearsfeline_vertical_3.png"
@@ -999,18 +999,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 250,
-                "y": 50,
-                "w": 25,
-                "h": 25
+                "x": 230,
+                "y": 46,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sub_culture_feline/sub_culture_feline_bearsfeline_vertical_4.png",
             "filename": "assets/img/sprites/sub_culture_feline/sub_culture_feline_bearsfeline_vertical_4.png"
@@ -1028,18 +1028,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 275,
-                "y": 50,
-                "w": 25,
-                "h": 25
+                "x": 253,
+                "y": 46,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sub_culture_feline/sub_culture_feline_bearsfeline_vertical_5.png",
             "filename": "assets/img/sprites/sub_culture_feline/sub_culture_feline_bearsfeline_vertical_5.png"
@@ -1057,18 +1057,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
                 "x": 0,
-                "y": 75,
-                "w": 25,
-                "h": 25
+                "y": 69,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sub_culture_feline/sub_culture_feline_ottersfeline_horizontal_0.png",
             "filename": "assets/img/sprites/sub_culture_feline/sub_culture_feline_ottersfeline_horizontal_0.png"
@@ -1086,18 +1086,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 25,
-                "y": 75,
-                "w": 25,
-                "h": 25
+                "x": 23,
+                "y": 69,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sub_culture_feline/sub_culture_feline_ottersfeline_horizontal_1.png",
             "filename": "assets/img/sprites/sub_culture_feline/sub_culture_feline_ottersfeline_horizontal_1.png"
@@ -1115,18 +1115,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 50,
-                "y": 75,
-                "w": 25,
-                "h": 25
+                "x": 46,
+                "y": 69,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sub_culture_feline/sub_culture_feline_ottersfeline_horizontal_2.png",
             "filename": "assets/img/sprites/sub_culture_feline/sub_culture_feline_ottersfeline_horizontal_2.png"
@@ -1144,18 +1144,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 75,
-                "y": 75,
-                "w": 25,
-                "h": 25
+                "x": 69,
+                "y": 69,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sub_culture_feline/sub_culture_feline_ottersfeline_horizontal_3.png",
             "filename": "assets/img/sprites/sub_culture_feline/sub_culture_feline_ottersfeline_horizontal_3.png"
@@ -1173,18 +1173,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 100,
-                "y": 75,
-                "w": 25,
-                "h": 25
+                "x": 92,
+                "y": 69,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sub_culture_feline/sub_culture_feline_ottersfeline_horizontal_4.png",
             "filename": "assets/img/sprites/sub_culture_feline/sub_culture_feline_ottersfeline_horizontal_4.png"
@@ -1202,18 +1202,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 125,
-                "y": 75,
-                "w": 25,
-                "h": 25
+                "x": 115,
+                "y": 69,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sub_culture_feline/sub_culture_feline_ottersfeline_horizontal_5.png",
             "filename": "assets/img/sprites/sub_culture_feline/sub_culture_feline_ottersfeline_horizontal_5.png"
@@ -1231,18 +1231,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 150,
-                "y": 75,
-                "w": 25,
-                "h": 25
+                "x": 138,
+                "y": 69,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sub_culture_feline/sub_culture_feline_ottersfeline_vertical_0.png",
             "filename": "assets/img/sprites/sub_culture_feline/sub_culture_feline_ottersfeline_vertical_0.png"
@@ -1253,25 +1253,25 @@
             "orientation": "vertical",
             "mask_key": "feline_vertical_1",
             "flags_fits": true,
-            "flags_fits_perfect": false,
+            "flags_fits_perfect": true,
             "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_vertical_1.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 175,
-                "y": 75,
-                "w": 25,
-                "h": 25
+                "x": 161,
+                "y": 69,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sub_culture_feline/sub_culture_feline_ottersfeline_vertical_1.png",
             "filename": "assets/img/sprites/sub_culture_feline/sub_culture_feline_ottersfeline_vertical_1.png"
@@ -1282,25 +1282,25 @@
             "orientation": "vertical",
             "mask_key": "feline_vertical_2",
             "flags_fits": true,
-            "flags_fits_perfect": false,
+            "flags_fits_perfect": true,
             "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_vertical_2.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 200,
-                "y": 75,
-                "w": 25,
-                "h": 25
+                "x": 184,
+                "y": 69,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sub_culture_feline/sub_culture_feline_ottersfeline_vertical_2.png",
             "filename": "assets/img/sprites/sub_culture_feline/sub_culture_feline_ottersfeline_vertical_2.png"
@@ -1311,25 +1311,25 @@
             "orientation": "vertical",
             "mask_key": "feline_vertical_3",
             "flags_fits": true,
-            "flags_fits_perfect": false,
+            "flags_fits_perfect": true,
             "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_vertical_3.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 225,
-                "y": 75,
-                "w": 25,
-                "h": 25
+                "x": 207,
+                "y": 69,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sub_culture_feline/sub_culture_feline_ottersfeline_vertical_3.png",
             "filename": "assets/img/sprites/sub_culture_feline/sub_culture_feline_ottersfeline_vertical_3.png"
@@ -1340,25 +1340,25 @@
             "orientation": "vertical",
             "mask_key": "feline_vertical_4",
             "flags_fits": true,
-            "flags_fits_perfect": false,
+            "flags_fits_perfect": true,
             "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_vertical_4.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 250,
-                "y": 75,
-                "w": 25,
-                "h": 25
+                "x": 230,
+                "y": 69,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sub_culture_feline/sub_culture_feline_ottersfeline_vertical_4.png",
             "filename": "assets/img/sprites/sub_culture_feline/sub_culture_feline_ottersfeline_vertical_4.png"
@@ -1376,18 +1376,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 275,
-                "y": 75,
-                "w": 25,
-                "h": 25
+                "x": 253,
+                "y": 69,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sub_culture_feline/sub_culture_feline_ottersfeline_vertical_5.png",
             "filename": "assets/img/sprites/sub_culture_feline/sub_culture_feline_ottersfeline_vertical_5.png"
@@ -1405,18 +1405,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
                 "x": 0,
-                "y": 100,
-                "w": 25,
-                "h": 25
+                "y": 92,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sub_culture_feline/sub_culture_feline_twinksfeline_horizontal_0.png",
             "filename": "assets/img/sprites/sub_culture_feline/sub_culture_feline_twinksfeline_horizontal_0.png"
@@ -1434,18 +1434,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 25,
-                "y": 100,
-                "w": 25,
-                "h": 25
+                "x": 23,
+                "y": 92,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sub_culture_feline/sub_culture_feline_twinksfeline_horizontal_1.png",
             "filename": "assets/img/sprites/sub_culture_feline/sub_culture_feline_twinksfeline_horizontal_1.png"
@@ -1463,18 +1463,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 50,
-                "y": 100,
-                "w": 25,
-                "h": 25
+                "x": 46,
+                "y": 92,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sub_culture_feline/sub_culture_feline_twinksfeline_horizontal_2.png",
             "filename": "assets/img/sprites/sub_culture_feline/sub_culture_feline_twinksfeline_horizontal_2.png"
@@ -1492,18 +1492,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 75,
-                "y": 100,
-                "w": 25,
-                "h": 25
+                "x": 69,
+                "y": 92,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sub_culture_feline/sub_culture_feline_twinksfeline_horizontal_3.png",
             "filename": "assets/img/sprites/sub_culture_feline/sub_culture_feline_twinksfeline_horizontal_3.png"
@@ -1521,18 +1521,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 100,
-                "y": 100,
-                "w": 25,
-                "h": 25
+                "x": 92,
+                "y": 92,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sub_culture_feline/sub_culture_feline_twinksfeline_horizontal_4.png",
             "filename": "assets/img/sprites/sub_culture_feline/sub_culture_feline_twinksfeline_horizontal_4.png"
@@ -1550,18 +1550,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 125,
-                "y": 100,
-                "w": 25,
-                "h": 25
+                "x": 115,
+                "y": 92,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sub_culture_feline/sub_culture_feline_twinksfeline_horizontal_5.png",
             "filename": "assets/img/sprites/sub_culture_feline/sub_culture_feline_twinksfeline_horizontal_5.png"
@@ -1579,18 +1579,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 150,
-                "y": 100,
-                "w": 25,
-                "h": 25
+                "x": 138,
+                "y": 92,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sub_culture_feline/sub_culture_feline_twinksfeline_vertical_0.png",
             "filename": "assets/img/sprites/sub_culture_feline/sub_culture_feline_twinksfeline_vertical_0.png"
@@ -1608,18 +1608,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 175,
-                "y": 100,
-                "w": 25,
-                "h": 25
+                "x": 161,
+                "y": 92,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sub_culture_feline/sub_culture_feline_twinksfeline_vertical_1.png",
             "filename": "assets/img/sprites/sub_culture_feline/sub_culture_feline_twinksfeline_vertical_1.png"
@@ -1637,18 +1637,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 200,
-                "y": 100,
-                "w": 25,
-                "h": 25
+                "x": 184,
+                "y": 92,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sub_culture_feline/sub_culture_feline_twinksfeline_vertical_2.png",
             "filename": "assets/img/sprites/sub_culture_feline/sub_culture_feline_twinksfeline_vertical_2.png"
@@ -1666,18 +1666,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 225,
-                "y": 100,
-                "w": 25,
-                "h": 25
+                "x": 207,
+                "y": 92,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sub_culture_feline/sub_culture_feline_twinksfeline_vertical_3.png",
             "filename": "assets/img/sprites/sub_culture_feline/sub_culture_feline_twinksfeline_vertical_3.png"
@@ -1695,18 +1695,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 250,
-                "y": 100,
-                "w": 25,
-                "h": 25
+                "x": 230,
+                "y": 92,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sub_culture_feline/sub_culture_feline_twinksfeline_vertical_4.png",
             "filename": "assets/img/sprites/sub_culture_feline/sub_culture_feline_twinksfeline_vertical_4.png"
@@ -1724,18 +1724,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 275,
-                "y": 100,
-                "w": 25,
-                "h": 25
+                "x": 253,
+                "y": 92,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sub_culture_feline/sub_culture_feline_twinksfeline_vertical_5.png",
             "filename": "assets/img/sprites/sub_culture_feline/sub_culture_feline_twinksfeline_vertical_5.png"
@@ -1753,18 +1753,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
                 "x": 0,
-                "y": 125,
-                "w": 25,
-                "h": 25
+                "y": 115,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sub_culture_feline/sub_culture_feline_militaryfeline_horizontal_0.png",
             "filename": "assets/img/sprites/sub_culture_feline/sub_culture_feline_militaryfeline_horizontal_0.png"
@@ -1782,18 +1782,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 25,
-                "y": 125,
-                "w": 25,
-                "h": 25
+                "x": 23,
+                "y": 115,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sub_culture_feline/sub_culture_feline_militaryfeline_horizontal_1.png",
             "filename": "assets/img/sprites/sub_culture_feline/sub_culture_feline_militaryfeline_horizontal_1.png"
@@ -1811,18 +1811,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 50,
-                "y": 125,
-                "w": 25,
-                "h": 25
+                "x": 46,
+                "y": 115,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sub_culture_feline/sub_culture_feline_militaryfeline_horizontal_2.png",
             "filename": "assets/img/sprites/sub_culture_feline/sub_culture_feline_militaryfeline_horizontal_2.png"
@@ -1840,18 +1840,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 75,
-                "y": 125,
-                "w": 25,
-                "h": 25
+                "x": 69,
+                "y": 115,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sub_culture_feline/sub_culture_feline_militaryfeline_horizontal_3.png",
             "filename": "assets/img/sprites/sub_culture_feline/sub_culture_feline_militaryfeline_horizontal_3.png"
@@ -1869,18 +1869,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 100,
-                "y": 125,
-                "w": 25,
-                "h": 25
+                "x": 92,
+                "y": 115,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sub_culture_feline/sub_culture_feline_militaryfeline_horizontal_4.png",
             "filename": "assets/img/sprites/sub_culture_feline/sub_culture_feline_militaryfeline_horizontal_4.png"
@@ -1898,18 +1898,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 125,
-                "y": 125,
-                "w": 25,
-                "h": 25
+                "x": 115,
+                "y": 115,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sub_culture_feline/sub_culture_feline_militaryfeline_horizontal_5.png",
             "filename": "assets/img/sprites/sub_culture_feline/sub_culture_feline_militaryfeline_horizontal_5.png"
@@ -1927,18 +1927,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 150,
-                "y": 125,
-                "w": 25,
-                "h": 25
+                "x": 138,
+                "y": 115,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sub_culture_feline/sub_culture_feline_militaryfeline_vertical_0.png",
             "filename": "assets/img/sprites/sub_culture_feline/sub_culture_feline_militaryfeline_vertical_0.png"
@@ -1956,18 +1956,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 175,
-                "y": 125,
-                "w": 25,
-                "h": 25
+                "x": 161,
+                "y": 115,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sub_culture_feline/sub_culture_feline_militaryfeline_vertical_1.png",
             "filename": "assets/img/sprites/sub_culture_feline/sub_culture_feline_militaryfeline_vertical_1.png"
@@ -1985,18 +1985,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 200,
-                "y": 125,
-                "w": 25,
-                "h": 25
+                "x": 184,
+                "y": 115,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sub_culture_feline/sub_culture_feline_militaryfeline_vertical_2.png",
             "filename": "assets/img/sprites/sub_culture_feline/sub_culture_feline_militaryfeline_vertical_2.png"
@@ -2014,18 +2014,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 225,
-                "y": 125,
-                "w": 25,
-                "h": 25
+                "x": 207,
+                "y": 115,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sub_culture_feline/sub_culture_feline_militaryfeline_vertical_3.png",
             "filename": "assets/img/sprites/sub_culture_feline/sub_culture_feline_militaryfeline_vertical_3.png"
@@ -2043,18 +2043,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 250,
-                "y": 125,
-                "w": 25,
-                "h": 25
+                "x": 230,
+                "y": 115,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sub_culture_feline/sub_culture_feline_militaryfeline_vertical_4.png",
             "filename": "assets/img/sprites/sub_culture_feline/sub_culture_feline_militaryfeline_vertical_4.png"
@@ -2072,18 +2072,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 275,
-                "y": 125,
-                "w": 25,
-                "h": 25
+                "x": 253,
+                "y": 115,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sub_culture_feline/sub_culture_feline_militaryfeline_vertical_5.png",
             "filename": "assets/img/sprites/sub_culture_feline/sub_culture_feline_militaryfeline_vertical_5.png"
@@ -2101,18 +2101,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
                 "x": 0,
-                "y": 150,
-                "w": 25,
-                "h": 25
+                "y": 138,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sub_culture_feline/sub_culture_feline_fat_chubbyfeline_horizontal_0.png",
             "filename": "assets/img/sprites/sub_culture_feline/sub_culture_feline_fat_chubbyfeline_horizontal_0.png"
@@ -2130,18 +2130,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 25,
-                "y": 150,
-                "w": 25,
-                "h": 25
+                "x": 23,
+                "y": 138,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sub_culture_feline/sub_culture_feline_fat_chubbyfeline_horizontal_1.png",
             "filename": "assets/img/sprites/sub_culture_feline/sub_culture_feline_fat_chubbyfeline_horizontal_1.png"
@@ -2159,18 +2159,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 50,
-                "y": 150,
-                "w": 25,
-                "h": 25
+                "x": 46,
+                "y": 138,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sub_culture_feline/sub_culture_feline_fat_chubbyfeline_horizontal_2.png",
             "filename": "assets/img/sprites/sub_culture_feline/sub_culture_feline_fat_chubbyfeline_horizontal_2.png"
@@ -2188,18 +2188,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 75,
-                "y": 150,
-                "w": 25,
-                "h": 25
+                "x": 69,
+                "y": 138,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sub_culture_feline/sub_culture_feline_fat_chubbyfeline_horizontal_3.png",
             "filename": "assets/img/sprites/sub_culture_feline/sub_culture_feline_fat_chubbyfeline_horizontal_3.png"
@@ -2217,18 +2217,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 100,
-                "y": 150,
-                "w": 25,
-                "h": 25
+                "x": 92,
+                "y": 138,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sub_culture_feline/sub_culture_feline_fat_chubbyfeline_horizontal_4.png",
             "filename": "assets/img/sprites/sub_culture_feline/sub_culture_feline_fat_chubbyfeline_horizontal_4.png"
@@ -2246,18 +2246,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 125,
-                "y": 150,
-                "w": 25,
-                "h": 25
+                "x": 115,
+                "y": 138,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sub_culture_feline/sub_culture_feline_fat_chubbyfeline_horizontal_5.png",
             "filename": "assets/img/sprites/sub_culture_feline/sub_culture_feline_fat_chubbyfeline_horizontal_5.png"
@@ -2275,18 +2275,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 150,
-                "y": 150,
-                "w": 25,
-                "h": 25
+                "x": 138,
+                "y": 138,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sub_culture_feline/sub_culture_feline_fat_chubbyfeline_vertical_0.png",
             "filename": "assets/img/sprites/sub_culture_feline/sub_culture_feline_fat_chubbyfeline_vertical_0.png"
@@ -2297,25 +2297,25 @@
             "orientation": "vertical",
             "mask_key": "feline_vertical_1",
             "flags_fits": true,
-            "flags_fits_perfect": false,
+            "flags_fits_perfect": true,
             "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_vertical_1.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 175,
-                "y": 150,
-                "w": 25,
-                "h": 25
+                "x": 161,
+                "y": 138,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sub_culture_feline/sub_culture_feline_fat_chubbyfeline_vertical_1.png",
             "filename": "assets/img/sprites/sub_culture_feline/sub_culture_feline_fat_chubbyfeline_vertical_1.png"
@@ -2326,25 +2326,25 @@
             "orientation": "vertical",
             "mask_key": "feline_vertical_2",
             "flags_fits": true,
-            "flags_fits_perfect": false,
+            "flags_fits_perfect": true,
             "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_vertical_2.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 200,
-                "y": 150,
-                "w": 25,
-                "h": 25
+                "x": 184,
+                "y": 138,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sub_culture_feline/sub_culture_feline_fat_chubbyfeline_vertical_2.png",
             "filename": "assets/img/sprites/sub_culture_feline/sub_culture_feline_fat_chubbyfeline_vertical_2.png"
@@ -2355,25 +2355,25 @@
             "orientation": "vertical",
             "mask_key": "feline_vertical_3",
             "flags_fits": true,
-            "flags_fits_perfect": false,
+            "flags_fits_perfect": true,
             "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_vertical_3.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 225,
-                "y": 150,
-                "w": 25,
-                "h": 25
+                "x": 207,
+                "y": 138,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sub_culture_feline/sub_culture_feline_fat_chubbyfeline_vertical_3.png",
             "filename": "assets/img/sprites/sub_culture_feline/sub_culture_feline_fat_chubbyfeline_vertical_3.png"
@@ -2384,25 +2384,25 @@
             "orientation": "vertical",
             "mask_key": "feline_vertical_4",
             "flags_fits": true,
-            "flags_fits_perfect": false,
+            "flags_fits_perfect": true,
             "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_vertical_4.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 250,
-                "y": 150,
-                "w": 25,
-                "h": 25
+                "x": 230,
+                "y": 138,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sub_culture_feline/sub_culture_feline_fat_chubbyfeline_vertical_4.png",
             "filename": "assets/img/sprites/sub_culture_feline/sub_culture_feline_fat_chubbyfeline_vertical_4.png"
@@ -2420,18 +2420,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 275,
-                "y": 150,
-                "w": 25,
-                "h": 25
+                "x": 253,
+                "y": 138,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sub_culture_feline/sub_culture_feline_fat_chubbyfeline_vertical_5.png",
             "filename": "assets/img/sprites/sub_culture_feline/sub_culture_feline_fat_chubbyfeline_vertical_5.png"
@@ -2441,7 +2441,7 @@
             "part": "center",
             "orientation": "horizontal",
             "mask_key": "feline_horizontal_0",
-            "flags_fits": true,
+            "flags_fits": false,
             "flags_fits_perfect": false,
             "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_horizontal_0.png",
             "rotated": false,
@@ -2449,18 +2449,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
                 "x": 0,
-                "y": 175,
-                "w": 25,
-                "h": 25
+                "y": 161,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sub_culture_feline/sub_culture_feline_pozfeline_horizontal_0.png",
             "filename": "assets/img/sprites/sub_culture_feline/sub_culture_feline_pozfeline_horizontal_0.png"
@@ -2478,18 +2478,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 25,
-                "y": 175,
-                "w": 25,
-                "h": 25
+                "x": 23,
+                "y": 161,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sub_culture_feline/sub_culture_feline_pozfeline_horizontal_1.png",
             "filename": "assets/img/sprites/sub_culture_feline/sub_culture_feline_pozfeline_horizontal_1.png"
@@ -2499,26 +2499,26 @@
             "part": "left_part_2",
             "orientation": "horizontal",
             "mask_key": "feline_horizontal_2",
-            "flags_fits": true,
-            "flags_fits_perfect": true,
+            "flags_fits": false,
+            "flags_fits_perfect": false,
             "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_horizontal_2.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 50,
-                "y": 175,
-                "w": 25,
-                "h": 25
+                "x": 46,
+                "y": 161,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sub_culture_feline/sub_culture_feline_pozfeline_horizontal_2.png",
             "filename": "assets/img/sprites/sub_culture_feline/sub_culture_feline_pozfeline_horizontal_2.png"
@@ -2528,26 +2528,26 @@
             "part": "right_part_1",
             "orientation": "horizontal",
             "mask_key": "feline_horizontal_3",
-            "flags_fits": true,
-            "flags_fits_perfect": true,
+            "flags_fits": false,
+            "flags_fits_perfect": false,
             "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_horizontal_3.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 75,
-                "y": 175,
-                "w": 25,
-                "h": 25
+                "x": 69,
+                "y": 161,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sub_culture_feline/sub_culture_feline_pozfeline_horizontal_3.png",
             "filename": "assets/img/sprites/sub_culture_feline/sub_culture_feline_pozfeline_horizontal_3.png"
@@ -2565,18 +2565,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 100,
-                "y": 175,
-                "w": 25,
-                "h": 25
+                "x": 92,
+                "y": 161,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sub_culture_feline/sub_culture_feline_pozfeline_horizontal_4.png",
             "filename": "assets/img/sprites/sub_culture_feline/sub_culture_feline_pozfeline_horizontal_4.png"
@@ -2594,18 +2594,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 125,
-                "y": 175,
-                "w": 25,
-                "h": 25
+                "x": 115,
+                "y": 161,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sub_culture_feline/sub_culture_feline_pozfeline_horizontal_5.png",
             "filename": "assets/img/sprites/sub_culture_feline/sub_culture_feline_pozfeline_horizontal_5.png"
@@ -2623,18 +2623,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 150,
-                "y": 175,
-                "w": 25,
-                "h": 25
+                "x": 138,
+                "y": 161,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sub_culture_feline/sub_culture_feline_pozfeline_vertical_0.png",
             "filename": "assets/img/sprites/sub_culture_feline/sub_culture_feline_pozfeline_vertical_0.png"
@@ -2652,18 +2652,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 175,
-                "y": 175,
-                "w": 25,
-                "h": 25
+                "x": 161,
+                "y": 161,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sub_culture_feline/sub_culture_feline_pozfeline_vertical_1.png",
             "filename": "assets/img/sprites/sub_culture_feline/sub_culture_feline_pozfeline_vertical_1.png"
@@ -2681,18 +2681,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 200,
-                "y": 175,
-                "w": 25,
-                "h": 25
+                "x": 184,
+                "y": 161,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sub_culture_feline/sub_culture_feline_pozfeline_vertical_2.png",
             "filename": "assets/img/sprites/sub_culture_feline/sub_culture_feline_pozfeline_vertical_2.png"
@@ -2710,18 +2710,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 225,
-                "y": 175,
-                "w": 25,
-                "h": 25
+                "x": 207,
+                "y": 161,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sub_culture_feline/sub_culture_feline_pozfeline_vertical_3.png",
             "filename": "assets/img/sprites/sub_culture_feline/sub_culture_feline_pozfeline_vertical_3.png"
@@ -2739,18 +2739,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 250,
-                "y": 175,
-                "w": 25,
-                "h": 25
+                "x": 230,
+                "y": 161,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sub_culture_feline/sub_culture_feline_pozfeline_vertical_4.png",
             "filename": "assets/img/sprites/sub_culture_feline/sub_culture_feline_pozfeline_vertical_4.png"
@@ -2768,18 +2768,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 275,
-                "y": 175,
-                "w": 25,
-                "h": 25
+                "x": 253,
+                "y": 161,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sub_culture_feline/sub_culture_feline_pozfeline_vertical_5.png",
             "filename": "assets/img/sprites/sub_culture_feline/sub_culture_feline_pozfeline_vertical_5.png"
@@ -2789,7 +2789,7 @@
             "part": "center",
             "orientation": "horizontal",
             "mask_key": "feline_horizontal_0",
-            "flags_fits": true,
+            "flags_fits": false,
             "flags_fits_perfect": false,
             "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_horizontal_0.png",
             "rotated": false,
@@ -2797,18 +2797,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
                 "x": 0,
-                "y": 200,
-                "w": 25,
-                "h": 25
+                "y": 184,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sub_culture_feline/sub_culture_feline_leather_fetishfeline_horizontal_0.png",
             "filename": "assets/img/sprites/sub_culture_feline/sub_culture_feline_leather_fetishfeline_horizontal_0.png"
@@ -2826,18 +2826,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 25,
-                "y": 200,
-                "w": 25,
-                "h": 25
+                "x": 23,
+                "y": 184,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sub_culture_feline/sub_culture_feline_leather_fetishfeline_horizontal_1.png",
             "filename": "assets/img/sprites/sub_culture_feline/sub_culture_feline_leather_fetishfeline_horizontal_1.png"
@@ -2847,26 +2847,26 @@
             "part": "left_part_2",
             "orientation": "horizontal",
             "mask_key": "feline_horizontal_2",
-            "flags_fits": true,
-            "flags_fits_perfect": true,
+            "flags_fits": false,
+            "flags_fits_perfect": false,
             "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_horizontal_2.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 50,
-                "y": 200,
-                "w": 25,
-                "h": 25
+                "x": 46,
+                "y": 184,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sub_culture_feline/sub_culture_feline_leather_fetishfeline_horizontal_2.png",
             "filename": "assets/img/sprites/sub_culture_feline/sub_culture_feline_leather_fetishfeline_horizontal_2.png"
@@ -2876,26 +2876,26 @@
             "part": "right_part_1",
             "orientation": "horizontal",
             "mask_key": "feline_horizontal_3",
-            "flags_fits": true,
-            "flags_fits_perfect": true,
+            "flags_fits": false,
+            "flags_fits_perfect": false,
             "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_horizontal_3.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 75,
-                "y": 200,
-                "w": 25,
-                "h": 25
+                "x": 69,
+                "y": 184,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sub_culture_feline/sub_culture_feline_leather_fetishfeline_horizontal_3.png",
             "filename": "assets/img/sprites/sub_culture_feline/sub_culture_feline_leather_fetishfeline_horizontal_3.png"
@@ -2913,18 +2913,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 100,
-                "y": 200,
-                "w": 25,
-                "h": 25
+                "x": 92,
+                "y": 184,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sub_culture_feline/sub_culture_feline_leather_fetishfeline_horizontal_4.png",
             "filename": "assets/img/sprites/sub_culture_feline/sub_culture_feline_leather_fetishfeline_horizontal_4.png"
@@ -2942,18 +2942,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 125,
-                "y": 200,
-                "w": 25,
-                "h": 25
+                "x": 115,
+                "y": 184,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sub_culture_feline/sub_culture_feline_leather_fetishfeline_horizontal_5.png",
             "filename": "assets/img/sprites/sub_culture_feline/sub_culture_feline_leather_fetishfeline_horizontal_5.png"
@@ -2971,18 +2971,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 150,
-                "y": 200,
-                "w": 25,
-                "h": 25
+                "x": 138,
+                "y": 184,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sub_culture_feline/sub_culture_feline_leather_fetishfeline_vertical_0.png",
             "filename": "assets/img/sprites/sub_culture_feline/sub_culture_feline_leather_fetishfeline_vertical_0.png"
@@ -3000,18 +3000,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 175,
-                "y": 200,
-                "w": 25,
-                "h": 25
+                "x": 161,
+                "y": 184,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sub_culture_feline/sub_culture_feline_leather_fetishfeline_vertical_1.png",
             "filename": "assets/img/sprites/sub_culture_feline/sub_culture_feline_leather_fetishfeline_vertical_1.png"
@@ -3029,18 +3029,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 200,
-                "y": 200,
-                "w": 25,
-                "h": 25
+                "x": 184,
+                "y": 184,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sub_culture_feline/sub_culture_feline_leather_fetishfeline_vertical_2.png",
             "filename": "assets/img/sprites/sub_culture_feline/sub_culture_feline_leather_fetishfeline_vertical_2.png"
@@ -3058,18 +3058,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 225,
-                "y": 200,
-                "w": 25,
-                "h": 25
+                "x": 207,
+                "y": 184,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sub_culture_feline/sub_culture_feline_leather_fetishfeline_vertical_3.png",
             "filename": "assets/img/sprites/sub_culture_feline/sub_culture_feline_leather_fetishfeline_vertical_3.png"
@@ -3087,18 +3087,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 250,
-                "y": 200,
-                "w": 25,
-                "h": 25
+                "x": 230,
+                "y": 184,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sub_culture_feline/sub_culture_feline_leather_fetishfeline_vertical_4.png",
             "filename": "assets/img/sprites/sub_culture_feline/sub_culture_feline_leather_fetishfeline_vertical_4.png"
@@ -3116,18 +3116,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 275,
-                "y": 200,
-                "w": 25,
-                "h": 25
+                "x": 253,
+                "y": 184,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sub_culture_feline/sub_culture_feline_leather_fetishfeline_vertical_5.png",
             "filename": "assets/img/sprites/sub_culture_feline/sub_culture_feline_leather_fetishfeline_vertical_5.png"
@@ -3145,18 +3145,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
                 "x": 0,
-                "y": 225,
-                "w": 25,
-                "h": 25
+                "y": 207,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sub_culture_feline/sub_culture_feline_vorefeline_horizontal_0.png",
             "filename": "assets/img/sprites/sub_culture_feline/sub_culture_feline_vorefeline_horizontal_0.png"
@@ -3174,18 +3174,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 25,
-                "y": 225,
-                "w": 25,
-                "h": 25
+                "x": 23,
+                "y": 207,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sub_culture_feline/sub_culture_feline_vorefeline_horizontal_1.png",
             "filename": "assets/img/sprites/sub_culture_feline/sub_culture_feline_vorefeline_horizontal_1.png"
@@ -3203,18 +3203,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 50,
-                "y": 225,
-                "w": 25,
-                "h": 25
+                "x": 46,
+                "y": 207,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sub_culture_feline/sub_culture_feline_vorefeline_horizontal_2.png",
             "filename": "assets/img/sprites/sub_culture_feline/sub_culture_feline_vorefeline_horizontal_2.png"
@@ -3232,18 +3232,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 75,
-                "y": 225,
-                "w": 25,
-                "h": 25
+                "x": 69,
+                "y": 207,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sub_culture_feline/sub_culture_feline_vorefeline_horizontal_3.png",
             "filename": "assets/img/sprites/sub_culture_feline/sub_culture_feline_vorefeline_horizontal_3.png"
@@ -3261,18 +3261,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 100,
-                "y": 225,
-                "w": 25,
-                "h": 25
+                "x": 92,
+                "y": 207,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sub_culture_feline/sub_culture_feline_vorefeline_horizontal_4.png",
             "filename": "assets/img/sprites/sub_culture_feline/sub_culture_feline_vorefeline_horizontal_4.png"
@@ -3290,18 +3290,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 125,
-                "y": 225,
-                "w": 25,
-                "h": 25
+                "x": 115,
+                "y": 207,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sub_culture_feline/sub_culture_feline_vorefeline_horizontal_5.png",
             "filename": "assets/img/sprites/sub_culture_feline/sub_culture_feline_vorefeline_horizontal_5.png"
@@ -3319,18 +3319,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 150,
-                "y": 225,
-                "w": 25,
-                "h": 25
+                "x": 138,
+                "y": 207,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sub_culture_feline/sub_culture_feline_vorefeline_vertical_0.png",
             "filename": "assets/img/sprites/sub_culture_feline/sub_culture_feline_vorefeline_vertical_0.png"
@@ -3341,25 +3341,25 @@
             "orientation": "vertical",
             "mask_key": "feline_vertical_1",
             "flags_fits": true,
-            "flags_fits_perfect": false,
+            "flags_fits_perfect": true,
             "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_vertical_1.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 175,
-                "y": 225,
-                "w": 25,
-                "h": 25
+                "x": 161,
+                "y": 207,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sub_culture_feline/sub_culture_feline_vorefeline_vertical_1.png",
             "filename": "assets/img/sprites/sub_culture_feline/sub_culture_feline_vorefeline_vertical_1.png"
@@ -3370,25 +3370,25 @@
             "orientation": "vertical",
             "mask_key": "feline_vertical_2",
             "flags_fits": true,
-            "flags_fits_perfect": false,
+            "flags_fits_perfect": true,
             "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_vertical_2.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 200,
-                "y": 225,
-                "w": 25,
-                "h": 25
+                "x": 184,
+                "y": 207,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sub_culture_feline/sub_culture_feline_vorefeline_vertical_2.png",
             "filename": "assets/img/sprites/sub_culture_feline/sub_culture_feline_vorefeline_vertical_2.png"
@@ -3399,25 +3399,25 @@
             "orientation": "vertical",
             "mask_key": "feline_vertical_3",
             "flags_fits": true,
-            "flags_fits_perfect": false,
+            "flags_fits_perfect": true,
             "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_vertical_3.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 225,
-                "y": 225,
-                "w": 25,
-                "h": 25
+                "x": 207,
+                "y": 207,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sub_culture_feline/sub_culture_feline_vorefeline_vertical_3.png",
             "filename": "assets/img/sprites/sub_culture_feline/sub_culture_feline_vorefeline_vertical_3.png"
@@ -3428,25 +3428,25 @@
             "orientation": "vertical",
             "mask_key": "feline_vertical_4",
             "flags_fits": true,
-            "flags_fits_perfect": false,
+            "flags_fits_perfect": true,
             "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_vertical_4.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 250,
-                "y": 225,
-                "w": 25,
-                "h": 25
+                "x": 230,
+                "y": 207,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sub_culture_feline/sub_culture_feline_vorefeline_vertical_4.png",
             "filename": "assets/img/sprites/sub_culture_feline/sub_culture_feline_vorefeline_vertical_4.png"
@@ -3464,18 +3464,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 275,
-                "y": 225,
-                "w": 25,
-                "h": 25
+                "x": 253,
+                "y": 207,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sub_culture_feline/sub_culture_feline_vorefeline_vertical_5.png",
             "filename": "assets/img/sprites/sub_culture_feline/sub_culture_feline_vorefeline_vertical_5.png"
@@ -3483,8 +3483,8 @@
     },
     "meta": {
         "size": {
-            "w": 300,
-            "h": 250
+            "w": 276,
+            "h": 230
         },
         "image": "sub_culture_feline.png",
         "format": "RGBA8888",

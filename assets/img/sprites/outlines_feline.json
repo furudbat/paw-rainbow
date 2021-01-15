@@ -13,18 +13,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/outlines_feline/outlines_feline_mask_horizontal_0_outlines.png",
             "filename": "assets/img/sprites/outlines_feline/outlines_feline_mask_horizontal_0_outlines.png",
@@ -43,18 +43,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 25,
+                "x": 23,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/outlines_feline/outlines_feline_mask_horizontal_1_outlines.png",
             "filename": "assets/img/sprites/outlines_feline/outlines_feline_mask_horizontal_1_outlines.png",
@@ -73,18 +73,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 50,
+                "x": 46,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/outlines_feline/outlines_feline_mask_horizontal_2_outlines.png",
             "filename": "assets/img/sprites/outlines_feline/outlines_feline_mask_horizontal_2_outlines.png",
@@ -103,18 +103,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 75,
+                "x": 69,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/outlines_feline/outlines_feline_mask_horizontal_3_outlines.png",
             "filename": "assets/img/sprites/outlines_feline/outlines_feline_mask_horizontal_3_outlines.png",
@@ -133,18 +133,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 100,
+                "x": 92,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/outlines_feline/outlines_feline_mask_horizontal_4_outlines.png",
             "filename": "assets/img/sprites/outlines_feline/outlines_feline_mask_horizontal_4_outlines.png",
@@ -163,18 +163,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 125,
+                "x": 115,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/outlines_feline/outlines_feline_mask_horizontal_5_outlines.png",
             "filename": "assets/img/sprites/outlines_feline/outlines_feline_mask_horizontal_5_outlines.png",
@@ -193,18 +193,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 150,
+                "x": 138,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/outlines_feline/outlines_feline_mask_vertical_0_outlines.png",
             "filename": "assets/img/sprites/outlines_feline/outlines_feline_mask_vertical_0_outlines.png",
@@ -223,18 +223,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 175,
+                "x": 161,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/outlines_feline/outlines_feline_mask_vertical_1_outlines.png",
             "filename": "assets/img/sprites/outlines_feline/outlines_feline_mask_vertical_1_outlines.png",
@@ -253,18 +253,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 200,
+                "x": 184,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/outlines_feline/outlines_feline_mask_vertical_2_outlines.png",
             "filename": "assets/img/sprites/outlines_feline/outlines_feline_mask_vertical_2_outlines.png",
@@ -283,18 +283,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 225,
+                "x": 207,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/outlines_feline/outlines_feline_mask_vertical_3_outlines.png",
             "filename": "assets/img/sprites/outlines_feline/outlines_feline_mask_vertical_3_outlines.png",
@@ -313,18 +313,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 250,
+                "x": 230,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/outlines_feline/outlines_feline_mask_vertical_4_outlines.png",
             "filename": "assets/img/sprites/outlines_feline/outlines_feline_mask_vertical_4_outlines.png",
@@ -343,18 +343,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 275,
+                "x": 253,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/outlines_feline/outlines_feline_mask_vertical_5_outlines.png",
             "filename": "assets/img/sprites/outlines_feline/outlines_feline_mask_vertical_5_outlines.png",
@@ -363,8 +363,8 @@
     },
     "meta": {
         "size": {
-            "w": 300,
-            "h": 25
+            "w": 276,
+            "h": 23
         },
         "image": "outlines_feline.png",
         "format": "RGBA8888",

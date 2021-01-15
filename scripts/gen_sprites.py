@@ -197,14 +197,20 @@ def generateColorCodeMap(colors_config, parts, img, transparent_colors, outline_
     if 'line' in color_code_map:
         del color_code_map['line']
 
-    paw_width = img.size[0]
-    paw_height = img.size[1]
-    for y in range(paw_height):
-        for x in range(paw_width):
+    color_code_map['transparents'] = []
+
+    img_width = img.size[0]
+    img_height = img.size[1]
+    for y in range(img_height):
+        for x in range(img_width):
             coordinate = x, y
             rgba = r, g ,b, a = img.getpixel(coordinate)
             rgb = r, g, b
             px_color = Color(rgb_to_hex(rgb))
+
+            for trans_color in transparent_colors:
+                if px_color == trans_color:
+                    color_code_map['transparents'].append(coordinate)
             
             extras = ['triangle', 'circle']
             for extra in extras:
@@ -389,7 +395,7 @@ def genStripesParts(small_start, small_end, stripes, flag_colors_size, orientati
                 pprint((stripes_start_center, stripes_middle_center, stripes_end_center))
                 pprint((stripes_start_part, stripes_end_part))
                 pprint(rest_strips)
-                print('genStripesParts: something went wrong, can elminate rest stripes')
+                print('genStripesParts: something went wrong, can eliminate rest stripes')
             break
         loop_counter = loop_counter + 1
 
@@ -533,8 +539,10 @@ def generateSpriteLine(output_map, paw_outlines_img, outline_color, form, flag, 
                     y = sy = color_coords['start_' + orientation][i][1]
                     ex = color_coords['end_' + orientation][i][0]
                     ey = color_coords['end_' + orientation][i][1]
-                    #line_width = ex - sx - 2
-                    #line_height = ey - sy - 2
+
+                    coordinate = x, y
+                    if coordinate in color_code_map['transparents']:
+                        continue
 
                     if i < len(flag_color_palette):
                         if orientation == 'horizontal':
@@ -542,12 +550,18 @@ def generateSpriteLine(output_map, paw_outlines_img, outline_color, form, flag, 
                                 output_flage_part_pixels[x ,y] = hex_to_rgb(flag_color_palette[i].hex_l)
                             else:
                                 for x in range(sx, ex):
+                                    coordinate = x, y
+                                    if coordinate in color_code_map['transparents']:
+                                        continue
                                     output_flage_part_pixels[x ,y] = hex_to_rgb(flag_color_palette[i].hex_l)
                         elif orientation == 'vertical':
                             if sy == ey:
                                 output_flage_part_pixels[x ,y] = hex_to_rgb(flag_color_palette[i].hex_l)
                             else:
                                 for y in range(sy, ey):
+                                    coordinate = x, y
+                                    if coordinate in color_code_map['transparents']:
+                                        continue
                                     output_flage_part_pixels[x ,y] = hex_to_rgb(flag_color_palette[i].hex_l)
 
                 line_name = "{}_line".format(orientation)
@@ -561,20 +575,28 @@ def generateSpriteLine(output_map, paw_outlines_img, outline_color, form, flag, 
                             y = sy = color_coords[line_name]['start_' + orientation][i][1]
                             ex = color_coords[line_name]['end_' + orientation][i][0]
                             ey = color_coords[line_name]['end_' + orientation][i][1]
-                            #line_width = ex - sx - 2
-                            #line_height = ey - sy - 2
+
+                            coordinate = x, y
+                            if coordinate in color_code_map['transparents']:
+                                continue
 
                             if orientation == 'horizontal':
                                 if sx == ex:
                                     output_flage_part_pixels[x ,y] = hex_to_rgb(line_flag_color.hex_l)
                                 else:
                                     for x in range(sx, ex):
+                                        coordinate = x, y
+                                        if coordinate in color_code_map['transparents']:
+                                            continue
                                         output_flage_part_pixels[x ,y] = hex_to_rgb(line_flag_color.hex_l)
                             elif orientation == 'vertical':
                                 if sy == ey:
                                     output_flage_part_pixels[x ,y] = hex_to_rgb(line_flag_color.hex_l)
                                 else:
                                     for y in range(sy, ey):
+                                        coordinate = x, y
+                                        if coordinate in color_code_map['transparents']:
+                                            continue
                                         output_flage_part_pixels[x ,y] = hex_to_rgb(line_flag_color.hex_l)
                 
                 triangle_name = "{}_triangle".format(orientation)
@@ -608,6 +630,8 @@ def generateSpriteLine(output_map, paw_outlines_img, outline_color, form, flag, 
 
                                 if not find_opp_extra:
                                     x, y = color_coord
+                                    if color_coord in color_code_map['transparents']:
+                                        continue
                                     output_flage_part_pixels[x ,y] = hex_to_rgb(triangle_flag_color.hex_l)
                     elif color_coords_triangle_size == triangle_flag_colors_size:
                         for i in range(color_coords_triangle_size):
@@ -620,6 +644,8 @@ def generateSpriteLine(output_map, paw_outlines_img, outline_color, form, flag, 
 
                                 if not find_opp_extra:
                                     x, y = color_coord
+                                    if color_coord in color_code_map['transparents']:
+                                        continue
                                     output_flage_part_pixels[x ,y] = hex_to_rgb(Color(triangle_flag_colors[i]).hex_l)
                     elif color_coords_triangle_size == 2 and triangle_flag_colors_size >= 2:
                         start_triangle_flag_color = Color(triangle_flag_colors[0])
@@ -633,6 +659,8 @@ def generateSpriteLine(output_map, paw_outlines_img, outline_color, form, flag, 
 
                             if not find_opp_extra:
                                 x, y = color_coord
+                                if color_coord in color_code_map['transparents']:
+                                    continue
                                 output_flage_part_pixels[x ,y] = hex_to_rgb(start_triangle_flag_color.hex_l)
                         for color_coord in color_coords_triangle[-1]:
                             find_opp_extra = False
@@ -643,11 +671,13 @@ def generateSpriteLine(output_map, paw_outlines_img, outline_color, form, flag, 
 
                             if not find_opp_extra:
                                 x, y = color_coord
+                                if color_coord in color_code_map['transparents']:
+                                    continue
                                 output_flage_part_pixels[x ,y] = hex_to_rgb(end_triangle_flag_color.hex_l)
                     else:
                         start_triangle_flag_color = Color(triangle_flag_colors[0])
                         end_triangle_flag_color = Color(triangle_flag_colors[-1])
-                        for color_cooord in color_coords_triangle[0]:
+                        for color_coord in color_coords_triangle[0]:
                             find_opp_extra = False
                             if opp_extra_in_flag and opp_extra_name and opp_extra_name in color_coords and len(color_coords[opp_extra_name]) > 0:
                                 for find_opp_color_coord in color_coords[opp_extra_name]:
@@ -655,10 +685,12 @@ def generateSpriteLine(output_map, paw_outlines_img, outline_color, form, flag, 
                                         find_opp_extra = find_opp_extra or color_coord == opp_color_coord
 
                             if not find_opp_extra:
-                                x, y = color_cooord
+                                x, y = color_coord
+                                if color_coord in color_code_map['transparents']:
+                                    continue
                                 output_flage_part_pixels[x ,y] = hex_to_rgb(start_triangle_flag_color.hex_l)
                         for i in range(1, color_coords_triangle-1):
-                            for color_cooord in color_coords_triangle[i]:
+                            for color_coord in color_coords_triangle[i]:
                                 find_opp_extra = False
                                 if opp_extra_in_flag and opp_extra_name and opp_extra_name in color_coords and len(color_coords[opp_extra_name]) > 0:
                                     for find_opp_color_coord in color_coords[opp_extra_name]:
@@ -666,9 +698,11 @@ def generateSpriteLine(output_map, paw_outlines_img, outline_color, form, flag, 
                                             find_opp_extra = find_opp_extra or color_coord == opp_color_coord
 
                                 if not find_opp_extra:
-                                    x, y = color_cooord
+                                    x, y = color_coord
+                                    if color_coord in color_code_map['transparents']:
+                                        continue
                                     output_flage_part_pixels[x ,y] = hex_to_rgb(start_triangle_flag_color.hex_l)
-                        for color_cooord in color_coords_triangle[-1]:
+                        for color_coord in color_coords_triangle[-1]:
                             find_opp_extra = False
                             if opp_extra_in_flag and opp_extra_name and opp_extra_name in color_coords and len(color_coords[opp_extra_name]) > 0:
                                 for find_opp_color_coord in color_coords[opp_extra_name]:
@@ -676,7 +710,9 @@ def generateSpriteLine(output_map, paw_outlines_img, outline_color, form, flag, 
                                         find_opp_extra = find_opp_extra or color_coord == opp_color_coord
 
                             if not find_opp_extra:
-                                x, y = color_cooord
+                                x, y = color_coord
+                                if color_coord in color_code_map['transparents']:
+                                    continue
                                 output_flage_part_pixels[x ,y] = hex_to_rgb(end_triangle_flag_color.hex_l)
                 if 'circle' in flag and circle_name in color_coords:
                     opp_extra_name = triangle_name
@@ -696,6 +732,8 @@ def generateSpriteLine(output_map, paw_outlines_img, outline_color, form, flag, 
 
                             if not find_opp_extra:
                                 x, y = color_coord
+                                if color_coord in color_code_map['transparents']:
+                                    continue
                                 output_flage_part_pixels[x ,y] = hex_to_rgb(circle_flag_color.hex_l)
         else:
             if key in output_map:
@@ -710,6 +748,8 @@ def generateSpriteLine(output_map, paw_outlines_img, outline_color, form, flag, 
         if 'extra_outline' in color_code_map:
             for coord in color_code_map['extra_outline']:
                 x, y = coord
+                if coord in color_code_map['transparents']:
+                    continue
                 output_flage_part_pixels[x ,y] = hex_to_rgb(outline_color.hex_l)
 
         frame_width = output_flage_part.size[0]
@@ -871,6 +911,8 @@ def generateCustomSpriteLine(output_map, paw_outlines_img, outline_color, flag, 
         if extra_name in color_code_map:
             for coord in color_code_map[extra_name]:
                 x, y = coord
+                if coord in color_code_map['transparents']:
+                    continue
                 output_flage_part_pixels[x ,y] = hex_to_rgb(outline_color.hex_l)
 
         frame_width = output_flage_part.size[0]

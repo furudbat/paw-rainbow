@@ -133,9 +133,9 @@ feline:
       - '#ac2c2c'
     circle:
       horizontal:
-        - '#939393'
+        - '#858585'
       vertical:
-        - '#939393'
+        - '#858585'
   left_part_2:
     horizontal:
       - '#498949'
@@ -147,25 +147,26 @@ feline:
       - '#2cac2c'
     circle:
       horizontal:
-        - '#939393'
+        - '#858585'
       vertical:
-        - '#939393'
+        - '#858585'
   right_part_1:
     horizontal:
       - '#498989'
       - '#39b9b9'
+      - '#356969'
     vertical:
       - '#498989'
       - '#2cacac'
     circle:
       horizontal:
-        - '#939393'
+        - '#356969'
+        - '#858585'
       vertical:
-        - '#939393'
+        - '#356969'
+        - '#858585'
   right_part_2:
     horizontal:
-      - '#494989'
-      - '#3939b9'
       - '#494989'
       - '#3939b9'
     vertical:
@@ -173,9 +174,9 @@ feline:
       - '#2c2cac'
     circle:
       horizontal:
-        - '#939393'
+        - '#858585'
       vertical:
-        - '#939393'
+        - '#858585'
   center:
     horizontal:
       - '#894989'
@@ -189,16 +190,14 @@ feline:
         - '#763676'
     triangle:
       vertical:
-        - [ '#4d4d4d', '#737373' ]
-        - [ '#595959' ]
+        - [ '#737373', '#4d4d4d' ]
+        - [ '#595959', '#424242' ]
     circle:
       horizontal:
-        - '#939393'
+        - '#858585'
+        - '#424242'
         - '#4d4d4d'
       vertical:
-        - '#939393'
+        - '#858585'
+        - '#424242'
         - '#4d4d4d'
-
-
-
-

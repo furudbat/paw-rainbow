@@ -13,18 +13,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_asexualfeline_horizontal_0.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_asexualfeline_horizontal_0.png"
@@ -42,18 +42,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 25,
+                "x": 23,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_asexualfeline_horizontal_1.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_asexualfeline_horizontal_1.png"
@@ -71,18 +71,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 50,
+                "x": 46,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_asexualfeline_horizontal_2.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_asexualfeline_horizontal_2.png"
@@ -100,18 +100,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 75,
+                "x": 69,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_asexualfeline_horizontal_3.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_asexualfeline_horizontal_3.png"
@@ -129,18 +129,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 100,
+                "x": 92,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_asexualfeline_horizontal_4.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_asexualfeline_horizontal_4.png"
@@ -158,18 +158,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 125,
+                "x": 115,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_asexualfeline_horizontal_5.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_asexualfeline_horizontal_5.png"
@@ -187,18 +187,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 150,
+                "x": 138,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_asexualfeline_vertical_0.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_asexualfeline_vertical_0.png"
@@ -216,18 +216,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 175,
+                "x": 161,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_asexualfeline_vertical_1.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_asexualfeline_vertical_1.png"
@@ -245,18 +245,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 200,
+                "x": 184,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_asexualfeline_vertical_2.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_asexualfeline_vertical_2.png"
@@ -274,18 +274,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 225,
+                "x": 207,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_asexualfeline_vertical_3.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_asexualfeline_vertical_3.png"
@@ -303,18 +303,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 250,
+                "x": 230,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_asexualfeline_vertical_4.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_asexualfeline_vertical_4.png"
@@ -332,18 +332,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 275,
+                "x": 253,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_asexualfeline_vertical_5.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_asexualfeline_vertical_5.png"
@@ -361,18 +361,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
                 "x": 0,
-                "y": 25,
-                "w": 25,
-                "h": 25
+                "y": 23,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_asexual_spectrumfeline_horizontal_0.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_asexual_spectrumfeline_horizontal_0.png"
@@ -390,18 +390,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 25,
-                "y": 25,
-                "w": 25,
-                "h": 25
+                "x": 23,
+                "y": 23,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_asexual_spectrumfeline_horizontal_1.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_asexual_spectrumfeline_horizontal_1.png"
@@ -419,18 +419,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 50,
-                "y": 25,
-                "w": 25,
-                "h": 25
+                "x": 46,
+                "y": 23,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_asexual_spectrumfeline_horizontal_2.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_asexual_spectrumfeline_horizontal_2.png"
@@ -448,18 +448,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 75,
-                "y": 25,
-                "w": 25,
-                "h": 25
+                "x": 69,
+                "y": 23,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_asexual_spectrumfeline_horizontal_3.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_asexual_spectrumfeline_horizontal_3.png"
@@ -477,18 +477,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 100,
-                "y": 25,
-                "w": 25,
-                "h": 25
+                "x": 92,
+                "y": 23,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_asexual_spectrumfeline_horizontal_4.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_asexual_spectrumfeline_horizontal_4.png"
@@ -506,18 +506,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 125,
-                "y": 25,
-                "w": 25,
-                "h": 25
+                "x": 115,
+                "y": 23,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_asexual_spectrumfeline_horizontal_5.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_asexual_spectrumfeline_horizontal_5.png"
@@ -535,18 +535,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 150,
-                "y": 25,
-                "w": 25,
-                "h": 25
+                "x": 138,
+                "y": 23,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_asexual_spectrumfeline_vertical_0.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_asexual_spectrumfeline_vertical_0.png"
@@ -564,18 +564,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 175,
-                "y": 25,
-                "w": 25,
-                "h": 25
+                "x": 161,
+                "y": 23,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_asexual_spectrumfeline_vertical_1.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_asexual_spectrumfeline_vertical_1.png"
@@ -593,18 +593,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 200,
-                "y": 25,
-                "w": 25,
-                "h": 25
+                "x": 184,
+                "y": 23,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_asexual_spectrumfeline_vertical_2.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_asexual_spectrumfeline_vertical_2.png"
@@ -622,18 +622,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 225,
-                "y": 25,
-                "w": 25,
-                "h": 25
+                "x": 207,
+                "y": 23,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_asexual_spectrumfeline_vertical_3.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_asexual_spectrumfeline_vertical_3.png"
@@ -651,18 +651,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 250,
-                "y": 25,
-                "w": 25,
-                "h": 25
+                "x": 230,
+                "y": 23,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_asexual_spectrumfeline_vertical_4.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_asexual_spectrumfeline_vertical_4.png"
@@ -680,18 +680,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 275,
-                "y": 25,
-                "w": 25,
-                "h": 25
+                "x": 253,
+                "y": 23,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_asexual_spectrumfeline_vertical_5.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_asexual_spectrumfeline_vertical_5.png"
@@ -709,18 +709,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
                 "x": 0,
-                "y": 50,
-                "w": 25,
-                "h": 25
+                "y": 46,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_bisexualfeline_horizontal_0.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_bisexualfeline_horizontal_0.png"
@@ -738,18 +738,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 25,
-                "y": 50,
-                "w": 25,
-                "h": 25
+                "x": 23,
+                "y": 46,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_bisexualfeline_horizontal_1.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_bisexualfeline_horizontal_1.png"
@@ -767,18 +767,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 50,
-                "y": 50,
-                "w": 25,
-                "h": 25
+                "x": 46,
+                "y": 46,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_bisexualfeline_horizontal_2.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_bisexualfeline_horizontal_2.png"
@@ -796,18 +796,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 75,
-                "y": 50,
-                "w": 25,
-                "h": 25
+                "x": 69,
+                "y": 46,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_bisexualfeline_horizontal_3.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_bisexualfeline_horizontal_3.png"
@@ -825,18 +825,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 100,
-                "y": 50,
-                "w": 25,
-                "h": 25
+                "x": 92,
+                "y": 46,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_bisexualfeline_horizontal_4.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_bisexualfeline_horizontal_4.png"
@@ -854,18 +854,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 125,
-                "y": 50,
-                "w": 25,
-                "h": 25
+                "x": 115,
+                "y": 46,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_bisexualfeline_horizontal_5.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_bisexualfeline_horizontal_5.png"
@@ -883,18 +883,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 150,
-                "y": 50,
-                "w": 25,
-                "h": 25
+                "x": 138,
+                "y": 46,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_bisexualfeline_vertical_0.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_bisexualfeline_vertical_0.png"
@@ -912,18 +912,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 175,
-                "y": 50,
-                "w": 25,
-                "h": 25
+                "x": 161,
+                "y": 46,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_bisexualfeline_vertical_1.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_bisexualfeline_vertical_1.png"
@@ -941,18 +941,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 200,
-                "y": 50,
-                "w": 25,
-                "h": 25
+                "x": 184,
+                "y": 46,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_bisexualfeline_vertical_2.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_bisexualfeline_vertical_2.png"
@@ -970,18 +970,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 225,
-                "y": 50,
-                "w": 25,
-                "h": 25
+                "x": 207,
+                "y": 46,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_bisexualfeline_vertical_3.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_bisexualfeline_vertical_3.png"
@@ -999,18 +999,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 250,
-                "y": 50,
-                "w": 25,
-                "h": 25
+                "x": 230,
+                "y": 46,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_bisexualfeline_vertical_4.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_bisexualfeline_vertical_4.png"
@@ -1028,18 +1028,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 275,
-                "y": 50,
-                "w": 25,
-                "h": 25
+                "x": 253,
+                "y": 46,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_bisexualfeline_vertical_5.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_bisexualfeline_vertical_5.png"
@@ -1057,18 +1057,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
                 "x": 0,
-                "y": 75,
-                "w": 25,
-                "h": 25
+                "y": 69,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_pansexualfeline_horizontal_0.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_pansexualfeline_horizontal_0.png"
@@ -1086,18 +1086,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 25,
-                "y": 75,
-                "w": 25,
-                "h": 25
+                "x": 23,
+                "y": 69,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_pansexualfeline_horizontal_1.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_pansexualfeline_horizontal_1.png"
@@ -1115,18 +1115,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 50,
-                "y": 75,
-                "w": 25,
-                "h": 25
+                "x": 46,
+                "y": 69,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_pansexualfeline_horizontal_2.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_pansexualfeline_horizontal_2.png"
@@ -1144,18 +1144,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 75,
-                "y": 75,
-                "w": 25,
-                "h": 25
+                "x": 69,
+                "y": 69,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_pansexualfeline_horizontal_3.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_pansexualfeline_horizontal_3.png"
@@ -1173,18 +1173,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 100,
-                "y": 75,
-                "w": 25,
-                "h": 25
+                "x": 92,
+                "y": 69,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_pansexualfeline_horizontal_4.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_pansexualfeline_horizontal_4.png"
@@ -1202,18 +1202,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 125,
-                "y": 75,
-                "w": 25,
-                "h": 25
+                "x": 115,
+                "y": 69,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_pansexualfeline_horizontal_5.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_pansexualfeline_horizontal_5.png"
@@ -1231,18 +1231,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 150,
-                "y": 75,
-                "w": 25,
-                "h": 25
+                "x": 138,
+                "y": 69,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_pansexualfeline_vertical_0.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_pansexualfeline_vertical_0.png"
@@ -1260,18 +1260,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 175,
-                "y": 75,
-                "w": 25,
-                "h": 25
+                "x": 161,
+                "y": 69,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_pansexualfeline_vertical_1.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_pansexualfeline_vertical_1.png"
@@ -1289,18 +1289,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 200,
-                "y": 75,
-                "w": 25,
-                "h": 25
+                "x": 184,
+                "y": 69,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_pansexualfeline_vertical_2.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_pansexualfeline_vertical_2.png"
@@ -1318,18 +1318,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 225,
-                "y": 75,
-                "w": 25,
-                "h": 25
+                "x": 207,
+                "y": 69,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_pansexualfeline_vertical_3.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_pansexualfeline_vertical_3.png"
@@ -1347,18 +1347,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 250,
-                "y": 75,
-                "w": 25,
-                "h": 25
+                "x": 230,
+                "y": 69,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_pansexualfeline_vertical_4.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_pansexualfeline_vertical_4.png"
@@ -1376,18 +1376,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 275,
-                "y": 75,
-                "w": 25,
-                "h": 25
+                "x": 253,
+                "y": 69,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_pansexualfeline_vertical_5.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_pansexualfeline_vertical_5.png"
@@ -1405,18 +1405,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
                 "x": 0,
-                "y": 100,
-                "w": 25,
-                "h": 25
+                "y": 92,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_lesbianfeline_horizontal_0.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_lesbianfeline_horizontal_0.png"
@@ -1434,18 +1434,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 25,
-                "y": 100,
-                "w": 25,
-                "h": 25
+                "x": 23,
+                "y": 92,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_lesbianfeline_horizontal_1.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_lesbianfeline_horizontal_1.png"
@@ -1463,18 +1463,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 50,
-                "y": 100,
-                "w": 25,
-                "h": 25
+                "x": 46,
+                "y": 92,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_lesbianfeline_horizontal_2.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_lesbianfeline_horizontal_2.png"
@@ -1492,18 +1492,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 75,
-                "y": 100,
-                "w": 25,
-                "h": 25
+                "x": 69,
+                "y": 92,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_lesbianfeline_horizontal_3.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_lesbianfeline_horizontal_3.png"
@@ -1521,18 +1521,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 100,
-                "y": 100,
-                "w": 25,
-                "h": 25
+                "x": 92,
+                "y": 92,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_lesbianfeline_horizontal_4.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_lesbianfeline_horizontal_4.png"
@@ -1550,18 +1550,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 125,
-                "y": 100,
-                "w": 25,
-                "h": 25
+                "x": 115,
+                "y": 92,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_lesbianfeline_horizontal_5.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_lesbianfeline_horizontal_5.png"
@@ -1579,18 +1579,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 150,
-                "y": 100,
-                "w": 25,
-                "h": 25
+                "x": 138,
+                "y": 92,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_lesbianfeline_vertical_0.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_lesbianfeline_vertical_0.png"
@@ -1601,25 +1601,25 @@
             "orientation": "vertical",
             "mask_key": "feline_vertical_1",
             "flags_fits": true,
-            "flags_fits_perfect": false,
+            "flags_fits_perfect": true,
             "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_vertical_1.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 175,
-                "y": 100,
-                "w": 25,
-                "h": 25
+                "x": 161,
+                "y": 92,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_lesbianfeline_vertical_1.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_lesbianfeline_vertical_1.png"
@@ -1630,25 +1630,25 @@
             "orientation": "vertical",
             "mask_key": "feline_vertical_2",
             "flags_fits": true,
-            "flags_fits_perfect": false,
+            "flags_fits_perfect": true,
             "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_vertical_2.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 200,
-                "y": 100,
-                "w": 25,
-                "h": 25
+                "x": 184,
+                "y": 92,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_lesbianfeline_vertical_2.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_lesbianfeline_vertical_2.png"
@@ -1659,25 +1659,25 @@
             "orientation": "vertical",
             "mask_key": "feline_vertical_3",
             "flags_fits": true,
-            "flags_fits_perfect": false,
+            "flags_fits_perfect": true,
             "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_vertical_3.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 225,
-                "y": 100,
-                "w": 25,
-                "h": 25
+                "x": 207,
+                "y": 92,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_lesbianfeline_vertical_3.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_lesbianfeline_vertical_3.png"
@@ -1688,25 +1688,25 @@
             "orientation": "vertical",
             "mask_key": "feline_vertical_4",
             "flags_fits": true,
-            "flags_fits_perfect": false,
+            "flags_fits_perfect": true,
             "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_vertical_4.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 250,
-                "y": 100,
-                "w": 25,
-                "h": 25
+                "x": 230,
+                "y": 92,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_lesbianfeline_vertical_4.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_lesbianfeline_vertical_4.png"
@@ -1724,18 +1724,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 275,
-                "y": 100,
-                "w": 25,
-                "h": 25
+                "x": 253,
+                "y": 92,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_lesbianfeline_vertical_5.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_lesbianfeline_vertical_5.png"
@@ -1753,18 +1753,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
                 "x": 0,
-                "y": 125,
-                "w": 25,
-                "h": 25
+                "y": 115,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_gay_menfeline_horizontal_0.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_gay_menfeline_horizontal_0.png"
@@ -1774,7 +1774,7 @@
             "part": "left_part_1",
             "orientation": "horizontal",
             "mask_key": "feline_horizontal_1",
-            "flags_fits": true,
+            "flags_fits": false,
             "flags_fits_perfect": false,
             "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_horizontal_1.png",
             "rotated": false,
@@ -1782,18 +1782,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 25,
-                "y": 125,
-                "w": 25,
-                "h": 25
+                "x": 23,
+                "y": 115,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_gay_menfeline_horizontal_1.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_gay_menfeline_horizontal_1.png"
@@ -1804,25 +1804,25 @@
             "orientation": "horizontal",
             "mask_key": "feline_horizontal_2",
             "flags_fits": true,
-            "flags_fits_perfect": false,
+            "flags_fits_perfect": true,
             "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_horizontal_2.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 50,
-                "y": 125,
-                "w": 25,
-                "h": 25
+                "x": 46,
+                "y": 115,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_gay_menfeline_horizontal_2.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_gay_menfeline_horizontal_2.png"
@@ -1833,25 +1833,25 @@
             "orientation": "horizontal",
             "mask_key": "feline_horizontal_3",
             "flags_fits": true,
-            "flags_fits_perfect": false,
+            "flags_fits_perfect": true,
             "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_horizontal_3.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 75,
-                "y": 125,
-                "w": 25,
-                "h": 25
+                "x": 69,
+                "y": 115,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_gay_menfeline_horizontal_3.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_gay_menfeline_horizontal_3.png"
@@ -1861,7 +1861,7 @@
             "part": "right_part_2",
             "orientation": "horizontal",
             "mask_key": "feline_horizontal_4",
-            "flags_fits": true,
+            "flags_fits": false,
             "flags_fits_perfect": false,
             "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_horizontal_4.png",
             "rotated": false,
@@ -1869,18 +1869,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 100,
-                "y": 125,
-                "w": 25,
-                "h": 25
+                "x": 92,
+                "y": 115,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_gay_menfeline_horizontal_4.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_gay_menfeline_horizontal_4.png"
@@ -1898,18 +1898,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 125,
-                "y": 125,
-                "w": 25,
-                "h": 25
+                "x": 115,
+                "y": 115,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_gay_menfeline_horizontal_5.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_gay_menfeline_horizontal_5.png"
@@ -1927,18 +1927,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 150,
-                "y": 125,
-                "w": 25,
-                "h": 25
+                "x": 138,
+                "y": 115,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_gay_menfeline_vertical_0.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_gay_menfeline_vertical_0.png"
@@ -1956,18 +1956,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 175,
-                "y": 125,
-                "w": 25,
-                "h": 25
+                "x": 161,
+                "y": 115,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_gay_menfeline_vertical_1.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_gay_menfeline_vertical_1.png"
@@ -1985,18 +1985,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 200,
-                "y": 125,
-                "w": 25,
-                "h": 25
+                "x": 184,
+                "y": 115,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_gay_menfeline_vertical_2.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_gay_menfeline_vertical_2.png"
@@ -2014,18 +2014,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 225,
-                "y": 125,
-                "w": 25,
-                "h": 25
+                "x": 207,
+                "y": 115,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_gay_menfeline_vertical_3.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_gay_menfeline_vertical_3.png"
@@ -2043,18 +2043,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 250,
-                "y": 125,
-                "w": 25,
-                "h": 25
+                "x": 230,
+                "y": 115,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_gay_menfeline_vertical_4.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_gay_menfeline_vertical_4.png"
@@ -2072,18 +2072,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 275,
-                "y": 125,
-                "w": 25,
-                "h": 25
+                "x": 253,
+                "y": 115,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_gay_menfeline_vertical_5.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_gay_menfeline_vertical_5.png"
@@ -2101,18 +2101,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
                 "x": 0,
-                "y": 150,
-                "w": 25,
-                "h": 25
+                "y": 138,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_demisexualfeline_horizontal_0.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_demisexualfeline_horizontal_0.png"
@@ -2130,18 +2130,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 25,
-                "y": 150,
-                "w": 25,
-                "h": 25
+                "x": 23,
+                "y": 138,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_demisexualfeline_horizontal_1.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_demisexualfeline_horizontal_1.png"
@@ -2159,18 +2159,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 50,
-                "y": 150,
-                "w": 25,
-                "h": 25
+                "x": 46,
+                "y": 138,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_demisexualfeline_horizontal_2.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_demisexualfeline_horizontal_2.png"
@@ -2188,18 +2188,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 75,
-                "y": 150,
-                "w": 25,
-                "h": 25
+                "x": 69,
+                "y": 138,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_demisexualfeline_horizontal_3.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_demisexualfeline_horizontal_3.png"
@@ -2217,18 +2217,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 100,
-                "y": 150,
-                "w": 25,
-                "h": 25
+                "x": 92,
+                "y": 138,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_demisexualfeline_horizontal_4.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_demisexualfeline_horizontal_4.png"
@@ -2246,18 +2246,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 125,
-                "y": 150,
-                "w": 25,
-                "h": 25
+                "x": 115,
+                "y": 138,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_demisexualfeline_horizontal_5.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_demisexualfeline_horizontal_5.png"
@@ -2275,18 +2275,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 150,
-                "y": 150,
-                "w": 25,
-                "h": 25
+                "x": 138,
+                "y": 138,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_demisexualfeline_vertical_0.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_demisexualfeline_vertical_0.png"
@@ -2304,18 +2304,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 175,
-                "y": 150,
-                "w": 25,
-                "h": 25
+                "x": 161,
+                "y": 138,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_demisexualfeline_vertical_1.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_demisexualfeline_vertical_1.png"
@@ -2333,18 +2333,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 200,
-                "y": 150,
-                "w": 25,
-                "h": 25
+                "x": 184,
+                "y": 138,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_demisexualfeline_vertical_2.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_demisexualfeline_vertical_2.png"
@@ -2362,18 +2362,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 225,
-                "y": 150,
-                "w": 25,
-                "h": 25
+                "x": 207,
+                "y": 138,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_demisexualfeline_vertical_3.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_demisexualfeline_vertical_3.png"
@@ -2391,18 +2391,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 250,
-                "y": 150,
-                "w": 25,
-                "h": 25
+                "x": 230,
+                "y": 138,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_demisexualfeline_vertical_4.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_demisexualfeline_vertical_4.png"
@@ -2420,18 +2420,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 275,
-                "y": 150,
-                "w": 25,
-                "h": 25
+                "x": 253,
+                "y": 138,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_demisexualfeline_vertical_5.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_demisexualfeline_vertical_5.png"
@@ -2449,18 +2449,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
                 "x": 0,
-                "y": 175,
-                "w": 25,
-                "h": 25
+                "y": 161,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_polysexualfeline_horizontal_0.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_polysexualfeline_horizontal_0.png"
@@ -2478,18 +2478,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 25,
-                "y": 175,
-                "w": 25,
-                "h": 25
+                "x": 23,
+                "y": 161,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_polysexualfeline_horizontal_1.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_polysexualfeline_horizontal_1.png"
@@ -2507,18 +2507,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 50,
-                "y": 175,
-                "w": 25,
-                "h": 25
+                "x": 46,
+                "y": 161,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_polysexualfeline_horizontal_2.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_polysexualfeline_horizontal_2.png"
@@ -2536,18 +2536,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 75,
-                "y": 175,
-                "w": 25,
-                "h": 25
+                "x": 69,
+                "y": 161,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_polysexualfeline_horizontal_3.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_polysexualfeline_horizontal_3.png"
@@ -2565,18 +2565,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 100,
-                "y": 175,
-                "w": 25,
-                "h": 25
+                "x": 92,
+                "y": 161,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_polysexualfeline_horizontal_4.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_polysexualfeline_horizontal_4.png"
@@ -2594,18 +2594,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 125,
-                "y": 175,
-                "w": 25,
-                "h": 25
+                "x": 115,
+                "y": 161,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_polysexualfeline_horizontal_5.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_polysexualfeline_horizontal_5.png"
@@ -2623,18 +2623,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 150,
-                "y": 175,
-                "w": 25,
-                "h": 25
+                "x": 138,
+                "y": 161,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_polysexualfeline_vertical_0.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_polysexualfeline_vertical_0.png"
@@ -2652,18 +2652,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 175,
-                "y": 175,
-                "w": 25,
-                "h": 25
+                "x": 161,
+                "y": 161,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_polysexualfeline_vertical_1.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_polysexualfeline_vertical_1.png"
@@ -2681,18 +2681,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 200,
-                "y": 175,
-                "w": 25,
-                "h": 25
+                "x": 184,
+                "y": 161,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_polysexualfeline_vertical_2.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_polysexualfeline_vertical_2.png"
@@ -2710,18 +2710,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 225,
-                "y": 175,
-                "w": 25,
-                "h": 25
+                "x": 207,
+                "y": 161,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_polysexualfeline_vertical_3.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_polysexualfeline_vertical_3.png"
@@ -2739,18 +2739,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 250,
-                "y": 175,
-                "w": 25,
-                "h": 25
+                "x": 230,
+                "y": 161,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_polysexualfeline_vertical_4.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_polysexualfeline_vertical_4.png"
@@ -2768,18 +2768,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 275,
-                "y": 175,
-                "w": 25,
-                "h": 25
+                "x": 253,
+                "y": 161,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_polysexualfeline_vertical_5.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_polysexualfeline_vertical_5.png"
@@ -2797,18 +2797,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
                 "x": 0,
-                "y": 200,
-                "w": 25,
-                "h": 25
+                "y": 184,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_greysexualfeline_horizontal_0.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_greysexualfeline_horizontal_0.png"
@@ -2826,18 +2826,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 25,
-                "y": 200,
-                "w": 25,
-                "h": 25
+                "x": 23,
+                "y": 184,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_greysexualfeline_horizontal_1.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_greysexualfeline_horizontal_1.png"
@@ -2855,18 +2855,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 50,
-                "y": 200,
-                "w": 25,
-                "h": 25
+                "x": 46,
+                "y": 184,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_greysexualfeline_horizontal_2.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_greysexualfeline_horizontal_2.png"
@@ -2884,18 +2884,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 75,
-                "y": 200,
-                "w": 25,
-                "h": 25
+                "x": 69,
+                "y": 184,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_greysexualfeline_horizontal_3.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_greysexualfeline_horizontal_3.png"
@@ -2913,18 +2913,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 100,
-                "y": 200,
-                "w": 25,
-                "h": 25
+                "x": 92,
+                "y": 184,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_greysexualfeline_horizontal_4.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_greysexualfeline_horizontal_4.png"
@@ -2942,18 +2942,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 125,
-                "y": 200,
-                "w": 25,
-                "h": 25
+                "x": 115,
+                "y": 184,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_greysexualfeline_horizontal_5.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_greysexualfeline_horizontal_5.png"
@@ -2971,18 +2971,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 150,
-                "y": 200,
-                "w": 25,
-                "h": 25
+                "x": 138,
+                "y": 184,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_greysexualfeline_vertical_0.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_greysexualfeline_vertical_0.png"
@@ -2993,25 +2993,25 @@
             "orientation": "vertical",
             "mask_key": "feline_vertical_1",
             "flags_fits": true,
-            "flags_fits_perfect": false,
+            "flags_fits_perfect": true,
             "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_vertical_1.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 175,
-                "y": 200,
-                "w": 25,
-                "h": 25
+                "x": 161,
+                "y": 184,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_greysexualfeline_vertical_1.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_greysexualfeline_vertical_1.png"
@@ -3022,25 +3022,25 @@
             "orientation": "vertical",
             "mask_key": "feline_vertical_2",
             "flags_fits": true,
-            "flags_fits_perfect": false,
+            "flags_fits_perfect": true,
             "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_vertical_2.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 200,
-                "y": 200,
-                "w": 25,
-                "h": 25
+                "x": 184,
+                "y": 184,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_greysexualfeline_vertical_2.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_greysexualfeline_vertical_2.png"
@@ -3051,25 +3051,25 @@
             "orientation": "vertical",
             "mask_key": "feline_vertical_3",
             "flags_fits": true,
-            "flags_fits_perfect": false,
+            "flags_fits_perfect": true,
             "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_vertical_3.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 225,
-                "y": 200,
-                "w": 25,
-                "h": 25
+                "x": 207,
+                "y": 184,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_greysexualfeline_vertical_3.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_greysexualfeline_vertical_3.png"
@@ -3080,25 +3080,25 @@
             "orientation": "vertical",
             "mask_key": "feline_vertical_4",
             "flags_fits": true,
-            "flags_fits_perfect": false,
+            "flags_fits_perfect": true,
             "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_vertical_4.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 250,
-                "y": 200,
-                "w": 25,
-                "h": 25
+                "x": 230,
+                "y": 184,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_greysexualfeline_vertical_4.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_greysexualfeline_vertical_4.png"
@@ -3116,18 +3116,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 275,
-                "y": 200,
-                "w": 25,
-                "h": 25
+                "x": 253,
+                "y": 184,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_greysexualfeline_vertical_5.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_greysexualfeline_vertical_5.png"
@@ -3145,18 +3145,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
                 "x": 0,
-                "y": 225,
-                "w": 25,
-                "h": 25
+                "y": 207,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_autosexualfeline_horizontal_0.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_autosexualfeline_horizontal_0.png"
@@ -3174,18 +3174,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 25,
-                "y": 225,
-                "w": 25,
-                "h": 25
+                "x": 23,
+                "y": 207,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_autosexualfeline_horizontal_1.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_autosexualfeline_horizontal_1.png"
@@ -3203,18 +3203,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 50,
-                "y": 225,
-                "w": 25,
-                "h": 25
+                "x": 46,
+                "y": 207,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_autosexualfeline_horizontal_2.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_autosexualfeline_horizontal_2.png"
@@ -3232,18 +3232,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 75,
-                "y": 225,
-                "w": 25,
-                "h": 25
+                "x": 69,
+                "y": 207,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_autosexualfeline_horizontal_3.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_autosexualfeline_horizontal_3.png"
@@ -3261,18 +3261,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 100,
-                "y": 225,
-                "w": 25,
-                "h": 25
+                "x": 92,
+                "y": 207,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_autosexualfeline_horizontal_4.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_autosexualfeline_horizontal_4.png"
@@ -3290,18 +3290,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 125,
-                "y": 225,
-                "w": 25,
-                "h": 25
+                "x": 115,
+                "y": 207,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_autosexualfeline_horizontal_5.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_autosexualfeline_horizontal_5.png"
@@ -3319,18 +3319,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 150,
-                "y": 225,
-                "w": 25,
-                "h": 25
+                "x": 138,
+                "y": 207,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_autosexualfeline_vertical_0.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_autosexualfeline_vertical_0.png"
@@ -3348,18 +3348,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 175,
-                "y": 225,
-                "w": 25,
-                "h": 25
+                "x": 161,
+                "y": 207,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_autosexualfeline_vertical_1.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_autosexualfeline_vertical_1.png"
@@ -3377,18 +3377,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 200,
-                "y": 225,
-                "w": 25,
-                "h": 25
+                "x": 184,
+                "y": 207,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_autosexualfeline_vertical_2.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_autosexualfeline_vertical_2.png"
@@ -3406,18 +3406,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 225,
-                "y": 225,
-                "w": 25,
-                "h": 25
+                "x": 207,
+                "y": 207,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_autosexualfeline_vertical_3.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_autosexualfeline_vertical_3.png"
@@ -3435,18 +3435,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 250,
-                "y": 225,
-                "w": 25,
-                "h": 25
+                "x": 230,
+                "y": 207,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_autosexualfeline_vertical_4.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_autosexualfeline_vertical_4.png"
@@ -3464,18 +3464,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 275,
-                "y": 225,
-                "w": 25,
-                "h": 25
+                "x": 253,
+                "y": 207,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_autosexualfeline_vertical_5.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_autosexualfeline_vertical_5.png"
@@ -3493,18 +3493,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
                 "x": 0,
-                "y": 250,
-                "w": 25,
-                "h": 25
+                "y": 230,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_androsexualfeline_horizontal_0.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_androsexualfeline_horizontal_0.png"
@@ -3522,18 +3522,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 25,
-                "y": 250,
-                "w": 25,
-                "h": 25
+                "x": 23,
+                "y": 230,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_androsexualfeline_horizontal_1.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_androsexualfeline_horizontal_1.png"
@@ -3551,18 +3551,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 50,
-                "y": 250,
-                "w": 25,
-                "h": 25
+                "x": 46,
+                "y": 230,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_androsexualfeline_horizontal_2.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_androsexualfeline_horizontal_2.png"
@@ -3580,18 +3580,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 75,
-                "y": 250,
-                "w": 25,
-                "h": 25
+                "x": 69,
+                "y": 230,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_androsexualfeline_horizontal_3.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_androsexualfeline_horizontal_3.png"
@@ -3609,18 +3609,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 100,
-                "y": 250,
-                "w": 25,
-                "h": 25
+                "x": 92,
+                "y": 230,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_androsexualfeline_horizontal_4.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_androsexualfeline_horizontal_4.png"
@@ -3638,18 +3638,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 125,
-                "y": 250,
-                "w": 25,
-                "h": 25
+                "x": 115,
+                "y": 230,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_androsexualfeline_horizontal_5.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_androsexualfeline_horizontal_5.png"
@@ -3667,18 +3667,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 150,
-                "y": 250,
-                "w": 25,
-                "h": 25
+                "x": 138,
+                "y": 230,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_androsexualfeline_vertical_0.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_androsexualfeline_vertical_0.png"
@@ -3696,18 +3696,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 175,
-                "y": 250,
-                "w": 25,
-                "h": 25
+                "x": 161,
+                "y": 230,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_androsexualfeline_vertical_1.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_androsexualfeline_vertical_1.png"
@@ -3725,18 +3725,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 200,
-                "y": 250,
-                "w": 25,
-                "h": 25
+                "x": 184,
+                "y": 230,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_androsexualfeline_vertical_2.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_androsexualfeline_vertical_2.png"
@@ -3754,18 +3754,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 225,
-                "y": 250,
-                "w": 25,
-                "h": 25
+                "x": 207,
+                "y": 230,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_androsexualfeline_vertical_3.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_androsexualfeline_vertical_3.png"
@@ -3783,18 +3783,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 250,
-                "y": 250,
-                "w": 25,
-                "h": 25
+                "x": 230,
+                "y": 230,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_androsexualfeline_vertical_4.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_androsexualfeline_vertical_4.png"
@@ -3812,18 +3812,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 275,
-                "y": 250,
-                "w": 25,
-                "h": 25
+                "x": 253,
+                "y": 230,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_androsexualfeline_vertical_5.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_androsexualfeline_vertical_5.png"
@@ -3841,18 +3841,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
                 "x": 0,
-                "y": 275,
-                "w": 25,
-                "h": 25
+                "y": 253,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_myrsexualfeline_horizontal_0.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_myrsexualfeline_horizontal_0.png"
@@ -3862,7 +3862,7 @@
             "part": "left_part_1",
             "orientation": "horizontal",
             "mask_key": "feline_horizontal_1",
-            "flags_fits": true,
+            "flags_fits": false,
             "flags_fits_perfect": false,
             "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_horizontal_1.png",
             "rotated": false,
@@ -3870,18 +3870,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 25,
-                "y": 275,
-                "w": 25,
-                "h": 25
+                "x": 23,
+                "y": 253,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_myrsexualfeline_horizontal_1.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_myrsexualfeline_horizontal_1.png"
@@ -3892,25 +3892,25 @@
             "orientation": "horizontal",
             "mask_key": "feline_horizontal_2",
             "flags_fits": true,
-            "flags_fits_perfect": false,
+            "flags_fits_perfect": true,
             "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_horizontal_2.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 50,
-                "y": 275,
-                "w": 25,
-                "h": 25
+                "x": 46,
+                "y": 253,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_myrsexualfeline_horizontal_2.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_myrsexualfeline_horizontal_2.png"
@@ -3921,25 +3921,25 @@
             "orientation": "horizontal",
             "mask_key": "feline_horizontal_3",
             "flags_fits": true,
-            "flags_fits_perfect": false,
+            "flags_fits_perfect": true,
             "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_horizontal_3.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 75,
-                "y": 275,
-                "w": 25,
-                "h": 25
+                "x": 69,
+                "y": 253,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_myrsexualfeline_horizontal_3.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_myrsexualfeline_horizontal_3.png"
@@ -3949,7 +3949,7 @@
             "part": "right_part_2",
             "orientation": "horizontal",
             "mask_key": "feline_horizontal_4",
-            "flags_fits": true,
+            "flags_fits": false,
             "flags_fits_perfect": false,
             "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_horizontal_4.png",
             "rotated": false,
@@ -3957,18 +3957,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 100,
-                "y": 275,
-                "w": 25,
-                "h": 25
+                "x": 92,
+                "y": 253,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_myrsexualfeline_horizontal_4.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_myrsexualfeline_horizontal_4.png"
@@ -3986,18 +3986,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 125,
-                "y": 275,
-                "w": 25,
-                "h": 25
+                "x": 115,
+                "y": 253,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_myrsexualfeline_horizontal_5.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_myrsexualfeline_horizontal_5.png"
@@ -4015,18 +4015,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 150,
-                "y": 275,
-                "w": 25,
-                "h": 25
+                "x": 138,
+                "y": 253,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_myrsexualfeline_vertical_0.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_myrsexualfeline_vertical_0.png"
@@ -4044,18 +4044,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 175,
-                "y": 275,
-                "w": 25,
-                "h": 25
+                "x": 161,
+                "y": 253,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_myrsexualfeline_vertical_1.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_myrsexualfeline_vertical_1.png"
@@ -4073,18 +4073,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 200,
-                "y": 275,
-                "w": 25,
-                "h": 25
+                "x": 184,
+                "y": 253,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_myrsexualfeline_vertical_2.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_myrsexualfeline_vertical_2.png"
@@ -4102,18 +4102,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 225,
-                "y": 275,
-                "w": 25,
-                "h": 25
+                "x": 207,
+                "y": 253,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_myrsexualfeline_vertical_3.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_myrsexualfeline_vertical_3.png"
@@ -4131,18 +4131,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 250,
-                "y": 275,
-                "w": 25,
-                "h": 25
+                "x": 230,
+                "y": 253,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_myrsexualfeline_vertical_4.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_myrsexualfeline_vertical_4.png"
@@ -4160,18 +4160,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 275,
-                "y": 275,
-                "w": 25,
-                "h": 25
+                "x": 253,
+                "y": 253,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_myrsexualfeline_vertical_5.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_myrsexualfeline_vertical_5.png"
@@ -4189,18 +4189,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
                 "x": 0,
-                "y": 300,
-                "w": 25,
-                "h": 25
+                "y": 276,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_omnisexualfeline_horizontal_0.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_omnisexualfeline_horizontal_0.png"
@@ -4218,18 +4218,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 25,
-                "y": 300,
-                "w": 25,
-                "h": 25
+                "x": 23,
+                "y": 276,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_omnisexualfeline_horizontal_1.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_omnisexualfeline_horizontal_1.png"
@@ -4247,18 +4247,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 50,
-                "y": 300,
-                "w": 25,
-                "h": 25
+                "x": 46,
+                "y": 276,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_omnisexualfeline_horizontal_2.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_omnisexualfeline_horizontal_2.png"
@@ -4276,18 +4276,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 75,
-                "y": 300,
-                "w": 25,
-                "h": 25
+                "x": 69,
+                "y": 276,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_omnisexualfeline_horizontal_3.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_omnisexualfeline_horizontal_3.png"
@@ -4305,18 +4305,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 100,
-                "y": 300,
-                "w": 25,
-                "h": 25
+                "x": 92,
+                "y": 276,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_omnisexualfeline_horizontal_4.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_omnisexualfeline_horizontal_4.png"
@@ -4334,18 +4334,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 125,
-                "y": 300,
-                "w": 25,
-                "h": 25
+                "x": 115,
+                "y": 276,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_omnisexualfeline_horizontal_5.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_omnisexualfeline_horizontal_5.png"
@@ -4363,18 +4363,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 150,
-                "y": 300,
-                "w": 25,
-                "h": 25
+                "x": 138,
+                "y": 276,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_omnisexualfeline_vertical_0.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_omnisexualfeline_vertical_0.png"
@@ -4385,25 +4385,25 @@
             "orientation": "vertical",
             "mask_key": "feline_vertical_1",
             "flags_fits": true,
-            "flags_fits_perfect": false,
+            "flags_fits_perfect": true,
             "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_vertical_1.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 175,
-                "y": 300,
-                "w": 25,
-                "h": 25
+                "x": 161,
+                "y": 276,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_omnisexualfeline_vertical_1.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_omnisexualfeline_vertical_1.png"
@@ -4414,25 +4414,25 @@
             "orientation": "vertical",
             "mask_key": "feline_vertical_2",
             "flags_fits": true,
-            "flags_fits_perfect": false,
+            "flags_fits_perfect": true,
             "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_vertical_2.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 200,
-                "y": 300,
-                "w": 25,
-                "h": 25
+                "x": 184,
+                "y": 276,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_omnisexualfeline_vertical_2.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_omnisexualfeline_vertical_2.png"
@@ -4443,25 +4443,25 @@
             "orientation": "vertical",
             "mask_key": "feline_vertical_3",
             "flags_fits": true,
-            "flags_fits_perfect": false,
+            "flags_fits_perfect": true,
             "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_vertical_3.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 225,
-                "y": 300,
-                "w": 25,
-                "h": 25
+                "x": 207,
+                "y": 276,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_omnisexualfeline_vertical_3.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_omnisexualfeline_vertical_3.png"
@@ -4472,25 +4472,25 @@
             "orientation": "vertical",
             "mask_key": "feline_vertical_4",
             "flags_fits": true,
-            "flags_fits_perfect": false,
+            "flags_fits_perfect": true,
             "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_vertical_4.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 250,
-                "y": 300,
-                "w": 25,
-                "h": 25
+                "x": 230,
+                "y": 276,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_omnisexualfeline_vertical_4.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_omnisexualfeline_vertical_4.png"
@@ -4508,18 +4508,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 275,
-                "y": 300,
-                "w": 25,
-                "h": 25
+                "x": 253,
+                "y": 276,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_omnisexualfeline_vertical_5.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_omnisexualfeline_vertical_5.png"
@@ -4537,18 +4537,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
                 "x": 0,
-                "y": 325,
-                "w": 25,
-                "h": 25
+                "y": 299,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_gayfeline_horizontal_0.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_gayfeline_horizontal_0.png"
@@ -4559,25 +4559,25 @@
             "orientation": "horizontal",
             "mask_key": "feline_horizontal_1",
             "flags_fits": true,
-            "flags_fits_perfect": false,
+            "flags_fits_perfect": true,
             "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_horizontal_1.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 25,
-                "y": 325,
-                "w": 25,
-                "h": 25
+                "x": 23,
+                "y": 299,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_gayfeline_horizontal_1.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_gayfeline_horizontal_1.png"
@@ -4595,18 +4595,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 50,
-                "y": 325,
-                "w": 25,
-                "h": 25
+                "x": 46,
+                "y": 299,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_gayfeline_horizontal_2.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_gayfeline_horizontal_2.png"
@@ -4624,18 +4624,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 75,
-                "y": 325,
-                "w": 25,
-                "h": 25
+                "x": 69,
+                "y": 299,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_gayfeline_horizontal_3.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_gayfeline_horizontal_3.png"
@@ -4646,25 +4646,25 @@
             "orientation": "horizontal",
             "mask_key": "feline_horizontal_4",
             "flags_fits": true,
-            "flags_fits_perfect": false,
+            "flags_fits_perfect": true,
             "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_horizontal_4.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 100,
-                "y": 325,
-                "w": 25,
-                "h": 25
+                "x": 92,
+                "y": 299,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_gayfeline_horizontal_4.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_gayfeline_horizontal_4.png"
@@ -4682,18 +4682,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 125,
-                "y": 325,
-                "w": 25,
-                "h": 25
+                "x": 115,
+                "y": 299,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_gayfeline_horizontal_5.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_gayfeline_horizontal_5.png"
@@ -4711,18 +4711,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 150,
-                "y": 325,
-                "w": 25,
-                "h": 25
+                "x": 138,
+                "y": 299,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_gayfeline_vertical_0.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_gayfeline_vertical_0.png"
@@ -4732,26 +4732,26 @@
             "part": "left_part_1",
             "orientation": "vertical",
             "mask_key": "feline_vertical_1",
-            "flags_fits": true,
-            "flags_fits_perfect": true,
+            "flags_fits": false,
+            "flags_fits_perfect": false,
             "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_vertical_1.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 175,
-                "y": 325,
-                "w": 25,
-                "h": 25
+                "x": 161,
+                "y": 299,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_gayfeline_vertical_1.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_gayfeline_vertical_1.png"
@@ -4761,26 +4761,26 @@
             "part": "left_part_2",
             "orientation": "vertical",
             "mask_key": "feline_vertical_2",
-            "flags_fits": true,
-            "flags_fits_perfect": true,
+            "flags_fits": false,
+            "flags_fits_perfect": false,
             "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_vertical_2.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 200,
-                "y": 325,
-                "w": 25,
-                "h": 25
+                "x": 184,
+                "y": 299,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_gayfeline_vertical_2.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_gayfeline_vertical_2.png"
@@ -4790,26 +4790,26 @@
             "part": "right_part_1",
             "orientation": "vertical",
             "mask_key": "feline_vertical_3",
-            "flags_fits": true,
-            "flags_fits_perfect": true,
+            "flags_fits": false,
+            "flags_fits_perfect": false,
             "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_vertical_3.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 225,
-                "y": 325,
-                "w": 25,
-                "h": 25
+                "x": 207,
+                "y": 299,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_gayfeline_vertical_3.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_gayfeline_vertical_3.png"
@@ -4819,26 +4819,26 @@
             "part": "right_part_2",
             "orientation": "vertical",
             "mask_key": "feline_vertical_4",
-            "flags_fits": true,
-            "flags_fits_perfect": true,
+            "flags_fits": false,
+            "flags_fits_perfect": false,
             "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_vertical_4.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 250,
-                "y": 325,
-                "w": 25,
-                "h": 25
+                "x": 230,
+                "y": 299,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_gayfeline_vertical_4.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_gayfeline_vertical_4.png"
@@ -4856,18 +4856,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 275,
-                "y": 325,
-                "w": 25,
-                "h": 25
+                "x": 253,
+                "y": 299,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_gayfeline_vertical_5.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_gayfeline_vertical_5.png"
@@ -4885,18 +4885,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
                 "x": 0,
-                "y": 350,
-                "w": 25,
-                "h": 25
+                "y": 322,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_proculsexualfeline_horizontal_0.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_proculsexualfeline_horizontal_0.png"
@@ -4914,18 +4914,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 25,
-                "y": 350,
-                "w": 25,
-                "h": 25
+                "x": 23,
+                "y": 322,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_proculsexualfeline_horizontal_1.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_proculsexualfeline_horizontal_1.png"
@@ -4943,18 +4943,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 50,
-                "y": 350,
-                "w": 25,
-                "h": 25
+                "x": 46,
+                "y": 322,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_proculsexualfeline_horizontal_2.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_proculsexualfeline_horizontal_2.png"
@@ -4972,18 +4972,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 75,
-                "y": 350,
-                "w": 25,
-                "h": 25
+                "x": 69,
+                "y": 322,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_proculsexualfeline_horizontal_3.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_proculsexualfeline_horizontal_3.png"
@@ -5001,18 +5001,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 100,
-                "y": 350,
-                "w": 25,
-                "h": 25
+                "x": 92,
+                "y": 322,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_proculsexualfeline_horizontal_4.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_proculsexualfeline_horizontal_4.png"
@@ -5030,18 +5030,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 125,
-                "y": 350,
-                "w": 25,
-                "h": 25
+                "x": 115,
+                "y": 322,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_proculsexualfeline_horizontal_5.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_proculsexualfeline_horizontal_5.png"
@@ -5059,18 +5059,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 150,
-                "y": 350,
-                "w": 25,
-                "h": 25
+                "x": 138,
+                "y": 322,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_proculsexualfeline_vertical_0.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_proculsexualfeline_vertical_0.png"
@@ -5081,25 +5081,25 @@
             "orientation": "vertical",
             "mask_key": "feline_vertical_1",
             "flags_fits": true,
-            "flags_fits_perfect": false,
+            "flags_fits_perfect": true,
             "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_vertical_1.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 175,
-                "y": 350,
-                "w": 25,
-                "h": 25
+                "x": 161,
+                "y": 322,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_proculsexualfeline_vertical_1.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_proculsexualfeline_vertical_1.png"
@@ -5110,25 +5110,25 @@
             "orientation": "vertical",
             "mask_key": "feline_vertical_2",
             "flags_fits": true,
-            "flags_fits_perfect": false,
+            "flags_fits_perfect": true,
             "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_vertical_2.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 200,
-                "y": 350,
-                "w": 25,
-                "h": 25
+                "x": 184,
+                "y": 322,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_proculsexualfeline_vertical_2.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_proculsexualfeline_vertical_2.png"
@@ -5139,25 +5139,25 @@
             "orientation": "vertical",
             "mask_key": "feline_vertical_3",
             "flags_fits": true,
-            "flags_fits_perfect": false,
+            "flags_fits_perfect": true,
             "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_vertical_3.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 225,
-                "y": 350,
-                "w": 25,
-                "h": 25
+                "x": 207,
+                "y": 322,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_proculsexualfeline_vertical_3.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_proculsexualfeline_vertical_3.png"
@@ -5168,25 +5168,25 @@
             "orientation": "vertical",
             "mask_key": "feline_vertical_4",
             "flags_fits": true,
-            "flags_fits_perfect": false,
+            "flags_fits_perfect": true,
             "mask_filename": "assets/img/sprites/mask_feline/mask_feline_maskfeline_vertical_4.png",
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 250,
-                "y": 350,
-                "w": 25,
-                "h": 25
+                "x": 230,
+                "y": 322,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_proculsexualfeline_vertical_4.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_proculsexualfeline_vertical_4.png"
@@ -5204,18 +5204,18 @@
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "sourceSize": {
-                "w": 25,
-                "h": 25
+                "w": 23,
+                "h": 23
             },
             "frame": {
-                "x": 275,
-                "y": 350,
-                "w": 25,
-                "h": 25
+                "x": 253,
+                "y": 322,
+                "w": 23,
+                "h": 23
             },
             "id": "assets/img/sprites/sexual_feline/sexual_feline_proculsexualfeline_vertical_5.png",
             "filename": "assets/img/sprites/sexual_feline/sexual_feline_proculsexualfeline_vertical_5.png"
@@ -5223,8 +5223,8 @@
     },
     "meta": {
         "size": {
-            "w": 300,
-            "h": 375
+            "w": 276,
+            "h": 345
         },
         "image": "sexual_feline.png",
         "format": "RGBA8888",
