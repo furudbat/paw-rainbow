@@ -18,7 +18,7 @@
     "bootstrap-toggle": "^2.2.2",
     "debug": "^4.3.1",
     "jquery": "^3.5.1",
-    "jquery-ui": "^1.12.1",
+    "jquery-ui": "^1.13.0",
     "localforage": "^1.9.0",
     "typescript-logger": "^2.0.1"
   },
